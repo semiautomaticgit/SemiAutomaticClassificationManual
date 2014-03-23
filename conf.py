@@ -105,6 +105,7 @@ pygments_style = 'sphinx'
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if on_rtd:
     html_theme = 'basic'
+    html_style = '/default.css'
 else:
     html_theme = 'basic'
     html_style = '/default.css'

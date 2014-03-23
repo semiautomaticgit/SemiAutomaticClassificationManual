@@ -2,13 +2,12 @@
  * basic.css
  * ~~~~~~~~~
  *
- * Sphinx stylesheet -- basic theme modified from
+ * Sphinx stylesheet -- basic theme.
  *
  * :copyright: Copyright 2007-2014 by the Sphinx team, see AUTHORS.
  * :license: BSD, see LICENSE for details.
  *
  */
-
 
 /* -- main layout ----------------------------------------------------------- */
 
@@ -50,7 +49,7 @@ div.sphinxsidebarwrapper {
 
 div.sphinxsidebar {
     float: left;
-    width: {{ theme_sidebarwidth|toint }}px;
+    width: 230px;
     margin-left: -100%;
     font-size: 90%;
 }
@@ -454,7 +453,6 @@ abbr, acronym {
 
 pre {
     overflow: auto;
-	background-color: #e1ecea;
     overflow-y: hidden;  /* fixes display issues on Chrome browsers */
 }
 
@@ -536,14 +534,4 @@ span.eqno {
     #top-link {
         display: none;
     }
-}
-
-/* -- modified --------------------------------------------------- */
-
-.section {text-align:justify;} 
-
-body {
-	font-family: 'Open Sans', sans-serif;
-	font-style: normal;
-	color: #393939;
 }

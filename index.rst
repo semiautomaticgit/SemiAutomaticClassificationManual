@@ -15,22 +15,20 @@ This plugin requires the installation of `SAGA GIS <http://www.saga-gis.org/en/i
 For more information and tutorials visit the official blog `From GIS to Remote Sensing <http://fromgistors.blogspot.com/>`_.
 
 |br| 
-  
-**Index**
+
+**How to cite:**
+
+*Congedo Luca, Munafo' Michele, Macchi Silvia (2013). "Investigating the Relationship between Land Cover and Vulnerability to Climate Change in Dar es Salaam". Working Paper, Rome: Sapienza University.* Available at:
+http://www.planning4adaptation.eu/Docs/papers/08_NWP-DoM_for_LCC_in_Dar_using_Landsat_Imagery.pdf
+
+|br| 
+**Index:**
 
 .. toctree::
 	:maxdepth: 2
 	:numbered:
   
 	Installation.rst
-
-
-|br| 
-	
-**How to cite:**
-
-*Congedo Luca, Munafo' Michele, Macchi Silvia (2013). "Investigating the Relationship between Land Cover and Vulnerability to Climate Change in Dar es Salaam". Working Paper, Rome: Sapienza University.* Available at:
-http://www.planning4adaptation.eu/Docs/papers/08_NWP-DoM_for_LCC_in_Dar_using_Landsat_Imagery.pdf
 
 |br| 
 	

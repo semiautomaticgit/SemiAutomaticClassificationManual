@@ -31,7 +31,7 @@ Each Class ID must be assigned to only one Macroclass ID (i.e. each class can ha
 .. _Input:
  
 Input
------
+=====
 
 * ⇓ ``Select an image`` ⇓: a raster, a multispectral image loaded in QGIS or a band set;
 
@@ -46,7 +46,7 @@ Input
 .. _ROI_parameters:
 
 ROI parameters
---------------
+==============
 
 * ``Min ROI size`` : the minimum area of a ROI (in pixel unit) when created using a region growing algorithm on a specific band;
 
@@ -59,7 +59,7 @@ ROI parameters
 .. _ROI_creation:
 
 ROI creation
-------------
+============
 
 * [+]: recall the pointer for ROI creation using the region growing algorithm;
 
@@ -72,7 +72,7 @@ ROI creation
 .. _ROI_definition:
 
 ROI definition
---------------
+==============
 
 * ``Macroclass ID`` : ROI Macroclass ID which corresponds to the field ``Macro_ID`` ; this ID is used for the classification process as reference for the land cover classes when the option ``Use Macroclass ID`` in the :ref:`classification_dock` is checked;
 
@@ -88,5 +88,7 @@ ROI definition
 
 |br|
 
-The following is a brief video about the the ROI creation dock http://www.youtube.com/embed/B6zElHi2Pnk?rel=0&amp;start=28&amp;end=237 .
+The following is a brief video about the the ROI creation dock:
+
+http://www.youtube.com/embed/B6zElHi2Pnk?rel=0&amp;start=28&amp;end=237
 	

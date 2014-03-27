@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4. Landsat image conversion to reflectance and DOS1 atmospheric correction &mdash; Semi-Automatic Classification Plugin 2.5.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static//default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.5.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="top" title="Semi-Automatic Classification Plugin 2.5.0 documentation" href="index.html" />
+    <link rel="next" title="6. Tutorials" href="Tutorials.html" />
+    <link rel="prev" title="3.3. Main Interface Window" href="main_interface_window.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Tutorials.html" title="6. Tutorials"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="main_interface_window.html" title="3.3. Main Interface Window"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Semi-Automatic Classification Plugin 2.5.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="landsat-image-conversion-to-reflectance-and-dos1-atmospheric-correction">
+<span id="landsat-conversion-to-reflectance"></span><h1>4. Landsat image conversion to reflectance and DOS1 atmospheric correction<a class="headerlink" href="#landsat-image-conversion-to-reflectance-and-dos1-atmospheric-correction" title="Permalink to this headline">¶</a></h1>
+<p>Radiance is the &#8220;flux of energy (primarily irradiant or incident energy) per solid angle leaving a unit surface area in a given direction&#8221;, &#8220;Radiance is what is measured at the sensor and is somewhat dependent on reflectance&#8221; (NASA, 2011, p. 47).
+The Spectral Radiance at the sensor&#8217;s aperture (Lλ ) is measured in [watts/(meter squared * ster * μm)] and for Landsat images it is given by (<a class="reference external" href="https://landsat.usgs.gov/Landsat8_Using_Product.php">https://landsat.usgs.gov/Landsat8_Using_Product.php</a>):</p>
+<p>Lλ = ML * Qcal + AL</p>
+<p>where:</p>
+<ul class="simple">
+<li>ML = Band-specific multiplicative rescaling factor from Landsat metadata (RADIANCE_MULT_BAND_x, where x is the band number)</li>
+<li>AL = Band-specific additive rescaling factor from Landsat metadata (RADIANCE_ADD_BAND_x, where x is the band number)</li>
+<li>Qcal = Quantized and calibrated standard product pixel values (DN)</li>
+</ul>
+<p>&#8220;For relatively clear Landsat scenes, a reduction in between-scene variability can be achieved through a normalization for solar irradiance by converting spectral radiance, as calculated above, to planetary reflectance or albedo. This combined surface and atmospheric reflectance of the Earth is computed with the following formula&#8221; (NASA, 2011, p. 119):</p>
+<p>ρp = (π * Lλ * d^2 )/ (ESUNλ * cosθs)</p>
+<p>where:</p>
+<ul class="simple">
+<li>ρp = Unitless planetary reflectance, which is “the ratio of reflected versus total power energy” (NASA, 2011, p. 47)</li>
+<li>Lλ = Spectral radiance at the sensor&#8217;s aperture (at-satellite radiance)</li>
+<li>d = Earth-Sun distance in astronomical units (provided with Landsat 8 metafile, and an excel file is available from</li>
+<li><a class="reference external" href="http://landsathandbook.gsfc.nasa.gov/excel_docs/d.xls">http://landsathandbook.gsfc.nasa.gov/excel_docs/d.xls</a>)</li>
+<li>ESUNλ = Mean solar exo-atmospheric irradiances</li>
+<li>θs = Solar zenith angle in degrees, which is equal to θs = 90° - θe where θe is the Sun elevation</li>
+</ul>
+<p>It is worth pointing out that Landsat 8 images are provided with  band-specific rescaling factors that allow for the direct conversion from DN to TOA reflectance. However, the effects of the atmosphere (i.e. a disturbance on the reflectance that varies with the wavelenght) should be considered in order to measure the refletance at the ground. As described by Moran et al. (1992), the land surface reflectance (ρ) is:</p>
+<p>ρ = [π * (Lλ - Lp) * d^2]/ [Tv * ( (ESUNλ * cosθs * Tz ) + Edown )]</p>
+<p>where:</p>
+<ul class="simple">
+<li>Lp is the path radiance</li>
+<li>Tv is the atmospheric transmittance in the viewing direction</li>
+<li>Tz is the atmospheric transmittance in the illumination direction</li>
+<li>Edown is the downwelling diffuse irradiance</li>
+</ul>
+<p>Therefore, we need several atmospheric measurements in order to calculate ρ (physically-based corrections). Alternatively, it is possible to use image-based techniques for the calculation of these parameters, without in-situ measurements during image acquisition.</p>
+<p>The Dark Object Subtraction (DOS) is a family of image-based atmospheric corrections.
+Chavez (1996) explains that “the basic assumption is that within the image some pixels are in complete shadow and their radiances received at the satellite are due to atmospheric scattering (path radiance). This assumption is combined with the fact that very few targets on the Earth&#8217;s surface are absolute black, so an assumed one-percent minimum reflectance is better than zero percent”. It is worth pointing out that the accuracy of image-based techniques is generally lower than physically-based corrections, but they are very useful when no atmospheric measurements are available as they can improve the estimation of land surface reflectance.
+The path radiance is given by (Sobrino, et al., 2004):</p>
+<p>Lp = Lmin – LDO1%</p>
+<p>where:</p>
+<ul class="simple">
+<li>Lmin = “radiance that corresponds to a digital count value for which the sum of all the pixels with digital counts lower or equal to this value is equal to the 0.01% of all the pixels from the image considered” (Sobrino, et al., 2004, p. 437), therefore the radiance obtained with that digital count value (DNmin)</li>
+<li>LDO1% = radiance of Dark Object, assumed to have a reflectance value of 0.01</li>
+</ul>
+<p>Therfore for Landsat images:</p>
+<p>Lmin = ML * DNmin + AL</p>
+<p>The radiance of Dark Object is given by (Sobrino, et al., 2004):</p>
+<p>LDO1% = 0.01* [(ESUNλ * cosθs * Tz ) + Edown] * Tv / (π * d^2)</p>
+<p>Therefore the path radiance is:</p>
+<p>Lp = ML* DNmin + AL – 0.01* [(ESUNλ * cosθs * Tz ) + Edown] * Tv / (π * d^2)</p>
+<p>There are several DOS techniques (e.g. DOS1, DOS2, DOS3, DOS4), based on different assumption about Tv, Tz , and Edown .
+The simplest technique is the DOS1, where the following assumptions are made (Moran et al., 1992):</p>
+<ul class="simple">
+<li>Tv = 1</li>
+<li>Tz = 1</li>
+<li>Edown = 0</li>
+</ul>
+<p>Therefore the path radiance is:</p>
+<p>Lp = ML* DNmin + AL – 0.01* ESUNλ * cosθs / (π * d^2)</p>
+<p>And the resulting land surface reflectance is given by:</p>
+<p>ρ = [π * (Lλ - Lp) * d^2]/ (ESUNλ * cosθs)</p>
+<p>ESUN [W/(m2 * μm)] values for Landsat sensors are provided in the following table.</p>
+<ul class="simple">
+<li>from Chander &amp; Markham (2003)</li>
+</ul>
+<p>** from Finn, et al. (2012)</p>
+<p>For Landsat 8, ESUN can be calculated as (from <a class="reference external" href="http://grass.osgeo.org/grass65/manuals/i.landsat.toar.html">http://grass.osgeo.org/grass65/manuals/i.landsat.toar.html</a>):</p>
+<p>ESUN = (π * d2) * RADIANCE_MAXIMUM / REFLECTANCE_MAXIMUM</p>
+<p>where RADIANCE_MAXIMUM and REFLECTANCE_MAXIMUM are provided by image metadata.</p>
+<p>References</p>
+<ul class="simple">
+<li>Chander, G. &amp; Markham, B. 2003. Revised Landsat-5 TM radiometric calibration procedures and postcalibration dynamic ranges Geoscience and Remote Sensing, IEEE Transactions on, 41, 2674 – 2677</li>
+<li>Chavez, P. S. 1996. Image-Based Atmospheric Corrections - Revisited and Improved Photogrammetric Engineering and Remote Sensing, [Falls Church, Va.] American Society of Photogrammetry, 62, 1025-1036</li>
+<li>Finn, M.P., Reed, M.D, and Yamamoto, K.H. 2012. A Straight Forward Guide for Processing Radiance and Reflectance for EO-1 ALI, Landsat 5 TM, Landsat 7 ETM+, and ASTER. Unpublished Report from USGS/Center of Excellence for Geospatial Information Science, 8 p</li>
+</ul>
+<p><a class="reference external" href="http://cegis.usgs.gov/soil_moisture/pdf/A%20Straight%20Forward%20guide%20for%20Processing%20Radiance%20and%20Reflectance_V_24Jul12.pdf">http://cegis.usgs.gov/soil_moisture/pdf/A%20Straight%20Forward%20guide%20for%20Processing%20Radiance%20and%20Reflectance_V_24Jul12.pdf</a></p>
+<ul class="simple">
+<li>Moran, M.; Jackson, R.; Slater, P. &amp; Teillet, P. 1992. Evaluation of simplified procedures for retrieval of land surface reflectance factors from satellite sensor output Remote Sensing of Environment, 41, 169-184</li>
+<li>NASA (Ed.) 2011. Landsat 7 Science Data Users Handbook Landsat Project Science Office at NASA&#8217;s Goddard Space Flight Center in Greenbelt, 186</li>
+<li>Sobrino, J.; Jiménez-Muñoz, J. C. &amp; Paolini, L. 2004. Land surface temperature retrieval from LANDSAT TM 5 Remote Sensing of Environment, Elsevier, 90, 434-440</li>
+</ul>
+</div>
+<div class="section" id="conversion-to-at-satellite-brightness-temperature">
+<span id="landsat-conversion-to-temperature"></span><h1>5. Conversion to At-Satellite Brightness Temperature<a class="headerlink" href="#conversion-to-at-satellite-brightness-temperature" title="Permalink to this headline">¶</a></h1>
+<p>For Landsat thermal bands, the conversion of DN to At-Satellite Brightness Temperature is given by (from <a class="reference external" href="https://landsat.usgs.gov/Landsat8_Using_Product.php">https://landsat.usgs.gov/Landsat8_Using_Product.php</a>):</p>
+<p>TB = K2 / ln( (K1/Lλ)+ 1)</p>
+<p>where:</p>
+<ul class="simple">
+<li>K1 = Band-specific thermal conversion constant (in watts/meter squared * ster * μm)</li>
+<li>K2 = Band-specific thermal conversion constant (in kelvin)</li>
+</ul>
+<p>and Lλ is the Spectral Radiance at the sensor&#8217;s aperture, measured in watts/(meter squared * ster * μm); for Landsat images it is given by (from <a class="reference external" href="https://landsat.usgs.gov/Landsat8_Using_Product.php">https://landsat.usgs.gov/Landsat8_Using_Product.php</a>)</p>
+<blockquote>
+<div>Lλ = ML * Qcal + AL</div></blockquote>
+<p>where:</p>
+<ul class="simple">
+<li>ML = Band-specific multiplicative rescaling factor from Landsat metadata (RADIANCE_MULT_BAND_x, where x is the band number)</li>
+<li>AL = Band-specific additive rescaling factor from Landsat metadata (RADIANCE_ADD_BAND_x, where x is the band number)</li>
+<li>Qcal = Quantized and calibrated standard product pixel values (DN)</li>
+</ul>
+<p>The K1 and K2 constant for Landsat sensors are provided in the following table:</p>
+<ul class="simple">
+<li>from Chander &amp; Markham (2003)</li>
+</ul>
+<p>** from NASA (2011)</p>
+<p>For Landsat 8, the K1 and K2 values are provided in the image metafile.</p>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Tutorials.html" title="6. Tutorials"
+             >next</a></li>
+        <li class="right" >
+          <a href="main_interface_window.html" title="3.3. Main Interface Window"
+             >previous</a> |</li>
+        <li><a href="index.html">Semi-Automatic Classification Plugin 2.5.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Luca Congedo.
+    </div>
+  </body>
+</html>

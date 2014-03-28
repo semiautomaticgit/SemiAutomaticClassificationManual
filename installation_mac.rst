@@ -1,12 +1,12 @@
-.. _installation_mac:
+﻿.. _installation_mac:
 
-**********************
+***********************
 Installation in Mac OS
-**********************
+***********************
 
 .. |br| raw:: html
 
- <br />
+	<br />
 
 The program "System for Automated Geoscientific Analyses" (SAGA) version 2.1.0 is unavailable for Mac OS, therefore the Semi-Automatic Classification Plugin for QGIS is unable to run.
 |br|

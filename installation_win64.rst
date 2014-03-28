@@ -1,8 +1,8 @@
-.. _installation_win64:
+﻿.. _installation_win64:
 
-******************************
+*******************************
 Installation in Windows 64 bit
-******************************
+*******************************
 
 .. |br| raw:: html
 
@@ -11,7 +11,7 @@ Installation in Windows 64 bit
 .. _QGIS_installation_win64bit:
  
 QGIS download and installation
-------------------------------
+------------------------------------------
 
 * Download the latest QGIS version 64 bit from `here <http://www.qgis.org/en/site/forusers/download.html>`_ (the direct download of QGIS 2.2 from this `link <http://qgis.org/downloads/QGIS-OSGeo4W-2.2.0-1-Setup-x86_64.exe>`_);
 
@@ -24,7 +24,7 @@ Now, QGIS 2 is installed.
 .. _scipy_installation_win64bit:
  
 SciPy installation
-------------------
+------------------------------------------
 
 The SciPy package is not included in the 64 bit version of QGIS. Therefore:
 
@@ -39,7 +39,7 @@ The SciPy package is not included in the 64 bit version of QGIS. Therefore:
 .. _plugin_installation_win64bit:
  
 Semi-Automatic Classification Plugin installation
--------------------------------------------------
+---------------------------------------------------
 
 * Run QGIS 2;
 
@@ -58,7 +58,7 @@ Semi-Automatic Classification Plugin installation
 .. _plugin_configuration_win64bit:
 
 Configuration of the Processing plugin
---------------------------------------
+------------------------------------------
 
 This configuration is required because SAGA GIS needs to be activated in the Processing framework of QGIS 2.
 

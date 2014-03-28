@@ -31,7 +31,6 @@ http://www.planning4adaptation.eu/Docs/papers/08_NWP-DoM_for_LCC_in_Dar_using_La
 	Installation.rst
 	semi-automatic_OS.rst
 	Interface.rst
-	Landsat_conversion.rst
 	Tutorials.rst
 
 |br| 

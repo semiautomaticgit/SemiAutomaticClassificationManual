@@ -1,4 +1,4 @@
-.. _interface:
+﻿.. _interface:
 
 *******************
 The Interface
@@ -6,7 +6,7 @@ The Interface
 
 .. |br| raw:: html
 
- <br />
+	<br />
 
 The plugin is composed of two movable docks integrated in QGIS and a main interface window, which allow for an easy and rapid supervised classification of remote sensing images, with functions for data pre processing and post processing.
 

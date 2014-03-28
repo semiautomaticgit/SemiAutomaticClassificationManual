@@ -1,4 +1,4 @@
-.. _installation_ubuntu:
+﻿.. _installation_ubuntu:
 
 ****************************
 Installation in Ubuntu Linux
@@ -6,12 +6,12 @@ Installation in Ubuntu Linux
 
 .. |br| raw:: html
 
- <br />
+	<br />
 
 .. _QGIS_installation_ubuntu:
  
 QGIS download and installation
-------------------------------
+------------------------------------------
 
 * Open a terminal and type::
 
@@ -40,7 +40,7 @@ Now, QGIS 2 is installed.
 .. _plugin_installation_ubuntu:
  
 Semi-Automatic Classification Plugin installation
--------------------------------------------------
+---------------------------------------------------
 
 * Run QGIS 2;
 
@@ -59,7 +59,7 @@ Semi-Automatic Classification Plugin installation
 .. _plugin_configuration_ubuntu:
 
 Configuration of the Processing plugin
---------------------------------------
+------------------------------------------
 
 This configuration is required because SAGA GIS needs to be activated in the Processing framework of QGIS 2.
 

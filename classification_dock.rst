@@ -25,6 +25,10 @@ For each classification, a .tif file is created, with a .csv file which contains
 
 Also, it is possible to create automatically the vector output of the classification (a shapefile), calculate the classification accuracy, and apply a mask to the land cover classification (using a polygon shapefile).
 
+.. container:: clearer
+
+	|br|
+	
 .. _roi_list:
  
 ROI list (Macroclass ID - Class ID - Info)

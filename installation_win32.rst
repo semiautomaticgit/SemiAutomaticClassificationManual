@@ -1,17 +1,17 @@
-.. _installation_win32:
+﻿.. _installation_win32:
 
-******************************
+*******************************
 Installation in Windows 32 bit
-******************************
+*******************************
 
 .. |br| raw:: html
 
- <br />
+	<br />
 
 .. _QGIS_installation_win32bit:
  
 QGIS download and installation
-------------------------------
+------------------------------------------
 
 * Download the latest QGIS version 32 bit from `here <http://www.qgis.org/en/site/forusers/download.html>`_ (the direct download of QGIS 2.2 from this `link <http://qgis.org/downloads/QGIS-OSGeo4W-2.2.0-1-Setup-x86.exe>`_);
 
@@ -24,7 +24,7 @@ Now, QGIS 2 is installed.
 .. _plugin_installation_win32bit:
  
 Semi-Automatic Classification Plugin installation
--------------------------------------------------
+--------------------------------------------------
 
 * Run QGIS 2;
 
@@ -43,7 +43,7 @@ Semi-Automatic Classification Plugin installation
 .. _plugin_configuration_win32bit:
 
 Configuration of the Processing plugin
---------------------------------------
+------------------------------------------
 
 This configuration is required because SAGA GIS needs to be activated in the Processing framework of QGIS 2.
 

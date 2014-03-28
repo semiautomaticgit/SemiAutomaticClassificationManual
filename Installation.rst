@@ -1,12 +1,12 @@
-.. _installation:
+﻿.. _installation:
 
-*******************
+*********************
 Plugin Installation
-*******************
+*********************
 
 .. |br| raw:: html
 
- <br />
+	<br />
 
 The Semi-Automatic Classification Plugin requires the installation of QGIS and SAGA, and their activation in the Processing plugin. Also, it requires GDAL, Matplotlib, Numpy and SciPy.
 |br|

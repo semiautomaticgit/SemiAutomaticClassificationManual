@@ -26,7 +26,14 @@ Semi-Automatic Classification Plugin is free software: you can redistribute it a
 Semi-Automatic Classification Plugin is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with Semi-Automatic Classification Plugin. If not, see http://www.gnu.org/licenses/.
 
-|br| 
+|br|
+
+**License:**
+
+Except where otherwise noted, content of this work is licensed under a `Creative Commons
+Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_.
+
+|br|
 
 .. toctree::
 	:maxdepth: 2

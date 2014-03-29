@@ -79,7 +79,8 @@ This configuration is required because SAGA GIS needs to be activated in the Pro
 Now, the Semi-Automatic Classification Plugin is installed and configured. The plugin is available under the Raster menu of QGIS, or you can click the icon |logo| in the main interface (if the raster menu is activated).
 
 .. |logo| image:: _static/logo.png
-
+	:width: 32pt
+	
 .. image:: _static/SemiAutomaticClassificatioPlugin_ubuntu.jpg
 
 |br|

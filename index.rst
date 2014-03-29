@@ -36,7 +36,7 @@ Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses
 |br|
 
 .. toctree::
-	:maxdepth: 2
+	:maxdepth: 3
 	:numbered:
   
 	Installation.rst

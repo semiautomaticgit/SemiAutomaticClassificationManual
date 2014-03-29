@@ -1,4 +1,4 @@
-﻿.. _interface:
+.. _interface:
 
 *******************
 The Interface

@@ -1,4 +1,4 @@
-﻿.. _main_interface_window:
+.. _main_interface_window:
 
 ******************************
 Main Interface Window
@@ -41,7 +41,7 @@ ROI signatures
 
 * [ ``Select all`` ]: select all ROIs for plot;
 * [ ``Calculate signature`` ]: calculate statistics for selected ROIs (using the raster selected in the ROI tool tab);
-* ☑ ``Plot`` σ: if checked, plot the standard deviation for each ROI;
+* ``Plot`` σ: if checked, plot the standard deviation for each ROI;
 * [ ``Delete selected ROIs`` ]: delete selected ROIs.
 
 .. _scatter_plot_tab:
@@ -83,7 +83,7 @@ Point coordinates and ROI definition
 * [ ``Import point list`` ]: import a point list from text file to the table; every line of the text file must contain X coordintate, Y coordinate, ID and Information separated by tabs;
 * [ ``Export point list`` ]: export the point list to text file;
 * [ ``Create and save ROIs`` ]: create and save ROIs to shapefile;
-* ☑ ``Calculate signature``: if checked, calculate the spectral signature for ROI (the ROI mean value for each raster band); this configuration is stored in the QGIS project.
+* ``Calculate signature``: if checked, calculate the spectral signature for ROI (the ROI mean value for each raster band); this configuration is stored in the QGIS project.
 
 .. _pre_processing_tab:
  
@@ -113,7 +113,7 @@ Clip coordinates
 ^^^^^^^^^^^^^^^^
 
 * [+]: click on the map for the definition of the Upper Left (UL) and Lower Right (LR) point coordinates (X and Y) for clipping;
-* ☑ ``Use shapefile for clipping``: if checked, select a shapefile for clipping;
+* ``Use shapefile for clipping``: if checked, select a shapefile for clipping;
 * < ``No data value`` >: set the value for 'No data' pixels (e.g. outside the clipped area);
 * [ ``Clip selected rasters`` ]: open a window for choosing output destination, and clip selected rasters saving them in the selected directory.
 
@@ -131,9 +131,9 @@ Landsat conversion to TOA reflectance and brightness temperature
 
 * [ ``Select a directory`` ]: select a directory where Landsat bands (filenames thereof must end with the respective number) and the metafile (a .txt file whit the suffix MTL) are stored; all bands found in the directory are converted automatically (band numbers are identified for **Landsat 4, 5, 7, and 8**);
 * [ ``Select a directory`` ]: select a directory where converted bands are saved;
-* ☑ ``Brightness temperature in Celsius`` : if checked, convert brightness temperature to Celsius (default is Kelvin);
-* ☑ ``Apply DOS1 atmospheric correction`` : if checked, the DOS1 atmospheric correction is applied to all the bands (thermal bands excluded);
-* ☑ ``Use No data value`` : if checked, No data values are not counted during the DOS1 calculation of DNmin (for more information about the Landsat conversion to TOA and DOS1 correction, see :ref:`landsat_conversion_to_reflectance`);
+* ``Brightness temperature in Celsius`` : if checked, convert brightness temperature to Celsius (default is Kelvin);
+* ``Apply DOS1 atmospheric correction`` : if checked, the DOS1 atmospheric correction is applied to all the bands (thermal bands excluded);
+* ``Use No data value`` : if checked, No data values are not counted during the DOS1 calculation of DNmin (for more information about the Landsat conversion to TOA and DOS1 correction, see :ref:`landsat_conversion_to_reflectance`);
 * [ ``Perform conversion`` ]: convert Landsat bands and save them in the output directory.
 
 
@@ -163,8 +163,8 @@ Accuracy tab
 Error Matrix Input
 ^^^^^^^^^^^^^^^^^^
 
-* ⇓ ``Select the classification to assess`` ⇓: select a classification raster;
-* ⇓ ``Select the reference shapefile`` ⇓: select a shapefile, used as reference layer (ground truth) for the accuracy assessment;
+* ``Select the classification to assess`` : select a classification raster;
+* ``Select the reference shapefile`` : select a shapefile, used as reference layer (ground truth) for the accuracy assessment;
 * [ ``Calculate error matrix`` ]: calculate the error matrix, that will be displayed in this tab;
 * [ ``Save error matrix to file`` ]: save error matrix to a text file.
 
@@ -180,9 +180,9 @@ Land cover change tab
 Classification input
 ^^^^^^^^^^^^^^^^^^^^
 
-* ⇓ ``Select the reference classification`` ⇓: select a reference classification raster;
-* ⇓ ``Select the new classification`` ⇓: select a new classification raster, to be compared with the reference classification;
-* ☑ ``Report unchanged pixels``: if checked, report also unchanged pixels;
+* ``Select the reference classification`` : select a reference classification raster;
+* ``Select the new classification`` : select a new classification raster, to be compared with the reference classification;
+* ``Report unchanged pixels``: if checked, report also unchanged pixels;
 * [ ``Calculate land cover change`` ]: save the land cover change raster to a .tif file, and a .csv table containing statistics in the same folder and with the same name defined for the .tif file.
 
 .. _classification_report_tab:
@@ -197,9 +197,9 @@ Classification report tab
 Classification input
 ^^^^^^^^^^^^^^^^^^^^
 
-* ⇓ ``Select the classification`` ⇓: select a classification raster;
+* ``Select the classification`` : select a classification raster;
 * [ ``Refresh list`` ]: refresh raster list;
-* ☑ ``Use No data value`` : if checked, No data values are not counted in the report;
+* ``Use No data value`` : if checked, No data values are not counted in the report;
 * [ ``Calculate classification report`` ]: calculate the report and show it;
 * [ ``Save report to file`` ]: save the report in a .csv file.
 
@@ -225,9 +225,9 @@ Band set definition
 -------------------
 
 * [ ``Clear all`` ]: clear all bands from band set;
-* [ ↑ ]: move selected bands upward;
+* [ :math:`\uparrow` ]: move selected bands upward;
 * [ ``Remove band`` ]: remove selected bands from the band set;
-* [ ↓ ]: move selected bands downward;
+* [ :math:`\downarrow` ]: move selected bands downward;
 * [ ``Import`` ]: import a previously saved band set from file;
 * [ ``Export`` ]: export the band set to a file.
 
@@ -272,7 +272,7 @@ Spectral signature
 Language
 --------
 
-* ☑ ``English`` : default language is English; if unchecked, the plugin is set to local language if available.
+* ``English`` : default language is English; if unchecked, the plugin is set to local language if available.
 
 .. _ram:
 
@@ -286,7 +286,7 @@ RAM
 Debug
 -----
 
-* ☑ ``Records events in a log file`` : start recording events in a log file (saved in the user folder in ``.qgis/python/plugins/SemiAutomaticClassificationPlugin/__0semiautomaticclass.log`` ); this configuration is stored in the QGIS registry;
+* ``Records events in a log file`` : start recording events in a log file (saved in the user folder in ``.qgis/python/plugins/SemiAutomaticClassificationPlugin/__0semiautomaticclass.log`` ); this configuration is stored in the QGIS registry;
 * [ ``Clear log file content`` ]: clear the content of log file;
 * [ ``Test SAGA GIS`` ]: test if SAGA GIS is properly installed and configured;
 * [ ``Test GRASS GIS`` ]: test if GRASS GIS is properly installed and configured;

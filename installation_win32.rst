@@ -1,4 +1,4 @@
-﻿.. _installation_win32:
+.. _installation_win32:
 
 *******************************
 Installation in Windows 32 bit
@@ -64,7 +64,7 @@ This configuration is required because SAGA GIS needs to be activated in the Pro
 
 Now, the Semi-Automatic Classification Plugin is installed and configured. The plugin is available under the Raster menu of QGIS, or you can click the icon |logo| in the main interface (if the raster menu is activated).
 
-.. |logo| image:: _static/favicon.ico
+.. |logo| image:: _static/logo.png
 
 .. image:: _static/activated.jpg
 

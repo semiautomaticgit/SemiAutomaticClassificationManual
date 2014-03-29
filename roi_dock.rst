@@ -1,4 +1,4 @@
-﻿.. _roi_dock:
+.. _roi_dock:
 
 ******************************
 ROI Creation dock
@@ -30,13 +30,13 @@ Each Class ID must be assigned to only one Macroclass ID (i.e. each class can ha
 Input
 =====
 
-* ⇓ ``Select an image`` ⇓: a raster, a multispectral image loaded in QGIS or a band set;
+* ``Select an image`` : a raster, a multispectral image loaded in QGIS or a band set;
 
 * [ ``Band set`` ]: open the interface for the creation of a band set (a list of single band rasters loaded in QGIS);
 
-* ⇓ ``Select a training shapefile`` ⇓: a shapefile, for the collection of training areas (ROIs) used during the classification; the shapefile must contain at least the ``Macro_ID`` [int], ``ID_class`` [int] and ``ROI_info`` [string] fields (custom names can be defined in the ``Settings tab`` of the :ref:`main_interface_window`);
+* ``Select a training shapefile`` : a shapefile, for the collection of training areas (ROIs) used during the classification; the shapefile must contain at least the ``Macro_ID`` [int], ``ID_class`` [int] and ``ROI_info`` [string] fields (custom names can be defined in the ``Settings tab`` of the :ref:`main_interface_window`);
 
-* [↺]: refresh layer list;
+* []: refresh layer list;
 
 * [ ``New shapefile`` ]: create a new shapefile, which contains ``Macro_ID`` [int], ``ID_class`` [int] and ``ROI_info`` [string] fields, and one field for each raster band used for spectral signature calculation.
 
@@ -51,7 +51,7 @@ ROI parameters
 
 * ``Range radius`` : the interval which defines the maximum spectral distance between the seed pixel and the surrounding pixels (in radiometry unit); if the ROI size is less then ``Min ROI size`` then the ``Range radius`` is overridden and ROI is created using the most similar pixels until size is at least ``Min ROI size``;
 
-* ☑ ``Rapid ROI on band`` : if checked, create a ROI only on the selected band of raster (the process is rapider than creating ROI using all the available bands); if unchecked, the resulting ROI is the intersection of ROIs calculated on each band (therefore it can be smaller than ``Min ROI size`` ); this configuration is stored in the QGIS project.
+* ``Rapid ROI on band`` : if checked, create a ROI only on the selected band of raster (the process is rapider than creating ROI using all the available bands); if unchecked, the resulting ROI is the intersection of ROIs calculated on each band (therefore it can be smaller than ``Min ROI size`` ); this configuration is stored in the QGIS project.
 
 .. _ROI_creation:
 
@@ -60,7 +60,7 @@ ROI creation
 
 * [+]: recall the pointer for ROI creation using the region growing algorithm;
 
-* [ ``Redo`` ↺]: create a new ROI at the same point of the previous one;
+* [ ``Redo`` ]: create a new ROI at the same point of the previous one;
 
 * |logo|: create a ROI by manual drawing of a polygon on the image; after clicking the button, left click on the image to define the ROI vertices and right click on the image to define the last vertex and close the polygon. 
 
@@ -80,9 +80,9 @@ ROI definition
 
 * [ ``Save ROI`` ]: save the last created ROI to the training shapefile;
 
-* [ ↶ ``Undo save ROI`` ]: delete the last saved ROI from the training shapefile;
+* [ ``Undo save ROI`` ]: delete the last saved ROI from the training shapefile;
 
-* ☑ ``Calculate signature``: if checked, the spectral signature is calculated (the ROI mean value and standard deviation for each raster band) while ROI is saved to shapefile (it takes some time depending on the number of image bands, but it is possible to calculate the spectral signatures at a later time for all the ROIs from the ``Spectral signature tab``; for more information see the :ref:`main_interface_window`); this configuration is stored in the QGIS project.
+* ``Calculate signature``: if checked, the spectral signature is calculated (the ROI mean value and standard deviation for each raster band) while ROI is saved to shapefile (it takes some time depending on the number of image bands, but it is possible to calculate the spectral signatures at a later time for all the ROIs from the ``Spectral signature tab``; for more information see the :ref:`main_interface_window`); this configuration is stored in the QGIS project.
 
 |br|
 

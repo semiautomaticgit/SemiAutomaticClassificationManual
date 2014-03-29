@@ -1,4 +1,4 @@
-﻿.. Semi-Automatic Classification Plugin documentation master file
+.. Semi-Automatic Classification Plugin documentation master file
 
 Semi-Automatic Classification Plugin's User Manual
 ================================================================
@@ -21,8 +21,12 @@ For more information and tutorials visit the official blog `From GIS to Remote S
 *Congedo Luca, Munafo' Michele, Macchi Silvia (2013). "Investigating the Relationship between Land Cover and Vulnerability to Climate Change in Dar es Salaam". Working Paper, Rome: Sapienza University.* Available at:
 http://www.planning4adaptation.eu/Docs/papers/08_NWP-DoM_for_LCC_in_Dar_using_Landsat_Imagery.pdf
 
+|br|
+Semi-Automatic Classification Plugin is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License.
+Semi-Automatic Classification Plugin is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with Semi-Automatic Classification Plugin. If not, see http://www.gnu.org/licenses/.
+
 |br| 
-**Index:**
 
 .. toctree::
 	:maxdepth: 2
@@ -32,37 +36,3 @@ http://www.planning4adaptation.eu/Docs/papers/08_NWP-DoM_for_LCC_in_Dar_using_La
 	semi-automatic_OS.rst
 	Interface.rst
 	Tutorials.rst
-
-|br| 
-	
-Keywords:
-
-* Land Cover Classification
-
-* 土地被覆分類
-
-* 监督分类
-
-* 土地覆盖分类
-
-* 教師付き分類
-
-* تصنيف استخدام الأراضي
-
-* Classificação da Cobertura do Solo
-
-* Clasificación de la Cobertura de la Tierra
-
-* Classification de la Couverture du Sol
-
-* классификация землепользования
-
-* Klassifizierung der Landbedeckung
-
-* Classificazione della Copertura del Suolo
-
-|br| 
-	
-Semi-Automatic Classification Plugin is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License.
-Semi-Automatic Classification Plugin is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with Semi-Automatic Classification Plugin. If not, see http://www.gnu.org/licenses/.

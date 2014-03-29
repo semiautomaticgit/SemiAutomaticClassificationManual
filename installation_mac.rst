@@ -1,4 +1,4 @@
-﻿.. _installation_mac:
+.. _installation_mac:
 
 ***********************
 Installation in Mac OS

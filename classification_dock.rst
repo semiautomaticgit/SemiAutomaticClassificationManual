@@ -1,4 +1,4 @@
-﻿.. _classification_dock:
+.. _classification_dock:
 
 *******************
 Classification dock
@@ -35,7 +35,7 @@ Double click on a ROI item in order to zoom to that ROI in  the map.
 
 * [ ``Select All`` ]: select/unselect all the ROIs;
 * [ ``Delete selected ROIs`` ]: delete selected ROIs;
-* ☑ ``Use Macroclass ID`` : if checked the classification is performed using the Macroclass ID; if unchecked, then the classification is performed using the ID class only.
+* ``Use Macroclass ID`` : if checked the classification is performed using the Macroclass ID; if unchecked, then the classification is performed using the ID class only.
 
 .. _classification_alg:
 
@@ -43,7 +43,7 @@ Classification algorithm
 ------------------------
 
 
-* ⇓ ``Select a classification algorithm`` ⇓: available classification algorithms are: Maximum Likelihood; Minimum Distance; Spectral Angle Mapping;
+*  ``Select a classification algorithm`` : available classification algorithms are: Maximum Likelihood; Minimum Distance; Spectral Angle Mapping;
 * ``Threshold`` : if threshold is equal to 0, then all image pixels are classified; otherwise: 
 	* for Maximum Likelihood, pixels are unclassified if probability is less than threshold  value (max 100);
 	* for Minimum Distance, pixels are unclassified if distance is greater than threshold value;
@@ -56,7 +56,7 @@ Classification preview
 
 * [+]: recall the pointer for the creation of a classification preview ;
 * ``Size`` : size in pixel unit of a classification preview (i.e. the side lenght of a square, centered at the clicked pixel);
-* [ ``Redo`` ↺]: create a new classification preview centered at the same pixel of the previous one.
+* [ ``Redo`` ]: create a new classification preview centered at the same pixel of the previous one.
 
 .. _classification_style:
 
@@ -71,10 +71,10 @@ Classification style
 Classification output
 ---------------------
 
-* ☑ ``Create vector`` : if checked, a shapefile classification is saved into the same folder and with the same name defined for the classification output;
-* ☑ ``Apply mask`` : if checked, it allows the users to select a shapefile for the purpose of masking the classification;
-* ☑ ``Classification report`` : if checked, a report about the land cover classification is calculated,  providing the pixel count, the percentage and area for each class; the report is saved as a .csv file in the same folder and with the same name defined for the classification output and the suffix ``_report`` ;
-* ☑ ``Calculate accuracy`` : if checked, an error matrix of the classification (using ROIs as ground truth) is saved as a .txt file in the same folder and with the same name defined for the classification output;
+* ``Create vector`` : if checked, a shapefile classification is saved into the same folder and with the same name defined for the classification output;
+* ``Apply mask`` : if checked, it allows the users to select a shapefile for the purpose of masking the classification;
+* ``Classification report`` : if checked, a report about the land cover classification is calculated,  providing the pixel count, the percentage and area for each class; the report is saved as a .csv file in the same folder and with the same name defined for the classification output and the suffix ``_report`` ;
+* ``Calculate accuracy`` : if checked, an error matrix of the classification (using ROIs as ground truth) is saved as a .txt file in the same folder and with the same name defined for the classification output;
 * [ ``Perform classification`` ]: open a window for the selection of output destination, and perform the image classification that is saved as a .tif file, along with the optional outputs.
 
 |br|

@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>3.3. Main Interface Window &mdash; Semi-Automatic Classification Plugin 2.5.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static//default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.5.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="top" title="Semi-Automatic Classification Plugin 2.5.0 documentation" href="index.html" />
+    <link rel="up" title="3. The Interface" href="Interface.html" />
+    <link rel="next" title="1. Landsat image conversion to reflectance and DOS1 atmospheric correction" href="Landsat_conversion.html" />
+    <link rel="prev" title="3.2. Classification dock" href="classification_dock.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Landsat_conversion.html" title="1. Landsat image conversion to reflectance and DOS1 atmospheric correction"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="classification_dock.html" title="3.2. Classification dock"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Semi-Automatic Classification Plugin 2.5.0 documentation</a> &raquo;</li>
+          <li><a href="Interface.html" accesskey="U">3. The Interface</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="main-interface-window">
+<span id="id1"></span><h1>3.3. Main Interface Window<a class="headerlink" href="#main-interface-window" title="Permalink to this headline">¶</a></h1>
+<p>The Main Interface window includes several pre processing and post processing functions such as: plot of ROI <strong>spectral signatures</strong> and <strong>scatter plot</strong> of ROIs; <strong>multiple ROI creation</strong> at once using point list; <strong>clipping of multiple rasters</strong> at once using coordinates or a shapefile boundary; <strong>Landsat pre processing</strong> for automatic conversion to reflectance and temperature; <strong>accuracy assessment</strong>; <strong>land cover change calculation</strong>; <strong>classification report</strong>; <strong>band set definition</strong>; and <strong>advanced settings</strong>.</p>
+<p>The Main interface is composed of several tabs:</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#roi-tools-tab" id="id28">ROI tools tab</a><ul>
+<li><a class="reference internal" href="#spectral-signature-tab" id="id29">Spectral signature tab</a></li>
+<li><a class="reference internal" href="#scatter-plot-tab" id="id30">Scatter plot tab</a></li>
+<li><a class="reference internal" href="#multiple-rois-tab" id="id31">Multiple ROIs tab</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pre-processing-tab" id="id32">Pre processing tab</a><ul>
+<li><a class="reference internal" href="#clip-multiple-rasters-tab" id="id33">Clip multiple rasters tab</a></li>
+<li><a class="reference internal" href="#landsat-tab" id="id34">Landsat tab</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#post-processing-tab" id="id35">Post processing tab</a><ul>
+<li><a class="reference internal" href="#accuracy-tab" id="id36">Accuracy tab</a></li>
+<li><a class="reference internal" href="#land-cover-change-tab" id="id37">Land cover change tab</a></li>
+<li><a class="reference internal" href="#classification-report-tab" id="id38">Classification report tab</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#band-set-tab" id="id39">Band set tab</a><ul>
+<li><a class="reference internal" href="#band-list" id="id40">Band list</a></li>
+<li><a class="reference internal" href="#band-set-definition" id="id41">Band set definition</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#settings-tab" id="id42">Settings tab</a><ul>
+<li><a class="reference internal" href="#field-names-of-training-shapefile" id="id43">Field names of training shapefile</a></li>
+<li><a class="reference internal" href="#roi-style" id="id44">ROI style</a></li>
+<li><a class="reference internal" href="#spectral-signature" id="id45">Spectral signature</a></li>
+<li><a class="reference internal" href="#language" id="id46">Language</a></li>
+<li><a class="reference internal" href="#ram" id="id47">RAM</a></li>
+<li><a class="reference internal" href="#debug" id="id48">Debug</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="roi-tools-tab">
+<span id="id2"></span><h2><a class="toc-backref" href="#id28">3.3.1. ROI tools tab</a><a class="headerlink" href="#roi-tools-tab" title="Permalink to this headline">¶</a></h2>
+<p>The <tt class="docutils literal"><span class="pre">ROI</span> <span class="pre">tools</span></tt> tab includes the <tt class="docutils literal"><span class="pre">Spectral</span> <span class="pre">signature</span></tt> calculation and visualization.
+The <tt class="docutils literal"><span class="pre">Scatter</span> <span class="pre">plot</span></tt> tab allows for the calculation of the ROI scatter plots, which are useful to assess ROI separability choosing between two bands. Pixel values for two raster bands are represented as points in the 2D space.
+The <tt class="docutils literal"><span class="pre">Multiple</span> <span class="pre">ROI</span> <span class="pre">creation</span></tt> which allows for the automatic creation of ROIs, given a list of points (coordinates) and class definitions. This can be useful for the rapid classification of multi-temporal images, or for creating several ROIs using GPS data from field survey.</p>
+<div class="section" id="spectral-signature-tab">
+<span id="id3"></span><h3><a class="toc-backref" href="#id29">3.3.1.1. Spectral signature tab</a><a class="headerlink" href="#spectral-signature-tab" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/spectral_signature.jpg" src="_images/spectral_signature.jpg" />
+<div class="section" id="roi-signatures">
+<span id="id4"></span><h4>3.3.1.1.1. ROI signatures<a class="headerlink" href="#roi-signatures" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>[ <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">all</span></tt> ]: select all ROIs for plot;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Calculate</span> <span class="pre">signature</span></tt> ]: calculate statistics for selected ROIs (using the raster selected in the ROI tool tab);</li>
+<li>☑ <tt class="docutils literal"><span class="pre">Plot</span></tt> σ: if checked, plot the standard deviation for each ROI;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Delete</span> <span class="pre">selected</span> <span class="pre">ROIs</span></tt> ]: delete selected ROIs.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="scatter-plot-tab">
+<span id="id5"></span><h3><a class="toc-backref" href="#id30">3.3.1.2. Scatter plot tab</a><a class="headerlink" href="#scatter-plot-tab" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/scatter_plot.jpg" src="_images/scatter_plot.jpg" />
+<div class="section" id="roi-list">
+<span id="roi-list-2"></span><h4>3.3.1.2.1. ROI list<a class="headerlink" href="#roi-list" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>[ <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">all</span></tt> ]: select all ROIs for plot;</li>
+<li>&lt; <tt class="docutils literal"><span class="pre">Band</span> <span class="pre">X</span></tt> &gt;: X band of the plot;</li>
+<li>&lt; <tt class="docutils literal"><span class="pre">Band</span> <span class="pre">Y</span></tt> &gt;: Y band of the plot;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Calculate</span> <span class="pre">scatter</span> <span class="pre">plot</span></tt> ]: calculate the scatter plot (it can be time consuming).</li>
+</ul>
+</div>
+</div>
+<div class="section" id="multiple-rois-tab">
+<span id="id6"></span><h3><a class="toc-backref" href="#id31">3.3.1.3. Multiple ROIs tab</a><a class="headerlink" href="#multiple-rois-tab" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/scatter_plot.jpg" src="_images/scatter_plot.jpg" />
+<div class="section" id="point-coordinates-and-roi-definition">
+<span id="point-coordinates"></span><h4>3.3.1.3.1. Point coordinates and ROI definition<a class="headerlink" href="#point-coordinates-and-roi-definition" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">X</span></tt> : point X coordinate;</li>
+<li><tt class="docutils literal"><span class="pre">Y</span></tt> : point Y coordinate;</li>
+<li><tt class="docutils literal"><span class="pre">Macroclass</span> <span class="pre">ID</span></tt> : ROI ID which corresponds to the fields <tt class="docutils literal"><span class="pre">Macro_ID</span></tt>;</li>
+<li><tt class="docutils literal"><span class="pre">Class</span> <span class="pre">ID</span></tt> : ROI ID which corresponds to the fields <tt class="docutils literal"><span class="pre">ID_class</span></tt>;</li>
+<li><tt class="docutils literal"><span class="pre">Information</span></tt> : ROI information which corresponds to the field <tt class="docutils literal"><span class="pre">ROI_info</span></tt>;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Add</span> <span class="pre">point</span></tt> ]: add a row for a new point to the table; the table fields X coordinate, Y coordinate, ID and Information must be filled for the ROI creation;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Remove</span> <span class="pre">highlighted</span> <span class="pre">points</span></tt> ]: delete the rows of selected points;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Import</span> <span class="pre">point</span> <span class="pre">list</span></tt> ]: import a point list from text file to the table; every line of the text file must contain X coordintate, Y coordinate, ID and Information separated by tabs;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Export</span> <span class="pre">point</span> <span class="pre">list</span></tt> ]: export the point list to text file;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Create</span> <span class="pre">and</span> <span class="pre">save</span> <span class="pre">ROIs</span></tt> ]: create and save ROIs to shapefile;</li>
+<li>☑ <tt class="docutils literal"><span class="pre">Calculate</span> <span class="pre">signature</span></tt>: if checked, calculate the spectral signature for ROI (the ROI mean value for each raster band); this configuration is stored in the QGIS project.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="pre-processing-tab">
+<span id="id7"></span><h2><a class="toc-backref" href="#id32">3.3.2. Pre processing tab</a><a class="headerlink" href="#pre-processing-tab" title="Permalink to this headline">¶</a></h2>
+<p>The <tt class="docutils literal"><span class="pre">Pre</span> <span class="pre">processing</span></tt> tab allows for the <tt class="docutils literal"><span class="pre">Clipping</span> <span class="pre">of</span> <span class="pre">multiple</span> <span class="pre">rasters</span></tt> at once, using point coordinates or a shapefile. Also, the Landsat tab allows for the conversion of <tt class="docutils literal"><span class="pre">Landsat</span></tt> images from DN (i.e. Digital Numbers) to the physical measure of Top Of Atmosphere reflectance (TOA), or the application of a simple atmospheric correction using the DOS1 method (Dark Object Subtraction 1), which is an image-based technique (for more information about the Landsat conversion to TOA and DOS1 correction, see <a class="reference internal" href="Landsat_conversion.html#landsat-conversion-to-reflectance"><em>Landsat image conversion to reflectance and DOS1 atmospheric correction</em></a>).</p>
+<div class="section" id="clip-multiple-rasters-tab">
+<span id="id8"></span><h3><a class="toc-backref" href="#id33">3.3.2.1. Clip multiple rasters tab</a><a class="headerlink" href="#clip-multiple-rasters-tab" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/clip_multiple_rasters.jpg" src="_images/clip_multiple_rasters.jpg" />
+<div class="section" id="raster-list">
+<span id="id9"></span><h4>3.3.2.1.1. Raster list<a class="headerlink" href="#raster-list" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>[ <tt class="docutils literal"><span class="pre">Refresh</span> <span class="pre">list</span></tt> ]: refresh layer list;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">all</span></tt> ]: select all the rasters to be clipped.</li>
+</ul>
+</div>
+<div class="section" id="clip-coordinates">
+<span id="id10"></span><h4>3.3.2.1.2. Clip coordinates<a class="headerlink" href="#clip-coordinates" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>[+]: click on the map for the definition of the Upper Left (UL) and Lower Right (LR) point coordinates (X and Y) for clipping;</li>
+<li>☑ <tt class="docutils literal"><span class="pre">Use</span> <span class="pre">shapefile</span> <span class="pre">for</span> <span class="pre">clipping</span></tt>: if checked, select a shapefile for clipping;</li>
+<li>&lt; <tt class="docutils literal"><span class="pre">No</span> <span class="pre">data</span> <span class="pre">value</span></tt> &gt;: set the value for &#8216;No data&#8217; pixels (e.g. outside the clipped area);</li>
+<li>[ <tt class="docutils literal"><span class="pre">Clip</span> <span class="pre">selected</span> <span class="pre">rasters</span></tt> ]: open a window for choosing output destination, and clip selected rasters saving them in the selected directory.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="landsat-tab">
+<span id="id11"></span><h3><a class="toc-backref" href="#id34">3.3.2.2. Landsat tab</a><a class="headerlink" href="#landsat-tab" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/landsat.jpg" src="_images/landsat.jpg" />
+<div class="section" id="landsat-conversion-to-toa-reflectance-and-brightness-temperature">
+<span id="landsat-conversion"></span><h4>3.3.2.2.1. Landsat conversion to TOA reflectance and brightness temperature<a class="headerlink" href="#landsat-conversion-to-toa-reflectance-and-brightness-temperature" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>[ <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">a</span> <span class="pre">directory</span></tt> ]: select a directory where Landsat bands (filenames thereof must end with the respective number) and the metafile (a .txt file whit the suffix MTL) are stored; all bands found in the directory are converted automatically (band numbers are identified for <strong>Landsat 4, 5, 7, and 8</strong>);</li>
+<li>[ <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">a</span> <span class="pre">directory</span></tt> ]: select a directory where converted bands are saved;</li>
+<li>☑ <tt class="docutils literal"><span class="pre">Brightness</span> <span class="pre">temperature</span> <span class="pre">in</span> <span class="pre">Celsius</span></tt> : if checked, convert brightness temperature to Celsius (default is Kelvin);</li>
+<li>☑ <tt class="docutils literal"><span class="pre">Apply</span> <span class="pre">DOS1</span> <span class="pre">atmospheric</span> <span class="pre">correction</span></tt> : if checked, the DOS1 atmospheric correction is applied to all the bands (thermal bands excluded);</li>
+<li>☑ <tt class="docutils literal"><span class="pre">Use</span> <span class="pre">No</span> <span class="pre">data</span> <span class="pre">value</span></tt> : if checked, No data values are not counted during the DOS1 calculation of DNmin (for more information about the Landsat conversion to TOA and DOS1 correction, see <a class="reference internal" href="Landsat_conversion.html#landsat-conversion-to-reflectance"><em>Landsat image conversion to reflectance and DOS1 atmospheric correction</em></a>);</li>
+<li>[ <tt class="docutils literal"><span class="pre">Perform</span> <span class="pre">conversion</span></tt> ]: convert Landsat bands and save them in the output directory.</li>
+</ul>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Landsat_conversion.html">1. Landsat image conversion to reflectance and DOS1 atmospheric correction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Landsat_conversion.html#conversion-to-at-satellite-brightness-temperature">2. Conversion to At-Satellite Brightness Temperature</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="post-processing-tab">
+<span id="id12"></span><h2><a class="toc-backref" href="#id35">3.3.3. Post processing tab</a><a class="headerlink" href="#post-processing-tab" title="Permalink to this headline">¶</a></h2>
+<p>The <tt class="docutils literal"><span class="pre">Post</span> <span class="pre">processing</span></tt> tab provides the abilities to perform the <tt class="docutils literal"><span class="pre">Accuracy</span> <span class="pre">assessment</span></tt> (by GRASS GIS <tt class="docutils literal"><span class="pre">r.kappa</span></tt>), comparing a classification to a reference shapefile, and to calculate the <tt class="docutils literal"><span class="pre">Land</span> <span class="pre">cover</span> <span class="pre">change</span></tt> (by SAGA GIS <tt class="docutils literal"><span class="pre">change</span> <span class="pre">detection</span></tt>) between two classifications. Also, the <tt class="docutils literal"><span class="pre">Classification</span></tt> report allows for the calculation of class statistics in pixel, percentage and area.</p>
+<div class="section" id="accuracy-tab">
+<span id="id13"></span><h3><a class="toc-backref" href="#id36">3.3.3.1. Accuracy tab</a><a class="headerlink" href="#accuracy-tab" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/accuracy_tab.jpg" src="_images/accuracy_tab.jpg" />
+<div class="section" id="error-matrix-input">
+<span id="id14"></span><h4>3.3.3.1.1. Error Matrix Input<a class="headerlink" href="#error-matrix-input" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>⇓ <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">the</span> <span class="pre">classification</span> <span class="pre">to</span> <span class="pre">assess</span></tt> ⇓: select a classification raster;</li>
+<li>⇓ <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">the</span> <span class="pre">reference</span> <span class="pre">shapefile</span></tt> ⇓: select a shapefile, used as reference layer (ground truth) for the accuracy assessment;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Calculate</span> <span class="pre">error</span> <span class="pre">matrix</span></tt> ]: calculate the error matrix, that will be displayed in this tab;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Save</span> <span class="pre">error</span> <span class="pre">matrix</span> <span class="pre">to</span> <span class="pre">file</span></tt> ]: save error matrix to a text file.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="land-cover-change-tab">
+<span id="id15"></span><h3><a class="toc-backref" href="#id37">3.3.3.2. Land cover change tab</a><a class="headerlink" href="#land-cover-change-tab" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/land_cover_change_tab.jpg" src="_images/land_cover_change_tab.jpg" />
+<div class="section" id="classification-input">
+<span id="id16"></span><h4>3.3.3.2.1. Classification input<a class="headerlink" href="#classification-input" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>⇓ <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">the</span> <span class="pre">reference</span> <span class="pre">classification</span></tt> ⇓: select a reference classification raster;</li>
+<li>⇓ <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">the</span> <span class="pre">new</span> <span class="pre">classification</span></tt> ⇓: select a new classification raster, to be compared with the reference classification;</li>
+<li>☑ <tt class="docutils literal"><span class="pre">Report</span> <span class="pre">unchanged</span> <span class="pre">pixels</span></tt>: if checked, report also unchanged pixels;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Calculate</span> <span class="pre">land</span> <span class="pre">cover</span> <span class="pre">change</span></tt> ]: save the land cover change raster to a .tif file, and a .csv table containing statistics in the same folder and with the same name defined for the .tif file.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="classification-report-tab">
+<span id="id17"></span><h3><a class="toc-backref" href="#id38">3.3.3.3. Classification report tab</a><a class="headerlink" href="#classification-report-tab" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/classification_report_tab.jpg" src="_images/classification_report_tab.jpg" />
+<div class="section" id="classification-input2">
+<span id="id18"></span><h4>3.3.3.3.1. Classification input<a class="headerlink" href="#classification-input2" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>⇓ <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">the</span> <span class="pre">classification</span></tt> ⇓: select a classification raster;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Refresh</span> <span class="pre">list</span></tt> ]: refresh raster list;</li>
+<li>☑ <tt class="docutils literal"><span class="pre">Use</span> <span class="pre">No</span> <span class="pre">data</span> <span class="pre">value</span></tt> : if checked, No data values are not counted in the report;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Calculate</span> <span class="pre">classification</span> <span class="pre">report</span></tt> ]: calculate the report and show it;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Save</span> <span class="pre">report</span> <span class="pre">to</span> <span class="pre">file</span></tt> ]: save the report in a .csv file.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="band-set-tab">
+<span id="id19"></span><h2><a class="toc-backref" href="#id39">3.3.4. Band set tab</a><a class="headerlink" href="#band-set-tab" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/band_set_tab.jpg" src="_images/band_set_tab.jpg" />
+<div class="section" id="band-list">
+<span id="id20"></span><h3><a class="toc-backref" href="#id40">3.3.4.1. Band list</a><a class="headerlink" href="#band-list" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[ <tt class="docutils literal"><span class="pre">Refresh</span> <span class="pre">list</span></tt> ]: refresh raster band list;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">all</span></tt> ]: select all raster bands;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Add</span> <span class="pre">rasters</span> <span class="pre">to</span> <span class="pre">set</span></tt> ]: add selected rasters to the band set; the band set is stored in the QGIS project.</li>
+</ul>
+</div>
+<div class="section" id="band-set-definition">
+<span id="id21"></span><h3><a class="toc-backref" href="#id41">3.3.4.2. Band set definition</a><a class="headerlink" href="#band-set-definition" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[ <tt class="docutils literal"><span class="pre">Clear</span> <span class="pre">all</span></tt> ]: clear all bands from band set;</li>
+<li>[ ↑ ]: move selected bands upward;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Remove</span> <span class="pre">band</span></tt> ]: remove selected bands from the band set;</li>
+<li>[ ↓ ]: move selected bands downward;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Import</span></tt> ]: import a previously saved band set from file;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Export</span></tt> ]: export the band set to a file.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="settings-tab">
+<span id="id22"></span><h2><a class="toc-backref" href="#id42">3.3.5. Settings tab</a><a class="headerlink" href="#settings-tab" title="Permalink to this headline">¶</a></h2>
+<p>The <tt class="docutils literal"><span class="pre">Settings</span></tt> tab allows for the name customization of the training shapefile&#8217;s required fields, which is useful for using any existing shapefile containing training polygons.
+Also, the Settings tab contains debugging utilities for testing the installation of the several dependencies (SAGA GIS, GRASS GIS) and for the creation a log file.</p>
+<img alt="_images/settings_tab.jpg" src="_images/settings_tab.jpg" />
+<div class="section" id="field-names-of-training-shapefile">
+<span id="field-names-training-shapefile"></span><h3><a class="toc-backref" href="#id43">3.3.5.1. Field names of training shapefile</a><a class="headerlink" href="#field-names-of-training-shapefile" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[ <tt class="docutils literal"><span class="pre">Macroclass</span> <span class="pre">ID</span> <span class="pre">field</span></tt> ]: name of the Macroclass ID field (default is <tt class="docutils literal"><span class="pre">Macro_ID</span></tt>);</li>
+<li>[ <tt class="docutils literal"><span class="pre">Class</span> <span class="pre">ID</span> <span class="pre">field</span></tt> ]: name of the ID field (default is <tt class="docutils literal"><span class="pre">ID_class</span></tt>);</li>
+<li>[ <tt class="docutils literal"><span class="pre">Information</span> <span class="pre">field</span></tt> ]: name of the Information field (default is <tt class="docutils literal"><span class="pre">ROI_info</span></tt>);</li>
+<li>[ <tt class="docutils literal"><span class="pre">Reset</span> <span class="pre">field</span> <span class="pre">names</span></tt> ]: reset field names to default.</li>
+</ul>
+</div>
+<div class="section" id="roi-style">
+<span id="id23"></span><h3><a class="toc-backref" href="#id44">3.3.5.2. ROI style</a><a class="headerlink" href="#roi-style" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>[ <tt class="docutils literal"><span class="pre">Change</span> <span class="pre">colour</span></tt> ]: change ROI colour; this configuration is stored in the QGIS registry;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Reset</span> <span class="pre">ROI</span> <span class="pre">style</span></tt> ]: reset ROI colour and transparency to default;</li>
+<li>[- <tt class="docutils literal"><span class="pre">Transparency</span></tt> -]: change ROI transparency; this configuration is stored in the QGIS registry.</li>
+</ul>
+</div>
+<div class="section" id="spectral-signature">
+<span id="id24"></span><h3><a class="toc-backref" href="#id45">3.3.5.3. Spectral signature</a><a class="headerlink" href="#spectral-signature" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>&lt; <tt class="docutils literal"><span class="pre">Plot</span> <span class="pre">legend</span> <span class="pre">Max</span> <span class="pre">number</span> <span class="pre">of</span> <span class="pre">characters</span></tt> &gt;: limit the text length of ROIs&#8217; names in the spectral plot legend.</li>
+</ul>
+</div>
+<div class="section" id="language">
+<span id="id25"></span><h3><a class="toc-backref" href="#id46">3.3.5.4. Language</a><a class="headerlink" href="#language" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>☑ <tt class="docutils literal"><span class="pre">English</span></tt> : default language is English; if unchecked, the plugin is set to local language if available.</li>
+</ul>
+</div>
+<div class="section" id="ram">
+<span id="id26"></span><h3><a class="toc-backref" href="#id47">3.3.5.5. RAM</a><a class="headerlink" href="#ram" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>&lt; <tt class="docutils literal"><span class="pre">Available</span> <span class="pre">RAM</span> <span class="pre">(MB)</span></tt> &gt;: set the available RAM (in MB) that will be used during the processes; this configuration is stored in the QGIS registry.</li>
+</ul>
+</div>
+<div class="section" id="debug">
+<span id="id27"></span><h3><a class="toc-backref" href="#id48">3.3.5.6. Debug</a><a class="headerlink" href="#debug" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>☑ <tt class="docutils literal"><span class="pre">Records</span> <span class="pre">events</span> <span class="pre">in</span> <span class="pre">a</span> <span class="pre">log</span> <span class="pre">file</span></tt> : start recording events in a log file (saved in the user folder in <tt class="docutils literal"><span class="pre">.qgis/python/plugins/SemiAutomaticClassificationPlugin/__0semiautomaticclass.log</span></tt> ); this configuration is stored in the QGIS registry;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Clear</span> <span class="pre">log</span> <span class="pre">file</span> <span class="pre">content</span></tt> ]: clear the content of log file;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Test</span> <span class="pre">SAGA</span> <span class="pre">GIS</span></tt> ]: test if SAGA GIS is properly installed and configured;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Test</span> <span class="pre">GRASS</span> <span class="pre">GIS</span></tt> ]: test if GRASS GIS is properly installed and configured;</li>
+<li>[ <tt class="docutils literal"><span class="pre">Test</span> <span class="pre">QGIS</span> <span class="pre">geoalgorithms</span></tt> ]: test if QGIS geoalgorithms are properly configured.</li>
+</ul>
+<p>The following is a video about the Post processing tab:</p>
+<p><a class="reference external" href="http://www.youtube.com/embed/B6zElHi2Pnk?rel=0&amp;amp;start=764">http://www.youtube.com/embed/B6zElHi2Pnk?rel=0&amp;amp;start=764</a></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Landsat_conversion.html" title="1. Landsat image conversion to reflectance and DOS1 atmospheric correction"
+             >next</a></li>
+        <li class="right" >
+          <a href="classification_dock.html" title="3.2. Classification dock"
+             >previous</a> |</li>
+        <li><a href="index.html">Semi-Automatic Classification Plugin 2.5.0 documentation</a> &raquo;</li>
+          <li><a href="Interface.html" >3. The Interface</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Luca Congedo.
+    </div>
+  </body>
+</html>

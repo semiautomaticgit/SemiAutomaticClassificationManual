@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>2. Semi-Automatic OS &mdash; Semi-Automatic Classification Plugin 2.5.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static//default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.5.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="top" title="Semi-Automatic Classification Plugin 2.5.0 documentation" href="index.html" />
+    <link rel="next" title="3. The Interface" href="Interface.html" />
+    <link rel="prev" title="4. Installation in Mac OS" href="installation_mac.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Interface.html" title="3. The Interface"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="installation_mac.html" title="4. Installation in Mac OS"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Semi-Automatic Classification Plugin 2.5.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="semi-automatic-os">
+<span id="id1"></span><h1>2. Semi-Automatic OS<a class="headerlink" href="#semi-automatic-os" title="Permalink to this headline">¶</a></h1>
+<p>The Semi-Automatic OS is a lightweight virtual machine for the land cover classification of remote sensing images. It includes the Semi-Automatic Classification Plugin for QGIS 2.2, already configured along with all the required dependencies (SAGA GIS, GDAL, Numpy, SciPy and Matplotlib).</p>
+<div class="figure align-center">
+<img alt="_images/Semi-Automatic_OS.jpg" src="_images/Semi-Automatic_OS.jpg" />
+<p class="caption"><em class="guilabel">Semi-Automatic OS desktop</em></p>
+</div>
+<p>The Semi-Automatic OS is based on <a class="reference external" href="http://www.ubuntu.com/">Ubuntu</a> 13.10 32-bit, and it is designed to require very little hardware resources. It uses <a class="reference external" href="http://lxde.org/">LXDE</a> and <a class="reference external" href="http://openbox.org/">Openbox</a> as main desktop environment.
+This virtual machine can be useful for testing the Semi-Automatic Classification Plugin, or when the installation of the required programs in the host system is problematic.
+<br />
+At the moment, the Semi-Automatic OS is available as a virtual machine. The latest version is downloadable here (about 500 MB). It is a .vmdk file (about 2.3 GB when extracted) that can be run in the open source VirtualBox, or any other virtualization program.
+The desktop includes a sample Landsat 8 dataset available from the U.S. Geological Survey.
+<br />
+The following is a guide for the installation of the Semi-Automatic OS in the open source program of virtualization <a class="reference external" href="https://www.virtualbox.org/">VirtualBox</a>.</p>
+<p>The main installation steps are:</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Download VirtualBox open source software from here (select a proper version depending on your OS) and install it; at the end of the installation restart the system;</p>
+</li>
+<li><p class="first">Download the Semi-Automatic OS virtual machine (about 500 MB) from here;</p>
+</li>
+<li><p class="first">Extract the virtual machine content in a directory (it requires about 2.3 GB of disk space); the file is compressed in 7z format (if needed, download the open source extraction software from <a class="reference external" href="http://www.7-zip.org/">http://www.7-zip.org/</a>);</p>
+</li>
+<li><p class="first">Run VirtualBox and create a new Ubuntu virtual machine;</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Click the New button;</p>
+</li>
+<li><p class="first">Type a name for the virtual machine (for instance Semi-Automatic OS); select Linux and Ubuntu as Type and Version respectively; click Next;</p>
+<blockquote>
+<div><img alt="_images/v1.jpg" src="_images/v1.jpg" />
+</div></blockquote>
+</li>
+<li><p class="first">Set the memory size; the more is the better, but this parameter should not exceed a half of he host system RAM (for instance if the host system has 1 GB of RAM, type 512 MB); click Next;</p>
+<blockquote>
+<div><img alt="_images/v2.jpg" src="_images/v2.jpg" />
+</div></blockquote>
+</li>
+<li><p class="first">In the Hard drive settings select Use an existing virtual hard drive file and select the downloaded file SemiAutomaticOS.vmdk; click Create;</p>
+<blockquote>
+<div><img alt="_images/v3.jpg" src="_images/v3.jpg" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">Start the Semi-Automatic OS by clicking the Start button;</p>
+</li>
+<li><p class="first">It is recommended to install the virtualbox-guest-utils in the virtual machine, from the Menu &gt; Preferences &gt; Synaptic Package Manager; it allows for a better integration of the Semi-Automatic OS in the host system, such as: the resize of the system window, or the folder sharing.</p>
+</li>
+</ol>
+</div></blockquote>
+<p><strong>Attention!</strong> If the virtual machine cannot access to internet, double click the script virtualbox_network.sh that is on the Desktop, and click Execute.</p>
+<p><br />
+The Semi-Automatic OS includes a sample dataset (Landsat 8 images available from the U.S. Geological Survey) that can be used for testing purposes.</p>
+<p><br />
+Semi-Automatic OS is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License.
+Semi-Automatic OS is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details. See <a class="reference external" href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Interface.html" title="3. The Interface"
+             >next</a></li>
+        <li class="right" >
+          <a href="installation_mac.html" title="4. Installation in Mac OS"
+             >previous</a> |</li>
+        <li><a href="index.html">Semi-Automatic Classification Plugin 2.5.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Luca Congedo.
+    </div>
+  </body>
+</html>

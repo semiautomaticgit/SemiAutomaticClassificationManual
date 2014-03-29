@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4. Tutorials &mdash; Semi-Automatic Classification Plugin 2.5.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static//default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.5.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="top" title="Semi-Automatic Classification Plugin 2.5.0 documentation" href="index.html" />
+    <link rel="prev" title="1. Landsat image conversion to reflectance and DOS1 atmospheric correction" href="Landsat_conversion.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Landsat_conversion.html" title="1. Landsat image conversion to reflectance and DOS1 atmospheric correction"
+             accesskey="P">previous</a></li>
+        <li><a href="index.html">Semi-Automatic Classification Plugin 2.5.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="tutorials">
+<span id="id1"></span><h1>4. Tutorials<a class="headerlink" href="#tutorials" title="Permalink to this headline">¶</a></h1>
+<p>The following is a basic tutorial about the use of the Semi-Automatic Classification Plugin. However, visit the blog <a class="reference external" href="http://fromgistors.blogspot.com/search/label/Tutorial">From GIS to Remote Sensing</a> for new and updated tutorials such as:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://fromgistors.blogspot.com/2014/01/estimation-of-land-surface-temperature.html">Estimation of Land Surface Temperature with Landsat Thermal Infrared Band</a>;</li>
+<li><a class="reference external" href="http://fromgistors.blogspot.com/2014/01/land-cover-classification-of-cropland.html">Land Cover Classification of Cropland</a>.</li>
+</ul>
+<p>In this tutorial we are going to classify a Landsat image (single band rasters). Download the <a class="reference external" href="http://hub.qgis.org/attachments/download/5930/Sample_data_Landat8_bands.zip">sample dataset</a>, which is a Landsat 8 image (a subset acquired in the South of Rome, Italy) available from the U.S. Geological Survey. The following bands (each band is a single 16 bit raster) are included in the file:</p>
+<ul class="simple">
+<li>2 - Blue;</li>
+<li>3 - Green;</li>
+<li>4 - Red;</li>
+<li>5 - Near-Infrared;</li>
+<li>6 - Short Wavelength Infrared 1;</li>
+<li>7 - Short Wavelength Infrared 2.</li>
+</ul>
+<p>The Semi-Automatic Classification Plugin uses SAGA GIS for the classification process. The SAGA algorithms work only with single band images as input. Therefore, if input is a multi band raster (i.e. a single image file made of several bands), the Semi-Automatic Classification Plugin automatically splits the input file to single band rasters, which takes some time depending on raster size. In order to optimize the classification process (especially for hyperspectral images), it is preferable to use single band rasters, or split the image file to single bands, as explained <a class="reference external" href="http://fromgistors.blogspot.com/2013/07/working-with-multispectral-bands-in-qgis.html">here (point 1)</a> .</p>
+<div class="section" id="define-the-inputs">
+<span id="define-inputs"></span><h2>4.1. Define the inputs<a class="headerlink" href="#define-the-inputs" title="Permalink to this headline">¶</a></h2>
+<p>Required inputs are a multi band raster or single band rasters, and a training shapefile for ROI creation. In this tutorial we are going to create a band set.</p>
+<ul class="simple">
+<li>Start QGIS and load the raster bands; create a color composite (RGB=543) of the sample data, which is useful for the photo interpretation, as explained <a class="reference external" href="http://fromgistors.blogspot.com/2013/07/land-cover-classification-update.html">here (point 2)</a>; start the Semi-Automatic Classification Plugin (if the docks of the are not displayed, click the button Show docks in the main plugin interface);</li>
+</ul>
+<img alt="_images/t1.jpg" src="_images/t1.jpg" />
+<ul class="simple">
+<li>In the plugin dock ROI creation click the button Band set besideSelect an image; the tab Band set will open; click the button Select All, then Add rasters to set; under Band set definition, order the band names in ascending order, from top to bottom using the arrows (this is useful for the interpretation of spectral signatures);</li>
+</ul>
+<img alt="_images/t2.jpg" src="_images/t2.jpg" />
+<ul class="simple">
+<li>Now we need to create a training shapefile that will store ROIs (a polygon layer that requires two fields ID_class and ROI_info in the attribute table); in the dock ROI creation click the button New shapefile, and select where to save the shapefile (for instance ROI.shp).</li>
+</ul>
+<img alt="_images/t3.jpg" src="_images/t3.jpg" />
+<p><strong>Hint</strong>: in order to use any shapefile (having different field names for ID and Information) as training shapefile, it is possible to change the default field names in the tab Settings of the main interface, according to the existing field names. When needed, the plugin will add automatically other fields for the spectral signature calculation.</p>
+</div>
+<div class="section" id="create-rois">
+<span id="id2"></span><h2>4.2. Create ROIs<a class="headerlink" href="#create-rois" title="Permalink to this headline">¶</a></h2>
+<p>ROIs are polygons delimiting a certain land cover class, which are required to train the classification algorithm. Created ROIs are temporary polygons, which are placed inside the group Class_temp_group (added automatically if missing) in the Layers panel. This group should be moved to the bottom of the Layers panel; this way, only the last created ROI will be displayed over the image (the previous ROIs will be automatically hidden).</p>
+<ul class="simple">
+<li>In order to <strong>create a ROI</strong>, in the dock ROI creation click the button + beside Create a ROI (this activates the ROI pointer); ROIs are created by clicking on any pixel of the image; click on the dark area in the South, which is the Lake Albano (use the mouse scroll to zoom); after a few seconds the ROI polygon will appear over the image (a semitransparent orange polygon);</li>
+</ul>
+<img alt="_images/t4.jpg" src="_images/t4.jpg" />
+<ul class="simple">
+<li>It is possible to change the <strong>ROI creation parameters</strong>, in order to create a smaller or lager ROI; change the Min ROI size value to 100, and the Max ROI width value to 150; in order to <strong>create a ROI at the same point clicked before</strong>, click the button Redo ROI;</li>
+</ul>
+<img alt="_images/t5.jpg" src="_images/t5.jpg" />
+<ul class="simple">
+<li>Now, check Rapid ROI on band and click the button Redo ROI; this way, <strong>ROIs can be computed only on one selected band</strong>, saving time especially for hyperspectral images; change the value to 4 beside Rapid ROI on band, and click the button Redo ROI; as you can see, ROIs have different shapes depending on the selected band;</li>
+<li>Open the Settings tab of the main interface; under ROI style it is possible to <strong>change colour and transparency of created ROIs</strong> as you wish.</li>
+</ul>
+</div>
+<div class="section" id="save-the-rois-to-shapefile">
+<span id="save-rois"></span><h2>4.3. Save the ROIs to shapefile<a class="headerlink" href="#save-the-rois-to-shapefile" title="Permalink to this headline">¶</a></h2>
+<p>This step is required in order to save the created ROIs to the training shapefile.</p>
+<ul class="simple">
+<li>Under ROI definition type a brief description of the ROI inside the field Information (e.g. water); this description will not be used during the classification process, but it is useful for distinguishing ROIs; the field ID (i.e. identifier of the class) is used as reference for the land cover classification, therefore it is important that each category has a unique ID value; ROIs sharing the same ID are treated as a single ROI; now, leave the ID set to 1;</li>
+<li>If the checkbox Calculate signature is checked, then the <strong>ROI spectral signature</strong> is calculated while the ROI is saved; now, uncheck this checkbox (we are going to calculate it later, from the Spectral signature tab);</li>
+<li>In order to <strong>save the ROI to the training shapefile</strong> click the button Save ROI to shapefile;</li>
+<li>It is possible to <strong>delete the last saved ROI</strong> by clicking Undo save ROI.</li>
+</ul>
+<img alt="_images/t6.jpg" src="_images/t6.jpg" />
+</div>
+<div class="section" id="spectral-signature-plot">
+<span id="id3"></span><h2>4.4. Spectral signature plot<a class="headerlink" href="#spectral-signature-plot" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>In the plugin main interface, select the tab ROI tools &gt; Spectral signature, which displays the plots of selected ROIs, and select the item water; it is possible to <strong>calculate the ROI signature</strong> by clicking the button Calculate signature and confirming;</li>
+<li>If the checkox Plot σ is checked, then the plot will display the <strong>standard deviation</strong> of each ROI; you can pan and zoom through the plot using the navigation toolbar (provided by Matplotlib).</li>
+</ul>
+<img alt="_images/t7.jpg" src="_images/t7.jpg" />
+<p><strong>Hint</strong>: in the tab Settings of the main interface, it is possible to change the maximum number of characters for ROIs of the plot legend (which is 15 by default).</p>
+<img alt="_images/t8.jpg" src="_images/t8.jpg" />
+</div>
+<div class="section" id="scatter-plot">
+<span id="id4"></span><h2>4.5. Scatter plot<a class="headerlink" href="#scatter-plot" title="Permalink to this headline">¶</a></h2>
+<p>The <tt class="docutils literal"><span class="pre">Scatter</span> <span class="pre">plot</span></tt> tab allows for the calculation of the ROI scatter plots, which are useful to assess ROI separability choosing between two bands. Pixel values for two raster bands are represented as points in the 2D space.</p>
+</div>
+<div class="section" id="multiple-roi-creation-at-once">
+<span id="multiple-roi-creation"></span><h2>4.6. Multiple ROI creation at once<a class="headerlink" href="#multiple-roi-creation-at-once" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>It is possible to <strong>create automatically ROIs given a list of point coordinates</strong> (X, Y), class ID and ROI information (ROIs are created with the parameters defined in the dock ROI creation); select the ROI tools tab &gt; Multiple ROI creation and click Add point to add a new line where you can fill the required fields; now select the line (click the line number on the left) and click Remove highlighted points;</li>
+</ul>
+<img alt="_images/t9.jpg" src="_images/t9.jpg" />
+<ul class="simple">
+<li>It is also possible to <strong>import a list of points</strong>, maybe from field survey; download  <a class="reference external" href="http://hub.qgis.org/attachments/download/6176/sample_points.txt">this  text  file</a>,  click  the  button  Import  and  select  the downloaded file;</li>
+</ul>
+<img alt="_images/t10.jpg" src="_images/t10.jpg" />
+<ul class="simple">
+<li>In order to create and save the ROIs to the shapefile click Create and save ROIs (it takes some time, depending on the number of points).</li>
+</ul>
+<img alt="_images/t11.jpg" src="_images/t11.jpg" />
+</div>
+<div class="section" id="perform-a-classification-preview">
+<span id="classification-preview-2"></span><h2>4.7. Perform a classification preview<a class="headerlink" href="#perform-a-classification-preview" title="Permalink to this headline">¶</a></h2>
+<p>Classification preview is a rapid way to evaluate collected ROIs.</p>
+<ul class="simple">
+<li>It is possible to choose between several <strong>classification algorithms</strong> (Maximum Likelihood; Minimum Distance; Spectral Angle Mapping); now select Spectral Angle Mapping;</li>
+<li><strong>Algorithm threshold</strong> allows you to leave unclassified pixels that meet a certain rule: for Maximum Likelihood, pixels are unclassified if probability is less than threshold (max 100); for Minimum Distance, pixels are unclassified if distance is greater than threshold; for Spectral Angle Mapping, pixels are unclassified if spectral angle distance is greater than threshold (max 90);</li>
+<li><strong>Preview size</strong> is the side of the classification preview (in pixel unit); setSize to 300; click the button + under Classification preview and click on the image; similarly to the ROI, click the button Redo to perform another classification preview at the same point;</li>
+</ul>
+<img alt="_images/t12.jpg" src="_images/t12.jpg" />
+<ul class="simple">
+<li>Created ROIs are displayed in the ROI list; double click on any item to <strong>zoom to the corresponding ROI</strong> in the map; also, it is possible to <strong>delete selected ROIs</strong> using the button Delete selected ROIs.</li>
+</ul>
+<img alt="_images/t13.jpg" src="_images/t13.jpg" />
+</div>
+<div class="section" id="set-a-classification-style">
+<span id="classification-style-2"></span><h2>4.8. Set a classification style<a class="headerlink" href="#set-a-classification-style" title="Permalink to this headline">¶</a></h2>
+<p>It is useful to create a classification style with labels that will be loaded for every classification.</p>
+<ul class="simple">
+<li>In the panel Layers, left click on a classification preview and selectProperties; change the colours and labels of classes, according to the training ROIs; then, create click Save style ... to save the .qml file (e.g. style.qml);</li>
+<li>In the Classification dock, under Classification style click the button Select qml to select the file style.qml; the next classification will be loaded with this style.</li>
+</ul>
+<img alt="_images/t14.jpg" src="_images/t14.jpg" />
+<p><strong>Hint</strong>: after adding a new class to the training shapefile, repeat the above steps to overwrite the .qml file and update the classification style.</p>
+<p>A large number of ROIs is required for a good classification. Download this <a class="reference external" href="http://hub.qgis.org/attachments/download/6004/classification.zip">training shapefile</a> , which contains several ROIs, and load it in QGIS.</p>
+<ul class="simple">
+<li>The main output of a classification is a raster file .tif; click the button Perform  classification  and  select  where  to  save  the  output  (e.g. classification.tif);  use  the  classification  style  from this  <a class="reference external" href="http://hub.qgis.org/attachments/download/6004/classification.zip">file  zip</a> ;</li>
+</ul>
+<img alt="_images/t15.jpg" src="_images/t15.jpg" />
+<ul class="simple">
+<li>In  addition to this raster,  it  possible  to <strong>create the  shapefile  of  the classification</strong> by checking the checkbox Create vector; the shapefile will be saved with the same name and in the same directory of the .tif file (it takes some minutes for the vector creation, depending on your system spec);</li>
+</ul>
+<img alt="_images/t16.jpg" src="_images/t16.jpg" />
+<ul class="simple">
+<li>If the checkbox Calculate accuracy is checked, than the <strong>error matrix</strong> is calculated and saved as file .txt in the same directory of the .tif file (also, it is automatically displayed in the tab of the plugin main interface Post processing &gt; Accuracy); the error matrix is calculated by comparing the classification to the training shapefile used for the classification (see below Post processing tools);</li>
+<li>It is possible to <strong>apply a mask shapefile</strong> to the classification; download <a class="reference external" href="http://hub.qgis.org/attachments/download/6113/Mask_shapefile.zip">this  shapefile</a> ,  check  the  checkbox  Apply  mask  and  select  the downloaded  shapefile;  click  the  button  Perform  classification,  and  the classification will be saved along with the error matrix and the vector output.</li>
+</ul>
+<img alt="_images/t17.jpg" src="_images/t17.jpg" />
+</div>
+<div class="section" id="post-processing-tools">
+<span id="id5"></span><h2>4.9. Post processing tools<a class="headerlink" href="#post-processing-tools" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>It is possible to <strong>assess the classification accuracy</strong> (implemented by GRASS GIS), by comparing the classification to a reference shapefile (not necessarily the training shapefile); now, select the tab Post processing &gt; Accuracy of the plugin main interface; select theclassification.tif beside Select a classification to assess and select the ROI shapefile beside Select the reference shapefile; then click the button Calculate error matrix and the matrix will be displayed; you can save the error matrix by clicking the button Save error matrix to file;</li>
+</ul>
+<img alt="_images/t18.jpg" src="_images/t18.jpg" />
+<ul class="simple">
+<li>It is useful to <strong>calculate the land cover change</strong> (through GDAL and Numpy) between a  reference  classification  raster  and  a  new  classification  raster;  download  <a class="reference external" href="http://hub.qgis.org/attachments/download/6180/reference_classification.zip">this classification</a> (pretend this is the last year classification); select the tab Post processing &gt; Land cover change of the plugin main interface, select the downloaded classification  as  reference  classification,  and  the  classification.tif  as  the  new classification; click the button Calculate land cover change and select where to save the raster of changes and the related table (i.e. a file .csv, whose values are separated by tab); pixel values of the raster of changes (ChangeCode) are described in the table, and each value represent a class of change from the reference classification to the new classification;</li>
+</ul>
+<img alt="_images/t19.jpg" src="_images/t19.jpg" />
+<p><br /></p>
+<img alt="_images/t20.jpg" src="_images/t20.jpg" />
+<ul class="simple">
+<li>If the checkbox Mask unchanged pixel is checked, then unchanged pixels will have a value of 0 (Unclassified).</li>
+</ul>
+<img alt="_images/t21.jpg" src="_images/t21.jpg" />
+<p><br /></p>
+<img alt="_images/t22.jpg" src="_images/t22.jpg" />
+</div>
+<div class="section" id="advanced-settings">
+<span id="id6"></span><h2>4.10. Advanced settings<a class="headerlink" href="#advanced-settings" title="Permalink to this headline">¶</a></h2>
+<p>It is worth mentioning also other <strong>advanced settings</strong>:</p>
+<ul class="simple">
+<li>In the tab Settings of the plugin main interface it is possible to <strong>set the RAM used for processing</strong>; set the Available RAM according to your computer spec (in general, half of the system RAM is a good value);</li>
+<li>if the checkbox Record events in a Log file is checked a Log file is created and updated during the processes; the Log file is saved in the plugin directory (located  inside  your  user/home  directory, <tt class="docutils literal"><span class="pre">.qgis2/python/plugins/SemiAutomaticClassificationPlugin</span></tt>),  with  the  name <tt class="docutils literal"><span class="pre">__0semiautomaticclass.log</span></tt>;</li>
+<li>several buttons allow for the testing of program installation such as: SAGA GIS, GRASS GIS, and QGIS geoalgorithms;</li>
+</ul>
+<img alt="_images/t23.jpg" src="_images/t23.jpg" />
+<p>For more and updated tutorials please visit <a class="reference external" href="http://fromgistors.blogspot.com">http://fromgistors.blogspot.com</a> .</p>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Landsat_conversion.html" title="1. Landsat image conversion to reflectance and DOS1 atmospheric correction"
+             >previous</a></li>
+        <li><a href="index.html">Semi-Automatic Classification Plugin 2.5.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Luca Congedo.
+    </div>
+  </body>
+</html>

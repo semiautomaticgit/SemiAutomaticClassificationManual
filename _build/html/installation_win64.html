@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>2. Installation in Windows 64 bit &mdash; Semi-Automatic Classification Plugin 2.5.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static//default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.5.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="top" title="Semi-Automatic Classification Plugin 2.5.0 documentation" href="index.html" />
+    <link rel="up" title="1. Plugin Installation" href="Installation.html" />
+    <link rel="next" title="3. Installation in Ubuntu Linux" href="installation_ubuntu.html" />
+    <link rel="prev" title="1. Installation in Windows 32 bit" href="installation_win32.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="installation_ubuntu.html" title="3. Installation in Ubuntu Linux"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="installation_win32.html" title="1. Installation in Windows 32 bit"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Semi-Automatic Classification Plugin 2.5.0 documentation</a> &raquo;</li>
+          <li><a href="Installation.html" accesskey="U">1. Plugin Installation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="installation-in-windows-64-bit">
+<span id="installation-win64"></span><h1>2. Installation in Windows 64 bit<a class="headerlink" href="#installation-in-windows-64-bit" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="qgis-download-and-installation">
+<span id="qgis-installation-win64bit"></span><h2>2.1. QGIS download and installation<a class="headerlink" href="#qgis-download-and-installation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Download the latest QGIS version 64 bit from <a class="reference external" href="http://www.qgis.org/en/site/forusers/download.html">here</a> (the direct download of QGIS 2.2 from this <a class="reference external" href="http://qgis.org/downloads/QGIS-OSGeo4W-2.2.0-1-Setup-x86_64.exe">link</a>);</li>
+<li>Execute the QGIS installer with administrative rights, accepting the default configuration.</li>
+</ul>
+<p>Now, QGIS 2 is installed.</p>
+<img alt="_images/QGIS.jpg" src="_images/QGIS.jpg" />
+</div>
+<div class="section" id="scipy-installation">
+<span id="scipy-installation-win64bit"></span><h2>2.2. SciPy installation<a class="headerlink" href="#scipy-installation" title="Permalink to this headline">¶</a></h2>
+<p>The SciPy package is not included in the 64 bit version of QGIS. Therefore:</p>
+<ul>
+<li><p class="first">Download scipy-0.13.3.win-amd64-py2.7.exe for Windows 64 bit <a class="reference external" href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy">from here</a> (provided by Christoph Gohlke, Laboratory for Fluorescence Dynamics, University of California, Irvine).</p>
+</li>
+<li><p class="first">Extract the file scipy-0.13.3.win-amd64-py2.7.exe with <a class="reference external" href="http://www.7-zip.org/">7-zip</a> in a temporary directory;</p>
+</li>
+<li><p class="first">Copy all the files contained in the PLATLIB directory inside the QGIS directory, which should be:</p>
+<div class="highlight-python"><div class="highlight"><pre>C:\Program Files\QGIS Valmiera\apps\Python27\Lib\site-packages
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="semi-automatic-classification-plugin-installation">
+<span id="plugin-installation-win64bit"></span><h2>2.3. Semi-Automatic Classification Plugin installation<a class="headerlink" href="#semi-automatic-classification-plugin-installation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Run QGIS 2;</li>
+<li>From the main menu, select Plugins &gt; Manage and Install Plugins;</li>
+</ul>
+<img alt="_images/install.jpg" src="_images/install.jpg" />
+<ul class="simple">
+<li>From the All menu, select the Semi-Automatic Classification Plugin and click the button Install plugin;</li>
+</ul>
+<img alt="_images/plugins.jpg" src="_images/plugins.jpg" />
+<ul class="simple">
+<li>The plugin should be automatically activated; however, be sure that the Semi-Automatic Classification Plugin and Processing are checked in the Installed menu.</li>
+</ul>
+<img alt="_images/plugins_installed.jpg" src="_images/plugins_installed.jpg" />
+</div>
+<div class="section" id="configuration-of-the-processing-plugin">
+<span id="plugin-configuration-win64bit"></span><h2>2.4. Configuration of the Processing plugin<a class="headerlink" href="#configuration-of-the-processing-plugin" title="Permalink to this headline">¶</a></h2>
+<p>This configuration is required because SAGA GIS needs to be activated in the Processing framework of QGIS 2.</p>
+<ul class="simple">
+<li>Select the menu Processing &gt; Options and configuration;</li>
+</ul>
+<img alt="_images/conf.jpg" src="_images/conf.jpg" />
+<ul class="simple">
+<li>Click the + symbol beside Providers, and click the symbol + beside SAGA;</li>
+</ul>
+<img alt="_images/processing_SAGA.jpg" src="_images/processing_SAGA.jpg" />
+<ul>
+<li><dl class="first docutils">
+<dt>SAGA should be already configured. However, verify the following settings:</dt>
+<dd><ol class="first last arabic">
+<li><p class="first">The checkbox Activate is checked;</p>
+</li>
+<li><p class="first">Important! Because SAGA 2.0.8 was installed, the checkbox Enable SAGA 2.0.8 compatibility must be checked; if SAGA 2.1.0 was installed then it must be unchecked;</p>
+</li>
+<li><p class="first">The path in SAGA folder points to:</p>
+<div class="highlight-python"><div class="highlight"><pre>C:/PROGRA~1/QGISVA~1/apps\saga
+</pre></div>
+</div>
+</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Now, the Semi-Automatic Classification Plugin is installed and configured. The plugin is available under the Raster menu of QGIS, or you can click the icon <img alt="logo" src="_images/favicon.ico" /> in the main interface (if the raster menu is activated).</p>
+<img alt="_images/activated.jpg" src="_images/activated.jpg" />
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="installation_ubuntu.html" title="3. Installation in Ubuntu Linux"
+             >next</a></li>
+        <li class="right" >
+          <a href="installation_win32.html" title="1. Installation in Windows 32 bit"
+             >previous</a> |</li>
+        <li><a href="index.html">Semi-Automatic Classification Plugin 2.5.0 documentation</a> &raquo;</li>
+          <li><a href="Installation.html" >1. Plugin Installation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Luca Congedo.
+    </div>
+  </body>
+</html>

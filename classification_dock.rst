@@ -9,7 +9,6 @@ Classification dock
  <br />
 
 .. image:: _static/Semi-Automatic_Classification.jpg
-	:align: right
 
 The Classification dock implements the process of **classification** of the image (or only a preview), with several functions for **vector output**, **accuracy assessment** and **classification reports**.
 
@@ -24,10 +23,6 @@ A classification style (i.e. a .qml file) can be used for classifications and pr
 For each classification, a .tif file is created, with a .csv file which contains the spectral statistics of land cover classes.
 
 Also, it is possible to create automatically the vector output of the classification (a shapefile), calculate the classification accuracy, and apply a mask to the land cover classification (using a polygon shapefile).
-
-.. container:: clearer
-
-	|br|
 	
 .. _roi_list:
  

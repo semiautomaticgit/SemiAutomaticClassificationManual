@@ -9,7 +9,6 @@ ROI Creation dock
  <br />
 
 .. image:: _static/Semi-Automatic_ROI_creation.jpg
-	:align: right
 	
 The ROI creation dock is designed for the definition of an **input** image (which can be a single multiband raster or set of single band rasters) and a **training shapefile**, and for the creation of **ROIs** using a **region growing** algorithm or **manual drawing**.
 
@@ -23,10 +22,6 @@ A macroclass is a group of ROIs having different Class ID, which is useful when 
 The use of the Macroclass ID for classifications is defined with the option ``Use Macroclass ID`` in the :ref:`classification_dock`. If the option ``Use Macroclass ID`` is unchecked, then the classification is performed using the ID class only (e.g. grass and trees are classified as class 1 and 2 respectively).
 If one does not need macroclasses, simply assign the same Macroclass ID to all ROIs (e.g. 1) and uncheck the option ``Use Macroclass ID``.
 Each Class ID must be assigned to only one Macroclass ID (i.e. each class can have only one macroclass), but several Class IDs can be assigned to the same Macroclass ID (i.e. different classes can have the same macroclass). Of course, several ROIs can share the same Class ID.
-
-.. container:: clearer
-
-	|br|
 	
 .. _Input:
  

@@ -1,0 +1,468 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-12 10:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Landsat_conversion.rst:5
+msgid ""
+"Landsat image conversion to reflectance and DOS1 atmospheric correction"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:13
+msgid ""
+"Radiance is the \"flux of energy (primarily irradiant or incident energy) "
+"per solid angle leaving a unit surface area in a given direction\", "
+"\"Radiance is what is measured at the sensor and is somewhat dependent on "
+"reflectance\" (NASA, 2011, p. 47). The Spectral Radiance at the sensor's "
+"aperture (:math:`L_{\\lambda}`) is measured in [watts/(meter squared * ster "
+"* :math:`\\mu m`)] and for Landsat images it is given by "
+"(https://landsat.usgs.gov/Landsat8_Using_Product.php):"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:20 ../../Landsat_conversion.rst:31
+#: ../../Landsat_conversion.rst:45 ../../Landsat_conversion.rst:61
+#: ../../Landsat_conversion.rst:148 ../../Landsat_conversion.rst:158
+msgid "where:"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:22 ../../Landsat_conversion.rst:160
+msgid ""
+":math:`M_{L}` = Band-specific multiplicative rescaling factor from Landsat "
+"metadata (RADIANCE_MULT_BAND_x, where x is the band number)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:23 ../../Landsat_conversion.rst:161
+msgid ""
+":math:`A_{L}` = Band-specific additive rescaling factor from Landsat "
+"metadata (RADIANCE_ADD_BAND_x, where x is the band number)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:24 ../../Landsat_conversion.rst:162
+msgid ""
+":math:`Q_{cal}` = Quantized and calibrated standard product pixel values "
+"(DN)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:26
+msgid ""
+"\"For relatively clear Landsat scenes, a reduction in between-scene "
+"variability can be achieved through a normalization for solar irradiance by "
+"converting spectral radiance, as calculated above, to planetary reflectance "
+"or albedo. This combined surface and atmospheric reflectance of the Earth is"
+" computed with the following formula\" (NASA, 2011, p. 119):"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:33
+msgid ""
+":math:`\\rho_{p}` = Unitless planetary reflectance, which is \"the ratio of "
+"reflected versus total power energy” (NASA, 2011, p. 47)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:34
+msgid ""
+":math:`L_{\\lambda}` = Spectral radiance at the sensor's aperture (at-"
+"satellite radiance)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:35
+msgid ""
+":math:`d` = Earth-Sun distance in astronomical units (provided with Landsat "
+"8 metafile, and an excel file is available from "
+"http://landsathandbook.gsfc.nasa.gov/excel_docs/d.xls)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:36
+msgid ":math:`ESUN_{\\lambda}` = Mean solar exo-atmospheric irradiances"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:37
+msgid ""
+":math:`\\theta_{s}` = Solar zenith angle in degrees, which is equal to "
+":math:`\\theta_{s}` = 90° - :math:`\\theta_{e}` where :math:`\\theta_{e}` is"
+" the Sun elevation"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:39
+msgid ""
+"It is worth pointing out that Landsat 8 images are provided with  band-"
+"specific rescaling factors that allow for the direct conversion from DN to "
+"TOA reflectance. However, the effects of the atmosphere (i.e. a disturbance "
+"on the reflectance that varies with the wavelenght) should be considered in "
+"order to measure the refletance at the ground. As described by Moran et al. "
+"(1992), the land surface reflectance (:math:`\\rho`) is:"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:47
+msgid ":math:`L_{p}` is the path radiance"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:48
+msgid ""
+":math:`T_{v}` is the atmospheric transmittance in the viewing direction"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:49
+msgid ""
+":math:`T_{z}` is the atmospheric transmittance in the illumination direction"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:50
+msgid ":math:`E_{down}` is the downwelling diffuse irradiance"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:52
+msgid ""
+"Therefore, we need several atmospheric measurements in order to calculate "
+"\\rho (physically-based corrections). Alternatively, it is possible to use "
+"image-based techniques for the calculation of these parameters, without in-"
+"situ measurements during image acquisition."
+msgstr ""
+
+#: ../../Landsat_conversion.rst:54
+msgid ""
+"The Dark Object Subtraction (DOS) is a family of image-based atmospheric "
+"corrections. Chavez (1996) explains that \"the basic assumption is that "
+"within the image some pixels are in complete shadow and their radiances "
+"received at the satellite are due to atmospheric scattering (path radiance)."
+" This assumption is combined with the fact that very few targets on the "
+"Earth's surface are absolute black, so an assumed one-percent minimum "
+"reflectance is better than zero percent”. It is worth pointing out that the "
+"accuracy of image-based techniques is generally lower than physically-based "
+"corrections, but they are very useful when no atmospheric measurements are "
+"available as they can improve the estimation of land surface reflectance. "
+"The path radiance is given by (Sobrino, et al., 2004):"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:63
+msgid ""
+":math:`L_{min}` = \"radiance that corresponds to a digital count value for "
+"which the sum of all the pixels with digital counts lower or equal to this "
+"value is equal to the 0.01% of all the pixels from the image considered” "
+"(Sobrino, et al., 2004, p. 437), therefore the radiance obtained with that "
+"digital count value (:math:`DN_{min}`)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:64
+msgid ""
+":math:`L_{DO1\\%}` = radiance of Dark Object, assumed to have a reflectance "
+"value of 0.01"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:66
+msgid "Therfore for Landsat images:"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:72
+msgid "The radiance of Dark Object is given by (Sobrino, et al., 2004):"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:78 ../../Landsat_conversion.rst:91
+msgid "Therefore the path radiance is:"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:84
+msgid ""
+"There are several DOS techniques (e.g. DOS1, DOS2, DOS3, DOS4), based on "
+"different assumption about :math:`T_{v}`, :math:`T_{z}` , and "
+":math:`E_{down}` . The simplest technique is the DOS1, where the following "
+"assumptions are made (Moran et al., 1992):"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:87
+msgid ":math:`T_{v}` = 1"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:88
+msgid ":math:`T_{z}` = 1"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:89
+msgid ":math:`E_{down}` = 0"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:97
+msgid "And the resulting land surface reflectance is given by:"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:103
+msgid ""
+"ESUN [W /(m2 * :math:`\\mu m`)] values for Landsat sensors are provided in "
+"the following table."
+msgstr ""
+
+#: ../../Landsat_conversion.rst:106
+msgid "Band"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:106 ../../Landsat_conversion.rst:167
+msgid "Landsat 4*"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:106
+msgid "Landsat 5**"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:106 ../../Landsat_conversion.rst:167
+msgid "Landsat 7**"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:108
+msgid "1"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:108
+msgid "1957"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:108
+msgid "1983"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:108
+msgid "1997"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:110
+msgid "2"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:110
+msgid "1825"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:110
+msgid "1769"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:110
+msgid "1812"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:112
+msgid "3"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:112
+msgid "1557"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:112
+msgid "1536"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:112
+msgid "1533"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:114
+msgid "4"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:114
+msgid "1033"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:114
+msgid "1031"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:114
+msgid "1039"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:116
+msgid "5"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:116
+msgid "214.9"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:116
+msgid "220"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:116
+msgid "230.8"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:118
+msgid "7"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:118
+msgid "80.72"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:118
+msgid "83.44"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:118
+msgid "84.90"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:121 ../../Landsat_conversion.rst:174
+msgid "\\* from Chander & Markham (2003)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:123
+msgid "** from Finn, et al. (2012)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:125
+msgid ""
+"|br| For Landsat 8, :math:`ESUN` can be calculated as (from "
+"http://grass.osgeo.org/grass65/manuals/i.landsat.toar.html):"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:132
+msgid ""
+"where RADIANCE_MAXIMUM and REFLECTANCE_MAXIMUM are provided by image "
+"metadata."
+msgstr ""
+
+#: ../../Landsat_conversion.rst:134
+msgid "|br|"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:140
+msgid "Conversion to At-Satellite Brightness Temperature"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:142
+msgid ""
+"For Landsat thermal bands, the conversion of DN to At-Satellite Brightness "
+"Temperature is given by (from "
+"https://landsat.usgs.gov/Landsat8_Using_Product.php):"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:150
+msgid ""
+":math:`K_{1}` = Band-specific thermal conversion constant (in watts/meter "
+"squared * ster * :math:`\\mu m`)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:151
+msgid ":math:`K_{2}` = Band-specific thermal conversion constant (in kelvin)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:153
+msgid ""
+"and :math:`L_{\\lambda}` is the Spectral Radiance at the sensor's aperture, "
+"measured in watts/(meter squared * ster * :math:`\\mu m`); for Landsat "
+"images it is given by (from "
+"https://landsat.usgs.gov/Landsat8_Using_Product.php)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:164
+msgid ""
+"The :math:`K_{1}` and :math:`K_{2}` constant for Landsat sensors are "
+"provided in the following table:"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:167
+msgid "Constant"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:167
+msgid "Landsat 5*"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:169
+msgid ":math:`K_{1}` (watts/meter squared * ster * :math:`\\mu m`)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:169
+msgid "671.62"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:169
+msgid "607.76"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:169
+msgid "666.09"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:171
+msgid ":math:`K_{2}` (Kelvin)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:171
+msgid "1284.30"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:171
+msgid "1260.56"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:171
+msgid "1282.71"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:176
+msgid "** from NASA (2011)"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:178
+msgid ""
+"|br| For Landsat 8, the :math:`K_{1}` and :math:`K_{2}` values are provided "
+"in the image metafile."
+msgstr ""
+
+#: ../../Landsat_conversion.rst:181
+msgid "|br| **References**"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:184
+msgid ""
+"``Chander, G. & Markham, B. 2003. Revised Landsat-5 TM radiometric "
+"calibration procedures and postcalibration dynamic ranges Geoscience and "
+"Remote Sensing, IEEE Transactions on, 41, 2674 - 2677``"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:186
+msgid ""
+"``Chavez, P. S. 1996. Image-Based Atmospheric Corrections - Revisited and "
+"Improved Photogrammetric Engineering and Remote Sensing, [Falls Church, Va.]"
+" American Society of Photogrammetry, 62, 1025-1036``"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:188
+msgid ""
+"``Finn, M.P., Reed, M.D, and Yamamoto, K.H. 2012. A Straight Forward Guide "
+"for Processing Radiance and Reflectance for EO-1 ALI, Landsat 5 TM, Landsat "
+"7 ETM+, and ASTER. Unpublished Report from USGS/Center of Excellence for "
+"Geospatial Information Science, 8 p`` , "
+"http://cegis.usgs.gov/soil_moisture/pdf/A%20Straight%20Forward%20guide%20for%20Processing%20Radiance%20and%20Reflectance_V_24Jul12.pdf"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:190
+msgid ""
+"``Moran, M.; Jackson, R.; Slater, P. & Teillet, P. 1992. Evaluation of "
+"simplified procedures for retrieval of land surface reflectance factors from"
+" satellite sensor output Remote Sensing of Environment, 41, 169-184``"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:192
+msgid ""
+"``NASA (Ed.) 2011. Landsat 7 Science Data Users Handbook Landsat Project "
+"Science Office at NASA's Goddard Space Flight Center in Greenbelt, 186`` "
+"http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf"
+msgstr ""
+
+#: ../../Landsat_conversion.rst:194
+msgid ""
+"``Sobrino, J.; Jiménez-Muñoz, J. C. & Paolini, L. 2004. Land surface "
+"temperature retrieval from LANDSAT TM 5 Remote Sensing of Environment, "
+"Elsevier, 90, 434-440``"
+msgstr ""

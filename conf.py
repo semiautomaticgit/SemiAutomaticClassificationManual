@@ -96,6 +96,8 @@ pygments_style = 'sphinx'
 # If true, keep warnings as "system message" paragraphs in the built documents.
 #keep_warnings = False
 
+locale_dirs = ['locale/']
+gettext_compact = False
 
 # -- Options for HTML output ----------------------------------------------
 
@@ -253,8 +255,8 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'Semi-AutomaticClassificationPlugin', u'Semi-Automatic Classification Plugin Documentation',
-   u'Luca Congedo', 'Semi-AutomaticClassificationPlugin', 'One line description of project.',
-   'Miscellaneous'),
+   u'Luca Congedo', 'Semi-AutomaticClassificationPlugin', 'A plugin for semi-automatic supervised classifications.',
+   'GIS and Remote Sensing'),
 ]
 
 # Documents to append as an appendix to all manuals.

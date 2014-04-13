@@ -1,0 +1,693 @@
+#
+# Luca Congedo <ing.congedoluca@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-12 10:08+0200\n"
+"PO-Revision-Date: 2014-04-13 10:13+0200\n"
+"Last-Translator: Luca Congedo <ing.congedoluca@gmail.com>\n"
+"Language-Team: Italiano <ing.congedoluca@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../../Tutorials.rst:5
+msgid "Tutorials"
+msgstr "Tutorial"
+
+#: ../../Tutorials.rst:11
+msgid ""
+"The following is a basic tutorial about the use of the Semi-Automatic "
+"Classification Plugin. However, visit the blog `From GIS to Remote Sensing "
+"<http://fromgistors.blogspot.com/search/label/Tutorial>`_ for new and "
+"updated tutorials such as:"
+msgstr ""
+"Il seguente è un tutorial base sull'uso del Semi-Automatic Classification "
+"Plugin. Comunque, si consiglia di visitare il blog `From GIS to Remote "
+"Sensing <http://fromgistors.blogspot.com/search/label/Tutorial>`_ per nuovi "
+"ed aggiornati tutorial come:"
+
+#: ../../Tutorials.rst:13
+msgid ""
+"`Estimation of Land Surface Temperature with Landsat Thermal Infrared Band "
+"<http://fromgistors.blogspot.com/2014/01/estimation-of-land-surface-"
+"temperature.html>`_;"
+msgstr ""
+"`Stima della temperatura al suolo con la banda Landsat dell'infrarosso "
+"termico <http://fromgistors.blogspot.com/2014/01/estimation-of-land-surface-"
+"temperature.html>`_;"
+
+#: ../../Tutorials.rst:15
+msgid ""
+"`Land Cover Classification of Cropland <http://fromgistors.blogspot."
+"com/2014/01/land-cover-classification-of-cropland.html>`_."
+msgstr ""
+"`Classificazione della copertura del suolo in aree agricole <http://"
+"fromgistors.blogspot.com/2014/01/land-cover-classification-of-cropland."
+"html>`_."
+
+#: ../../Tutorials.rst:17
+msgid ""
+"In this tutorial we are going to classify a Landsat image (single band "
+"rasters). Download the `sample dataset <http://hub.qgis.org/attachments/"
+"download/5930/Sample_data_Landat8_bands.zip>`_, which is a Landsat 8 image "
+"(a subset acquired in the South of Rome, Italy) available from the U.S. "
+"Geological Survey. The following bands (each band is a single 16 bit raster) "
+"are included in the file:"
+msgstr ""
+"In questo tutorial classificheremo un'immagine Landsat (singole bande "
+"raster). Scaricare il `set di dati campione <http://hub.qgis.org/attachments/"
+"download/5930/Sample_data_Landat8_bands.zip>`_, che è un'immagine Landsat 8 "
+"(un subset acquisito nell'area a sud di Roma, Italia) fornita da U.S. "
+"Geological Survey. Le seguenti bande (ogni banda è un singolo raster a 16 "
+"bit) sono incluse nel file:"
+
+#: ../../Tutorials.rst:19
+msgid "2 - Blue;"
+msgstr "2 - Blu;"
+
+#: ../../Tutorials.rst:21
+msgid "3 - Green;"
+msgstr "3 - Verde;"
+
+#: ../../Tutorials.rst:23
+msgid "4 - Red;"
+msgstr "4 - Rosso;"
+
+#: ../../Tutorials.rst:25
+msgid "5 - Near-Infrared;"
+msgstr "5 - Vicino Infrarosso;"
+
+#: ../../Tutorials.rst:27
+msgid "6 - Short Wavelength Infrared 1;"
+msgstr "6 - Infrarosso ad Onde Corte 1;"
+
+#: ../../Tutorials.rst:29
+msgid "7 - Short Wavelength Infrared 2."
+msgstr "7 - Infrarosso ad Onde Corte 2."
+
+#: ../../Tutorials.rst:31
+msgid ""
+"The Semi-Automatic Classification Plugin uses SAGA GIS for the "
+"classification process. The SAGA algorithms work only with single band "
+"images as input. Therefore, if input is a multi band raster (i.e. a single "
+"image file made of several bands), the Semi-Automatic Classification Plugin "
+"automatically splits the input file to single band rasters, which takes some "
+"time depending on raster size. In order to optimize the classification "
+"process (especially for hyperspectral images), it is preferable to use "
+"single band rasters, or split the image file to single bands, as explained "
+"`here (point 1) <http://fromgistors.blogspot.com/2013/07/working-with-"
+"multispectral-bands-in-qgis.html>`_ ."
+msgstr ""
+"Semi-Automatic Classification Plugin usa SAGA GIS per il processo di "
+"classificazione. Gli algoritmi di SAGA funzionano solo con immagini a bande "
+"singole come input. Quindi, se l'input è un raster multibande (cioè un file "
+"di un'immagine singola composta da varie bande), Semi-Automatic "
+"Classification Plugin divide automaticamente il file di input in vari raster "
+"a bande singole, richiedendo quindi del tempo in base alle dimensioni del "
+"raster.Per ottimizzare il processo di classificazione (specialmente per "
+"immagini iperspettrali), è preferibile usare raster a bande singole, o "
+"separare il file dell'immagine in bande singole, come spiegato `qui (punto "
+"1) <http://fromgistors.blogspot.com/2013/07/working-with-multispectral-bands-"
+"in-qgis.html>`_ ."
+
+#: ../../Tutorials.rst:37
+msgid "Define the inputs"
+msgstr "Definizione degli input"
+
+#: ../../Tutorials.rst:39
+msgid ""
+"Required inputs are a multi band raster or single band rasters, and a "
+"training shapefile for ROI creation. In this tutorial we are going to create "
+"a band set."
+msgstr ""
+"Gli input necessari sono un raster multibande o raster a bande singole, ed "
+"uno shapefile di training per la creazione delle ROI. In questo tutorial "
+"creeremo un set di bande."
+
+#: ../../Tutorials.rst:41
+msgid ""
+"Start QGIS and load the raster bands; create a color composite (RGB=543) of "
+"the sample data, which is useful for the photo interpretation, as explained "
+"`here (point 2) <http://fromgistors.blogspot.com/2013/07/land-cover-"
+"classification-update.html>`_; start the Semi-Automatic Classification "
+"Plugin (if the docks of the are not displayed, click the button Show docks "
+"in the main plugin interface);"
+msgstr ""
+"Avviare QGIS e caricare le bande raster; creare un color composite (RGB=543) "
+"dei dati campione, che è utile per la fotointerpretazione, come spiegato "
+"`qui (punto 2) <http://fromgistors.blogspot.com/2013/07/land-cover-"
+"classification-update.html>`_; avviare Semi-Automatic Classification Plugin "
+"(se le dock non sono visibili, click sul bottone Mostra i pannelli "
+"nell'interfaccia principale del plugin);"
+
+#: ../../Tutorials.rst:45
+msgid ""
+"In the plugin dock ROI creation click the button Band set besideSelect an "
+"image; the tab Band set will open; click the button Select All, then Add "
+"rasters to set; under Band set definition, order the band names in ascending "
+"order, from top to bottom using the arrows (this is useful for the "
+"interpretation of spectral signatures);"
+msgstr ""
+"Nel pannello Creazione ROI click sul bottone Set di bande set affianco a "
+"Seleziona un'immagine; la tab Set di bande si aprirà; click sul bottone "
+"Seleziona tutto, poi Aggiungi i raster al set; sotto Definizione del set di "
+"bande, ordinare i nomi delle bande in ordine ascendente, dall'alto verso il "
+"basso usando le frecce (questo è utile per l'interpretazione delle firme "
+"spettrali);"
+
+#: ../../Tutorials.rst:49
+msgid ""
+"Now we need to create a training shapefile that will store ROIs (a polygon "
+"layer that requires two fields ID_class and ROI_info in the attribute "
+"table); in the dock ROI creation click the button New shapefile, and select "
+"where to save the shapefile (for instance ROI.shp)."
+msgstr ""
+"Ora abbiamo bisogno di creare uno shapefile di training che conterrà le ROI "
+"(un layer poligonale che richiede due campi ID_class e ROI_info nella "
+"tabella attributi); nel pannello Creazione ROI click sul bottone Nuovo "
+"shapefile, e selezionare dove salvare lo shapefile (per esempio ROI.shp)."
+
+#: ../../Tutorials.rst:53
+msgid ""
+"**Hint**: in order to use any shapefile (having different field names for ID "
+"and Information) as training shapefile, it is possible to change the default "
+"field names in the tab Settings of the main interface, according to the "
+"existing field names. When needed, the plugin will add automatically other "
+"fields for the spectral signature calculation."
+msgstr ""
+"**Consiglio**: per usare qualsiasi shapefile (avente i nomi dei campi "
+"diversi per ID e Informazione) come shapefile di training, è possibile "
+"cambiare i nomi predefiniti dei campi nella tab Impostazioni "
+"dell'interfaccia principale, in base ai nomi dei campi esistenti. Quando "
+"necessario, il plugin aggiungerà automaticamente gli altri campi per il "
+"calcolo delle firme spettrali."
+
+#: ../../Tutorials.rst:58
+msgid "Create ROIs"
+msgstr "Creazione delle ROI"
+
+#: ../../Tutorials.rst:60
+msgid ""
+"ROIs are polygons delimiting a certain land cover class, which are required "
+"to train the classification algorithm. Created ROIs are temporary polygons, "
+"which are placed inside the group Class_temp_group (added automatically if "
+"missing) in the Layers panel. This group should be moved to the bottom of "
+"the Layers panel; this way, only the last created ROI will be displayed over "
+"the image (the previous ROIs will be automatically hidden)."
+msgstr ""
+"Le ROI sono poligoni che delimitano una certa classe di copertura del suolo, "
+"i quali sono necessari per preparare l'algoritmo di classificazione. Le ROI "
+"create sono poligoni temporanei, che sono posizionate nel gruppo "
+"Class_temp_group (aggiunto automaticamente) nel pannello Legenda. Questo "
+"gruppo dovrebbe essere spostato sul fondo del pannello Legenda; in questo "
+"modo, solamente l'ultima ROI creata sarà mostrata sull'immagine (le ROI "
+"precedenti saranno automaticamente nascoste)."
+
+#: ../../Tutorials.rst:62
+msgid ""
+"In order to **create a ROI**, in the dock ROI creation click the button + "
+"beside Create a ROI (this activates the ROI pointer); ROIs are created by "
+"clicking on any pixel of the image; click on the dark area in the South, "
+"which is the Lake Albano (use the mouse scroll to zoom); after a few seconds "
+"the ROI polygon will appear over the image (a semitransparent orange "
+"polygon);"
+msgstr ""
+"Per **creare una ROI**, nel pannello Creazione ROI click sul bottone + sotto "
+"ROI creation (questo attiva il puntatore ROI); le ROI sono create con un "
+"click su qualsiasi pixel dell'immagine; click sull'area scura a sud, che è "
+"il lago di Albano (usare la rotellina del mouse per lo zoom); dopo alcuni "
+"secondi il poligono della ROI apparirà sopra l'immagine (un poligono "
+"arancione semitrasparente);"
+
+#: ../../Tutorials.rst:66
+msgid ""
+"It is possible to change the **ROI creation parameters**, in order to create "
+"a smaller or lager ROI; change the Min ROI size value to 100, and the Max "
+"ROI width value to 150; in order to **create a ROI at the same point clicked "
+"before**, click the button Redo ROI;"
+msgstr ""
+"E' possibile cambiare i **parametri di creazione ROI**, per creare una ROI "
+"più piccola o più grande; cambiare il valore Min dimensione ROI a 100, e il "
+"valore Max larghezza ROI a 150; per **creare una ROI nello stesso punto "
+"precedente**, click sul bottone Rifai ROI;"
+
+#: ../../Tutorials.rst:70
+msgid ""
+"Now, check Rapid ROI on band and click the button Redo ROI; this way, **ROIs "
+"can be computed only on one selected band**, saving time especially for "
+"hyperspectral images; change the value to 4 beside Rapid ROI on band, and "
+"click the button Redo ROI; as you can see, ROIs have different shapes "
+"depending on the selected band;"
+msgstr ""
+"Ora, spuntare ROI rapida sulla banda e click sul bottone Rifai ROI; in "
+"questo modo, **le ROI possono essere calcolate solo su una banda "
+"selezionata**, risparmiando tempo specialmente per immagini iperspettrali; "
+"cambiare il valore affianco a ROI rapida sulla banda a 4, e click sul "
+"bottone Rifai ROI; come si può vedere, le ROI hanno forma differente in base "
+"alla banda selezionata;"
+
+#: ../../Tutorials.rst:72
+msgid ""
+"Open the Settings tab of the main interface; under ROI style it is possible "
+"to **change colour and transparency of created ROIs** as you wish."
+msgstr ""
+"Aprire la tab Impostazioni dell'interfaccia principale; sotto Stile ROI è "
+"possibile **cambiare il colore e la trasparenza delle ROI create** come si "
+"desidera."
+
+#: ../../Tutorials.rst:77
+msgid "Save the ROIs to shapefile"
+msgstr "Salvataggio delle ROI nello shapefile"
+
+#: ../../Tutorials.rst:79
+msgid ""
+"This step is required in order to save the created ROIs to the training "
+"shapefile."
+msgstr ""
+"Questo passaggio è necessario per salvare le ROI create nello shapefile di "
+"training."
+
+#: ../../Tutorials.rst:81
+msgid ""
+"Under ROI definition type a brief description of the ROI inside the field "
+"Information (e.g. water); this description will not be used during the "
+"classification process, but it is useful for distinguishing ROIs; the field "
+"ID (i.e. identifier of the class) is used as reference for the land cover "
+"classification, therefore it is important that each category has a unique ID "
+"value; ROIs sharing the same ID are treated as a single ROI; now, leave the "
+"ID set to 1;"
+msgstr ""
+"Sotto Definizione ROI digitare una breve descrizione della ROI nel campo "
+"Informazione (es. acqua); questa descrizione non sarà usata durante il "
+"processo di classificazione, ma + utile per distinguere le ROI; il campo "
+"Class ID (cioè identificativo della classe) è usato come riferimento per la "
+"classificazione della copertura del suolo, quindi è importante che ogni "
+"categoria abbia un unico valore di ID; le ROI che condividono lo stesso ID "
+"sono trattate come un'unica ROI; ora, lasciare il capo Class ID a 1;"
+
+#: ../../Tutorials.rst:83
+msgid ""
+"If the checkbox Calculate signature is checked, then the **ROI spectral "
+"signature** is calculated while the ROI is saved; now, uncheck this checkbox "
+"(we are going to calculate it later, from the Spectral signature tab);"
+msgstr ""
+"Se la checkbox Calcola la firma è spuntata, allora la **firma spettrale "
+"della ROI** è calcolata durante il salvataggio della ROI; ora, togliere la "
+"spunta (la calcoleremo successivamente, dalla tab Firma spettrale);"
+
+#: ../../Tutorials.rst:85
+msgid ""
+"In order to **save the ROI to the training shapefile** click the button Save "
+"ROI to shapefile;"
+msgstr ""
+"Per **salvare la ROI nello shapefile di training** click sul bottone Salva "
+"la ROI;"
+
+#: ../../Tutorials.rst:87
+msgid ""
+"It is possible to **delete the last saved ROI** by clicking Undo save ROI."
+msgstr ""
+"E' possibile **eliminare l'ultima ROI salvata** con un click su Annulla "
+"salvataggio ROI."
+
+#: ../../Tutorials.rst:94
+msgid "Spectral signature plot"
+msgstr "Grafico delle firme spettrali"
+
+#: ../../Tutorials.rst:96
+msgid ""
+"In the plugin main interface, select the tab ROI tools > Spectral signature, "
+"which displays the plots of selected ROIs, and select the item water; it is "
+"possible to **calculate the ROI signature** by clicking the button Calculate "
+"signature and confirming;"
+msgstr ""
+"Nell'interfaccia principale del plugin, selezionare la tab Strumenti ROI > "
+"Firma spettrale, che mostra i grafici delle ROI selezionate, e selezionare "
+"la voce acqua; è possibile **calcolare la firma spettrale della ROI** con un "
+"click sul bottone Calcola la firma e confermando;"
+
+#: ../../Tutorials.rst:98
+msgid ""
+"If the checkox Plot σ is checked, then the plot will display the **standard "
+"deviation** of each ROI; you can pan and zoom through the plot using the "
+"navigation toolbar (provided by Matplotlib)."
+msgstr ""
+"Se la checkbox Disegna σ è spuntata, allora il grafico mostrerà la "
+"**deviazione standard** di ogni ROI; puoi eseguire il pan e lo zoom nel "
+"grafico usando la barra di navigazione (fornita da Matplotlib)."
+
+#: ../../Tutorials.rst:102
+msgid ""
+"**Hint**: in the tab Settings of the main interface, it is possible to "
+"change the maximum number of characters for ROIs of the plot legend (which "
+"is 15 by default)."
+msgstr ""
+"**Consiglio**: nella tab Impostazioni dell'interfaccia principale, è "
+"possibile modificare il numero massimo di caratteri per le ROI nella legenda "
+"del grafico (che è 15 per default)."
+
+#: ../../Tutorials.rst:109
+msgid "Scatter plot"
+msgstr "Grafico a dispersione"
+
+#: ../../Tutorials.rst:111
+msgid ""
+"The ``Scatter plot`` tab allows for the calculation of the ROI scatter "
+"plots, which are useful to assess ROI separability choosing between two "
+"bands. Pixel values for two raster bands are represented as points in the 2D "
+"space."
+msgstr ""
+"La tab``Scatter plot`` permette di calcolare i grafici a dispersione delle "
+"ROI, che sono utili per valutare la separabilità delle ROI scegliendo tra "
+"due bande. I valori dei pixel per le due bande raster sono rappresentati "
+"come punti nello spazio 2D."
+
+#: ../../Tutorials.rst:116
+msgid "Multiple ROI creation at once"
+msgstr "Creazione diretta di ROI multiple"
+
+#: ../../Tutorials.rst:118
+msgid ""
+"It is possible to **create automatically ROIs given a list of point "
+"coordinates** (X, Y), class ID and ROI information (ROIs are created with "
+"the parameters defined in the dock ROI creation); select the ROI tools tab > "
+"Multiple ROI creation and click Add point to add a new line where you can "
+"fill the required fields; now select the line (click the line number on the "
+"left) and click Remove highlighted points;"
+msgstr ""
+"E' possibile **creare automaticamente le ROI fornendo una lista di "
+"coordinate di punti** (X, Y), ID della classe e informazione della ROI (le "
+"ROI sono create con i parametri definiti nella dock Creazione ROI); "
+"selezionare la tab Strumenti ROI > Creazione Multipla ROI e click su "
+"Aggiungi un punto per aggiungere una nuova linea dove riempire i campi "
+"richiesti; ora seleziona la linea (click sul numero della linea sulla "
+"sinistra) e click Rimuovi punti evidenziati;"
+
+#: ../../Tutorials.rst:122
+msgid ""
+"It is also possible to **import a list of points**, maybe from field survey; "
+"download  `this  text  file <http://hub.qgis.org/attachments/download/6176/"
+"sample_points.txt>`_,  click  the  button  Import  and  select  the "
+"downloaded file;"
+msgstr ""
+"E' anche possibile **importare una lista di punti**, magari da indagini in "
+"campo; scarica  `questo file di testo <http://hub.qgis.org/attachments/"
+"download/6176/sample_points.txt>`_,  click  sul bottone  Importa lista "
+"punti  e  seleziona il file scaricato;"
+
+#: ../../Tutorials.rst:126
+msgid ""
+"In order to create and save the ROIs to the shapefile click Create and save "
+"ROIs (it takes some time, depending on the number of points)."
+msgstr ""
+"Per creare e salvare le ROI nello shapefile click Crea e salva le ROI "
+"(richiede del tempo, in base al numero di punti)."
+
+#: ../../Tutorials.rst:133
+msgid "Perform a classification preview"
+msgstr "Creazione di un'anteprima di classificazione"
+
+#: ../../Tutorials.rst:135
+msgid "Classification preview is a rapid way to evaluate collected ROIs."
+msgstr ""
+"L'anteprima di classificazione è un modo rapido per valutare le ROI "
+"collezionate."
+
+#: ../../Tutorials.rst:137
+msgid ""
+"It is possible to choose between several **classification algorithms** "
+"(Maximum Likelihood; Minimum Distance; Spectral Angle Mapping); now select "
+"Spectral Angle Mapping;"
+msgstr ""
+"E' possibile scegliere tra vari **algoritmi di classificazione** (Maximum "
+"Likelihood; Minimum Distance; Spectral Angle Mapping); ora seleziona "
+"Spectral Angle Mapping;"
+
+#: ../../Tutorials.rst:139
+msgid ""
+"**Algorithm threshold** allows you to leave unclassified pixels that meet a "
+"certain rule: for Maximum Likelihood, pixels are unclassified if probability "
+"is less than threshold (max 100); for Minimum Distance, pixels are "
+"unclassified if distance is greater than threshold; for Spectral Angle "
+"Mapping, pixels are unclassified if spectral angle distance is greater than "
+"threshold (max 90);"
+msgstr ""
+"**Il limite dell'algoritmo** ti permette di lasciare non classificati i "
+"pixel che soddisfano una certa regola: i pixel sono non classificati se la "
+"probabilità è inferiore al valore limite (max 100); per Minimum Distance, i "
+"pixel sono non classificati se la distanza è superiore al valore limite; per "
+"Spectral Angle Mapping, i pixel sono non classificati se la distanza "
+"dell'angolo spettrale è superiore al valore limite (max 90);"
+
+#: ../../Tutorials.rst:141
+msgid ""
+"**Preview size** is the side of the classification preview (in pixel unit); "
+"setSize to 300; click the button + under Classification preview and click on "
+"the image; similarly to the ROI, click the button Redo to perform another "
+"classification preview at the same point;"
+msgstr ""
+"**Dimensione dell'anteprima** è il lato dell'anteprima di classificazione "
+"(in pixel); imposta la Dimensione a 300; click sul bottone + sotto Anteprima "
+"di classificazione e click sull'immagine; in modo simile alla ROI, click sul "
+"bottone Rifai per creare una nuova anteprima allo stesso punto;"
+
+#: ../../Tutorials.rst:145
+msgid ""
+"Created ROIs are displayed in the ROI list; double click on any item to "
+"**zoom to the corresponding ROI** in the map; also, it is possible to "
+"**delete selected ROIs** using the button Delete selected ROIs."
+msgstr ""
+"Le ROI create sono mostrate nella ROI list; doppio click su qualsiasi "
+"elemento per **effettuare lo zoom sulla ROI corrispondente** nella mappa; "
+"inoltre, è possibile **eliminare le ROI selezionate** usando il bottone "
+"Elimina le ROI selezionate."
+
+#: ../../Tutorials.rst:152
+msgid "Set a classification style"
+msgstr "Impostazione di uno stile di classificazione"
+
+#: ../../Tutorials.rst:154
+msgid ""
+"It is useful to create a classification style with labels that will be "
+"loaded for every classification."
+msgstr ""
+"E' utile per creare uno stile di classificazione con i nomi che saranno "
+"caricati per tutte le classificazioni."
+
+#: ../../Tutorials.rst:156
+msgid ""
+"In the panel Layers, left click on a classification preview and "
+"selectProperties; change the colours and labels of classes, according to the "
+"training ROIs; then, create click Save style ... to save the .qml file (e.g. "
+"style.qml);"
+msgstr ""
+"Nel pannello Legenda, click su un'anteprima di classificazione e seleziona "
+"Proprietà; modifica i colori e le etichette delle classi, in base alle ROI "
+"di training; poi, click Salva stile ... per salvare il file .qml (es. style."
+"qml);"
+
+#: ../../Tutorials.rst:158
+msgid ""
+"In the Classification dock, under Classification style click the button "
+"Select qml to select the file style.qml; the next classification will be "
+"loaded with this style."
+msgstr ""
+"Nel pannello Classificazione, sotto Stile della classificazione click sul "
+"bottone Seleziona qml per selezionare il file style.qml; la prossima "
+"classificazione sarà caricata con questo stile."
+
+#: ../../Tutorials.rst:162
+msgid ""
+"**Hint**: after adding a new class to the training shapefile, repeat the "
+"above steps to overwrite the .qml file and update the classification style."
+msgstr ""
+"**Consiglio**: dopo aver aggiunto una nuova classe allo shapefile di "
+"training, ripeter i passaggi precedenti per sovrascriver il file .qml ed "
+"aggiornare lo stile di classificazione."
+
+#: ../../Tutorials.rst:164
+msgid ""
+"A large number of ROIs is required for a good classification. Download this "
+"`training shapefile <http://hub.qgis.org/attachments/download/6004/"
+"classification.zip>`_ , which contains several ROIs, and load it in QGIS."
+msgstr ""
+"Un vasto numero di ROI è richiesto per una buona classificazione. Scaricare "
+"questo `shapefile di training <http://hub.qgis.org/attachments/download/6004/"
+"classification.zip>`_ , che contiene varie ROI, e caricarlo in QGIS."
+
+#: ../../Tutorials.rst:166
+msgid ""
+"The main output of a classification is a raster file .tif; click the button "
+"Perform  classification  and  select  where  to  save  the  output  (e.g. "
+"classification.tif);  use  the  classification  style  from this  `file  zip "
+"<http://hub.qgis.org/attachments/download/6004/classification.zip>`_ ;"
+msgstr ""
+"L'output principale di una classificazione è un file raster .tif; click sul "
+"bottone Esegui la classificazione e seleziona dove salvare l'output (es. "
+"classification.tif);  usa  lo stile di classificazione da questo `file  zip "
+"<http://hub.qgis.org/attachments/download/6004/classification.zip>`_ ;"
+
+#: ../../Tutorials.rst:170
+msgid ""
+"In  addition to this raster,  it  possible  to **create the  shapefile  of  "
+"the classification** by checking the checkbox Create vector; the shapefile "
+"will be saved with the same name and in the same directory of the .tif file "
+"(it takes some minutes for the vector creation, depending on your system "
+"spec);"
+msgstr ""
+"In aggiunta a questo raster, è possibile **creare lo shapefile della "
+"classificazione** spuntando la checkbox Crea vettoriale; lo shapefile sarà "
+"salvato con lo stesso nome e nella stessa directory del file .tif (la "
+"creazione del vettoriale richiede alcuni minuti, in base alle specifiche "
+"tecniche del tuo sistema);"
+
+#: ../../Tutorials.rst:174
+msgid ""
+"If the checkbox Calculate accuracy is checked, than the **error matrix** is "
+"calculated and saved as file .txt in the same directory of the .tif file "
+"(also, it is automatically displayed in the tab of the plugin main interface "
+"Post processing > Accuracy); the error matrix is calculated by comparing the "
+"classification to the training shapefile used for the classification (see "
+"below Post processing tools);"
+msgstr ""
+"Se la checkbox Calcola accuratezza è spuntata, allora **la matrice di "
+"errore** è calcolata e salvata come file .txt nella stessa directory del "
+"file .tif (inoltre, è mostrata automaticamente nella tab dell'interfaccia "
+"principale Post processamento > Accuratezza); la matrice di errore è "
+"calcolata confrontando la classificazione e lo shapefile di training usato "
+"per la classificazione (vedi di seguito gli strumenti di Post processamento);"
+
+#: ../../Tutorials.rst:176
+msgid ""
+"It is possible to **apply a mask shapefile** to the classification; download "
+"`this  shapefile <http://hub.qgis.org/attachments/download/6113/"
+"Mask_shapefile.zip>`_ ,  check  the  checkbox  Apply  mask  and  select  the "
+"downloaded  shapefile;  click  the  button  Perform  classification,  and  "
+"the classification will be saved along with the error matrix and the vector "
+"output."
+msgstr ""
+"E' possibile **applicare uno shapefile maschera** alla classificazione; "
+"scarica `questo  shapefile <http://hub.qgis.org/attachments/download/6113/"
+"Mask_shapefile.zip>`_ ,  spunta  la  checkbox  Applica la maschera  e "
+"seleziona lo shapefile scaricato;  click  sul  bottone  Esegui la  "
+"classificazione,  e  la classificazione sarà salvata insieme alla matrice di "
+"errore e l'output vettoriale."
+
+#: ../../Tutorials.rst:183
+msgid "Post processing tools"
+msgstr "Strumenti di post processamento"
+
+#: ../../Tutorials.rst:185
+msgid ""
+"It is possible to **assess the classification accuracy** (implemented by "
+"GRASS GIS), by comparing the classification to a reference shapefile (not "
+"necessarily the training shapefile); now, select the tab Post processing > "
+"Accuracy of the plugin main interface; select theclassification.tif beside "
+"Select a classification to assess and select the ROI shapefile beside Select "
+"the reference shapefile; then click the button Calculate error matrix and "
+"the matrix will be displayed; you can save the error matrix by clicking the "
+"button Save error matrix to file;"
+msgstr ""
+"E' possibile **valutare l'accuratezza della classificazione** (compiuta da "
+"GRASS GIS), confrontando la classificazione ad uno shapefile di riferimento "
+"(non necessariamente lo shapefile di training); ora, seleziona la tab Post "
+"processamento > Accuratezza dall'interfaccia principale del plugin; "
+"seleziona la classification.tif affianco a Seleziona la classificazione da "
+"valutare e seleziona lo shapefile delle ROI affianco a Seleziona lo "
+"shapefile di riferimento; poi click sul bottone Calcola la matrice di errore "
+"e la matrice sarà mostrata; puoi salvare la matrice di errore con un click "
+"sul bottone Salva la matrice di errore su file;"
+
+#: ../../Tutorials.rst:189
+msgid ""
+"It is useful to **calculate the land cover change** (through GDAL and Numpy) "
+"between a  reference  classification  raster  and  a  new  classification  "
+"raster;  download  `this classification <http://hub.qgis.org/attachments/"
+"download/6180/reference_classification.zip>`_ (pretend this is the last year "
+"classification); select the tab Post processing > Land cover change of the "
+"plugin main interface, select the downloaded classification  as  reference  "
+"classification,  and  the  classification.tif  as  the  new classification; "
+"click the button Calculate land cover change and select where to save the "
+"raster of changes and the related table (i.e. a file .csv, whose values are "
+"separated by tab); pixel values of the raster of changes (ChangeCode) are "
+"described in the table, and each value represent a class of change from the "
+"reference classification to the new classification;"
+msgstr ""
+"E' utile **calcolare il cambiamento di copertura del suolo** tra una "
+"classificazione  raster di riferimento  ed  una  nuova  classificazione  "
+"raster;  scarica  `questa classificazione <http://hub.qgis.org/attachments/"
+"download/6180/reference_classification.zip>`_ (simuliamo che questa sia la "
+"classificazione dell'ultimo anno); seleziona la tab Post processamento > "
+"Cambiamento di copertura del suolo, seleziona la classificazione scaricata "
+"come classificazione di riferimento,  e  classification.tif  come nuova "
+"classificazione; click sul bottone Calcola il cambiamento di copertura del "
+"suolo e seleziona dove salvare il raster dei cambiamenti e la relativa "
+"tabella (cioè un file .csv, i cui valori sono separati da tab); i valori dei "
+"pixel del raster dei cambiamenti (ChangeCode) sono descritti nella tabella, "
+"e ogni valore rappresenta una classe di cambiamento dalla classificazione di "
+"riferimento alla nuova classificazione;"
+
+#: ../../Tutorials.rst:193 ../../Tutorials.rst:201
+msgid "|br|"
+msgstr "|br|"
+
+#: ../../Tutorials.rst:197
+msgid ""
+"If the checkbox Mask unchanged pixel is checked, then unchanged pixels will "
+"have a value of 0 (Unclassified)."
+msgstr ""
+"Se la checkbox Report unchanged pixel è spuntata, allora i pixel senza "
+"cambiamento avranno il valore 0 (Non classificato)."
+
+#: ../../Tutorials.rst:208
+msgid "Advanced settings"
+msgstr "Impostazioni avanzate"
+
+#: ../../Tutorials.rst:210
+msgid "It is worth mentioning also other **advanced settings**:"
+msgstr "E' utile menzionare altre **impostazioni avanzate**:"
+
+#: ../../Tutorials.rst:212
+msgid ""
+"In the tab Settings of the plugin main interface it is possible to **set the "
+"RAM used for processing**; set the Available RAM according to your computer "
+"spec (in general, half of the system RAM is a good value);"
+msgstr ""
+"Nella tab Impostazioni dell'interfaccia principale del plugin è possibile "
+"**impostare la RAM usata per il processamento**; impostare la RAM "
+"disponibile in base alle specifiche del tuo computer (in generale, un buon "
+"valore è metà RAM di sistema);"
+
+#: ../../Tutorials.rst:214
+msgid ""
+"if the checkbox Record events in a Log file is checked a Log file is created "
+"and updated during the processes; the Log file is saved in the plugin "
+"directory (located  inside  your  user/home  directory, ``.qgis2/python/"
+"plugins/SemiAutomaticClassificationPlugin``),  with  the  name "
+"``__0semiautomaticclass.log``;"
+msgstr ""
+"se la checkbox Registra gli eventi in un file Log è spuntata un file Log è "
+"creato ed aggiornato durante i processi; il file Log è salvato nella "
+"directory del plugin (che si trova nella tua directory  utente/home , ``."
+"qgis2/python/plugins/SemiAutomaticClassificationPlugin``), con il  nome "
+"``__0semiautomaticclass.log``;"
+
+#: ../../Tutorials.rst:216
+msgid ""
+"several buttons allow for the testing of program installation such as: SAGA "
+"GIS, GRASS GIS, and QGIS geoalgorithms;"
+msgstr ""
+"vari bottoni permettono di testare l'installazione dei programmi: SAGA GIS, "
+"GRASS GIS, e QGIS geoalgorithms;"
+
+#: ../../Tutorials.rst:220
+msgid ""
+"For more and updated tutorials please visit http://fromgistors.blogspot.com ."
+msgstr ""
+"Per ulteriori ed aggiornati tutorial si prega di visitare http://fromgistors."
+"blogspot.com ."

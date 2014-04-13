@@ -1,0 +1,32 @@
+#
+# Luca Congedo <ing.congedoluca@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-12 10:08+0200\n"
+"PO-Revision-Date: 2014-04-12 17:44+0200\n"
+"Last-Translator: Luca Congedo <ing.congedoluca@gmail.com>\n"
+"Language-Team: Italiano <ing.congedoluca@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../../Interface.rst:5
+msgid "The Interface"
+msgstr "L'interfaccia"
+
+#: ../../Interface.rst:11
+msgid ""
+"The plugin is composed of two movable docks integrated in QGIS and a main "
+"interface window, which allow for an easy and rapid supervised "
+"classification of remote sensing images, with functions for data pre "
+"processing and post processing."
+msgstr ""
+"Il plugin è composta da due dock mobili integrate in QGIS ed una finestra di "
+"interfaccia principale, che permette una facile e rapida classificazione "
+"supervisionata di immagini telerilevate, con funzioni per il pre "
+"processamento e post processamento dei dati."

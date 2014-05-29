@@ -1,50 +1,57 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-12 10:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-05-26 17:44+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: uk_UA\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: ../../installation_win64.rst:5
 msgid "Installation in Windows 64 bit"
-msgstr ""
+msgstr "Встановлення під Windows 64 біт"
 
 #: ../../installation_win64.rst:14
 msgid "QGIS download and installation"
-msgstr ""
+msgstr "Завантаження та встановлення QGIS"
 
 #: ../../installation_win64.rst:16
 msgid ""
-"Download the latest QGIS version 64 bit from `here "
-"<http://www.qgis.org/en/site/forusers/download.html>`_ (the direct download "
-"of QGIS 2.2 from this `link <http://qgis.org/downloads/QGIS-OSGeo4W-2.2.0-1"
-"-Setup-x86_64.exe>`_);"
+"Download the latest QGIS version 64 bit from `here <http://www.qgis.org/en/"
+"site/forusers/download.html>`_ (the direct download of QGIS 2.2 from this "
+"`link <http://qgis.org/downloads/QGIS-OSGeo4W-2.2.0-1-Setup-x86_64.exe>`_);"
 msgstr ""
+"Завантажте актуальну версію QGIS 64 біт `звідси <http://www.qgis.org/en/site/"
+"forusers/download.html>`_  (безпосереднє завантаження QGIS 2.2 за цим "
+"`посиланням <http://qgis.org/downloads/QGIS-OSGeo4W-2.2.0-1-Setup-x86_64."
+"exe>`_);"
 
 #: ../../installation_win64.rst:18
 msgid ""
-"Execute the QGIS installer with administrative rights, accepting the default"
-" configuration."
+"Execute the QGIS installer with administrative rights, accepting the default "
+"configuration."
 msgstr ""
+"Виконайте встановлення QGIS з правами адміністратора, приймаючи уставні "
+"налаштування."
 
 #: ../../installation_win64.rst:20
 msgid "Now, QGIS 2 is installed."
-msgstr ""
+msgstr "Тепер QGIS 2 встановлено."
 
 #: ../../installation_win64.rst:27
 msgid "SciPy installation"
-msgstr ""
+msgstr "Встановлення SciPy"
 
 #: ../../installation_win64.rst:29
 msgid ""
 "The SciPy package is not included in the 64 bit version of QGIS. Therefore:"
-msgstr ""
+msgstr "Пакет SciPy не включено до версії QGIS 64 біт. Тому:"
 
 #: ../../installation_win64.rst:31
 msgid ""
@@ -53,71 +60,88 @@ msgid ""
 "Gohlke, Laboratory for Fluorescence Dynamics, University of California, "
 "Irvine)."
 msgstr ""
+"Завантажте scipy-0.13.3.win-amd64-py2.7.exe для Windows 64 біт `звідси "
+"<http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy>`_ (постачений Christoph "
+"Gohlke, Laboratory for Fluorescence Dynamics, University of California, "
+"Irvine)."
 
 #: ../../installation_win64.rst:33
 msgid ""
-"Extract the file scipy-0.13.3.win-amd64-py2.7.exe with `7-zip "
-"<http://www.7-zip.org/>`_ in a temporary directory;"
+"Extract the file scipy-0.13.3.win-amd64-py2.7.exe with `7-zip <http://www.7-"
+"zip.org/>`_ in a temporary directory;"
 msgstr ""
+"Розпакуйте файл scipy-0.13.3.win-amd64-py2.7.exe за допомогою  `7-zip "
+"<http://www.7-zip.org/>`_ в тимчасовий каталог;"
 
 #: ../../installation_win64.rst:35
 msgid ""
 "Copy all the files contained in the PLATLIB directory inside the QGIS "
 "directory, which should be::"
 msgstr ""
+"Скопіюйте всі файли, що містяться в каталозі PLATLIB, до наступного каталогу "
+"QGIS::"
 
 #: ../../installation_win64.rst:42
 msgid "Semi-Automatic Classification Plugin installation"
-msgstr ""
+msgstr "Встановлення модуля Напівавтоматичної класифікації"
 
 #: ../../installation_win64.rst:44
 msgid "Run QGIS 2;"
-msgstr ""
+msgstr "Run QGIS 2;"
 
 #: ../../installation_win64.rst:46
 msgid "From the main menu, select Plugins > Manage and Install Plugins;"
-msgstr ""
+msgstr "З головного меню виберіть Модулі > Управління модулями;"
 
 #: ../../installation_win64.rst:50
 msgid ""
-"From the All menu, select the Semi-Automatic Classification Plugin and click"
-" the button Install plugin;"
+"From the All menu, select the Semi-Automatic Classification Plugin and click "
+"the button Install plugin;"
 msgstr ""
+"З меню Всі виберіть модуль Напівавтоматичної класифікації та натисніть "
+"кнопку Встановити модуль;"
 
 #: ../../installation_win64.rst:54
 msgid ""
-"The plugin should be automatically activated; however, be sure that the "
-"Semi-Automatic Classification Plugin and Processing are checked in the "
-"Installed menu."
+"The plugin should be automatically activated; however, be sure that the Semi-"
+"Automatic Classification Plugin and Processing are checked in the Installed "
+"menu."
 msgstr ""
+"Модуль повинен бути активований автоматично; тим не менше, впевніться, що "
+"модулі Напівавтоматичної класифікації та Аналізу увімкнено в меню "
+"Встановлені;"
 
 #: ../../installation_win64.rst:61
 msgid "Configuration of the Processing plugin"
-msgstr ""
+msgstr "Налаштування модуля Аналізу"
 
 #: ../../installation_win64.rst:63
 msgid ""
-"This configuration is required because SAGA GIS needs to be activated in the"
-" Processing framework of QGIS 2."
+"This configuration is required because SAGA GIS needs to be activated in the "
+"Processing framework of QGIS 2."
 msgstr ""
+"Це налаштування потрібне тому що ГІС SAGA повинна бути увімкнена в "
+"інтегрованому середовищі Аналізу QGIS 2."
 
 #: ../../installation_win64.rst:65
 msgid "Select the menu Processing > Options and configuration;"
-msgstr ""
+msgstr "Виберіть меню Аналіз > Параметри та налаштування;"
 
 #: ../../installation_win64.rst:69
 msgid ""
 "Click the + symbol beside Providers, and click the symbol + beside SAGA;"
-msgstr ""
+msgstr "Клацніть символ +поруч з Постачальниками та символ + поруч з SAGA;"
 
 #: ../../installation_win64.rst:78
 msgid ""
 "SAGA should be already configured. However, verify the following settings:"
 msgstr ""
+"SAGA повинна бути вже налаштована. Тим не менше, перевірте наступні "
+"налаштування:"
 
 #: ../../installation_win64.rst:74
 msgid "The checkbox Activate is checked;"
-msgstr ""
+msgstr "Перемикач Активувати увімкнено;"
 
 #: ../../installation_win64.rst:75
 msgid ""
@@ -125,10 +149,13 @@ msgid ""
 "compatibility must be checked; if SAGA 2.1.0 was installed then it must be "
 "unchecked;"
 msgstr ""
+"**Важливо!** Оскільки була встановлена SAGA 2.0.8, пермикач Дозволити "
+"сумісність з SAGA 2.0.8 повинен бути увімкнений; якщо була встановлена SAGA "
+"2.1.0, перемикач повинен бути вимкнений;"
 
 #: ../../installation_win64.rst:76
 msgid "The path in SAGA folder points to::"
-msgstr ""
+msgstr "Шлях в каталозі SAGA вказує на::"
 
 #: ../../installation_win64.rst:80
 msgid ""
@@ -136,3 +163,6 @@ msgid ""
 "The plugin is available under the Raster menu of QGIS, or you can click the "
 "icon |logo| in the main interface (if the raster menu is activated)."
 msgstr ""
+"Тепер модуль Напівавтоматичної класифікації встановлено та налаштовано. "
+"Модуль доступний в меню QGIS Растр або за відповідною піктограмою |logo| на "
+"панелі інструментів Растр (якщо вона увімкнена)."

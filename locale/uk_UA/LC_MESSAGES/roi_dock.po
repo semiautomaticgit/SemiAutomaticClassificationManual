@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-12 10:08+0200\n"
-"PO-Revision-Date: 2014-05-29 21:45+0200\n"
+"PO-Revision-Date: 2014-05-30 18:16+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -40,18 +40,21 @@ msgid ""
 "``Class_temp_group`` , and deleted when the QGIS project is closed."
 msgstr ""
 "ROI (від англ. Regions Of Interest) це полігони, які можуть бути створені "
-"автоматичним клацанням на пікселі зображення та використанням алгоритму "
-"нарощування областей (тобто сегментування зображення навколо зерна пікселя). "
-"Таким чином, створені ROI включатимуть спектрально однорідні пікселі. Також "
-"ROI можна створити вручну, окресливши полігон. Створені ROI до їх збереження "
-"в навчальний шейп-файл являють собою тимчасові полігони, які розміщуються в "
-"групі  ``Class_temp_group`` та видаляються з закриттям проекту QGIS."
+"автоматичним клацанням на пікселі зображення з наступним застосуванням "
+"алгоритму нарощування областей (тобто сегментування зображення навколо "
+"пікселя-насінини). Стсворені таким чином ROI включатимуть спектрально "
+"однорідні пікселі. Також ROI можна створити вручну, окресливши полігон. "
+"Створені ROI до їх збереження в навчальний шейп-файл являють собою тимчасові "
+"полігони, які розміщуються в групі  ``Class_temp_group`` та видаляються з "
+"закриттям проекту QGIS."
 
 #: ../../roi_dock.rst:19
 msgid ""
 "ROIs are then saved in a training shapefile, created by the plugin, which "
 "contains several fields required for the classification process."
 msgstr ""
+"Потому ROI зберігаються до навчального шейп-файлу, який створюється модулем "
+"та містить декілька полів, необхідних для реалізації процесу класифікації."
 
 #: ../../roi_dock.rst:21
 msgid ""
@@ -74,22 +77,45 @@ msgid ""
 "classes can have the same macroclass). Of course, several ROIs can share the "
 "same Class ID."
 msgstr ""
+"ROI означаються Class ID, Macroclass ID та додатковою інформацією "
+"(наприклад, описом класу). Class ID це унікальний ідентифікатор для кожного "
+"класу земного покриву. Макроклас це група ROI, що мають відмінні  Class ID, "
+"яку доцільно застосовувати за необхідності класифікувати матеріали, що "
+"характеризуються відмінними спектральними сигнатурами в одному і тому класі "
+"земного покриву. Наприклад, ми могли б розрізняти класи трави (``ID class = "
+"1`` та ``Macroclass ID = 1`` ) та дерев (``ID class = 2`` та  ``Macroclass "
+"ID = 1`` ) як макроклас рослинного покриву (``Macroclass ID = 1`` ). "
+"Застосування ID макрокласу для класифікації визначається вибором ``Use "
+"Macroclass ID`` на :ref:`панелі_класифікації`. Якщо перемикач  ``Use "
+"Macroclass ID`` вимкнено, тоді класифікація проводиться із використанням "
+"тільки ID класу (тобто, трава та дерева класифікуються як клас 1 та 2 "
+"відповідно). Якщо вам не потрібні макрокласи, просто призначте один і той "
+"самий Macroclass ID всім ROI (наприклад, 1) та вимкніть перемикач  ``Use "
+"Macroclass ID``. Кожний Class ID повинен бути віднесений тільки до одного "
+"Macroclass ID (тобто кожний клас має лише один макроклас), але декілька "
+"Class ID можуть бути віднесені до одного і того ж Macroclass ID (тобто різні "
+"класи можуть мати спільний макроклас). При цьому декілька ROI можуть спільно "
+"поділяти один і той самий Class ID."
 
 #: ../../roi_dock.rst:31
 msgid "Input"
-msgstr ""
+msgstr "Входові дані"
 
 #: ../../roi_dock.rst:33
 msgid ""
 "``Select an image`` : a raster, a multispectral image loaded in QGIS or a "
 "band set;"
 msgstr ""
+"``Select an image`` : растр, мультиспектральне зображення, завантажене до "
+"QGIS, або набір каналів;"
 
 #: ../../roi_dock.rst:35
 msgid ""
 "[ ``Band set`` ]: open the interface for the creation of a band set (a list "
 "of single band rasters loaded in QGIS);"
 msgstr ""
+"[ ``Band set`` ]: відкриває інтерфейс для створення набору каналів (перелік "
+"одноканальних растрів, завантажених в QGIS);"
 
 #: ../../roi_dock.rst:37
 msgid ""
@@ -99,10 +125,15 @@ msgid ""
 "[string] fields (custom names can be defined in the ``Settings tab`` of the :"
 "ref:`main_interface_window`);"
 msgstr ""
+"``Select a training shapefile`` : шейп-файл для збору навчальних ділянок "
+"(ROI), що застосовуватимуться для класифікації; шейп-файл повинен містити "
+"принаймні поля ``Macro_ID`` [ціле], ``ID_class`` [ціле] та ``ROI_info`` "
+"[текст] (індивідуальні імена можна визначити на  ``Settings tab`` :ref:"
+"`головного_вікна_інтерфейсу`);"
 
 #: ../../roi_dock.rst:39
 msgid "[]: refresh layer list;"
-msgstr ""
+msgstr "[]: оновити перелік шарів;"
 
 #: ../../roi_dock.rst:41
 msgid ""
@@ -110,22 +141,29 @@ msgid ""
 "[int], ``ID_class`` [int] and ``ROI_info`` [string] fields, and one field "
 "for each raster band used for spectral signature calculation."
 msgstr ""
+"[ ``New shapefile`` ]: створити новий шейп-файл з полями  ``Macro_ID`` "
+"[ціле], ``ID_class`` [ціле] та ``ROI_info`` [текст] та по одному полю для "
+"кожного каналу растра для розрахунку спектральних сигнатур."
 
 #: ../../roi_dock.rst:46
 msgid "ROI parameters"
-msgstr ""
+msgstr "Налаштування ROI"
 
 #: ../../roi_dock.rst:48
 msgid ""
 "``Min ROI size`` : the minimum area of a ROI (in pixel unit) when created "
 "using a region growing algorithm on a specific band;"
 msgstr ""
+"``Min ROI size`` : мінмальна площа ROI для індивідуального каналу (в "
+"пікселях)  при створенні з використанням алгоритму нарощування областей;"
 
 #: ../../roi_dock.rst:50
 msgid ""
 "``Max ROI width`` : the maximum width of a ROI (i.e. the side lenght of a "
 "square, centered at the seed pixel, which inscribes the ROI) in pixel unit;"
 msgstr ""
+"``Max ROI width`` : максимальна ширина ROI в пікселях (тобто довжина сторони "
+"квадрата до якого вписана ROI з центром в пікселі-насінині);"
 
 #: ../../roi_dock.rst:52
 msgid ""
@@ -135,6 +173,11 @@ msgid ""
 "overridden and ROI is created using the most similar pixels until size is at "
 "least ``Min ROI size``;"
 msgstr ""
+"``Range radius`` : інтервал, який визначає максимальну спектральну відстань "
+"між пікселем-насіниною та пікселями, що його оточують (в радіометричних "
+"одиницях); якщо розмір ROI менший за ``Min ROI size``, то ``Range radius`` "
+"ігнорується, а ROI створюється з використанням максимально подібних пікселів "
+"доки її розмір не досягне ``Min ROI size``;"
 
 #: ../../roi_dock.rst:54
 msgid ""
@@ -144,19 +187,26 @@ msgid ""
 "calculated on each band (therefore it can be smaller than ``Min ROI "
 "size`` ); this configuration is stored in the QGIS project."
 msgstr ""
+"``Rapid ROI on band`` : якщо увімкнено, ROI створюється тільки для "
+"визначеного каналу растра (процес швидший ніж створення ROI з використанням "
+"всіх доступних каналів); якщо вимкнено, результуюча ROI це перетин ROI, "
+"розрахованих для кожного каналу (тому вона може бути меншою за ``Min ROI "
+"size`` ); це налаштування зберігається в проекті QGIS."
 
 #: ../../roi_dock.rst:59
 msgid "ROI creation"
-msgstr ""
+msgstr "Створення ROI"
 
 #: ../../roi_dock.rst:61
 msgid ""
 "[+]: recall the pointer for ROI creation using the region growing algorithm;"
 msgstr ""
+"[+]: викликати вказівник для створення ROI з використанням алгоритму "
+"нарощування областей;"
 
 #: ../../roi_dock.rst:63
 msgid "[ ``Redo`` ]: create a new ROI at the same point of the previous one;"
-msgstr ""
+msgstr "[ ``Redo`` ]: створити нову ROI в тій самій точці, що і попередню;"
 
 #: ../../roi_dock.rst:65
 msgid ""
@@ -164,10 +214,14 @@ msgid ""
 "clicking the button, left click on the image to define the ROI vertices and "
 "right click on the image to define the last vertex and close the polygon."
 msgstr ""
+"|logo|: створити ROI ручним окреслюванням полігону на зображенні; натиснувши "
+"кнопку, клацайте лівою кнопкою мишки по зображенню для визначення вузлів ROI "
+"та використовуйте праву кнопку мишки, щоб визначити кінцевий вузол та "
+"замкнути полігон."
 
 #: ../../roi_dock.rst:73
 msgid "ROI definition"
-msgstr ""
+msgstr "Ознаки ROI"
 
 #: ../../roi_dock.rst:75
 msgid ""
@@ -176,6 +230,10 @@ msgid ""
 "for the land cover classes when the option ``Use Macroclass ID`` in the :ref:"
 "`classification_dock` is checked;"
 msgstr ""
+"``Macroclass ID`` : індивідуальний ідентифікатор макрокласу ROI, що "
+"співвідноситься з полем ``Macro_ID`` ; якщо опцію  ``Use Macroclass ID`` на :"
+"ref:`панелі_класифікації` увімкнено, цей ID використовується в процесі "
+"класифікації для визначення класів земного покриву;"
 
 #: ../../roi_dock.rst:77
 msgid ""
@@ -184,6 +242,10 @@ msgid ""
 "classes when the option ``Use Macroclass ID`` in the :ref:"
 "`classification_dock` is unchecked;"
 msgstr ""
+"``Class ID`` : індивідуальний ідентифікатор ROI, що співвідноситься з полем  "
+"``ID_class`` ; якщо опцію  ``Use Macroclass ID`` на :ref:"
+"`панелі_класифікації` вимкнено, цей ID використовується в процесі "
+"класфікації для визначення класів земного покриву;"
 
 #: ../../roi_dock.rst:79
 msgid ""
@@ -192,15 +254,22 @@ msgid ""
 "(this description is not used in the classification process and does not "
 "influence the classification);"
 msgstr ""
+"``Information`` : інформація про ROI, що співвідноситься з полем "
+"``ROI_info``; це поле використовується для запису короткого опису ROI (цей "
+"опис не використвується в процесі класифікації та не впливає на її "
+"результати);"
 
 #: ../../roi_dock.rst:81
 msgid "[ ``Save ROI`` ]: save the last created ROI to the training shapefile;"
 msgstr ""
+"[ ``Save ROI`` ]: зберігає останню створену ROI в навчальний шейп-файл;"
 
 #: ../../roi_dock.rst:83
 msgid ""
 "[ ``Undo save ROI`` ]: delete the last saved ROI from the training shapefile;"
 msgstr ""
+"[ ``Undo save ROI`` ]: видаляє останню збережену ROI з навчального шейп-"
+"файлу;"
 
 #: ../../roi_dock.rst:85
 msgid ""
@@ -212,15 +281,23 @@ msgid ""
 "information see the :ref:`main_interface_window`); this configuration is "
 "stored in the QGIS project."
 msgstr ""
+"``Calculate signature``: якщо увімкнено, спектральні сигнатури (середнє "
+"значення та стандартне відхилення ROI для кожного каналу растра) "
+"розраховуються  під час збереження ROI в шейп-файл (залежно від кількості "
+"каналів зображення це може зайняти певний час, але є можливість розрахувати "
+"спектральні сигнатури пізніше для всіх ROI на вкладці  ``Spectral signature "
+"tab``); для більш детальної інформації дивіться :ref:"
+"`головне_вікно_інтерфесу`); це налаштування зберігається в проекті QGIS."
 
 #: ../../roi_dock.rst:87
 msgid "|br|"
-msgstr ""
+msgstr "|br|"
 
 #: ../../roi_dock.rst:89
 msgid "The following is a brief video about the the ROI creation dock:"
-msgstr ""
+msgstr "Дивіться коротке відео про панель створення ROI:"
 
 #: ../../roi_dock.rst:91
 msgid "http://www.youtube.com/embed/B6zElHi2Pnk?rel=0&amp;start=28&amp;end=237"
 msgstr ""
+"http://www.youtube.com/embed/B6zElHi2Pnk?rel=0&amp;start=28&amp;end=237"

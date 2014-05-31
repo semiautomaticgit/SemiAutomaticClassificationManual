@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-12 10:08+0200\n"
-"PO-Revision-Date: 2014-05-30 18:16+0200\n"
+"PO-Revision-Date: 2014-05-31 11:48+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: ../../roi_dock.rst:5
 msgid "ROI Creation dock"
-msgstr "Панель Сворення ROI (ROI  Creation)"
+msgstr "Панель Створення ROI (ROI  Creation)"
 
 #: ../../roi_dock.rst:15
 msgid ""
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../roi_dock.rst:31
 msgid "Input"
-msgstr "Входові дані"
+msgstr "Входові дані (Input)"
 
 #: ../../roi_dock.rst:33
 msgid ""
@@ -129,7 +129,7 @@ msgstr ""
 "(ROI), що застосовуватимуться для класифікації; шейп-файл повинен містити "
 "принаймні поля ``Macro_ID`` [ціле], ``ID_class`` [ціле] та ``ROI_info`` "
 "[текст] (індивідуальні імена можна визначити на  ``Settings tab`` :ref:"
-"`головного_вікна_інтерфейсу`);"
+"`main_interface_window`);"
 
 #: ../../roi_dock.rst:39
 msgid "[]: refresh layer list;"
@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../../roi_dock.rst:46
 msgid "ROI parameters"
-msgstr "Налаштування ROI"
+msgstr "Налаштування ROI (ROI parameters)"
 
 #: ../../roi_dock.rst:48
 msgid ""
@@ -195,7 +195,7 @@ msgstr ""
 
 #: ../../roi_dock.rst:59
 msgid "ROI creation"
-msgstr "Створення ROI"
+msgstr "Створення ROI (ROI creation)"
 
 #: ../../roi_dock.rst:61
 msgid ""
@@ -221,7 +221,7 @@ msgstr ""
 
 #: ../../roi_dock.rst:73
 msgid "ROI definition"
-msgstr "Ознаки ROI"
+msgstr "Ознаки ROI (ROI definition)"
 
 #: ../../roi_dock.rst:75
 msgid ""
@@ -230,9 +230,9 @@ msgid ""
 "for the land cover classes when the option ``Use Macroclass ID`` in the :ref:"
 "`classification_dock` is checked;"
 msgstr ""
-"``Macroclass ID`` : індивідуальний ідентифікатор макрокласу ROI, що "
+"``Macroclass ID`` : унікальний ідентифікатор макрокласу ROI, що "
 "співвідноситься з полем ``Macro_ID`` ; якщо опцію  ``Use Macroclass ID`` на :"
-"ref:`панелі_класифікації` увімкнено, цей ID використовується в процесі "
+"ref:`classification_dock` увімкнено, цей ID використовується в процесі "
 "класифікації для визначення класів земного покриву;"
 
 #: ../../roi_dock.rst:77
@@ -242,10 +242,10 @@ msgid ""
 "classes when the option ``Use Macroclass ID`` in the :ref:"
 "`classification_dock` is unchecked;"
 msgstr ""
-"``Class ID`` : індивідуальний ідентифікатор ROI, що співвідноситься з полем  "
+"``Class ID`` : унікальний ідентифікатор ROI, що співвідноситься з полем  "
 "``ID_class`` ; якщо опцію  ``Use Macroclass ID`` на :ref:"
-"`панелі_класифікації` вимкнено, цей ID використовується в процесі "
-"класфікації для визначення класів земного покриву;"
+"`classification_dock` вимкнено, цей ID використовується в процесі "
+"класифікації для визначення класів земного покриву;"
 
 #: ../../roi_dock.rst:79
 msgid ""
@@ -287,17 +287,16 @@ msgstr ""
 "каналів зображення це може зайняти певний час, але є можливість розрахувати "
 "спектральні сигнатури пізніше для всіх ROI на вкладці  ``Spectral signature "
 "tab``); для більш детальної інформації дивіться :ref:"
-"`головне_вікно_інтерфесу`); це налаштування зберігається в проекті QGIS."
+"`main_interface_window`); це налаштування зберігається в проекті QGIS."
 
 #: ../../roi_dock.rst:87
 msgid "|br|"
-msgstr "|br|"
+msgstr ""
 
 #: ../../roi_dock.rst:89
 msgid "The following is a brief video about the the ROI creation dock:"
-msgstr "Дивіться коротке відео про панель створення ROI:"
+msgstr "Дивіться коротке відео про панель Створення ROI:"
 
 #: ../../roi_dock.rst:91
 msgid "http://www.youtube.com/embed/B6zElHi2Pnk?rel=0&amp;start=28&amp;end=237"
 msgstr ""
-"http://www.youtube.com/embed/B6zElHi2Pnk?rel=0&amp;start=28&amp;end=237"

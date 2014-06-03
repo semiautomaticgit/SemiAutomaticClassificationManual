@@ -1,19 +1,21 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-12 10:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-06-03 18:09+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: uk_UA\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: ../../main_interface_window.rst:5
 msgid "Main Interface Window"
-msgstr ""
+msgstr "Main Interface Window (Вікно Головного інтерфейсу)"
 
 #: ../../main_interface_window.rst:11
 msgid ""
@@ -26,14 +28,22 @@ msgid ""
 "calculation**; **classification report**; **band set definition**; and "
 "**advanced settings**."
 msgstr ""
+"Вікно головного інтерфейсу об'єднує декілька функцій попередньої та "
+"післякласифікаційної обробки даних, зокрема: графіки **спектральних "
+"сигнатур** та **розсіву значень** ROI; пакетне **множинне створення ROI** на "
+"підставі переліку точок; **пакетне обрізання растрів** на підставі координат "
+"або меж шейп-файлу; **попередня обробка Landsat** для автоматичного "
+"переведення дискретних значень у відбивальність та температуру; **оцінка "
+"точності**; **розрахунок змін земного покриву**; **звіт про результати "
+"класифікації**; **визначення набору каналів** та **розширені налаштування**."
 
 #: ../../main_interface_window.rst:13
 msgid "The Main interface is composed of several tabs:"
-msgstr ""
+msgstr "Головний інтерфейс складається з декількох вкладок:"
 
 #: ../../main_interface_window.rst:24
 msgid "ROI tools tab"
-msgstr ""
+msgstr "Вкладка Інструменти ROI (ROI tools)"
 
 #: ../../main_interface_window.rst:26
 msgid ""
@@ -47,85 +57,107 @@ msgid ""
 "temporal images, or for creating several ROIs using GPS data from field "
 "survey."
 msgstr ""
+"Вкладка ``ROI tools`` (Інструменти ROI) включає розрахунок та унаочнення "
+"``Spectral signature`` (Спектральної сигнатури). Вкладка ``Scatter plot`` "
+"(Графік розсіву) дозволяє розраховувати графіки розсіву значень  ROI, які "
+"доцільно використовувати для оцінки відокремленості  ROI при виборі між "
+"двома каналами. Значеня пікселів для двох растрових каналів унаочнюються як "
+"точки в двовимірному просторі. Вкладка ``Multiple ROI creation`` (Множинне "
+"створення  ROI) дозволяє автоматично створювати ROI на підставі переліку "
+"точок (координат) та визначень класів. Це може використовуватись для швидкої "
+"класифікації різночасових зображень або створення декількох ROI на підставі "
+"даних GPS, отриманих під час польового знімання."
 
 #: ../../main_interface_window.rst:33
 msgid "Spectral signature tab"
-msgstr ""
+msgstr "Вкладка Spectral signature (Спектральна сигнатура)"
 
 #: ../../main_interface_window.rst:40
 msgid "ROI signatures"
-msgstr ""
+msgstr "Сигнатури ROI (ROI signatures)"
 
 #: ../../main_interface_window.rst:42 ../../main_interface_window.rst:59
 msgid "[ ``Select all`` ]: select all ROIs for plot;"
-msgstr ""
+msgstr "[ ``Select all`` ]: вибрати всі ROI для унаочнення на графіку;"
 
 #: ../../main_interface_window.rst:43
 msgid ""
 "[ ``Calculate signature`` ]: calculate statistics for selected ROIs (using "
 "the raster selected in the ROI tool tab);"
 msgstr ""
+"[ ``Calculate signature`` ]: розрахувати статистику для вибраних ROI (на "
+"підставі растру, вибраного на вкладці Інструменти ROI);"
 
 #: ../../main_interface_window.rst:44
 msgid "``Plot`` σ: if checked, plot the standard deviation for each ROI;"
 msgstr ""
+"``Plot`` σ: якщо опцію увімкнено, то для кожної ROI будується графік "
+"стандартного відхилення;"
 
 #: ../../main_interface_window.rst:45
 msgid "[ ``Delete selected ROIs`` ]: delete selected ROIs."
-msgstr ""
+msgstr "[ ``Delete selected ROIs`` ]: видалити вибрані ROI."
 
 #: ../../main_interface_window.rst:50
 msgid "Scatter plot tab"
-msgstr ""
+msgstr "Вкладка Scatter plot (Графік розсіву)"
 
 #: ../../main_interface_window.rst:57
 msgid "ROI list"
-msgstr ""
+msgstr "Перелік ROI (ROI list)"
 
 #: ../../main_interface_window.rst:60
 msgid "< ``Band X`` >: X band of the plot;"
-msgstr ""
+msgstr "< ``Band X`` >: X-канал графіка;"
 
 #: ../../main_interface_window.rst:61
 msgid "< ``Band Y`` >: Y band of the plot;"
-msgstr ""
+msgstr "< ``Band Y`` >: Y-канал графіка;"
 
 #: ../../main_interface_window.rst:62
 msgid ""
 "[ ``Calculate scatter plot`` ]: calculate the scatter plot (it can be time "
 "consuming)."
 msgstr ""
+"[ ``Calculate scatter plot`` ]: розрахувати графік розсіву значень (може "
+"зайняти певний час)."
 
 #: ../../main_interface_window.rst:67
 msgid "Multiple ROIs tab"
-msgstr ""
+msgstr "Вкладка Множинні ROI (Multiple ROIs)"
 
 #: ../../main_interface_window.rst:74
 msgid "Point coordinates and ROI definition"
-msgstr ""
+msgstr "Координати точок та визначення ROI"
 
 #: ../../main_interface_window.rst:76
 msgid "``X`` : point X coordinate;"
-msgstr ""
+msgstr "``X`` : X-координата точки;"
 
 #: ../../main_interface_window.rst:77
 msgid "``Y`` : point Y coordinate;"
-msgstr ""
+msgstr "``Y`` : Y-координата точки;"
 
 #: ../../main_interface_window.rst:78
 msgid ""
 "``Macroclass ID`` : ROI ID which corresponds to the fields ``Macro_ID``;"
 msgstr ""
+"``Macroclass ID`` : унікальний ідентифікатор ROI ID, що співвідноситься з "
+"полем ``Macro_ID``;"
 
 #: ../../main_interface_window.rst:79
 msgid "``Class ID`` : ROI ID which corresponds to the fields ``ID_class``;"
 msgstr ""
+"``Class ID`` : унікальний ідентифікатор ROI ID, що співвідноситься з полем "
+"``ID_class``;"
 
 #: ../../main_interface_window.rst:80
 msgid ""
 "``Information`` : ROI information which corresponds to the field "
 "``ROI_info``;"
 msgstr ""
+"``Information`` : інформація про ROI, що співвідноситься з полем "
+"``ROI_info``;"
 
 #: ../../main_interface_window.rst:81
 msgid ""
@@ -133,25 +165,34 @@ msgid ""
 "X coordinate, Y coordinate, ID and Information must be filled for the ROI "
 "creation;"
 msgstr ""
+"[ ``Add point`` ]: додати в таблицю рядок для нової точки; для створення ROI "
+"поля таблиці X-координата, Y-координата, ID та Інформація повинні бути "
+"заповнені;"
 
 #: ../../main_interface_window.rst:82
 msgid "[ ``Remove highlighted points`` ]: delete the rows of selected points;"
 msgstr ""
+"[ ``Remove highlighted points`` ]: видалити рядки, що співвідносяться з "
+"виділеними точками;"
 
 #: ../../main_interface_window.rst:83
 msgid ""
 "[ ``Import point list`` ]: import a point list from text file to the table; "
-"every line of the text file must contain X coordintate, Y coordinate, ID and"
-" Information separated by tabs;"
+"every line of the text file must contain X coordintate, Y coordinate, ID and "
+"Information separated by tabs;"
 msgstr ""
+"[ ``Import point list`` ]: імпортує перелік точок з текстового файлу до "
+"таблиці; кожен рядок тексту повинен містити X-координату, Y-координату, ID "
+"та Інформацію, розділені символом табуляції;"
 
 #: ../../main_interface_window.rst:84
 msgid "[ ``Export point list`` ]: export the point list to text file;"
 msgstr ""
+"[ ``Export point list`` ]: експортує перелік точок до текстового файлу;"
 
 #: ../../main_interface_window.rst:85
 msgid "[ ``Create and save ROIs`` ]: create and save ROIs to shapefile;"
-msgstr ""
+msgstr "[ ``Create and save ROIs`` ]: створити та зберегути ROI до шейп-файлу;"
 
 #: ../../main_interface_window.rst:86
 msgid ""
@@ -159,6 +200,9 @@ msgid ""
 "ROI (the ROI mean value for each raster band); this configuration is stored "
 "in the QGIS project."
 msgstr ""
+"``Calculate signature``: якщо опцію увімкнено, то для ROI розраховується "
+"спектральна сигнатура (середнє значення ROI для кожного растрового каналу); "
+"це налаштування зберігається в проекті QGIS."
 
 #: ../../main_interface_window.rst:91
 msgid "Pre processing tab"
@@ -172,8 +216,8 @@ msgid ""
 "Numbers) to the physical measure of Top Of Atmosphere reflectance (TOA), or "
 "the application of a simple atmospheric correction using the DOS1 method "
 "(Dark Object Subtraction 1), which is an image-based technique (for more "
-"information about the Landsat conversion to TOA and DOS1 correction, see "
-":ref:`landsat_conversion_to_reflectance`)."
+"information about the Landsat conversion to TOA and DOS1 correction, see :"
+"ref:`landsat_conversion_to_reflectance`)."
 msgstr ""
 
 #: ../../main_interface_window.rst:98
@@ -216,8 +260,7 @@ msgstr ""
 #: ../../main_interface_window.rst:118
 msgid ""
 "[ ``Clip selected rasters`` ]: open a window for choosing output "
-"destination, and clip selected rasters saving them in the selected "
-"directory."
+"destination, and clip selected rasters saving them in the selected directory."
 msgstr ""
 
 #: ../../main_interface_window.rst:123
@@ -231,10 +274,10 @@ msgstr ""
 #: ../../main_interface_window.rst:132
 msgid ""
 "[ ``Select a directory`` ]: select a directory where Landsat bands "
-"(filenames thereof must end with the respective number) and the metafile (a "
-".txt file whit the suffix MTL) are stored; all bands found in the directory "
-"are converted automatically (band numbers are identified for **Landsat 4, 5,"
-" 7, and 8**);"
+"(filenames thereof must end with the respective number) and the metafile (a ."
+"txt file whit the suffix MTL) are stored; all bands found in the directory "
+"are converted automatically (band numbers are identified for **Landsat 4, 5, "
+"7, and 8**);"
 msgstr ""
 
 #: ../../main_interface_window.rst:133
@@ -259,8 +302,8 @@ msgstr ""
 msgid ""
 "``Use No data value`` : if checked, No data values are not counted during "
 "the DOS1 calculation of DNmin (for more information about the Landsat "
-"conversion to TOA and DOS1 correction, see "
-":ref:`landsat_conversion_to_reflectance`);"
+"conversion to TOA and DOS1 correction, see :ref:"
+"`landsat_conversion_to_reflectance`);"
 msgstr ""
 
 #: ../../main_interface_window.rst:137
@@ -275,10 +318,10 @@ msgstr ""
 
 #: ../../main_interface_window.rst:152
 msgid ""
-"The ``Post processing`` tab provides the abilities to perform the ``Accuracy"
-" assessment`` (by GRASS GIS ``r.kappa``), comparing a classification to a "
-"reference shapefile, and to calculate the ``Land cover change`` (by SAGA GIS"
-" ``change detection``) between two classifications. Also, the "
+"The ``Post processing`` tab provides the abilities to perform the ``Accuracy "
+"assessment`` (by GRASS GIS ``r.kappa``), comparing a classification to a "
+"reference shapefile, and to calculate the ``Land cover change`` (by SAGA GIS "
+"``change detection``) between two classifications. Also, the "
 "``Classification`` report allows for the calculation of class statistics in "
 "pixel, percentage and area."
 msgstr ""
@@ -338,9 +381,9 @@ msgstr ""
 
 #: ../../main_interface_window.rst:186
 msgid ""
-"[ ``Calculate land cover change`` ]: save the land cover change raster to a "
-".tif file, and a .csv table containing statistics in the same folder and "
-"with the same name defined for the .tif file."
+"[ ``Calculate land cover change`` ]: save the land cover change raster to a ."
+"tif file, and a .csv table containing statistics in the same folder and with "
+"the same name defined for the .tif file."
 msgstr ""
 
 #: ../../main_interface_window.rst:191
@@ -429,8 +472,8 @@ msgid ""
 "The ``Settings`` tab allows for the name customization of the training "
 "shapefile's required fields, which is useful for using any existing "
 "shapefile containing training polygons. Also, the Settings tab contains "
-"debugging utilities for testing the installation of the several dependencies"
-" (SAGA GIS, GRASS GIS) and for the creation a log file."
+"debugging utilities for testing the installation of the several dependencies "
+"(SAGA GIS, GRASS GIS) and for the creation a log file."
 msgstr ""
 
 #: ../../main_interface_window.rst:247
@@ -444,8 +487,7 @@ msgid ""
 msgstr ""
 
 #: ../../main_interface_window.rst:250
-msgid ""
-"[ ``Class ID field`` ]: name of the ID field (default is ``ID_class``);"
+msgid "[ ``Class ID field`` ]: name of the ID field (default is ``ID_class``);"
 msgstr ""
 
 #: ../../main_interface_window.rst:251
@@ -484,8 +526,8 @@ msgstr ""
 
 #: ../../main_interface_window.rst:268
 msgid ""
-"< ``Plot legend Max number of characters`` >: limit the text length of ROIs'"
-" names in the spectral plot legend."
+"< ``Plot legend Max number of characters`` >: limit the text length of ROIs' "
+"names in the spectral plot legend."
 msgstr ""
 
 #: ../../main_interface_window.rst:273
@@ -515,9 +557,9 @@ msgstr ""
 #: ../../main_interface_window.rst:289
 msgid ""
 "``Records events in a log file`` : start recording events in a log file "
-"(saved in the user folder in "
-"``.qgis/python/plugins/SemiAutomaticClassificationPlugin/__0semiautomaticclass.log``"
-" ); this configuration is stored in the QGIS registry;"
+"(saved in the user folder in ``.qgis/python/plugins/"
+"SemiAutomaticClassificationPlugin/__0semiautomaticclass.log`` ); this "
+"configuration is stored in the QGIS registry;"
 msgstr ""
 
 #: ../../main_interface_window.rst:290
@@ -526,8 +568,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:291
 msgid ""
-"[ ``Test SAGA GIS`` ]: test if SAGA GIS is properly installed and "
-"configured;"
+"[ ``Test SAGA GIS`` ]: test if SAGA GIS is properly installed and configured;"
 msgstr ""
 
 #: ../../main_interface_window.rst:292

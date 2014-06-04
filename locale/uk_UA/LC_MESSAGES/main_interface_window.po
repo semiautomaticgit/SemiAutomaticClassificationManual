@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-12 10:08+0200\n"
-"PO-Revision-Date: 2014-06-03 18:09+0200\n"
+"PO-Revision-Date: 2014-06-04 19:17+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -28,14 +28,14 @@ msgid ""
 "calculation**; **classification report**; **band set definition**; and "
 "**advanced settings**."
 msgstr ""
-"Вікно головного інтерфейсу об'єднує декілька функцій попередньої та "
-"післякласифікаційної обробки даних, зокрема: графіки **спектральних "
-"сигнатур** та **розсіву значень** ROI; пакетне **множинне створення ROI** на "
-"підставі переліку точок; **пакетне обрізання растрів** на підставі координат "
-"або меж шейп-файлу; **попередня обробка Landsat** для автоматичного "
-"переведення дискретних значень у відбивальність та температуру; **оцінка "
-"точності**; **розрахунок змін земного покриву**; **звіт про результати "
-"класифікації**; **визначення набору каналів** та **розширені налаштування**."
+"Вікно головного інтерфейсу об'єднує декілька функцій перед- та "
+"післяоброблення даних, зокрема: графіки **спектральних сигнатур** та "
+"**розсіву значень** ROI; пакетне **створення множинних ROI** на підставі "
+"переліку точок; **пакетне обрізання растрів** на підставі координат або меж "
+"шейп-файлу; **передоброблення Landsat** для автоматичного переведення "
+"дискретних значень у відбивальність та температуру; **оцінка точності**; "
+"**розрахунок змін земного покриву**; **звіт про результати класифікації**; "
+"**визначення набору каналів** та **розширені налаштування**."
 
 #: ../../main_interface_window.rst:13
 msgid "The Main interface is composed of several tabs:"
@@ -206,7 +206,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:91
 msgid "Pre processing tab"
-msgstr ""
+msgstr "Вкладка Передоброблення (Pre processing)"
 
 #: ../../main_interface_window.rst:93
 msgid ""
@@ -219,57 +219,75 @@ msgid ""
 "information about the Landsat conversion to TOA and DOS1 correction, see :"
 "ref:`landsat_conversion_to_reflectance`)."
 msgstr ""
+"Вкладка ``Pre processing`` (Передоброблення) дозволяє здйснювати ``Clipping "
+"of multiple rasters``  (пакетне обрізання растрів) на підставі координат "
+"точок або шейп-файлу. Також вкладка Landsat дозволяє здійснювати переведення "
+"даних знімків ``Landsat`` з DN (від англ. Digital Numbers - дискретні числа) "
+"до фізичних величин відбивальності на поверхні атмосфери (англ. Top Of "
+"Atmosphere reflectance - TOA) або застосовувати просте атмосферне "
+"коректування з використанням методу DOS1 (від англ. Dark Object Subtraction "
+"1 - віднімання темного об'єкта), який є технікою, що ґрунтується на "
+"зображенні (для більш докладної інформації про переведення даних Landsat в "
+"TOA та коректування DOS1 дивіться :ref:`landsat_conversion_to_reflectance`)."
 
 #: ../../main_interface_window.rst:98
 msgid "Clip multiple rasters tab"
-msgstr ""
+msgstr "Вкладка Пакетне обрізання растрів (Clip multiple rasters)"
 
 #: ../../main_interface_window.rst:105
 msgid "Raster list"
-msgstr ""
+msgstr "Перелік растрів (Raster list)"
 
 #: ../../main_interface_window.rst:107
 msgid "[ ``Refresh list`` ]: refresh layer list;"
-msgstr ""
+msgstr "[ ``Refresh list`` ]: оновити перелік шарів;"
 
 #: ../../main_interface_window.rst:108
 msgid "[ ``Select all`` ]: select all the rasters to be clipped."
-msgstr ""
+msgstr "[ ``Select all`` ]: вибрати для обрізання всі растри."
 
 #: ../../main_interface_window.rst:113
 msgid "Clip coordinates"
-msgstr ""
+msgstr "Координати обрізання (Clip coordinates)"
 
 #: ../../main_interface_window.rst:115
 msgid ""
 "[+]: click on the map for the definition of the Upper Left (UL) and Lower "
 "Right (LR) point coordinates (X and Y) for clipping;"
 msgstr ""
+"[+]: клацніть на карті для визначення координат (X та Y)  Верхньої Лівої "
+"(UL) та Нижньої Правої (LR) точок для обрізання;"
 
 #: ../../main_interface_window.rst:116
 msgid ""
 "``Use shapefile for clipping``: if checked, select a shapefile for clipping;"
 msgstr ""
+"``Use shapefile for clipping``: якщо опцію увімкнено, то вкажіть шейп-файл "
+"для обрізання;"
 
 #: ../../main_interface_window.rst:117
 msgid ""
 "< ``No data value`` >: set the value for 'No data' pixels (e.g. outside the "
 "clipped area);"
 msgstr ""
+"< ``No data value`` >: встановіть значення 'No data' для пікселів, що не "
+"місятять даних (тобто знаходяться за межами обрізання);"
 
 #: ../../main_interface_window.rst:118
 msgid ""
 "[ ``Clip selected rasters`` ]: open a window for choosing output "
 "destination, and clip selected rasters saving them in the selected directory."
 msgstr ""
+"[ ``Clip selected rasters`` ]: відкрити діалогове вікно для визначення "
+"вихідного каталогу та зберегти до нього обрізані растри."
 
 #: ../../main_interface_window.rst:123
 msgid "Landsat tab"
-msgstr ""
+msgstr "Вкладка Landsat"
 
 #: ../../main_interface_window.rst:130
 msgid "Landsat conversion to TOA reflectance and brightness temperature"
-msgstr ""
+msgstr "Переведення Landsat у  TOA відбивальність та яскравісну температуру"
 
 #: ../../main_interface_window.rst:132
 msgid ""
@@ -279,24 +297,36 @@ msgid ""
 "are converted automatically (band numbers are identified for **Landsat 4, 5, "
 "7, and 8**);"
 msgstr ""
+"[ ``Select a directory`` ]: вибрати каталог з растрами каналів Landsat "
+"(імена файлів повинні закінчуватись відповідним номером) та файлом метаданих "
+"(файл .txt з приставкою  MTL); всі канали, що знаходяться в каталозі, будут "
+"автоматично переведені (номери каналів визначаються для  **Landsat 4, 5, 7 "
+"та 8**);"
 
 #: ../../main_interface_window.rst:133
 msgid ""
 "[ ``Select a directory`` ]: select a directory where converted bands are "
 "saved;"
 msgstr ""
+"[ ``Select a directory`` ]: вибрати каталог для збереження перерведених "
+"каналів;"
 
 #: ../../main_interface_window.rst:134
 msgid ""
 "``Brightness temperature in Celsius`` : if checked, convert brightness "
 "temperature to Celsius (default is Kelvin);"
 msgstr ""
+"``Brightness temperature in Celsius`` : якщо опцію увімкнено, то яскравісна "
+"ттемпература перераховується в градуси Цельсія (початково - Кельвін);"
 
 #: ../../main_interface_window.rst:135
 msgid ""
 "``Apply DOS1 atmospheric correction`` : if checked, the DOS1 atmospheric "
 "correction is applied to all the bands (thermal bands excluded);"
 msgstr ""
+"``Apply DOS1 atmospheric correction`` : якщо опцію увімкнено, то до всіх "
+"каналів (за виключенням термального) застосовується атмосферне коректування "
+"DOS1;"
 
 #: ../../main_interface_window.rst:136
 msgid ""
@@ -305,12 +335,18 @@ msgid ""
 "conversion to TOA and DOS1 correction, see :ref:"
 "`landsat_conversion_to_reflectance`);"
 msgstr ""
+"``Use No data value`` : якщо опцію увімкнено, то значення No data не "
+"опрацьовуються під час DOS1 розрахування DNmin (для більш докладної "
+"інформації про переведення даних Landsat в TOA та коректування DOS1 "
+"дивіться :ref:`landsat_conversion_to_reflectance`)."
 
 #: ../../main_interface_window.rst:137
 msgid ""
 "[ ``Perform conversion`` ]: convert Landsat bands and save them in the "
 "output directory."
 msgstr ""
+"[ ``Perform conversion`` ]: перевести канали Landsat та зберегти їх до "
+"вихідного каталогу."
 
 #: ../../main_interface_window.rst:150
 msgid "Post processing tab"

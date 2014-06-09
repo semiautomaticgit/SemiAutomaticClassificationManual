@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-12 10:08+0200\n"
-"PO-Revision-Date: 2014-06-05 19:24+0200\n"
+"PO-Revision-Date: 2014-06-09 18:21+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,7 @@ msgstr ""
 #: ../../Landsat_conversion.rst:5
 msgid "Landsat image conversion to reflectance and DOS1 atmospheric correction"
 msgstr ""
-"Переведення даних знімків Landsat у відбивальність та атмосферне "
-"коректування DOS1"
+"Перерахунок знімків Landsat у відбивальність та атмосферне коректування DOS1"
 
 #: ../../Landsat_conversion.rst:13
 msgid ""
@@ -29,29 +28,45 @@ msgid ""
 "* :math:`\\mu m`)] and for Landsat images it is given by (https://landsat."
 "usgs.gov/Landsat8_Using_Product.php):"
 msgstr ""
+"Енергетична світність це \"потік енергії (переважно випромінної або "
+"надхідної) на одиницю просторового кута поверхні, що залишає одиницю площі "
+"поверхні в заданому напрямку\", \"Енергетична світність реєструється "
+"сенсором та певною мірою залежить від відбивальності\" (NASA, 2011, p. 47). "
+"Спектральна енергетична світність на апертурі сенсора (:math:`L_{\\lambda}`) "
+"вимірюється у [Вт/(м кв. * стерадіан * :math:`\\mu m`)] та для зображень "
+"Landsat визначається за (https://landsat.usgs.gov/Landsat8_Using_Product."
+"php):"
 
 #: ../../Landsat_conversion.rst:20 ../../Landsat_conversion.rst:31
 #: ../../Landsat_conversion.rst:45 ../../Landsat_conversion.rst:61
 #: ../../Landsat_conversion.rst:148 ../../Landsat_conversion.rst:158
 msgid "where:"
-msgstr ""
+msgstr "де:"
 
 #: ../../Landsat_conversion.rst:22 ../../Landsat_conversion.rst:160
 msgid ""
 ":math:`M_{L}` = Band-specific multiplicative rescaling factor from Landsat "
 "metadata (RADIANCE_MULT_BAND_x, where x is the band number)"
 msgstr ""
+":math:`M_{L}` = залежний від каналу множильний коефіцієнт "
+"перемасштабовування з метаданих Landsat (RADIANCE_MULT_BAND_x, де x це номер "
+"каналу)"
 
 #: ../../Landsat_conversion.rst:23 ../../Landsat_conversion.rst:161
 msgid ""
 ":math:`A_{L}` = Band-specific additive rescaling factor from Landsat "
 "metadata (RADIANCE_ADD_BAND_x, where x is the band number)"
 msgstr ""
+":math:`A_{L}` =  залежний від каналу адитивний коефіцієнт "
+"перемасштабовування з метаданих Landsat (RADIANCE_ADD_BAND_x, де x це номер "
+"каналу)"
 
 #: ../../Landsat_conversion.rst:24 ../../Landsat_conversion.rst:162
 msgid ""
 ":math:`Q_{cal}` = Quantized and calibrated standard product pixel values (DN)"
 msgstr ""
+":math:`Q_{cal}` = дискретизовані та калібровані значення пікселів "
+"стандартного продукту (DN)"
 
 #: ../../Landsat_conversion.rst:26
 msgid ""
@@ -61,18 +76,29 @@ msgid ""
 "or albedo. This combined surface and atmospheric reflectance of the Earth is "
 "computed with the following formula\" (NASA, 2011, p. 119):"
 msgstr ""
+"\"Зменшити мінливість між відносно безхмарними сценами Landsat можливо "
+"нормуванням значень енергетичної освітленості сонячним промінням. Для цього "
+"потрібно перерахувати спектральну енергетичну світність, розраховану за "
+"виразом наведеним вище,  у планетарну відбивальну здатність або альбедо. Ця "
+"комбінована відбивальна здатність земної поверхні та атмосфери "
+"розраховується за наступною формулою\" (NASA, 2011, p. 119):"
 
 #: ../../Landsat_conversion.rst:33
 msgid ""
 ":math:`\\rho_{p}` = Unitless planetary reflectance, which is \"the ratio of "
 "reflected versus total power energy” (NASA, 2011, p. 47)"
 msgstr ""
+":math:`\\rho_{p}` = безрозмірна величина планетарної відбивальної здатності, "
+"яка є  \"відношенням відбитої до загальної потужності енергії” (NASA, 2011, "
+"p. 47)"
 
 #: ../../Landsat_conversion.rst:34
 msgid ""
 ":math:`L_{\\lambda}` = Spectral radiance at the sensor's aperture (at-"
 "satellite radiance)"
 msgstr ""
+":math:`L_{\\lambda}` = спектральна густина енергетичної світності на "
+"апертурі сенсора (енергетична світність на супутнику)"
 
 #: ../../Landsat_conversion.rst:35
 msgid ""
@@ -80,10 +106,15 @@ msgid ""
 "8 metafile, and an excel file is available from http://landsathandbook.gsfc."
 "nasa.gov/excel_docs/d.xls)"
 msgstr ""
+":math:`d` = відстань між Землею та Сонцем в астрономічних одиницях "
+"(постачається з файлом метаданих Landsat 8, також можно скористатись файлом "
+"Еxcel, доступним з http://landsathandbook.gsfc.nasa.gov/excel_docs/d.xls)"
 
 #: ../../Landsat_conversion.rst:36
 msgid ":math:`ESUN_{\\lambda}` = Mean solar exo-atmospheric irradiances"
 msgstr ""
+":math:`ESUN_{\\lambda}` = середня екзоатмосферна енергетична освітленість "
+"сонцевим промінням"
 
 #: ../../Landsat_conversion.rst:37
 msgid ""
@@ -91,6 +122,9 @@ msgid ""
 "`\\theta_{s}` = 90° - :math:`\\theta_{e}` where :math:`\\theta_{e}` is the "
 "Sun elevation"
 msgstr ""
+":math:`\\theta_{s}` = сонцевий зенітний кут в градусах, який дорівнює :math:`"
+"\\theta_{s}` = 90° - :math:`\\theta_{e}` де :math:`\\theta_{e}` - висота "
+"Сонця"
 
 #: ../../Landsat_conversion.rst:39
 msgid ""
@@ -101,23 +135,29 @@ msgid ""
 "order to measure the refletance at the ground. As described by Moran et al. "
 "(1992), the land surface reflectance (:math:`\\rho`) is:"
 msgstr ""
+"Варто зауважити, що дані Landsat 8 постачаються з залежними від каналу "
+"коефіцієнтами перемасштабовування, які дозволяють здійснювати безпосереднє "
+"перерахування з DN до TOA відбивальності. Тим не менше, для вимірювання "
+"відбивальності земної поверхні повинен бути врахований вплив атмосфери "
+"(тобто збурення відбивальності залежно від довжини хвилі). За Moran et al. "
+"(1992) відбивальність земної поверхні  (:math:`\\rho`) становить:"
 
 #: ../../Landsat_conversion.rst:47
 msgid ":math:`L_{p}` is the path radiance"
-msgstr ""
+msgstr ":math:`L_{p}` енергетична світність траєкторії потоку"
 
 #: ../../Landsat_conversion.rst:48
 msgid ":math:`T_{v}` is the atmospheric transmittance in the viewing direction"
-msgstr ""
+msgstr ":math:`T_{v}` пропускальна здатнсть атмосфери в напрямку огляду"
 
 #: ../../Landsat_conversion.rst:49
 msgid ""
 ":math:`T_{z}` is the atmospheric transmittance in the illumination direction"
-msgstr ""
+msgstr ":math:`T_{z}` пропускальна здатність атмосфери в напрямку освітлення"
 
 #: ../../Landsat_conversion.rst:50
 msgid ":math:`E_{down}` is the downwelling diffuse irradiance"
-msgstr ""
+msgstr ":math:`E_{down}` низхідна енергетична освітленість розсіяним промінням"
 
 #: ../../Landsat_conversion.rst:52
 msgid ""
@@ -126,6 +166,11 @@ msgid ""
 "image-based techniques for the calculation of these parameters, without in-"
 "situ measurements during image acquisition."
 msgstr ""
+"Таким чином, для розрахунку \\ро необхідно провести декілька атмосферних "
+"вимірювань з метою отримання поправок на підставі фізичних величин.Також для "
+"розрахунку цих величин можна застосувати  альтернативні техніки, що "
+"грунтуються безпосередньо на знімку та не передбачають проведення  "
+"позалабораторних вимірювань під час отримання зображення."
 
 #: ../../Landsat_conversion.rst:54
 msgid ""
@@ -141,6 +186,19 @@ msgid ""
 "available as they can improve the estimation of land surface reflectance. "
 "The path radiance is given by (Sobrino, et al., 2004):"
 msgstr ""
+"Віднімання темного об'єкта (англ. Dark Object Subtraction - DOS) це група "
+"методів атмосферного коректування, що ґрунтуються на зображенні. Chavez "
+"(1996) пояснює \"основою є припущення, що деякі пікселі зображення повністю "
+"затінені і їх енергетична світність, що отримується сенсором, розсіюється "
+"атмосферою (енергетична світність траєкторії потоку). Це припущення "
+"поєднується з фактом, що лише незначна кількість об'єктів на поверхні Землі "
+"є абсолютно чорними, отже припущення мінімальної відбивальності на рівні 1% "
+"краще за 0%”. Варто зауважити, що точність технік коректування, що "
+"ґрунтуються на зображенні, загалом нижча за точність тих, що ґрунтуються на "
+"реальних фізичних величинах. Тим не менше, вони можуть бути корисними за "
+"відсутності доступних атмосферних вимірювань, оскільки можуть покращити "
+"оцінку відбивальності земної поверхні. Енергетична світність траєкторії "
+"потоку за (Sobrino, et al., 2004):"
 
 #: ../../Landsat_conversion.rst:63
 msgid ""
@@ -150,24 +208,31 @@ msgid ""
 "considered” (Sobrino, et al., 2004, p. 437), therefore the radiance obtained "
 "with that digital count value (:math:`DN_{min}`)"
 msgstr ""
+":math:`L_{min}` = \"енергетична світність, що співвідноситься з дискретним "
+"значенням, для якого сума всіх пікселів з меншими або рівними значеннями "
+"становить 0.01% від загальної кількості пікселів всього "
+"зображення” (Sobrino, et al., 2004, p. 437), отримана на підставі цього "
+"дискретного значення енергетична світність (:math:`DN_{min}`)"
 
 #: ../../Landsat_conversion.rst:64
 msgid ""
 ":math:`L_{DO1\\%}` = radiance of Dark Object, assumed to have a reflectance "
 "value of 0.01"
 msgstr ""
+":math:`L_{DO1\\%}` = енергетична світність темного об'єкта, що за "
+"припущенням має значення відбивальності 0.01"
 
 #: ../../Landsat_conversion.rst:66
 msgid "Therfore for Landsat images:"
-msgstr ""
+msgstr "Отже, для знімків Landsat:"
 
 #: ../../Landsat_conversion.rst:72
 msgid "The radiance of Dark Object is given by (Sobrino, et al., 2004):"
-msgstr ""
+msgstr "Енергетична світність темного об'єкта за (Sobrino, et al., 2004):"
 
 #: ../../Landsat_conversion.rst:78 ../../Landsat_conversion.rst:91
 msgid "Therefore the path radiance is:"
-msgstr ""
+msgstr "Енергетична світність траєкторії потоку становить:"
 
 #: ../../Landsat_conversion.rst:84
 msgid ""
@@ -176,6 +241,10 @@ msgid ""
 "` . The simplest technique is the DOS1, where the following assumptions are "
 "made (Moran et al., 1992):"
 msgstr ""
+"Існує декілька техніх DOS (зокрема DOS1, DOS2, DOS3, DOS4), що ґрунтуються "
+"на різних припущеннях щодо :math:`T_{v}`, :math:`T_{z}`  та :math:`E_{down}"
+"` . Найпростішим методом є DOS1, який виходить з наступних припущень (Moran "
+"et al., 1992):"
 
 #: ../../Landsat_conversion.rst:87
 msgid ":math:`T_{v}` = 1"
@@ -191,17 +260,19 @@ msgstr ""
 
 #: ../../Landsat_conversion.rst:97
 msgid "And the resulting land surface reflectance is given by:"
-msgstr ""
+msgstr "Результуюча відбивальність земної поверхні визначається за:"
 
 #: ../../Landsat_conversion.rst:103
 msgid ""
 "ESUN [W /(m2 * :math:`\\mu m`)] values for Landsat sensors are provided in "
 "the following table."
 msgstr ""
+"Значення ESUN [W /(m2 * :math:`\\mu m`)] для сенсорів Landsat наведено в "
+"наступній таблиці."
 
 #: ../../Landsat_conversion.rst:106
 msgid "Band"
-msgstr ""
+msgstr "Канал"
 
 #: ../../Landsat_conversion.rst:106 ../../Landsat_conversion.rst:167
 msgid "Landsat 4*"
@@ -313,23 +384,26 @@ msgstr ""
 
 #: ../../Landsat_conversion.rst:121 ../../Landsat_conversion.rst:174
 msgid "\\* from Chander & Markham (2003)"
-msgstr ""
+msgstr "\\* за Chander & Markham (2003)"
 
 #: ../../Landsat_conversion.rst:123
 msgid "** from Finn, et al. (2012)"
-msgstr ""
+msgstr "** за Finn, et al. (2012)"
 
 #: ../../Landsat_conversion.rst:125
 msgid ""
 "|br| For Landsat 8, :math:`ESUN` can be calculated as (from http://grass."
 "osgeo.org/grass65/manuals/i.landsat.toar.html):"
 msgstr ""
+"|br| Для Landsat 8 :math:`ESUN` може бути розраховано як (за http://grass."
+"osgeo.org/grass65/manuals/i.landsat.toar.html):"
 
 #: ../../Landsat_conversion.rst:132
 msgid ""
 "where RADIANCE_MAXIMUM and REFLECTANCE_MAXIMUM are provided by image "
 "metadata."
 msgstr ""
+"де RADIANCE_MAXIMUM та REFLECTANCE_MAXIMUM постачаються з метаданими знімка."
 
 #: ../../Landsat_conversion.rst:134
 msgid "|br|"
@@ -338,6 +412,8 @@ msgstr ""
 #: ../../Landsat_conversion.rst:140
 msgid "Conversion to At-Satellite Brightness Temperature"
 msgstr ""
+"Перерахунок в яскравісну температуру на сенсорі (At-Satellite Brightness "
+"Temperature)"
 
 #: ../../Landsat_conversion.rst:142
 msgid ""

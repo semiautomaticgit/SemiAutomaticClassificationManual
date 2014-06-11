@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-12 10:08+0200\n"
-"PO-Revision-Date: 2014-06-09 18:21+0200\n"
+"PO-Revision-Date: 2014-06-11 18:24+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -412,7 +412,7 @@ msgstr ""
 #: ../../Landsat_conversion.rst:140
 msgid "Conversion to At-Satellite Brightness Temperature"
 msgstr ""
-"Перерахунок в яскравісну температуру на сенсорі (At-Satellite Brightness "
+"Перерахунок в яскравісну температуру на супутнику (At-Satellite Brightness "
 "Temperature)"
 
 #: ../../Landsat_conversion.rst:142
@@ -421,16 +421,22 @@ msgid ""
 "Temperature is given by (from https://landsat.usgs.gov/"
 "Landsat8_Using_Product.php):"
 msgstr ""
+"Для термальних каналів Landsat перерахунок DN в яскравісну температуру на "
+"супутнику відбувається за виразом (за  https://landsat.usgs.gov/"
+"Landsat8_Using_Product.php):"
 
 #: ../../Landsat_conversion.rst:150
 msgid ""
 ":math:`K_{1}` = Band-specific thermal conversion constant (in watts/meter "
 "squared * ster * :math:`\\mu m`)"
 msgstr ""
+":math:`K_{1}` = залежна від каналу стала термального перерахунку (Вт/м кв. * "
+"стерадіан * :math:`\\mu m`)"
 
 #: ../../Landsat_conversion.rst:151
 msgid ":math:`K_{2}` = Band-specific thermal conversion constant (in kelvin)"
 msgstr ""
+":math:`K_{2}` = залежна від каналу стала термального перерахунку (Кельвін)"
 
 #: ../../Landsat_conversion.rst:153
 msgid ""
@@ -439,16 +445,22 @@ msgid ""
 "images it is given by (from https://landsat.usgs.gov/Landsat8_Using_Product."
 "php)"
 msgstr ""
+"and :math:`L_{\\lambda}` спектральна густина енергетичної світності на "
+"апертурі сенсора, виміряна у Вт/(м кв. * стерадіан * :math:`\\mu m`); для "
+"знімків Landsat визначається за виразом (за https://landsat.usgs.gov/"
+"Landsat8_Using_Product.php)"
 
 #: ../../Landsat_conversion.rst:164
 msgid ""
 "The :math:`K_{1}` and :math:`K_{2}` constant for Landsat sensors are "
 "provided in the following table:"
 msgstr ""
+"Сталі :math:`K_{1}` та :math:`K_{2}` для сенсорів Landsat наведені в "
+"наступній таблиці:"
 
 #: ../../Landsat_conversion.rst:167
 msgid "Constant"
-msgstr ""
+msgstr "Стала"
 
 #: ../../Landsat_conversion.rst:167
 msgid "Landsat 5*"
@@ -456,7 +468,7 @@ msgstr ""
 
 #: ../../Landsat_conversion.rst:169
 msgid ":math:`K_{1}` (watts/meter squared * ster * :math:`\\mu m`)"
-msgstr ""
+msgstr ":math:`K_{1}` (Вт/м кв. * стерадіан * :math:`\\mu m`)"
 
 #: ../../Landsat_conversion.rst:169
 msgid "671.62"
@@ -472,7 +484,7 @@ msgstr ""
 
 #: ../../Landsat_conversion.rst:171
 msgid ":math:`K_{2}` (Kelvin)"
-msgstr ""
+msgstr ":math:`K_{2}` (Кельвін)"
 
 #: ../../Landsat_conversion.rst:171
 msgid "1284.30"
@@ -488,17 +500,19 @@ msgstr ""
 
 #: ../../Landsat_conversion.rst:176
 msgid "** from NASA (2011)"
-msgstr ""
+msgstr "** за NASA (2011)"
 
 #: ../../Landsat_conversion.rst:178
 msgid ""
 "|br| For Landsat 8, the :math:`K_{1}` and :math:`K_{2}` values are provided "
 "in the image metafile."
 msgstr ""
+"|br| Для Landsat 8, значення :math:`K_{1}` та :math:`K_{2}` наведено в "
+"метафайлі зображення."
 
 #: ../../Landsat_conversion.rst:181
 msgid "|br| **References**"
-msgstr ""
+msgstr "|br| **Довідкові посилання**"
 
 #: ../../Landsat_conversion.rst:184
 msgid ""
@@ -523,6 +537,12 @@ msgid ""
 "pdf/A%20Straight%20Forward%20guide%20for%20Processing%20Radiance%20and"
 "%20Reflectance_V_24Jul12.pdf"
 msgstr ""
+"``Finn, M.P., Reed, M.D, and Yamamoto, K.H. 2012. A Straight Forward Guide "
+"for Processing Radiance and Reflectance for EO-1 ALI, Landsat 5 TM, Landsat "
+"7 ETM+, and ASTER. Неопублікований звіт USGS/Center of Excellence for "
+"Geospatial Information Science, 8 p`` , http://cegis.usgs.gov/soil_moisture/"
+"pdf/A%20Straight%20Forward%20guide%20for%20Processing%20Radiance%20and"
+"%20Reflectance_V_24Jul12.pdf"
 
 #: ../../Landsat_conversion.rst:190
 msgid ""

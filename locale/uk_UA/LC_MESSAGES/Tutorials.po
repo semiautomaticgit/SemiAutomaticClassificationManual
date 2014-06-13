@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-12 10:08+0200\n"
-"PO-Revision-Date: 2014-06-12 16:00+0200\n"
+"PO-Revision-Date: 2014-06-13 17:37+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -317,6 +317,10 @@ msgid ""
 "possible to **calculate the ROI signature** by clicking the button Calculate "
 "signature and confirming;"
 msgstr ""
+"В головному інтерфейсі модуля виберіть вкаладку ROI tools > Spectral "
+"signature, яка унаочнює графіки обраних ROI, та виберіть елемент water; є "
+"можливість **розрахувати сигнатуру ROI**, якщо клацнути кнопку Calculate "
+"signature та підтвердити;"
 
 #: ../../Tutorials.rst:98
 msgid ""
@@ -324,6 +328,9 @@ msgid ""
 "deviation** of each ROI; you can pan and zoom through the plot using the "
 "navigation toolbar (provided by Matplotlib)."
 msgstr ""
+"Якщо опцію Plot σ увімкнено, тоді графік буде унаочнювати **стандартне "
+"відхилення** кожної ROI; ви можете перміщатись вздовж та змінювати масштаб "
+"графіка, використовуючи панель навігації (надається Matplotlib)."
 
 #: ../../Tutorials.rst:102
 msgid ""
@@ -331,10 +338,12 @@ msgid ""
 "change the maximum number of characters for ROIs of the plot legend (which "
 "is 15 by default)."
 msgstr ""
+"**Порада**: на вкладці Settings головного інтерфесу є можливість змінити "
+"максимальну кількість символів для ROI в легенді графіка (стандартно 15)."
 
 #: ../../Tutorials.rst:109
 msgid "Scatter plot"
-msgstr ""
+msgstr "Графік розсіву"
 
 #: ../../Tutorials.rst:111
 msgid ""
@@ -343,10 +352,14 @@ msgid ""
 "bands. Pixel values for two raster bands are represented as points in the 2D "
 "space."
 msgstr ""
+"Вкладка ``Scatter plot`` дозволяє розраховувати та унаочнювати графіки "
+"розсіву ROI, які є зручними для оцінки відокремленості ROI при виборі між "
+"двома каналами. Значення пікселів для двох растрових каналів унаочнюються як "
+"точки в двовимірному просторі."
 
 #: ../../Tutorials.rst:116
 msgid "Multiple ROI creation at once"
-msgstr ""
+msgstr "Створення множинних ROI заодно"
 
 #: ../../Tutorials.rst:118
 msgid ""
@@ -357,6 +370,12 @@ msgid ""
 "fill the required fields; now select the line (click the line number on the "
 "left) and click Remove highlighted points;"
 msgstr ""
+"Є можливість **автоматичного створення  ROI на підставі переліку точкових "
+"координат** (X, Y), ID класів та інформації про ROI (ROI створюються "
+"відповідно до налаштувань встановлених на панелі  ROI creation); виберіть "
+"вкладку ROI tools > Multiple ROI creation та клацніть Add point, щоб додати "
+"новий рядок, де можна заповнити необхідні поля; тепер виберіть рядок "
+"(клацніть номер рядка ліворуч) та клацніть Remove highlighted points;"
 
 #: ../../Tutorials.rst:122
 msgid ""
@@ -365,20 +384,26 @@ msgid ""
 "sample_points.txt>`_,  click  the  button  Import  and  select  the "
 "downloaded file;"
 msgstr ""
+"Також можливо **імпортувати перелік точок**,отриманих  наприклад під час "
+"польового знімання; завантажте `цей текстовий файл <http://hub.qgis.org/"
+"attachments/download/6176/sample_points.txt>`_,  клацніть кнопку Import та "
+"виберіть завантажений файл;"
 
 #: ../../Tutorials.rst:126
 msgid ""
 "In order to create and save the ROIs to the shapefile click Create and save "
 "ROIs (it takes some time, depending on the number of points)."
 msgstr ""
+"Для створення та збереження  ROI до шейп-файлу клацніть Create and save ROI "
+"(це може забрати певний час, залежно від кількості точок)."
 
 #: ../../Tutorials.rst:133
 msgid "Perform a classification preview"
-msgstr ""
+msgstr "Здійснення попереднього перегляду класифікації"
 
 #: ../../Tutorials.rst:135
 msgid "Classification preview is a rapid way to evaluate collected ROIs."
-msgstr ""
+msgstr "Попередній перегляд класифікації дозволяє швидко оцінити зібрані ROI."
 
 #: ../../Tutorials.rst:137
 msgid ""
@@ -386,6 +411,9 @@ msgid ""
 "(Maximum Likelihood; Minimum Distance; Spectral Angle Mapping); now select "
 "Spectral Angle Mapping;"
 msgstr ""
+"Є можливість вибирати між декількома **класифікаційними алгоритмами** "
+"(Maximum Likelihood; Minimum Distance; Spectral Angle Mapping); виберіть "
+"Spectral Angle Mapping;"
 
 #: ../../Tutorials.rst:139
 msgid ""
@@ -396,6 +424,13 @@ msgid ""
 "Mapping, pixels are unclassified if spectral angle distance is greater than "
 "threshold (max 90);"
 msgstr ""
+"**Порогова величина алгоритму** дозволяє залишати некласифікованими пікселі, "
+"що відповідають певній умові: для Maximum Likelihood пікселі не "
+"класифікуються, якщо імовірність менша за значення порогової величини "
+"(максимально 100); для Minimum Distance пікселі не класифікуються, якщо "
+"відстань більша за порогову величину; для Spectral Angle Mapping пікселі не "
+"класифікуються, якщо величина спектрального кута більша за порогове значення "
+"(максимально 90);"
 
 #: ../../Tutorials.rst:141
 msgid ""

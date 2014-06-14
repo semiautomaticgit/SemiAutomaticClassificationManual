@@ -1,0 +1,174 @@
+#
+# Luca Congedo <ing.congedoluca@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-12 10:08+0200\n"
+"PO-Revision-Date: 2014-04-13 11:18+0200\n"
+"Last-Translator: Luca Congedo <ing.congedoluca@gmail.com>\n"
+"Language-Team: Italiano <ing.congedoluca@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../../installation_win64.rst:5
+msgid "Installation in Windows 64 bit"
+msgstr "Installazione in Windows 64 bit"
+
+#: ../../installation_win64.rst:14
+msgid "QGIS download and installation"
+msgstr "Download ed installazione di QGIS"
+
+#: ../../installation_win64.rst:16
+msgid ""
+"Download the latest QGIS version 64 bit from `here <http://www.qgis.org/en/"
+"site/forusers/download.html>`_ (the direct download of QGIS 2.2 from this "
+"`link <http://qgis.org/downloads/QGIS-OSGeo4W-2.2.0-1-Setup-x86_64.exe>`_);"
+msgstr ""
+"Scaricare l'ultima versione di QGIS 64 bit da `qui <http://www.qgis.org/en/"
+"site/forusers/download.html>`_ (il download diretto di QGIS 2.2 da questo "
+"`link <http://qgis.org/downloads/QGIS-OSGeo4W-2.2.0-1-Setup-x86_64.exe>`_);"
+
+#: ../../installation_win64.rst:18
+msgid ""
+"Execute the QGIS installer with administrative rights, accepting the default "
+"configuration."
+msgstr ""
+"Eseguire l'installatore di QGIS con i diritti di amministrazione, accettando "
+"la configurazione di default."
+
+#: ../../installation_win64.rst:20
+msgid "Now, QGIS 2 is installed."
+msgstr "Ora, QGIS 2 è installato."
+
+#: ../../installation_win64.rst:27
+msgid "SciPy installation"
+msgstr "Installazione di SciPy"
+
+#: ../../installation_win64.rst:29
+msgid ""
+"The SciPy package is not included in the 64 bit version of QGIS. Therefore:"
+msgstr ""
+"Il pacchetto SciPy non è incluso nella versione a 64 bit di QGIS. Quindi:"
+
+#: ../../installation_win64.rst:31
+msgid ""
+"Download scipy-0.13.3.win-amd64-py2.7.exe for Windows 64 bit `from here "
+"<http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy>`_ (provided by Christoph "
+"Gohlke, Laboratory for Fluorescence Dynamics, University of California, "
+"Irvine)."
+msgstr ""
+"Scaricare scipy-0.13.3.win-amd64-py2.7.exe per Windows 64 bit `da qui "
+"<http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy>`_ (fornito da Christoph "
+"Gohlke, Laboratory for Fluorescence Dynamics, University of California, "
+"Irvine)."
+
+#: ../../installation_win64.rst:33
+msgid ""
+"Extract the file scipy-0.13.3.win-amd64-py2.7.exe with `7-zip <http://www.7-"
+"zip.org/>`_ in a temporary directory;"
+msgstr ""
+"Estrarre il file scipy-0.13.3.win-amd64-py2.7.exe con `7-zip <http://www.7-"
+"zip.org/>`_ in una cartella temporanea;"
+
+#: ../../installation_win64.rst:35
+msgid ""
+"Copy all the files contained in the PLATLIB directory inside the QGIS "
+"directory, which should be::"
+msgstr ""
+"Copiare tutti i file contenuti nella cartella PLATLIB dentro la cartella di "
+"QGIS, che dovrebbe essere::"
+
+#: ../../installation_win64.rst:42
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr "Installazione del Semi-Automatic Classification Plugin"
+
+#: ../../installation_win64.rst:44
+msgid "Run QGIS 2;"
+msgstr "Avviare QGIS 2;"
+
+#: ../../installation_win64.rst:46
+msgid "From the main menu, select Plugins > Manage and Install Plugins;"
+msgstr "Dal menu principale, selezionare Plugins > Gestisci e installa plugin;"
+
+#: ../../installation_win64.rst:50
+msgid ""
+"From the All menu, select the Semi-Automatic Classification Plugin and click "
+"the button Install plugin;"
+msgstr ""
+"Dal menu Tutto, selezionare Semi-Automatic Classification Plugin e click su "
+"Installa plugin;"
+
+#: ../../installation_win64.rst:54
+msgid ""
+"The plugin should be automatically activated; however, be sure that the Semi-"
+"Automatic Classification Plugin and Processing are checked in the Installed "
+"menu."
+msgstr ""
+"Il plugin dovrebbe essere attivato automaticamente; comunque, assicurarsi "
+"che Semi-Automatic Classification Plugin e Processing siano attivati nel "
+"menu Installato;"
+
+#: ../../installation_win64.rst:61
+msgid "Configuration of the Processing plugin"
+msgstr "Configurazione del plugin Processing"
+
+#: ../../installation_win64.rst:63
+msgid ""
+"This configuration is required because SAGA GIS needs to be activated in the "
+"Processing framework of QGIS 2."
+msgstr ""
+"Questa configurazione è necessaria perché SAGA GIS deve essere attivato nel "
+"plugin Processing di QGIS 2."
+
+#: ../../installation_win64.rst:65
+msgid "Select the menu Processing > Options and configuration;"
+msgstr ""
+"Selezionare il menu Processing > Opzioni e configurazione; click sul simbolo "
+"+ affianco a Sorgenti dati;"
+
+#: ../../installation_win64.rst:69
+msgid ""
+"Click the + symbol beside Providers, and click the symbol + beside SAGA;"
+msgstr ""
+"Click sul simbolo + affianco a Sorgenti dati, e click sul simbolo + affianco "
+"a SAGA;"
+
+#: ../../installation_win64.rst:78
+msgid ""
+"SAGA should be already configured. However, verify the following settings:"
+msgstr ""
+"SAGA dovrebbe già essere configurato. Comunque, verificare le impostazione "
+"seguenti:"
+
+#: ../../installation_win64.rst:74
+msgid "The checkbox Activate is checked;"
+msgstr "La checkbox Activate è spuntata;"
+
+#: ../../installation_win64.rst:75
+msgid ""
+"Important! Because SAGA 2.0.8 was installed, the checkbox Enable SAGA 2.0.8 "
+"compatibility must be checked; if SAGA 2.1.0 was installed then it must be "
+"unchecked;"
+msgstr ""
+"**Importante!** Poiché è stato installato SAGA 2.0.8, la checkbox Enable "
+"SAGA 2.0.8 compatibility deve essere spuntata; se è stato installato SAGA "
+"2.1.0 allora non deve essere spuntata;"
+
+#: ../../installation_win64.rst:76
+msgid "The path in SAGA folder points to::"
+msgstr "Il percorso SAGA folder punta a::"
+
+#: ../../installation_win64.rst:80
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and configured. "
+"The plugin is available under the Raster menu of QGIS, or you can click the "
+"icon |logo| in the main interface (if the raster menu is activated)."
+msgstr ""
+"Ora, Semi-Automatic Classification Plugin è installato e configurato. Il "
+"plugin è disponibile sotto il menu Raster di QGSI, o con un click sull'icona "
+"|logo| nell'interfaccia principale (se il menu raster è attivato)."

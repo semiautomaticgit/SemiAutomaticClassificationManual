@@ -1,0 +1,33 @@
+#
+# Luca Congedo <ing.congedoluca@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-12 10:08+0200\n"
+"PO-Revision-Date: 2014-04-12 11:19+0200\n"
+"Last-Translator: Luca Congedo <ing.congedoluca@gmail.com>\n"
+"Language-Team: Italiano <ing.congedoluca@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../../Installation.rst:5
+msgid "Plugin Installation"
+msgstr "Installazione del Plugin"
+
+#: ../../Installation.rst:11
+msgid ""
+"The Semi-Automatic Classification Plugin requires the installation of QGIS "
+"and SAGA, and their activation in the Processing plugin. Also, it requires "
+"GDAL, Matplotlib, Numpy and SciPy. |br| This section describes the "
+"installation of the Semi-Automatic Classification Plugin for several "
+"supported Operating Systems:"
+msgstr ""
+"Semi-Automatic Classification Plugin richiede l'installazione di QGIS e "
+"SAGA, e l'attivazione nel plugin Processing. Inoltre, sono richiesti GDAL, "
+"Matplotlib, Numpy e SciPy. |br| Questa sezione descrive l'installazione del "
+"Semi-Automatic Classification Plugin per vari Sistemi Operativi supportati:"

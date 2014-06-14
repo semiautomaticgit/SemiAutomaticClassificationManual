@@ -1,0 +1,284 @@
+#
+# Luca Congedo <ing.congedoluca@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-12 10:08+0200\n"
+"PO-Revision-Date: 2014-04-13 11:13+0200\n"
+"Last-Translator: Luca Congedo <ing.congedoluca@gmail.com>\n"
+"Language-Team: Italiano <ing.congedoluca@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../../classification_dock.rst:5
+msgid "Classification dock"
+msgstr "Dock Classificazione"
+
+#: ../../classification_dock.rst:15
+msgid ""
+"The Classification dock implements the process of **classification** of the "
+"image (or only a preview), with several functions for **vector output**, "
+"**accuracy assessment** and **classification reports**."
+msgstr ""
+"La dock Classificazione permette il processo di **classificazione** "
+"dell'immagine (o solamente un'anteprima), con varie funzioni per **l'output "
+"vettoriale**, **la verifica di accuratezza** e **i report di "
+"classificazione**."
+
+#: ../../classification_dock.rst:17
+msgid ""
+"The Classification dock allows for the semi-automatic classification of a "
+"remote sensing image (or a band set), using the supervised classification "
+"algorithms provided by the SAGA GIS (through the Processing plugin)."
+msgstr ""
+"La dock Classificazione permette la classificazione semi-automatica di "
+"un'immagine telerilevata (o un set di bande), utilizzando gli algoritmi di "
+"classificazione supervisionata forniti da SAGA GIS (attraverso il plugin "
+"Processing)."
+
+#: ../../classification_dock.rst:19
+msgid ""
+"The classification process requires a training shapefile containing the ROIs "
+"used for the definition of land cover classes (see the :ref:`roi_dock`). It "
+"is possible to use the Macroclass ID or Class ID for classifications."
+msgstr ""
+"Il processo di classificazione richiede uno shapefile di training contenente "
+"le ROI usate per la definizione delle classi di copertura del suolo (vedi "
+"la :ref:`roi_dock`). E' possibile usare l'ID Macroclasse o l'ID Classe per "
+"la classificazione."
+
+#: ../../classification_dock.rst:21
+msgid ""
+"The classification can be performed for the entire image, or for a portion "
+"of it, creating a classification preview. Similarly to ROI creation, "
+"classification previews are created using the preview pointer, and a click "
+"on an image pixel; preview classifications are temporarily placed inside a "
+"layer group named ``Class_temp_group``, and they are deleted after that the "
+"QGIS session is stopped."
+msgstr ""
+"La classificazione può essere realizzata per l'intera immagine, o per una "
+"porzione della stessa, creando un'anteprima di classificazione; le anteprime "
+"di classificazione sono posizionate temporaneamente nel gruppo layer "
+"chiamato ``Class_temp_group``, e sono eliminate dopo che la sessione di QGIS "
+"è terminata."
+
+#: ../../classification_dock.rst:23
+msgid ""
+"A classification style (i.e. a .qml file) can be used for classifications "
+"and previews, allowing for the selection of custom colors for classes."
+msgstr ""
+"Uno stile di classificazione (cioè un fil .qml) può essere usato per le "
+"classificazioni e le anteprime, consentendo la selezione di colori "
+"personalizzati per le classi."
+
+#: ../../classification_dock.rst:25
+msgid ""
+"For each classification, a .tif file is created, with a .csv file which "
+"contains the spectral statistics of land cover classes."
+msgstr ""
+"Per ogni classificazione, un file .tif è creato, con un file .csv che "
+"contiene le caratteristiche spettrali delle classi di copertura del suolo."
+
+#: ../../classification_dock.rst:27
+msgid ""
+"Also, it is possible to create automatically the vector output of the "
+"classification (a shapefile), calculate the classification accuracy, and "
+"apply a mask to the land cover classification (using a polygon shapefile)."
+msgstr ""
+"Inoltre, è possibile creare automaticamente l'output vettoriale della "
+"classificazione (uno shapefile), calcolare l'accuratezza della "
+"classificazione, ed applicare una maschera alla classificazione della "
+"copertura del suolo (usando uno shapefile poligonale)."
+
+#: ../../classification_dock.rst:32
+msgid "ROI list (Macroclass ID - Class ID - Info)"
+msgstr "ROI list (Macroclass ID - Class ID - Info)"
+
+#: ../../classification_dock.rst:34
+msgid "Double click on a ROI item in order to zoom to that ROI in  the map."
+msgstr ""
+"Doppio click su un elemento ROI per effettuare uno zoom su quella ROI nella "
+"mappa."
+
+#: ../../classification_dock.rst:36
+msgid "[ ``Select All`` ]: select/unselect all the ROIs;"
+msgstr "[ ``Seleziona tutto`` ]: seleziona/deseleziona tutte le ROI;"
+
+#: ../../classification_dock.rst:37
+msgid "[ ``Delete selected ROIs`` ]: delete selected ROIs;"
+msgstr "[ ``Elimina le ROI selezionate`` ]: elimina le ROI selezionate;"
+
+#: ../../classification_dock.rst:38
+msgid ""
+"``Use Macroclass ID`` : if checked the classification is performed using the "
+"Macroclass ID; if unchecked, then the classification is performed using the "
+"ID class only."
+msgstr ""
+"``Use Macroclass ID`` : se spuntato, la classificazione è realizzata usando "
+"l'ID Macroclasse; se non è spuntato, allora la classificazione è realizzata "
+"usando solo l'ID classe."
+
+#: ../../classification_dock.rst:43
+msgid "Classification algorithm"
+msgstr "Algoritmo di classificazione"
+
+#: ../../classification_dock.rst:46
+msgid ""
+"``Select a classification algorithm`` : available classification algorithms "
+"are: Maximum Likelihood; Minimum Distance; Spectral Angle Mapping;"
+msgstr ""
+"``Seleziona un algoritmo di classificazione`` : gli algoritmi disponibili "
+"sono: Maximum Likelihood; Minimum Distance; Spectral Angle Mapping;"
+
+#: ../../classification_dock.rst:50
+msgid ""
+"``Threshold`` : if threshold is equal to 0, then all image pixels are "
+"classified; otherwise:"
+msgstr ""
+"``Limite`` : se il limite è pari a 0, allora tutte i pixel dell'immagine "
+"sono classificati; altrimenti:"
+
+#: ../../classification_dock.rst:48
+msgid ""
+"for Maximum Likelihood, pixels are unclassified if probability is less than "
+"threshold  value (max 100);"
+msgstr ""
+"per Maximum Likelihood, i pixel sono non classificati se la probabilità è "
+"inferiore al valore limite (max 100);"
+
+#: ../../classification_dock.rst:49
+msgid ""
+"for Minimum Distance, pixels are unclassified if distance is greater than "
+"threshold value;"
+msgstr ""
+"per Minimum Distance, i pixel sono non classificati se la distanza è "
+"superiore al valore limite;"
+
+#: ../../classification_dock.rst:50
+msgid ""
+"for Spectral Angle Mapping, pixels are unclassified if spectral angle "
+"distance is greater than threshold value (max 90)."
+msgstr ""
+"per Spectral Angle Mapping, i pixel sono non classificati se la distanza "
+"dell'angolo spettrale è superiore al valore limite (max 90)."
+
+#: ../../classification_dock.rst:55
+msgid "Classification preview"
+msgstr "Anteprima di classificazione"
+
+#: ../../classification_dock.rst:57
+msgid "[+]: recall the pointer for the creation of a classification preview ;"
+msgstr ""
+"[+]: attiva il puntatore per la creazione di un'anteprima di classificazione;"
+
+#: ../../classification_dock.rst:58
+msgid ""
+"``Size`` : size in pixel unit of a classification preview (i.e. the side "
+"lenght of a square, centered at the clicked pixel);"
+msgstr ""
+"``Dimensione`` : dimensione in pixel dell'anteprima di classificazione (cioè "
+"la lunghezza del lato di un quadrato, centrato sul pixel su cui è stato "
+"fatto click);"
+
+#: ../../classification_dock.rst:59
+msgid ""
+"[ ``Redo`` ]: create a new classification preview centered at the same pixel "
+"of the previous one."
+msgstr ""
+"[ ``Rifai`` ]: crea una nuova anteprima di classificazione centrata sullo "
+"stesso pixel dell'anteprima precedente."
+
+#: ../../classification_dock.rst:64
+msgid "Classification style"
+msgstr "Stile della classificazione"
+
+#: ../../classification_dock.rst:66
+msgid ""
+"[ ``Select qml`` ]: select a previously saved .qml file; this configuration "
+"is stored in the QGIS project;"
+msgstr ""
+"[ ``Seleziona qml`` ]: seleziona un file .qml salvato precedentemente; "
+"questa configurazione è salvata nel progetto di QGIS;"
+
+#: ../../classification_dock.rst:67
+msgid ""
+"[ ``Reset`` ]: reset classification and preview styles to default (i.e. "
+"colors are automatically assigned to classes)."
+msgstr ""
+"[ ``Reset`` ]: azzera gli stili di classificazione e anteprima al default "
+"(cioè i colori sono automaticamente assegnati alle classi)."
+
+#: ../../classification_dock.rst:72
+msgid "Classification output"
+msgstr "Output della classificazione"
+
+#: ../../classification_dock.rst:74
+msgid ""
+"``Create vector`` : if checked, a shapefile classification is saved into the "
+"same folder and with the same name defined for the classification output;"
+msgstr ""
+"``Crea vettoriale`` : se spuntato, uno shapefile della classificazione è "
+"salvato nella stessa cartella e con lo stesso nome definito per la "
+"classificazione di output;"
+
+#: ../../classification_dock.rst:75
+msgid ""
+"``Apply mask`` : if checked, it allows the users to select a shapefile for "
+"the purpose of masking the classification;"
+msgstr ""
+"``Applica la maschera`` : se spuntato, permette all'utente di selezionare "
+"uno shapefile con lo scopo di mascherare la classificazione;"
+
+#: ../../classification_dock.rst:76
+msgid ""
+"``Classification report`` : if checked, a report about the land cover "
+"classification is calculated,  providing the pixel count, the percentage and "
+"area for each class; the report is saved as a .csv file in the same folder "
+"and with the same name defined for the classification output and the suffix "
+"``_report`` ;"
+msgstr ""
+"``Classification report`` : se spuntato, un report sulla classificazione "
+"della copertura del suolo è calcolato, fornendo il conteggio dei pixel, la "
+"percentuale e l'area per ogni classe; il report è salvato come file .csv "
+"nella stessa cartella e con lo stesso nome definito per l'output della "
+"classificazione ed il suffisso ``_report`` ;"
+
+#: ../../classification_dock.rst:77
+msgid ""
+"``Calculate accuracy`` : if checked, an error matrix of the classification "
+"(using ROIs as ground truth) is saved as a .txt file in the same folder and "
+"with the same name defined for the classification output;"
+msgstr ""
+"``Calcola l'accuratezza`` : se spuntato, una matrice di errore per la "
+"classificazione (usando le ROI come verità al suolo) è salvata come file ."
+"txt nella stessa cartella e con lo stesso nome definito per l'output della "
+"classificazione;"
+
+#: ../../classification_dock.rst:78
+msgid ""
+"[ ``Perform classification`` ]: open a window for the selection of output "
+"destination, and perform the image classification that is saved as a .tif "
+"file, along with the optional outputs."
+msgstr ""
+"[ ``Esegui la classificazione`` ]: apre una finestra per la selezione della "
+"destinazione di output, ed esegue la classificazione dell'immagine che è "
+"salvata come file .tif, insieme agli output opzionali."
+
+#: ../../classification_dock.rst:80
+msgid "|br|"
+msgstr "|br|"
+
+#: ../../classification_dock.rst:82
+msgid "The following is a brief video about the the Classification dock:"
+msgstr "Il seguente è un breve video sulla dock Classificazione:"
+
+#: ../../classification_dock.rst:84
+msgid ""
+"http://www.youtube.com/embed/B6zElHi2Pnk?rel=0&amp;start=376&amp;end=763"
+msgstr ""
+"http://www.youtube.com/embed/B6zElHi2Pnk?rel=0&amp;start=376&amp;end=763"

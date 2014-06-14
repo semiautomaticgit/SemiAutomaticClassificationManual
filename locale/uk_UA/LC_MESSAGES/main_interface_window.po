@@ -1,0 +1,693 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-12 10:08+0200\n"
+"PO-Revision-Date: 2014-06-05 19:22+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk_UA\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: ../../main_interface_window.rst:5
+msgid "Main Interface Window"
+msgstr "Main Interface Window (Вікно Головного інтерфейсу)"
+
+#: ../../main_interface_window.rst:11
+msgid ""
+"The Main Interface window includes several pre processing and post "
+"processing functions such as: plot of ROI **spectral signatures** and "
+"**scatter plot** of ROIs; **multiple ROI creation** at once using point "
+"list; **clipping of multiple rasters** at once using coordinates or a "
+"shapefile boundary; **Landsat pre processing** for automatic conversion to "
+"reflectance and temperature; **accuracy assessment**; **land cover change "
+"calculation**; **classification report**; **band set definition**; and "
+"**advanced settings**."
+msgstr ""
+"Вікно головного інтерфейсу об'єднує декілька функцій перед- та "
+"післяоброблення даних, зокрема: графіки **спектральних сигнатур** та "
+"**розсіву значень** ROI; пакетне **створення множинних ROI** на підставі "
+"переліку точок; **пакетне обрізання растрів** на підставі координат або меж "
+"шейп-файлу; **передоброблення Landsat** для автоматичного переведення "
+"дискретних значень у відбивальність та температуру; **оцінка точності**; "
+"**розрахунок змін земного покриву**; **звіт про результати класифікації**; "
+"**визначення набору каналів** та **розширені налаштування**."
+
+#: ../../main_interface_window.rst:13
+msgid "The Main interface is composed of several tabs:"
+msgstr "Головний інтерфейс складається з декількох вкладок:"
+
+#: ../../main_interface_window.rst:24
+msgid "ROI tools tab"
+msgstr "Вкладка Інструменти ROI (ROI tools)"
+
+#: ../../main_interface_window.rst:26
+msgid ""
+"The ``ROI tools`` tab includes the ``Spectral signature`` calculation and "
+"visualization. The ``Scatter plot`` tab allows for the calculation of the "
+"ROI scatter plots, which are useful to assess ROI separability choosing "
+"between two bands. Pixel values for two raster bands are represented as "
+"points in the 2D space. The ``Multiple ROI creation`` which allows for the "
+"automatic creation of ROIs, given a list of points (coordinates) and class "
+"definitions. This can be useful for the rapid classification of multi-"
+"temporal images, or for creating several ROIs using GPS data from field "
+"survey."
+msgstr ""
+"Вкладка ``ROI tools`` (Інструменти ROI) включає розрахунок та унаочнення "
+"``Spectral signature`` (Спектральної сигнатури). Вкладка ``Scatter plot`` "
+"(Графік розсіву) дозволяє розраховувати графіки розсіву значень  ROI, які "
+"доцільно використовувати для оцінки відокремленості  ROI при виборі між "
+"двома каналами. Значеня пікселів для двох растрових каналів унаочнюються як "
+"точки в двовимірному просторі. Вкладка ``Multiple ROI creation`` (Множинне "
+"створення  ROI) дозволяє автоматично створювати ROI на підставі переліку "
+"точок (координат) та визначень класів. Це може використовуватись для швидкої "
+"класифікації різночасових зображень або створення декількох ROI на підставі "
+"даних GPS, отриманих під час польового знімання."
+
+#: ../../main_interface_window.rst:33
+msgid "Spectral signature tab"
+msgstr "Вкладка Spectral signature (Спектральна сигнатура)"
+
+#: ../../main_interface_window.rst:40
+msgid "ROI signatures"
+msgstr "Сигнатури ROI (ROI signatures)"
+
+#: ../../main_interface_window.rst:42 ../../main_interface_window.rst:59
+msgid "[ ``Select all`` ]: select all ROIs for plot;"
+msgstr "[ ``Select all`` ]: вибрати всі ROI для унаочнення на графіку;"
+
+#: ../../main_interface_window.rst:43
+msgid ""
+"[ ``Calculate signature`` ]: calculate statistics for selected ROIs (using "
+"the raster selected in the ROI tool tab);"
+msgstr ""
+"[ ``Calculate signature`` ]: розрахувати статистику для вибраних ROI (на "
+"підставі растру, вибраного на вкладці Інструменти ROI);"
+
+#: ../../main_interface_window.rst:44
+msgid "``Plot`` σ: if checked, plot the standard deviation for each ROI;"
+msgstr ""
+"``Plot`` σ: якщо опцію увімкнено, то для кожної ROI будується графік "
+"стандартного відхилення;"
+
+#: ../../main_interface_window.rst:45
+msgid "[ ``Delete selected ROIs`` ]: delete selected ROIs."
+msgstr "[ ``Delete selected ROIs`` ]: видалити вибрані ROI."
+
+#: ../../main_interface_window.rst:50
+msgid "Scatter plot tab"
+msgstr "Вкладка Scatter plot (Графік розсіву)"
+
+#: ../../main_interface_window.rst:57
+msgid "ROI list"
+msgstr "Перелік ROI (ROI list)"
+
+#: ../../main_interface_window.rst:60
+msgid "< ``Band X`` >: X band of the plot;"
+msgstr "< ``Band X`` >: X-канал графіка;"
+
+#: ../../main_interface_window.rst:61
+msgid "< ``Band Y`` >: Y band of the plot;"
+msgstr "< ``Band Y`` >: Y-канал графіка;"
+
+#: ../../main_interface_window.rst:62
+msgid ""
+"[ ``Calculate scatter plot`` ]: calculate the scatter plot (it can be time "
+"consuming)."
+msgstr ""
+"[ ``Calculate scatter plot`` ]: розрахувати графік розсіву значень (може "
+"зайняти певний час)."
+
+#: ../../main_interface_window.rst:67
+msgid "Multiple ROIs tab"
+msgstr "Вкладка Множинні ROI (Multiple ROIs)"
+
+#: ../../main_interface_window.rst:74
+msgid "Point coordinates and ROI definition"
+msgstr "Координати точок та визначення ROI"
+
+#: ../../main_interface_window.rst:76
+msgid "``X`` : point X coordinate;"
+msgstr "``X`` : X-координата точки;"
+
+#: ../../main_interface_window.rst:77
+msgid "``Y`` : point Y coordinate;"
+msgstr "``Y`` : Y-координата точки;"
+
+#: ../../main_interface_window.rst:78
+msgid ""
+"``Macroclass ID`` : ROI ID which corresponds to the fields ``Macro_ID``;"
+msgstr ""
+"``Macroclass ID`` : унікальний ідентифікатор ROI ID, що співвідноситься з "
+"полем ``Macro_ID``;"
+
+#: ../../main_interface_window.rst:79
+msgid "``Class ID`` : ROI ID which corresponds to the fields ``ID_class``;"
+msgstr ""
+"``Class ID`` : унікальний ідентифікатор ROI ID, що співвідноситься з полем "
+"``ID_class``;"
+
+#: ../../main_interface_window.rst:80
+msgid ""
+"``Information`` : ROI information which corresponds to the field "
+"``ROI_info``;"
+msgstr ""
+"``Information`` : інформація про ROI, що співвідноситься з полем "
+"``ROI_info``;"
+
+#: ../../main_interface_window.rst:81
+msgid ""
+"[ ``Add point`` ]: add a row for a new point to the table; the table fields "
+"X coordinate, Y coordinate, ID and Information must be filled for the ROI "
+"creation;"
+msgstr ""
+"[ ``Add point`` ]: додати в таблицю рядок для нової точки; для створення ROI "
+"поля таблиці X-координата, Y-координата, ID та Інформація повинні бути "
+"заповнені;"
+
+#: ../../main_interface_window.rst:82
+msgid "[ ``Remove highlighted points`` ]: delete the rows of selected points;"
+msgstr ""
+"[ ``Remove highlighted points`` ]: видалити рядки, що співвідносяться з "
+"виділеними точками;"
+
+#: ../../main_interface_window.rst:83
+msgid ""
+"[ ``Import point list`` ]: import a point list from text file to the table; "
+"every line of the text file must contain X coordintate, Y coordinate, ID and "
+"Information separated by tabs;"
+msgstr ""
+"[ ``Import point list`` ]: імпортує перелік точок з текстового файлу до "
+"таблиці; кожен рядок тексту повинен містити X-координату, Y-координату, ID "
+"та Інформацію, розділені символом табуляції;"
+
+#: ../../main_interface_window.rst:84
+msgid "[ ``Export point list`` ]: export the point list to text file;"
+msgstr ""
+"[ ``Export point list`` ]: експортує перелік точок до текстового файлу;"
+
+#: ../../main_interface_window.rst:85
+msgid "[ ``Create and save ROIs`` ]: create and save ROIs to shapefile;"
+msgstr "[ ``Create and save ROIs`` ]: створити та зберегути ROI до шейп-файлу;"
+
+#: ../../main_interface_window.rst:86
+msgid ""
+"``Calculate signature``: if checked, calculate the spectral signature for "
+"ROI (the ROI mean value for each raster band); this configuration is stored "
+"in the QGIS project."
+msgstr ""
+"``Calculate signature``: якщо опцію увімкнено, то для ROI розраховується "
+"спектральна сигнатура (середнє значення ROI для кожного растрового каналу); "
+"це налаштування зберігається в проекті QGIS."
+
+#: ../../main_interface_window.rst:91
+msgid "Pre processing tab"
+msgstr "Вкладка Передоброблення (Pre processing)"
+
+#: ../../main_interface_window.rst:93
+msgid ""
+"The ``Pre processing`` tab allows for the ``Clipping of multiple rasters`` "
+"at once, using point coordinates or a shapefile. Also, the Landsat tab "
+"allows for the conversion of ``Landsat`` images from DN (i.e. Digital "
+"Numbers) to the physical measure of Top Of Atmosphere reflectance (TOA), or "
+"the application of a simple atmospheric correction using the DOS1 method "
+"(Dark Object Subtraction 1), which is an image-based technique (for more "
+"information about the Landsat conversion to TOA and DOS1 correction, see :"
+"ref:`landsat_conversion_to_reflectance`)."
+msgstr ""
+"Вкладка ``Pre processing`` (Передоброблення) дозволяє здйснювати ``Clipping "
+"of multiple rasters``  (пакетне обрізання растрів) на підставі координат "
+"точок або шейп-файлу. Також вкладка Landsat дозволяє здійснювати переведення "
+"даних знімків ``Landsat`` з DN (від англ. Digital Numbers - дискретні числа) "
+"у фізичні величини відбивальності на поверхні атмосфери (англ. Top Of "
+"Atmosphere reflectance - TOA) або застосовувати просте атмосферне "
+"коректування з використанням методу DOS1 (від англ. Dark Object Subtraction "
+"1 - віднімання темного об'єкта), який є технікою, що ґрунтується на "
+"зображенні (для більш докладної інформації про переведення даних Landsat в "
+"TOA та коректування DOS1 дивіться :ref:`landsat_conversion_to_reflectance`)."
+
+#: ../../main_interface_window.rst:98
+msgid "Clip multiple rasters tab"
+msgstr "Вкладка Пакетне обрізання растрів (Clip multiple rasters)"
+
+#: ../../main_interface_window.rst:105
+msgid "Raster list"
+msgstr "Перелік растрів (Raster list)"
+
+#: ../../main_interface_window.rst:107
+msgid "[ ``Refresh list`` ]: refresh layer list;"
+msgstr "[ ``Refresh list`` ]: оновити перелік шарів;"
+
+#: ../../main_interface_window.rst:108
+msgid "[ ``Select all`` ]: select all the rasters to be clipped."
+msgstr "[ ``Select all`` ]: вибрати для обрізання всі растри."
+
+#: ../../main_interface_window.rst:113
+msgid "Clip coordinates"
+msgstr "Координати обрізання (Clip coordinates)"
+
+#: ../../main_interface_window.rst:115
+msgid ""
+"[+]: click on the map for the definition of the Upper Left (UL) and Lower "
+"Right (LR) point coordinates (X and Y) for clipping;"
+msgstr ""
+"[+]: клацніть на карті для визначення координат (X та Y)  Верхньої Лівої "
+"(UL) та Нижньої Правої (LR) точок для обрізання;"
+
+#: ../../main_interface_window.rst:116
+msgid ""
+"``Use shapefile for clipping``: if checked, select a shapefile for clipping;"
+msgstr ""
+"``Use shapefile for clipping``: якщо опцію увімкнено, то вкажіть шейп-файл "
+"для обрізання;"
+
+#: ../../main_interface_window.rst:117
+msgid ""
+"< ``No data value`` >: set the value for 'No data' pixels (e.g. outside the "
+"clipped area);"
+msgstr ""
+"< ``No data value`` >: встановіть значення 'No data' для пікселів, що не "
+"місятять даних (тобто знаходяться за межами обрізання);"
+
+#: ../../main_interface_window.rst:118
+msgid ""
+"[ ``Clip selected rasters`` ]: open a window for choosing output "
+"destination, and clip selected rasters saving them in the selected directory."
+msgstr ""
+"[ ``Clip selected rasters`` ]: відкрити діалогове вікно для визначення "
+"вихідного каталогу та зберегти до нього обрізані растри."
+
+#: ../../main_interface_window.rst:123
+msgid "Landsat tab"
+msgstr "Вкладка Landsat"
+
+#: ../../main_interface_window.rst:130
+msgid "Landsat conversion to TOA reflectance and brightness temperature"
+msgstr "Переведення Landsat у  TOA відбивальність та яскравісну температуру"
+
+#: ../../main_interface_window.rst:132
+msgid ""
+"[ ``Select a directory`` ]: select a directory where Landsat bands "
+"(filenames thereof must end with the respective number) and the metafile (a ."
+"txt file whit the suffix MTL) are stored; all bands found in the directory "
+"are converted automatically (band numbers are identified for **Landsat 4, 5, "
+"7, and 8**);"
+msgstr ""
+"[ ``Select a directory`` ]: вибрати каталог з растрами каналів Landsat "
+"(імена файлів повинні закінчуватись відповідним номером) та файлом метаданих "
+"(файл .txt з приставкою  MTL); всі канали, що знаходяться в каталозі, будут "
+"автоматично переведені (номери каналів визначаються для  **Landsat 4, 5, 7 "
+"та 8**);"
+
+#: ../../main_interface_window.rst:133
+msgid ""
+"[ ``Select a directory`` ]: select a directory where converted bands are "
+"saved;"
+msgstr ""
+"[ ``Select a directory`` ]: вибрати каталог для збереження перерведених "
+"каналів;"
+
+#: ../../main_interface_window.rst:134
+msgid ""
+"``Brightness temperature in Celsius`` : if checked, convert brightness "
+"temperature to Celsius (default is Kelvin);"
+msgstr ""
+"``Brightness temperature in Celsius`` : якщо опцію увімкнено, то яскравісна "
+"температура перераховується в градуси Цельсія (початково - Кельвін);"
+
+#: ../../main_interface_window.rst:135
+msgid ""
+"``Apply DOS1 atmospheric correction`` : if checked, the DOS1 atmospheric "
+"correction is applied to all the bands (thermal bands excluded);"
+msgstr ""
+"``Apply DOS1 atmospheric correction`` : якщо опцію увімкнено, то до всіх "
+"каналів (за виключенням термального) застосовується атмосферне коректування "
+"DOS1;"
+
+#: ../../main_interface_window.rst:136
+msgid ""
+"``Use No data value`` : if checked, No data values are not counted during "
+"the DOS1 calculation of DNmin (for more information about the Landsat "
+"conversion to TOA and DOS1 correction, see :ref:"
+"`landsat_conversion_to_reflectance`);"
+msgstr ""
+"``Use No data value`` : якщо опцію увімкнено, то значення No data не "
+"опрацьовуються під час DOS1 розрахування DNmin (для більш докладної "
+"інформації про переведення даних Landsat в TOA та коректування DOS1 "
+"дивіться :ref:`landsat_conversion_to_reflectance`)."
+
+#: ../../main_interface_window.rst:137
+msgid ""
+"[ ``Perform conversion`` ]: convert Landsat bands and save them in the "
+"output directory."
+msgstr ""
+"[ ``Perform conversion`` ]: перевести канали Landsat та зберегти їх до "
+"вихідного каталогу."
+
+#: ../../main_interface_window.rst:150
+msgid "Post processing tab"
+msgstr "Вкладка Післяоброблення (Post processing)"
+
+#: ../../main_interface_window.rst:152
+msgid ""
+"The ``Post processing`` tab provides the abilities to perform the ``Accuracy "
+"assessment`` (by GRASS GIS ``r.kappa``), comparing a classification to a "
+"reference shapefile, and to calculate the ``Land cover change`` (by SAGA GIS "
+"``change detection``) between two classifications. Also, the "
+"``Classification`` report allows for the calculation of class statistics in "
+"pixel, percentage and area."
+msgstr ""
+"Вкладка ``Post processing`` (Післяоброблення)  забезпечує можливостями "
+"проведення ``Accuracy assessment`` (оцінки точності) за допомогою модуля ГІС "
+"GRASS GIS ``r.kappa``, порівнюючи класифікацію з контрольним шейп-файлом. "
+"Крім того, вона дзволяє розрахувати  ``Land cover change`` (зміни земного "
+"покриву) між двома класифікаціями за допомогою модуля ГІС SAGA ``change "
+"detection``. Також, звіт про результати класифікації ``Classification`` "
+"дозволяє узагальнити статистичну інформацію за класами у пікселях, відсотках "
+"або одиницях площі."
+
+#: ../../main_interface_window.rst:157
+msgid "Accuracy tab"
+msgstr "Вкладка Точність (Accuracy)"
+
+#: ../../main_interface_window.rst:164
+msgid "Error Matrix Input"
+msgstr "Входові дані матриці помилок (Error Matrix Input)"
+
+#: ../../main_interface_window.rst:166
+msgid ""
+"``Select the classification to assess`` : select a classification raster;"
+msgstr ""
+"``Select the classification to assess`` : вибіеріть растр класифікації;"
+
+#: ../../main_interface_window.rst:167
+msgid ""
+"``Select the reference shapefile`` : select a shapefile, used as reference "
+"layer (ground truth) for the accuracy assessment;"
+msgstr ""
+"``Select the reference shapefile`` : вибіеріть шейп-файл, який буде "
+"використано як контрольний шар (наземних контрольних даних) для оцінки "
+"точності;"
+
+#: ../../main_interface_window.rst:168
+msgid ""
+"[ ``Calculate error matrix`` ]: calculate the error matrix, that will be "
+"displayed in this tab;"
+msgstr ""
+"[ ``Calculate error matrix`` ]: розрахувати матрицю помилок, яка буде "
+"унаочнена на цій вкладці;"
+
+#: ../../main_interface_window.rst:169
+msgid "[ ``Save error matrix to file`` ]: save error matrix to a text file."
+msgstr ""
+"[ ``Save error matrix to file`` ]: зберегти матрицю помилок до текстового "
+"файлу."
+
+#: ../../main_interface_window.rst:174
+msgid "Land cover change tab"
+msgstr "Вкладка Зміни земного покриву (Land cover change)"
+
+#: ../../main_interface_window.rst:181 ../../main_interface_window.rst:198
+msgid "Classification input"
+msgstr "Входова класифікація (Classification input)"
+
+#: ../../main_interface_window.rst:183
+msgid ""
+"``Select the reference classification`` : select a reference classification "
+"raster;"
+msgstr ""
+"``Select the reference classification`` : виберіть контрольний растр "
+"класифікації;"
+
+#: ../../main_interface_window.rst:184
+msgid ""
+"``Select the new classification`` : select a new classification raster, to "
+"be compared with the reference classification;"
+msgstr ""
+"``Select the new classification`` : виберіть новий растр класифікації, який "
+"буде співставлено з контрольним;"
+
+#: ../../main_interface_window.rst:185
+msgid "``Report unchanged pixels``: if checked, report also unchanged pixels;"
+msgstr ""
+"``Report unchanged pixels``: якщо опцію увімкнено, то буде повідомлено також "
+"про пікселі, які не зазнали змін;"
+
+#: ../../main_interface_window.rst:186
+msgid ""
+"[ ``Calculate land cover change`` ]: save the land cover change raster to a ."
+"tif file, and a .csv table containing statistics in the same folder and with "
+"the same name defined for the .tif file."
+msgstr ""
+"[ ``Calculate land cover change`` ]: зберегти растр змін земного покриву до "
+"файлу .tif та таблицю .csv з статистикою до того самого каталогу та під тим "
+"самим ім'ям, що були встановлені для файлу .tif."
+
+#: ../../main_interface_window.rst:191
+msgid "Classification report tab"
+msgstr "Вкладка Звіт про результати класифікації (Classification report)"
+
+#: ../../main_interface_window.rst:200
+msgid "``Select the classification`` : select a classification raster;"
+msgstr "``Select the classification`` : виберіть растр класифікації;"
+
+#: ../../main_interface_window.rst:201
+msgid "[ ``Refresh list`` ]: refresh raster list;"
+msgstr "[ ``Refresh list`` ]: оновити перелік растрів;"
+
+#: ../../main_interface_window.rst:202
+msgid ""
+"``Use No data value`` : if checked, No data values are not counted in the "
+"report;"
+msgstr ""
+"``Use No data value`` : якщо опцію увімкнено, то значення No data не "
+"враховуються в звіті;"
+
+#: ../../main_interface_window.rst:203
+msgid ""
+"[ ``Calculate classification report`` ]: calculate the report and show it;"
+msgstr ""
+"[ ``Calculate classification report`` ]: розрахувати та унаочнити звіт;"
+
+#: ../../main_interface_window.rst:204
+msgid "[ ``Save report to file`` ]: save the report in a .csv file."
+msgstr "[ ``Save report to file`` ]: зберегти звіто до файлу .csv."
+
+#: ../../main_interface_window.rst:209
+msgid "Band set tab"
+msgstr "Вкладка Набір каналів (Band set)"
+
+#: ../../main_interface_window.rst:216
+msgid "Band list"
+msgstr "Перелік каналів (Band list)"
+
+#: ../../main_interface_window.rst:218
+msgid "[ ``Refresh list`` ]: refresh raster band list;"
+msgstr "[ ``Refresh list`` ]: оновити перелік растрів каналів;"
+
+#: ../../main_interface_window.rst:219
+msgid "[ ``Select all`` ]: select all raster bands;"
+msgstr "[ ``Select all`` ]: вибрати всі растри каналів;"
+
+#: ../../main_interface_window.rst:220
+msgid ""
+"[ ``Add rasters to set`` ]: add selected rasters to the band set; the band "
+"set is stored in the QGIS project."
+msgstr ""
+"[ ``Add rasters to set`` ]: додати вибрані растри до набору каналів; "
+"інформація про набір каналів зберігається в проекті QGIS."
+
+#: ../../main_interface_window.rst:225
+msgid "Band set definition"
+msgstr "Визначення набору каналів (Band set definition)"
+
+#: ../../main_interface_window.rst:227
+msgid "[ ``Clear all`` ]: clear all bands from band set;"
+msgstr "[ ``Clear all`` ]: очистити всі канали з набору растрів;"
+
+#: ../../main_interface_window.rst:228
+msgid "[ :math:`\\uparrow` ]: move selected bands upward;"
+msgstr "[ :math:`\\uparrow` ]: перемістити вибрані канали вгору;"
+
+#: ../../main_interface_window.rst:229
+msgid "[ ``Remove band`` ]: remove selected bands from the band set;"
+msgstr "[ ``Remove band`` ]: вилучити вибрані канали з набору каналів;"
+
+#: ../../main_interface_window.rst:230
+msgid "[ :math:`\\downarrow` ]: move selected bands downward;"
+msgstr "[ :math:`\\downarrow` ]: перемістити вибрані канали вниз;"
+
+#: ../../main_interface_window.rst:231
+msgid "[ ``Import`` ]: import a previously saved band set from file;"
+msgstr ""
+"[ ``Import`` ]: імпортувати  з файлу попередньо збережений набір каналів;"
+
+#: ../../main_interface_window.rst:232
+msgid "[ ``Export`` ]: export the band set to a file."
+msgstr "[ ``Export`` ]: експортувати набір каналів до файлу."
+
+#: ../../main_interface_window.rst:237
+msgid "Settings tab"
+msgstr "Вкладка Налаштування (Settings)"
+
+#: ../../main_interface_window.rst:239
+msgid ""
+"The ``Settings`` tab allows for the name customization of the training "
+"shapefile's required fields, which is useful for using any existing "
+"shapefile containing training polygons. Also, the Settings tab contains "
+"debugging utilities for testing the installation of the several dependencies "
+"(SAGA GIS, GRASS GIS) and for the creation a log file."
+msgstr ""
+"Вкладка ``Settings`` (Налаштування) дозволяє пристосовувати до потреб "
+"користувача необхідні імена полів навчального шейп-файлу, що доцільно у "
+"випадку застосуваня будь-якого наявного шейп-файлу, що містить навчальні "
+"полігони. Також вкаладка налаштувань містить інструменти пошуку вад для "
+"перевірки коректності встановлення декількох залежностей (ГІС SAGA, ГІС "
+"GRASS) та формування файлу журналу реєстрації."
+
+#: ../../main_interface_window.rst:247
+msgid "Field names of training shapefile"
+msgstr "Імена полів навчального шейп-файлу (Field names of training shapefile)"
+
+#: ../../main_interface_window.rst:249
+msgid ""
+"[ ``Macroclass ID field`` ]: name of the Macroclass ID field (default is "
+"``Macro_ID``);"
+msgstr ""
+"[ ``Macroclass ID field`` ]: ім'я поля унікального ідентифакатора макрокласу "
+"(стандартно ``Macro_ID``);"
+
+#: ../../main_interface_window.rst:250
+msgid "[ ``Class ID field`` ]: name of the ID field (default is ``ID_class``);"
+msgstr ""
+"[ ``Class ID field`` ]: ім'я поля унікального ідентифакатора класу "
+"(стандартно ``ID_class``);"
+
+#: ../../main_interface_window.rst:251
+msgid ""
+"[ ``Information field`` ]: name of the Information field (default is "
+"``ROI_info``);"
+msgstr ""
+"[ ``Information field`` ]: ім'я поля інформації (стандартно ``ROI_info``);"
+
+#: ../../main_interface_window.rst:252
+msgid "[ ``Reset field names`` ]: reset field names to default."
+msgstr "[ ``Reset field names`` ]: повернути імена полів до стандартних."
+
+#: ../../main_interface_window.rst:257
+msgid "ROI style"
+msgstr "Стиль ROI (ROI style)"
+
+#: ../../main_interface_window.rst:259
+msgid ""
+"[ ``Change colour`` ]: change ROI colour; this configuration is stored in "
+"the QGIS registry;"
+msgstr ""
+"[ ``Change colour`` ]: cзмінити колір ROI; це налаштування зберігається в "
+"реєстрі QGIS;"
+
+#: ../../main_interface_window.rst:260
+msgid "[ ``Reset ROI style`` ]: reset ROI colour and transparency to default;"
+msgstr ""
+"[ ``Reset ROI style`` ]: повернути колір та прозорість ROI до стандартних;"
+
+#: ../../main_interface_window.rst:261
+msgid ""
+"[- ``Transparency`` -]: change ROI transparency; this configuration is "
+"stored in the QGIS registry."
+msgstr ""
+"[- ``Transparency`` -]: змінити прозорість ROI; це налаштування зберігається "
+"в реєстрі QGIS."
+
+#: ../../main_interface_window.rst:266
+msgid "Spectral signature"
+msgstr "Спектральна сигнатура (Spectral signature)"
+
+#: ../../main_interface_window.rst:268
+msgid ""
+"< ``Plot legend Max number of characters`` >: limit the text length of ROIs' "
+"names in the spectral plot legend."
+msgstr ""
+"< ``Plot legend Max number of characters`` >: обмежити довжину тексту імен "
+"ROI в легенді графіка спектральних кривих."
+
+#: ../../main_interface_window.rst:273
+msgid "Language"
+msgstr "Мова (Language)"
+
+#: ../../main_interface_window.rst:275
+msgid ""
+"``English`` : default language is English; if unchecked, the plugin is set "
+"to local language if available."
+msgstr ""
+"``English`` : стандартна мова - англійська; якщо опцію вимкнено, то модуль "
+"переходить на локальну мову (за наявності)."
+
+#: ../../main_interface_window.rst:280
+msgid "RAM"
+msgstr "Оперативна пам'ять (RAM)"
+
+#: ../../main_interface_window.rst:282
+msgid ""
+"< ``Available RAM (MB)`` >: set the available RAM (in MB) that will be used "
+"during the processes; this configuration is stored in the QGIS registry."
+msgstr ""
+"< ``Available RAM (MB)`` >: встановити об'єм доступної оперативної пам'яті "
+"(в Мб), що буде використовуватись під час роботи; це налаштування "
+"зберігається в реєстрі QGIS."
+
+#: ../../main_interface_window.rst:287
+msgid "Debug"
+msgstr "Пошук вад (Debug)"
+
+#: ../../main_interface_window.rst:289
+msgid ""
+"``Records events in a log file`` : start recording events in a log file "
+"(saved in the user folder in ``.qgis/python/plugins/"
+"SemiAutomaticClassificationPlugin/__0semiautomaticclass.log`` ); this "
+"configuration is stored in the QGIS registry;"
+msgstr ""
+"``Records events in a log file`` : почати запис подій до файлу журналу "
+"реєстрації (зберігається до каталогу користувача ``.qgis/python/plugins/"
+"SemiAutomaticClassificationPlugin/__0semiautomaticclass.log`` ); це "
+"налаштування зберігається в реєстрі QGIS;"
+
+#: ../../main_interface_window.rst:290
+msgid "[ ``Clear log file content`` ]: clear the content of log file;"
+msgstr ""
+"[ ``Clear log file content`` ]: очистити вміст файлу журналу реєстрації;"
+
+#: ../../main_interface_window.rst:291
+msgid ""
+"[ ``Test SAGA GIS`` ]: test if SAGA GIS is properly installed and configured;"
+msgstr ""
+"[ ``Test SAGA GIS`` ]: перевірити коректність встановлення та налаштування "
+"ГІС SAGA;"
+
+#: ../../main_interface_window.rst:292
+msgid ""
+"[ ``Test GRASS GIS`` ]: test if GRASS GIS is properly installed and "
+"configured;"
+msgstr ""
+"[ ``Test GRASS GIS`` ]: перевірити коректність встановлення та налаштування "
+"ГІС GRASS;"
+
+#: ../../main_interface_window.rst:293
+msgid ""
+"[ ``Test QGIS geoalgorithms`` ]: test if QGIS geoalgorithms are properly "
+"configured."
+msgstr ""
+"[ ``Test QGIS geoalgorithms`` ]: перевірити коректність налаштування "
+"геоалгоритмів QGIS."
+
+#: ../../main_interface_window.rst:295
+msgid "The following is a video about the Post processing tab:"
+msgstr "Дивіться відео про вкладку Післяоброблення:"
+
+#: ../../main_interface_window.rst:297
+msgid "http://www.youtube.com/embed/B6zElHi2Pnk?rel=0&amp;start=764"
+msgstr ""

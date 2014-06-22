@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-12 10:08+0200\n"
-"PO-Revision-Date: 2014-05-25 19:33+0200\n"
+"PO-Revision-Date: 2014-06-22 11:21+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: ../../installation_win32.rst:5
 msgid "Installation in Windows 32 bit"
-msgstr "Встановлення під Windows 32 біт"
+msgstr "Встановлення у Windows 32 біт"
 
 #: ../../installation_win32.rst:14
 msgid "QGIS download and installation"
@@ -37,7 +37,7 @@ msgid ""
 "Execute the QGIS installer with administrative rights, accepting the default "
 "configuration."
 msgstr ""
-"Виконайте встановлення QGIS з правами адміністратора, приймаючи уставні "
+"Виконайте встановлення QGIS з правами адміністратора, приймаючи стандартні "
 "налаштування."
 
 #: ../../installation_win32.rst:20
@@ -70,7 +70,7 @@ msgid ""
 "Automatic Classification Plugin and Processing are checked in the Installed "
 "menu;"
 msgstr ""
-"Модуль повинен бути активований автоматично; тим не менше, впевніться, що "
+"Модуль повинен бути активований автоматично; тим не менше, переконайтесь, що "
 "модулі Напівавтоматичної класифікації та Аналізу увімкнено в меню "
 "Встановлені;"
 

@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 13:09+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../interface.rst:5
+msgid "The Interface of SCP"
+msgstr ""
+
+#: ../../interface.rst:11
+msgid ""
+"The :guilabel:`SCP` interface is composed of several parts that are "
+"described in detail in the following paragraphs."
+msgstr ""
+
+#: ../../interface.rst:161
+msgid "|br|"
+msgstr ""
+
+#: ../../interface.rst:167
+msgid "The functions described in the following paragraphs use these conventions:"
+msgstr ""
+
+#: ../../interface.rst:169
+msgid "|input_date| = Input date"
+msgstr ""
+
+#: ../../interface.rst:171
+msgid "|input_text| = Input text"
+msgstr ""
+
+#: ../../interface.rst:173
+msgid "|input_list| = List"
+msgstr ""
+
+#: ../../interface.rst:175
+msgid "|input_number| = Input number"
+msgstr ""
+
+#: ../../interface.rst:177
+msgid "|optional| = Optional"
+msgstr ""
+
+#: ../../interface.rst:179
+msgid "|project_save| = Configuration stored in the active project of QGIS"
+msgstr ""
+
+#: ../../interface.rst:181
+msgid "|registry_save| = Configuration stored in QGIS registry"
+msgstr ""
+
+#: ../../interface.rst:183
+msgid "|input_slider| = Slider"
+msgstr ""
+
+#: ../../interface.rst:185
+msgid "|input_table| = Table"
+msgstr ""
+

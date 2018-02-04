@@ -13,76 +13,64 @@ Installation in Ubuntu Linux
 QGIS download and installation
 ------------------------------------------
 
+	**TIP**: Until the QGIS 3 official release, you can use the nightly repository. Please read https://www.qgis.org/it/site/forusers/alldownloads.html#debian-ubuntu
+
 * Open a terminal and type::
-
-	sudo apt-add-repository ppa:ubuntugis/ubuntugis-unstable
-
-* Press Enter and type the user password;
-
-* Press Enter again to confirm;
-
-* Type in a terminal::
 
 	sudo apt-get update
 
-* Press Enter;
+* Press Enter and type the user password;
 
 * Type in a terminal::
 
-	sudo apt-get install qgis saga python-matplotlib python-scipy
+	sudo apt-get install qgis python-matplotlib python-scipy
 
 * Press Enter and wait until the software is downloaded and installed.
 
-Now, QGIS 2 is installed.
+Now, QGIS is installed.
 
-.. image:: _static/QGIS_ubuntu.jpg
+.. image:: _static/QGIS_u.jpg
 
 .. _plugin_installation_ubuntu:
  
 Semi-Automatic Classification Plugin installation
 ---------------------------------------------------
 
-* Run QGIS 2;
+* Run QGIS;
 
-* From the main menu, select Plugins > Manage and Install Plugins;
+* From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;
 
-.. image:: _static/install_ubuntu.jpg
+.. image:: _static/install_u.jpg
 
-* From the All menu, select the Semi-Automatic Classification Plugin and click the button Install plugin;
+* From the menu ``All``, select the Semi-Automatic Classification Plugin and click the button ``Install plugin``;
 
-.. image:: _static/plugins_ubuntu.jpg
+	**TIP**: in case of issues or an offline installation is required see :ref:`plugin_installation_1` and :ref:`plugin_installation_2`.
 
-* The plugin should be automatically activated; however, be sure that the Semi-Automatic Classification Plugin and Processing are checked in the Installed menu;
+.. image:: _static/plugins.jpg
 
-.. image:: _static/installed_ubuntu.jpg
+* The SCP should be automatically activated; however, be sure that the Semi-Automatic Classification Plugin is checked in the menu ``Installed`` (the restart of QGIS could be necessary to complete the SCP installation);
+
+.. image:: _static/plugins_installed.jpg
 
 .. _plugin_configuration_ubuntu:
 
-Configuration of the Processing plugin
-------------------------------------------
+Configuration of the plugin
+---------------------------
 
-This configuration is required because SAGA GIS needs to be activated in the Processing framework of QGIS 2.
-
-* Select the menu Processing > Options and configuration; click the + symbol beside Providers;
-
-.. image:: _static/processing_ubuntu_open.jpg
-
-* Click the + symbol beside Providers, and click the symbol + beside SAGA;
-
-.. image:: _static/processing_ubuntu.jpg
-
-* SAGA should be already configured. However, verify the following settings:
-
-	#. The checkbox Activate is checked;
-	#. Important! If SAGA 2.0.8 was installed, the checkbox Enable SAGA 2.0.8 compatibility must be checked; if SAGA 2.1.0 was installed then it must be unchecked.
-
-Now, the Semi-Automatic Classification Plugin is installed and configured. The plugin is available under the Raster menu of QGIS, or you can click the icon |logo| in the main interface (if the raster menu is activated).
-
-.. |logo| image:: _static/logo.png
-	:width: 32pt
+Now, the Semi-Automatic Classification Plugin is installed and a dock and a toolbar should be added to QGIS.
+Also, a SCP menu is available in the Menu Bar of QGIS. 
+It is possible to move the toolbar and the dock according to your needs, as in the following image.
 	
-.. image:: _static/SemiAutomaticClassificatioPlugin_ubuntu.jpg
+.. image:: _static/SemiAutomaticClassificationPlugin.jpg
 
-|br|
+The configuration of available RAM is recommended in order to reduce the processing time. 
+From the :ref:`SCP_menu` select |settings_tool| ``Settings > Processing`` .
 
-.. image:: _static/SemiAutomaticClassificatioPlugin_ubuntu2.jpg
+.. image:: _static/settings_processing.jpg
+
+In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that should be half of the system RAM. For instance, if your system has 2GB of RAM, set the value to 1024MB.
+
+.. |settings_tool| image:: _static/semiautomaticclassificationplugin_settings_tool.png
+	:width: 20pt
+	
+.. image:: _static/settings_processing_tab.jpg

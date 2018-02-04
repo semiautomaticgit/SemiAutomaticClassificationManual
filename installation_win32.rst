@@ -13,11 +13,13 @@ Installation in Windows 32 bit
 QGIS download and installation
 ------------------------------------------
 
-* Download the latest QGIS version 32 bit from `here <http://www.qgis.org/en/site/forusers/download.html>`_ (the direct download of QGIS 2.2 from this `link <http://qgis.org/downloads/QGIS-OSGeo4W-2.2.0-1-Setup-x86.exe>`_);
+* Download the latest QGIS version 32 bit from `here <https://www.qgis.org/en/site/forusers/download.html>`_ ;
+
+	**TIP**: Until the QGIS 3 official release, you can download the QGIS 3 development version using `OSGeo4W <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe>`_ ; please read :ref:`other_6` .
 
 * Execute the QGIS installer with administrative rights, accepting the default configuration.
 
-Now, QGIS 2 is installed.
+Now, QGIS is installed.
 
 .. image:: _static/QGIS.jpg
 
@@ -26,49 +28,29 @@ Now, QGIS 2 is installed.
 Semi-Automatic Classification Plugin installation
 --------------------------------------------------
 
-* Run QGIS 2;
+* Run QGIS;
 
-* From the main menu, select Plugins > Manage and Install Plugins;
+* From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;
 
 .. image:: _static/install.jpg
 
-* From the All menu, select the Semi-Automatic Classification Plugin and click the button Install plugin;
+* From the menu ``All``, select the Semi-Automatic Classification Plugin and click the button ``Install plugin``;
+
+	**TIP**: in case of issues or an offline installation is required see :ref:`plugin_installation_1` and :ref:`plugin_installation_2`.
 
 .. image:: _static/plugins.jpg
 
-* The plugin should be automatically activated; however, be sure that the Semi-Automatic Classification Plugin and Processing are checked in the Installed menu;
+* The SCP should be automatically activated; however, be sure that the Semi-Automatic Classification Plugin is checked in the menu ``Installed`` (the restart of QGIS could be necessary to complete the SCP installation);
 
 .. image:: _static/plugins_installed.jpg
-
+	
 .. _plugin_configuration_win32bit:
 
-Configuration of the Processing plugin
-------------------------------------------
+Configuration of the plugin
+---------------------------
 
-This configuration is required because SAGA GIS needs to be activated in the Processing framework of QGIS 2.
-
-* Select the menu Processing > Options and configuration; click the + symbol beside Providers;
-
-.. image:: _static/conf.jpg
-
-* Click the + symbol beside Providers, and click the symbol + beside SAGA;
-
-.. image:: _static/processing_SAGA.jpg
-
-* SAGA should be already configured. However, verify the following settings:
-	#. The checkbox Activate is checked;
-	#. **Important!** Because SAGA 2.0.8 was installed, the checkbox Enable SAGA 2.0.8 compatibility must be checked; if SAGA 2.1.0 was installed then it must be unchecked;
-	#. The path in SAGA folder points to::
-	
-		C:/PROGRA~2/QGISVA~1/apps\saga
-
-Now, the Semi-Automatic Classification Plugin is installed and configured. The plugin is available under the Raster menu of QGIS, or you can click the icon |logo| in the main interface (if the raster menu is activated).
-
-.. |logo| image:: _static/logo.png
-	:width: 32pt
-
-.. image:: _static/activated.jpg
-
-|br|
+Now, the Semi-Automatic Classification Plugin is installed and a dock and a toolbar should be added to QGIS.
+Also, a SCP menu is available in the Menu Bar of QGIS. 
+It is possible to move the toolbar and the dock according to your needs, as in the following image.
 
 .. image:: _static/SemiAutomaticClassificationPlugin.jpg

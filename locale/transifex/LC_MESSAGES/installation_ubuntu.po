@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-04 20:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../installation_ubuntu.rst:5
+msgid "Installation in Ubuntu Linux"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:14
+msgid "QGIS download and installation"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:16
+msgid ""
+"**TIP**: Until the QGIS 3 official release, you can use the nightly "
+"repository. Please read "
+"https://www.qgis.org/it/site/forusers/alldownloads.html#debian-ubuntu"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:18
+msgid "Open a terminal and type::"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:22
+msgid "Press Enter and type the user password;"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:24
+msgid "Type in a terminal::"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:28
+msgid "Press Enter and wait until the software is downloaded and installed."
+msgstr ""
+
+#: ../../installation_ubuntu.rst:30
+msgid "Now, QGIS is installed."
+msgstr ""
+
+#: ../../installation_ubuntu.rst:37
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:39
+msgid "Run QGIS;"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:41
+msgid "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:45
+msgid ""
+"From the menu ``All``, select the Semi-Automatic Classification Plugin "
+"and click the button ``Install plugin``;"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:47
+msgid ""
+"**TIP**: in case of issues or an offline installation is required see "
+":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
+msgstr ""
+
+#: ../../installation_ubuntu.rst:51
+msgid ""
+"The SCP should be automatically activated; however, be sure that the "
+"Semi-Automatic Classification Plugin is checked in the menu ``Installed``"
+" (the restart of QGIS could be necessary to complete the SCP "
+"installation);"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:58
+msgid "Configuration of the plugin"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:60
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and a dock and"
+" a toolbar should be added to QGIS. Also, a SCP menu is available in the "
+"Menu Bar of QGIS. It is possible to move the toolbar and the dock "
+"according to your needs, as in the following image."
+msgstr ""
+
+#: ../../installation_ubuntu.rst:66
+msgid ""
+"The configuration of available RAM is recommended in order to reduce the "
+"processing time. From the :ref:`SCP_menu` select |settings_tool| "
+"``Settings > Processing`` ."
+msgstr ""
+
+#: ../../installation_ubuntu.rst:71
+msgid ""
+"In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
+"that should be half of the system RAM. For instance, if your system has "
+"2GB of RAM, set the value to 1024MB."
+msgstr ""
+

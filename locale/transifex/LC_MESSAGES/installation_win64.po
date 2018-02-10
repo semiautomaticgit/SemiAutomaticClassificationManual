@@ -2,14 +2,14 @@
 # Copyright (C) 2012-2018, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-04 20:46+0100\n"
+"POT-Creation-Date: 2018-02-10 12:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,10 +106,4 @@ msgid ""
 "that should be half of the system RAM. For instance, if your system has "
 "2GB of RAM, set the value to 1024MB."
 msgstr ""
-
-#~ msgid ""
-#~ "Download the latest QGIS version 64 "
-#~ "bit from `here "
-#~ "<http://www.qgis.org/en/site/forusers/download.html>`_ ;"
-#~ msgstr ""
 

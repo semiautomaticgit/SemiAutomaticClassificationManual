@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-04 20:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Julián Tomaštík <mororobrekeke@gmail.com>, 2017\n"
+"Language-Team: Slovak (Slovakia) (https://www.transifex.com/semi-automatic-classification/teams/53374/sk_SK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../../installation_debian.rst:5
+msgid "Installation in Debian Linux"
+msgstr "Inštalácia v Debian Linuxe"
+
+#: ../../installation_debian.rst:14
+msgid "QGIS download and installation"
+msgstr "Stiahnutie a inštalácia QGIS"
+
+#: ../../installation_debian.rst:16
+msgid ""
+"**TIP**: Until the QGIS 3 official release, you can use the nightly "
+"repository. Please read "
+"https://www.qgis.org/it/site/forusers/alldownloads.html#debian-ubuntu"
+msgstr ""
+
+#: ../../installation_debian.rst:18
+msgid "Open a terminal and type::"
+msgstr "Otvorte terminál a napíšte::"
+
+#: ../../installation_debian.rst:22
+msgid "Press Enter and type the user password;"
+msgstr "Stlačte Enter a napíšte užívateľské heslo;"
+
+#: ../../installation_debian.rst:24
+msgid "Type in a terminal::"
+msgstr "Napíšte do terminálu::"
+
+#: ../../installation_debian.rst:28
+msgid "Press Enter and wait until the software is downloaded and installed."
+msgstr "Stlačte Enter a počkajte kým sa softvér stiahne a nainštaluje."
+
+#: ../../installation_debian.rst:30
+msgid "Now, QGIS is installed."
+msgstr ""
+
+#: ../../installation_debian.rst:37
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr "Inštalácia Semi-Automatic Classification Plugin"
+
+#: ../../installation_debian.rst:39
+msgid "Run QGIS;"
+msgstr ""
+
+#: ../../installation_debian.rst:41
+msgid ""
+"From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr ""
+"V hlavnom menu zvoľte ``Zásuvné moduly`` > ``Spravovať a inštalovať zásuvné "
+"moduly...``;"
+
+#: ../../installation_debian.rst:45
+msgid ""
+"From the menu ``All``, select the Semi-Automatic Classification Plugin and "
+"click the button ``Install plugin``;"
+msgstr ""
+"Z menu ``Všetko``, vyberte Semi-Automatic Classification Plugin a kliknite "
+"na tlačítko ``Nainštalovať zásuvný modul``;"
+
+#: ../../installation_debian.rst:47
+msgid ""
+"**TIP**: in case of issues or an offline installation is required see "
+":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
+msgstr ""
+"**TIP**: v prípade problémov alebo offline inštalácie je potrebné "
+":ref:`plugin_installation_1` a :ref:`plugin_installation_2`."
+
+#: ../../installation_debian.rst:51
+msgid ""
+"The SCP should be automatically activated; however, be sure that the Semi-"
+"Automatic Classification Plugin is checked in the menu ``Installed`` (the "
+"restart of QGIS could be necessary to complete the SCP installation);"
+msgstr ""
+"SCP by mal byť automaticky aktivovaný, avšak uistite sa, že Semi-Automatic "
+"Classification Plugin je označený v menu ``Nainštalované`` (k dokončeniu "
+"inštalácie SCP môže byť nutné reštartovať QGIS);"
+
+#: ../../installation_debian.rst:58
+msgid "Configuration of the plugin"
+msgstr "Nastavenie zásuvného modulu"
+
+#: ../../installation_debian.rst:60
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and a dock and a "
+"toolbar should be added to QGIS. Also, a SCP menu is available in the Menu "
+"Bar of QGIS. It is possible to move the toolbar and the dock according to "
+"your needs, as in the following image."
+msgstr ""
+
+#: ../../installation_debian.rst:66
+msgid ""
+"The configuration of available RAM is recommended in order to reduce the "
+"processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings "
+"> Processing`` ."
+msgstr ""
+"Pre zníženie času potrebného pre spracovanie je odporúčané nastavenie "
+"dostupnej RAM pamäte. Z :ref:`SCP_menu` zvoľte |settings_tool| ``Settings > "
+"Processing`` ."
+
+#: ../../installation_debian.rst:71
+msgid ""
+"In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that "
+"should be half of the system RAM. For instance, if your system has 2GB of "
+"RAM, set the value to 1024MB."
+msgstr ""
+"V :ref:`settings_tab` nastavte ``Available RAM (MB)`` na hodnotu, ktorá by "
+"mala predstavovať polovicu vašej systémovej pamäte RAM. Napríklad, ak váš "
+"systém má 2GB RAM, nastavte túto hodnotu na 1024MB."

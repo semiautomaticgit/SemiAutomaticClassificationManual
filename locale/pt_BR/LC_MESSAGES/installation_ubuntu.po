@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-04 20:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FelipeSodre <felipe.b4rros@gmail.com>, 2016\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/semi-automatic-classification/teams/53374/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../installation_ubuntu.rst:5
+msgid "Installation in Ubuntu Linux"
+msgstr "Instalação em Ubuntu Linux"
+
+#: ../../installation_ubuntu.rst:14
+msgid "QGIS download and installation"
+msgstr "Download e instalação do QGIS"
+
+#: ../../installation_ubuntu.rst:16
+msgid ""
+"**TIP**: Until the QGIS 3 official release, you can use the nightly "
+"repository. Please read "
+"https://www.qgis.org/it/site/forusers/alldownloads.html#debian-ubuntu"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:18
+msgid "Open a terminal and type::"
+msgstr "Abrir um terminal e digitar::"
+
+#: ../../installation_ubuntu.rst:22
+msgid "Press Enter and type the user password;"
+msgstr "Pressione Enter e digite a senha do usuário;"
+
+#: ../../installation_ubuntu.rst:24
+msgid "Type in a terminal::"
+msgstr "Digite em um terminal::"
+
+#: ../../installation_ubuntu.rst:28
+msgid "Press Enter and wait until the software is downloaded and installed."
+msgstr ""
+"Pressione Enter e aguarde até que o software seja baixado e instalado."
+
+#: ../../installation_ubuntu.rst:30
+msgid "Now, QGIS is installed."
+msgstr ""
+
+#: ../../installation_ubuntu.rst:37
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr "Instalação do Semi-Automatic Classification Plugin"
+
+#: ../../installation_ubuntu.rst:39
+msgid "Run QGIS;"
+msgstr ""
+
+#: ../../installation_ubuntu.rst:41
+msgid ""
+"From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr ""
+"No menu principal, selecione `Complementos`` > ``Gerenciar e Instalar "
+"Complementos``;"
+
+#: ../../installation_ubuntu.rst:45
+msgid ""
+"From the menu ``All``, select the Semi-Automatic Classification Plugin and "
+"click the button ``Install plugin``;"
+msgstr ""
+"No menu de ``Tudo`, selecione o Semi-Automatic Classification Plugin e "
+"clique no botão ``Instalar complemento``;"
+
+#: ../../installation_ubuntu.rst:47
+msgid ""
+"**TIP**: in case of issues or an offline installation is required see "
+":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
+msgstr ""
+"**TIP**: Em casos de erros e para instalçao offline, veja: "
+"ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
+
+#: ../../installation_ubuntu.rst:51
+msgid ""
+"The SCP should be automatically activated; however, be sure that the Semi-"
+"Automatic Classification Plugin is checked in the menu ``Installed`` (the "
+"restart of QGIS could be necessary to complete the SCP installation);"
+msgstr ""
+"O SCP deverá ser automaticamente ativado; contudo, certifique-se de que o "
+"Semi-Automatic Classification Plugin está marcado com um visto, no menu "
+"``Instalado`` (é provável que seja necessário reiniciar o QGIS para "
+"completar a instalação do SCP);"
+
+#: ../../installation_ubuntu.rst:58
+msgid "Configuration of the plugin"
+msgstr "Configuração do complemento"
+
+#: ../../installation_ubuntu.rst:60
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and a dock and a "
+"toolbar should be added to QGIS. Also, a SCP menu is available in the Menu "
+"Bar of QGIS. It is possible to move the toolbar and the dock according to "
+"your needs, as in the following image."
+msgstr ""
+
+#: ../../installation_ubuntu.rst:66
+msgid ""
+"The configuration of available RAM is recommended in order to reduce the "
+"processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings "
+"> Processing`` ."
+msgstr ""
+"É recomendado configurar a memória RAM disponível, de modo a reduzir o tempo"
+" de processamento. Assim, a partir do :ref:`SCP_menu` selecione "
+"|configurações| ``Configurações> Processamento`` ."
+
+#: ../../installation_ubuntu.rst:71
+msgid ""
+"In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that "
+"should be half of the system RAM. For instance, if your system has 2GB of "
+"RAM, set the value to 1024MB."
+msgstr ""
+"Em :ref:`settings_tab`, defina o ``Available RAM (MB)`` para um valor que "
+"deva corresponder à metade da memória RAM total instalada no computador. "
+"Assim, se o seu computador tiver 2GB de RAM, coloque no campo 1024MB."

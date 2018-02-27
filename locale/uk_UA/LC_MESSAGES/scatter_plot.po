@@ -2,14 +2,14 @@
 # Copyright (C) 2012-2018, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-27 13:09+0200\n"
+"POT-Creation-Date: 2018-02-10 12:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2016\n"
 "Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
@@ -40,7 +40,7 @@ msgstr ":guilabel:`Графік розсіву`"
 
 #: ../../scatter_plot.rst:83
 msgid "The functions are described in detail in the following paragraphs."
-msgstr ""
+msgstr "Ці функції докладно описано в наступних параграфах."
 
 #: ../../scatter_plot.rst:88
 msgid "Scatter list"
@@ -204,6 +204,12 @@ msgid ""
 "number of selection polygon; also the raster color is derived from the "
 "selection polygon."
 msgstr ""
+"Пікселі :guilabel:`active band set` класифікуються відповідно до каналів "
+"графіка розсіву, якщо значення пікселів знаходяться в діапазоні перетину між"
+" графіками розсіву та полігонами відбору (полігони не повинні перетинатись)."
+" Значення, що призначаються пікселям :guilabel:`Scatter raster`, це "
+"порядковий номер полігона відбору; колір растра також відповідає полігону "
+"відбору."
 
 #: ../../scatter_plot.rst:126
 msgid ""
@@ -254,6 +260,9 @@ msgid ""
 "raster` (considering all the classified pixels) using the :guilabel:`active "
 "band set`, and save the signature to the :ref:`ROI_list`;"
 msgstr ""
+"|save_plot|: розрахувати спектральну сигнатуру :guilabel:`Scatter raster` (з"
+" урахуванням всіх класифікованих пікселів) з використанням :guilabel:`active"
+" band set`  та зберегти її до :ref:`ROI_list`;"
 
 #: ../../scatter_plot.rst:135
 msgid ""

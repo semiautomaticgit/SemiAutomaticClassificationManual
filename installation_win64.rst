@@ -15,8 +15,6 @@ QGIS download and installation
 
 * Download the latest QGIS version 64 bit from `here <https://www.qgis.org/en/site/forusers/download.html>`_ ;
 
-	**TIP**: Until the QGIS 3 official release, you can download the QGIS 3 development version using `OSGeo4W <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe>`_ ; please read :ref:`other_6` .
-
 * Execute the QGIS installer with administrative rights, accepting the default configuration.
 
 Now, QGIS is installed.

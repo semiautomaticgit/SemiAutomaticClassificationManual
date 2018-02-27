@@ -2,14 +2,14 @@
 # Copyright (C) 2012-2018, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-04 20:46+0100\n"
+"POT-Creation-Date: 2018-02-10 12:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tomasz Nycz <tomasz.merkato@gmail.com>, 2017\n"
 "Language-Team: Polish (https://www.transifex.com/semi-automatic-classification/teams/53374/pl/)\n"
@@ -34,6 +34,9 @@ msgid ""
 "repository. Please read "
 "https://www.qgis.org/it/site/forusers/alldownloads.html#debian-ubuntu"
 msgstr ""
+"**PORADA**: Do czasu oficjalnego wydania QGIS 3, możesz używać repozytorium "
+"nightly. Więcej tutaj: "
+"https://www.qgis.org/it/site/forusers/alldownloads.html#debian-ubuntu"
 
 #: ../../installation_debian.rst:18
 msgid "Open a terminal and type::"
@@ -53,7 +56,7 @@ msgstr "Wciśnij Enter i poczekaj na pobranie i instalację programu."
 
 #: ../../installation_debian.rst:30
 msgid "Now, QGIS is installed."
-msgstr ""
+msgstr "Teraz, QGIS jest zainstalowany."
 
 #: ../../installation_debian.rst:37
 msgid "Semi-Automatic Classification Plugin installation"
@@ -61,7 +64,7 @@ msgstr "Instalacja wtyczki Semi-Automatic Classification Plugin "
 
 #: ../../installation_debian.rst:39
 msgid "Run QGIS;"
-msgstr ""
+msgstr "Uruchom QGIS;"
 
 #: ../../installation_debian.rst:41
 msgid ""
@@ -106,6 +109,10 @@ msgid ""
 "Bar of QGIS. It is possible to move the toolbar and the dock according to "
 "your needs, as in the following image."
 msgstr ""
+"Semi-Automatic Classification Plugin jest zainstalowany i dok, oraz paski "
+"narzędzi powinny być dodane do QGIS. Dodatkowo, menu SCP jest dostępne w "
+"głównym menu programu. Możesz przesuwać paski narzędziowe i doki zgodnie z "
+"własnymi potrzebami, tak jak na obrazku poniżej."
 
 #: ../../installation_debian.rst:66
 msgid ""

@@ -13,8 +13,6 @@ Installation in Ubuntu Linux
 QGIS download and installation
 ------------------------------------------
 
-	**TIP**: Until the QGIS 3 official release, you can use the nightly repository. Please read https://www.qgis.org/it/site/forusers/alldownloads.html#debian-ubuntu
-
 * Open a terminal and type::
 
 	sudo apt-get update
@@ -23,7 +21,7 @@ QGIS download and installation
 
 * Type in a terminal::
 
-	sudo apt-get install qgis python-matplotlib python-scipy
+	sudo apt-get install qgis python3-matplotlib python3-scipy
 
 * Press Enter and wait until the software is downloaded and installed.
 

@@ -2,14 +2,14 @@
 # Copyright (C) 2012-2018, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-10 12:23+0100\n"
+"POT-Creation-Date: 2018-02-27 10:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2016\n"
 "Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
@@ -38,41 +38,31 @@ msgstr ""
 
 #: ../../installation_win32.rst:18
 msgid ""
-"**TIP**: Until the QGIS 3 official release, you can download the QGIS 3 "
-"development version using `OSGeo4W <http://download.osgeo.org/osgeo4w"
-"/osgeo4w-setup-x86.exe>`_ ; please read :ref:`other_6` ."
-msgstr ""
-"**ПОРАДА**: До офіційного виходу QGIS 3 ви можете завантажити  версію QGIS 3"
-" для розробки  використовуючи `OSGeo4W <http://download.osgeo.org/osgeo4w"
-"/osgeo4w-setup-x86.exe>`_ ; будь ласка читайте :ref:`other_6` ."
-
-#: ../../installation_win32.rst:20
-msgid ""
 "Execute the QGIS installer with administrative rights, accepting the default"
 " configuration."
 msgstr ""
 "Виконайте встановлення QGIS з правами адміністратора, приймаючи стандартні "
 "налаштування."
 
-#: ../../installation_win32.rst:22
+#: ../../installation_win32.rst:20
 msgid "Now, QGIS is installed."
 msgstr "Тепер QGIS встановлено."
 
-#: ../../installation_win32.rst:29
+#: ../../installation_win32.rst:27
 msgid "Semi-Automatic Classification Plugin installation"
 msgstr "Встановлення Semi-Automatic Classification Plugin"
 
-#: ../../installation_win32.rst:31
+#: ../../installation_win32.rst:29
 msgid "Run QGIS;"
 msgstr "Запустіть QGIS;"
 
-#: ../../installation_win32.rst:33
+#: ../../installation_win32.rst:31
 msgid ""
 "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr ""
 "З головного меню виберіть ``Plugins`` > ``Manage and Install Plugins``;"
 
-#: ../../installation_win32.rst:37
+#: ../../installation_win32.rst:35
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin and "
 "click the button ``Install plugin``;"
@@ -80,7 +70,7 @@ msgstr ""
 "З меню ``All`` виберіть Semi-Automatic Classification Plugin та натисніть "
 "кнопку ``Install plugin``;"
 
-#: ../../installation_win32.rst:39
+#: ../../installation_win32.rst:37
 msgid ""
 "**TIP**: in case of issues or an offline installation is required see "
 ":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
@@ -89,7 +79,7 @@ msgstr ""
 "рекомендовано ознайомитись з :ref:`plugin_installation_1` та  "
 ":ref:`plugin_installation_2`."
 
-#: ../../installation_win32.rst:43
+#: ../../installation_win32.rst:41
 msgid ""
 "The SCP should be automatically activated; however, be sure that the Semi-"
 "Automatic Classification Plugin is checked in the menu ``Installed`` (the "
@@ -99,11 +89,11 @@ msgstr ""
 "меню ``Installed`` активовано Semi-Automatic Classification Plugin (для "
 "завершення встановлення SCP може знадобитись перезапуск QGIS);"
 
-#: ../../installation_win32.rst:50
+#: ../../installation_win32.rst:48
 msgid "Configuration of the plugin"
 msgstr "Налаштування модуля"
 
-#: ../../installation_win32.rst:52
+#: ../../installation_win32.rst:50
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and a "
 "toolbar should be added to QGIS. Also, a SCP menu is available in the Menu "
@@ -114,3 +104,8 @@ msgstr ""
 " відповідні панелі. Також, меню SCP доступне з  панелі меню QGIS. Панель, що"
 " плаває, та панель інструментів можна переміщувати відповідно до ваших "
 "потреб, як це показано на рисунку."
+
+#~ msgid ""
+#~ "Download the latest QGIS version 32 bit from `here "
+#~ "<http://www.qgis.org/en/site/forusers/download.html>`_ ;"
+#~ msgstr ""

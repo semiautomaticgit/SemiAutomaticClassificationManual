@@ -11,38 +11,39 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-27 13:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Pedro Venâncio <pedrongvenancio@gmail.com>, 2016\n"
-"Language-Team: Portuguese (https://www.transifex.com/semi-automatic-classification/teams/53374/pt/)\n"
+"Last-Translator: Hamid Afzali <std_hamid.afzali@khu.ac.ir>, 2016\n"
+"Language-Team: Persian (https://www.transifex.com/semi-automatic-classification/teams/53374/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: pt\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../installation_debian.rst:5
 msgid "Installation in Debian Linux"
-msgstr "Instalação em Debian Linux"
+msgstr "نصب در سیستم عامل Debian Linux"
 
 #: ../../installation_debian.rst:14
 msgid "QGIS download and installation"
-msgstr "Download e instalação do QGIS"
+msgstr "دانلود و نصب نرم افزار QGIS"
 
 #: ../../installation_debian.rst:16
 msgid "Open a terminal and type::"
-msgstr "Abra o terminal e escreva::"
+msgstr "ترمیتال سیستم را باز کنید و مطابق زیر تایپ کنید:"
 
 #: ../../installation_debian.rst:20
 msgid "Press Enter and type the user password;"
-msgstr "Prima Enter e escreva a password do utilizador;"
+msgstr "یوزر وپسورد خود را وارد کنید:"
 
 #: ../../installation_debian.rst:22
 msgid "Type in a terminal::"
-msgstr "Escreva no terminal::"
+msgstr "در ترمینال تایپ کنید:"
 
 #: ../../installation_debian.rst:26
 msgid "Press Enter and wait until the software is downloaded and installed."
-msgstr "Prima Enter e aguarde enquanto o software é descarregado e instalado."
+msgstr ""
+" دکمه اینتر را بزنید و منتظر بمانید تا نرم افزار دانلود و سپس نصب شود."
 
 #: ../../installation_debian.rst:28
 msgid "Now, QGIS is installed."
@@ -50,7 +51,7 @@ msgstr ""
 
 #: ../../installation_debian.rst:35
 msgid "Semi-Automatic Classification Plugin installation"
-msgstr "Instalação do Semi-Automatic Classification Plugin"
+msgstr "فرایند نصب افزونه Semi-Automatic Classification"
 
 #: ../../installation_debian.rst:37
 msgid "Run QGIS;"
@@ -60,25 +61,22 @@ msgstr ""
 msgid ""
 "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr ""
-"A partir do menu principal, seleccione ``Plugins`` > ``Manage and Install "
-"Plugins``;"
+"از منوی اصلی مسیر زیر را پیمایش کنید\n"
+"``Plugins`` > ``Manage and Install Plugins``;"
 
 #: ../../installation_debian.rst:43
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin and "
 "click the button ``Install plugin``;"
 msgstr ""
-"No separador ``All``, seleccione o Semi-Automatic Classification Plugin e "
-"clique no botão ``Install plugin``;"
+"از منوی ``All``, افزونه Semi-Automatic Classification را انتخاب کنید سپس آ "
+"را \"نصب\" نمایید;"
 
 #: ../../installation_debian.rst:45
 msgid ""
 "**TIP**: in case of issues or an offline installation is required see "
 ":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
 msgstr ""
-"**TIP**: No caso de encontrar algum problema durante a instalação, ou de "
-"necessitar de fazer a instalação em modo offline, consulte "
-":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
 
 #: ../../installation_debian.rst:49
 msgid ""
@@ -86,14 +84,13 @@ msgid ""
 "Automatic Classification Plugin is checked in the menu ``Installed`` (the "
 "restart of QGIS could be necessary to complete the SCP installation);"
 msgstr ""
-"O SCP deverá ficar activado automaticamente; contudo, certifique-se de que o"
-" Semi-Automatic Classification Plugin está marcado com um visto no separador"
-" ``Installed`` (é provável que seja necessário reiniciar o QGIS para "
-"completar a instalação do SCP);"
+"افزونه به طور خودکار فعال میشود،برای اینکه مطمئن شود افزونه نصب شده است آن "
+"را در منوی \"نصب شده ها\"چک کنید(اجرا کردن دوباره و ری استارت کردن نرم افزار"
+" برای تکمیل فرایند نصب افزونه ضروری است);"
 
 #: ../../installation_debian.rst:56
 msgid "Configuration of the plugin"
-msgstr "Configuração do plugin"
+msgstr "تنظیمات افزونه"
 
 #: ../../installation_debian.rst:58
 msgid ""
@@ -109,9 +106,6 @@ msgid ""
 "processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings "
 "> Processing`` ."
 msgstr ""
-"Recomenda-se configurar a memória RAM disponível no computador, de forma a "
-"reduzir o tempo de processamento. Assim, a partir do :ref:`SCP_menu` select "
-"|settings_tool| ``Settings > Processing`` ."
 
 #: ../../installation_debian.rst:69
 msgid ""
@@ -119,7 +113,6 @@ msgid ""
 "should be half of the system RAM. For instance, if your system has 2GB of "
 "RAM, set the value to 1024MB."
 msgstr ""
-"No separador :ref:`settings_tab`, defina a ``Available RAM (MB)`` para um "
-"valor que corresponda a metade da memória RAM total instalada no computador."
-" Por exemplo, se o seu computador tiver 2GB de RAM, coloque no campo "
-"``Available RAM (MB)`` 1024."
+"در پنجره  \"تنظیمات\" میزان\"حافظه در دسترس(MB)\" را با مقدار نصف حافطه "
+"سیستم خود تنظیم کنید.بطور مثال اگر حافظه شما 2گیگابایت است ،انرا برابر1024 "
+"مگابات تنظیم کنید."

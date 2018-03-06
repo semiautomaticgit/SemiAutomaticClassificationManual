@@ -2,14 +2,14 @@
 # Copyright (C) 2012-2018, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-10 12:23+0100\n"
+"POT-Creation-Date: 2018-02-27 10:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tomasz Nycz <tomasz.merkato@gmail.com>, 2017\n"
 "Language-Team: Polish (https://www.transifex.com/semi-automatic-classification/teams/53374/pl/)\n"
@@ -38,41 +38,31 @@ msgstr ""
 
 #: ../../installation_win32.rst:18
 msgid ""
-"**TIP**: Until the QGIS 3 official release, you can download the QGIS 3 "
-"development version using `OSGeo4W <http://download.osgeo.org/osgeo4w"
-"/osgeo4w-setup-x86.exe>`_ ; please read :ref:`other_6` ."
-msgstr ""
-"**PORADA**: Doczasu oficjalnego wydania QGIS 3, możesz pobrać deweloperską "
-"wersję QGIS 3 używając `OSGeo4W <http://download.osgeo.org/osgeo4w/osgeo4w-"
-"setup-x86.exe>`_ ; przeczytaj również :ref:`other_6` ."
-
-#: ../../installation_win32.rst:20
-msgid ""
 "Execute the QGIS installer with administrative rights, accepting the default"
 " configuration."
 msgstr ""
 "Uruchom instalator QGIS z uprawnieniami administratora, akceptując domyślne "
 "ustawienia."
 
-#: ../../installation_win32.rst:22
+#: ../../installation_win32.rst:20
 msgid "Now, QGIS is installed."
 msgstr "Teraz, QGIS jest zainstalowany."
 
-#: ../../installation_win32.rst:29
+#: ../../installation_win32.rst:27
 msgid "Semi-Automatic Classification Plugin installation"
 msgstr "Instalacja wtyczki Semi-Automatic Classification Plugin "
 
-#: ../../installation_win32.rst:31
+#: ../../installation_win32.rst:29
 msgid "Run QGIS;"
 msgstr "Uruchom QGIS;"
 
-#: ../../installation_win32.rst:33
+#: ../../installation_win32.rst:31
 msgid ""
 "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr ""
 "Z głównego meny programu wybierz ``Wtyczki`` > ``Zarządzanie wtyczkami``"
 
-#: ../../installation_win32.rst:37
+#: ../../installation_win32.rst:35
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin and "
 "click the button ``Install plugin``;"
@@ -80,7 +70,7 @@ msgstr ""
 "Z menu ``Wszystkie``, wybierz Semi-Automatic Classification Plugin i kliknij"
 " w przycisk ``Zainstaluj wtyczkę``;"
 
-#: ../../installation_win32.rst:39
+#: ../../installation_win32.rst:37
 msgid ""
 "**TIP**: in case of issues or an offline installation is required see "
 ":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
@@ -88,7 +78,7 @@ msgstr ""
 "**Wskazówka**: w przypadku problemów lub wymogu instalacji offline zobacz "
 ":ref:`plugin_installation_1` oraz :ref:`plugin_installation_2`."
 
-#: ../../installation_win32.rst:43
+#: ../../installation_win32.rst:41
 msgid ""
 "The SCP should be automatically activated; however, be sure that the Semi-"
 "Automatic Classification Plugin is checked in the menu ``Installed`` (the "
@@ -98,11 +88,11 @@ msgstr ""
 " zaznaczona w menu ``Zainstalowane`` (restart QGIS może być wymagany dla "
 "dokończenia instalacji SCP);"
 
-#: ../../installation_win32.rst:50
+#: ../../installation_win32.rst:48
 msgid "Configuration of the plugin"
 msgstr "Konfiguracja wtyczki"
 
-#: ../../installation_win32.rst:52
+#: ../../installation_win32.rst:50
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and a "
 "toolbar should be added to QGIS. Also, a SCP menu is available in the Menu "
@@ -113,3 +103,8 @@ msgstr ""
 "narzędzi powinny być dodane do QGIS. Dodatkowo, menu SCP jest dostępne w "
 "głównym menu programu. Możesz przesuwać paski narzędziowe i doki zgodnie z "
 "własnymi potrzebami, tak jak na obrazku poniżej."
+
+#~ msgid ""
+#~ "Download the latest QGIS version 32 bit from `here "
+#~ "<http://www.qgis.org/en/site/forusers/download.html>`_ ;"
+#~ msgstr ""

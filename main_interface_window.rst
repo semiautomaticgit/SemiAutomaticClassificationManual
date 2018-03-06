@@ -90,6 +90,9 @@ Tabs can be selected through the menu at the left side.
 .. |search_images| image:: _static/semiautomaticclassificationplugin_search_images.png
 	:width: 20pt
 
+.. |osm_add| image:: _static/semiautomaticclassificationplugin_osm_add.png
+	:width: 20pt
+
 .. |image_preview| image:: _static/semiautomaticclassificationplugin_download_image_preview.png
 	:width: 20pt
 
@@ -803,6 +806,7 @@ The definition of a search area is required before searching the images.
 * :guilabel:`Results` |input_number|: maximum number of products returned by the search;
 * :guilabel:`Filter` |input_text|: set a filter such as the Product ID (e.g. ``LC81910312015006LGN00``); it is possible to enter multiple Product IDs separated by comma or semicolon (e.g. ``LC81910312015006LGN00, LC81910312013224LGN00`` ); filter is applied to resulting products in the search area;
 * :guilabel:`Find` |search_images|: find the products in the search area; results are displayed inside the table in :ref:`product_list`; results are added to previous results;
+* |osm_add| Add OpenStreetMap to the map: this button allows for the display of OpenStreetMap tiles (© `OpenStreetMap <http://www.openstreetmap.org/copyright>`_ contributors) in the QGIS map as described in https://wiki.openstreetmap.org/wiki/QGIS . The cartography is licensed as CC BY-SA (`Tile Usage Policy <http://www.openstreetmap.org/copyright>`_ );
 
 	**Tip**: Search results (and the number thereof) depend on the defined area extent and the range of dates. In order to get more results, perform multiple searches defining smaller area extent and narrow acquisition dates (from and to).
 	

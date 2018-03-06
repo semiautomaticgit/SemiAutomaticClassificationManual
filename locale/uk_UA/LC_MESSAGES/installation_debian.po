@@ -2,14 +2,14 @@
 # Copyright (C) 2012-2018, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-10 12:23+0100\n"
+"POT-Creation-Date: 2017-08-27 13:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2016\n"
 "Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
@@ -29,52 +29,42 @@ msgid "QGIS download and installation"
 msgstr "Завантаження та встановлення QGIS"
 
 #: ../../installation_debian.rst:16
-msgid ""
-"**TIP**: Until the QGIS 3 official release, you can use the nightly "
-"repository. Please read "
-"https://www.qgis.org/it/site/forusers/alldownloads.html#debian-ubuntu"
-msgstr ""
-"**ПОРАДА**: До офіційного виходу QGIS 3, ви можете використовувати "
-"репозиторій з нічними складаннями. Будь ласка читайте "
-"https://www.qgis.org/it/site/forusers/alldownloads.html#debian-ubuntu"
-
-#: ../../installation_debian.rst:18
 msgid "Open a terminal and type::"
 msgstr "Відкрийте термінал та надрукуйте::"
 
-#: ../../installation_debian.rst:22
+#: ../../installation_debian.rst:20
 msgid "Press Enter and type the user password;"
 msgstr "Натисніть Enter та надрукуйте пароль користувача;"
 
-#: ../../installation_debian.rst:24
+#: ../../installation_debian.rst:22
 msgid "Type in a terminal::"
 msgstr "Надрукуйте в терміналі::"
 
-#: ../../installation_debian.rst:28
+#: ../../installation_debian.rst:26
 msgid "Press Enter and wait until the software is downloaded and installed."
 msgstr ""
 "Натисніть Enter та зачекайте поки програмне забезпечення буде завантажене та"
 " встановлене."
 
-#: ../../installation_debian.rst:30
+#: ../../installation_debian.rst:28
 msgid "Now, QGIS is installed."
 msgstr "Тепер QGIS встановлено."
 
-#: ../../installation_debian.rst:37
+#: ../../installation_debian.rst:35
 msgid "Semi-Automatic Classification Plugin installation"
 msgstr "Встановлення Semi-Automatic Classification Plugin"
 
-#: ../../installation_debian.rst:39
+#: ../../installation_debian.rst:37
 msgid "Run QGIS;"
 msgstr "Запустіть QGIS;"
 
-#: ../../installation_debian.rst:41
+#: ../../installation_debian.rst:39
 msgid ""
 "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr ""
 "З головного меню виберіть ``Plugins`` > ``Manage and Install Plugins``;"
 
-#: ../../installation_debian.rst:45
+#: ../../installation_debian.rst:43
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin and "
 "click the button ``Install plugin``;"
@@ -82,7 +72,7 @@ msgstr ""
 "З меню ``All`` виберіть Semi-Automatic Classification Plugin та натисніть "
 "кнопку ``Install plugin``;"
 
-#: ../../installation_debian.rst:47
+#: ../../installation_debian.rst:45
 msgid ""
 "**TIP**: in case of issues or an offline installation is required see "
 ":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
@@ -91,7 +81,7 @@ msgstr ""
 "рекомендовано ознайомитись з :ref:`plugin_installation_1` та  "
 ":ref:`plugin_installation_2`."
 
-#: ../../installation_debian.rst:51
+#: ../../installation_debian.rst:49
 msgid ""
 "The SCP should be automatically activated; however, be sure that the Semi-"
 "Automatic Classification Plugin is checked in the menu ``Installed`` (the "
@@ -101,11 +91,11 @@ msgstr ""
 "меню ``Installed`` активовано Semi-Automatic Classification Plugin (для "
 "завершення встановлення SCP може знадобитись перезапуск QGIS);"
 
-#: ../../installation_debian.rst:58
+#: ../../installation_debian.rst:56
 msgid "Configuration of the plugin"
 msgstr "Налаштування модуля"
 
-#: ../../installation_debian.rst:60
+#: ../../installation_debian.rst:58
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and a "
 "toolbar should be added to QGIS. Also, a SCP menu is available in the Menu "
@@ -117,7 +107,7 @@ msgstr ""
 " плаває, та панель інструментів можна переміщувати відповідно до ваших "
 "потреб, як це показано на рисунку."
 
-#: ../../installation_debian.rst:66
+#: ../../installation_debian.rst:64
 msgid ""
 "The configuration of available RAM is recommended in order to reduce the "
 "processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings "
@@ -126,7 +116,7 @@ msgstr ""
 "Для зменшення часу обробки рекомендується налаштувати доступну RAM. З "
 ":ref:`SCP_menu` виберіть |settings_tool| ``Settings > Processing`` ."
 
-#: ../../installation_debian.rst:71
+#: ../../installation_debian.rst:69
 msgid ""
 "In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that "
 "should be half of the system RAM. For instance, if your system has 2GB of "

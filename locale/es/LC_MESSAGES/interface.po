@@ -29,6 +29,8 @@ msgid ""
 "The :guilabel:`SCP` interface is composed of several parts that are "
 "described in detail in the following paragraphs."
 msgstr ""
+"La interfaz de :guilabel:`SCP` está compuesta de varias partes que son "
+"descritas en detalle en los siguientes párrafos."
 
 #: ../../interface.rst:161
 msgid "|br|"
@@ -38,6 +40,7 @@ msgstr "|br|"
 msgid ""
 "The functions described in the following paragraphs use these conventions:"
 msgstr ""
+"Las funciones explicadas en los siguientes párrafos usan estas convenciones:"
 
 #: ../../interface.rst:169
 msgid "|input_date| = Input date"

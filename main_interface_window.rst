@@ -978,7 +978,8 @@ Sentinel-2 conversion
 * |checkbox| :guilabel:`Apply DOS1 atmospheric correction`: if checked, the :ref:`DOS1_correction` is applied to all the bands;
 * |checkbox| :guilabel:`only to blue and green bands`: if checked (with :guilabel:`Apply DOS1 atmospheric correction` also checked), the :ref:`DOS1_correction` is applied only to blue and green bands;
 * |checkbox| :guilabel:`Use NoData value (image has black border)` |input_number|: if checked, pixels having ``NoData`` value are not counted during conversion and the DOS1 calculation of DNmin; it is useful when image has a black border (usually pixel value = 0);
-* |checkbox| :guilabel:`Create Band set and use Band set tools`: if checked, the :guilabel:`Band set` is created after the conversion; also, the :guilabel:`Band set` is processed according to the tools checked in the :ref:`band_set_tab`;
+* |checkbox| :guilabel:`Create Band set and use Band set tools`: if checked, the active :guilabel:`Band set` is created after the conversion; also, the :guilabel:`Band set` is processed according to the tools checked in the :ref:`band_set_tab`;
+* |checkbox| :guilabel:`Add bands in a new Band set`: if checked, bands are added to a new empty :guilabel:`Band set`;
 
 .. _sentinel2_metadata:
 

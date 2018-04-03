@@ -46,7 +46,7 @@ msgstr "Presiona Enter y espera hasta que el software se descargue e instale."
 
 #: ../../installation_debian.rst:28
 msgid "Now, QGIS is installed."
-msgstr ""
+msgstr "Ahora QGIS está instalado."
 
 #: ../../installation_debian.rst:35
 msgid "Semi-Automatic Classification Plugin installation"
@@ -54,7 +54,7 @@ msgstr "Instalación del complemento Semi-Automatic Classification Plugin"
 
 #: ../../installation_debian.rst:37
 msgid "Run QGIS;"
-msgstr ""
+msgstr "Ejecuta QGIS;"
 
 #: ../../installation_debian.rst:39
 msgid ""
@@ -101,6 +101,11 @@ msgid ""
 "Bar of QGIS. It is possible to move the toolbar and the dock according to "
 "your needs, as in the following image."
 msgstr ""
+"Ahora Semi-Automatic Classification Plugin está instalado y un panel y una "
+"barra de herramientas se habrá agregado a QGIS. También, el menú SCP se "
+"encuentra disponible en la Barra de Menú de QGIS. Es posible mover la barra "
+"de herramientas y el panel según sus necesidades, como se muestra en la "
+"siguiente imagen."
 
 #: ../../installation_debian.rst:64
 msgid ""

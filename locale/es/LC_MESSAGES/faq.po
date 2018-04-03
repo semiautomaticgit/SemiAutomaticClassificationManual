@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-27 10:43+0100\n"
+"POT-Creation-Date: 2018-03-07 00:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Francisco Raga <FRANKA1986@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -42,6 +42,9 @@ msgid ""
 "<https://fromgistors.blogspot.com>`_ and the following Frequently Asked "
 "Questions."
 msgstr ""
+"Antes de preguntar, por favor revisa el sitio oficial `From GIS to Remote "
+"Sensing <https://fromgistors.blogspot.com>`_ y las siguientes Preguntas "
+"Frecuentes."
 
 #: ../../faq.rst:33
 msgid "Plugin installation"
@@ -138,7 +141,7 @@ msgstr "Para configurar el repositorio de SCP sigue estos pasos:"
 
 #: ../../faq.rst:60
 msgid "Run QGIS;"
-msgstr ""
+msgstr "Ejecuta QGIS;"
 
 #: ../../faq.rst:62
 msgid ""

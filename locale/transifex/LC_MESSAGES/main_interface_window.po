@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-03 21:34+0200\n"
+"POT-Creation-Date: 2018-06-13 20:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -604,7 +604,7 @@ msgid ""
 "for the ROI creation;"
 msgstr ""
 
-#: ../../main_interface_window.rst:508 ../../main_interface_window.rst:2017
+#: ../../main_interface_window.rst:508 ../../main_interface_window.rst:2018
 msgid "|remove|: delete the highlighted rows from the table;"
 msgstr ""
 
@@ -634,7 +634,7 @@ msgstr ""
 #: ../../main_interface_window.rst:1666 ../../main_interface_window.rst:1698
 #: ../../main_interface_window.rst:1746 ../../main_interface_window.rst:1793
 #: ../../main_interface_window.rst:1822 ../../main_interface_window.rst:1853
-#: ../../main_interface_window.rst:1882 ../../main_interface_window.rst:2128
+#: ../../main_interface_window.rst:1882 ../../main_interface_window.rst:2129
 msgid "Run"
 msgstr ""
 
@@ -3122,54 +3122,60 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1929
 msgid ""
+":guilabel:`\"#GREEN#\"`: the band with the center wavelength closest to "
+"0.56 :math:`\\mu m`;"
+msgstr ""
+
+#: ../../main_interface_window.rst:1930
+msgid ""
 ":guilabel:`\"#RED#\"`: the band with the center wavelength closest to "
 "0.65 :math:`\\mu m`;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1930
+#: ../../main_interface_window.rst:1931
 msgid ""
 ":guilabel:`\"#NIR#\"`: the band with the center wavelength closest to "
 "0.85 :math:`\\mu m`;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1932
+#: ../../main_interface_window.rst:1933
 msgid "Variables for output name are available:"
 msgstr ""
 
-#: ../../main_interface_window.rst:1934
+#: ../../main_interface_window.rst:1935
 msgid ""
 ":guilabel:`#BANDSET#`: the name of the first band in the "
 ":ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1935
+#: ../../main_interface_window.rst:1936
 msgid ""
 ":guilabel:`#DATE#`: the current date and time (e.g. "
 "20161110_113846527764);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1937
+#: ../../main_interface_window.rst:1938
 msgid ""
 "If text in the :guilabel:`Expression` is green, then the syntax is "
 "correct; if text is red, then the syntax is incorrect and it is not "
 "possible to execute the calculation."
 msgstr ""
 
-#: ../../main_interface_window.rst:1939
+#: ../../main_interface_window.rst:1940
 msgid ""
 "It is possible to enter multiple expressions separated by newlines such "
 "as the following example:"
 msgstr ""
 
-#: ../../main_interface_window.rst:1941
+#: ../../main_interface_window.rst:1942
 msgid "``\"raster1\" + \"raster2\"``"
 msgstr ""
 
-#: ../../main_interface_window.rst:1943
+#: ../../main_interface_window.rst:1944
 msgid "``\"raster3\" - \"raster4\"``"
 msgstr ""
 
-#: ../../main_interface_window.rst:1945
+#: ../../main_interface_window.rst:1946
 msgid ""
 "The above example calculates two new rasters in the output directory with"
 " the suffix ``_1`` (e.g. ``calc_raster_1`` ) for the first expression and"
@@ -3178,145 +3184,145 @@ msgid ""
 " name, such as the following example:"
 msgstr ""
 
-#: ../../main_interface_window.rst:1948
+#: ../../main_interface_window.rst:1949
 msgid "``\"raster1\" + \"raster2\" @ calc_1``"
 msgstr ""
 
-#: ../../main_interface_window.rst:1950
+#: ../../main_interface_window.rst:1951
 msgid "``\"raster3\" - \"raster4\" @ calc_2``"
 msgstr ""
 
-#: ../../main_interface_window.rst:1952
+#: ../../main_interface_window.rst:1953
 msgid "The following buttons are available:"
 msgstr ""
 
-#: ../../main_interface_window.rst:1954
+#: ../../main_interface_window.rst:1955
 msgid ":guilabel:`+`: plus;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1955
+#: ../../main_interface_window.rst:1956
 msgid ":guilabel:`-`: minus;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1956
+#: ../../main_interface_window.rst:1957
 msgid ":guilabel:`*`: product;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1957
+#: ../../main_interface_window.rst:1958
 msgid ":guilabel:`/`: ratio;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1958
+#: ../../main_interface_window.rst:1959
 msgid ":guilabel:`^`: power;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1959
+#: ../../main_interface_window.rst:1960
 msgid ":guilabel:`V`: square-root;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1960
+#: ../../main_interface_window.rst:1961
 msgid ":guilabel:`(`: open parenthesis;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1961
+#: ../../main_interface_window.rst:1962
 msgid ":guilabel:`)`: close parenthesis;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1962
+#: ../../main_interface_window.rst:1963
 msgid ":guilabel:`>`: greater then;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1963
+#: ../../main_interface_window.rst:1964
 msgid ":guilabel:`<`: less then;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1964
+#: ../../main_interface_window.rst:1965
 msgid ":guilabel:`ln`: natural logarithm;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1965
+#: ../../main_interface_window.rst:1966
 msgid ":guilabel:`π`: pi;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1966
+#: ../../main_interface_window.rst:1967
 msgid ":guilabel:`==`: equal;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1967
+#: ../../main_interface_window.rst:1968
 msgid ":guilabel:`!=`: not equal;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1968
+#: ../../main_interface_window.rst:1969
 msgid ":guilabel:`sin`: sine;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1969
+#: ../../main_interface_window.rst:1970
 msgid ":guilabel:`asin`: inverse sine;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1970
+#: ../../main_interface_window.rst:1971
 msgid ":guilabel:`cos`: cosine;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1971
+#: ../../main_interface_window.rst:1972
 msgid ":guilabel:`acos`: inverse cosine;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1972
+#: ../../main_interface_window.rst:1973
 msgid ":guilabel:`tan`: tangent;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1973
+#: ../../main_interface_window.rst:1974
 msgid ":guilabel:`atan`: inverse tangent;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1974
+#: ../../main_interface_window.rst:1975
 msgid ""
 ":guilabel:`where`: conditional expression according to the syntax "
 "``where( condition , value if true, value if false)`` (e.g. "
 "``where(\"raster1\" == 1, 2, \"raster1\")``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1975
+#: ../../main_interface_window.rst:1976
 msgid ":guilabel:`exp`: natural exponential;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1976
+#: ../../main_interface_window.rst:1977
 msgid ""
 ":guilabel:`nodata`: NoData value of raster (e.g. "
 "``nodata(\"raster1\")``); it can be used as value in the expression (e.g."
 " ``where(\"raster1\" == nodata(\"raster1\"), 0, \"raster1\")``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1981
+#: ../../main_interface_window.rst:1982
 msgid "Index calculation"
 msgstr ""
 
-#: ../../main_interface_window.rst:1983
+#: ../../main_interface_window.rst:1984
 msgid ""
 ":guilabel:`Index calculation` allows for entering a spectral index "
 "expression (see :ref:`spectral_indices_definition`)."
 msgstr ""
 
-#: ../../main_interface_window.rst:1986
+#: ../../main_interface_window.rst:1987
 msgid ":guilabel:`Index calculation` |input_list|: list of spectral indices:"
 msgstr ""
 
-#: ../../main_interface_window.rst:1986
+#: ../../main_interface_window.rst:1987
 msgid ""
 ":guilabel:`NDVI`: if selected, the NDVI calculation is entered in the "
 ":guilabel:`Expression` ( ``(( \"#NIR#\" - \"#RED#\") / ( \"#NIR#\" + "
 "\"#RED#\") @ NDVI)`` );"
 msgstr ""
 
-#: ../../main_interface_window.rst:1987
+#: ../../main_interface_window.rst:1988
 msgid ""
 ":guilabel:`EVI`: if selected, the EVI calculation is entered in the "
 ":guilabel:`Expression` ( ``2.5 * ( \"#NIR#\" - \"#RED#\" ) / ( \"#NIR#\" "
 "+ 6 * \"#RED#\" - 7.5 * \"#BLUE#\" + 1) @ EVI`` );"
 msgstr ""
 
-#: ../../main_interface_window.rst:1988
+#: ../../main_interface_window.rst:1989
 msgid ""
 "|open_file|: open a text file (.txt) containing custom expressions to be "
 "listed in :guilabel:`Index calculation`; the text file must contain an "
@@ -3327,11 +3333,11 @@ msgid ""
 "default values are restored; following an example of text content::"
 msgstr ""
 
-#: ../../main_interface_window.rst:1997
+#: ../../main_interface_window.rst:1998
 msgid "Decision rules"
 msgstr ""
 
-#: ../../main_interface_window.rst:2003
+#: ../../main_interface_window.rst:2004
 msgid ""
 ":guilabel:`Decision rules` allows for the calculation of an output raster"
 " based on rules. Rules are conditional statements based on other rasters;"
@@ -3339,7 +3345,7 @@ msgid ""
 "assigned to the output pixel."
 msgstr ""
 
-#: ../../main_interface_window.rst:2006
+#: ../../main_interface_window.rst:2007
 msgid ""
 "Rules are verified from the first to the last row in the table; if the "
 "first :guilabel:`Rule` is false, the next :guilabel:`Rule` is verified "
@@ -3349,19 +3355,19 @@ msgid ""
 ":guilabel:`Rule` is true."
 msgstr ""
 
-#: ../../main_interface_window.rst:2012
+#: ../../main_interface_window.rst:2013
 msgid ""
 "|input_table| :guilabel:`Decision rules`: table containing the following "
 "fields;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2011
+#: ../../main_interface_window.rst:2012
 msgid ""
 ":guilabel:`Value`: the value assigned to pixels if the :guilabel:`Rule` "
 "is true;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2012
+#: ../../main_interface_window.rst:2013
 msgid ""
 ":guilabel:`Rule`: the rule to be verified (e.g. ``\"raster1\" > 0``); "
 "multiple conditional statements can be entered separated by ``;`` (e.g. "
@@ -3369,35 +3375,35 @@ msgid ""
 ":guilabel:`Value` where ``raster1`` > 0 and ``raster2`` < 1);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2014
+#: ../../main_interface_window.rst:2015
 msgid "|move_up|: move highlighted rule up;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2015
+#: ../../main_interface_window.rst:2016
 msgid "|move_down|: move highlighted rule down;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2016
+#: ../../main_interface_window.rst:2017
 msgid "|add|: add a new row to the table;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2018
+#: ../../main_interface_window.rst:2019
 msgid "|reset|: clear the table;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2019
+#: ../../main_interface_window.rst:2020
 msgid "|export|: export the rules to a text file that can be imported later;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2020
+#: ../../main_interface_window.rst:2021
 msgid "|import|: import rules from a text file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2025
+#: ../../main_interface_window.rst:2026
 msgid "Output raster"
 msgstr ""
 
-#: ../../main_interface_window.rst:2027
+#: ../../main_interface_window.rst:2028
 msgid ""
 "The output raster is a .tif file, with the same spatial resolution and "
 "projection of input rasters; if input rasters have different spatial "
@@ -3405,40 +3411,40 @@ msgid ""
 "used for output raster."
 msgstr ""
 
-#: ../../main_interface_window.rst:2029
+#: ../../main_interface_window.rst:2030
 msgid ""
 "|checkbox| :guilabel:`Use NoData value` |input_number|: if checked, set "
 "the value of ``NoData`` pixels in output raster;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2031
+#: ../../main_interface_window.rst:2032
 msgid ""
 "Extent: if the following options are unchecked, the output raster extent "
 "will include the extents of all input rasters;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2031
+#: ../../main_interface_window.rst:2032
 msgid ""
 "|checkbox| :guilabel:`Intersection`: if checked, the extent of output "
 "raster equals the intersection of input raster extents (i.e. minimum "
 "extent);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2032
+#: ../../main_interface_window.rst:2033
 msgid ""
 "|checkbox| :guilabel:`Same as` |input_list|: if checked, the extent of "
 "output raster equals the extent of :guilabel:`\"Map extent\"` (the extent"
 " of the map currently displayed) or a selected layer;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2033
+#: ../../main_interface_window.rst:2034
 msgid ""
 "|radiobutton| :guilabel:`Align`: if checked, and |checkbox| "
 ":guilabel:`Same as` is checked selecting a raster, the calculation is "
 "performed using the same extent and pixel alignment of selected raster;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2034
+#: ../../main_interface_window.rst:2035
 msgid ""
 ":guilabel:`RUN` |run|: if ``Expression`` is active and text is green, "
 "choose the output destination and start the calculation based on "
@@ -3447,41 +3453,41 @@ msgid ""
 "rules``;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2039 ../../main_interface_window.rst:2052
+#: ../../main_interface_window.rst:2040 ../../main_interface_window.rst:2053
 msgid "Batch"
 msgstr ""
 
-#: ../../main_interface_window.rst:2045
+#: ../../main_interface_window.rst:2046
 msgid "|batch_tool| :guilabel:`Batch`"
 msgstr ""
 
-#: ../../main_interface_window.rst:2047
+#: ../../main_interface_window.rst:2048
 msgid ""
 "This tab allows for the automatic execution (batch) of several "
 ":guilabel:`SCP` functions using a scripting interface."
 msgstr ""
 
-#: ../../main_interface_window.rst:2054
+#: ../../main_interface_window.rst:2055
 msgid ""
 "Enter a batch expression; each function must be in a new line. Functions "
 "have the following structure:"
 msgstr ""
 
-#: ../../main_interface_window.rst:2057
+#: ../../main_interface_window.rst:2058
 msgid "``function name``; ``function options``"
 msgstr ""
 
-#: ../../main_interface_window.rst:2059
+#: ../../main_interface_window.rst:2060
 msgid ""
 "Each function has options, identified by a name, with the following "
 "structure:"
 msgstr ""
 
-#: ../../main_interface_window.rst:2061
+#: ../../main_interface_window.rst:2062
 msgid "``option name``: ``option argument``"
 msgstr ""
 
-#: ../../main_interface_window.rst:2063
+#: ../../main_interface_window.rst:2064
 msgid ""
 "Options must be separated by the character ``;`` . Each function option "
 "represents an option in the corresponding interface of :guilabel:`SCP`; "
@@ -3491,7 +3497,7 @@ msgid ""
 "commenting."
 msgstr ""
 
-#: ../../main_interface_window.rst:2067
+#: ../../main_interface_window.rst:2068
 msgid ""
 "According to the function, some of the options are mandatory while other "
 "options can be omitted from the expression. Option names that contain "
@@ -3499,66 +3505,66 @@ msgid ""
 "arguments such as lists; lists must be separated by ``,`` ."
 msgstr ""
 
-#: ../../main_interface_window.rst:2070
+#: ../../main_interface_window.rst:2071
 msgid ""
 "If the expression contains errors, the text is red. An expression check "
 "label is displayed with a brief description of the error."
 msgstr ""
 
-#: ../../main_interface_window.rst:2073
+#: ../../main_interface_window.rst:2074
 msgid "|reset|: clear the expression;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2074
+#: ../../main_interface_window.rst:2075
 msgid "|export|: export the batch expression to a file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2075
+#: ../../main_interface_window.rst:2076
 msgid "|import|: import a previously saved batch expression from file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2105
+#: ../../main_interface_window.rst:2106
 msgid ""
 "A table :guilabel:`Functions` is displayed at the right side; double "
 "click to insert a function in the expression; the following functions are"
 " available with the corresponding options:"
 msgstr ""
 
-#: ../../main_interface_window.rst:2078
+#: ../../main_interface_window.rst:2079
 msgid ""
 ":ref:`accuracy_tab`: calculate accuracy "
 "(``accuracy;classification_file_path : '';reference_file_path : "
 "'';shapefile_field_name : '';output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2079
+#: ../../main_interface_window.rst:2080
 msgid ""
 ":ref:`aster_tab`: ASTER conversion (``aster_conversion;input_raster_path "
 ": '';celsius_temperature : 0;apply_dos1 : 0;use_nodata : 1;nodata_value :"
 " 0;create_bandset : 1;output_dir : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2080
+#: ../../main_interface_window.rst:2081
 msgid ""
 ":ref:`band_calc_tab`: band calculation (``band_calc;expression : "
 "'';output_raster_path : '';extent_same_as_raster_name : "
 "'';extent_intersection : 1;set_nodata : 0;nodata_value : 0``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2081
+#: ../../main_interface_window.rst:2082
 msgid ""
 ":ref:`band_combination_tab`: band combination "
 "(``band_combination;band_set : 1;output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2082
+#: ../../main_interface_window.rst:2083
 msgid ""
 ":ref:`class_signature_tab`: class signature "
 "(``class_signature;input_raster_path : '';band_set : 1;save_signatures : "
 "1;output_text_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2083
+#: ../../main_interface_window.rst:2084
 msgid ""
 ":ref:`classification_output`: perform classification "
 "(``classification;use_macroclass : 0;algorithm_name  : 'Minimum "
@@ -3568,35 +3574,35 @@ msgid ""
 "0;output_classification_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2084
+#: ../../main_interface_window.rst:2085
 msgid ""
 ":ref:`classification_dilation_tab`: dilation of a classification "
 "(``classification_dilation;input_raster_path : '';class_values : "
 "'';size_in_pixels : 1;pixel_connection : 4;output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2085
+#: ../../main_interface_window.rst:2086
 msgid ""
 ":ref:`classification_erosion_tab`: erosion of a classification "
 "(``classification_erosion;input_raster_path : '';class_values : "
 "'';size_in_pixels : 1;pixel_connection : 4;output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2086
+#: ../../main_interface_window.rst:2087
 msgid ""
 ":ref:`classification_report_tab`: report of a classification "
 "(``classification_report;input_raster_path : '';use_nodata : "
 "0;nodata_value : 0;output_report_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2087
+#: ../../main_interface_window.rst:2088
 msgid ""
 ":ref:`classification_sieve_tab`: classification "
 "sieve(``classification_sieve;input_raster_path : '';size_threshold : "
 "2;pixel_connection : 4;output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2088
+#: ../../main_interface_window.rst:2089
 msgid ""
 ":ref:`classification_vector_tab`: convert classification to vector "
 "(``classification_to_vector;input_raster_path : "
@@ -3604,7 +3610,7 @@ msgid ""
 "''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2089
+#: ../../main_interface_window.rst:2090
 msgid ""
 ":ref:`clip_multiple_rasters_tab`: clip multiple rasters "
 "(``clip_multiple_rasters;input_raster_path : '';output_dir : "
@@ -3612,14 +3618,14 @@ msgid ""
 "'';lr_y : '';nodata_value : 0;output_name_prefix : 'clip'``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2090
+#: ../../main_interface_window.rst:2091
 msgid ""
 ":ref:`cloud_masking_tab`: cloud masking (``cloud_masking;band_set : "
 "1;input_raster_path : '';class_values : '';use_buffer : 1;size_in_pixels "
 ": 1;nodata_value : 0;output_name_prefix : 'mask';output_dir : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2091
+#: ../../main_interface_window.rst:2092
 msgid ""
 ":ref:`clustering_tab`: clustering (``clustering;band_set : "
 "1;clustering_method : 1;use_distance_threshold : 1;threshold_value : "
@@ -3629,7 +3635,7 @@ msgid ""
 "0;output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2092
+#: ../../main_interface_window.rst:2093
 msgid ""
 ":ref:`cross_classification_tab`: cross classification "
 "(``cross_classification;classification_file_path : '';use_nodata : "
@@ -3637,7 +3643,7 @@ msgid ""
 "'';output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2093
+#: ../../main_interface_window.rst:2094
 msgid ""
 ":ref:`edit_raster_tab`: edit raster values using a shapefile); "
 "(``edit_raster_using_shapefile;input_raster_path : '';input_vector_path :"
@@ -3645,14 +3651,14 @@ msgid ""
 " == 1, 2, raster)'``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2094
+#: ../../main_interface_window.rst:2095
 msgid ""
 ":ref:`land_cover_change_tab`: calculate land cover change "
 "(``land_cover_change;reference_raster_path : '';new_raster_path : "
 "'';output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2095
+#: ../../main_interface_window.rst:2096
 msgid ""
 ":ref:`landsat_tab`: Landsat conversion (``landsat_conversion;input_dir : "
 "'';mtl_file_path : '';celsius_temperature : 0;apply_dos1 : 0;use_nodata :"
@@ -3660,21 +3666,21 @@ msgid ""
 "''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2096
+#: ../../main_interface_window.rst:2097
 msgid ""
 ":ref:`modis_tab`: MODIS conversion (``modis_conversion;input_raster_path "
 ": '';reproject_wgs84 : 1;use_nodata : 1;nodata_value : "
 "-999;create_bandset : 1;output_dir : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2097
+#: ../../main_interface_window.rst:2098
 msgid ""
 ":ref:`pca_tab`: Principal Component Analysis "
 "(``pca;use_number_of_components : 0, number_of_components : 2;use_nodata "
 ": 1;nodata_value : 0;output_dir : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2098
+#: ../../main_interface_window.rst:2099
 msgid ""
 ":ref:`reclassification_tab`: raster reclassification "
 "(``reclassification;input_raster_path : '';value_list : 'oldVal-newVal"
@@ -3682,7 +3688,7 @@ msgid ""
 "'MC_ID';output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2099
+#: ../../main_interface_window.rst:2100
 msgid ""
 ":ref:`sentinel2_tab`: Sentinel-2 conversion "
 "(``sentinel2_conversion;input_dir : '';mtd_safl1c_file_path : "
@@ -3690,7 +3696,7 @@ msgid ""
 "1;output_dir : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2100
+#: ../../main_interface_window.rst:2101
 msgid ""
 ":ref:`sentinel3_tab`: Sentinel-3 conversion "
 "(``sentinel3_conversion;input_dir : '';apply_dos1 : "
@@ -3698,7 +3704,7 @@ msgid ""
 " : 1;output_dir : '';band_set : 1``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2101
+#: ../../main_interface_window.rst:2102
 msgid ""
 ":ref:`spectral_distance_tab`: spectral distance of band sets "
 "(``spectral_distance;first_band_set : 1;second_band_set : "
@@ -3706,20 +3712,20 @@ msgid ""
 "0.1;output_dir : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2102
+#: ../../main_interface_window.rst:2103
 msgid ""
 ":ref:`split_raster_tab`: split raster to single bands "
 "(``split_raster_bands;input_raster_path : '';output_dir : "
 "'';output_name_prefix : 'split'``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2103
+#: ../../main_interface_window.rst:2104
 msgid ""
 ":ref:`stack_raster_tab`: stack rasters into a single file "
 "(``stack_raster_bands;input_raster_path : '';output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2104
+#: ../../main_interface_window.rst:2105
 msgid ""
 ":ref:`vector_to_raster_tab`: convert vector to raster "
 "(``vector_to_raster;vector_file_path : '';use_value_field : "
@@ -3727,23 +3733,23 @@ msgid ""
 "'';type_of_conversion : 'Center of pixels';output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2115
+#: ../../main_interface_window.rst:2116
 msgid "In addition, the following functions are available:"
 msgstr ""
 
-#: ../../main_interface_window.rst:2108
+#: ../../main_interface_window.rst:2109
 msgid ""
 ":guilabel:`Add a new band set`: add a new empty band set "
 "(``add_new_bandset;``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2109
+#: ../../main_interface_window.rst:2110
 msgid ""
 ":guilabel:`Add raster to QGIS`: add a raster to QGIS "
 "(``add_raster;input_raster_path : '';input_raster_name : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2110
+#: ../../main_interface_window.rst:2111
 msgid ""
 ":guilabel:`Create band set`: create a :guilabel:`Band set` assigning "
 "bands (``create_bandset;raster_path_list : '';center_wavelength : "
@@ -3751,31 +3757,31 @@ msgid ""
 "''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2111
+#: ../../main_interface_window.rst:2112
 msgid ""
 ":guilabel:`Open training input`: open a training input file "
 "(``open_training_input;training_file_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2112
+#: ../../main_interface_window.rst:2113
 msgid ""
 ":guilabel:`Remove band set`: remove a band set by the number thereof "
 "(``remove_bandset;band_set : 1``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2113
+#: ../../main_interface_window.rst:2114
 msgid ""
 ":guilabel:`Select band set`: select a band set (:guilabel:`active band "
 "set`) by the number thereof (``select_bandset;band_set : 1``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2114
+#: ../../main_interface_window.rst:2115
 msgid ""
 ":guilabel:`Set working directory`: set a working directory (argument is "
 "the path to a directory) (``!working_dir!;''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2117
+#: ../../main_interface_window.rst:2118
 msgid ""
 "If a working directory is defined, ``!working_dir!`` can be entered in "
 "other functions where a path is required (e.g. "
@@ -3784,41 +3790,41 @@ msgid ""
 "example of batch expression is::"
 msgstr ""
 
-#: ../../main_interface_window.rst:2130
+#: ../../main_interface_window.rst:2131
 msgid ""
 ":guilabel:`RUN` |run|: if text in the batch expression is green, start "
 "the batch processes;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2135
+#: ../../main_interface_window.rst:2136
 msgid "Settings"
 msgstr ""
 
-#: ../../main_interface_window.rst:2137
+#: ../../main_interface_window.rst:2138
 msgid ""
 "The tab |settings_tool| :guilabel:`Settings` allows for the customization"
 " of :guilabel:`SCP`."
 msgstr ""
 
-#: ../../main_interface_window.rst:2142
+#: ../../main_interface_window.rst:2143
 msgid "Processing"
 msgstr ""
 
-#: ../../main_interface_window.rst:2148
+#: ../../main_interface_window.rst:2149
 msgid ":guilabel:`Processing`"
 msgstr ""
 
-#: ../../main_interface_window.rst:2153
+#: ../../main_interface_window.rst:2154
 msgid "Classification process"
 msgstr ""
 
-#: ../../main_interface_window.rst:2155
+#: ../../main_interface_window.rst:2156
 msgid ""
 "|checkbox| :guilabel:`Play sound when finished` |registry_save|: if "
 "checked, play a sound when the classification process is completed;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2156
+#: ../../main_interface_window.rst:2157
 msgid ""
 "|checkbox| :guilabel:`Use virtual rasters for temp files` "
 "|registry_save|: if checked, create virtual rasters for certain temporary"
@@ -3826,7 +3832,7 @@ msgid ""
 "space usage during calculations;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2157
+#: ../../main_interface_window.rst:2158
 msgid ""
 "|checkbox| :guilabel:`Raster compression` |registry_save|: if checked, a "
 "lossless compression (DEFLATE or PACKBITS) is applied to raster outputs "
@@ -3835,11 +3841,11 @@ msgid ""
 "compression;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2162
+#: ../../main_interface_window.rst:2163
 msgid "SMTP process notification"
 msgstr ""
 
-#: ../../main_interface_window.rst:2164
+#: ../../main_interface_window.rst:2165
 msgid ""
 ":guilabel:`SMTP server` |input_text| |registry_save|: the SMTP server to "
 "login for sending a notification email when all the :guilabel:`SCP` "
@@ -3847,28 +3853,28 @@ msgid ""
 " not in case of crash);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2165
+#: ../../main_interface_window.rst:2166
 msgid ":guilabel:`user` |input_text| |registry_save|: the SMTP server user;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2166
+#: ../../main_interface_window.rst:2167
 msgid ""
 ":guilabel:`password` |input_text| |registry_save|: the SMTP server "
 "password;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2167
+#: ../../main_interface_window.rst:2168
 msgid ""
 ":guilabel:`Send email of completed process to` |input_text| "
 "|registry_save|: a list of addresses (separated by comma) to send the "
 "notification email to;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2172
+#: ../../main_interface_window.rst:2173
 msgid "RAM"
 msgstr ""
 
-#: ../../main_interface_window.rst:2174
+#: ../../main_interface_window.rst:2175
 msgid ""
 ":guilabel:`Available RAM (MB)` |input_number| |registry_save|: set the "
 "available RAM (in MB) that is used during the processes in order to "
@@ -3877,11 +3883,11 @@ msgid ""
 "set a value lower than 512MB;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2179
+#: ../../main_interface_window.rst:2180
 msgid "Temporary directory"
 msgstr ""
 
-#: ../../main_interface_window.rst:2181
+#: ../../main_interface_window.rst:2182
 msgid ""
 "|open_dir| |registry_save|: select a new temporary directory where "
 "temporary files are saved during processing; the path to the current "
@@ -3889,175 +3895,175 @@ msgid ""
 "directory;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2182
+#: ../../main_interface_window.rst:2183
 msgid "|reset|: reset to default temporary directory;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2187
+#: ../../main_interface_window.rst:2188
 msgid "Interface"
 msgstr ""
 
-#: ../../main_interface_window.rst:2189
+#: ../../main_interface_window.rst:2190
 msgid "Customization of the interface."
 msgstr ""
 
-#: ../../main_interface_window.rst:2195
+#: ../../main_interface_window.rst:2196
 msgid ":guilabel:`Interface`"
 msgstr ""
 
-#: ../../main_interface_window.rst:2200
+#: ../../main_interface_window.rst:2201
 msgid "Field names of training input"
 msgstr ""
 
-#: ../../main_interface_window.rst:2202
+#: ../../main_interface_window.rst:2203
 msgid ""
 "Set the names of fields in the :ref:`training_input` . Changing field "
 "names should usually be avoided."
 msgstr ""
 
-#: ../../main_interface_window.rst:2205
+#: ../../main_interface_window.rst:2206
 msgid ""
 ":guilabel:`MC ID field` |input_text| |registry_save|: name of the "
 "Macroclass ID field (default is ``MC_ID``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2206
+#: ../../main_interface_window.rst:2207
 msgid ""
 ":guilabel:`MC Info field` |input_text| |registry_save|: name of the "
 "Macroclass Information field (default is ``MC_info``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2207
+#: ../../main_interface_window.rst:2208
 msgid ""
 ":guilabel:`C ID field` |input_text| |registry_save|: name of the Class ID"
 " field (default is ``C_ID``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2208
+#: ../../main_interface_window.rst:2209
 msgid ""
 ":guilabel:`C Info field` |input_text| |registry_save|: name of the Class "
 "Information field (default is ``C_info``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2209
+#: ../../main_interface_window.rst:2210
 msgid "|reset|: reset field names to default;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2214
+#: ../../main_interface_window.rst:2215
 msgid "ROI style"
 msgstr ""
 
-#: ../../main_interface_window.rst:2216
+#: ../../main_interface_window.rst:2217
 msgid ""
 "Change ROI color and transparency for a better visualization of temporary"
 " ROIs on the map."
 msgstr ""
 
-#: ../../main_interface_window.rst:2218
+#: ../../main_interface_window.rst:2219
 msgid ":guilabel:`ROI color` |registry_save|: button for changing ROI color;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2219
+#: ../../main_interface_window.rst:2220
 msgid ""
 ":guilabel:`Transparency` |input_slider| |registry_save|: change ROI "
 "transparency;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2220
+#: ../../main_interface_window.rst:2221
 msgid "|reset|: reset ROI color and transparency to default;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2225
+#: ../../main_interface_window.rst:2226
 msgid "Variable name for expressions"
 msgstr ""
 
-#: ../../main_interface_window.rst:2227
+#: ../../main_interface_window.rst:2228
 msgid ""
 "Set the variable name used in expressions of the "
 ":ref:`reclassification_tab` and  :ref:`edit_raster_tab` ."
 msgstr ""
 
-#: ../../main_interface_window.rst:2229
+#: ../../main_interface_window.rst:2230
 msgid ""
 ":guilabel:`Variable name` |input_text| |registry_save|: set variable name"
 " (default is ``raster``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2230
+#: ../../main_interface_window.rst:2231
 msgid "|reset|: reset variable name to default;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2235
+#: ../../main_interface_window.rst:2236
 msgid "Temporary group name"
 msgstr ""
 
-#: ../../main_interface_window.rst:2237
+#: ../../main_interface_window.rst:2238
 msgid "Set the temporary group name in QGIS Layers used for temporary layers ."
 msgstr ""
 
-#: ../../main_interface_window.rst:2239
+#: ../../main_interface_window.rst:2240
 msgid ""
 ":guilabel:`Group name` |input_text| |registry_save|: set group name "
 "(default is ``Class_temp_group``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2240
+#: ../../main_interface_window.rst:2241
 msgid "|reset|: reset group name to default;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2245
+#: ../../main_interface_window.rst:2246
 msgid "Dock"
 msgstr ""
 
-#: ../../main_interface_window.rst:2247
+#: ../../main_interface_window.rst:2248
 msgid ""
 "|checkbox| :guilabel:`Download news on startup`: if checked, news about "
 "the :guilabel:`SCP` and related services are downloaded on startup and "
 "displayed in :guilabel:`Dock`;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2252
+#: ../../main_interface_window.rst:2253
 msgid "Debug"
 msgstr ""
 
-#: ../../main_interface_window.rst:2258
+#: ../../main_interface_window.rst:2259
 msgid ":guilabel:`Debug`"
 msgstr ""
 
-#: ../../main_interface_window.rst:2260
+#: ../../main_interface_window.rst:2261
 msgid ""
 "Debugging utilities for the creation of a Log file (i.e. recording of "
 ":guilabel:`SCP` activities for reporting issues) and testing "
 ":guilabel:`SCP` dependencies."
 msgstr ""
 
-#: ../../main_interface_window.rst:2262
+#: ../../main_interface_window.rst:2263
 msgid "If you found a plugin error, please read :ref:`error_0` ."
 msgstr ""
 
-#: ../../main_interface_window.rst:2267
+#: ../../main_interface_window.rst:2268
 msgid "Log file"
 msgstr ""
 
-#: ../../main_interface_window.rst:2269
+#: ../../main_interface_window.rst:2270
 msgid ""
 "|checkbox| :guilabel:`Records events in a log file` |registry_save|: if "
 "checked, start recording events in a Log file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2270
+#: ../../main_interface_window.rst:2271
 msgid "|export|: export the Log file (i.e. a .txt file);"
 msgstr ""
 
-#: ../../main_interface_window.rst:2271
+#: ../../main_interface_window.rst:2272
 msgid "|reset|: clear the content of Log file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:2276
+#: ../../main_interface_window.rst:2277
 msgid "Test"
 msgstr ""
 
-#: ../../main_interface_window.rst:2278
+#: ../../main_interface_window.rst:2279
 msgid ""
 ":guilabel:`Test dependencies` |enter|: test :guilabel:`SCP` dependencies "
 "(GDAL, GDAL subprocess, NumPy, SciPy, Matplotlib, Internet connection); "

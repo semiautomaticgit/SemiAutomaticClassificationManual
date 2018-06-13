@@ -1926,6 +1926,7 @@ Double click on any item in the :ref:`band_list2` for adding its name to the exp
 In addition, the following variables related to :ref:`band_set_tab` the are available:
 
 * :guilabel:`"#BLUE#"`: the band with the center wavelength closest to 0.475 :math:`\mu m`;
+* :guilabel:`"#GREEN#"`: the band with the center wavelength closest to 0.56 :math:`\mu m`;
 * :guilabel:`"#RED#"`: the band with the center wavelength closest to 0.65 :math:`\mu m`;
 * :guilabel:`"#NIR#"`: the band with the center wavelength closest to 0.85 :math:`\mu m`;
 

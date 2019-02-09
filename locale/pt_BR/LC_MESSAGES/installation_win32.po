@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# 
+# Translators:
+# Geovano Pedro Hoffmann <hoffmange@hotmail.com>, 2016
+# FelipeSodre <felipe.b4rros@gmail.com>, 2016
+# Paulo Lima <eliardo@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-07 00:29+0100\n"
+"PO-Revision-Date: 2016-08-29 15:42+0000\n"
+"Last-Translator: Paulo Lima <eliardo@gmail.com>, 2019\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/semi-automatic-classification/teams/53374/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../installation_win32.rst:5
+msgid "Installation in Windows 32 bit"
+msgstr "Instalação em Windows de versão 32 bits"
+
+#: ../../installation_win32.rst:14
+msgid "QGIS download and installation"
+msgstr "Download e instalação do QGIS"
+
+#: ../../installation_win32.rst:16
+msgid ""
+"Download the latest QGIS version 32 bit from `here "
+"<https://www.qgis.org/en/site/forusers/download.html>`_ ;"
+msgstr ""
+"Baixa a última versão do QGIS 32 bit clicando `aqui "
+"<https://www.qgis.org/en/site/forusers/download.html>`_ ;"
+
+#: ../../installation_win32.rst:18
+msgid ""
+"Execute the QGIS installer with administrative rights, accepting the default"
+" configuration."
+msgstr ""
+"Execute o instalador do QGIS com direitos administrativos, aceitando as "
+"configurações por padrão."
+
+#: ../../installation_win32.rst:20
+msgid "Now, QGIS is installed."
+msgstr "Agora, QGIS está instalado."
+
+#: ../../installation_win32.rst:27
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr "Instalação do Semi-Automatic Classification Plugin"
+
+#: ../../installation_win32.rst:29
+msgid "Run QGIS;"
+msgstr "Rode o QGIS;"
+
+#: ../../installation_win32.rst:31
+msgid ""
+"From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr ""
+"No menu principal, selecione `Complementos`` > ``Gerenciar e Instalar "
+"Complementos``;"
+
+#: ../../installation_win32.rst:35
+msgid ""
+"From the menu ``All``, select the Semi-Automatic Classification Plugin and "
+"click the button ``Install plugin``;"
+msgstr ""
+"No menu de ``Tudo`, selecione o Semi-Automatic Classification Plugin e "
+"clique no botão ``Instalar complemento``;"
+
+#: ../../installation_win32.rst:37
+msgid ""
+"**TIP**: in case of issues or an offline installation is required see "
+":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
+msgstr ""
+"**TIP**: Em casos de erros e para instalçao offline, veja: "
+"ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
+
+#: ../../installation_win32.rst:41
+msgid ""
+"The SCP should be automatically activated; however, be sure that the Semi-"
+"Automatic Classification Plugin is checked in the menu ``Installed`` (the "
+"restart of QGIS could be necessary to complete the SCP installation);"
+msgstr ""
+"O SCP deverá ser automaticamente ativado; contudo, certifique-se de que o "
+"Semi-Automatic Classification Plugin está marcado com um visto, no menu "
+"``Instalado`` (é provável que seja necessário reiniciar o QGIS para "
+"completar a instalação do SCP);"
+
+#: ../../installation_win32.rst:48
+msgid "Configuration of the plugin"
+msgstr "Configuração do complemento"
+
+#: ../../installation_win32.rst:50
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and a dock and a "
+"toolbar should be added to QGIS. Also, a SCP menu is available in the Menu "
+"Bar of QGIS. It is possible to move the toolbar and the dock according to "
+"your needs, as in the following image."
+msgstr ""
+"Agora que o Semi-Automatic Classification Plugin está instalado, um painel "
+"de tarefas e uma barra de ferramentas devem estar adicionados ao QGIS. Além "
+"disso, um menu SCP está disponível na Barra de Menus do QGIS. É possível "
+"mover a barra de ferramentas e o painel de tarefas de acordo com sua "
+"necessidade, como na imagem a seguir."
+
+#~ msgid ""
+#~ "Download the latest QGIS version 32 bit from `here "
+#~ "<http://www.qgis.org/en/site/forusers/download.html>`_ ;"
+#~ msgstr ""
+#~ "Baixe a úlltima versão do QGIS 32 bit clicando `aqui "
+#~ "<http://www.qgis.org/en/site/forusers/download.html>`_ ;"

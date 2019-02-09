@@ -1,0 +1,1631 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# 
+# Translators:
+# Daria Svidzinska <d.svidzinska@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-07 00:29+0100\n"
+"PO-Revision-Date: 2016-08-30 06:54+0000\n"
+"Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2018\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: ../../faq.rst:5
+msgid "Frequently Asked Questions"
+msgstr "Часті питання"
+
+#: ../../faq.rst:22
+msgid ""
+"If you have comments or questions please join the `Facebook group "
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ or the"
+" `Google+ Community "
+"<https://plus.google.com/communities/107833394986612468374>`_ ."
+msgstr ""
+"Якщо ви маєте коментарі або запитання, будь ласка приєднуйтесь до `Групи "
+"Facebook "
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ або "
+"`Спільноти Google+ "
+"<https://plus.google.com/communities/107833394986612468374>`_ ."
+
+#: ../../faq.rst:24
+msgid ""
+"Before asking, please check the official site `From GIS to Remote Sensing "
+"<https://fromgistors.blogspot.com>`_ and the following Frequently Asked "
+"Questions."
+msgstr ""
+
+#: ../../faq.rst:33
+msgid "Plugin installation"
+msgstr "Встановлення модуля"
+
+#: ../../faq.rst:38
+msgid "How to install the plugin manually?"
+msgstr "Як встановити модуль вручну?"
+
+#: ../../faq.rst:40
+msgid ""
+"The SCP can be installed manually (this can be useful when an internet "
+"connection is not available, or the installation is required on multiple "
+"computers), following a few steps:"
+msgstr ""
+"SCP може бути встановлений вручну (це може бути корисно, коли відсутнє "
+"Інтернет-з'єднання або необхідне встановлення на багатьох комп'ютерах) "
+"наступним чином:"
+
+#: ../../faq.rst:42
+msgid ""
+"download the SCP zip archive from "
+"https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin/archive/master.zip"
+" ;"
+msgstr ""
+"завантажте zip-архів SCP з "
+"https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin/archive/master.zip"
+" ;"
+
+#: ../../faq.rst:43
+msgid ""
+"extract the content of the archive (several files such as ``COPYING.txt`` "
+"and folders such as ``ui``) in a new folder named "
+"``SemiAutomaticClassificationPlugin`` (without ``-master``);"
+msgstr ""
+"розпакуйте вміст архіву (декілька файлів таких як ``COPYING.txt`` та "
+"каталогів таких як ``ui``) у новий каталог з назвою "
+"``SemiAutomaticClassificationPlugin`` (без ``-master``);"
+
+#: ../../faq.rst:44
+msgid ""
+"open the QGIS ``plugins`` directory (in Windows usually "
+"``C:\\Users\\username\\.qgis2\\python\\plugins``, in Linux and Mac usually "
+"``/home/username/.qgis2/python/plugins/``) and delete the folder "
+"``SemiAutomaticClassificationPlugin`` if present;"
+msgstr ""
+"відкрийте каталог ``модулів`` QGIS (у Windows зазвичай "
+"``C:\\Users\\username\\.qgis2\\python\\plugins``, у Linux та Mac зазвичай "
+"``/home/username/.qgis2/python/plugins/``) та видаліть каталог "
+"``SemiAutomaticClassificationPlugin``б якщо такий є;"
+
+#: ../../faq.rst:45
+msgid ""
+"copy the folder ``SemiAutomaticClassificationPlugin`` inside the QGIS "
+"``plugins`` directory;"
+msgstr ""
+"скопіюйте каталог ``SemiAutomaticClassificationPlugin`` до каталогу  "
+"``модулів`` QGIS;"
+
+#: ../../faq.rst:46
+msgid ""
+"the plugin should be installed; start QGIS, open the Plugin Manager and be "
+"sure that ``Semi-Automatic Classification Plugin`` is checked."
+msgstr ""
+"модуль встановлено; запустіть QGIS, відкрийте Plugin Manager та "
+"переконайтесь, що ``Semi-Automatic Classification Plugin`` увімкнено."
+
+#: ../../faq.rst:51
+msgid "How to install the plugin from the official SCP repository?"
+msgstr "Як встановити модуль з офіційного репозиторія SCP?"
+
+#: ../../faq.rst:53
+msgid ""
+"It is possible to install the SCP using the official repository. This "
+"repository allows for the installation of the latest version of SCP "
+"(``master``), in some cases also before the availability thereof in the QGIS"
+" repository. Therefore, this can be useful if you need a fix or a new "
+"function that is still not available in the QGIS repository. Moreover, the "
+"``master`` version in the SCP repository can be installed along with the "
+"version available in the QGIS repository."
+msgstr ""
+"SCP можливо встановити , використовуючи  офіційний репозиторій. Цей "
+"репозиторій забезпечує встановлення самої останньої версії SCP (``master``),"
+" подекуди ще до того, як вона з'явиться в репозиторії QGIS. Це може "
+"знадобитись, коли ви потребуєте виправлення помилки або нової функції, яка "
+"ще недоступна у версії, наявній в офіційному репозиторії QGIS.  Крім того, "
+"версія ``master`` з репозиторію SCP може бути встановлена одночасно з "
+"версією, доступною з офіційного репозиторію QGIS."
+
+#: ../../faq.rst:58
+msgid "In order to install the SCP repository follow these steps:"
+msgstr ""
+"Для того, щоб встановити модуль з репозиторію SCP, виконайте наступні кроки:"
+
+#: ../../faq.rst:60
+msgid "Run QGIS;"
+msgstr ""
+
+#: ../../faq.rst:62
+msgid ""
+"From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr ""
+"З головного меню виберіть `Plugins`` > ``Manage and Install Plugins``;"
+
+#: ../../faq.rst:66
+msgid "Click ``Settings`` then click the button ``Add``;"
+msgstr "Клацніть ``Settings`` та натисніть кнопку ``Add``;"
+
+#: ../../faq.rst:70
+msgid "Inside the ``Repository details`` enter:"
+msgstr "В ``Repository details`` введіть:"
+
+#: ../../faq.rst:72
+msgid "Name::"
+msgstr "Назва::"
+
+#: ../../faq.rst:77
+msgid "URL::"
+msgstr "URL::"
+
+#: ../../faq.rst:81
+msgid "and click ``OK``;"
+msgstr "та клацніть ``OK``;"
+
+#: ../../faq.rst:85
+msgid ""
+"After the repository update, the item ``Semi-Automatic Classification Plugin"
+" - master`` should be listed with the other plugins;"
+msgstr ""
+"Після оновлення репозиторію елемент ``Semi-Automatic Classification Plugin -"
+" master`` повинен бути у переліку з іншими модулями;"
+
+#: ../../faq.rst:89
+msgid ""
+"From the menu ``All``, select the ``Semi-Automatic Classification Plugin - "
+"master`` and click the button ``Install plugin``; the latest version of SCP "
+"should be automatically activated (ignore errors, the restart of QGIS could "
+"be necessary to complete the SCP installation); it is possible to deactivate"
+" the other SCP installed in the QGIS repository;"
+msgstr ""
+"З меню ``All`` виберіть ``Semi-Automatic Classification Plugin - master`` та"
+" натисніть кнопку ``Install plugin``; найбільш остання версія SCP повинна "
+"бути автоматично активована (ігноруйте помилки, для завершення встановлення "
+"SCP може знадобитись перезапуск QGIS); можливо вимкнути інший SCP, "
+"встановлений з репозиторію QGIS;"
+
+#: ../../faq.rst:96
+msgid "Pre processing"
+msgstr "Передоброблення"
+
+#: ../../faq.rst:101
+msgid "Which image bands should I use for a semi-automatic classification?"
+msgstr ""
+"Які канали зображення потрібно використовувати для напівавтоматичної "
+"класифікації?"
+
+#: ../../faq.rst:103
+msgid ""
+"In general, it is preferable to avoid thermal infrared bands. If you are "
+"using Landsat 4, 5 or 7 you should select bands: 1, 2, 3, 4, 5, 7 avoiding "
+"band 6 that is thermal infrared; for Landsat 8 you should select bands: 2, "
+"3, 4, 5, 6, 7. Landsat 8 band 1 is generally avoided because it is very "
+"similar to the blue band and it is mainly used for coastal aerosol study. "
+"Landsat thermal infrared band is excluded from classifications because "
+"values are mainly related to object temperature."
+msgstr ""
+"Загалом, бажано уникати термальних інфрачервоних каналів. Якщо ви "
+"використовуєте Landsat 4, 5 або 7, то вам слід обирати канали : 1, 2, 3, 4, "
+"5, 7, уникаючи каналу 6, який є термальним інфрачервоним; для Landsat 8 ви "
+"повинні обирати канали: 2, 3, 4, 5, 6, 7. Каналу 1 Landsat 8 зазвичай "
+"уникають, тому що він дуже подібний до  синього каналу і переважно "
+"використовується для вивчення аерозолів зони узбережжя. Термальний "
+"інфрачервоний канал Landsat виключається з класифікації, тому що його "
+"значення переважно пов'язані з температурою об'єктів."
+
+#: ../../faq.rst:108
+msgid ""
+"For Sentinel-2 images you can use bands: 2, 3, 4, 5, 6, 7, 8, 8A, 11, 12."
+msgstr ""
+"Для зображень Sentinel-2 можна використовувати канали: 2, 3, 4, 5, 6, 7, 8, "
+"8A, 11, 12."
+
+#: ../../faq.rst:113
+msgid "Which Landsat bands can be converted to reflectance by the SCP?"
+msgstr "Які канали Landsat можуть бути перераховані SCP у відбивальність?"
+
+#: ../../faq.rst:115
+msgid ""
+"All Landsat 1,2, and 3 MSS and Landsat 4, 5, 7, and 8 images downloaded from"
+" http://earthexplorer.usgs.gov/ and processed with the Level 1 Product "
+"Generation System (LPGS) can be converted to reflectance automatically by "
+"the SCP; products generated by the LPGS have a MTL file included that is "
+"required for the conversion. Since version 3.1.1 the :guilabel:`SCP` can "
+"also convert images from the `Global Land Cover Facility "
+"<http://glcfapp.glcf.umd.edu/>`_ (images available for free from "
+"ftp://ftp.glcf.umd.edu/glcf/Landsat/). In particular, images having an old "
+"format of the MTL file (or a .met file) can be processed through the "
+"automatic conversion to reflectance and the DOS correction. However, some "
+"images do not have the required information and cannot be processed. Also, "
+"notice that some images available from the Global Land Cover Facility are "
+"already converted to reflectance. For this process, image bands must be "
+"renamed in order to remove the final 0 if present (e.g. rename B10 to B1)."
+msgstr ""
+"Всі зображення Landsat 1, 2 та 3 MSS, а також Landsat 4, 5, 7 та 8, "
+"завантажені з http://earthexplorer.usgs.gov/ та оброблені системою "
+"генерування продуктів 1 рівня (Level 1 Product Generation System - LPGS) "
+"можуть бути автоматично перераховані SCP у відбивальність; продукти створені"
+" LPGS включають файл MTL, необхідний для перерахунку. Починаючи з версії "
+"3.1.1 :guilabel:`SCP` може також перераховувати знімки з `Global Land Cover "
+"Facility <http://glcfapp.glcf.umd.edu/>`_ (зображення безкоштовно доступні з"
+" ftp://ftp.glcf.umd.edu/glcf/Landsat/). Також, зображення, що мають файл MTL"
+" старого формату (або файл .met) можуть бути оброблені через автоматичний "
+"перерахунок у відбивальність та корекцію DOS. Однак, деякі зображення не "
+"мають необхідної інформації і не можуть бути оброблені. Зважайте також, що "
+"деякі зображення доступні з Global Land Cover Facility вже перераховані у "
+"відбивальність. В такому разі канали зображень слід перейменувати, щоб "
+"прибрати 0 наприкінці назви (тобто перейменувати B10 у B1)."
+
+#: ../../faq.rst:121
+msgid "Can I apply the conversion to Sentinel-2 images download from the web?"
+msgstr ""
+"Чи можу я застосувати перерахунок до зображень Sentinel-2, завантажених з "
+"Інтернет?"
+
+#: ../../faq.rst:123
+msgid ""
+"Yes, you can convert also images downloaded from the web (actually the "
+"conversion is recommended). You should move all the bands (.jp2 files) and "
+"if available the .xml file whose name contains ``MDT_SAFL1C`` in the same "
+"directory. Then select this directory in :ref:`sentinel2_conversion`. Images"
+" are converted to reflectance."
+msgstr ""
+"Так, ви можете також перерахувати зображення, завантажені з мережі (таке "
+"перерахування рекомендоване). Ви повинні перемістити всі канали (файли .jp2)"
+" та, за наявності, файл .xml назва якого містить ``MDT_SAFL1C`` до єдиного "
+"каталогу. Потім виберіть цей каталог з :ref:`sentinel2_conversion`. "
+"Зображення будуть перераховані у відбивальність."
+
+#: ../../faq.rst:131
+msgid "How are converted Sentinel-2 images that have different resolutions?"
+msgstr ""
+"Як перераховуються зображення Sentinel-2, які мають різну розрізненність?"
+
+#: ../../faq.rst:133
+msgid ""
+"During the conversion to reflectance, pixels of 20m bands are split in 4 "
+"pixels of 10m whose values are the same as the original 20m pixel. The "
+"purpose of this operation is to allow for the calculation between all the "
+"bands, without changing original values."
+msgstr ""
+"Під час перерахунку у відбивальність, пікселі каналів з розрізненністю 20 м "
+"розбиваються на 4 пікселі розрізненністю 10 м, які мають ті ж самі значення,"
+" що і оригінальний піксель розрізненністю 20 м. Мета такого перетворення це "
+"перерахунок для всіх каналів без зміни оригінальних значень."
+
+#: ../../faq.rst:139
+msgid ""
+"Can I apply the Landsat conversion and DOS correction to clipped bands?"
+msgstr ""
+"Чи можу я застосувати перерахунок даних Landsat та корекцію DOS до обрізаних"
+" каналів? "
+
+#: ../../faq.rst:141
+msgid ""
+"Yes, you can clip the images before the conversion to reflectance and then "
+"copy the MTL file (contained in the Landsat dataset) inside the directory "
+"with the clipped bands. If you want to apply the DOS correction (which is an"
+" image based technique) you should convert the original Landsat bands (the "
+"entire image) and then clip the conversion output (i.e. bands converted to "
+"reflectance)."
+msgstr ""
+"Так, ви можете провести відтинання знімків до того, як перераховувати у "
+"відбивальність, а потім скопіювати файл MTL (який міститься в оригінальному "
+"наборі даних Landsat) до каталогу з обрізаними каналами. Якщо ви бажаєте "
+"застосувати корекцію DOS (яка є відносною технікою, що ґрунтується на "
+"знімку), то потрібно спочатку перерахувати оригінальні дані каналів Landsat "
+"(для всього зображення), а після цього провести відтинання виходових "
+"результатів перерахунку (тобто каналів, перерахованих у відбивальність)."
+
+#: ../../faq.rst:147
+msgid ""
+"Can I apply the DOS correction to bands with black border (i.e. with NoData "
+"value)?"
+msgstr ""
+"Чи можу я застосовувати корекцію DOS до каналів з чорною межею (тобто зі "
+"значеннями NoData)?"
+
+#: ../../faq.rst:149
+msgid ""
+"If you want to apply the DOS correction to an entire band which has NoData "
+"values (the black border with value = 0) then you have to check the checkbox"
+" ``Use NoData value`` and set the value to 0. This is because DOS is an "
+"image based technique, and NoData values must be excluded from the "
+"calculation."
+msgstr ""
+"Якщо ви бажаєте застосувати корекцію DOS до всього каналу, що містить "
+"значення NoData (чорна межа з значеннями = 0), то потрібно увімкнути "
+"перемикач  ``Застосувати значення NoData`` та призначити значення 0. Це "
+"пояснюється тим, що DOS є відносною технікою, що ґрунтується на зображенні, "
+"і значення NoData повинні бути виключені з розрахунку."
+
+#: ../../faq.rst:155
+msgid "How to remove cloud cover from images?"
+msgstr "Як прибрати з зображення хмарний покрив?"
+
+#: ../../faq.rst:157
+msgid ""
+"DOS1 correction does not remove clouds from the image. However, Landsat 8 "
+"images include Band 9 that identifies clouds (see this `NASA site "
+"<http://landsat.gsfc.nasa.gov/?page_id=5377>`_). You can use this band for "
+"the creation of a mask."
+msgstr ""
+"Корекція DOS1 не прибирає хмарність з зображення. Однак, знімки Landsat 8 "
+"включають канал 9, який ідентифікує хмари (див. цей `сайт NASA "
+"<http://landsat.gsfc.nasa.gov/?page_id=5377>`_). Ви можете застосувати цей "
+"канал для створення маски."
+
+#: ../../faq.rst:161
+msgid ""
+"For other Landsat satellites, clouds can be masked using the approach "
+"described `this paper <http://www.planning4adaptation.eu/Docs/papers/08_NWP-"
+"DoM_for_LCC_in_Dar_using_Landsat_Imagery.pdf>`_."
+msgstr ""
+"Для інших супутників Landsat хмари можуть бути масковані за допомогою "
+"підходу, описаного в цій `статті "
+"<http://www.planning4adaptation.eu/Docs/papers/08_NWP-"
+"DoM_for_LCC_in_Dar_using_Landsat_Imagery.pdf>`_."
+
+#: ../../faq.rst:163
+msgid ""
+"Also, see the following `video-tutorial <https://youtu.be/acxmIrM-"
+"Qns?t=37m08s>`_."
+msgstr ""
+"Також дивіться цей `відео-урок <https://youtu.be/acxmIrM-Qns?t=37m08s>`_."
+
+#: ../../faq.rst:168
+msgid ""
+"After pan-sharpening of Landsat 8 images, why NIR bands still have 30m "
+"resolution?"
+msgstr ""
+"Чому після панхроматичного об'єднання (пан-шарпенингу) зображень Landsat 8 "
+"канали NIR все одно мають розрізненність 30 м?"
+
+#: ../../faq.rst:170
+msgid ""
+"Landsat 8 panchromatic band doesn't acquire in the Near Infrared (NIR) "
+"region (see :ref:`Landsat_definition`). Therefore, the pan-sharpening "
+"process can't improve the resolution of NIR and SWIR bands (see "
+":ref:`pan_sharpening_definition`), which appear to have 30m resolution. "
+"However, all pan-sharpened rasters have 15m resolution to allow raster "
+"calculation."
+msgstr ""
+
+#: ../../faq.rst:177
+msgid "Processing"
+msgstr "Оброблення"
+
+#: ../../faq.rst:182
+msgid "I get classification errors. How can I improve the accuracy?"
+msgstr "Я отримую помилки класифікації. Як я можу покращити точність?"
+
+#: ../../faq.rst:184
+msgid ""
+"Several materials have similar spectral signatures (e.g. soil and built-up, "
+"or forest and other types of dense low vegetation), which can cause "
+"classification errors if ROIs, and spectral signatures thereof, are not "
+"acquired correctly. In order to improve the results, you can try to collect "
+"more ROIs over these areas, in order to train the algorithm for these very "
+"similar areas, also, display the spectral signatures of these areas in "
+":ref:`spectral_signature_plot` to assess their similarity. You can also use "
+"a :ref:`Signature_threshold_tab` for these signatures in order to reduce the"
+" variability thereof (only pixels very similar to the input signatures will "
+"be classified). The :ref:`LCS_algorithm` is also useful for classifying "
+"specific materials that can be spectrally similar to other ones."
+msgstr ""
+"Деякі матеріали мають подібні спектральні сигнатури (наприклад, відкритий "
+"ґрунт та забудова або ліс та інші типи щільної низькорослої рослинності), "
+"які можуть призводити до помилок класифікації, якщо ROI та їх спектральні "
+"сигнатури отримані некоректно. Для покращення результатів ви можете "
+"спробувати зібрати більше ROI на таких ділянках, щоб навчити алгоритм "
+"розпізнавати ці дуже подібні класи. Також відображайте спектральні сигнатури"
+" таких територій на :ref:`spectral_signature_plot`, щоб оцінити їх "
+"подібність. Ви можете використати :ref:`Signature_threshold_tab` для цих "
+"сигнатур, щоб зменшити їх мінливість (лише пікселі дуже подібні до входових "
+"сигнатур будуть класифіковані). :ref:`LCS_algorithm` також корисний для "
+"класифікації деяких матеріалів, які спектрально подібні до інших."
+
+#: ../../faq.rst:192
+msgid "Is it possible to use the same training input for multiple images?"
+msgstr ""
+"Чи можливо використовувати одні і ті самі навчальні входові дані для "
+"декількох зображень?"
+
+#: ../../faq.rst:194
+msgid ""
+"Yes, it is possible if all the images have the same number of bands. "
+"However, if images are acquired in different months, land cover changes "
+"(especially of vegetation state) will affect the spectral signature (i.e. "
+"the same pixel has different spectral signature in different periods). "
+"Atmospheric effects could also affect the images differently. That could "
+"reduce classification accuracy. Therefore, it is suggested to collect always"
+" the ROIs and spectral signatures for every image."
+msgstr ""
+"Так, це можливо, якщо всі зображення мають однакову кількість каналів. "
+"Однак, якщо зображення отримані у різні місяці, зміни земельного покриву "
+"(особливо, стан рослинності) впливатимуть на спектральні сигнатури (тобто "
+"один і той самий піксель матиме різні спектральні сигнатури у різні "
+"періоди).  Атмосферні ефекти також можуть по різному впливати на зображення."
+" Це може знизити точність класифікації. Тому доцільно завжди збирати ROI та "
+"спектральні сигнатури для кожного зображення."
+
+#: ../../faq.rst:203
+msgid "What is the difference between classes and macroclasses?"
+msgstr "Яка різниця між класами та макрокласами?"
+
+#: ../../faq.rst:205
+msgid "Please see :ref:`classes_definition`."
+msgstr "Дивіться будь ласка :ref:`classes_definition`."
+
+#: ../../faq.rst:210
+msgid "Can I use SCP with images from drones or aerial photographs?"
+msgstr ""
+"Чи можу я використовувати SCP для обробки зображень, отриманих дронами, або "
+"аерофотознімків?"
+
+#: ../../faq.rst:212
+msgid ""
+"Yes, you can use them if they have at least 4 bands. With less than 4 bands,"
+" semi-automatic classification algorithms are unable to classify the land "
+"cover correctly. Alternative classification methods exist, such as object "
+"oriented classification, which is not implemented in SCP."
+msgstr ""
+"Так, ви можете працювати з ними, якщо вони мають не менше 4 каналів. Якщо "
+"кількість каналів менша, то напівавтоматичні алгоритми не здатні вірно "
+"класифікувати земельний покрив. Існують також альтернативні методи "
+"класифікації, такі наприклад як об'єктно-орієнтована класифікація, не "
+"реалізована у SCP."
+
+#: ../../faq.rst:219
+msgid ""
+"Why using only Landsat 8 band 10 in the estimation of surface temperature?"
+msgstr ""
+"Чому при визначенні температури поверхні використовується лише канал 10  "
+"Landsat 8?"
+
+#: ../../faq.rst:221
+msgid ""
+"Several methods were developed for estimating surface temperature. The "
+"method described in the tutorial for temperature estimation requires only "
+"one band. Moreover, USGS recommends that users refrain from relying on "
+"Landsat 8 Band 11 data in quantitative analysis of the Thermal Infrared "
+"Sensor data (see `Changes to Thermal Infrared Sensor (TIRS) data "
+"<http://landsat.usgs.gov/calibration_notices.php>`_ by USGS)."
+msgstr ""
+"Було розроблено декілька методів для оцінювання температури земної поверхні."
+" Метод оцінювання температури, описаний в навчальному практикумі, потребує "
+"лише одного каналу. Більше того, USGS рекомендує користувачам утримуватись "
+"від урахування даних каналу 11 Landsat 8 при кількісному аналізі даних "
+"теплового інфрачервоного сенсора (див. `Зміни в даних теплового "
+"інфрачервоного сенсора (TIRS) "
+"<http://landsat.usgs.gov/calibration_notices.php>`_ від USGS)."
+
+#: ../../faq.rst:228
+msgid "Warnings"
+msgstr "Застереження"
+
+#: ../../faq.rst:232
+msgid ""
+"Warning [12]: The following signature will be excluded if using Maximum "
+"Likelihood. Why?"
+msgstr ""
+"Застереження [12]: Дана сигнатура буде виключена при використанні алгоритму "
+"Максимальної вірогідності. Чому?"
+
+#: ../../faq.rst:234
+msgid ""
+"The ROI is too small (or too homogeneous) for the "
+":ref:`max_likelihood_algorithm` algorithm because that ROI has a singular "
+"covariance matrix. You should create larger ROIs or don't use the Maximum "
+"Likelihood algorithm in the classification process."
+msgstr ""
+"ROI занадто маленька (або занадто однорідна) для алгоритму "
+":ref:`max_likelihood_algorithm`, тому що ця ROI має сингулярну (вироджену) "
+"матрицю коваріації. Ви повинні створити більшу ROI або не використовувати "
+"алгоритм Максимальної вірогідності для класифікації."
+
+#: ../../faq.rst:240
+msgid "Errors"
+msgstr "Помилки"
+
+#: ../../faq.rst:245
+msgid "How can I report an error?"
+msgstr "Як я можу повідомити про помилку?"
+
+#: ../../faq.rst:247
+msgid ""
+"If you found an error of the Semi-Automatic Classification Plugin please "
+"follow these steps in order to collect the required information (log file):"
+msgstr ""
+"Якщо ви виявили помилку Semi-Automatic Classification Plugin, будь ласка "
+"виконайте ці кроки, щоб зібрати необхідну інформацію (файл журналу):"
+
+#: ../../faq.rst:249
+msgid "close QGIS if already open;"
+msgstr "закрийте QGIS, якщо вона відкрита;"
+
+#: ../../faq.rst:250
+msgid ""
+"open QGIS, open the Plugin tab :ref:`settings_debug_tab` and check the "
+"checkbox |checkbox| :guilabel:`Records events in a log file` ;"
+msgstr ""
+
+#: ../../faq.rst:255
+msgid ":guilabel:`Debug`"
+msgstr ":guilabel:`Налагодження`"
+
+#: ../../faq.rst:257
+msgid ""
+"click the button :guilabel:`Test dependencies` |enter| in the tab "
+":ref:`settings_debug_tab` ;"
+msgstr ""
+
+#: ../../faq.rst:258
+msgid ""
+"load the data in QGIS (or open a previously saved QGIS project) and repeat "
+"all the steps that cause the error in the Plugin;"
+msgstr ""
+"завантажте дані до QGIS (або відкрийте проект QGIS, що був збережений "
+"раніше) та повторіть всі кроки, що призводять до помилки в роботі модуля;"
+
+#: ../../faq.rst:259
+msgid ""
+"if the issue could be related to the image data, please use `this sample "
+"dataset "
+"<https://docs.google.com/uc?id=0BysUrKXWIDwBc1llME4yRmpjMGc&export=download>`_"
+" ;"
+msgstr ""
+"якщо проблема імовірно пов'язана з даними зображення, будь ласка "
+"використайте `цей тестовий набір даних "
+"<https://docs.google.com/uc?id=0BysUrKXWIDwBc1llME4yRmpjMGc&export=download>`_"
+" ;"
+
+#: ../../faq.rst:260
+msgid ""
+"if an error message appears (like the one in the following image), copy the "
+"whole content of the message in a text file;"
+msgstr ""
+"якщо з'являється повідомлення про помилку (як на наступному рисунку), "
+"скопіюйте весь вміст повідомлення до текстового файлу;"
+
+#: ../../faq.rst:265
+msgid ":guilabel:`Error message`"
+msgstr ":guilabel:`Повідомлення про помилку`"
+
+#: ../../faq.rst:267
+msgid ""
+"open the tab :ref:`settings_debug_tab` and uncheck the checkbox |checkbox| "
+":guilabel:`Records events in a log file`, then click the button |export| and"
+" save the **log file** (which is a text file containing information about "
+"the Plugin processes);"
+msgstr ""
+
+#: ../../faq.rst:268
+msgid "open the **log file** and copy the whole content of the file;"
+msgstr "відкрийте **log-файл** та скопіюйте весь його вміст;"
+
+#: ../../faq.rst:269
+msgid ""
+"join the Facebook `group "
+"<https://www.facebook.com/groups/661271663969035/>`_ or the Google+ "
+"`community <https://plus.google.com/communities/107833394986612468374>`_ , "
+"create a new post and copy the error message and the **log file** (or attach"
+" them)."
+msgstr ""
+"приєднайтесь до  групи `Facebook "
+"<https://www.facebook.com/groups/661271663969035/>`_ або спільноти  `Google+"
+" <https://plus.google.com/communities/107833394986612468374>`_ , створіть "
+"нову публікацію та скопіюйте повідомлення про помилку та **log-файл** (або "
+"приєднайте їх)."
+
+#: ../../faq.rst:274
+msgid "Virtual raster creation issues. Why?"
+msgstr "Проблеми зі створенням віртуального растра. Чому?"
+
+#: ../../faq.rst:276
+msgid ""
+"The automatic creation of the virtual raster after Landsat conversion to "
+"reflectance is not required for the classification. Errors could happen if "
+"the output destination path contains special characters (such as accented "
+"letters) or spaces; try to rename directories (e.g. rename ``new directory``"
+" to ``new_directory``). If you still get the same error you can create a "
+"virtual raster manually."
+msgstr ""
+"Автоматичне створення віртуального растра після перерахунку даних Landsat у "
+"відбивальність для проведення класифікації не вимагається. Помилки можуть "
+"траплятись якщо вихідний шлях призначення містить спеціальні символи (такі "
+"як літера зі знаком наголосу) або пробіли; спробуйте перейменувати каталоги "
+"(наприклад, перейменувати з ``new directory`` у ``new_directory``). Якщо ви "
+"все одно отримуєте ту ж саму помилку, то можете створити віртуальний растр "
+"вручну."
+
+#: ../../faq.rst:282
+msgid "Error [26] 'The version of Numpy is outdated'. Why?"
+msgstr "Помилка [26] 'Версія Numpy застаріла'. Чому?"
+
+#: ../../faq.rst:284
+msgid ""
+"QGIS 32bit could have an older version of Numpy as default; in order to "
+"update Numpy:"
+msgstr ""
+"QGIS 32 біт стандартно може мати старішу версію Numpy; щоб оновити Numpy:"
+
+#: ../../faq.rst:287
+msgid ""
+"download `this file "
+"<https://docs.google.com/uc?id=0BysUrKXWIDwBUmZaRGpXOF9nQ2M&export=download>`_"
+" (which is based on `WinPython installer "
+"<http://sourceforge.net/projects/winpython/files/WinPython_2.7/2.7.6.4"
+"/WinPython-32bit-2.7.6.4.exe/download>`_ and `PyParsing "
+"<https://pypi.python.org/packages/source/p/pyparsing/pyparsing-1.5.7.zip>`_);"
+msgstr ""
+"завантажте `цей файл "
+"<https://docs.google.com/uc?id=0BysUrKXWIDwBUmZaRGpXOF9nQ2M&export=download>`_"
+" (на основі `інсталятора WinPython "
+"<http://sourceforge.net/projects/winpython/files/WinPython_2.7/2.7.6.4"
+"/WinPython-32bit-2.7.6.4.exe/download>`_ та `PyParsing "
+"<https://pypi.python.org/packages/source/p/pyparsing/pyparsing-1.5.7.zip>`_);"
+
+#: ../../faq.rst:288
+msgid "extract the file with `7-zip <http://www.7-zip.org/>`_;"
+msgstr "розпакуйте файл за допомогою `7-zip <http://www.7-zip.org/>`_;"
+
+#: ../../faq.rst:289
+msgid ""
+"copy the content of the extracted directory inside the directory "
+"``apps\\Python27\\Lib\\site-packages`` inside the QGIS installation "
+"directory (e.g. ``C:\\Program Files (x86)\\QGIS Chugiak\\apps\\Python27\\Lib"
+"\\site-packages``) overwriting the files ``pyparsing``, ``numpy``, "
+"``matplotlib``, and ``scipy``."
+msgstr ""
+"скопіюйте вміст розпакованого каталогу всередину каталогу "
+"``apps\\Python27\\Lib\\site-packages`` в каталозі встановлення QGIS "
+"(наприклад ``C:\\Program Files (x86)\\QGIS Chugiak\\apps\\Python27\\Lib"
+"\\site-packages``) з перезаписом файлів ``pyparsing``, ``numpy``, "
+"``matplotlib`` та ``scipy``."
+
+#: ../../faq.rst:291
+msgid ""
+"Alternatively, you should be able to install QGIS and Numpy with the "
+"`OSGEO4W advanced installer <http://download.osgeo.org/osgeo4w/osgeo4w-"
+"setup-x86.exe>`_."
+msgstr ""
+"Альтернативно, ви маєте можливість встановити QGIS та Numpy за допомогою "
+"`Покращеного інсталятора OSGEO4W <http://download.osgeo.org/osgeo4w/osgeo4w-"
+"setup-x86.exe>`_."
+
+#: ../../faq.rst:296
+msgid "Error 'Plugin is damaged. Python said: ascii'. Why?"
+msgstr "Помилка 'Модуль пошкоджено. Python повідомив: ascii'. Чому?"
+
+#: ../../faq.rst:298
+msgid ""
+"It could be related to a wrong installation. Please, uninstall QGIS and "
+"install it again with administrative rights. Delete also the directory "
+".qgis2 in your user directory. Then run QGIS and try to install the plugin "
+"following the :ref:`installation` guide."
+msgstr ""
+
+#: ../../faq.rst:303
+msgid ""
+"Also, it could be related to the user name containing special characters. "
+"Please try the installation creating a new user without special characters "
+"(e.g. ``user``)."
+msgstr ""
+"Також це може бути пов'язано з іменем користувача, що містить спеціальні "
+"символи. Будь ласка спробуйте нове встановлення, створивши нового "
+"користувача з іменем без спеціальних символів (наприклад, ``user``)."
+
+#: ../../faq.rst:307
+msgid "Also, if the error message contains something like:"
+msgstr "Також, повідомлення про помилку може містити щось подібне до:"
+
+#: ../../faq.rst:307 ../../faq.rst:313
+msgid "``sfnt4 = sfnt4.decode('ascii').lower()``"
+msgstr "``sfnt4 = sfnt4.decode('ascii').lower()``"
+
+#: ../../faq.rst:309
+msgid ""
+"it could be related to a known issue of Matplotlib (a Python library); in "
+"order to solve this, you should (as reported at `stackoverflow "
+"<http://stackoverflow.com/questions/18689854/enthought-matplotlib-problems-"
+"with-plot-function>`_):"
+msgstr ""
+"це може бути пов'язане з відомою проблемою Matplotlib (бібліотекою Python); "
+"для того, щоб її вирішити, вам слід (як зазначено на `stackoverflow "
+"<http://stackoverflow.com/questions/18689854/enthought-matplotlib-problems-"
+"with-plot-function>`_):"
+
+#: ../../faq.rst:311
+msgid ""
+"open in a text editor the file font_manager.py which is inside the directory"
+" ``C:\\PROGRA~1\\QGISCH~1\\apps\\Python27\\lib\\site-"
+"packages\\matplotlib\\``"
+msgstr ""
+"відкрити у текстовому редакторі файл font_manager.py, який міститься в "
+"каталозі ``C:\\PROGRA~1\\QGISCH~1\\apps\\Python27\\lib\\site-"
+"packages\\matplotlib\\``"
+
+#: ../../faq.rst:312
+msgid "search for the line"
+msgstr "знайти рядок"
+
+#: ../../faq.rst:315
+msgid "and replace it with the line"
+msgstr "та замінити його рядком"
+
+#: ../../faq.rst:315
+msgid "``sfnt4 = sfnt4.decode('ascii', 'ignore').lower()``"
+msgstr "``sfnt4 = sfnt4.decode('ascii', 'ignore').lower()``"
+
+#: ../../faq.rst:317
+msgid ""
+"Alternatively, try to install QGIS through the `OSGEO4W installer "
+"<http://trac.osgeo.org/osgeo4w/>`_, which includes an updated Matplotlib "
+"version."
+msgstr ""
+"Альтернативно, спробуйте встановити QGIS через `Інсталятор OSGEO4W "
+"<http://trac.osgeo.org/osgeo4w/>`_, який включає оновлену версію Matplotlib."
+
+#: ../../faq.rst:322
+msgid ""
+"Error [50] 'Internet error'. Unable to download Sentinel-2 images. Why?"
+msgstr ""
+"Помилка [50] 'Помилка Internet'. Неможливо завантажити зображення "
+"Sentinel-2. Чому?"
+
+#: ../../faq.rst:324
+msgid ""
+"The error message usually includes some information about the issue. First, "
+"check the user name and password."
+msgstr ""
+"Повідомлення про помилку зазвичай містить деяку інформацію про проблему. По-"
+"перше, перевірте ім'я користувача та пароль."
+
+#: ../../faq.rst:327
+msgid ""
+"Also, there could be an interruption of the service. For Sentinel-2 images "
+"please check this website https://scihub.copernicus.eu/news/ for messages "
+"about the state of the service."
+msgstr ""
+"Також, можуть бути переривання в роботі сервісу. Для зображень Sentinel-2 "
+"будь ласка перевірте цей веб-сайт https://scihub.copernicus.eu/news/ на "
+"предмет повідомлень щодо стану сервісу."
+
+#: ../../faq.rst:330 ../../faq.rst:360
+msgid ""
+"In case you still get the same error, please follow these steps "
+":ref:`error_0`."
+msgstr ""
+"Якщо ви все одно отримуєте ту ж саму помилку, будь ласка виконайте наступні "
+"кроки :ref:`error_0`."
+
+#: ../../faq.rst:335
+msgid ""
+"Error [56] 'SSL connection error'. Unable to download Sentinel-2 images. "
+"Why?"
+msgstr ""
+"Помилка [56] 'Помилка з'єднання SSL'. Неможливо завантажити зображення "
+"Sentinel-2. Чому?"
+
+#: ../../faq.rst:337
+msgid "First, check the user name and password."
+msgstr "По-перше, перевірте ім'я користувача та пароль."
+
+#: ../../faq.rst:339
+msgid ""
+"This issue could be related to SSL protocols (TLS v1.1 and TLS v1.2) "
+"required for Sentinel-2 download. As described here "
+"https://docs.python.org/2/library/ssl.html the protocols TLS v1.1 and TLS "
+"v1.2 are available only in Python 2.7.9+ with openssl version 1.0.1+. QGIS "
+"could have a previous version of Python where TLS v1.1 and TLS v1.2 are not "
+"available. Therefore the Sentinel-2 download process fails."
+msgstr ""
+"Ця проблема може бути пов'язана з протоколами SSL (TLS версія 1.1 та TLS "
+"версія 1.2), необхідними для завантаження Sentinel-2. Як описано у "
+"https://docs.python.org/2/library/ssl.html протоколи TLS версії 1.1 та TLS "
+"версії 1.2 доступні лише у Python 2.7.9+ з openssl версії 1.0.1+. QGIS може "
+"мати попередню версію Python, де TLS версії 1.1 та TLS версії 1.2 "
+"недоступні. Тому завантаження Sentinel-2 не вдається."
+
+#: ../../faq.rst:344
+msgid "A temporary solution for Windows OS:"
+msgstr "Тимчасове рішення для ОС Windows:"
+
+#: ../../faq.rst:346
+msgid ""
+"**Warning**: this could break other QGIS functions, but fortunately you can "
+"install multiple versions of QGIS."
+msgstr ""
+"**Застереження**: це може зламати інші функції QGIS, але на щастя ви можете "
+"встановити декілька версій QGIS."
+
+#: ../../faq.rst:348
+msgid "Close QGIS if open"
+msgstr "Закрийте QGIS, якщо вона відкрита"
+
+#: ../../faq.rst:350
+msgid ""
+"Download and install Python `for 32bit "
+"<https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi>`_ or `for 64bit"
+" <https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi>`_ "
+"according to the installed version of QGIS"
+msgstr ""
+"Завантажте та встановіть Python `для 32 біт "
+"<https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi>`_ або `для 64 "
+"біт <https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi>`_ "
+"відповідно до встановленої версії QGIS"
+
+#: ../../faq.rst:352
+msgid ""
+"Copy and replace ``C:\\python27\\python.exe`` to ``\"QGIS installation "
+"folder\"\\bin\\`` (e.g. ``C:\\Program Files (x86)\\QGIS Chugiak\\bin\\``)"
+msgstr ""
+"Скопіюйте та перенесіть ``C:\\python27\\python.exe`` до ``\"Каталог "
+"встановлення QGIS\"\\bin\\`` (наприклад, ``C:\\Program Files (x86)\\QGIS "
+"Chugiak\\bin\\``)"
+
+#: ../../faq.rst:354
+msgid ""
+"Copy and replace ``C:\\python27\\pythonw.exe`` to ``\"QGIS installation "
+"folder\"\\bin\\``"
+msgstr ""
+"Скопіюйте та перенесіть ``C:\\python27\\pythonw.exe`` до ``\"Каталог "
+"встановлення QGIS\"\\bin\\``"
+
+#: ../../faq.rst:356
+msgid ""
+"Copy and replace all the content of ``C:\\python27\\`` to ``\"QGIS "
+"installation folder\"\\apps\\python27\\``"
+msgstr ""
+"Скопіюйте та перенесіть весь вміст ``C:\\python27\\`` до ``\"QGIS "
+"installation folder\"\\apps\\python27\\``"
+
+#: ../../faq.rst:358
+msgid ""
+"Now start QGIS and if everything went well you should be able to search and "
+"download Sentinel-2 images using SCP"
+msgstr ""
+"Тепер запустіть QGIS і якщо все пройшло вдало, то ви матимете змогу шукати "
+"та завантажувати зображення Sentinel-2, використовуючи SCP"
+
+#: ../../faq.rst:365
+msgid "Error installing the plugin, possible missing dependencies. Why?"
+msgstr "Помилка встановлення модуля, можливо відсутні залежності. Чому?"
+
+#: ../../faq.rst:367
+msgid ""
+"The plugin requires the installation of GDAL, NumPy, SciPy and Matplotlib, "
+"which should be installed along with QGIS. If the plugin installation fails,"
+" and you get a message about possible missing dependencies, you should try "
+"to install or update QGIS and the required dependencies. Notice that in "
+"order to avoid this error, python dependencies should not be installed "
+"through Anaconda."
+msgstr ""
+
+#: ../../faq.rst:374
+msgid "Various"
+msgstr "Різне"
+
+#: ../../faq.rst:379
+msgid "What can I do with the SCP?"
+msgstr "Що  я можу робити з SCP?"
+
+#: ../../faq.rst:381
+msgid ""
+":guilabel:`SCP` allows for the **land cover classification** of remote "
+"sensing images through :ref:`supervised_classification_definition`. You can "
+"produce a land cover raster using one of the "
+":ref:`classification_algorithm_definition` available in SCP. These "
+"algorithms require spectral signatures or ROIs as input (for definitions "
+"please read :ref:`remote_sensing`) that define the land cover classes to be "
+"identified in the image."
+msgstr ""
+":guilabel:`SCP` дозволяє проводити **класифікацію земельного покриву** "
+"зображень дистанційного зондування за допомогою "
+":ref:`supervised_classification_definition`. Ви можете створити растр "
+"земельного покриву, використавши один з "
+":ref:`classification_algorithm_definition`, доступних у SCP. Ці алгоритми "
+"потребують спектральних сигнатур або ROI в якості входових даних (для "
+"визначень будь ласка див. :ref:`remote_sensing`), які визначають класи "
+"земельного покриву, що будуть зідентифіковані за зображенням."
+
+#: ../../faq.rst:388
+msgid ""
+":guilabel:`A multispectral image processed to produce a land cover "
+"classification`"
+msgstr ""
+":guilabel:`Багатоспектральне зображення оброблене для створення класифікації"
+" земельного покриву`"
+
+#: ../../faq.rst:390
+msgid "``(Landsat image provided by USGS)``"
+msgstr "``(Знімок Landsat надано USGS)``"
+
+#: ../../faq.rst:392
+msgid ""
+":guilabel:`SCP` can work with **multispectral images** acquired by "
+"satellites, airplanes, or drones. Also, :guilabel:`SCP` allows for the "
+"direct search and download of free images (see :ref:`download_tab`). You "
+"cannot use orthophotos with less than 4 bands, SAR data, and LIDAR data with"
+" SCP."
+msgstr ""
+":guilabel:`SCP` може працювати з **багатоспектральними зображеннями**, "
+"отриманими супутниками, літаками або дронами. Також :guilabel:`SCP` "
+"забезпечує безпосередній пошук та завантаження безкоштовних зображень (див. "
+":ref:`download_tab`). З SCP ви не можете використовувати ортофото з менш ніж"
+" 4 каналами, дані SAR та LIDAR."
+
+#: ../../faq.rst:396
+msgid ""
+"**Input image** in :guilabel:`SCP` is called :ref:`band_set_tab`, which is "
+"used as input for the classification. :guilabel:`SCP` provides several tools"
+" for the :ref:`pre_processing_tab` of downloaded images, such as the "
+"conversion to reflectance and manipulation of bands."
+msgstr ""
+"**Входове зображення** у :guilabel:`SCP` називається :ref:`band_set_tab`, "
+"який використовується як входові дані для класифікації. :guilabel:`SCP` "
+"надає декілька інструментів для :ref:`pre_processing_tab` завантажених "
+"зображень, таких як перерахунок у відбивальність та маніпулювання каналами."
+
+#: ../../faq.rst:399
+msgid ""
+"**Classification results** can be assessed with the tools "
+":ref:`accuracy_tab` and :ref:`classification_report_tab`. Also, rasters can "
+"be manipulated using :ref:`post_processing_tab` tools such as "
+":ref:`classification_vector_tab`,  :ref:`reclassification_tab`, "
+":ref:`edit_raster_tab` directly, :ref:`classification_sieve_tab`, "
+":ref:`classification_erosion_tab`, and :ref:`classification_dilation_tab`."
+msgstr ""
+"**Результати класифікації** можуть бути оцінені за допомогою інструментів "
+":ref:`accuracy_tab` та :ref:`classification_report_tab`. Також растрами "
+"можна маніпулювати з використанням інструментів :ref:`post_processing_tab` "
+"таких як :ref:`classification_vector_tab`,  :ref:`reclassification_tab`, "
+":ref:`edit_raster_tab` directly, :ref:`classification_sieve_tab`, "
+":ref:`classification_erosion_tab` та :ref:`classification_dilation_tab`."
+
+#: ../../faq.rst:402
+msgid ""
+"The :ref:`spectral_signature_plot` and :ref:`scatter_plot` allow for the "
+"**analysis of spectral signatures and ROIs**. Also, several :ref:`tools_tab`"
+" are available for easing the ROI creation and editing spectral signatures."
+msgstr ""
+":ref:`spectral_signature_plot` та :ref:`scatter_plot` забезпечують **аналіз "
+"спектральних сигнатур та ROI**. Крім того, декілька :ref:`tools_tab` "
+"доступні для спрощення створення ROI та редагування спектральних сигнатур."
+
+#: ../../faq.rst:405
+msgid ""
+"**Raster calculation** is available through the seamless integration of the "
+"tool :ref:`band_calc_tab` with bands in the :ref:`band_set_tab`, calculating"
+" mathematical expressions and spectral indices. Also, an output raster can "
+"be calculated based on :ref:`decision_rules`."
+msgstr ""
+"**Перерахунок растрів** з використанням математичних виразів та формул "
+"спектральних індексів доступний завдяки безпосередній інтеграції інструмента"
+" :ref:`band_calc_tab` з каналами :ref:`band_set_tab`. Також вихідний растр "
+"може бути розрахований на підставі :ref:`decision_rules`."
+
+#: ../../faq.rst:408
+msgid ""
+"The tool :ref:`batch_tab` allows for the automatic execution of several "
+":guilabel:`SCP` functions using a scripting interface."
+msgstr ""
+"Інструмент :ref:`batch_tab` забезпечує автоматичне виконання декількох "
+"функцій :guilabel:`SCP` з використанням скриптового інтерфейсу."
+
+#: ../../faq.rst:410
+msgid "See the :ref:`tutorials` for more information and examples."
+msgstr ""
+
+#: ../../faq.rst:415
+msgid "How to contribute to SCP"
+msgstr "Як долучитись та сприяти SCP"
+
+#: ../../faq.rst:417
+msgid ""
+"You can contribute to :guilabel:`SCP` by fixing and adding functionalities "
+"(see :ref:`other_5`), or translating the user manual (see :ref:`other_4`)."
+msgstr ""
+"Ви можете зробити внесок до :guilabel:`SCP` через виправлення та додавання "
+"функціональних можливостей (див. :ref:`other_5`) або переклад посібника "
+"користувача (див. :ref:`other_4`)."
+
+#: ../../faq.rst:419
+msgid ""
+"Also, you can donate to this project at the following link "
+"https://fromgistors.blogspot.com/p/donations.html ."
+msgstr ""
+
+#: ../../faq.rst:424
+msgid "Free and valuable resources about remote sensing and GIS"
+msgstr "Безкоштовні та корисні ресурси про дистанційне зондування та ГІС"
+
+#: ../../faq.rst:426
+msgid "The following links are valuable resources:"
+msgstr ""
+
+#: ../../faq.rst:428
+msgid ""
+"`The Landsat 8 Data Users Handbook by USGS "
+"<http://landsat.usgs.gov/documents/Landsat8DataUsersHandbook.pdf>`_;"
+msgstr ""
+"`Довідник користувача даних Landsat 8 від USGS "
+"<http://landsat.usgs.gov/documents/Landsat8DataUsersHandbook.pdf>`_;"
+
+#: ../../faq.rst:429
+msgid ""
+"`The Landsat 7 Science Data Users Handbook by NASA "
+"<http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf>`_;"
+msgstr ""
+"`Довідник користувача наукових даних Landsat 7 від NASA "
+"<http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf>`_;"
+
+#: ../../faq.rst:430
+msgid ""
+"`Remote Sensing Note by JARS <http://www.jars1974.net/pdf/rsnote_e.html>`_."
+msgstr ""
+"`Нотатки з дистанційного зондування від JARS "
+"<http://www.jars1974.net/pdf/rsnote_e.html>`_."
+
+#: ../../faq.rst:431
+msgid ""
+"`Webinar: Fundamentals of Remote Sensing by NASA "
+"<http://arset.gsfc.nasa.gov/webinars/fundamentals-remote-sensing>`_."
+msgstr ""
+"`Вебінар: Основи дистанційного зондування від NASA "
+"<http://arset.gsfc.nasa.gov/webinars/fundamentals-remote-sensing>`_."
+
+#: ../../faq.rst:432
+msgid ""
+"`Webinar: NASA Remote Sensing for Land Management by NASA "
+"<http://arset.gsfc.nasa.gov/land/webinars/land-management14>`_."
+msgstr ""
+"`Вебінар: Дистанційне зондування NASA для управління  земельними ресурсами "
+"від NASA <http://arset.gsfc.nasa.gov/land/webinars/land-management14>`_."
+
+#: ../../faq.rst:433
+msgid ""
+"`Webinar: Creating and Using Normalized Difference Vegetation Index (NDVI) "
+"from Satellite Imagery by NASA "
+"<http://arset.gsfc.nasa.gov/land/webinars/advancedNDVI>`_."
+msgstr ""
+"`Вебінар: Створення та застосування нормованого різницевого індексу "
+"рослинності (NDVI) за супутниковими зображеннями від NASA "
+"<http://arset.gsfc.nasa.gov/land/webinars/advancedNDVI>`_."
+
+#: ../../faq.rst:434
+msgid ""
+"`Webinar: Remote Sensing of Forest Cover and Change Assessment for Carbon "
+"Monitoring by NASA <http://arset.gsfc.nasa.gov/land/webinars/carbon-"
+"monitoring-2016>`_."
+msgstr ""
+"`Вебінар: Дистанційне зондування лісового покриву та оцінки змін для "
+"моніторингу вуглецю від NASA <http://arset.gsfc.nasa.gov/land/webinars"
+"/carbon-monitoring-2016>`_."
+
+#: ../../faq.rst:435
+msgid ""
+"`Webinar: Introduction to Remote Sensing for Conservation Management by NASA"
+" <http://arset.gsfc.nasa.gov/land/webinars/intro-conservation15>`_."
+msgstr ""
+"`Вебінар: Вступ до дистанційного зондування для природоохоронного управління"
+" від NASA <http://arset.gsfc.nasa.gov/land/webinars/intro-conservation15>`_."
+
+#: ../../faq.rst:440
+msgid "Other tutorials about SCP, also in languages other than English"
+msgstr ""
+
+#: ../../faq.rst:442
+msgid ""
+"There are several tutorials about :guilabel:`SCP` on the internet. Following"
+" an incomplete list of these resources (please note that these resources "
+"could use older versions of SCP):"
+msgstr ""
+
+#: ../../faq.rst:445
+msgid ""
+"`English: Webinar by NASA ARSET about Land Cover Classification with "
+"Satellite Imagery <https://arset.gsfc.nasa.gov/land/webinars/advanced-land-"
+"classification>`_;"
+msgstr ""
+
+#: ../../faq.rst:446
+msgid ""
+"`English: Recommended Practice by UN-SPIDER about Burn Severity Mapping Burn"
+" Severity with QGIS <http://www.un-spider.org/node/10955>`_;"
+msgstr ""
+
+#: ../../faq.rst:447
+msgid ""
+"`English: Using the SCP QGIS plugin to download and process Sentinel 2 "
+"imagery <https://www.youtube.com/watch?v=77BEF7txk4s>`_;"
+msgstr ""
+
+#: ../../faq.rst:448
+msgid ""
+"`French: Télédétection des feux de forêts <https://www.geonov.fr/exemples"
+"/teledetection-feux-de-forets/>`_;"
+msgstr ""
+
+#: ../../faq.rst:449
+msgid ""
+"`German: 2015 Jakob Erfassung von Landnutzungsveränderungen mit FOSS Image "
+"Processing Tools <https://www.youtube.com/watch?v=vIsHFvLS5_Q>`_;"
+msgstr ""
+"`Німецька: 2015 Jakob Erfassung von Landnutzungsveränderungen mit FOSS Image"
+" Processing Tools <https://www.youtube.com/watch?v=vIsHFvLS5_Q>`_;"
+
+#: ../../faq.rst:450
+msgid ""
+"`Indonesian: Koreksi Radiometrik Menggunakan QGIS:Semi Automatic "
+"Classification <https://rosegislabs.com/2017/02/28/koreksi-radiometrik-"
+"menggunakan-qgissemi-automatic-classification-part-1/>`_;"
+msgstr ""
+
+#: ../../faq.rst:451
+msgid ""
+"`Italian: Classificazione e Mosaico di Varie Immagini Landsat "
+"<https://fromgistors.blogspot.com/2015/09/tutorial-classificazione-mosaico-"
+"landsat.html>`_;"
+msgstr ""
+
+#: ../../faq.rst:452
+msgid ""
+"`Korean: QGIS Semi-Automatic Classification Plugin "
+"<http://blog.daum.net/geoscience/715>`_;"
+msgstr ""
+"`Корейська: QGIS Semi-Automatic Classification Plugin "
+"<http://blog.daum.net/geoscience/715>`_;"
+
+#: ../../faq.rst:453
+msgid ""
+"`Polish: Klasyfikacja pokrycia terenu w QGIS SCP "
+"<http://nycz.beskidy.pl/2018/01/29/klasyfikacja-pokrycia-terenu-w-qgis-scp-"
+"cz-2/>`_;"
+msgstr ""
+
+#: ../../faq.rst:454
+msgid ""
+"`Polish: Klasyfikacja nienadzorowana w QGIS SCP "
+"<http://nycz.beskidy.pl/2018/02/04/klasyfikacja-nienadzorowana-qgis-scp/>`_;"
+msgstr ""
+
+#: ../../faq.rst:455
+msgid ""
+"`Portuguese: Workshop de Deteção Remota e Processamento Digital de Imagem "
+"com o QGIS e o Semi-Automatic Classification Plugin "
+"<https://pt.slideshare.net/PedroNGV/workshop-de-deteo-remota-e"
+"-processamento-digital-de-imagem-com-o-qgis-e-o-semiautomatic-"
+"classification-plugin>`_;"
+msgstr ""
+
+#: ../../faq.rst:456
+msgid ""
+"`Portuguese: Classificacao supervisionada de imagens Sentinel-2 com QGIS e "
+"SCP <https://www.youtube.com/watch?v=t5D6JT7adYY>`_;"
+msgstr ""
+
+#: ../../faq.rst:457
+msgid ""
+"`Portuguese: Avaliação do erro de uma imagem de satélite usando o QGIS e o "
+"SCP <https://www.youtube.com/watch?v=k1yjcJPb1WI>`_;"
+msgstr ""
+
+#: ../../faq.rst:458
+msgid ""
+"`Portuguese: Conversão Sentinel-2 para refletância com QGIS SCP "
+"<https://www.youtube.com/watch?v=m3XFvvVrU24>`_;"
+msgstr ""
+
+#: ../../faq.rst:459
+msgid ""
+"`Portuguese: Criar composições coloridas no QGIS com SCP "
+"<https://www.youtube.com/watch?v=LWvDEE1Evxg>`_;"
+msgstr ""
+
+#: ../../faq.rst:460
+msgid ""
+"`Portuguese: Corte de imagem Sentinel-2 usand QGIS e SCP "
+"<https://www.youtube.com/watch?v=8UHey-bQJGs>`_;"
+msgstr ""
+
+#: ../../faq.rst:461
+msgid ""
+"`Portuguese: Deteção Remota Com O QGIS <http://qgis.pt/blog/2016/12/14"
+"/detecao-remota-com-o-qgis/>`_;"
+msgstr ""
+
+#: ../../faq.rst:462
+msgid ""
+"`Russian: Опыт классификации космоснимка Sentinel- 2a с помощью Semi-"
+"Automatic Classification Plugin в QGIS <http://gis-lab.info/qa/qgis-sacp-"
+"sentinel2a.html>`_;"
+msgstr ""
+
+#: ../../faq.rst:463
+msgid ""
+"`Spanish: Descarga de imágenes de satélite desde servidores públicos "
+"<https://www.youtube.com/watch?v=OxGbZo6Go5g>`_;"
+msgstr ""
+
+#: ../../faq.rst:464
+msgid ""
+"`Swedish: Landsat 8 och fjärranalys med QGIS "
+"<https://geosupportsystem.wordpress.com/2015/04/02/landsat-8-och-"
+"fjarranalys-med-qgis/>`_;"
+msgstr ""
+"`Шведська: Landsat 8 och fjärranalys med QGIS "
+"<https://geosupportsystem.wordpress.com/2015/04/02/landsat-8-och-"
+"fjarranalys-med-qgis/>`_;"
+
+#: ../../faq.rst:465
+msgid ""
+"`Ukrainian: Основи дешифрування плагіном Semi-Automatic Classification 5.0 "
+"<https://www.youtube.com/watch?v=kwI4RhYr8Rc>`_;"
+msgstr ""
+
+#: ../../faq.rst:466
+msgid ""
+"`Ukrainian: Використання Гіс Qgis Для Отримання Та Обробки Космічних Знімків"
+" Євген Василенко <https://www.youtube.com/watch?v=O1nyOqMdIiQ>`_;"
+msgstr ""
+
+#: ../../faq.rst:472
+msgid "How can I translate this user manual to another language?"
+msgstr "Як я можу перекласти цей посібник на іншу мову?"
+
+#: ../../faq.rst:474
+msgid ""
+"It is possible to easily translate the user manual to any language, because "
+"it is written in reStructuredText as markup language (using Sphinx). "
+"Therefore, your contribution is fundamental for the translation of the "
+"manual to your language. The following guide illustrates the main steps for "
+"the translation, which can be performed:"
+msgstr ""
+"Цей посібник користувача легко перекласти на іншу мову, тому що він "
+"написаний мовою розмітки reStructuredText (з використанням Sphinx). Тому ваш"
+" внесок є принциповим для перекладу посібника вашою мовою. Наступна "
+"інструкція ілюструє основні кроки з перекладу, які можуть бути здійснені:"
+
+#: ../../faq.rst:478
+msgid "using the free online service Transifex;"
+msgstr "з використанням онлайн-сервісу Transifex;"
+
+#: ../../faq.rst:479
+msgid "using the gettext .po files."
+msgstr "з використанням gettext .po файлів."
+
+#: ../../faq.rst:481
+msgid ""
+"Before translating, please `read this document "
+"<http://docs.qgis.org/testing/en/docs/documentation_guidelines/do_translations.html#translate-a-manual>`_"
+" from the QGIS translation guide, which helps you understand the "
+"reStructuredText."
+msgstr ""
+
+#: ../../faq.rst:483
+msgid "**Method 1. Translation using the free online service Transifex**"
+msgstr ""
+"**Метод 1. Переклад з використанням безкоштовного онлайн-сервісу Transifex**"
+
+#: ../../faq.rst:485
+msgid ""
+"This is probably the easiest way to translate the manual using an online "
+"service."
+msgstr ""
+"Це мабуть найпростіший спосіб перекладу посібника користувача з "
+"використанням онлайн-сервісу."
+
+#: ../../faq.rst:487
+msgid "Join the Semi-automatic Classification Manual project"
+msgstr "Приєднайтесь до проекту Semi-automatic Classification Manual"
+
+#: ../../faq.rst:489
+msgid ""
+"Go to the page https://www.transifex.com/semi-automatic-classification/semi-"
+"automatic-classification-plugin-manual and click the button ``Help "
+"translate``. You can sign in using your Google or Facebook account, or with "
+"a free registration."
+msgstr ""
+
+#: ../../faq.rst:492
+msgid "Select your language"
+msgstr ""
+
+#: ../../faq.rst:494
+msgid ""
+"Select your language and click the button ``Join team``. If your language is"
+" not listed, click the button ``Request language``."
+msgstr ""
+
+#: ../../faq.rst:497
+msgid "Translation"
+msgstr "Переклад"
+
+#: ../../faq.rst:499
+msgid ""
+"There are several files to be translated, which refer to the sections of the"
+" SCP documentation. To translate the SCP interface you should select the "
+"file ``semiautomaticclassificationplugin.ts`` ."
+msgstr ""
+
+#: ../../faq.rst:502
+msgid "**Method 2. Translation using the gettext .po files**"
+msgstr "**Метод 2. Переклад з використанням gettext .po файлів**"
+
+#: ../../faq.rst:504
+msgid ""
+"In order to use this method, you should be familiar with GitHub. This "
+"translation method allows for the translation of the PO files locally."
+msgstr ""
+"Для того, щоб використовувати цей метод, ви повинні бути знайомі з GitHub. "
+"Цей метод перекладу дозволяє здійснювати переклад PO файлів локально."
+
+#: ../../faq.rst:506
+msgid "Download the translation files"
+msgstr "Завантажте файли перекладу"
+
+#: ../../faq.rst:508
+msgid ""
+"Go to the GitHub project "
+"https://github.com/semiautomaticgit/SemiAutomaticClassificationManual_v4/tree/master/locale"
+" and download the .po files of your language (you can add your language, if "
+"it is not listed), or you can fork the repository. Every file .po is a text "
+"file that refers to a section of the User Manual."
+msgstr ""
+"Перейдіть до проекту GitHub "
+"https://github.com/semiautomaticgit/SemiAutomaticClassificationManual_v4/tree/master/locale"
+" та завантажте .po файли вашої мови (ви можете додати свою мову, якщо її "
+"немає в переліку) або ви можете форкнути репозиторій. Кожний .po файл це "
+"текстовий файл, що відповідає певному розділу посібника користувача."
+
+#: ../../faq.rst:511
+msgid "Edit the translation files"
+msgstr "Відредагуйте файли перекладу"
+
+#: ../../faq.rst:513
+msgid ""
+"Now you can edit the .po files. It is convenient to edit those file using "
+"one of the following programs: for instance `Poedit "
+"<http://www.poedit.net/>`_ for Windows and Mac OS X, or `Gtranslator "
+"<https://wiki.gnome.org/Apps/Gtranslator>`_ for Linux or `OmegaT "
+"<http://www.omegat.org/en/download_selector/ui.php>`_ (Java based) for "
+"Windows, Linux and Mac OS X. These editors allow for an easy translation of "
+"every sentence in the User Manual."
+msgstr ""
+"Тепер ви можете редагувати .po файли. Ці файли зручно редагувати з "
+"використанням наступних програм: наприклад `Poedit "
+"<http://www.poedit.net/>`_ для Windows та Mac OS X або `Gtranslator "
+"<https://wiki.gnome.org/Apps/Gtranslator>`_ для Linux або `OmegaT "
+"<http://www.omegat.org/en/download_selector/ui.php>`_ (на основі Java) для "
+"Windows, Linux та Mac OS X. Ці редактори забезпечують простий переклад для "
+"кожного речення посібника користувача."
+
+#: ../../faq.rst:519
+msgid "Where is the source code of SCP?"
+msgstr "Де знаходиться вихідний код SCP?"
+
+#: ../../faq.rst:521
+msgid ""
+"You can find the source code of SPC is at the following link "
+"https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin"
+msgstr ""
+"Ви можете знайти вихідний код SPC за наступним посиланням "
+"https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin"
+
+#: ../../faq.rst:527
+msgid "How to install QGIS using OSGeo4W?"
+msgstr ""
+
+#: ../../faq.rst:529
+msgid ""
+"To install QGIS, first download the `OSGeo4W installer x86 "
+"<http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe>`_ or `OSGeo4W "
+"installer x64 <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe>`_"
+" according to your operating system."
+msgstr ""
+
+#: ../../faq.rst:531
+msgid "Then start the installer and select ``Advanced Install``."
+msgstr ""
+
+#: ../../faq.rst:535
+msgid "Check ``Install from Internet`` and click ``Next``."
+msgstr ""
+
+#: ../../faq.rst:539
+msgid "Select the installation directory and click ``Next``."
+msgstr ""
+
+#: ../../faq.rst:543
+msgid "Select the local package directory and click ``Next``."
+msgstr ""
+
+#: ../../faq.rst:547
+msgid ""
+"Select ``Direct connection`` (or select an internet connection option) and "
+"click ``Next``."
+msgstr ""
+
+#: ../../faq.rst:551
+msgid "Select the first download site and click ``Next``."
+msgstr ""
+
+#: ../../faq.rst:555
+msgid ""
+"In the package list select ``qgis-dev`` (in category ``Desktop``) until "
+"QGIS3 is released."
+msgstr ""
+
+#: ../../faq.rst:559
+msgid ""
+"In the package list select ``python3-matplotlib`` (in category ``Libs``)."
+msgstr ""
+
+#: ../../faq.rst:563
+msgid "In the package list select ``python3-numpy`` (in category ``Libs``)."
+msgstr ""
+
+#: ../../faq.rst:567
+msgid ""
+"In the package list select ``python3-scipy`` (in category ``Libs``) and "
+"click ``Next``."
+msgstr ""
+
+#: ../../faq.rst:571
+msgid "Click ``Next`` to install also other dependencies."
+msgstr ""
+
+#: ../../faq.rst:575
+msgid ""
+"After the download, QGIS should be installed with all the required "
+"dependencies for SCP."
+msgstr ""
+
+#~ msgid "How do I create a virtual raster manually in QGIS?"
+#~ msgstr "Як мені вручну створити віртуальний растр в QGIS?"
+
+#~ msgid "In order to create a multi-spectral virtual raster in QGIS:"
+#~ msgstr "Для того, щоб створити багатоспектральний віртуальний растр у QGIS:"
+
+#~ msgid ""
+#~ "from the menu ``Raster`` select ``Miscellaneous > Build Virtual Raster "
+#~ "(catalog)``;"
+#~ msgstr ""
+#~ "з меню ``Raster`` виберіть ``Miscellaneous > Build Virtual Raster "
+#~ "(catalog)``;"
+
+#~ msgid ""
+#~ "click the button ``Select...`` and select all the Landsat bands (in "
+#~ "numerical order);"
+#~ msgstr ""
+#~ "натисніть кнопку ``Select...`` та виберіть всі канали Landsat (за порядком "
+#~ "нумерації);"
+
+#~ msgid ""
+#~ "select the output file (for instance ``rgb.vrt``); check ``Separate`` (bands"
+#~ " will be separated) and click ``OK``."
+#~ msgstr ""
+#~ "виберіть виходовий файл (наприклад ``rgb.vrt``); увімкніть ``Separate`` "
+#~ "(канали будуть розділені) та клацніть ``OK``."
+
+#~ msgid ""
+#~ "Landsat 8 panchromatic band doesn't acquire in the Near Infrared (NIR) "
+#~ "region (see :ref:`Landsat_definition`). Therefore, the pan-sharpening "
+#~ "process can't improve the resolution of NIR and SWIR bands (see "
+#~ ":ref:`pan_sharpening_definition`), which appear to have 30m resolution. "
+#~ "However, raster all pan-sharpened rasters have 15m resolution to allow "
+#~ "raster calculation."
+#~ msgstr ""
+#~ "Панхроматичний канал Landsat 8 не приймається у ближній інфрачервоній (NIR) "
+#~ "зоні (див. :ref:`Landsat_definition`). Тому процес панхроматичного "
+#~ "об'єднання не може покращити просторову розрізненність каналів NIR та SWIR "
+#~ "(див. :ref:`pan_sharpening_definition`), яка становить 30 м. Однак, растри "
+#~ "всіх інших каналів, що пройшли пан-шарпенинг, мають розрізненність 15 м, що "
+#~ "дозволяє проводити розрахунки на їх основі."
+
+#~ msgid "Other tutorials about SCP, also in languages other than English?"
+#~ msgstr ""
+#~ "Інші навчальні матеріали з SCP, також на мовах відмінних від англійської?"
+
+#~ msgid ""
+#~ "There are several tutorials about :guilabel:`SCP` on the internet. Following"
+#~ " an incomplete list of these resources:"
+#~ msgstr ""
+#~ "В інтернеті є декілька навчальних матеріалів про :guilabel:`SCP`. Нижче "
+#~ "наведено неповний перелік цих ресурсів:"
+
+#~ msgid ""
+#~ "`French: Suivre l’impact des feux de forêts par imagerie satellite avec le "
+#~ "plugin Qgis SCP <http://blog.martzluff.net/suivre-limpact-des-feux-de-"
+#~ "forets-par-imagerie-satellite-avec-le-plugin-qgis-scp-semi-automatic-"
+#~ "classification-plugin-exemple-de-lincendie-de-fin-mars-2015-en-ukraine-a"
+#~ "-proximite-de-la/>`_;"
+#~ msgstr ""
+#~ "`Французька: Suivre l’impact des feux de forêts par imagerie satellite avec "
+#~ "le plugin Qgis SCP <http://blog.martzluff.net/suivre-limpact-des-feux-de-"
+#~ "forets-par-imagerie-satellite-avec-le-plugin-qgis-scp-semi-automatic-"
+#~ "classification-plugin-exemple-de-lincendie-de-fin-mars-2015-en-ukraine-a"
+#~ "-proximite-de-la/>`_;"
+
+#~ msgid ""
+#~ "`Portuguese: Classificação Supervisionada de Imagens Orbitais com o Semi-"
+#~ "Automatic Classification Plugin <http://qgisbrasil.org/blog/wp-"
+#~ "content/uploads/2015/08/tutorial_scp_01.pdf>`_;"
+#~ msgstr ""
+#~ "`Потругальська: Classificação Supervisionada de Imagens Orbitais com o Semi-"
+#~ "Automatic Classification Plugin <http://qgisbrasil.org/blog/wp-"
+#~ "content/uploads/2015/08/tutorial_scp_01.pdf>`_;"
+
+#~ msgid ""
+#~ "`Portuguese: Tutorial Classificação e caracterização de imagens de satélites"
+#~ " <https://www.youtube.com/watch?v=Wab1UVmVl0k>`_;"
+#~ msgstr ""
+#~ "`Португальська: Tutorial Classificação e caracterização de imagens de "
+#~ "satélites <https://www.youtube.com/watch?v=Wab1UVmVl0k>`_;"
+
+#~ msgid ""
+#~ "`Portuguese: Aprendizagem Supervisionada usando o SCP no QGIS "
+#~ "<https://www.youtube.com/watch?v=FDYQrDb4qYY>`_;"
+#~ msgstr ""
+#~ "`Португальська: Aprendizagem Supervisionada usando o SCP no QGIS "
+#~ "<https://www.youtube.com/watch?v=FDYQrDb4qYY>`_;"
+
+#~ msgid ""
+#~ "`Portuguese: Classificação supervisionada utilizando o QGIS e SCP "
+#~ "<https://www.youtube.com/watch?v=TOMfdalS_U4>`_;"
+#~ msgstr ""
+#~ "`Португальська: Classificação supervisionada utilizando o QGIS e SCP "
+#~ "<https://www.youtube.com/watch?v=TOMfdalS_U4>`_;"
+
+#~ msgid ""
+#~ "`Russian: Опыт классификации космоснимка Landsat с помощью Semi-Automatic "
+#~ "Classification Plugin в QGIS <http://gis-"
+#~ "lab.info/qa/landsat_qgis_scp.html>`_;"
+#~ msgstr ""
+#~ "`Російська: Опыт классификации космоснимка Landsat с помощью Semi-Automatic "
+#~ "Classification Plugin в QGIS <http://gis-"
+#~ "lab.info/qa/landsat_qgis_scp.html>`_;"
+
+#~ msgid ""
+#~ "`Spanish: Ejercicio Clasificación Semiautomática Plugin (SCP) "
+#~ "<https://sernanpqgis.wordpress.com/2015/09/25/ejercicio-clasificacion-"
+#~ "semiautomatica-plugin-scp/>`_;"
+#~ msgstr ""
+#~ "`Іспанська: Ejercicio Clasificación Semiautomática Plugin (SCP) "
+#~ "<https://sernanpqgis.wordpress.com/2015/09/25/ejercicio-clasificacion-"
+#~ "semiautomatica-plugin-scp/>`_;"
+
+#~ msgid ""
+#~ "`Spanish: Aplicaciones de Teledetección con el QGIS y el plugin Semi-"
+#~ "Automatic Classification <http://carbajallosa.blogspot.it/2015/04"
+#~ "/aplicaciones-de-teledeteccion-con-el.html>`_;"
+#~ msgstr ""
+#~ "`Іспанська: Aplicaciones de Teledetección con el QGIS y el plugin Semi-"
+#~ "Automatic Classification <http://carbajallosa.blogspot.it/2015/04"
+#~ "/aplicaciones-de-teledeteccion-con-el.html>`_;"
+
+#~ msgid ""
+#~ "`Spanish: Descarga de Landsat 8, 7, 5 y 4 Semi Automatic Classification "
+#~ "Plugin Qgis 2.8 "
+#~ "<http://sistemasdeinformaciongeografica911.blogspot.mx/2015/04/descarga-de-"
+#~ "landsat-5-7-y-8-qgis-semi.html>`_;"
+#~ msgstr ""
+#~ "`Іспанська: Descarga de Landsat 8, 7, 5 y 4 Semi Automatic Classification "
+#~ "Plugin Qgis 2.8 "
+#~ "<http://sistemasdeinformaciongeografica911.blogspot.mx/2015/04/descarga-de-"
+#~ "landsat-5-7-y-8-qgis-semi.html>`_;"
+
+#~ msgid ""
+#~ "`Ukrainian: Посібник користувача модуля Напівавтоматичної класифікації "
+#~ "<http://semiautomaticclassificationmanual-v3.readthedocs.io/uk_UA/latest/>`_;"
+#~ msgstr ""

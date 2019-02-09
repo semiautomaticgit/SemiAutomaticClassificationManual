@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# 
+# Translators:
+# Ves Nikos, 2016
+# Luca Congedo <semiautomatic.blogger@gmail.com>, 2016
+# Alexandros Malounis <malounis@gmail.com>, 2016
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 13:09+0200\n"
+"PO-Revision-Date: 2016-08-30 06:58+0000\n"
+"Last-Translator: Alexandros Malounis <malounis@gmail.com>, 2016\n"
+"Language-Team: Greek (Greece) (https://www.transifex.com/semi-automatic-classification/teams/53374/el_GR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../semi-automatic_os.rst:5
+msgid "Semi-Automatic OS"
+msgstr "Λειτουργικό Σύστημα Ημι-αυτόματης ταξινόμησης"
+
+#: ../../semi-automatic_os.rst:13
+msgid "To be updated."
+msgstr ""
+
+#: ../../semi-automatic_os.rst:15
+msgid ""
+"The Semi-Automatic OS is a lightweight virtual machine for the land cover "
+"classification of remote sensing images. It includes the Semi-Automatic "
+"Classification Plugin (SCP) for QGIS, already configured along with all the "
+"required dependencies, and installed through the official SCP repository ( "
+"https://semiautomaticgit.github.io/SemiAutomaticClassificationPlugin/repository.xml"
+" ) which provides always the latest version of SCP."
+msgstr ""
+
+#: ../../semi-automatic_os.rst:21
+msgid ":guilabel:`Semi-Automatic OS desktop`"
+msgstr ":guilabel:`Semi-Automatic OS desktop`"
+
+#: ../../semi-automatic_os.rst:23
+msgid ""
+"The Semi-Automatic OS is based on `Debian <https://www.debian.org/>`_ , and "
+"it is designed to require very little hardware resources. It uses `LXDE "
+"<http://lxde.org/>`_ and `Openbox <http://openbox.org/>`_ as main desktop "
+"environment. This virtual machine can be useful for testing the Semi-"
+"Automatic Classification Plugin, or when the installation of the required "
+"programs in the host system is problematic. |br| The Semi-Automatic OS is "
+"available as a 32 bit and 64 bit virtual machine that can be run in the open"
+" source VirtualBox, or any other virtualization program. The following is a "
+"guide for the installation of the Semi-Automatic OS in the open source "
+"program of virtualization VirtualBox."
+msgstr ""
+"Το λειτουργικό σύστημα ημι-αυτόματης ταξινόμησης - Semi-Automatic OS "
+"βασίζεται στο λειτουργικό σύστημα `Debian <https://www.debian.org/>`_ , και "
+"είναι σχεδιασμένο να απαιτεί περιορισμένους πόρους υλισμικού - hardware. "
+"Χρησιμοποιεί το `LXDE <http://lxde.org/>`_ και το `Openbox "
+"<http://openbox.org/>`_ σαν το βασικό desktop περιβάλλον. Αυτή η εικονική "
+"μηχανή - VM μπορεί να χρησιμεύσει για την δοκιμή χωρίς εγκατάσταση του SCP ή"
+" όταν η δεδομένη εγκατάσταση είναι προβληματική σε συγκεκριμένο υλισμικό. "
+"|br| Το Semi-Automatic OS είναι διαθέσιμο σε 32 bit και 64 bit έκδοση "
+"εικονικής μηχανής, που μπορεί να τρέξει στο ανοικτού κώδικά λογισμικό "
+"VirtualBox, ή σε οποιοδήποτε άλλο λογισμικό virtualization. Το παρακάτω "
+"είναι ένας οδηγός για την εκγατάσταση του Semi-Automatic OS στο λογισμικό "
+"δημιουργίας εικονικών μηχανών VirtualBox."
+
+#: ../../semi-automatic_os.rst:33
+msgid "Installation in VirtualBox"
+msgstr "Εγκατάσταση στο VirtualBox"
+
+#: ../../semi-automatic_os.rst:35
+msgid ""
+"Download `VirtualBox <https://www.virtualbox.org/wiki/Downloads>`_ open "
+"source software (select a proper version depending on your OS) and install "
+"it; at the end of the installation restart the system;"
+msgstr ""
+"Μεταφορτώστε το `VirtualBox <https://www.virtualbox.org/wiki/Downloads>`_ "
+"λογισμικό ανοικτού κώδικα (επιλέξτε την κατάλληλη έκδοση σε σχέση με το "
+"λειτουργικό σύστημα όπου θα φτιαχεί η εικονική μηχανή) και εγκαταστήστε το. "
+"Στο τέλος της εγκατάστασης κάντε επανεκίννηση του υπολογιστή σας."
+
+#: ../../semi-automatic_os.rst:37
+msgid ""
+"Download the Semi-Automatic OS virtual machine (about 800 MB) from `here "
+"<https://sourceforge.net/projects/semi-automatic-os/files/Semi-"
+"Automatic%20OS%205.0.0/>`_ (32 bit or 64 bit);"
+msgstr ""
+
+#: ../../semi-automatic_os.rst:39
+msgid ""
+"Extract the virtual machine content in a directory (it requires about 3 GB "
+"of disk space); the file is compressed in 7z format (if needed, download the"
+" open source extraction software from http://www.7-zip.org/);"
+msgstr ""
+"Αποσυμπιέστε το περιεχόμενο του αρχείου σε ένα φάκελο (τα περιεχόμενα "
+"απαιτούν περίπου 3 GB χώρο στο δίσκο).  Τα αρχεία είναι συμπιεσμένα σε "
+"μορφότυπο 7z (εαν χρειαστεί κατεβάστε το λογισμικό 7z από `εδώ "
+"http://www.7-zip.org/)`."
+
+#: ../../semi-automatic_os.rst:41
+msgid "Run VirtualBox and create a new Debian virtual machine;"
+msgstr ""
+"Τρέξτε το VirtualBox και δημιουργήστε μια Debian εικονική μηχανή - VM."
+
+#: ../../semi-automatic_os.rst:43
+msgid "Click the New button;"
+msgstr "Κλικ στο κουμπί Νέο (New);"
+
+#: ../../semi-automatic_os.rst:45
+msgid ""
+"Type a name for the virtual machine (for instance Semi-Automatic OS); select"
+" Linux and Debian (32 or 64 bit) as Type and Version respectively; click "
+"Next;"
+msgstr ""
+"Δώστε ένα όνομα για την εικονική μηχανή (π.χ. Semi-Automatic OS), επιλέξτε "
+"Linux and Debian (32 ή 64 bit) ως Τype και Version αντίστοιχα, μετά πατήστε "
+"Επόμενο - Next,"
+
+#: ../../semi-automatic_os.rst:49
+msgid ""
+"Set the memory size; the more is the better, but this parameter should not "
+"exceed a half of the host system RAM (for instance if the host system has 1 "
+"GB of RAM, type 512 MB); click Next;"
+msgstr ""
+
+#: ../../semi-automatic_os.rst:53
+msgid ""
+"In the Hard drive settings select Use an existing virtual hard drive file "
+"and select the downloaded file SemiAutomaticOS.vmdk; click Create;"
+msgstr ""
+"Στις επιλογές σκληρού δίσκου - Hard drive, επιλέξτε Χρησιμοποιήστε εικονικό "
+"υπάρχον φάκελο σκληρού δίσκου -  Use an existing virtual hard drive file και"
+" επιλέξτε το αρχείο που μεταφορτώσατε SemiAutomaticOS.vmdk, κάντε κλι στο "
+"Δημιουργία - Create"
+
+#: ../../semi-automatic_os.rst:57
+msgid "Start the Semi-Automatic OS by clicking the Start button;"
+msgstr ""
+"Ξεκινήστε το Semi-Automatic OS κάνονντας κλικ στο κουμπί Εκκίνηση  - Start."
+
+#: ../../semi-automatic_os.rst:59
+msgid ""
+"It is recommended to install the virtualbox-guest-utils in the virtual "
+"machine, from the Menu > Preferences > Synaptic Package Manager; it allows "
+"for a better integration of the Semi-Automatic OS in the host system, such "
+"as: the resize of the system window, or the folder sharing."
+msgstr ""
+"Προτείενται να εγκαταστήσετε τις εφαρμογές virtualbox-guest-utils στο "
+"virtual machine  από το Menu -> Preferences --> Synaptic Package Manager. "
+"Επιτρέπει την καλύτερη συνεργασία και ολοκλήρωση του Semi-Automatic OS με το"
+" λειτουργικό σύστημα του υπολογιστή σας, όπως για παράδειγμα την προσαρμογή "
+"μεγέθους του παραθύρου της εικονικής μηχανής ή την διαμοίραση - sharing "
+"φακέλων."
+
+#: ../../semi-automatic_os.rst:61
+msgid ""
+"|br| The Semi-Automatic OS includes a sample dataset of Landsat image "
+"(available from the U.S. Geological Survey) and a Sentinel-2 image (© "
+"Copernicus Sentinel data 2016) which are the input for the two basic "
+"tutorials."
+msgstr ""
+
+#: ../../semi-automatic_os.rst:66
+msgid "|br|"
+msgstr "|br|"
+
+#: ../../semi-automatic_os.rst:68
+msgid ""
+"``Semi-Automatic OS is free software: you can redistribute it and/or modify "
+"it under the terms of the GNU General Public License as published by the "
+"Free Software Foundation, version 3 of the License. Semi-Automatic OS is "
+"distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; "
+"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A "
+"PARTICULAR PURPOSE. See the GNU General Public License for more details. See"
+" http://www.gnu.org/licenses/.``"
+msgstr ""
+"`Semi-Automatic OS is free software: you can redistribute it and/or modify "
+"it under the terms of the GNU General Public License as published by the "
+"Free Software Foundation, version 3 of the License. Semi-Automatic OS is "
+"distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; "
+"without even the implied warranty of MERCHANTABILITY or FITNESS FOR A "
+"PARTICULAR PURPOSE. See the GNU General Public License for more details. See"
+" http://www.gnu.org/licenses/.``"

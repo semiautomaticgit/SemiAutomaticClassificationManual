@@ -23,8 +23,7 @@ In addition, the :ref:`remote_sensing` illustrates the basic concepts and defini
 
 :ref:`tutorials` are available for learning the main functions of :guilabel:`SCP`.
 
-You are kindly invited to **contribute to SCP** (see :ref:`other_1`) and join the `Facebook group <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ or the `Google+ Community <https://plus.google.com/communities/107833394986612468374>`_.
-Several thousand people have already joined and posted hundreds of questions and comments.
+You are kindly invited to **contribute to SCP** (see :ref:`other_1`) and join the `Facebook group <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ .
 Also, please read the :ref:`FAQ`.
 
 For more information and tutorials visit the official site

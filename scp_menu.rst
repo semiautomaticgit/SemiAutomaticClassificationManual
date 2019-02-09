@@ -65,5 +65,5 @@ The :guilabel:`SCP menu` allows for the selection of the main functions of the :
 * |batch_tool| :ref:`batch_tab`;
 * |settings| :ref:`settings_tab`;
 * |guide| :guilabel:`User manual`: open the online user manual in a web browser;
-* |help| :guilabel:`Online help`: open the `Online help <https://fromgistors.blogspot.com/p/online-help.html>`_ in a web browser; also, a `Facebook group <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/>`_ and a `Google+ Community <https://plus.google.com/communities/107833394986612468374>`_ are available for sharing information and asking for help about SCP;
+* |help| :guilabel:`Online help`: open the `Online help <https://fromgistors.blogspot.com/p/online-help.html>`_ in a web browser; also, a `Facebook group <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/>`_ is available for sharing information and asking for help about SCP;
 * |docks| :guilabel:`Show plugin`: show all the SCP toolbars and dock if previously hidden;

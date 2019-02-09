@@ -2,14 +2,14 @@
 # Copyright (C) 2012-2018, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-13 20:25+0200\n"
+"POT-Creation-Date: 2019-02-09 11:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4069,37 +4069,4 @@ msgid ""
 "(GDAL, GDAL subprocess, NumPy, SciPy, Matplotlib, Internet connection); "
 "results are displayed in a window;"
 msgstr ""
-
-#~ msgid "|reset|: clear all bands from  :guilabel:`active band set`;"
-#~ msgstr ""
-
-#~ msgid "RUN |run|: choose the output destination and start the process;"
-#~ msgstr ""
-
-#~ msgid ""
-#~ msgstr ""
-
-#~ msgid "RUN |run|: select an output directory and start the mosaic process;"
-#~ msgstr ""
-
-#~ msgid "|mosaic_tool| :guilabel:`Cloud masking`"
-#~ msgstr ""
-
-#~ msgid "RUN |run|: select an output directory and start the mask process;"
-#~ msgstr ""
-
-#~ msgid "|band_combination| :guilabel:`Clustering`"
-#~ msgstr ""
-
-#~ msgid "RUN |run|: choose the output destination and start the calculation;"
-#~ msgstr ""
-
-#~ msgid "|band_combination| :guilabel:`Spectral distance`"
-#~ msgstr ""
-
-#~ msgid "RUN |run|: choose the output destination and start the conversion;"
-#~ msgstr ""
-
-#~ msgid "RUN |run|: edit the raster;"
-#~ msgstr ""
 

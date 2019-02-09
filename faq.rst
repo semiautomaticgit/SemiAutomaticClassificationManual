@@ -19,7 +19,7 @@ Frequently Asked Questions
 	:width: 18pt
 
 
-If you have comments or questions please join the `Facebook group <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ or the `Google+ Community <https://plus.google.com/communities/107833394986612468374>`_ .
+If you have comments or questions please join the `Facebook group <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ .
 
 Before asking, please check the official site `From GIS to Remote Sensing <https://fromgistors.blogspot.com>`_ and the following Frequently Asked Questions.
 	
@@ -266,7 +266,7 @@ If you found an error of the Semi-Automatic Classification Plugin please follow 
 	
 6. open the tab :ref:`settings_debug_tab` and uncheck the checkbox |checkbox| :guilabel:`Records events in a log file`, then click the button |export| and save the **log file** (which is a text file containing information about the Plugin processes);
 #. open the **log file** and copy the whole content of the file;
-#. join the Facebook `group <https://www.facebook.com/groups/661271663969035/>`_ or the Google+ `community <https://plus.google.com/communities/107833394986612468374>`_ , create a new post and copy the error message and the **log file** (or attach them).
+#. join the Facebook `group <https://www.facebook.com/groups/661271663969035/>`_ , create a new post and copy the error message and the **log file** (or attach them).
 
 .. _error_1:
 

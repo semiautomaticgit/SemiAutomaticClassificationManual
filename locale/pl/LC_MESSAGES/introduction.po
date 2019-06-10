@@ -2,7 +2,7 @@
 # Copyright (C) 2012-2018, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
 # Tomasz Nycz <tomasz.merkato@gmail.com>, 2018
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-07 00:29+0100\n"
+"POT-Creation-Date: 2019-02-09 11:13+0100\n"
 "PO-Revision-Date: 2016-08-29 15:42+0000\n"
 "Last-Translator: Tomasz Nycz <tomasz.merkato@gmail.com>, 2018\n"
 "Language-Team: Polish (https://www.transifex.com/semi-automatic-classification/teams/53374/pl/)\n"
@@ -97,27 +97,17 @@ msgstr ""
 msgid ""
 "You are kindly invited to **contribute to SCP** (see :ref:`other_1`) and "
 "join the `Facebook group "
-"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ or the"
-" `Google+ Community "
-"<https://plus.google.com/communities/107833394986612468374>`_. Several "
-"thousand people have already joined and posted hundreds of questions and "
-"comments. Also, please read the :ref:`FAQ`."
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ . "
+"Also, please read the :ref:`FAQ`."
 msgstr ""
-"Serdecznie zapraszamy do **współtworzenia SCP** (zobacz :ref:`other_1`) i "
-"dołączenia do grupy Facebook "
-"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ lub "
-"społeczności`Google+ "
-"<https://plus.google.com/communities/107833394986612468374>`_. Kilka tysięcy"
-" osób już dołączyło i opublikowało setki postów i komentarzy. Zapraszamy "
-"również do lektury :ref:`FAQ`."
 
-#: ../../introduction.rst:30
+#: ../../introduction.rst:29
 msgid "For more information and tutorials visit the official site"
 msgstr ""
 "Jeśli szukasz więcej informacji, lub instrukcji krok-po-kroku odwiedź "
 "oficjalną stronę wtyczki. "
 
-#: ../../introduction.rst:32
+#: ../../introduction.rst:31
 msgid ""
 "|fromGIStoRS| `From GIS to Remote Sensing "
 "<https://fromgistors.blogspot.com>`_"
@@ -125,16 +115,16 @@ msgstr ""
 "|fromGIStoRS| `From GIS to Remote Sensing "
 "<https://fromgistors.blogspot.com>`_"
 
-#: ../../introduction.rst:34 ../../introduction.rst:40
-#: ../../introduction.rst:51 ../../introduction.rst:57
+#: ../../introduction.rst:33 ../../introduction.rst:39
+#: ../../introduction.rst:50 ../../introduction.rst:56
 msgid "|br|"
 msgstr "|br|"
 
-#: ../../introduction.rst:36
+#: ../../introduction.rst:35
 msgid "**How to cite:**"
 msgstr "**Sposób cytowania:**"
 
-#: ../../introduction.rst:38
+#: ../../introduction.rst:37
 msgid ""
 "*Congedo Luca (2016). Semi-Automatic Classification Plugin Documentation.* "
 "DOI: http://dx.doi.org/10.13140/RG.2.2.29474.02242/1"
@@ -142,11 +132,11 @@ msgstr ""
 "*Congedo Luca (2016). Semi-Automatic Classification Plugin Documentation.* "
 "DOI: http://dx.doi.org/10.13140/RG.2.2.29474.02242/1"
 
-#: ../../introduction.rst:42
+#: ../../introduction.rst:41
 msgid "**License:**"
 msgstr "**Licencja:**"
 
-#: ../../introduction.rst:44
+#: ../../introduction.rst:43
 msgid ""
 "Except where otherwise noted, content of this work is licensed under a "
 "`Creative Commons Attribution-ShareAlike 4.0 International License "
@@ -156,7 +146,7 @@ msgstr ""
 "licencji `Creative Commons Attribution-ShareAlike 4.0 International License "
 "<http://creativecommons.org/licenses/by-sa/4.0/>`_."
 
-#: ../../introduction.rst:47
+#: ../../introduction.rst:46
 msgid ""
 "``Semi-Automatic Classification Plugin is free software: you can "
 "redistribute it and/or modify it under the terms of the GNU General Public "
@@ -178,20 +168,10 @@ msgstr ""
 " the GNU General Public License along with Semi-Automatic Classification "
 "Plugin. If not, see http://www.gnu.org/licenses/.``"
 
-#: ../../introduction.rst:53
+#: ../../introduction.rst:52
 msgid "**Translators:**"
 msgstr "**Tłumacze:**"
 
-#: ../../introduction.rst:55
+#: ../../introduction.rst:54
 msgid "Language: Author"
 msgstr "Język: Autor"
-
-#~ msgid "http://www.youtube.com/watch?v=K2mIa66e6h0"
-#~ msgstr "http://www.youtube.com/watch?v=K2mIa66e6h0"
-
-#~ msgid ""
-#~ ":ref:`tutorials` are available for learning the main functions of "
-#~ ":guilabel:`SCP` and :ref:`thematic_tutorials` illustrate specific tools."
-#~ msgstr ""
-#~ "Dostępne są :ref:`tutorials`  dla nauki podstawowych funkcji  "
-#~ ":guilabel:`SCP` a także  :ref:`thematic_tutorials` dla pokazania szczegółów."

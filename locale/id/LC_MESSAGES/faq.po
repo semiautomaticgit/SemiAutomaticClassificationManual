@@ -2,19 +2,20 @@
 # Copyright (C) 2012-2018, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
-# arthur koto <atthetruth@gmail.com>, 2018
+# arthur koto <atthetruth@gmail.com>, 2016
+# iqnaul <iqnaulhaq@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-07 00:29+0100\n"
+"POT-Creation-Date: 2019-02-09 11:13+0100\n"
 "PO-Revision-Date: 2016-08-30 06:54+0000\n"
-"Last-Translator: arthur koto <atthetruth@gmail.com>, 2018\n"
+"Last-Translator: iqnaul <iqnaulhaq@gmail.com>, 2019\n"
 "Language-Team: Indonesian (https://www.transifex.com/semi-automatic-classification/teams/53374/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,20 +26,16 @@ msgstr ""
 
 #: ../../faq.rst:5
 msgid "Frequently Asked Questions"
-msgstr "Beberapa Pertanyaan dan Jawaban"
+msgstr "Beberapa Pertanyaan yang sering ditanyakan"
 
 #: ../../faq.rst:22
 msgid ""
 "If you have comments or questions please join the `Facebook group "
-"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ or the"
-" `Google+ Community "
-"<https://plus.google.com/communities/107833394986612468374>`_ ."
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ ."
 msgstr ""
-"Jika anda mempunyai komentar atau pertanyaan, silahkan bergabung pada grup "
-"facebook "
-"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ atau "
-"komunitas Google+ "
-"<https://plus.google.com/communities/107833394986612468374>`_ ."
+"Jika anda memiliki komentar atau pertanyaan silahkan bergabung ke grup "
+"Facebook "
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ ."
 
 #: ../../faq.rst:24
 msgid ""
@@ -46,6 +43,9 @@ msgid ""
 "<https://fromgistors.blogspot.com>`_ and the following Frequently Asked "
 "Questions."
 msgstr ""
+"Sebelum bertanya, silahkan mengunjungi situs resmi `From GIS to Remote "
+"Sensing <https://fromgistors.blogspot.com>`_ dan mengikuti Pertanyaan-"
+"pertanyaan yang sering ditanyakan."
 
 #: ../../faq.rst:33
 msgid "Plugin installation"
@@ -141,7 +141,7 @@ msgstr "Langkah-langkah instalasi dari repositori SCP :"
 
 #: ../../faq.rst:60
 msgid "Run QGIS;"
-msgstr ""
+msgstr "Jalankan QGIS;"
 
 #: ../../faq.rst:62
 msgid ""
@@ -392,6 +392,12 @@ msgid ""
 "However, all pan-sharpened rasters have 15m resolution to allow raster "
 "calculation."
 msgstr ""
+"Saluran pankromatik Landsat 8 tidak mengambil area Inframerah Dekat (NIR) "
+"(lihat :ref:`Landsat_definition`). Namun, proses pan-sharpening tidak bisa "
+"meningkatkan resolusi dari saluran NIR dan SWIR (lihat "
+":ref:`pan_sharpening_definition`), yang terlihat memiliki resolusi 30m. "
+"Selanjutnya, seluruh raster yang telah dilakukan pan-sharpened memiliki "
+"resolusi 15m agar dapat dilakukan perhitungan raster."
 
 #: ../../faq.rst:177
 msgid "Processing"
@@ -548,6 +554,8 @@ msgid ""
 "open QGIS, open the Plugin tab :ref:`settings_debug_tab` and check the "
 "checkbox |checkbox| :guilabel:`Records events in a log file` ;"
 msgstr ""
+"buka QGIS, buka tab Plugin ref:`settings_debug_tab` dan cek kotak centang "
+"|checkbox| :guilabel:`Records events in a log file` ;"
 
 #: ../../faq.rst:255
 msgid ":guilabel:`Debug`"
@@ -558,6 +566,8 @@ msgid ""
 "click the button :guilabel:`Test dependencies` |enter| in the tab "
 ":ref:`settings_debug_tab` ;"
 msgstr ""
+"klik tombol :guilabel:`Test dependencies` |enter| di dalam tab "
+":ref:`settings_debug_tab` ;"
 
 #: ../../faq.rst:258
 msgid ""
@@ -598,6 +608,10 @@ msgid ""
 " save the **log file** (which is a text file containing information about "
 "the Plugin processes);"
 msgstr ""
+"buka tab :ref:`settings_debug_tab` dan hilangkan centang pada kotak centang "
+"|checkbox| :guilabel:`Records events in a log file`, kemudian klik tombol "
+"|export| dan simpan **log file** (dimana sebuah berkas teks berisi informasi"
+" tentang proses yang dilakukan oleh plugin);"
 
 #: ../../faq.rst:268
 msgid "open the **log file** and copy the whole content of the file;"
@@ -606,15 +620,12 @@ msgstr "Buka **log file** dan salin seluruh isi file;"
 #: ../../faq.rst:269
 msgid ""
 "join the Facebook `group "
-"<https://www.facebook.com/groups/661271663969035/>`_ or the Google+ "
-"`community <https://plus.google.com/communities/107833394986612468374>`_ , "
-"create a new post and copy the error message and the **log file** (or attach"
-" them)."
+"<https://www.facebook.com/groups/661271663969035/>`_ , create a new post and"
+" copy the error message and the **log file** (or attach them)."
 msgstr ""
-"bergabunglah dengan grup Facebook "
-"<https://www.facebook.com/groups/661271663969035/>`_ atau komunitas Google+ "
-"<https://plus.google.com/communities/107833394986612468374>`_ , buat "
-"postingan dan salin pesan kesalahan  **log file** (atau melampirkannya)."
+"bergabung ke Facebook `group "
+"<https://www.facebook.com/groups/661271663969035/>`_ , membuat sebuah "
+"tulisan baru dan tempelkan pesan kesalahan dan **log file** (atau lampirkan)"
 
 #: ../../faq.rst:274
 msgid "Virtual raster creation issues. Why?"
@@ -702,6 +713,10 @@ msgid ""
 ".qgis2 in your user directory. Then run QGIS and try to install the plugin "
 "following the :ref:`installation` guide."
 msgstr ""
+"Ini dapat berkaitan dengan instalasi yang salah. Silahkan hapus QGIS dan "
+"pasang lagi dengan hak administratif. Hapus direktori .qgis2 didalam "
+"direktori pengguna anda. Kemudian jalankan QGIS dan coba untuk melakukan "
+"pemasangan instalasi dengan langkah petunjuk berikut :ref:`installation`."
 
 #: ../../faq.rst:303
 msgid ""
@@ -1047,7 +1062,7 @@ msgstr ""
 
 #: ../../faq.rst:426
 msgid "The following links are valuable resources:"
-msgstr ""
+msgstr "Tautan berikut ini adalah sumberdaya yang berguna:"
 
 #: ../../faq.rst:428
 msgid ""
@@ -1118,6 +1133,7 @@ msgstr ""
 #: ../../faq.rst:440
 msgid "Other tutorials about SCP, also in languages other than English"
 msgstr ""
+"Petunjuk lainnya tentang SCP, yang juga tersedia dalam bahasa selain Inggris"
 
 #: ../../faq.rst:442
 msgid ""
@@ -1125,6 +1141,9 @@ msgid ""
 " an incomplete list of these resources (please note that these resources "
 "could use older versions of SCP):"
 msgstr ""
+"Terdapat beberapa petunjuk tentang :guilabel:`SCP` di internet. Mengikuti "
+"daftar sumberdaya yang tidak lengkap (mohon diperhatikan bahwa sumberdaya "
+"ini bisa saja menggunakan versi lebih awal dari SCP):"
 
 #: ../../faq.rst:445
 msgid ""
@@ -1132,24 +1151,33 @@ msgid ""
 "Satellite Imagery <https://arset.gsfc.nasa.gov/land/webinars/advanced-land-"
 "classification>`_;"
 msgstr ""
+"``Bahasa Inggris: Webinar oleh NASA ARSET tentang Klasifikasi Tutupan Lahan "
+"dengan Citra Satelit <https://arset.gsfc.nasa.gov/land/webinars/advanced-"
+"land-classification>`_;"
 
 #: ../../faq.rst:446
 msgid ""
 "`English: Recommended Practice by UN-SPIDER about Burn Severity Mapping Burn"
 " Severity with QGIS <http://www.un-spider.org/node/10955>`_;"
 msgstr ""
+"`Bahasa Inggris: Praktek yang direkomendasikan oleh UN-SPIDER tentang "
+"Pemetaan dengan QGIS <http://www.un-spider.org/node/10955>`_;"
 
 #: ../../faq.rst:447
 msgid ""
 "`English: Using the SCP QGIS plugin to download and process Sentinel 2 "
 "imagery <https://www.youtube.com/watch?v=77BEF7txk4s>`_;"
 msgstr ""
+"`Bahasa Inggris: Menggunakan plugin SCP QGIS untuk mengunduh dan memproses "
+"Citra Sentinel 2 <https://www.youtube.com/watch?v=77BEF7txk4s>`_;"
 
 #: ../../faq.rst:448
 msgid ""
 "`French: Télédétection des feux de forêts <https://www.geonov.fr/exemples"
 "/teledetection-feux-de-forets/>`_;"
 msgstr ""
+"`Bahasa Perancis: Penginderaan Jauh untuk Kebakaran Hutan "
+"<https://www.geonov.fr/exemples/teledetection-feux-de-forets/>`_;"
 
 #: ../../faq.rst:449
 msgid ""
@@ -1165,6 +1193,9 @@ msgid ""
 "Classification <https://rosegislabs.com/2017/02/28/koreksi-radiometrik-"
 "menggunakan-qgissemi-automatic-classification-part-1/>`_;"
 msgstr ""
+"`Indonesian: Koreksi Radiometrik Menggunakan QGIS:Semi Automatic "
+"Classification <https://rosegislabs.com/2017/02/28/koreksi-radiometrik-"
+"menggunakan-qgissemi-automatic-classification-part-1/>`_;"
 
 #: ../../faq.rst:451
 msgid ""
@@ -1172,6 +1203,9 @@ msgid ""
 "<https://fromgistors.blogspot.com/2015/09/tutorial-classificazione-mosaico-"
 "landsat.html>`_;"
 msgstr ""
+"`Bahasa Italia: Klasifikasi dan Mosaik dari Berbagai Citra Landsat "
+"<https://fromgistors.blogspot.com/2015/09/tutorial-classificazione-mosaico-"
+"landsat.html>`_;"
 
 #: ../../faq.rst:452
 msgid ""
@@ -1445,7 +1479,7 @@ msgstr ""
 
 #: ../../faq.rst:527
 msgid "How to install QGIS using OSGeo4W?"
-msgstr ""
+msgstr "Bagaimana memasang QGIS menggunakan OSGeo4W?"
 
 #: ../../faq.rst:529
 msgid ""
@@ -1454,22 +1488,26 @@ msgid ""
 "installer x64 <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe>`_"
 " according to your operating system."
 msgstr ""
+"Untuk memasang QGIS, pertama unduhlah `OSGeo4W installer x86 "
+"<http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe>`_ atau `OSGeo4W "
+"installer x64 <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe>`_"
+" sesuai sistem operasi anda."
 
 #: ../../faq.rst:531
 msgid "Then start the installer and select ``Advanced Install``."
-msgstr ""
+msgstr "Kemudian jalankan pemasangan dan pilih \"Pemasangan Lanjutan\"."
 
 #: ../../faq.rst:535
 msgid "Check ``Install from Internet`` and click ``Next``."
-msgstr ""
+msgstr "Beri tanda centang \"Pasang dari Internet\" dan klik \"Lanjut\"."
 
 #: ../../faq.rst:539
 msgid "Select the installation directory and click ``Next``."
-msgstr ""
+msgstr "Pilih direktori pemasangan dan klik \"Lanjut\"."
 
 #: ../../faq.rst:543
 msgid "Select the local package directory and click ``Next``."
-msgstr ""
+msgstr "Piih direktori paket lokal dan klik \"Lanjut\"."
 
 #: ../../faq.rst:547
 msgid ""
@@ -1511,144 +1549,3 @@ msgid ""
 "After the download, QGIS should be installed with all the required "
 "dependencies for SCP."
 msgstr ""
-
-#~ msgid "How do I create a virtual raster manually in QGIS?"
-#~ msgstr "Bagaimana saya membuat manual raster virtual pada QGIS?"
-
-#~ msgid "In order to create a multi-spectral virtual raster in QGIS:"
-#~ msgstr "Langkah-langkah untuk membuat multi-spektral raster virtual di QGIS :"
-
-#~ msgid ""
-#~ "from the menu ``Raster`` select ``Miscellaneous > Build Virtual Raster "
-#~ "(catalog)``;"
-#~ msgstr ""
-#~ "Pada menu \"Raster\" pilih ``Miscellaneous > Build Virtual Raster "
-#~ "(catalog)``;"
-
-#~ msgid ""
-#~ "click the button ``Select...`` and select all the Landsat bands (in "
-#~ "numerical order);"
-#~ msgstr ""
-#~ "Klik tombol ``Select...`` dan pilih semua saluran Landsat (susun salurannya)"
-
-#~ msgid ""
-#~ "select the output file (for instance ``rgb.vrt``); check ``Separate`` (bands"
-#~ " will be separated) and click ``OK``."
-#~ msgstr ""
-#~ "Pilih file outputnya (misalnya ``rgb.vrt``); centang ``Separate`` (saluran "
-#~ "akan terpisah) dan klik \"OK\""
-
-#~ msgid ""
-#~ "Landsat 8 panchromatic band doesn't acquire in the Near Infrared (NIR) "
-#~ "region (see :ref:`Landsat_definition`). Therefore, the pan-sharpening "
-#~ "process can't improve the resolution of NIR and SWIR bands (see "
-#~ ":ref:`pan_sharpening_definition`), which appear to have 30m resolution. "
-#~ "However, raster all pan-sharpened rasters have 15m resolution to allow "
-#~ "raster calculation."
-#~ msgstr ""
-#~ "Saluran pankromatik Landsat 8 tidak masuk di wilayah Near Infrared (NIR) "
-#~ "(lihat: ref: `Landsat_definition`). Oleh karena itu, proses pan-sharpening "
-#~ "tidak dapat meningkatkan nilai resolusi saluran NIR dan SWIR (lihat: ref: "
-#~ "`pan_sharpening_definition`), yang harusnya memiliki resolusi 30m. Namun, "
-#~ "semua raster yang di pan-sharpening memiliki resolusi 15m untuk memungkinkan"
-#~ " perhitungan raster."
-
-#~ msgid "Other tutorials about SCP, also in languages other than English?"
-#~ msgstr ""
-#~ "Apakah tutorial tentang SCP juga tersedia dalam bahasa lain selain bahasa "
-#~ "Inggris?"
-
-#~ msgid ""
-#~ "There are several tutorials about :guilabel:`SCP` on the internet. Following"
-#~ " an incomplete list of these resources:"
-#~ msgstr ""
-#~ "Ada beberapa tutorial tentang :guilabel:`SCP` diinternet. Berikut daftar "
-#~ "lengkap dari beberapa sumber:"
-
-#~ msgid ""
-#~ "`French: Suivre l’impact des feux de forêts par imagerie satellite avec le "
-#~ "plugin Qgis SCP <http://blog.martzluff.net/suivre-limpact-des-feux-de-"
-#~ "forets-par-imagerie-satellite-avec-le-plugin-qgis-scp-semi-automatic-"
-#~ "classification-plugin-exemple-de-lincendie-de-fin-mars-2015-en-ukraine-a"
-#~ "-proximite-de-la/>`_;"
-#~ msgstr ""
-#~ "`French: Suivre l’impact des feux de forêts par imagerie satellite avec le "
-#~ "plugin Qgis SCP <http://blog.martzluff.net/suivre-limpact-des-feux-de-"
-#~ "forets-par-imagerie-satellite-avec-le-plugin-qgis-scp-semi-automatic-"
-#~ "classification-plugin-exemple-de-lincendie-de-fin-mars-2015-en-ukraine-a"
-#~ "-proximite-de-la/>`_;"
-
-#~ msgid ""
-#~ "`Portuguese: Classificação Supervisionada de Imagens Orbitais com o Semi-"
-#~ "Automatic Classification Plugin <http://qgisbrasil.org/blog/wp-"
-#~ "content/uploads/2015/08/tutorial_scp_01.pdf>`_;"
-#~ msgstr ""
-#~ "`Portuguese: Classificação Supervisionada de Imagens Orbitais com o Semi-"
-#~ "Automatic Classification Plugin <http://qgisbrasil.org/blog/wp-"
-#~ "content/uploads/2015/08/tutorial_scp_01.pdf>`_;"
-
-#~ msgid ""
-#~ "`Portuguese: Tutorial Classificação e caracterização de imagens de satélites"
-#~ " <https://www.youtube.com/watch?v=Wab1UVmVl0k>`_;"
-#~ msgstr ""
-#~ "`Portuguese: Tutorial Classificação e caracterização de imagens de satélites"
-#~ " <https://www.youtube.com/watch?v=Wab1UVmVl0k>`_;"
-
-#~ msgid ""
-#~ "`Portuguese: Aprendizagem Supervisionada usando o SCP no QGIS "
-#~ "<https://www.youtube.com/watch?v=FDYQrDb4qYY>`_;"
-#~ msgstr ""
-#~ "`Portuguese: Aprendizagem Supervisionada usando o SCP no QGIS "
-#~ "<https://www.youtube.com/watch?v=FDYQrDb4qYY>`_;"
-
-#~ msgid ""
-#~ "`Portuguese: Classificação supervisionada utilizando o QGIS e SCP "
-#~ "<https://www.youtube.com/watch?v=TOMfdalS_U4>`_;"
-#~ msgstr ""
-#~ "`Portuguese: Classificação supervisionada utilizando o QGIS e SCP "
-#~ "<https://www.youtube.com/watch?v=TOMfdalS_U4>`_;"
-
-#~ msgid ""
-#~ "`Russian: Опыт классификации космоснимка Landsat с помощью Semi-Automatic "
-#~ "Classification Plugin в QGIS <http://gis-"
-#~ "lab.info/qa/landsat_qgis_scp.html>`_;"
-#~ msgstr ""
-#~ "`Russian: Опыт классификации космоснимка Landsat с помощью Semi-Automatic "
-#~ "Classification Plugin в QGIS <http://gis-"
-#~ "lab.info/qa/landsat_qgis_scp.html>`_;"
-
-#~ msgid ""
-#~ "`Spanish: Ejercicio Clasificación Semiautomática Plugin (SCP) "
-#~ "<https://sernanpqgis.wordpress.com/2015/09/25/ejercicio-clasificacion-"
-#~ "semiautomatica-plugin-scp/>`_;"
-#~ msgstr ""
-#~ "`Spanish: Ejercicio Clasificación Semiautomática Plugin (SCP) "
-#~ "<https://sernanpqgis.wordpress.com/2015/09/25/ejercicio-clasificacion-"
-#~ "semiautomatica-plugin-scp/>`_;"
-
-#~ msgid ""
-#~ "`Spanish: Aplicaciones de Teledetección con el QGIS y el plugin Semi-"
-#~ "Automatic Classification <http://carbajallosa.blogspot.it/2015/04"
-#~ "/aplicaciones-de-teledeteccion-con-el.html>`_;"
-#~ msgstr ""
-#~ "`Spanish: Aplicaciones de Teledetección con el QGIS y el plugin Semi-"
-#~ "Automatic Classification <http://carbajallosa.blogspot.it/2015/04"
-#~ "/aplicaciones-de-teledeteccion-con-el.html>`_;"
-
-#~ msgid ""
-#~ "`Spanish: Descarga de Landsat 8, 7, 5 y 4 Semi Automatic Classification "
-#~ "Plugin Qgis 2.8 "
-#~ "<http://sistemasdeinformaciongeografica911.blogspot.mx/2015/04/descarga-de-"
-#~ "landsat-5-7-y-8-qgis-semi.html>`_;"
-#~ msgstr ""
-#~ "`Spanish: Descarga de Landsat 8, 7, 5 y 4 Semi Automatic Classification "
-#~ "Plugin Qgis 2.8 "
-#~ "<http://sistemasdeinformaciongeografica911.blogspot.mx/2015/04/descarga-de-"
-#~ "landsat-5-7-y-8-qgis-semi.html>`_;"
-
-#~ msgid ""
-#~ "`Ukrainian: Посібник користувача модуля Напівавтоматичної класифікації "
-#~ "<http://semiautomaticclassificationmanual-v3.readthedocs.io/uk_UA/latest/>`_;"
-#~ msgstr ""
-#~ "`Ukraina: Посібник користувача модуля Напівавтоматичної класифікації "
-#~ "<http://semiautomaticclassificationmanual-v3.readthedocs.io/uk_UA/latest/>`_;"

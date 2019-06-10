@@ -2,20 +2,19 @@
 # Copyright (C) 2012-2018, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
 # arthur koto <atthetruth@gmail.com>, 2016
-# Ridho Kurniawan <ridho.kurniawan@mail.ugm.ac.id>, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-27 13:09+0200\n"
+"POT-Creation-Date: 2019-02-09 11:13+0100\n"
 "PO-Revision-Date: 2016-08-30 06:57+0000\n"
-"Last-Translator: Ridho Kurniawan <ridho.kurniawan@mail.ugm.ac.id>, 2017\n"
+"Last-Translator: arthur koto <atthetruth@gmail.com>, 2016\n"
 "Language-Team: Indonesian (https://www.transifex.com/semi-automatic-classification/teams/53374/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,18 +94,9 @@ msgid ""
 "|help| :guilabel:`Online help`: open the `Online help "
 "<https://fromgistors.blogspot.com/p/online-help.html>`_ in a web browser; "
 "also, a `Facebook group "
-"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/>`_ and a"
-" `Google+ Community "
-"<https://plus.google.com/communities/107833394986612468374>`_ are available "
-"for sharing information and asking for help about SCP;"
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/>`_ is "
+"available for sharing information and asking for help about SCP;"
 msgstr ""
-"|help| :guilabel:`Online help`: open the `Bantuan online "
-"<https://fromgistors.blogspot.com/p/online-help.html>`_ pada web browser; "
-"juga, sebuah`Grup Facebook "
-"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/>`_ dan "
-"sebuah `Kumunitas "
-"Google+<https://plus.google.com/communities/107833394986612468374>`_ dapat "
-"untuk sharing informasi dan meminta bantuan tentang SCP;"
 
 #: ../../scp_menu.rst:69
 msgid ""

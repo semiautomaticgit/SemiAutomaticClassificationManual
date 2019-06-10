@@ -2,7 +2,7 @@
 # Copyright (C) 2012-2018, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
 # Tomasz Nycz <tomasz.merkato@gmail.com>, 2018
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 6.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-27 13:09+0200\n"
+"POT-Creation-Date: 2019-02-09 11:13+0100\n"
 "PO-Revision-Date: 2016-08-30 06:56+0000\n"
 "Last-Translator: Tomasz Nycz <tomasz.merkato@gmail.com>, 2018\n"
 "Language-Team: Polish (https://www.transifex.com/semi-automatic-classification/teams/53374/pl/)\n"

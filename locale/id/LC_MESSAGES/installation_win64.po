@@ -24,48 +24,46 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../installation_mac.rst:5
-msgid "Installation in Mac OS"
-msgstr "Instalasi pada OS Mac"
+#: ../../installation_win64.rst:5
+msgid "Installation in Windows 64 bit"
+msgstr "Instalasi pada Windows 64 bit"
 
-#: ../../installation_mac.rst:14
+#: ../../installation_win64.rst:14
 msgid "QGIS download and installation"
 msgstr "Unduh QGIS dan instal"
 
-#: ../../installation_mac.rst:16
+#: ../../installation_win64.rst:16
 msgid ""
-"Download and install the latest version of QGIS and GDAL from `here "
-"<http://www.kyngchaos.com/software/qgis>`_ ."
+"Download the latest QGIS version 64 bit from `here "
+"<https://www.qgis.org/en/site/forusers/download.html>`_ ;"
 msgstr ""
-"Unduh dan instal QGIS versi terbaru dan GDAL dari sini "
-"<http://www.kyngchaos.com/software/qgis>`_ ."
 
-#: ../../installation_mac.rst:18
+#: ../../installation_win64.rst:18
 msgid ""
-"In addition, download and install the python modules Numpy, Scipy, and "
-"Matplotlib from this `link <http://www.kyngchaos.com/software/python>`_ ."
+"Execute the QGIS installer with administrative rights, accepting the default"
+" configuration."
 msgstr ""
-"Selain itu, unduh dan instal modul python Numpy, Scipy, dan Matplotlib dari "
-"link berikut <http://www.kyngchaos.com/software/python>`_ ."
+"Jalankan installer QGIS dengan mode administrative, pilih konfigurasi "
+"default."
 
-#: ../../installation_mac.rst:20
+#: ../../installation_win64.rst:20
 msgid "Now, QGIS is installed."
 msgstr ""
 
-#: ../../installation_mac.rst:27
+#: ../../installation_win64.rst:27
 msgid "Semi-Automatic Classification Plugin installation"
 msgstr "Menginstal Semi-Automatic Classification Plugin"
 
-#: ../../installation_mac.rst:29
+#: ../../installation_win64.rst:29
 msgid "Run QGIS;"
 msgstr "Jalankan QGIS;"
 
-#: ../../installation_mac.rst:31
+#: ../../installation_win64.rst:31
 msgid ""
 "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr "Pada menu utama pilih ``Plugins`` > ``Manage and Install Plugins``;"
 
-#: ../../installation_mac.rst:35
+#: ../../installation_win64.rst:35
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin and "
 "click the button ``Install plugin``;"
@@ -73,7 +71,7 @@ msgstr ""
 "Pda menu \"All\", pilih Semi-Automatic Classification Plugin dan klik tombol"
 " `Install plugin``;"
 
-#: ../../installation_mac.rst:37
+#: ../../installation_win64.rst:37
 msgid ""
 "**TIP**: in case of issues or an offline installation is required see "
 ":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
@@ -81,7 +79,7 @@ msgstr ""
 "**TIP**: Pada masalah atau instalasi secara offline diperlukan :ref: "
 "`plugin_installation_1` dan: ref:` plugin_installation_2`."
 
-#: ../../installation_mac.rst:41
+#: ../../installation_win64.rst:41
 msgid ""
 "The SCP should be automatically activated; however, be sure that the Semi-"
 "Automatic Classification Plugin is checked in the menu ``Installed`` (the "
@@ -91,11 +89,11 @@ msgstr ""
 "Classification Plugin dicentang di menu `` Installed`` (restart QGIS "
 "diperlukan untuk menyempurnakan proses instalasi SCP);"
 
-#: ../../installation_mac.rst:48
+#: ../../installation_win64.rst:48
 msgid "Configuration of the plugin"
 msgstr "Konfigurasi plugin"
 
-#: ../../installation_mac.rst:50
+#: ../../installation_win64.rst:50
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and a "
 "toolbar should be added to QGIS. Also, a SCP menu is available in the Menu "
@@ -103,7 +101,7 @@ msgid ""
 "your needs, as in the following image."
 msgstr ""
 
-#: ../../installation_mac.rst:56
+#: ../../installation_win64.rst:56
 msgid ""
 "The configuration of available RAM is recommended in order to reduce the "
 "processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings "
@@ -112,7 +110,7 @@ msgstr ""
 "Konfigurasi RAM yang tersedia dianjurkan untuk mengurangi waktu pemrosesan. "
 "Dari :ref:`SCP_menu` pilih |settings_too| ``Settings > Processing``."
 
-#: ../../installation_mac.rst:61
+#: ../../installation_win64.rst:61
 msgid ""
 "In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that "
 "should be half of the system RAM. For instance, if your system has 2GB of "

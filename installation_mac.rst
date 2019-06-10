@@ -13,9 +13,7 @@ Installation in Mac OS
 QGIS download and installation
 ------------------------------
 
-* Download and install the latest version of QGIS and GDAL from `here <http://www.kyngchaos.com/software/qgis>`_ .
-
-* In addition, download and install the python modules Numpy, Scipy, and Matplotlib from this `link <http://www.kyngchaos.com/software/python>`_ .
+* Download and install the latest version of QGIS and GDAL from `here <https://qgis.org/it/site/forusers/download.html#mac>`_ .
 
 Now, QGIS is installed.
 
@@ -42,6 +40,19 @@ Semi-Automatic Classification Plugin installation
 
 .. image:: _static/plugins_installed.jpg
 
+
+In case of missing dependencies, you could get error messages such as the following example with matplotlib:
+
+.. image:: _static/error_message_mac.jpg
+
+
+To install matplotlib type in a terminal::
+
+	sudo pip3 install matplotlib
+	
+and repeat this step for other missing dependencies.
+	
+	
 .. _plugin_configuration_mac:
 
 Configuration of the plugin

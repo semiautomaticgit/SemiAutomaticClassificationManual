@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"POT-Creation-Date: 2019-06-10 20:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,44 +29,38 @@ msgstr ""
 #: ../../installation_mac.rst:16
 msgid ""
 "Download and install the latest version of QGIS and GDAL from `here "
-"<http://www.kyngchaos.com/software/qgis>`_ ."
+"<https://qgis.org/it/site/forusers/download.html#mac>`_ ."
 msgstr ""
 
 #: ../../installation_mac.rst:18
-msgid ""
-"In addition, download and install the python modules Numpy, Scipy, and "
-"Matplotlib from this `link <http://www.kyngchaos.com/software/python>`_ ."
-msgstr ""
-
-#: ../../installation_mac.rst:20
 msgid "Now, QGIS is installed."
 msgstr ""
 
-#: ../../installation_mac.rst:27
+#: ../../installation_mac.rst:25
 msgid "Semi-Automatic Classification Plugin installation"
 msgstr ""
 
-#: ../../installation_mac.rst:29
+#: ../../installation_mac.rst:27
 msgid "Run QGIS;"
 msgstr ""
 
-#: ../../installation_mac.rst:31
+#: ../../installation_mac.rst:29
 msgid "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr ""
 
-#: ../../installation_mac.rst:35
+#: ../../installation_mac.rst:33
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin "
 "and click the button ``Install plugin``;"
 msgstr ""
 
-#: ../../installation_mac.rst:37
+#: ../../installation_mac.rst:35
 msgid ""
 "**TIP**: in case of issues or an offline installation is required see "
 ":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
 msgstr ""
 
-#: ../../installation_mac.rst:41
+#: ../../installation_mac.rst:39
 msgid ""
 "The SCP should be automatically activated; however, be sure that the "
 "Semi-Automatic Classification Plugin is checked in the menu ``Installed``"
@@ -74,11 +68,25 @@ msgid ""
 "installation);"
 msgstr ""
 
-#: ../../installation_mac.rst:48
+#: ../../installation_mac.rst:44
+msgid ""
+"In case of missing dependencies, you could get error messages such as the"
+" following example with matplotlib:"
+msgstr ""
+
+#: ../../installation_mac.rst:49
+msgid "To install matplotlib type in a terminal::"
+msgstr ""
+
+#: ../../installation_mac.rst:53
+msgid "and repeat this step for other missing dependencies."
+msgstr ""
+
+#: ../../installation_mac.rst:59
 msgid "Configuration of the plugin"
 msgstr ""
 
-#: ../../installation_mac.rst:50
+#: ../../installation_mac.rst:61
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and"
 " a toolbar should be added to QGIS. Also, a SCP menu is available in the "
@@ -86,17 +94,32 @@ msgid ""
 "according to your needs, as in the following image."
 msgstr ""
 
-#: ../../installation_mac.rst:56
+#: ../../installation_mac.rst:67
 msgid ""
 "The configuration of available RAM is recommended in order to reduce the "
 "processing time. From the :ref:`SCP_menu` select |settings_tool| "
 "``Settings > Processing`` ."
 msgstr ""
 
-#: ../../installation_mac.rst:61
+#: ../../installation_mac.rst:72
 msgid ""
 "In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
 "that should be half of the system RAM. For instance, if your system has "
 "2GB of RAM, set the value to 1024MB."
 msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case of error messages related "
+#~ "to missing dependencies, such as the "
+#~ "following example with matplotlib."
+#~ msgstr ""
+
+#~ msgid "To install matplotlib type in a terminal:"
+#~ msgstr ""
+
+#~ msgid "sudo pip3 install matplotlib"
+#~ msgstr ""
 

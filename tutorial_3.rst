@@ -561,4 +561,4 @@ We also get the unbiased area estimates (in :math:`m^2`) and the confidence inte
 
 These estimates are quite different from the ones directly derived from the classification raster (in the classification report), but are based on reference data.
 For instance, the class 2 (built-up) has an estimated area of 122,645,412 :math:`m^2`, while it resulted 111,267,000 :math:`m^2` from the classification raster.
-Also, the confidence intervals provide information about the uncertainity of these estimates.
+Also, the confidence intervals provide information about the uncertainty of these estimates.

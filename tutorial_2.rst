@@ -235,7 +235,7 @@ Tutorial 2: Cloud Masking, Image Mosaic, and Land Cover Change Location
 ============================================================================
 
 This tutorial is about the use of :guilabel:`SCP` for the assessment of land cover change of a multispectral image.
-It is recommended to complete the :ref:`tutorial_2` before this tutorial.
+It is recommended to complete the :ref:`tutorial_1` before this tutorial.
 
 The purpose of this tutorial is to locate land cover change over one year (between 2017 and 2018), using free Sentinel-2 images.
 

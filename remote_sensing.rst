@@ -873,6 +873,30 @@ The following table is a scheme of error matrix, where k is the number of classe
 
 Therefore, it is possible to calculate the overall accuracy as the ratio between the number of samples that are correctly classified (the sum of the major diagonal), and the total number of sample units n (Congalton and Green, 2009).
 
+The overall accuracy (also expressed in percentage) is defined as:
+
+.. math::
+	O =  \sum_{i=1}^{k} a_{ii} / n
+
+Ther user's accuracy for each class is defined as the ratio (also expressed in percentage) between correct samples and the row total:
+
+.. math::
+	U_i =  a_{ii} / a_{i+}
+
+The commission error :math:`CE_i = 1 - U_i` corresponds to pixels classified as class :math:`i` that actually belong to a different class.
+
+The producer's accuracy for each class is calculated as the ratio (also expressed in percentage) between correct samples and the column total:
+
+.. math::
+	P_i =  a_{ii} / a_{+i}
+	
+The omission error :math:`OE_i = 1 - P_i` corresponds to pixels actually belonging to class :math:`i` that were classified erroneously as a different class.
+
+
+User's accuracy is 
+It is recommended to calculate the area based error matrix (Olofsson, et al., 2014) where each element represents the estimated area proportion of each class.
+This allows for estimating the unbiased user's accuracy and producer's accuracy, the unbiased area of classes according to reference data, and the standard error of area estimates.
+
 For further information, the following documentation is freely available: `Landsat 7 Science Data User's Handbook <http://landsathandbook.gsfc.nasa.gov>`_, `Remote Sensing Note <http://www.jars1974.net/pdf/rsnote_e.html>`_ , or `Wikipedia <http://en.wikipedia.org/wiki/Remote_sensing>`_.
 
 .. _image_processing_definition:
@@ -1485,9 +1509,11 @@ References
 
 * NASA, 2013. Landsat 7 Science Data User's Handbook. Available at http://landsathandbook.gsfc.nasa.gov
 
+* Olofsson, P.; Foody, G. M.; Herold, M.; Stehman, S. V.; Woodcock, C. E. & Wulder, M. A., 2014. Good practices for estimating area and assessing accuracy of land change. Remote Sensing of Environment, 148, 42 – 57
+
 * Ready, P. and Wintz, P., 1973. Information Extraction, SNR Improvement, and Data Compression in Multispectral Imagery. IEEE Transactions on Communications, 21, 1123-1131
 
-* Richards, J. A. and Jia, X., 2006. Remote Sensing Digital Image Analysis: An Introduction. Berlin, Germany: Springer.
+* Richards, J. A. and Jia, X., 2006. Remote Sensing Digital Image Analysis: An Introduction. Berlin, Germany: Springer
 
 * Sobrino, J.; Jiménez-Muñoz, J. C. & Paolini, L., 2004. Land surface temperature retrieval from LANDSAT TM 5 Remote Sensing of Environment, Elsevier, 90, 434-440
 

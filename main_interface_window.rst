@@ -371,6 +371,12 @@ Every :guilabel:`band set` is defined with the following table:
 * |import|: import a previously saved :guilabel:`active band set` from file;
 * |export|: export the :guilabel:`active band set` to a file;
 
+.. raw:: html
+
+	<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/1PclAtPjyZE?rel=0" width="100%"></iframe>
+
+http://www.youtube.com/watch?v=1PclAtPjyZE
+
 .. _band_set_tools:
 
 Band set tools
@@ -486,6 +492,7 @@ Create random points
 * |checkbox| :guilabel:`inside grid` |input_number|: if checked, the :guilabel:`band set` area is divided in cells where the size thereof is defined in the combobox (image unit, usually meters); points defined in ``Number of random points`` are created randomly within each cell;
 * |checkbox| :guilabel:`min distance` |input_number|: if checked, random points have a minimum distance defined in the combobox (image unit, usually meters); setting a minimum distance can result in fewer points than the number defined in :guilabel:`Number of points`;
 * :guilabel:`Create points` |enter|: create random points inside the :guilabel:`band set` area;
+* |checkbox| :guilabel:`stratified for the values` |input_text| of the first band of the band set :guilabel:`min distance` |input_number|: if checked, create random points inside the values defined in the expression calculated for the first band of the defined band set; the expression must include the variable ``raster`` ; multiple expressions can be entered separated by semicolon ( ; ) but the total number of stratified points is the same as the defined :guilabel:`Number of points`; 
 
 .. _point_coordinates:
 
@@ -1521,6 +1528,9 @@ Classification is compared to a reference raster or reference vector (which is a
 If a vector is selected as reference, it is possible to choose a field describing class values.
 
 Several statistics are calculated such as overall accuracy, user's accuracy, producer's accuracy, and Kappa hat.
+In particular, these statistics are calculated according to the area based error matrix where each element represents the estimated area proportion of each class.
+This allows for estimating the unbiased user's accuracy and producer's accuracy, the unbiased area of classes according to reference data, and the standard error of area estimates.
+
 The output is an ``error raster`` that is a ``.tif`` file showing the errors in the map, where pixel values represent the categories of comparison (i.e. combinations identified by the ``ErrorMatrixCode`` in the error matrix) between the classification and reference.
 Also, a text file containing the error matrix (i.e. a ``.csv`` file separated by tab) is created with the same name defined for the ``.tif`` file.
 
@@ -2174,6 +2184,12 @@ RAM
 
 * :guilabel:`Available RAM (MB)` |input_number| |registry_save|: set the available RAM (in MB) that is used during the processes in order to improve the :guilabel:`SCP` performance; this value should be half of the system RAM (e.g. 1024MB if system has 2GB of RAM); in case of errors, set a value lower than 512MB;
 
+.. raw:: html
+
+	<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/KDI3ud9L6UY?rel=0" width="100%"></iframe>
+
+http://www.youtube.com/watch?v=KDI3ud9L6UY
+
 .. _temporary_directory:
 
 Temporary directory
@@ -2259,6 +2275,12 @@ Debug
 	:guilabel:`Debug`
 
 Debugging utilities for the creation of a Log file (i.e. recording of :guilabel:`SCP` activities for reporting issues) and testing :guilabel:`SCP` dependencies.
+
+.. raw:: html
+
+	<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/So04gNzDC9Y?rel=0" width="100%"></iframe>
+
+http://www.youtube.com/watch?v=So04gNzDC9Y
 
 If you found a plugin error, please read :ref:`error_0` .
 

@@ -1,0 +1,849 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-01 19:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../tutorial_3.rst:5
+msgid "Tutorial 3"
+msgstr ""
+
+#: ../../tutorial_3.rst:224
+msgid ""
+"The following is a tutorial about the functions of the Semi-Automatic "
+"Classification Plugin (:guilabel:`SCP`). It is assumed that you have a "
+"basic knowledge of QGIS."
+msgstr ""
+
+#: ../../tutorial_3.rst:235
+msgid "Tutorial 3: Accuracy Assessment of a Land Cover Classification"
+msgstr ""
+
+#: ../../tutorial_3.rst:237
+msgid ""
+"Accuracy assessment is a fundamental step after land cover classification"
+" in order to evaluate errors, globally and for each class, and finally "
+"evaluate the reliability of the map."
+msgstr ""
+
+#: ../../tutorial_3.rst:239
+msgid ""
+"This post is a tutorial about accuracy assessment of a land cover "
+"classification using the Semi-Automatic Classification Plugin (SCP) for "
+"QGIS. We are going to use the function of SCP to create ROIs using "
+"stratified random points (a new function of  SCP 6.4.0), which will be "
+"photo-interpreted and used as reference for the accuracy assessment. The "
+"SCP tool :ref:`accuracy_tab` will take care of the rest, providing the "
+"error matrix and the accuracy estimates."
+msgstr ""
+
+#: ../../tutorial_3.rst:242
+msgid ""
+"The following is the video tutorial, and the following text illustrates "
+"the phases in detail."
+msgstr ""
+
+#: ../../tutorial_3.rst:248
+msgid "http://www.youtube.com/watch?v=H1cL0yhIygg"
+msgstr ""
+
+#: ../../tutorial_3.rst:251
+msgid ""
+"Accuracy assessment is performed comparing a sample of points (ground "
+"truth) to the classification. There are several ways to choose the sample"
+" size and the allocation thereof (sample scheme). The sample should be "
+"designed in order to achieve low standard errors of accuracy estimates, "
+"and usually this is achieved by random selection of samples."
+msgstr ""
+
+#: ../../tutorial_3.rst:255
+msgid ""
+"Sample design depends on several variables such as the proportions of "
+"land cover classes and the standard errors that we expect for the overall"
+" land cover classification and single classes. In order to reduce "
+"standard errors of class specific estimates, it is recommended to "
+"stratify the sample. For further details about how to determine the "
+"sample size and the stratification, please refer to \"Olofsson, et al., "
+"2014. Good practices for estimating area and assessing accuracy of land "
+"change. Remote Sensing of Environment, 148, 42 – 57\"."
+msgstr ""
+
+#: ../../tutorial_3.rst:262
+msgid "Sample Design"
+msgstr ""
+
+#: ../../tutorial_3.rst:264
+msgid ""
+"This tutorial assumes that you have already performed the classification "
+"of a Landsat image following the instructions of this previous "
+":ref:`tutorial_1`. You can download the classification raster from `this "
+"archive <https://docs.google.com/uc?id=1o-"
+"D1PxzAK65DSbmVVCuU3IW6kFMWcf4X>`_ ."
+msgstr ""
+
+#: ../../tutorial_3.rst:267
+msgid "The land cover classes are described in the following table."
+msgstr ""
+
+#: ../../tutorial_3.rst:269
+msgid ":guilabel:`Classes`"
+msgstr ""
+
+#: ../../tutorial_3.rst:272
+msgid "Macroclass name"
+msgstr ""
+
+#: ../../tutorial_3.rst:272
+msgid "Class ID"
+msgstr ""
+
+#: ../../tutorial_3.rst:274
+msgid "Water"
+msgstr ""
+
+#: ../../tutorial_3.rst:274 ../../tutorial_3.rst:323 ../../tutorial_3.rst:345
+#: ../../tutorial_3.rst:351 ../../tutorial_3.rst:418 ../../tutorial_3.rst:519
+#: ../../tutorial_3.rst:521 ../../tutorial_3.rst:542 ../../tutorial_3.rst:555
+msgid "1"
+msgstr ""
+
+#: ../../tutorial_3.rst:276
+msgid "Built-up"
+msgstr ""
+
+#: ../../tutorial_3.rst:276 ../../tutorial_3.rst:325 ../../tutorial_3.rst:345
+#: ../../tutorial_3.rst:347 ../../tutorial_3.rst:420 ../../tutorial_3.rst:519
+#: ../../tutorial_3.rst:523 ../../tutorial_3.rst:542 ../../tutorial_3.rst:555
+msgid "2"
+msgstr ""
+
+#: ../../tutorial_3.rst:278
+msgid "Vegetation"
+msgstr ""
+
+#: ../../tutorial_3.rst:278 ../../tutorial_3.rst:327 ../../tutorial_3.rst:349
+#: ../../tutorial_3.rst:422 ../../tutorial_3.rst:519 ../../tutorial_3.rst:525
+#: ../../tutorial_3.rst:542 ../../tutorial_3.rst:555
+msgid "3"
+msgstr ""
+
+#: ../../tutorial_3.rst:280
+msgid "Bare soil (low vegetation)"
+msgstr ""
+
+#: ../../tutorial_3.rst:280 ../../tutorial_3.rst:329 ../../tutorial_3.rst:351
+#: ../../tutorial_3.rst:424 ../../tutorial_3.rst:519 ../../tutorial_3.rst:527
+#: ../../tutorial_3.rst:542 ../../tutorial_3.rst:555
+msgid "4"
+msgstr ""
+
+#: ../../tutorial_3.rst:283
+msgid ""
+"Basically, the main requirement is to provide an adequate number of "
+"samples for each class, even if the class area proportion (:math:`W_i`) "
+"is low. The number of samples (:math:`N`) should be calculated as "
+"(Olofsson, et al., 2014):"
+msgstr ""
+
+#: ../../tutorial_3.rst:289
+msgid "where:"
+msgstr ""
+
+#: ../../tutorial_3.rst:291
+msgid ":math:`W_i` = mapped area proportion of class i;"
+msgstr ""
+
+#: ../../tutorial_3.rst:292
+msgid ":math:`S_i` = standard deviation of stratum i;"
+msgstr ""
+
+#: ../../tutorial_3.rst:293
+msgid ":math:`S_o` = expected standard deviation of overall accuracy;"
+msgstr ""
+
+#: ../../tutorial_3.rst:294
+msgid ":math:`c` = total number of classes;"
+msgstr ""
+
+#: ../../tutorial_3.rst:296
+msgid ""
+"This requires some conjectures about overall accuracy and user’s accuracy"
+" of each class. We should base these conjectures on previous studies. One"
+" can hypothesize that user’s accuracy is lower and standard deviations "
+":math:`S_i` is higher for classes having low area proportion, but of "
+"course these values should be carefully evaluated."
+msgstr ""
+
+#: ../../tutorial_3.rst:300
+msgid "To get :math:`W_i` start QGIS and load the classification raster."
+msgstr ""
+
+#: ../../tutorial_3.rst:302
+msgid ""
+"Open the :ref:`SCP_menu` and click the tab |report_tool| "
+":ref:`classification_report_tab` under the submenu |tools| "
+"``Postprocessing`` . This tool allows for estimating class area and class"
+" percentage."
+msgstr ""
+
+#: ../../tutorial_3.rst:305
+msgid ""
+"Click the button |reload| to refresh the layer list, and select the "
+"classification raster in :guilabel:`Select the classification` "
+"|input_list| ; next click :guilabel:`RUN` |run| to start the calculation;"
+" the output report is saved in a text file and displayed in the tab "
+":guilabel:`Output`."
+msgstr ""
+
+#: ../../tutorial_3.rst:312
+msgid ":guilabel:`Classification report`"
+msgstr ""
+
+#: ../../tutorial_3.rst:315
+msgid ""
+"The report table contains the percentage of each class, which we divide "
+"by 100 to get the required :math:`W_i`. In this tutorial we assume "
+":math:`S_o = 0.01` and conjecture the :math:`S_i` values reported in the "
+"following table (of course, these assumptions are specific of this "
+"classification, other assumptions should be made for other "
+"classifications)."
+msgstr ""
+
+#: ../../tutorial_3.rst:318
+msgid ":guilabel:`Conjectured standard deviations`"
+msgstr ""
+
+#: ../../tutorial_3.rst:321 ../../tutorial_3.rst:343 ../../tutorial_3.rst:416
+msgid "Land Cover Class"
+msgstr ""
+
+#: ../../tutorial_3.rst:321
+msgid "Area :math:`m^2`"
+msgstr ""
+
+#: ../../tutorial_3.rst:321
+msgid ":math:`W_i`"
+msgstr ""
+
+#: ../../tutorial_3.rst:321
+msgid ":math:`S_i`"
+msgstr ""
+
+#: ../../tutorial_3.rst:321
+msgid ":math:`W_i * S_i`"
+msgstr ""
+
+#: ../../tutorial_3.rst:323
+msgid "976,500"
+msgstr ""
+
+#: ../../tutorial_3.rst:323
+msgid "0.0033"
+msgstr ""
+
+#: ../../tutorial_3.rst:323
+msgid "0.4"
+msgstr ""
+
+#: ../../tutorial_3.rst:323
+msgid "0.0013"
+msgstr ""
+
+#: ../../tutorial_3.rst:325
+msgid "111,267,000"
+msgstr ""
+
+#: ../../tutorial_3.rst:325
+msgid "0.3713"
+msgstr ""
+
+#: ../../tutorial_3.rst:325
+msgid "0.3"
+msgstr ""
+
+#: ../../tutorial_3.rst:325
+msgid "0.1114"
+msgstr ""
+
+#: ../../tutorial_3.rst:327
+msgid "187,018,200"
+msgstr ""
+
+#: ../../tutorial_3.rst:327
+msgid "0.6240"
+msgstr ""
+
+#: ../../tutorial_3.rst:327
+msgid "0.2"
+msgstr ""
+
+#: ../../tutorial_3.rst:327
+msgid "0.1248"
+msgstr ""
+
+#: ../../tutorial_3.rst:329
+msgid "438,300"
+msgstr ""
+
+#: ../../tutorial_3.rst:329
+msgid "0.0015"
+msgstr ""
+
+#: ../../tutorial_3.rst:329
+msgid "0.5"
+msgstr ""
+
+#: ../../tutorial_3.rst:329
+msgid "0.0007"
+msgstr ""
+
+#: ../../tutorial_3.rst:331 ../../tutorial_3.rst:353 ../../tutorial_3.rst:426
+#: ../../tutorial_3.rst:529
+msgid "Total"
+msgstr ""
+
+#: ../../tutorial_3.rst:331
+msgid "0.2382"
+msgstr ""
+
+#: ../../tutorial_3.rst:334
+msgid ""
+"Therefore, :math:`N = (0.2382 / 0.01)^2 = 567` is the number of samples "
+"that we should distribute among classes."
+msgstr ""
+
+#: ../../tutorial_3.rst:336
+msgid ""
+"To stratify the sample we should conjecture user’s accuracy and standard "
+"deviations of strata (Olofsson, et al., 2014)."
+msgstr ""
+
+#: ../../tutorial_3.rst:338
+msgid ""
+"A rough approximation is considering the mean value between equal "
+"distribution (:math:`N_i = N / c`) and weighted distribution (:math:`N_i "
+"=  N * W_i`), which is :math:`N_i = (N / c + N * W_i) / 2` as illustrated"
+" in the following table."
+msgstr ""
+
+#: ../../tutorial_3.rst:340
+msgid ":guilabel:`Sample stratification`"
+msgstr ""
+
+#: ../../tutorial_3.rst:343
+msgid "Weighted"
+msgstr ""
+
+#: ../../tutorial_3.rst:343
+msgid "Equal"
+msgstr ""
+
+#: ../../tutorial_3.rst:343
+msgid "Mean"
+msgstr ""
+
+#: ../../tutorial_3.rst:345 ../../tutorial_3.rst:347 ../../tutorial_3.rst:349
+#: ../../tutorial_3.rst:351
+msgid "142"
+msgstr ""
+
+#: ../../tutorial_3.rst:345
+msgid "72"
+msgstr ""
+
+#: ../../tutorial_3.rst:347
+msgid "210"
+msgstr ""
+
+#: ../../tutorial_3.rst:347
+msgid "176"
+msgstr ""
+
+#: ../../tutorial_3.rst:349
+msgid "354"
+msgstr ""
+
+#: ../../tutorial_3.rst:349
+msgid "248"
+msgstr ""
+
+#: ../../tutorial_3.rst:351
+msgid "71"
+msgstr ""
+
+#: ../../tutorial_3.rst:353
+msgid "567"
+msgstr ""
+
+#: ../../tutorial_3.rst:360
+msgid "Sample Collection and Photo-Intepretation"
+msgstr ""
+
+#: ../../tutorial_3.rst:362
+msgid ""
+"This phase involves the creation of (randomly selected) single pixel "
+":ref:`ROI_definition` (ROIs), and the attribution of a land cover class "
+"based on photo-interpretation of each ROI."
+msgstr ""
+
+#: ../../tutorial_3.rst:364
+msgid ""
+"First, we need to define a :guilabel:`Band set` containing the "
+"classification raster that is an input required by the other tools we are"
+" going to use."
+msgstr ""
+
+#: ../../tutorial_3.rst:366
+msgid ""
+"Open the tab :ref:`band_set_tab` clicking the button |bandset_tool| in "
+"the :ref:`SCP_menu` or the :ref:`SCP_dock`. Click the button |reload| to "
+"refresh the layer list, and select the classification raster; then click "
+"|plus| to add selected raster to the :guilabel:`Band set 1`."
+msgstr ""
+
+#: ../../tutorial_3.rst:373
+msgid ":guilabel:`Band set definition`"
+msgstr ""
+
+#: ../../tutorial_3.rst:376
+msgid ""
+"We need to create the :ref:`training_input` in order to collect ROIs that"
+" will be the actual samples."
+msgstr ""
+
+#: ../../tutorial_3.rst:378
+msgid ""
+"In the :ref:`SCP_dock` select the tab :ref:`training_input` and click the"
+" button |new_file| to create the :guilabel:`Training input` (define a "
+"name such as ``sample.scp``). The path of the file is displayed and a "
+"vector is added to QGIS layers with the same name as the "
+":guilabel:`Training input` (in order to prevent data loss, you should not"
+" edit this layer using QGIS functions)."
+msgstr ""
+
+#: ../../tutorial_3.rst:384
+msgid ":guilabel:`Training input`"
+msgstr ""
+
+#: ../../tutorial_3.rst:386
+msgid ""
+"Now we are going to create the stratified random sample using the SCP "
+"tool Multiple ROI creation. This tool allows for the random creation of "
+"point coordinates according to the sample scheme previously defined."
+msgstr ""
+
+#: ../../tutorial_3.rst:389
+msgid ""
+"**TIP** : In case you have already collected samples you can import "
+"(using the button |import|) a shapefile or a csv file containing the "
+"coordinates and the classification codes."
+msgstr ""
+
+#: ../../tutorial_3.rst:391
+msgid "This tool works in two steps:"
+msgstr ""
+
+#: ../../tutorial_3.rst:393
+msgid "randomly select point coordinates defining ROI parameters;"
+msgstr ""
+
+#: ../../tutorial_3.rst:394
+msgid "actually create ROI polygons based on point coordinates;"
+msgstr ""
+
+#: ../../tutorial_3.rst:396
+msgid ""
+"During the first step, in addition to point coordinates, other fields are"
+" automatically filled in the table from the parameters set in the "
+":ref:`working_toolbar`, such as the minimum and maximum ROI size. In this"
+" tutorial we use single pixel ROIs, although cluster sampling (several "
+"pixels per ROI) is also used for accuracy assessment. To avoid manually "
+"editing these fields after the random point creation, in "
+":ref:`temporary_ROI` we need to set the parameters :guilabel:`Min` = 1 "
+"and :guilabel:`Max` = 1. Created random samples will have the size of 1 "
+"pixel."
+msgstr ""
+
+#: ../../tutorial_3.rst:401
+msgid ""
+"Now, open the :ref:`SCP_menu` and click the tab |roi_multiple| "
+":ref:`multiple_rois_tab` under the submenu |tools| ``Basic tools`` ."
+msgstr ""
+
+#: ../../tutorial_3.rst:408
+msgid ":guilabel:`Multiple ROI creation`"
+msgstr ""
+
+#: ../../tutorial_3.rst:411
+msgid ""
+"To reduce the photo-intepretation time (considering the illustrative "
+"purpose of this tutorial and that the classification is a subset of a "
+"Landsat image), we are going to divide the number of samples by 10 "
+"according to the following table (of course, in real cases we must use "
+"all the samples as designed)."
+msgstr ""
+
+#: ../../tutorial_3.rst:413
+msgid ":guilabel:`Number of stratified samples`"
+msgstr ""
+
+#: ../../tutorial_3.rst:416
+msgid "Samples"
+msgstr ""
+
+#: ../../tutorial_3.rst:418 ../../tutorial_3.rst:424
+msgid "7"
+msgstr ""
+
+#: ../../tutorial_3.rst:420
+msgid "18"
+msgstr ""
+
+#: ../../tutorial_3.rst:422
+msgid "25"
+msgstr ""
+
+#: ../../tutorial_3.rst:426
+msgid "57"
+msgstr ""
+
+#: ../../tutorial_3.rst:430
+msgid ""
+"In :guilabel:`Number of points` enter 7 that is the number of samples "
+"designed for class 1. In the tab |roi_multiple| :ref:`multiple_rois_tab` "
+"check the option |checkbox| :guilabel:`stratified for the values` and "
+"enter the first expression ``raster == 1`` (notice the double \"=\"). "
+"This expression means that we are going to randomly select points that "
+"fall over pixels having value 1 of the classification (that is the first "
+"band of the Band set 1)."
+msgstr ""
+
+#: ../../tutorial_3.rst:434
+msgid ""
+"Therefore click :guilabel:`Create points` |enter| to start the random "
+"creation. After a while point coordinates will be added to the table "
+":ref:`point_coordinates`."
+msgstr ""
+
+#: ../../tutorial_3.rst:441
+msgid ":guilabel:`Samples for class 1`"
+msgstr ""
+
+#: ../../tutorial_3.rst:444
+msgid ""
+"Now we repeat the above steps for class 2. In :guilabel:`Number of "
+"points` enter 18 and in :guilabel:`stratified for the values` enter "
+"``raster == 2``. Click :guilabel:`Create points` |enter| and the samples "
+"will be added to the table."
+msgstr ""
+
+#: ../../tutorial_3.rst:448
+msgid ""
+"Repeat the same steps for class 3 (25 points and ``raster == 3``) and for"
+" class 4 (57 points and ``raster == 4``). Now that we have all the "
+"required samples we can create the ROIs (the single pixel polygons that "
+"will be photo-interpreted)."
+msgstr ""
+
+#: ../../tutorial_3.rst:451
+msgid ""
+"Uncheck the option |checkbox| :guilabel:`Calculate sig.` because we don't"
+" need the spectral signature of ROIs and click :guilabel:`RUN` |run|. "
+"After a while the ROIs will be added to the the :guilabel:`Training "
+"input`."
+msgstr ""
+
+#: ../../tutorial_3.rst:457
+msgid ":guilabel:`Samples added to the training input`"
+msgstr ""
+
+#: ../../tutorial_3.rst:460
+msgid ""
+"The type ``R`` means that, of course, spectral signatures were not "
+"calculated. All the created ROIs have the same MC ID (i.e. macroclass ID)"
+" and C ID (i.e. class ID); now we can assign the correct class (MC ID) to"
+" each ROI with photo-interpretation using images with resolution higher "
+"than the classification, or other services such as `OpenStreetMap "
+"<http://www.openstreetmap.org>`_)."
+msgstr ""
+
+#: ../../tutorial_3.rst:463
+msgid ""
+"In the :ref:`ROI_list`, double click on the first ROI in order to zoom to"
+" the ROI; after photo-interpreting the class we can assing the correct MC"
+" ID and C ID with a click on the corresponding field in the ROI list."
+msgstr ""
+
+#: ../../tutorial_3.rst:469
+msgid ""
+":guilabel:`A sample over a road photo-interpreted using a Copernicus "
+"Sentinel-2 image`"
+msgstr ""
+
+#: ../../tutorial_3.rst:471
+msgid ""
+"Of course we need to perform the photo-interpretation of all the samples,"
+" assigning the correct code. The photo-interpretation should be performed"
+" without considerding the classification raster. It is worth highlighting"
+" that spatial resolution (i.e. 30m) implies mixed pixels (i.e. pixels "
+"made of multiple materials at ground); therefore, during the photo-"
+"interpretation we must consider the most prevalent land cover in the ROI "
+"area."
+msgstr ""
+
+#: ../../tutorial_3.rst:479
+msgid "Calculation of Accuracy Statistics"
+msgstr ""
+
+#: ../../tutorial_3.rst:481
+msgid ""
+"After the photo-interpretation of all the samples, we can perform the "
+"accuracy assessment by comparing the ROIs to the classification. If you "
+"have skipped the previous step, you can download the photo-interpreted "
+"sample from `here "
+"<https://docs.google.com/uc?id=1_8_QcUtgRIL2AtsUgtRkphTUO8PI03mw>`_ ."
+msgstr ""
+
+#: ../../tutorial_3.rst:484
+msgid ""
+"The process will produce an an error raster (a ``.tif`` file showing the "
+"errors in the map, where pixel values represent the combinations between "
+"the classification and reference identified by the ``ErrorMatrixCode`` in"
+" the error matrix) and a text file (i.e. a ``.csv`` file separated by "
+"tab) containing the error matrix and the accuracy statistics."
+msgstr ""
+
+#: ../../tutorial_3.rst:486
+msgid ""
+"Open the :ref:`SCP_menu` and click the tab |accuracy_tool| "
+":ref:`accuracy_tab` under the submenu |post_process| "
+":guilabel:`Postprocessing` ."
+msgstr ""
+
+#: ../../tutorial_3.rst:488
+msgid ""
+"In :guilabel:`Select the classification to assess` |input_list| select "
+"the ``classification`` (click the button |reload| if the raster isn't in "
+"the list)."
+msgstr ""
+
+#: ../../tutorial_3.rst:490
+msgid ""
+"In :guilabel:`Select the reference vector or raster` |input_list| select "
+"the ``sample`` vector that is the :ref:`training_input`, and in "
+":guilabel:`Vector field` |input_list| select ``MC_ID`` that is the vector"
+" field containing the class values."
+msgstr ""
+
+#: ../../tutorial_3.rst:492
+msgid "Now we can click :guilabel:`RUN` |run| to start the raster processing."
+msgstr ""
+
+#: ../../tutorial_3.rst:498
+msgid ":guilabel:`The tool Accuracy`"
+msgstr ""
+
+#: ../../tutorial_3.rst:500
+msgid ""
+"After the calculation the accuracy statistics are displayed in the output"
+" interface and the error raster is loaded in QGIS."
+msgstr ""
+
+#: ../../tutorial_3.rst:506
+msgid ":guilabel:`Output`"
+msgstr ""
+
+#: ../../tutorial_3.rst:509
+msgid ""
+"Several statistics are calculated such as overall accuracy, user's "
+"accuracy, producer's accuracy, and Kappa hat. In particular, these "
+"statistics are calculated according to the area based error matrix "
+"(Olofsson, et al., 2014) where each element represents the estimated area"
+" proportion of each class. This allows for estimating the unbiased user's"
+" accuracy and producer's accuracy, the unbiased area of classes according"
+" to reference data, and the standard error of area estimates and the "
+"confidence intervals. Of course the standard errors are influenced by the"
+" low number of samples that we have collected in this tutorial."
+msgstr ""
+
+#: ../../tutorial_3.rst:514
+msgid ":guilabel:`Area based error matrix`"
+msgstr ""
+
+#: ../../tutorial_3.rst:517
+msgid "Reference"
+msgstr ""
+
+#: ../../tutorial_3.rst:523
+msgid "Classified"
+msgstr ""
+
+#: ../../tutorial_3.rst:521 ../../tutorial_3.rst:529
+msgid "0.0023"
+msgstr ""
+
+#: ../../tutorial_3.rst:521 ../../tutorial_3.rst:523 ../../tutorial_3.rst:525
+#: ../../tutorial_3.rst:527
+msgid "0"
+msgstr ""
+
+#: ../../tutorial_3.rst:521
+msgid "0.0009"
+msgstr ""
+
+#: ../../tutorial_3.rst:523
+msgid "0.3094"
+msgstr ""
+
+#: ../../tutorial_3.rst:523
+msgid "0.0619"
+msgstr ""
+
+#: ../../tutorial_3.rst:525
+msgid "0.0998"
+msgstr ""
+
+#: ../../tutorial_3.rst:525
+msgid "0.5242"
+msgstr ""
+
+#: ../../tutorial_3.rst:527
+msgid "0.0004"
+msgstr ""
+
+#: ../../tutorial_3.rst:527 ../../tutorial_3.rst:529
+msgid "0.0010"
+msgstr ""
+
+#: ../../tutorial_3.rst:529
+msgid "0.4092"
+msgstr ""
+
+#: ../../tutorial_3.rst:529
+msgid "0.5874"
+msgstr ""
+
+#: ../../tutorial_3.rst:533
+msgid ""
+"The overall accuracy is 83.7% that is a good result (above 80%). However,"
+" this classification was produced for the first basic tutorial, therefore"
+" the classification could be improved. Also, note that we used a number "
+"of samples lower than designed sample."
+msgstr ""
+
+#: ../../tutorial_3.rst:537
+msgid "The user's and producer's accuracy are provided for each class."
+msgstr ""
+
+#: ../../tutorial_3.rst:539
+msgid ":guilabel:`Producer's and user's accuracy`"
+msgstr ""
+
+#: ../../tutorial_3.rst:544
+msgid "Producer's accuracy"
+msgstr ""
+
+#: ../../tutorial_3.rst:544
+msgid "100.0"
+msgstr ""
+
+#: ../../tutorial_3.rst:544
+msgid "75.6"
+msgstr ""
+
+#: ../../tutorial_3.rst:544
+msgid "89.2"
+msgstr ""
+
+#: ../../tutorial_3.rst:546
+msgid "User's accuracy"
+msgstr ""
+
+#: ../../tutorial_3.rst:546
+msgid "71.4"
+msgstr ""
+
+#: ../../tutorial_3.rst:546
+msgid "83.3"
+msgstr ""
+
+#: ../../tutorial_3.rst:546
+msgid "84.0"
+msgstr ""
+
+#: ../../tutorial_3.rst:549
+msgid ""
+"We can see that classes 1 and 4 (bare soil and water respectively) have "
+"low user's accuracy, while class 2 (built-up) has low producer's "
+"accuracy. We also get the unbiased area estimates (in :math:`m^2`) and "
+"the confidence intervals."
+msgstr ""
+
+#: ../../tutorial_3.rst:552
+msgid ":guilabel:`Unbiased area estimates`"
+msgstr ""
+
+#: ../../tutorial_3.rst:557
+msgid "Area"
+msgstr ""
+
+#: ../../tutorial_3.rst:557
+msgid "697,500"
+msgstr ""
+
+#: ../../tutorial_3.rst:557
+msgid "122,645,412"
+msgstr ""
+
+#: ../../tutorial_3.rst:557
+msgid "176,044,017"
+msgstr ""
+
+#: ../../tutorial_3.rst:557
+msgid "313,071"
+msgstr ""
+
+#: ../../tutorial_3.rst:559
+msgid "95% Confidence interval Area"
+msgstr ""
+
+#: ../../tutorial_3.rst:559
+msgid "352,984"
+msgstr ""
+
+#: ../../tutorial_3.rst:559
+msgid "33,778,661"
+msgstr ""
+
+#: ../../tutorial_3.rst:559
+msgid "33,780,877"
+msgstr ""
+
+#: ../../tutorial_3.rst:559
+msgid "158,436"
+msgstr ""
+
+#: ../../tutorial_3.rst:562
+msgid ""
+"These estimates are quite different from the ones directly derived from "
+"the classification raster (in the classification report), but are based "
+"on reference data. For instance, the class 2 (built-up) has an estimated "
+"area of 122,645,412 :math:`m^2`, while it resulted 111,267,000 "
+":math:`m^2` from the classification raster. Also, the confidence "
+"intervals provide information about the uncertainity of these estimates."
+msgstr ""
+

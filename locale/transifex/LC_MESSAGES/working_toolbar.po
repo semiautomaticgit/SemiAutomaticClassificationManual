@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"POT-Creation-Date: 2019-09-01 19:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,11 +73,15 @@ msgid ""
 "maximum values according to standard deviation of current map extent;"
 msgstr ""
 
-#: ../../working_toolbar.rst:104
+#: ../../working_toolbar.rst:105
+msgid "http://www.youtube.com/watch?v=9jA_Rh8YfKQ"
+msgstr ""
+
+#: ../../working_toolbar.rst:110
 msgid "Temporary ROI"
 msgstr ""
 
-#: ../../working_toolbar.rst:106
+#: ../../working_toolbar.rst:112
 msgid ""
 "A :guilabel:`temporary ROI` is a temporary polygon displayed in the map, "
 "which can be saved permanently in the :ref:`training_input`. A "
@@ -86,17 +90,17 @@ msgid ""
 "pixel seed including spectrally homogeneous pixels)."
 msgstr ""
 
-#: ../../working_toolbar.rst:109
+#: ../../working_toolbar.rst:115
 msgid "|zoom_to_ROI|: zoom the map to the extent of :guilabel:`temporary ROI`;"
 msgstr ""
 
-#: ../../working_toolbar.rst:110
+#: ../../working_toolbar.rst:116
 msgid ""
 "|radiobutton| :guilabel:`ROI`: use the button to show/hide the "
 ":guilabel:`temporary ROI` and the :guilabel:`Training input` in the map;"
 msgstr ""
 
-#: ../../working_toolbar.rst:111
+#: ../../working_toolbar.rst:117
 msgid ""
 "|manual_ROI|: activate the pointer to create a :guilabel:`temporary ROI` "
 "by drawing a polygon in the map; left click on the map to define the ROI "
@@ -105,7 +109,7 @@ msgid ""
 "keyboard buttons ``CTRL + Z`` for removing the last multipart polygon;"
 msgstr ""
 
-#: ../../working_toolbar.rst:112
+#: ../../working_toolbar.rst:118
 msgid ""
 "|roi_single|: activate the pointer to create a :guilabel:`temporary ROI` "
 "using the region growing algorithm; left click on the map for creating "
@@ -119,28 +123,28 @@ msgid ""
 " :guilabel:`band sets`;"
 msgstr ""
 
-#: ../../working_toolbar.rst:113
+#: ../../working_toolbar.rst:119
 msgid ""
 "|roi_redo|: create a :guilabel:`temporary ROI` using the region growing "
 "algorithm at the same seed pixel as the previous one; it is useful after "
 "changing the :guilabel:`region growing parameters`;"
 msgstr ""
 
-#: ../../working_toolbar.rst:118
+#: ../../working_toolbar.rst:124
 msgid ""
 ":guilabel:`Region growing parameters`: the following parameters are "
 "required for the ROI creation using a region growing algorithm on the "
 ":ref:`band_set_tab`:"
 msgstr ""
 
-#: ../../working_toolbar.rst:116
+#: ../../working_toolbar.rst:122
 msgid ""
 ":guilabel:`Dist` |input_number| |project_save|: set the interval which "
 "defines the maximum spectral distance between the seed pixel and the "
 "surrounding pixels (in radiometry unit);"
 msgstr ""
 
-#: ../../working_toolbar.rst:117
+#: ../../working_toolbar.rst:123
 msgid ""
 ":guilabel:`Min` |input_number| |project_save|: set the minimum area of a "
 "ROI (in pixel unit); this setting overrides the ``Range radius`` until "
@@ -150,18 +154,22 @@ msgid ""
 "``Min ROI size``;"
 msgstr ""
 
-#: ../../working_toolbar.rst:118
+#: ../../working_toolbar.rst:124
 msgid ""
 ":guilabel:`Max` |input_number| |project_save|: set the maximum width of a"
 " ROI (i.e. the side length of a square, centred at the seed pixel, which "
 "inscribes the ROI) in pixel unit;"
 msgstr ""
 
-#: ../../working_toolbar.rst:123
+#: ../../working_toolbar.rst:130
+msgid "http://www.youtube.com/watch?v=CQqNtlOU6mI"
+msgstr ""
+
+#: ../../working_toolbar.rst:135
 msgid "Classification preview"
 msgstr ""
 
-#: ../../working_toolbar.rst:125
+#: ../../working_toolbar.rst:137
 msgid ""
 ":guilabel:`Classification preview` allows for displaying temporary "
 "classifications (i.e. classification previews). Classification previews "
@@ -170,13 +178,13 @@ msgid ""
 "time consuming (see :ref:`classification_output`)."
 msgstr ""
 
-#: ../../working_toolbar.rst:128
+#: ../../working_toolbar.rst:140
 msgid ""
 ":guilabel:`Classification preview` is performed according to the "
 "parameters defined in :ref:`classification_alg`."
 msgstr ""
 
-#: ../../working_toolbar.rst:130
+#: ../../working_toolbar.rst:142
 msgid ""
 "In addition to the classification raster, an :ref:`algorithm_raster` can "
 "be displayed, which is useful for assessing the distance of a pixel "
@@ -188,7 +196,7 @@ msgid ""
 "signature identifies correctly those pixels)."
 msgstr ""
 
-#: ../../working_toolbar.rst:133
+#: ../../working_toolbar.rst:145
 msgid ""
 "After the creation of a new preview, old previews are placed in QGIS "
 "Layers inside a layer group named ``Class_temp_group`` (custom name can "
@@ -196,7 +204,7 @@ msgid ""
 "is closed."
 msgstr ""
 
-#: ../../working_toolbar.rst:135
+#: ../../working_toolbar.rst:147
 msgid ""
 "**WARNING**: Classification previews are automatically deleted from disk "
 "when the QGIS session is closed; a QGIS message (that can be ignored) "
@@ -204,19 +212,19 @@ msgid ""
 "project."
 msgstr ""
 
-#: ../../working_toolbar.rst:137
+#: ../../working_toolbar.rst:149
 msgid ""
 "|zoom_to_preview|: zoom the map to the extent of the last "
 ":ref:`classification_preview`;"
 msgstr ""
 
-#: ../../working_toolbar.rst:138
+#: ../../working_toolbar.rst:150
 msgid ""
 "|radiobutton| :guilabel:`Preview`: use the button to show/hide the last "
 ":ref:`classification_preview` in the map;"
 msgstr ""
 
-#: ../../working_toolbar.rst:139
+#: ../../working_toolbar.rst:151
 msgid ""
 "|preview|: activate the pointer for the creation of a "
 ":ref:`classification_preview`; left click the map to start the "
@@ -225,26 +233,26 @@ msgid ""
 ":ref:`algorithm_raster` of the preview;"
 msgstr ""
 
-#: ../../working_toolbar.rst:140
+#: ../../working_toolbar.rst:152
 msgid ""
 "|preview_redo|: create a new :ref:`classification_preview` centred at the"
 " same pixel as the previous one;"
 msgstr ""
 
-#: ../../working_toolbar.rst:141
+#: ../../working_toolbar.rst:153
 msgid ""
 ":guilabel:`T` |input_number|: change dynamically the classification "
 "preview transparency, which is useful for comparing  the classification "
 "to other layers;"
 msgstr ""
 
-#: ../../working_toolbar.rst:142
+#: ../../working_toolbar.rst:154
 msgid ""
 ":guilabel:`S` |input_number| |project_save|: size of the preview in pixel"
 " unit (i.e. the side length of a square, centred at the clicked pixel);"
 msgstr ""
 
-#: ../../working_toolbar.rst:143
+#: ../../working_toolbar.rst:155
 msgid ""
 "|remove_temp|: remove from QGIS the :guilabel:`classification previews` "
 "that are archived in the :guilabel:`Class_temp_group`;"

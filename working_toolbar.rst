@@ -98,6 +98,12 @@ Image control
 * |cumulative_stretch|: display the input image stretching the minimum and maximum values according to cumulative count of current map extent;
 * |std_dev_stretch|: display the input image stretching the minimum and maximum values according to standard deviation of current map extent;
 
+.. raw:: html
+
+	<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/9jA_Rh8YfKQ?rel=0" width="100%"></iframe>
+
+http://www.youtube.com/watch?v=9jA_Rh8YfKQ
+
 .. _temporary_ROI:
 
 Temporary ROI
@@ -117,6 +123,12 @@ A :guilabel:`temporary ROI` can be drawn manually or using a :ref:`region_growin
 	* :guilabel:`Min` |input_number| |project_save|: set the minimum area of a ROI (in pixel unit); this setting overrides the ``Range radius`` until the minimum ROI size is reached; if ``Rapid ROI on band`` is checked, then ROI will have at least the size defined ``Min ROI size``; if ``Rapid ROI on band`` is unchecked, then ROI could have a size smaller than ``Min ROI size``;
 	* :guilabel:`Max` |input_number| |project_save|: set the maximum width of a ROI (i.e. the side length of a square, centred at the seed pixel, which inscribes the ROI) in pixel unit;
 	
+.. raw:: html
+
+	<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/CQqNtlOU6mI?rel=0" width="100%"></iframe>
+
+http://www.youtube.com/watch?v=CQqNtlOU6mI
+
 .. _classification_preview:
 
 Classification preview

@@ -1,0 +1,684 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-09 23:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../tutorial_4.rst:5
+msgid "Tutorial 4"
+msgstr ""
+
+#: ../../tutorial_4.rst:230
+msgid ""
+"The following is a tutorial about the functions of the Semi-Automatic "
+"Classification Plugin (:guilabel:`SCP`). It is assumed that you have a "
+"basic knowledge of QGIS."
+msgstr ""
+
+#: ../../tutorial_4.rst:241
+msgid "Tutorial 4: Postprocessing tools for assessing land cover change"
+msgstr ""
+
+#: ../../tutorial_4.rst:243
+msgid ""
+"This tutorial aims to analyze land cover change using SCP Postprocessing "
+"tools. Basically, we are going to assess land cover change from two "
+"raster classifications, and relate the changes to a land use vector file."
+" An overview of several postprocessing tools is also provided."
+msgstr ""
+
+#: ../../tutorial_4.rst:247
+msgid ""
+"The following is the video tutorial, and the following text illustrates "
+"the phases in detail."
+msgstr ""
+
+#: ../../tutorial_4.rst:253
+msgid "http://www.youtube.com/watch?v=0IUosyr4pRw"
+msgstr ""
+
+#: ../../tutorial_4.rst:256
+msgid ""
+"The tools can be applied to any land cover classification, but we are "
+"going to use `Copernicus data <https://land.copernicus.eu/>`_, which are "
+"freely available (as established by the EU Regulation No 1159/2013 of 12 "
+"July 2013) and cover the European countries. Of course, this tutorial is "
+"designed for demonstration purposes and it is not endorsed by the "
+"European Union. The original Copernicus data (produced with funding by "
+"the European Union) are downloaded from https://land.copernicus.eu/ and "
+"remain the sole property of the European Union."
+msgstr ""
+
+#: ../../tutorial_4.rst:260
+msgid "Following, a brief description of the data we are going to use."
+msgstr ""
+
+#: ../../tutorial_4.rst:262
+#, python-format
+msgid ""
+"The `Copernicus High Resolution Layers <https://land.copernicus.eu/pan-"
+"european/high-resolution-layers>`_ are raster classifications with 20m "
+"spatial resolution. Several land cover classes are available, but in this"
+" tutorial we are going to use the Imperviousness Density for 2012 and "
+"2015. These data classify the degree of imperviousness (0-100% of "
+"impermeable cover of soil), which is the artificially sealed area. The "
+"Imperviousness Density was produced using automatic derivation based on "
+"calibrated Normalized Difference Vegetation Index. You can find the "
+"detailed product specifications `here <https://land.copernicus.eu/pan-"
+"european/high-resolution-layers/imperviousness>`_."
+msgstr ""
+
+#: ../../tutorial_4.rst:268
+msgid ""
+"The `Copernicus Corine Land Cover <https://land.copernicus.eu/pan-"
+"european/corine-land-cover>`_ is a land use/land cover vector produced by"
+" standard methodology of photo-interpretation of satellite images. The "
+"vector is classified in 44 classes divided in 3 hierarchical levels with "
+"minimum mapping unit of 25 hectares. In this tutorial we are considering "
+"only the first level of Corine Land Cover 2012, divided in these classes:"
+msgstr ""
+
+#: ../../tutorial_4.rst:272 ../../tutorial_4.rst:507
+msgid "artificial surfaces"
+msgstr ""
+
+#: ../../tutorial_4.rst:273 ../../tutorial_4.rst:508
+msgid "agricultural areas"
+msgstr ""
+
+#: ../../tutorial_4.rst:274 ../../tutorial_4.rst:509
+msgid "forests and semi-natural areas"
+msgstr ""
+
+#: ../../tutorial_4.rst:275 ../../tutorial_4.rst:510
+msgid "wetlands"
+msgstr ""
+
+#: ../../tutorial_4.rst:276 ../../tutorial_4.rst:511
+msgid "water bodies"
+msgstr ""
+
+#: ../../tutorial_4.rst:282
+msgid "Refine the classifications with direct editing"
+msgstr ""
+
+#: ../../tutorial_4.rst:284
+msgid ""
+"You can download the data for this tutorial from `this archive "
+"<https://docs.google.com/uc?id=1O6J113vWplOff35o_dz64P287xKYamBN>`_ , or "
+"use your own data (two classification rasters and a land use vector)."
+msgstr ""
+
+#: ../../tutorial_4.rst:286
+msgid ""
+"For this tutorial, the original Copernicus data were modified by clipping"
+" the rasters to a small area over Florence (Italy)."
+msgstr ""
+
+#: ../../tutorial_4.rst:288
+msgid ""
+"Start QGIS and load the two rasters ``IMD_2012.tif`` and ``IMD_2015.tif``"
+" that are Copernicus Imperviousness Density for 2012 and 2015 "
+"respectively. As you can see, the rasters have values from 0 to 100, "
+"representing the degree of imperviousness."
+msgstr ""
+
+#: ../../tutorial_4.rst:291
+msgid ""
+"It is useful to refine the classification by photo-interpretation, "
+"especially for data produced by semi-automatic processing."
+msgstr ""
+
+#: ../../tutorial_4.rst:293
+msgid ""
+"We can use high resolution images or other services such as "
+"`OpenStreetMap <http://www.openstreetmap.org>`_. For example you can "
+"follow this tutorial :ref:`tutorial_1_data_download` to download "
+"satellite images, or you can download a subset of a Landsat 8 image, "
+"already converted to reflectance, from `this link "
+"<https://docs.google.com/uc?id=10SRrNbiy-f2uaX3e7jHdw4dI8sG9bIE4>`_ "
+"(about 27 MB, data available from the U.S. Geological Survey), unzip the "
+"downloaded file, and load the bands in QGIS."
+msgstr ""
+
+#: ../../tutorial_4.rst:296
+msgid ""
+"First, we need to define a :guilabel:`Band set` containing a "
+"classification raster (this is required for drawing ROIs)."
+msgstr ""
+
+#: ../../tutorial_4.rst:298
+msgid ""
+"Open the tab :ref:`band_set_tab` clicking the button |bandset_tool| in "
+"the :ref:`SCP_menu` or the :ref:`SCP_dock`. Click the button |reload| to "
+"refresh the layer list, and select the ``IMD_2012`` raster (just this "
+"raster is sufficient); then click |plus| to add selected raster to the "
+":guilabel:`Band set 1`."
+msgstr ""
+
+#: ../../tutorial_4.rst:305
+msgid ":guilabel:`Band set definition`"
+msgstr ""
+
+#: ../../tutorial_4.rst:307
+msgid ""
+"Optionally, we can create a band set for the satellite image to display a"
+" color composite; open the tab :ref:`band_set_tab` and select all the "
+"Landsat bands in the list; click |add_bandset| to add a new band set, "
+"then click |plus| to add selected rasters to the :guilabel:`Band set 2`."
+msgstr ""
+
+#: ../../tutorial_4.rst:313
+msgid ":guilabel:`Band set of the Landsat image`"
+msgstr ""
+
+#: ../../tutorial_4.rst:315
+msgid ""
+"In QGIS zoom to an area where we want to correct the classification. In "
+"this case we are going to manually remove a few pixels pretending they "
+"are classification errors."
+msgstr ""
+
+#: ../../tutorial_4.rst:318
+msgid ""
+"We need to manually create a ROI, but first check that the "
+":guilabel:`Band set 1` is active. Now click the button |manual_ROI| in "
+"the :ref:`working_toolbar`. Left click on the map to define the ROI "
+"vertices and right click to define the last vertex closing the polygon. "
+"An orange semi-transparent polygon is displayed over the image, which is "
+"a temporary polygon (in this case we don't need to define the "
+":guilabel:`Training input`)."
+msgstr ""
+
+#: ../../tutorial_4.rst:327
+msgid ":guilabel:`Manual ROI polygon`"
+msgstr ""
+
+#: ../../tutorial_4.rst:329
+msgid ""
+"Now open the tool |edit_raster| :ref:`edit_raster_tab` opening the "
+":ref:`SCP_menu` and the submenu |tools| ``Postprocessing`` . Select the "
+":guilabel:`Input raster`, for instance ``IMD_2012``. According to the "
+"legend of Imperviousness Density, in |checkbox| :guilabel:`Use constant "
+"value` enter 100 (we want to correct impervious pixels; in case we would "
+"like to correct not impervious pixels we would enter the value 0). The "
+"other options are fine. Therefore, click :guilabel:`RUN` |run| to edit "
+"the raster."
+msgstr ""
+
+#: ../../tutorial_4.rst:335
+msgid ""
+"**Attention**: the input raster is directly edited; it is recommended to "
+"create a **backup copy** of the input raster before using this tool in "
+"order to prevent data loss."
+msgstr ""
+
+#: ../../tutorial_4.rst:341
+msgid ":guilabel:`The raster modified`"
+msgstr ""
+
+#: ../../tutorial_4.rst:343
+msgid "Of course we could repeat these steps to edit any area of the raster."
+msgstr ""
+
+#: ../../tutorial_4.rst:345
+msgid ""
+"**TIP** : Sometimes changes are not immediately visibile because the "
+"raster is not refreshed; try to zoom out and zoom in to refresh the view."
+msgstr ""
+
+#: ../../tutorial_4.rst:351
+msgid "Classification report"
+msgstr ""
+
+#: ../../tutorial_4.rst:353
+msgid ""
+"It could be interesting to know the area of each land cover class. In "
+"order to get the area statistics, open the :ref:`SCP_menu` and click the "
+"tab |report_tool| :ref:`classification_report_tab` under the submenu "
+"|tools| ``Postprocessing`` ."
+msgstr ""
+
+#: ../../tutorial_4.rst:356
+msgid ""
+"Click the button |reload| to refresh the layer list, and select the "
+"``IMD_2012`` raster in :guilabel:`Select the classification` |input_list|"
+" ; next click :guilabel:`RUN` |run| to start the calculation; the output "
+"report is saved in a text file and displayed in the tab "
+":guilabel:`Output`."
+msgstr ""
+
+#: ../../tutorial_4.rst:362
+msgid ":guilabel:`Report tool`"
+msgstr ""
+
+#: ../../tutorial_4.rst:364
+#, python-format
+msgid ""
+"We can repeat the same steps for the ``IMD_2015`` raster. Over the 86% of"
+" the area is not impervious."
+msgstr ""
+
+#: ../../tutorial_4.rst:371
+msgid ":guilabel:`The classification report`"
+msgstr ""
+
+#: ../../tutorial_4.rst:377
+msgid "Reclassification"
+msgstr ""
+
+#: ../../tutorial_4.rst:379
+msgid ""
+"Before calculating land cover change it is convenient to reclassify the "
+"imperviousness degree into two classes: built-up and not built-up. A "
+"possible threshold for the distinction between built-up and not built-up "
+"is 30% (for further information read `this document "
+"<https://land.copernicus.eu/user-corner/technical-library/hrl-"
+"imperviousness-technical-document-prod-2015>`_ ). We can reclassify the "
+"raster using the SCP tool, obtaining the simple classification 1 = built-"
+"up and 0 = not built-up."
+msgstr ""
+
+#: ../../tutorial_4.rst:383
+msgid ""
+"Open the tool |reclassification_tool| :ref:`reclassification_tab`. In "
+":guilabel:`Select the classification` select the raster ``IMD_2012``. "
+"Click the button |add| twice to add two rows to the table. We need to "
+"enter the expressions illustrated in the following table."
+msgstr ""
+
+#: ../../tutorial_4.rst:388
+msgid ":guilabel:`Reclassification table`"
+msgstr ""
+
+#: ../../tutorial_4.rst:391
+msgid "Old value"
+msgstr ""
+
+#: ../../tutorial_4.rst:391
+msgid "New value"
+msgstr ""
+
+#: ../../tutorial_4.rst:393
+msgid "raster < 30"
+msgstr ""
+
+#: ../../tutorial_4.rst:393 ../../tutorial_4.rst:545
+msgid "0"
+msgstr ""
+
+#: ../../tutorial_4.rst:395
+msgid "raster >= 30"
+msgstr ""
+
+#: ../../tutorial_4.rst:395 ../../tutorial_4.rst:543 ../../tutorial_4.rst:545
+msgid "1"
+msgstr ""
+
+#: ../../tutorial_4.rst:399
+msgid ""
+"Uncheck the options |checkbox| :guilabel:`Use code from Signature list` "
+"and click :guilabel:`RUN` |run| to start the reclassification. A new "
+"raster will be created (e.g. ``BU_2012``)."
+msgstr ""
+
+#: ../../tutorial_4.rst:406
+msgid ":guilabel:`Reclassification tool`"
+msgstr ""
+
+#: ../../tutorial_4.rst:408
+msgid ""
+"Now select the ``IMD_2015`` (the reclassification table is the same as "
+"before) and click :guilabel:`RUN` |run| to reclassify the 2015 raster "
+"(e.g. ``BU_2015``). Now the two reclassified rasters are loaded in the "
+"map and we can assing an appropriate symbology."
+msgstr ""
+
+#: ../../tutorial_4.rst:415
+msgid ":guilabel:`Reclassified rasters`"
+msgstr ""
+
+#: ../../tutorial_4.rst:421
+msgid "Remove isolated pixels"
+msgstr ""
+
+#: ../../tutorial_4.rst:423
+msgid ""
+"We are going to compute the land cover change, but first we may want to "
+"remove isolated pixels in order to improve the analysis. In fact, single "
+"pixels may not represent real changes between the two classifications, "
+"because of geometrical shifts or isolated classification errors. Of "
+"course, this step is not always required, and it should be avoided if the"
+" purpose of the analysis is to find also the smallest changes."
+msgstr ""
+
+#: ../../tutorial_4.rst:427
+msgid ""
+"We are going to use classification sieve for removing single pixels. Open"
+" the tool |classification_sieve| :ref:`classification_sieve_tab`."
+msgstr ""
+
+#: ../../tutorial_4.rst:430
+msgid ""
+"In :guilabel:`Size threshold` leave 2; all patches smaller the the "
+"selected number of pixels (i.e. single pixels) will be replaced by the "
+"value of the largest neighbour patch. Of course we could increase this "
+"value if we want to remove larger patches."
+msgstr ""
+
+#: ../../tutorial_4.rst:433
+msgid ""
+"In :guilabel:`Select the classification` select the raster ``BU_2012``. "
+"The option :guilabel:`4` in :guilabel:`Pixel connection` determines how "
+"pixels are considered connected, that is in a 3x3 window diagonal pixels "
+"are not considered connected. If we select the option :guilabel:`8` also "
+"diagonal pixels are considered connected."
+msgstr ""
+
+#: ../../tutorial_4.rst:441
+msgid ":guilabel:`Tool classification sieve`"
+msgstr ""
+
+#: ../../tutorial_4.rst:443
+msgid ""
+"Now click :guilabel:`RUN` |run| to create the new raster "
+"``BU_2012_sieve``."
+msgstr ""
+
+#: ../../tutorial_4.rst:445
+msgid ""
+"Of course, we should repeat these steps also for raster ``BU_2015`` to "
+"create the new raster ``BU_2015_sieve``."
+msgstr ""
+
+#: ../../tutorial_4.rst:451
+msgid ":guilabel:`The rasters after removing isolated pixels`"
+msgstr ""
+
+#: ../../tutorial_4.rst:457
+msgid "Assess land cover change"
+msgstr ""
+
+#: ../../tutorial_4.rst:459
+msgid ""
+"Now we can use the tool to assess land cover change between the two "
+"classifications 2012 and 2015. Open the tool |land_cover_change| "
+":ref:`land_cover_change_tab`."
+msgstr ""
+
+#: ../../tutorial_4.rst:462
+msgid ""
+"This tool is quite straightforward. Click the button |reload| to refresh "
+"the layer list. In :guilabel:`Select the reference classification` select"
+" the ``BU_2012_sieve`` raster, that is the first classification. In "
+":guilabel:`Select the new classification` select the ``BU_2015_sieve`` "
+"raster, that is the latest classification."
+msgstr ""
+
+#: ../../tutorial_4.rst:467
+msgid ""
+"Uncheck the option |checkbox| :guilabel:`Report unchanged pixels`, "
+"because we want to report only the pixels where the classification "
+"changed between 2012 and 2015. Now click :guilabel:`RUN` |run| to create "
+"the new land cover change raster (e.g. ``change``). Also, a text file is "
+"created (i.e. a file .csv separated by tab) containing the land cover "
+"change statistics."
+msgstr ""
+
+#: ../../tutorial_4.rst:475
+msgid ":guilabel:`Land cover change tool`"
+msgstr ""
+
+#: ../../tutorial_4.rst:477
+msgid ""
+"The values of the land cover change raster represent a combination "
+"between reference and new classification, as described in the text file. "
+"In this case, only the value 1 is present that is the condition where "
+"``BU_2012_sieve`` = 0 and ``BU_2015_sieve`` = 1."
+msgstr ""
+
+#: ../../tutorial_4.rst:484
+msgid ":guilabel:`Land cover change raster`"
+msgstr ""
+
+#: ../../tutorial_4.rst:486
+msgid ""
+"From the report we ca read that 520 pixels changed from 0 to 1, while no "
+"pixel changed from 1 to 0 between years 2012 and 2015."
+msgstr ""
+
+#: ../../tutorial_4.rst:492
+msgid ":guilabel:`Land cover change report`"
+msgstr ""
+
+#: ../../tutorial_4.rst:497
+msgid "Analyze the context of land cover changes"
+msgstr ""
+
+#: ../../tutorial_4.rst:499
+msgid ""
+"Now, it could be interesting to compare land cover change to other data "
+"such as land use, in order to analyze the context of new built-up areas. "
+"We are going to cross the land cover changes to the vector of Corine Land"
+" Cover; this way we can differentiate the new built-up areas according to"
+" Corine Land Cover classification system."
+msgstr ""
+
+#: ../../tutorial_4.rst:502
+msgid ""
+"The original Corine Land Cover data were modified by clipping to a small "
+"area over Florence (Italy) and adding a field ``Class_1`` filled with the"
+" first level of classification."
+msgstr ""
+
+#: ../../tutorial_4.rst:504
+msgid ""
+"Load in QGIS the Copernicus Corine Land Cover shapefile ``CLC_2012.shp`` "
+"previously downloaded. You can see the symbology of the first level "
+"Corine Land Cover classes that are:"
+msgstr ""
+
+#: ../../tutorial_4.rst:517
+msgid ":guilabel:`A subset of Corine Land Cover`"
+msgstr ""
+
+#: ../../tutorial_4.rst:519
+msgid ""
+"Open the tool |cross_classification| :ref:`cross_classification_tab`. "
+"Click the button |reload| to refresh the layer list. In :guilabel:`Select"
+" the classification` select the ``change`` raster, that is our land cover"
+" change. Check |checkbox| :guilabel:`Use NoData value` and set the value "
+"0, in order to exclude unchanged pixels (having value 0 in the ``change``"
+" raster) from the analysis."
+msgstr ""
+
+#: ../../tutorial_4.rst:524
+msgid ""
+"In :guilabel:`Select the reference vector or raster` select the vector "
+"``CLC_2012`` and in :guilabel:`Vector field` select the field "
+"``Class_1``, containing the code of first level classes."
+msgstr ""
+
+#: ../../tutorial_4.rst:531
+msgid ":guilabel:`Cross classification tool`"
+msgstr ""
+
+#: ../../tutorial_4.rst:533
+msgid ""
+"Now click :guilabel:`RUN` |run| to create a new raster of comparison "
+"(e.g. ``change_CLC``). The output will report the area of each "
+"combination between ``change`` code and ``CLC_2012`` code."
+msgstr ""
+
+#: ../../tutorial_4.rst:536
+msgid ""
+"From the cross matrix we can evaluate the area in :math:`m^2` of built-up"
+" changes occurrend in the 5 classes of Corine Land Cover classification."
+msgstr ""
+
+#: ../../tutorial_4.rst:538
+msgid ":guilabel:`Cross matrix`"
+msgstr ""
+
+#: ../../tutorial_4.rst:541
+msgid "CLC_2012"
+msgstr ""
+
+#: ../../tutorial_4.rst:543
+msgid "2"
+msgstr ""
+
+#: ../../tutorial_4.rst:543
+msgid "3"
+msgstr ""
+
+#: ../../tutorial_4.rst:543
+msgid "4"
+msgstr ""
+
+#: ../../tutorial_4.rst:543
+msgid "5"
+msgstr ""
+
+#: ../../tutorial_4.rst:545
+msgid "Change"
+msgstr ""
+
+#: ../../tutorial_4.rst:545
+msgid "157600"
+msgstr ""
+
+#: ../../tutorial_4.rst:545
+msgid "48400"
+msgstr ""
+
+#: ../../tutorial_4.rst:545
+msgid "2000"
+msgstr ""
+
+#: ../../tutorial_4.rst:548
+msgid ""
+"The tool :ref:`cross_classification_tab` can be very useful also for "
+"other analyses that involve the comparison with other data, such as "
+"population or flood risk, but this could be the subject of other "
+"tutorials."
+msgstr ""
+
+#: ../../tutorial_4.rst:553
+msgid "Assess the spectral signature of changes"
+msgstr ""
+
+#: ../../tutorial_4.rst:555
+msgid ""
+"An optional step could be the assessment of the spectral signature of "
+"changes. We can download satellite images (see :ref:`tutorial_1` for the "
+"details) and calculate spectral signatures for monitoring the changes "
+"through time."
+msgstr ""
+
+#: ../../tutorial_4.rst:558
+msgid ""
+"We are going to use the Landsat 8 image downloaded at the beginning of "
+"this tutorial for calculating the spectral signature of changes. First, "
+"we need to create a :guilabel:`Training input` to store the spectral "
+"signatures calculated from the classes. In the :ref:`SCP_dock` select the"
+" tab :ref:`training_input` and click the button |new_file| to create the "
+":guilabel:`Training input` (define a name such as ``signatures.scp``). "
+"The path of the file is displayed and a vector is added to QGIS layers "
+"with the same name as the :guilabel:`Training input` (in order to prevent"
+" data loss, you should not edit this layer using QGIS functions)."
+msgstr ""
+
+#: ../../tutorial_4.rst:563
+msgid ""
+"Now open the tool |class_signature| :ref:`class_signature_tab` opening "
+"the :ref:`SCP_menu` and the submenu |tools| ``Postprocessing`` . In "
+":guilabel:`Select the classification` select the raster ``change_CLC``, "
+"thus we can distinguish the spectral signatures of changes. In "
+":guilabel:`Select input band set` enter the number of the band set "
+"containing the Landsat 8 bands (i.e. 2). Now click :guilabel:`RUN` |run| "
+"to start the calculation."
+msgstr ""
+
+#: ../../tutorial_4.rst:572
+msgid ":guilabel:`The tool for extracting spectral signatures from classes`"
+msgstr ""
+
+#: ../../tutorial_4.rst:574
+msgid ""
+"After a while the spectral signatures are loaded in the "
+":guilabel:`Training input`."
+msgstr ""
+
+#: ../../tutorial_4.rst:576
+msgid ""
+"If the changes involved vegetation, we could calculate spectral "
+"signatures for images acquired in different seasons and assess the "
+"phenological variations of vegetation through spectral signatures. Also, "
+"these spectral signatures could be used as training input for further "
+"land cover classifications."
+msgstr ""
+
+#: ../../tutorial_4.rst:579
+msgid ""
+"In order to display the signature plot, in the :ref:`ROI_list` highlight "
+"two or more spectral signatures (with click in the table), then click the"
+" button |sign_plot|. The :ref:`spectral_signature_plot` is displayed in a"
+" new window."
+msgstr ""
+
+#: ../../tutorial_4.rst:586
+msgid ":guilabel:`The calculated spectral signatures`"
+msgstr ""
+
+#: ../../tutorial_4.rst:592
+msgid "Export the changes to vector format"
+msgstr ""
+
+#: ../../tutorial_4.rst:594
+msgid ""
+"This is an optional step that may be useful for further analyses and "
+"integration with other data. We are going to convert the change raster to"
+" vector."
+msgstr ""
+
+#: ../../tutorial_4.rst:597
+msgid ""
+"Open the tool |class_to_vector_tool| :ref:`classification_vector_tab`. In"
+" :guilabel:`Select the classification` select the ``change_CLC`` raster "
+"and uncheck the |checkbox| :guilabel:`Use code from Signature list`. Now "
+"click :guilabel:`RUN` |run| to create a new vector (e.g. "
+"``change_vector``)."
+msgstr ""
+
+#: ../../tutorial_4.rst:605
+msgid ":guilabel:`Raster to vector tool`"
+msgstr ""
+
+#: ../../tutorial_4.rst:607
+msgid ""
+"In the attribute table of this ``change_vector`` you can see the field "
+"``C_ID`` that represents the code of the change raster as described in "
+":ref:`tutorial_4_land_cover_change`. Of course we could delete the "
+"polygons with code 0 (unchanged area), displaying only changes with code "
+"1."
+msgstr ""
+
+#: ../../tutorial_4.rst:614
+msgid ":guilabel:`The vector of changes over the Landsat image`"
+msgstr ""
+

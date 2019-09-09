@@ -15,3 +15,4 @@ It is assumed that you have already performed the :ref:`tutorials`.
 	:maxdepth: 1
 	
 	tutorial_3.rst
+	tutorial_4.rst

@@ -5,7 +5,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
-# AEscolaUdL <aescolaudl@gmail.com>, 2016
+# Luca Congedo <semiautomatic.blogger@gmail.com>, 2016
+# Ves Nikos, 2016
+# Alexandros Malounis <malounis@gmail.com>, 2017
 # 
 #, fuzzy
 msgid ""
@@ -14,18 +16,18 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-09 11:13+0100\n"
 "PO-Revision-Date: 2016-08-29 15:42+0000\n"
-"Last-Translator: AEscolaUdL <aescolaudl@gmail.com>, 2016\n"
-"Language-Team: Catalan (https://www.transifex.com/semi-automatic-classification/teams/53374/ca/)\n"
+"Last-Translator: Alexandros Malounis <malounis@gmail.com>, 2017\n"
+"Language-Team: Greek (Greece) (https://www.transifex.com/semi-automatic-classification/teams/53374/el_GR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: ca\n"
+"Language: el_GR\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../introduction.rst:5
 msgid "Introduction"
-msgstr "Introducció"
+msgstr "Εισαγωγή"
 
 #: ../../introduction.rst:14
 msgid ""
@@ -38,14 +40,14 @@ msgid ""
 "preprocessing, the postprocessing, and the raster calculation (please see "
 ":ref:`other_0`)."
 msgstr ""
-"Desenvolupat per `Luca Congedo "
-"<http://www.researchgate.net/profile/Luca_Congedo>`_, el **Semi-Automatic "
-"Classification Plugin** (:guilabel:`SCP`)  és un connector gratuït de codi "
-"font obert per a `QGIS <http://www.qgis.org>`_ que permet la classificació "
-"semi-automàtica (també coneguda com a classificació supervisada) d'imatges "
-"de teledetecció. El connector facilita diverses eines per a la descàrrega "
-"d'imatges gratuïtes, el pre-processament, el post-processament i el càlcul "
-"de ràsters  (vegeu :ref:`other_0`)."
+"Αναπτύχθηκε από τον `Luca Congedo "
+"<http://www.researchgate.net/profile/Luca_Congedo>`_, the **Semi-Automatic "
+"Classification Plugin** (:guilabel:`SCP`) is a free open source plugin for "
+"`QGIS <http://www.qgis.org>`_ that allows for the semi-automatic "
+"classification (also known as supervised classification) of remote sensing "
+"images. It provides several tools for the download of free images, the "
+"preprocessing, the postprocessing, and the raster calculation (please see "
+":ref:`other_0`)."
 
 #: ../../introduction.rst:17
 msgid ""
@@ -69,10 +71,6 @@ msgid ""
 "functions. In addition, the :ref:`remote_sensing` illustrates the basic "
 "concepts and definitions which are required for using the :guilabel:`SCP`."
 msgstr ""
-"Aquest **manual d'usuari** facilita informació sobre la :ref:`installation` "
-"de SPC i la :ref:`interface`, amb detall sobre totes les funcions. A més, la"
-" :ref:`remote_sensing` il·lustra els conceptes bàsics i les definicions "
-"necessàries per a utilizar :guilabel:`SCP`."
 
 #: ../../introduction.rst:24
 msgid ""
@@ -90,13 +88,17 @@ msgstr ""
 
 #: ../../introduction.rst:29
 msgid "For more information and tutorials visit the official site"
-msgstr "Per a més informació i tutorials visiteu el lloc web oficial."
+msgstr ""
+"Για περισσότερες πληροφορίες και ασκήσεις εκμάθησης επισκεφθείτε το επίσημο "
+"ιστότοπο."
 
 #: ../../introduction.rst:31
 msgid ""
 "|fromGIStoRS| `From GIS to Remote Sensing "
 "<https://fromgistors.blogspot.com>`_"
 msgstr ""
+"|fromGIStoRS| `From GIS to Remote Sensing "
+"<https://fromgistors.blogspot.com>`_"
 
 #: ../../introduction.rst:33 ../../introduction.rst:39
 #: ../../introduction.rst:50 ../../introduction.rst:56
@@ -105,19 +107,19 @@ msgstr "|br|"
 
 #: ../../introduction.rst:35
 msgid "**How to cite:**"
-msgstr "**Com citar:**"
+msgstr "** Πως να κάνετε παραπομπή στο έργο:  **"
 
 #: ../../introduction.rst:37
 msgid ""
 "*Congedo Luca (2016). Semi-Automatic Classification Plugin Documentation.* "
 "DOI: http://dx.doi.org/10.13140/RG.2.2.29474.02242/1"
 msgstr ""
-"*Congedo Luca (2016). Documentació del connector Semi-Automatic "
-"Classification Plugin.* DOI: http://dx.doi.org/10.13140/RG.2.2.29474.02242/1"
+"*Congedo Luca (2016). Semi-Automatic Classification Plugin Documentation.* "
+"DOI: http://dx.doi.org/10.13140/RG.2.2.29474.02242/1"
 
 #: ../../introduction.rst:41
 msgid "**License:**"
-msgstr "**Llicència:**"
+msgstr "** Άδεια Χρήσης: **"
 
 #: ../../introduction.rst:43
 msgid ""
@@ -125,9 +127,9 @@ msgid ""
 "`Creative Commons Attribution-ShareAlike 4.0 International License "
 "<http://creativecommons.org/licenses/by-sa/4.0/>`_."
 msgstr ""
-"Excepte on s'indiqui el contrari, el contingut d'aquest treball té una "
-"llicència `Creative Commons Attribution-ShareAlike 4.0 International License"
-" <http://creativecommons.org/licenses/by-sa/4.0/>`_."
+"Με εξαιρέσεις όπου αναφέρονται, τα περί αυτού του έργου υπόκεινται σε άδεια "
+"χρήσης `Creative Commons Attribution-ShareAlike 4.0 International License "
+"<http://creativecommons.org/licenses/by-sa/4.0/>`_."
 
 #: ../../introduction.rst:46
 msgid ""
@@ -141,22 +143,22 @@ msgid ""
 " the GNU General Public License along with Semi-Automatic Classification "
 "Plugin. If not, see http://www.gnu.org/licenses/.``"
 msgstr ""
-"``El connector Semi-Automatic Classification Plugin és programari lliure: "
-"podeu redistribuir-lo i/o modificar-lo d'acord amb les condicions de la "
-"Llicència Pública General (GPL) de GNU tal com està publicat per al Free "
-"Software Foundation, versió 3 de la llicència. El Semi-Automatic "
-"Classification Plugin es distribueix amb l'esperança que sigui útil però "
-"SENSE CAP GARANTIA; sense ni tal sols la garantia implícita de "
-"COMERCIABILITAT o d'ADEQUACIÓ PER A UN PROPÒSIT PARTICULAR. Vegeu la "
-"Llicència Pública General (GPL) de GNU per a més detalls. Hauríeu d'haver "
-"rebut una còpia de la Llicència Pública General (GPL) de GNU amb el "
-"connector Semi-Automatic Classification Plugin. Si no, vegeu "
-"http://www.gnu.org/licenses/.``"
+"`` To Προσθέτο \"Ημί-Αυτόματος Ταξινομητής\"  είναι ελεύθερο λογισμικό : "
+"Επιτρέπεται η επαναδιανομή του και/ή μετατροπή του ύπο τους Όρους που "
+"αναφέρονται στην άδεια χρήσης GNU General Public License όπως διανέμονται "
+"απο το Free Software Foundation, 3ή έκδοση της Άδειας. To Προσθέτο \"Ημί-"
+"Αυτόματος Ταξινομητής\" διατίθεται με την ελπίδα χρησιμότητας, αλλά ΧΩΡΙΣ "
+"ΚΑΜΙΑ ΕΓΓΥΗΣΗ, αλλά ούτε με  υπαινισσόμενη εγγύηση ΕΜΠΟΡΙΚΟΤΗΤΑΣ ή "
+"ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΧΡΗΣΗΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜEΝΟ ΣΚΟΠΟ. Για περισσότερες πληροφορίες "
+"δείτε την GNU General Public License. Θα πρέπει να έχετε λάβει ένα αντίγραφο"
+" της άδειας GNU General Public License μαζί με το πρόσθετο \"Ημί-Αυτόματος "
+"Ταξινομητής\". Αν όχι, επισκεφθείτε τη σελίδα  "
+"http://www.gnu.org/licenses/.`` "
 
 #: ../../introduction.rst:52
 msgid "**Translators:**"
-msgstr "**Traductors:**"
+msgstr "**Μεταφραστές:**"
 
 #: ../../introduction.rst:54
 msgid "Language: Author"
-msgstr "Idioma: Autor"
+msgstr "Γλώσσα: Συγγραφέας"

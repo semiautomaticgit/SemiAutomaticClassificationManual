@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Pedro Venâncio <pedrongvenancio@gmail.com>, 2016
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"PO-Revision-Date: 2016-08-29 15:42+0000\n"
+"Last-Translator: Pedro Venâncio <pedrongvenancio@gmail.com>, 2016\n"
+"Language-Team: Portuguese (https://www.transifex.com/semi-automatic-classification/teams/53374/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../installation_win64.rst:5
+msgid "Installation in Windows 64 bit"
+msgstr "Instalação em Windows - versão de 64 bits"
+
+#: ../../installation_win64.rst:14
+msgid "QGIS download and installation"
+msgstr "Download e instalação do QGIS"
+
+#: ../../installation_win64.rst:16
+msgid ""
+"Download the latest QGIS version 64 bit from `here "
+"<https://www.qgis.org/en/site/forusers/download.html>`_ ;"
+msgstr ""
+
+#: ../../installation_win64.rst:18
+msgid ""
+"Execute the QGIS installer with administrative rights, accepting the default"
+" configuration."
+msgstr ""
+"Execute o instalador do QGIS com privilégios de administração, aceitando as "
+"configurações por defeito."
+
+#: ../../installation_win64.rst:20
+msgid "Now, QGIS is installed."
+msgstr ""
+
+#: ../../installation_win64.rst:27
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr "Instalação do Semi-Automatic Classification Plugin"
+
+#: ../../installation_win64.rst:29
+msgid "Run QGIS;"
+msgstr ""
+
+#: ../../installation_win64.rst:31
+msgid ""
+"From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr ""
+"A partir do menu principal, seleccione ``Plugins`` > ``Manage and Install "
+"Plugins``;"
+
+#: ../../installation_win64.rst:35
+msgid ""
+"From the menu ``All``, select the Semi-Automatic Classification Plugin and "
+"click the button ``Install plugin``;"
+msgstr ""
+"No separador ``All``, seleccione o Semi-Automatic Classification Plugin e "
+"clique no botão ``Install plugin``;"
+
+#: ../../installation_win64.rst:37
+msgid ""
+"**TIP**: in case of issues or an offline installation is required see "
+":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
+msgstr ""
+"**TIP**: No caso de encontrar algum problema durante a instalação, ou de "
+"necessitar de fazer a instalação em modo offline, consulte "
+":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
+
+#: ../../installation_win64.rst:41
+msgid ""
+"The SCP should be automatically activated; however, be sure that the Semi-"
+"Automatic Classification Plugin is checked in the menu ``Installed`` (the "
+"restart of QGIS could be necessary to complete the SCP installation);"
+msgstr ""
+"O SCP deverá ficar activado automaticamente; contudo, certifique-se de que o"
+" Semi-Automatic Classification Plugin está marcado com um visto no separador"
+" ``Installed`` (é provável que seja necessário reiniciar o QGIS para "
+"completar a instalação do SCP);"
+
+#: ../../installation_win64.rst:48
+msgid "Configuration of the plugin"
+msgstr "Configuração do plugin"
+
+#: ../../installation_win64.rst:50
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and a dock and a "
+"toolbar should be added to QGIS. Also, a SCP menu is available in the Menu "
+"Bar of QGIS. It is possible to move the toolbar and the dock according to "
+"your needs, as in the following image."
+msgstr ""
+
+#: ../../installation_win64.rst:56
+msgid ""
+"The configuration of available RAM is recommended in order to reduce the "
+"processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings "
+"> Processing`` ."
+msgstr ""
+"Recomenda-se configurar a memória RAM disponível no computador, de forma a "
+"reduzir o tempo de processamento. Assim, a partir do :ref:`SCP_menu` select "
+"|settings_tool| ``Settings > Processing`` ."
+
+#: ../../installation_win64.rst:61
+msgid ""
+"In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that "
+"should be half of the system RAM. For instance, if your system has 2GB of "
+"RAM, set the value to 1024MB."
+msgstr ""
+"No separador :ref:`settings_tab`, defina a ``Available RAM (MB)`` para um "
+"valor que corresponda a metade da memória RAM total instalada no computador."
+" Por exemplo, se o seu computador tiver 2GB de RAM, coloque no campo "
+"``Available RAM (MB)`` 1024."

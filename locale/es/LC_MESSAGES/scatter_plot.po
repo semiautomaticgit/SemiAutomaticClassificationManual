@@ -6,6 +6,8 @@
 # 
 # Translators:
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016
+# Marlon Castillo <marloncastillo286@gmail.com>, 2019
+# Daniel Florez <dafflorezc@correo.udistrital.edu.co>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-09 11:13+0100\n"
 "PO-Revision-Date: 2016-08-29 15:42+0000\n"
-"Last-Translator: Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016\n"
+"Last-Translator: Daniel Florez <dafflorezc@correo.udistrital.edu.co>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +46,7 @@ msgstr ":guilabel:`Gráfico de Dispersión`"
 
 #: ../../scatter_plot.rst:83
 msgid "The functions are described in detail in the following paragraphs."
-msgstr ""
+msgstr "Las funciones se describen en detalle en los siguiente parrafos"
 
 #: ../../scatter_plot.rst:88
 msgid "Scatter list"
@@ -209,6 +211,13 @@ msgid ""
 "number of selection polygon; also the raster color is derived from the "
 "selection polygon."
 msgstr ""
+"Pixeles del :guilabel:`active band set` son clasificados, de acuerdo a los "
+"diagramas de dispersión de las bandas, si el valor de un pixel está entre el"
+" rango de intersección entre los diagramas de dispersión y los polígonos "
+"seleccionados (Los polígonos no deben sobreponerse). El valor es asignado a "
+"los :guilabel:`Scatter raster` pixeles in los numeros secuenciales de los "
+"polígonos seleccionados; también el color del raster es derivado de los "
+"polígonos seleccionados. "
 
 #: ../../scatter_plot.rst:126
 msgid ""
@@ -259,6 +268,9 @@ msgid ""
 "raster` (considering all the classified pixels) using the :guilabel:`active "
 "band set`, and save the signature to the :ref:`ROI_list`;"
 msgstr ""
+"|save_plot|: calcula la firma espectral del :guilabel:`Scatter raster` "
+"(considerando todos los pixeles clasificados) usando el :guilabel:`active "
+"band set`, y guarda la firma en la :ref:`ROI_list`;"
 
 #: ../../scatter_plot.rst:135
 msgid ""

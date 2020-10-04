@@ -9,7 +9,7 @@
 # Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2016
 # Fran Raga <FRANKA1986@gmail.com>, 2018
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2018
-# Marlon Castillo <marloncastillo286@gmail.com>, 2019
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 23:52+0200\n"
 "PO-Revision-Date: 2016-08-29 15:42+0000\n"
-"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2019\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1279,6 +1279,9 @@ msgid ""
 "MYD09GQ (each pixel contains the best possible observation during an 8-day "
 "period);"
 msgstr ""
+"MYD09Q1: reflectancia a una resolución espacial de 250 m, que es una "
+"composición de MYD09GQ (cada píxel contiene la mejor observación posible "
+"durante un período de 8 días);"
 
 #: ../../remote_sensing.rst:406
 msgid ""
@@ -1286,6 +1289,9 @@ msgid ""
 "MOD09GA (each pixel contains the best possible observation during an 8-day "
 "period);"
 msgstr ""
+"MOD09A1: reflectancia a una resolución espacial de 250 m, que es una "
+"combinación de MOD09GA (cada píxel contiene la mejor observación posible "
+"durante un período de 8 días);"
 
 #: ../../remote_sensing.rst:408
 msgid ""
@@ -1293,6 +1299,9 @@ msgid ""
 "MYD09GA (each pixel contains the best possible observation during an 8-day "
 "period);"
 msgstr ""
+"MYD09A1: reflectancia a una resolución espacial de 250 m, que es una "
+"composición de MYD09GA (cada píxel contiene la mejor observación posible "
+"durante un período de 8 días);"
 
 #: ../../remote_sensing.rst:414
 msgid "Land Cover Classification"
@@ -1302,6 +1311,8 @@ msgstr "Clasificación de la Cobertura Terrestre"
 msgid ""
 "This chapter provides basic definitions about land cover classifications."
 msgstr ""
+"Este capítulo proporciona definiciones básicas sobre las clasificaciones de "
+"cobertura del suelo."
 
 #: ../../remote_sensing.rst:421
 msgid "Supervised Classification"
@@ -2378,24 +2389,34 @@ msgstr ""
 #: ../../remote_sensing.rst:876
 msgid "The overall accuracy (also expressed in percentage) is defined as:"
 msgstr ""
+"La precisión general (también expresada en porcentaje) se define como:"
 
 #: ../../remote_sensing.rst:881
 msgid ""
 "Ther user's accuracy for each class is defined as the ratio (also expressed "
 "in percentage) between correct samples and the row total:"
 msgstr ""
+"La precisión del usuario para cada clase se define como la relación (también"
+" expresada en porcentaje) entre las muestras correctas y el total de la "
+"fila:"
 
 #: ../../remote_sensing.rst:886
 msgid ""
 "The commission error :math:`CE_i = 1 - U_i` corresponds to pixels classified"
 " as class :math:`i` that actually belong to a different class."
 msgstr ""
+"El error de omisión: math: `CEil = 1 - U_i` corresponde a píxeles "
+"clasificados como clase: math:` i` que en realidad pertenecen a una clase "
+"diferente."
 
 #: ../../remote_sensing.rst:888
 msgid ""
 "The producer's accuracy for each class is calculated as the ratio (also "
 "expressed in percentage) between correct samples and the column total:"
 msgstr ""
+"La precisión del productor para cada clase se calcula como la relación "
+"(también expresada en porcentaje) entre las muestras correctas y el total de"
+" la columna:"
 
 #: ../../remote_sensing.rst:893
 msgid ""
@@ -2403,6 +2424,9 @@ msgid ""
 "belonging to class :math:`i` that were classified erroneously as a different"
 " class."
 msgstr ""
+"El error de omisión: math: `OE_i = 1 - P_i` corresponde a los píxeles que "
+"realmente pertenecen a la clase: math:` i` que se clasificaron erróneamente "
+"como una clase diferente."
 
 #: ../../remote_sensing.rst:896
 msgid ""
@@ -2412,6 +2436,12 @@ msgid ""
 "user's accuracy and producer's accuracy, the unbiased area of classes "
 "according to reference data, and the standard error of area estimates."
 msgstr ""
+"La precisión del usuario es recomendada calcular la matriz de error basada "
+"en el área (Olofsson, et al., 2014) donde cada elemento representa la "
+"proporción de área estimada de cada clase. Esto permite estimar la precisión"
+" del usuario imparcial y la precisión del productor, el área imparcial de "
+"clases de acuerdo con los datos de referencia y el error estándar de las "
+"estimaciones de área."
 
 #: ../../remote_sensing.rst:900
 msgid ""
@@ -2429,7 +2459,7 @@ msgstr ""
 
 #: ../../remote_sensing.rst:905
 msgid "Image processing"
-msgstr ""
+msgstr "Procesamiento de imágenes"
 
 #: ../../remote_sensing.rst:907
 msgid ""
@@ -2437,6 +2467,9 @@ msgid ""
 "classification, indices, or other derived information that can be useful for"
 " land cover characterization."
 msgstr ""
+"Las imágenes de teledetección se pueden procesar de diversas formas para "
+"obtener una clasificación, índices u otra información derivada,  que pueda "
+"ser útil para la caracterización de la cobertura del suelo."
 
 #: ../../remote_sensing.rst:912
 msgid "Principal Component Analysis"
@@ -2598,12 +2631,19 @@ msgid ""
 "most popular spectral indices is the **Normalized Difference Vegetation "
 "Index** (NDVI), defined as (JARS, 1993):"
 msgstr ""
+"Los índices espectrales son operaciones entre bandas espectrales que son "
+"útiles para extraer información como la cobertura vegetal (JARS, 1993). Uno "
+"de los índices espectrales más populares es el ** Índice de vegetación de "
+"diferencia normalizada ** (NDVI), definido como (JARS, 1993):"
 
 #: ../../remote_sensing.rst:990
 msgid ""
 "NDVI values range from -1 to 1. Dense and healthy vegetation show higher "
 "values, while non-vegetated areas show low NDVI values."
 msgstr ""
+"Los valores de NDVI oscilan entre -1 y 1. La vegetación densa y sana muestra"
+" valores más altos, mientras que las áreas sin vegetación muestran valores "
+"bajos de NDVI."
 
 #: ../../remote_sensing.rst:993
 msgid ""
@@ -2612,6 +2652,10 @@ msgid ""
 "difference between the blue and the red bands (Didan,et al., 2015). EVI is "
 "defined as:"
 msgstr ""
+"Otro índice es el ** Índice de Vegetación Mejorado ** (EVI) que intenta "
+"tener en cuenta los efectos atmosféricos, como el efecto bruma, calculando "
+"la diferencia entre las bandas azul y roja (Didan, et al., 2015). EVI se "
+"define como:"
 
 #: ../../remote_sensing.rst:999
 msgid ""
@@ -2621,10 +2665,16 @@ msgid ""
 " Typical coefficient values are: :math:`G = 2.5`, :math:`L = 1`, :math:`C_1 "
 "= 6`, :math:`C_2 = 7.5` (Didan,et al., 2015)."
 msgstr ""
+"donde:: matematico: `G` es un factor de escala,: matematico:` C_1` y: math: "
+"`C_2` son coeficientes para los efectos atmosféricos, y: matematico:` L` es "
+"un factor para contabilizar el diferencial NIR y Red Transferencia radiante "
+"a través del dosel. Los valores típicos de los coeficientes son:: "
+"matemáticos: `G = 2.5`,: matemáticos:` L = 1`,: matemáticos: `C_1 = 6`,: "
+"matemáticos:` C_2 = 7.5` (Didan, et al., 2015)."
 
 #: ../../remote_sensing.rst:1006
 msgid "Clustering"
-msgstr ""
+msgstr "Agrupamiento"
 
 #: ../../remote_sensing.rst:1008
 msgid ""
@@ -2632,6 +2682,9 @@ msgid ""
 ":ref:`euclidean_distance` or :ref:`spectral_angle`)  calculated for a "
 "multispectral image (Richards and Jia, 2006)."
 msgstr ""
+"La agrupación, es la agrupación de píxeles basada en la similitud espectral "
+"(por ejemplo: ref: \"distancia euclidiana\" o: ref: \"ángulo espectral\") "
+"calculada para una imagen multiespectral (Richards y Jia, 2006)."
 
 #: ../../remote_sensing.rst:1010
 msgid ""
@@ -2642,6 +2695,13 @@ msgid ""
 "by clustering (i.e. clusters) have no definition and consequently the user "
 "must assign a land cover label to each class."
 msgstr ""
+"La agrupación puede ser  utilizada  para la clasificación sin supervisión o "
+"para la selección automática de firmas espectrales. Vale la pena notar que, "
+"si bien: ref: `supervised_classification_definition` produce una "
+"clasificación con las clases identificadas durante el proceso de "
+"capacitación, las clases producidas por agrupamiento (es decir, grupos) no "
+"tienen definición y, en consecuencia, el usuario debe asignar una etiqueta "
+"de cobertura del suelo a cada clase. "
 
 #: ../../remote_sensing.rst:1013
 msgid ""
@@ -2649,22 +2709,31 @@ msgid ""
 "do not necessarily represent a particular land cover type and additional "
 "processing could be required for producing an accurate classification."
 msgstr ""
+"La principal ventaja de la agrupación en grupos reside en la automatización."
+" Por supuesto, los conglomerados no representan necesariamente un tipo de "
+"cobertura del suelo en particular y podría requerirse un procesamiento "
+"adicional para producir una clasificación precisa."
 
 #: ../../remote_sensing.rst:1016
 msgid ""
 "There are several types of clustering, mainly based on iterative methods; "
 "the following are the algorithms provided in :guilabel:`SCP`."
 msgstr ""
+"Hay varios tipos de agrupamiento, principalmente basados en métodos "
+"iterativos; los siguientes son los algoritmos proporcionados en: guilabel: "
+"`SCP`."
 
 #: ../../remote_sensing.rst:1021
 msgid "K-means"
-msgstr ""
+msgstr "K-medias"
 
 #: ../../remote_sensing.rst:1023
 msgid ""
 "The K-means method is based on the calculation of the average spectral "
 "signature of clusters (Wikipedia, 2017; JARS, 1993)."
 msgstr ""
+"El método K-medias se basa en el cálculo de la firma espectral promedio de "
+"los grupos (Wikipedia, 2017; JARS, 1993)."
 
 #: ../../remote_sensing.rst:1025
 msgid ""
@@ -2673,6 +2742,11 @@ msgid ""
 "spectral signatures can be selected in various ways (e.g. randomly, provided"
 " by the user, calculated automatically from image values)."
 msgstr ""
+"Al inicio, el usuario define el número de grupos esperados en la imagen, que"
+" corresponden a tantas firmas espectrales (es decir, muestras). Las firmas "
+"espectrales iniciales se pueden seleccionar de varias formas (por ejemplo, "
+"aleatoriamente, proporcionadas por el usuario, calculadas automáticamente a "
+"partir de valores de imagen)."
 
 #: ../../remote_sensing.rst:1028
 msgid ""
@@ -2682,6 +2756,11 @@ msgid ""
 "calculation. Pixels are assigned according to the most similar spectral "
 "signature, therefore producing clusters."
 msgstr ""
+"Durante la primera iteración se producen agrupaciones calculando la "
+"distancia espectral de píxeles con firmas espectrales iniciales. Los "
+"algoritmos: ref: `distancia euclidiana` o: ref:` angulo espectral` se pueden"
+" utilizar para calcular la distancia. Los píxeles se asignan de acuerdo con "
+"la firma espectral más similar, por lo que se producen agrupaciones."
 
 #: ../../remote_sensing.rst:1032
 msgid ""
@@ -2689,12 +2768,17 @@ msgid ""
 "pixels, resulting in the spectral signatures that will be used in the "
 "following iteration."
 msgstr ""
+"Luego, se calcula la firma espectral promedio para cada grupo de píxeles, lo"
+" que da como resultado las firmas espectrales que se utilizarán en la "
+"siguiente iteración."
 
 #: ../../remote_sensing.rst:1034
 msgid ""
 "This process continues iteratively producing clusters and mean spectral "
 "signatures, until one of the following condition is verified:"
 msgstr ""
+"Este proceso continúa produciendo de forma iterativa agrupaciones y firmas "
+"espectrales medias, hasta que se verifica una de las siguientes condiciones:"
 
 #: ../../remote_sensing.rst:1036
 msgid ""
@@ -2702,20 +2786,25 @@ msgid ""
 "iteration with the corresponding ones produced in the previous iteration is "
 "lower than a certain threshold;"
 msgstr ""
+"la distancia espectral entre las firmas espectrales producidas en esta "
+"iteración con las correspondientes producidas en la iteración anterior es "
+"menor que un cierto umbral;"
 
 #: ../../remote_sensing.rst:1037
 msgid "the maximum number of iterations is reached."
-msgstr ""
+msgstr "se alcanza el número máximo de iteraciones."
 
 #: ../../remote_sensing.rst:1039
 msgid ""
 "After the last iteration, a raster of clusters is produced using the "
 "spectral signatures derived from the last iteration."
 msgstr ""
+"Después de la última iteración, se genera un ráster de agrupaciones "
+"utilizando las firmas espectrales derivadas de la última iteración."
 
 #: ../../remote_sensing.rst:1044
 msgid "ISODATA"
-msgstr ""
+msgstr "ISODATA"
 
 #: ../../remote_sensing.rst:1046
 msgid ""
@@ -2726,6 +2815,12 @@ msgid ""
 "1965). Following, the :guilabel:`SCP` implementation of ISODATA is "
 "described."
 msgstr ""
+"El método ISODATA (técnica iterativa de análisis de datos autoorganizados) "
+"es similar a K-medias pero con los pasos adicionales de fusionar grupos que "
+"tienen firmas espectrales similares y dividir grupos que tienen una "
+"variabilidad demasiado alta (es decir, desviación estándar) de firmas "
+"espectrales (Ball & Hall, 1965). A continuación, se describe la "
+"implementación de: guilabel: `SCP` de ISODATA."
 
 #: ../../remote_sensing.rst:1049
 msgid ""
@@ -2735,22 +2830,30 @@ msgid ""
 " by the user, calculated automatically from image values). Initial "
 "parameteres provided by user are:"
 msgstr ""
+"Al principio, el usuario define el número de grupos esperados en la imagen, "
+"que corresponden a tantas firmas espectrales (es decir, muestras). Las "
+"firmas espectrales iniciales se pueden seleccionar de varias formas (por "
+"ejemplo, aleatoriamente, proporcionadas por el usuario, calculadas "
+"automáticamente a partir de valores de imagen). Los parámetros iniciales "
+"proporcionados por el usuario son:"
 
 #: ../../remote_sensing.rst:1053
 msgid ":math:`C` = number of desired clusters"
-msgstr ""
+msgstr ": matemático: `C` = número de grupos deseados"
 
 #: ../../remote_sensing.rst:1054
 msgid ":math:`N_{min}` = minimum number of pixels for a cluster"
-msgstr ""
+msgstr ": matematico: `N_ {min}` = número mínimo de píxeles para un clúster"
 
 #: ../../remote_sensing.rst:1055
 msgid ":math:`\\sigma_{t}` = maximum standard deviation threshold for splitting"
 msgstr ""
+": matematico: `\\ sigma_ {t}` = umbral de desviación estándar máxima para "
+"dividir"
 
 #: ../../remote_sensing.rst:1056
 msgid ":math:`D_{t}` = distance threshold for merging"
-msgstr ""
+msgstr ": matematico: `D_ {t}` = umbral de distancia para fusionar"
 
 #: ../../remote_sensing.rst:1058
 msgid ""
@@ -2759,78 +2862,106 @@ msgid ""
 " are assigned according to the most similar spectral signature, therefore "
 "producing clusters."
 msgstr ""
+"Durante la primera iteración se producen clusters calculando la: ref: "
+"`euclidean_distance` de píxeles con firmas espectrales iniciales. Los "
+"píxeles se asignan de acuerdo con la firma espectral más similar, por lo que"
+" se producen agrupaciones."
 
 #: ../../remote_sensing.rst:1061
 msgid "Therefore, the following parameters are calculated:"
-msgstr ""
+msgstr "Por tanto, se calculan los siguientes parámetros:"
 
 #: ../../remote_sensing.rst:1063
 msgid ":math:`N_{i}` = number of pixels of cluster :math:`i`"
 msgstr ""
+": matemático: `N_ {i}` = número de píxeles del agrupamiento: matemático: `i`"
 
 #: ../../remote_sensing.rst:1064
 msgid ":math:`S_{i}` = average spectral signature of cluster :math:`i`"
 msgstr ""
+": matemático: `S_ {i}` = firma espectral promedio del agrupamiento: "
+"matemático: `i`"
 
 #: ../../remote_sensing.rst:1065
 msgid ""
 ":math:`AVERAGEDIST_{i}` = average distance of cluster :math:`i` with the "
 "seed spectral signature"
 msgstr ""
+": matematico: `AVERAGEDIST_ {i}` = distancia promedio del agrupamiento: "
+"matematico: `i` con la firma espectral de la muestra"
 
 #: ../../remote_sensing.rst:1066
 msgid ":math:`AVERAGEDISTANCE` = overall average distance of all clusters"
 msgstr ""
+": matematico: `AVERAGEDISTANCE` = distancia promedio general de todos los "
+"agrupamientos"
 
 #: ../../remote_sensing.rst:1067
 msgid ""
 ":math:`\\sigma_{ij}` = standard deviation of cluster :math:`i` in band "
 ":math:`j`"
 msgstr ""
+": matemático: `\\ sigma_ {ij}` = desviación estándar del agrupamiento: "
+"matemático: `i` en la banda: matemático:` j`"
 
 #: ../../remote_sensing.rst:1068
 msgid ""
 ":math:`\\sigma max_{i}` = maximum standard deviation of cluster :math:`i` "
 "(i.e. :math:`max( \\sigma_{ij} )`)"
 msgstr ""
+": matemático: `\\ sigma max_ {i}` = desviación estándar máxima del "
+"agrupamiento: matemático: `i` (es decir: matemático:` max (\\ sigma_ {ij}))"
 
 #: ../../remote_sensing.rst:1069
 msgid ":math:`k_{i}` = band where :math:`\\sigma max_{i}` occurred"
 msgstr ""
+": matematico: `k_ {i}` = banda donde: matematico: `\\ sigma max_ {i}` "
+"ocurrió"
 
 #: ../../remote_sensing.rst:1070
 msgid ":math:`Sk_{i}` = value of :math:`S_{i}` at band :math:`k_{i}`"
 msgstr ""
+": matemático: `Sk_ {i}` = valor de: matemático: `S_ {i}` en la banda: "
+"matemático: `k_ {i}`"
 
 #: ../../remote_sensing.rst:1071
 msgid ":math:`P` = number of clusters"
-msgstr ""
+msgstr ": matemático: `P` = número de agrupamientos"
 
 #: ../../remote_sensing.rst:1073
 msgid ""
 "Then, for each cluster :math:`i`, if :math:`N_{i}` < :math:`N_{min}` , then "
 "the cluster :math:`i` is discarded."
 msgstr ""
+"Luego, para cada grupo: matematico: `i`, si: matematico:` N_ {i} `<: "
+"matematico:` N_ {min} `, entonces el grupo: matematico:` i` se descarta."
 
 #: ../../remote_sensing.rst:1075
 msgid ""
 "If :math:`P` <= :math:`C` then try to split clusters. For each cluster "
 ":math:`i`:"
 msgstr ""
+"Si: matemático: `P` <=: matemático:` C`, intente dividir los grupos. Para "
+"cada grupo: matematico: `i`:"
 
 #: ../../remote_sensing.rst:1078
 msgid "If :math:`\\sigma max_{i}` > :math:`\\sigma_{t}` :"
-msgstr ""
+msgstr "If: matemático: `\\ sigma max_ {i}`>: matemático: `\\ sigma_ {t}`:"
 
 #: ../../remote_sensing.rst:1080
 msgid ""
 "If ((:math:`AVERAGEDIST_{i}` >  :math:`AVERAGEDISTANCE`) AND (:math:`N_{i}` "
 "> (2 * :math:`N_{min}` + 2) )) OR (:math:`C` > 2 * :math:`P`):"
 msgstr ""
+"If ((:matematico:`AVERAGEDIST_{i}` >  :matematico:`AVERAGEDISTANCE`) AND "
+"(:matematico:`N_{i}` > (2 * :matematico:`N_{min}` + 2) )) OR "
+"(:matematico:`C` > 2 * :matematico:`P`):"
 
 #: ../../remote_sensing.rst:1082
 msgid "create a new spectral signature :math:`S_{p + 1}` = :math:`S_{i}`"
 msgstr ""
+"crear una nueva firma espectral: matematico: `S_ {p + 1}` =: matematico: `S_"
+" {i}`"
 
 #: ../../remote_sensing.rst:1083
 msgid ""

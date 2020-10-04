@@ -1455,11 +1455,11 @@ msgstr "Datos de inicio de sesión"
 
 #: ../../main_interface_window.rst:736
 msgid "|login_data| :guilabel:`Login data`"
-msgstr ""
+msgstr "| login_data | : guilabel: `Datos de inicio de sesión`"
 
 #: ../../main_interface_window.rst:741
 msgid "Login https://ers.cr.usgs.gov"
-msgstr ""
+msgstr "Iniciar sesión https://ers.cr.usgs.gov"
 
 #: ../../main_interface_window.rst:743
 msgid ""
@@ -1468,6 +1468,10 @@ msgid ""
 "<http://earthexplorer.usgs.gov/>`_ . Login using your `USGS EROS` "
 "credentials or register for free at https://ers.cr.usgs.gov/register ."
 msgstr ""
+"Para las imágenes de Landsat, se requieren credenciales `USGS EROS` "
+"(https://ers.cr.usgs.gov) para las descargas desde` EarthExplorer "
+"<http://earthexplorer.usgs.gov/> `_. Inicie sesión con sus credenciales "
+"`USGS EROS` o regístrese gratis en https://ers.cr.usgs.gov/register."
 
 #: ../../main_interface_window.rst:746 ../../main_interface_window.rst:759
 #: ../../main_interface_window.rst:773
@@ -1503,6 +1507,12 @@ msgid ""
 "MODIS images, you must approve LP DAAC Data Pool clicking the following link"
 " https://urs.earthdata.nasa.gov/approve_app?client_id=ijpRZvb9qeKCK5ctsn75Tg"
 msgstr ""
+"Para imágenes ASTER y MODIS, se requieren credenciales `EOSDIS Earthdata` "
+"(https://urs.earthdata.nasa.gov) para descargar. Inicie sesión utilizando "
+"sus credenciales `EOSDIS Earthdata` o regístrese de forma gratuita en "
+"https://urs.earthdata.nasa.gov/users/new. Antes de descargar imágenes ASTER "
+"y MODIS, debe aprobar LP DAAC Data Pool haciendo clic en el siguiente enlace"
+" https://urs.earthdata.nasa.gov/approve_app?client_id=ijpRZvb9qeKCK5ctsn75Tg"
 
 #: ../../main_interface_window.rst:766
 msgid "Login Sentinels"
@@ -1536,7 +1546,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:772
 msgid "|reset|: reset the default service;"
-msgstr ""
+msgstr "|reset|: restablece el servicio predeterminado;"
 
 #: ../../main_interface_window.rst:780
 msgid "Search"
@@ -1544,11 +1554,11 @@ msgstr "Buscar"
 
 #: ../../main_interface_window.rst:786
 msgid "|search_tab| :guilabel:`Search`"
-msgstr ""
+msgstr "|search_tab| :guilabel:`Buscar`"
 
 #: ../../main_interface_window.rst:791
 msgid "Search parameters"
-msgstr ""
+msgstr "Parámetros de búsqueda"
 
 #: ../../main_interface_window.rst:793
 msgid ""
@@ -1557,6 +1567,11 @@ msgid ""
 "product to search. Optional settings are date of acquisition, maximum cloud "
 "cover, number of results (the less the results, the faster is the query)."
 msgstr ""
+"Defina el área de búsqueda ingresando las coordenadas (longitud y latitud) "
+"de un punto `` Superior izquierdo '' (SI) y un punto `` Inferior derecho '' "
+"(ID) y seleccione un producto para buscar. Las configuraciones opcionales "
+"son la fecha de adquisición, la cobertura máxima de la nube, el número de "
+"resultados (cuanto menos resultados, más rápida es la consulta)."
 
 #: ../../main_interface_window.rst:796
 msgid ""
@@ -1568,27 +1583,36 @@ msgid ""
 ":guilabel:`UL` |input_number| |input_number|: set the UL longitude X (Lon) "
 "and the UL latitude Y (Lat);"
 msgstr ""
+": guilabel: `UL` | input_number | | input_number |: establece la longitud UL"
+" X (Lon) y la latitud UL Y (Lat);"
 
 #: ../../main_interface_window.rst:799
 msgid ""
 ":guilabel:`LR` |input_number| |input_number|: set the LR longitude X (Lon) "
 "and the LR latitude Y (Lat);"
 msgstr ""
+":guilabel:`LR` |input_number| |input_number|: establece la longitud LR X "
+"(Lon) y la latitud LR Y (Lat);"
 
 #: ../../main_interface_window.rst:800
 msgid ""
 "|radiobutton| :guilabel:`Show`: show or hide the search area in the map;"
 msgstr ""
+"|radiobutton| :guilabel:`Mostrar`: muestra u oculta el área de búsqueda en "
+"el mapa;"
 
 #: ../../main_interface_window.rst:801
 msgid ""
 "|pointer|: define a search area by left click to set the UL point and right "
 "click to set the LR point; the search area is displayed in the map;"
 msgstr ""
+"| puntero |: defina un área de búsqueda haciendo clic izquierdo para "
+"establecer el punto SI y haciendo clic derecho para establecer el punto ID; "
+"el área de búsqueda se muestra en el mapa;"
 
 #: ../../main_interface_window.rst:802
 msgid ":guilabel:`Products` |input_list|: set the search product;"
-msgstr ""
+msgstr ":guilabel:`Products` |input_list|: establece el producto de búsqueda;"
 
 #: ../../main_interface_window.rst:803
 msgid ""
@@ -1605,12 +1629,16 @@ msgid ""
 ":guilabel:`Max cloud cover (%)` |input_number|: maximum cloud cover in the "
 "product;"
 msgstr ""
+": guilabel: `Máxima cobertura de nubes (%)` | input_number |: máxima "
+"cobertura de nubes en el producto;"
 
 #: ../../main_interface_window.rst:806
 msgid ""
 ":guilabel:`Results` |input_number|: maximum number of products returned by "
 "the search;"
 msgstr ""
+":guilabel:`Results` |input_number|: número máximo de productos devueltos por"
+" la búsqueda;"
 
 #: ../../main_interface_window.rst:807
 msgid ""
@@ -1620,6 +1648,12 @@ msgid ""
 "LC81910312013224LGN00`` ); filter is applied to resulting products in the "
 "search area;"
 msgstr ""
+":guilabel:`Filter` |input_text|: : guilabel: `Filter` | input_text |: "
+"establece un filtro como el ID del producto (por ejemplo,` "
+"`LC81910312015006LGN00 ''); es posible ingresar múltiples ID de productos "
+"separados por coma o punto y coma (por ejemplo, `` LC81910312015006LGN00, "
+"LC81910312013224LGN00 ''); el filtro se aplica a los productos resultantes "
+"en el área de búsqueda;"
 
 #: ../../main_interface_window.rst:808
 msgid ""
@@ -1627,6 +1661,9 @@ msgid ""
 "results are displayed inside the table in :ref:`product_list`; results are "
 "added to previous results;"
 msgstr ""
+":guilabel:`Find` |search_images|: encuentre los productos en el área de "
+"búsqueda; los resultados se muestran dentro de la tabla en: ref: "
+"`product_list`; los resultados se agregan a resultados anteriores;"
 
 #: ../../main_interface_window.rst:809
 msgid ""
@@ -1637,6 +1674,12 @@ msgid ""
 "licensed as CC BY-SA (`Tile Usage Policy "
 "<http://www.openstreetmap.org/copyright>`_ );"
 msgstr ""
+"|osm_add| Agregue OpenStreetMap al mapa: este botón permite la visualización"
+" de mosaicos de OpenStreetMap (© `OpenStreetMap "
+"<http://www.openstreetmap.org/copyright>` _ contributors) en el mapa QGIS "
+"como se describe en https://wiki.openstreetmap.org/wiki/QGIS. La cartografía"
+" tiene licencia CC BY-SA (`Política de uso de mosaicos "
+"<http://www.openstreetmap.org/copyright>`_ );"
 
 #: ../../main_interface_window.rst:811
 msgid ""
@@ -1653,7 +1696,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:816
 msgid "Product list"
-msgstr ""
+msgstr "Lista de productos"
 
 #: ../../main_interface_window.rst:818
 msgid ""
@@ -1661,77 +1704,92 @@ msgid ""
 " on any item (highlight) to display the image preview thereof. Results are "
 "saved with the QGIS project."
 msgstr ""
+"La tabla: guilabel: `Lista de productos` contiene los resultados de la "
+"búsqueda. Haga clic en cualquier elemento (resaltado) para mostrar la vista "
+"previa de la imagen del mismo. Los resultados se guardan con el proyecto "
+"QGIS."
 
 #: ../../main_interface_window.rst:836
 msgid ""
 "|input_table| :guilabel:`Product list` |project_save|: found products are "
 "displayed in this table, which includes the following fields;"
 msgstr ""
+"|input_table| :guilabel:`Product list` |project_save|: los productos "
+"encontrados se muestran en esta tabla, que incluye los siguientes campos;"
 
 #: ../../main_interface_window.rst:823
 msgid ":guilabel:`Product`: the product name;"
-msgstr ""
+msgstr ":guilabel:`Product`: el nombre del producto;"
 
 #: ../../main_interface_window.rst:824
 msgid ":guilabel:`ProductID`: the product ID;"
-msgstr ""
+msgstr ":guilabel:`ProductID`: el ID del producto;"
 
 #: ../../main_interface_window.rst:825
 msgid ":guilabel:`AcquisitionDate`: date of acquisition of product;"
-msgstr ""
+msgstr ":guilabel:`AcquisitionDate`: fecha de adquisición del producto;"
 
 #: ../../main_interface_window.rst:826
 msgid ":guilabel:`CloudCover`: percentage of cloud cover in the product;"
 msgstr ""
+":guilabel:`CloudCover`: porcentaje de cobertura de nubes en el producto;"
 
 #: ../../main_interface_window.rst:827
 msgid ""
 ":guilabel:`Zone/Path`: the zone or WRS path depending on the product type;"
-msgstr ""
+msgstr ":guilabel:`Zone/Path`: la zona o ruta WRS según el tipo de producto;"
 
 #: ../../main_interface_window.rst:828
 msgid ""
 ":guilabel:`Row/DayNightFlag`: the WRS row or acquisition flag(day or night) "
 "depending on the product type;"
 msgstr ""
+":guilabel:`Row/DayNightFlag`: la fila WRS o el indicador de adquisición (día"
+" o noche) según el tipo de producto;"
 
 #: ../../main_interface_window.rst:829
 msgid ":guilabel:`min_lat`: minimum latitude of the product;"
-msgstr ""
+msgstr ":guilabel:`min_lat`: latitud mínima del producto;"
 
 #: ../../main_interface_window.rst:830
 msgid ":guilabel:`min_lon`: minimum longitude of the product;"
-msgstr ""
+msgstr ":guilabel:`min_lon`: longitud mínima del producto;"
 
 #: ../../main_interface_window.rst:831
 msgid ":guilabel:`max_lat`: maximum latitude of the product;"
-msgstr ""
+msgstr ":guilabel:`max_lat`: latitud máxima del producto;"
 
 #: ../../main_interface_window.rst:832
 msgid ":guilabel:`max_lon`: maximum longitude of the product;"
-msgstr ""
+msgstr ":guilabel:`max_lon`: longitud máxima del producto;"
 
 #: ../../main_interface_window.rst:833
 msgid ""
 ":guilabel:`Collection/Size`: collection code or size depending on the "
 "product type;"
 msgstr ""
+":guilabel:`Collection/Size`: código de colección o tamaño dependiendo del "
+"tipo de producto;"
 
 #: ../../main_interface_window.rst:834
 msgid ":guilabel:`Preview`: URL of the product preview;"
-msgstr ""
+msgstr ":guilabel:`Preview`: URL de la vista previa del producto;"
 
 #: ../../main_interface_window.rst:835
 msgid ""
 ":guilabel:`Collection/ID`: collection or image ID depending on the product "
 "type;"
 msgstr ""
+":guilabel:`Collection/ID`: ID de colección o imagen según el tipo de "
+"producto;"
 
 #: ../../main_interface_window.rst:836
 msgid ""
 ":guilabel:`Collection/Image`: collection or image ID depending on the "
 "product type;"
 msgstr ""
+":guilabel:`Collection/Image`: ID de colección o imagen según el tipo de "
+"producto;"
 
 #: ../../main_interface_window.rst:838
 msgid ""
@@ -1752,10 +1810,14 @@ msgstr "|reset|: elimina todas las imágenes de la lista;"
 #: ../../main_interface_window.rst:841
 msgid "|import|: import the product list from a text file (i.e. ``.txt``);"
 msgstr ""
+"|import|: importar la lista de productos desde un archivo de texto (i.e. "
+"``.txt``);"
 
 #: ../../main_interface_window.rst:842
 msgid "|export|: export the product list to a text file (i.e. ``.txt``);"
 msgstr ""
+"|export|: exportar la lista de productos a un archivo de texto (i.e. "
+"``.txt``);"
 
 #: ../../main_interface_window.rst:847
 msgid "Download"
@@ -1766,6 +1828,8 @@ msgid ""
 "Download the products in the :ref:`product_list`. During the download it is "
 "recommended not to interact with QGIS."
 msgstr ""
+"Descargue los productos en la :ref:`product_list`. Durante la descarga, se "
+"recomienda no interactuar con QGIS."
 
 #: ../../main_interface_window.rst:852
 msgid ""
@@ -1773,6 +1837,9 @@ msgid ""
 "those images listed in :ref:`product_list` which are also listed in the QGIS"
 " layer panel;"
 msgstr ""
+"|checkbox| :guilabel:`Only if preview in Layers`: si está marcada, descargue"
+" solo las imágenes enumeradas en :ref:`product_list` que también se enumeran"
+" en el panel de capas QGIS;"
 
 #: ../../main_interface_window.rst:853
 msgid ""
@@ -1801,6 +1868,8 @@ msgid ""
 ":guilabel:`RUN` |run|: start the download process of all the products listed"
 " in :ref:`product_list`;"
 msgstr ""
+":guilabel:`RUN` |run|:iniciar el proceso de descarga de todos los productos "
+"enumerados en :ref:`product_list`;"
 
 #: ../../main_interface_window.rst:861
 msgid "Download options"
@@ -1808,7 +1877,7 @@ msgstr "Opciones de Descarga"
 
 #: ../../main_interface_window.rst:867
 msgid "|download_options_tab| :guilabel:`Download options`"
-msgstr ""
+msgstr "|download_options_tab| :guilabel:`Opciones de descarga`"
 
 #: ../../main_interface_window.rst:869
 msgid ""
@@ -1816,6 +1885,9 @@ msgid ""
 "and Sentinel-3 images. Depending on the download service, single band "
 "download could be unavailable."
 msgstr ""
+"Esta pestaña permite la selección de bandas individuales para imágenes "
+"Landsat, Sentinel-2 y Sentinel-3. Dependiendo del servicio de descarga, la "
+"descarga de una  banda  podría no estar disponible."
 
 #: ../../main_interface_window.rst:872
 msgid "|checkbox| :guilabel:`Band` ``X``: select bands for download;"
@@ -1828,6 +1900,8 @@ msgid ""
 "|checkbox| :guilabel:`Ancillary data`: if checked, the metadata files are "
 "selected for download;"
 msgstr ""
+"|checkbox| :guilabel:`Ancillary data`: si está marcado, los archivos de "
+"metadatos se seleccionan para descargar;"
 
 #: ../../main_interface_window.rst:874
 msgid "|select_all|: select or deselect all bands;"
@@ -1890,6 +1964,9 @@ msgid ""
 " Level-2 Data Products (Surface Reflectance) from "
 "https://earthexplorer.usgs.gov ."
 msgstr ""
+"** ADVERTENCIA **: para obtener la mejor precisión espectral, debe descargar"
+" los productos de datos Landsat Level-2 (Reflectancia de superficie) desde  "
+"https://earthexplorer.usgs.gov."
 
 #: ../../main_interface_window.rst:904
 msgid "Landsat conversion to TOA reflectance and brightness temperature"
@@ -1948,6 +2025,9 @@ msgid ""
 ":guilabel:`Apply DOS1 atmospheric correction` also checked), the "
 ":ref:`DOS1_correction` is applied only to blue and green bands;"
 msgstr ""
+"|checkbox| :guilabel:`solo a bandas azules y verdes ': si está marcada (con "
+":guilabel:`Aplicar corrección atmosférica DOS1` también marcado), la "
+":ref:`DOS1_correction` se aplica solo a bandas azules y verdes;"
 
 #: ../../main_interface_window.rst:911 ../../main_interface_window.rst:980
 #: ../../main_interface_window.rst:1033 ../../main_interface_window.rst:1080
@@ -2117,6 +2197,11 @@ msgid ""
 "converted bands are saved in the output directory with the prefix ``RT_`` "
 "and automatically loaded in QGIS;"
 msgstr ""
+": guilabel: `RUN` | run |: seleccione un directorio de salida e inicie el "
+"proceso de conversión; solo las bandas que figuran en la tabla: guilabel: se"
+" convierten los 'Metadatos'; las bandas convertidas se guardan en el "
+"directorio de salida con el prefijo `` RT_`` y se cargan automáticamente en "
+"QGIS;"
 
 #: ../../main_interface_window.rst:955
 msgid "Sentinel-2"
@@ -2136,6 +2221,14 @@ msgid ""
 ":ref:`conversion_to_reflectance`). This tool can also convert **Sentinel-2**"
 " images Level-2A from DN to reflectance values."
 msgstr ""
+"Esta pestaña permite la conversión de imágenes ** Sentinel-2 ** Nivel-1C a "
+"la medida física de la reflectancia de la parte superior de la atmósfera "
+"(TOA), o la aplicación de una corrección atmosférica simple utilizando el "
+"método DOS1 (resta de objetos oscuros 1), que es una técnica basada en "
+"imágenes (para obtener más información sobre la conversión a TOA y "
+"corrección de DOS1, consulte: ref: `conversion_to_reflectance`). Esta "
+"herramienta también puede convertir imágenes ** Sentinel-2 ** Nivel-2A de DN"
+" a valores de reflectancia."
 
 #: ../../main_interface_window.rst:966
 msgid ""
@@ -2144,6 +2237,11 @@ msgid ""
 "without changing the original pixel value (i.e. one 20m pixel is divided in "
 "four 10m pixels with the same value)."
 msgstr ""
+"Una vez que se selecciona la entrada, las bandas disponibles se enumeran en "
+"la tabla de metadatos. Las bandas con una resolución espacial de 20 m se "
+"vuelven a muestrear a una resolución de 10 m sin cambiar el valor de píxel "
+"original (es decir, un píxel de 20 m se divide en cuatro píxeles de 10 m con"
+" el mismo valor)."
 
 #: ../../main_interface_window.rst:969
 msgid ""
@@ -2151,6 +2249,10 @@ msgid ""
 "Sentinel-2 Level-2A Products (Surface Reflectance) or use the official SNAP "
 "tool for atmospheric correction (see http://step.esa.int)."
 msgstr ""
+"** ADVERTENCIA **: Para obtener la mejor precisión espectral, debe descargar"
+" los productos Sentinel-2 Level-2A (Reflectancia de superficie) o utilizar "
+"la herramienta oficial SNAP para la corrección atmosférica (ver "
+"http://step.esa.int)."
 
 #: ../../main_interface_window.rst:974
 msgid "Sentinel-2 conversion"
@@ -2163,12 +2265,20 @@ msgid ""
 "with the corresponding number; if the metadata file is included in this "
 "directory then :ref:`sentinel2_metadata` are automatically filled;"
 msgstr ""
+": guilabel: `Directorio que contiene bandas Sentinel-2` | open_dir |: abre "
+"un directorio que contiene bandas Sentinel-2; los nombres de las bandas "
+"Sentinel-2 deben terminar con el número correspondiente; si el archivo de "
+"metadatos está incluido en este directorio, entonces: ref: "
+"`sentinel2_metadata` se llenan automáticamente;"
 
 #: ../../main_interface_window.rst:977
 msgid ""
 ":guilabel:`Select metadata file` |open_file| |optional|: select the metadata"
 " file which is a .xml file whose name contains ``MTD_MSIL1C``);"
 msgstr ""
+": guilabel: `Seleccionar el archivo de metadatos` | abrir_archivo | | "
+"opcional |: seleccione el archivo de metadatos que es un archivo .xml cuyo "
+"nombre contiene `` MTD_MSIL1C '');"
 
 #: ../../main_interface_window.rst:978 ../../main_interface_window.rst:1031
 #: ../../main_interface_window.rst:1078
@@ -2189,6 +2299,13 @@ msgid ""
 "<https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/data-"
 "formats>`_ ."
 msgstr ""
+"Todas las bandas encontradas en: guilabel: `Directorio que contiene bandas "
+"Sentinel-2` se enumeran en la tabla: guilabel:` Metadata`. Si se proporciona"
+" el archivo de metadatos Sentinel-2 (un archivo .xml cuyo nombre contiene ``"
+" MTD_MSIL1C ''), entonces: guilabel: `Metadata` se rellenan automáticamente."
+" Para obtener información sobre: ​​guilabel: campos `Metadata`, lea` esta "
+"página informativa <https://sentinel.esa.int/web/sentinel/user-"
+"guides/sentinel-2-msi/data-formats> `_."
 
 #: ../../main_interface_window.rst:992
 msgid ":guilabel:`Satellite` |input_text|: satellite name (e.g. Sentinel-2A);"
@@ -2208,11 +2325,11 @@ msgstr ":guilabel:`Irradiancia solar`: irradiancia solar de la banda;"
 
 #: ../../main_interface_window.rst:1010
 msgid "Sentinel-3"
-msgstr ""
+msgstr "Sentinel-3"
 
 #: ../../main_interface_window.rst:1016
 msgid "|sentinel3_tool|  :guilabel:`Sentinel-3`"
-msgstr ""
+msgstr "|sentinel3_tool|  :guilabel:`Sentinel-3`"
 
 #: ../../main_interface_window.rst:1018
 msgid ""
@@ -2225,6 +2342,14 @@ msgid ""
 " for conversion: ``instrument_data.nc`` , ``geo_coordinates.nc`` , "
 "``tie_geometries.nc`` ."
 msgstr ""
+"Esta pestaña permite la conversión de imágenes ** Sentinel-3 ** (OL_1_EFR) a"
+" la medida física de la reflectancia de la parte superior de la atmósfera "
+"(TOA), o la aplicación de una corrección atmosférica simple utilizando el "
+"método DOS1 (resta de objetos oscuros 1), que es una técnica basada en "
+"imágenes (para obtener más información sobre la conversión a TOA y "
+"corrección de DOS1, consulte: ref: `conversion_to_reflectance`). Los "
+"siguientes datos auxiliares son necesarios para la conversión: `` "
+"instrument_data.nc``, `` geo_coordinates.nc``, `` tie_geometries.nc``."
 
 #: ../../main_interface_window.rst:1023
 msgid ""
@@ -2232,10 +2357,14 @@ msgid ""
 "using a sample of pixels from the file geo_coordinates.nc . For the best "
 "precision you should use the official SNAP tool (see http://step.esa.int)."
 msgstr ""
+"** ADVERTENCIA **: Las bandas Sentinel-3 se reproyectan al sistema de "
+"coordenadas WGS 84 utilizando una muestra de píxeles del archivo "
+"geo_coordinates.nc. Para la mejor precisión, debe usar la herramienta "
+"oficial SNAP (ver http://step.esa.int)."
 
 #: ../../main_interface_window.rst:1028
 msgid "Sentinel-3 conversion"
-msgstr ""
+msgstr "Conversión Sentinel-3"
 
 #: ../../main_interface_window.rst:1030
 msgid ""
@@ -2244,20 +2373,30 @@ msgid ""
 "with the corresponding number; ancillary data required for conversion must "
 "be in the same directory;"
 msgstr ""
+": guilabel: `Directorio que contiene bandas Sentinel-3` | open_dir |: abre "
+"un directorio que contiene bandas Sentinel-3; los nombres de las bandas "
+"Sentinel-2 deben terminar con el número correspondiente; los datos "
+"auxiliares necesarios para la conversión deben estar en el mismo directorio;"
 
 #: ../../main_interface_window.rst:1041
 msgid ""
 "All the bands found in the :guilabel:`Directory containing Sentinel-3 bands`"
 " are listed in the table :guilabel:`Metadata`."
 msgstr ""
+"Todas las bandas que se encuentran en: guilabel: `Directorio que contiene "
+"bandas Sentinel-3` se enumeran en la tabla: guilabel:` Metadata`."
 
 #: ../../main_interface_window.rst:1043
 msgid ":guilabel:`Satellite` |input_text|: satellite name (e.g. Sentinel-3A);"
 msgstr ""
+": guilabel: `Satellite` | input_text |: nombre del satélite (por ejemplo, "
+"Sentinel-3A);"
 
 #: ../../main_interface_window.rst:1044
 msgid ":guilabel:`Product` |input_text|: product name (e.g. OLCI);"
 msgstr ""
+": guilabel: `Producto` | input_text |: nombre del producto (por ejemplo, "
+"OLCI);"
 
 #: ../../main_interface_window.rst:1060
 msgid "ASTER"
@@ -2300,6 +2439,9 @@ msgid ""
 " DOS1 atmospheric correction` also checked), the :ref:`DOS1_correction` is "
 "applied only to green band;"
 msgstr ""
+"| casilla de verificación | : guilabel: `solo a la banda verde`: si está "
+"marcada (con: guilabel:` Aplicar la corrección atmosférica DOS1` también "
+"marcada), el: ref: `DOS1_correction` se aplica solo a la banda verde;"
 
 #: ../../main_interface_window.rst:1088
 msgid ""
@@ -2352,6 +2494,8 @@ msgid ""
 "This tab allows for the conversion of **MODIS** images to .tif format, and "
 "the reprojection to WGS 84."
 msgstr ""
+"Esta pestaña permite la conversión de imágenes ** MODIS ** a formato .tif y "
+"la reproyección a WGS 84."
 
 #: ../../main_interface_window.rst:1128
 msgid "MODIS conversion"
@@ -2361,12 +2505,17 @@ msgstr "Conversión de MODIS"
 msgid ""
 ":guilabel:`Select file MODIS` |open_file|: select a MODIS image (file .hdf);"
 msgstr ""
+": guilabel: `Seleccionar archivo MODIS` | abrir_archivo |: seleccionar una "
+"imagen MODIS (archivo .hdf);"
 
 #: ../../main_interface_window.rst:1131
 msgid ""
 "|checkbox| :guilabel:`Reproject to WGS 84`: if checked, reproject bands to "
 "WGS 84, required for use in :guilabel:`SCP`;"
 msgstr ""
+"| casilla de verificación | : guilabel: `Reproject to WGS 84`: si está "
+"marcado, reproyecte las bandas a WGS 84, requerido para su uso en: "
+"guilabel:` SCP`;"
 
 #: ../../main_interface_window.rst:1140
 msgid ""
@@ -2375,14 +2524,18 @@ msgid ""
 "fields visit `the MODIS page "
 "<https://lpdaac.usgs.gov/dataset_discovery/modis>`_ ."
 msgstr ""
+"Todas las bandas que se encuentran en: guilabel: `Seleccionar archivo MODIS`"
+" se enumeran en la tabla: guilabel:` Metadata`. Para obtener información "
+"sobre: ​​guilabel: los campos `Metadata` visite` la página  de MODIS "
+"<https://lpdaac.usgs.gov/dataset_discovery/modis>`_ ."
 
 #: ../../main_interface_window.rst:1143
 msgid ":guilabel:`ID` |input_text|: ID of the image;"
-msgstr ""
+msgstr ": guilabel: `ID` | input_text |: ID de la imagen;"
 
 #: ../../main_interface_window.rst:1148
 msgid ":guilabel:`UnitConversionCoeff`: value for conversion;"
-msgstr ""
+msgstr ": guilabel: `UnitConversionCoeff`: valor para la conversión;"
 
 #: ../../main_interface_window.rst:1160
 msgid "Vector to raster"
@@ -2470,6 +2623,8 @@ msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "conversion to raster;"
 msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida e inicie la conversión a "
+"ráster;"
 
 #: ../../main_interface_window.rst:1190
 msgid "Clip multiple rasters"
@@ -2484,6 +2639,9 @@ msgid ""
 "This tab allows for cutting several image bands at once, using a rectangle "
 "defined with point coordinates or a boundary defined with a vector."
 msgstr ""
+"Esta pestaña permite cortar varias bandas de la  imagen a la vez, utilizando"
+" un rectángulo definido con coordenadas de puntos o un límite definido con "
+"un vector."
 
 #: ../../main_interface_window.rst:1203 ../../main_interface_window.rst:1281
 msgid "Raster list"
@@ -2503,6 +2661,9 @@ msgid ""
 "rectangle used for clipping; it is possible to enter the coordinates "
 "manually. Alternatively use a vector."
 msgstr ""
+"Establezca las coordenadas de los puntos superior izquierdo (SI) e inferior "
+"derecho (ID) del rectángulo utilizado para el recorte; Es posible ingresar "
+"las coordenadas manualmente. Alternativamente, use un vector."
 
 #: ../../main_interface_window.rst:1216
 msgid ":guilabel:`UL X` |input_number|: set the UL X coordinate;"
@@ -2543,6 +2704,9 @@ msgid ""
 " the selected vector (already loaded in QGIS) for clipping; UL and LR "
 "coordinates are ignored;"
 msgstr ""
+"| casilla de verificación | : guilabel: `Usar vector para recorte` | "
+"input_list |: si está marcado, use el vector seleccionado (ya cargado en "
+"QGIS) para el recorte; Las coordenadas SI y ID se ignoran;"
 
 #: ../../main_interface_window.rst:1223
 msgid ""
@@ -2551,6 +2715,10 @@ msgid ""
 "each vector polygon and the corresponding field value is added to the output"
 " name;"
 msgstr ""
+"| casilla de verificación | : guilabel: `Usar campo de vector para nombre de"
+" salida` | input_list |: si está marcado, se selecciona un campo de vector "
+"para recortar mientras itera a través de cada polígono de vector y el valor "
+"del campo correspondiente se agrega al nombre de salida;"
 
 #: ../../main_interface_window.rst:1224
 msgid ""
@@ -2558,6 +2726,9 @@ msgid ""
 "temporary ROI (see :ref:`ROI_list`) for clipping; UL and LR coordinates are "
 "ignored;"
 msgstr ""
+"| casilla de verificación | : guilabel: `Usar ROI temporal para recortar`: "
+"si está selecionado, usar un ROI temporal (ver: ref:` ROI_list`) para "
+"recortar; Las coordenadas SI y ID se ignoran;"
 
 #: ../../main_interface_window.rst:1226
 msgid ""
@@ -2582,6 +2753,9 @@ msgid ""
 "rasters; only rasters selected in the :ref:`raster_list` are clipped and "
 "automatically loaded in QGIS;"
 msgstr ""
+":guilabel:`RUN` |run|: elija un destino de salida y recorte los rásteres "
+"seleccionados; solo rásteres seleccionados en el:ref:`raster_list` se "
+"recortan y se cargan automáticamente en QGIS;"
 
 #: ../../main_interface_window.rst:1239
 msgid "Split raster bands"
@@ -2620,6 +2794,8 @@ msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and split selected "
 "raster; output bands are automatically loaded in QGIS;"
 msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida y divida el ráster "
+"seleccionado; las bandas de salida se cargan automáticamente en QGIS;"
 
 #: ../../main_interface_window.rst:1268
 msgid "Stack raster bands"
@@ -2627,25 +2803,27 @@ msgstr "Stack raster bands"
 
 #: ../../main_interface_window.rst:1274
 msgid "|stack_raster| :guilabel:`Stack raster bands`"
-msgstr ""
+msgstr "|stack_raster| :guilabel: `Apilar bandas ráster`"
 
 #: ../../main_interface_window.rst:1276
 msgid "Stack raster bands into a single file."
-msgstr ""
+msgstr "Apila bandas ráster en un solo archivo."
 
 #: ../../main_interface_window.rst:1291
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and stack selected "
 "rasters; output is automatically loaded in QGIS;"
 msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida y apile los rásteres "
+"seleccionados; la salida se carga automáticamente en QGIS;"
 
 #: ../../main_interface_window.rst:1296
 msgid "Mosaic band sets"
-msgstr ""
+msgstr "Conjuntos de bandas del mosaico"
 
 #: ../../main_interface_window.rst:1302
 msgid "|mosaic_tool| :guilabel:`Mosaic band sets`"
-msgstr ""
+msgstr "|mosaic_tool| :guilabel:`Conjuntos de bandas del mosaico`"
 
 #: ../../main_interface_window.rst:1304
 msgid ""
@@ -2653,16 +2831,22 @@ msgid ""
 "bands of two or more band sets defined in the :ref:`band_set_tab`. An output"
 " band is created for every corresponding set of bands in the band sets."
 msgstr ""
+"Esta herramienta permite el mosaico de conjuntos de bandas, fusionando las "
+"bandas correspondientes de dos o más conjuntos de bandas definidos en el "
+":ref:`band_set_tab`. Se crea una banda de salida para cada conjunto de "
+"bandas correspondiente en los conjuntos de bandas."
 
 #: ../../main_interface_window.rst:1307
 msgid ""
 "``NoData`` values of one band set are replaced by the values of the other "
 "band sets."
 msgstr ""
+"Los valores `` NoData '' de un conjunto de bandas se reemplazan por los "
+"valores de los otros conjuntos de bandas."
 
 #: ../../main_interface_window.rst:1312
 msgid "Mosaic of band sets"
-msgstr ""
+msgstr "Mosaico de conjuntos de bandas"
 
 #: ../../main_interface_window.rst:1314
 msgid ""
@@ -2670,6 +2854,9 @@ msgid ""
 ":ref:`band_set_tab`; in case of overlapping images, the pixel values of the "
 "first band set in the list are assigned."
 msgstr ""
+":guilabel:`Band set list` |input_text|:lista si los conjuntos de bandas "
+"definidos en el :ref:`band_set_tab`;en caso de imágenes superpuestas, se "
+"asignan los valores de píxeles de la primera banda establecida en la lista."
 
 #: ../../main_interface_window.rst:1315 ../../main_interface_window.rst:1415
 #: ../../main_interface_window.rst:1450
@@ -2686,20 +2873,24 @@ msgid ""
 ":guilabel:`Output name prefix` |input_text|: set the prefix for output file "
 "names (default is ``mosaic``);"
 msgstr ""
+":guilabel:`Prefijo de nombre de salida` | input_text |: establece el prefijo"
+" para los nombres de archivo de salida (por defecto es  ``mosaic``);"
 
 #: ../../main_interface_window.rst:1323
 msgid ""
 ":guilabel:`RUN` |run|: select an output directory and start the mosaic "
 "process;"
 msgstr ""
+":guilabel:`RUN` |run|: seleccione un directorio de salida e inicie el "
+"proceso del mosaico;"
 
 #: ../../main_interface_window.rst:1328
 msgid "Cloud masking"
-msgstr ""
+msgstr "Enmascaramiento de nubes"
 
 #: ../../main_interface_window.rst:1334
 msgid "|cloud_masking_tool| :guilabel:`Cloud masking`"
-msgstr ""
+msgstr "|cloud_masking_tool| :guilabel:`Enmascaramiento de nubes`"
 
 #: ../../main_interface_window.rst:1336
 msgid ""
@@ -2708,22 +2899,30 @@ msgid ""
 "``NoData`` is set in all the bands of the :ref:`band_set_tab` for pixels "
 "corresponding to clouds."
 msgstr ""
+"Esta herramienta permite el enmascaramiento de las nubes, basado en los "
+"valores de una máscara ráster, creando una banda enmascarada de salida para "
+"cada banda del:ref:`band_set_tab`. ``NoData`` se establece en todas las "
+"bandas de la :ref:`band_set_tab` para píxeles correspondientes a nubes."
 
 #: ../../main_interface_window.rst:1342
 msgid "Mask of band set"
-msgstr ""
+msgstr "Conjunto de máscara de banda"
 
 #: ../../main_interface_window.rst:1344
 msgid ""
 ":guilabel:`Select input band set` |input_number|: select the input "
 ":ref:`band_set_tab` to be masked;"
 msgstr ""
+":guilabel:`Seleccionar el conjunto de banda de entrada` |input_number|: "
+"seleccione la entrada:ref:`band_set_tab` a ser  enmascarado;"
 
 #: ../../main_interface_window.rst:1345
 msgid ""
 ":guilabel:`Select the classification` |input_list|: select a classification "
 "raster (already loaded in QGIS) which contains a cloud class;"
 msgstr ""
+":guilabel:`Seleccione la clasificación` |input_list|: seleccione un raster "
+"de clasificacion (ya cargado en QGIS) que contiene una clase de nube;"
 
 #: ../../main_interface_window.rst:1347
 msgid ""
@@ -2732,6 +2931,11 @@ msgid ""
 "define a range of values (e.g. ``1, 3-5, 8`` will select classes 1, 3, 4, 5,"
 " 8); if the text is red then the expression contains errors;"
 msgstr ""
+":guilabel:`Valores de clase de máscara` |input_text|:establecer los valores "
+"de la clase que se enmascararán; los valores de clase deben estar separados "
+"por  ``,``  y  ``-`` se puede usar para definir un rango de valores (por "
+"ejemplo ``1, 3-5, 8`` seleccionará las clases 1, 3, 4, 5, 8); si el texto es"
+" rojo, entonces la expresión contiene errores;"
 
 #: ../../main_interface_window.rst:1348
 msgid ""
@@ -2740,42 +2944,55 @@ msgid ""
 "pixels; this can be useful to dilate masked area in case the mask doesn't "
 "cover the thinner border of clouds;"
 msgstr ""
+"|checkbox| :guilabel:`Usar buffer del  tamaño del píxel` |input_number|: si "
+"está marcado, se crea un búfer para el área enmascarada, correspondiente al "
+"número definido de píxeles; esto puede ser útil para dilatar el área "
+"enmascarada en caso de que la máscara no cubra el borde más delgado de las "
+"nubes;"
 
 #: ../../main_interface_window.rst:1349
 msgid ""
 ":guilabel:`NoData value`: set the value of ``NoData`` pixels, corresponding "
 "to clouds;"
 msgstr ""
+":guilabel:`valor NoData `: establecer el valor de píxeles `` NoData``, "
+"correspondiente a las nubes;"
 
 #: ../../main_interface_window.rst:1350
 msgid ""
 ":guilabel:`Output name prefix` |input_text|: set the prefix for output file "
 "names (default is ``mask``);"
 msgstr ""
+":guilabel:`Prefijo del nombre de salida` |input_text|: establecer el prefijo"
+" para los nombres de los archivos de salida (por defecto es ``mask``);"
 
 #: ../../main_interface_window.rst:1357
 msgid ""
 ":guilabel:`RUN` |run|: select an output directory and start the mask "
 "process;"
 msgstr ""
+":guilabel:`RUN` |run|: seleccione un directorio de salida e inicie el "
+"proceso de máscara;"
 
 #: ../../main_interface_window.rst:1362
 msgid "Band processing"
-msgstr ""
+msgstr "Procesamiento de banda"
 
 #: ../../main_interface_window.rst:1364
 msgid ""
 "The tab |band_processing| :guilabel:`Band processing` provides several "
 "functions that can be applied to the :ref:`band_set_tab`."
 msgstr ""
+"La pestaña |band_processing| :guilabel:`Procesamiento de banda` proporciona "
+"varias funciones que se pueden aplicar a :ref:`band_set_tab`."
 
 #: ../../main_interface_window.rst:1369
 msgid "Band combination"
-msgstr ""
+msgstr "Combinación de bandas"
 
 #: ../../main_interface_window.rst:1375
 msgid "|band_combination| :guilabel:`Band combination`"
-msgstr ""
+msgstr "|band_combination| :guilabel:`Combinación de bandas`"
 
 #: ../../main_interface_window.rst:1377
 msgid ""
@@ -2785,16 +3002,23 @@ msgid ""
 " values. A combination raster is produced as output and the area of each "
 "combination is reported in an text file."
 msgstr ""
+"Esta pestaña permite la combinación de bandas cargadas en un "
+":ref:`band_set_tab`. Esta herramienta está diseñada para combinar "
+"clasificaciones para obtener un ráster donde cada valor corresponde a una "
+"combinación de valores de clase. Una  combinación del  ráster se produce  "
+"como salida y el área de cada combinación se informa en un archivo de texto."
 
 #: ../../main_interface_window.rst:1384
 msgid "Combination of band values"
-msgstr ""
+msgstr "Combinación de valores de banda."
 
 #: ../../main_interface_window.rst:1386
 msgid ""
 ":guilabel:`Select input band set (of classifications)` |input_number|: "
 "select the input :ref:`band_set_tab`;"
 msgstr ""
+":guilabel:`Seleccione el conjunto de banda de entrada (de clasificaciones)` "
+"|input_number|: seleccione la entrada :ref:`band_set_tab`;"
 
 #: ../../main_interface_window.rst:1393
 msgid ""
@@ -2802,6 +3026,9 @@ msgid ""
 "calculation; also, the details about the combinations are displayed in the "
 "tab :guilabel:`Output` and saved in a .txt file in the output directory;"
 msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo; "
+"tambien, los detalles sobre las combinaciones se muestran en la pestaña: "
+"guilabel: `Salida` y guardado en un archivo .txt en el directorio de salida;"
 
 #: ../../main_interface_window.rst:1398
 msgid "PCA"
@@ -2828,6 +3055,8 @@ msgid ""
 ":guilabel:`Select input band set` |input_number|: select the input "
 ":ref:`band_set_tab`;"
 msgstr ""
+":guilabel:`Seleccionar el conjunto de banda de entrada` |input_number|: "
+"seleccione la entrada: ref:`band_set_tab`;"
 
 #: ../../main_interface_window.rst:1414
 msgid ""
@@ -2846,14 +3075,19 @@ msgid ""
 "also, the details about the PCA are displayed in the tab :guilabel:`Output` "
 "and saved in a .txt file in the output directory;"
 msgstr ""
+":guilabel:`RUN` |run|: seleccione un directorio de salida e inicie el "
+"proceso de cálculo; los componentes principales se calculan y guardan como "
+"archivos ráster; Además, los detalles sobre el PCA son mostrados en la "
+"pestaña :guilabel:`Salida` y guardado en un archivo .txt en el directorio de"
+" salida;"
 
 #: ../../main_interface_window.rst:1427
 msgid "Clustering"
-msgstr ""
+msgstr "Agrupamiento"
 
 #: ../../main_interface_window.rst:1433
 msgid "|clustering| :guilabel:`Clustering`"
-msgstr ""
+msgstr "|clustering| :guilabel:`Agrupamiento`"
 
 #: ../../main_interface_window.rst:1435
 msgid ""
@@ -2861,10 +3095,13 @@ msgid ""
 ":ref:`band_set_tab`. In particular, :ref:`kmeans_definition` and "
 ":ref:`isodata_definition` methods are available."
 msgstr ""
+"Esta pestaña permite :ref:`clustering_definition` de un :ref:`band_set_tab`."
+" En particular, :ref:`kmeans_definition` y :ref:`isodata_definition` los "
+"métodos están disponibles."
 
 #: ../../main_interface_window.rst:1441
 msgid "Clustering of band set"
-msgstr ""
+msgstr "Agrupación de conjunto de bandas"
 
 #: ../../main_interface_window.rst:1444
 msgid ""
@@ -2872,6 +3109,9 @@ msgid ""
 ":guilabel:`ISODATA`: select the clustering method :ref:`kmeans_definition` "
 "or :ref:`isodata_definition`;"
 msgstr ""
+":guilabel:`Method` |radiobutton| :guilabel:`K-means` |radiobutton| "
+":guilabel:`ISODATA`:seleccione el método de agrupamiento "
+":ref:`kmeans_definition` o :ref:`isodata_definition`;"
 
 #: ../../main_interface_window.rst:1445
 msgid ""
@@ -2879,18 +3119,25 @@ msgid ""
 "K-means: iteration is terminated if distance is lower than threshold; for "
 "ISODATA: signatures are merged if distance is greater than threshold;"
 msgstr ""
+"|checkbox| :guilabel:`Umbral de distancia` |input_number|: si está marcada, "
+"para K-means: la iteración termina si la distancia es inferior al umbral; "
+"para ISODATA: las firmas se fusionan si la distancia es mayor que el umbral;"
 
 #: ../../main_interface_window.rst:1446
 msgid ""
 ":guilabel:`Number of classes` |input_number|: number of desired output "
 "classes;"
 msgstr ""
+":guilabel:`Numero de clases` |input_number|: numero de clases de salida "
+"deseadas;"
 
 #: ../../main_interface_window.rst:1447
 msgid ""
 ":guilabel:`Max number of iterations` |input_number|: maximum number of "
 "iterations if :guilabel:`Distance threshold` is not reached;"
 msgstr ""
+":guilabel:`Número máximo de iteraciones.` |input_number|: número máximo de "
+"iteraciones si :guilabel:`Umbral de distancia` no se alcanza;"
 
 #: ../../main_interface_window.rst:1448
 msgid ""
@@ -2898,16 +3145,22 @@ msgid ""
 "deviation considered for splitting a class, for :guilabel:`ISODATA` "
 "algorithm only;"
 msgstr ""
+":guilabel:`Desviación estándar máxima de ISODATA` |input_number|:desviación "
+"estándar máxima considerada para dividir una clase, para :guilabel:`ISODATA`"
+" un solo algoritmo;"
 
 #: ../../main_interface_window.rst:1449
 msgid ""
 ":guilabel:`ISODATA minimum class size in pixels` |input_number|: desired "
 "minimum class size in pixels, for :guilabel:`ISODATA` algorithm only;"
 msgstr ""
+":guilabel:`Tamaño mínimo de clase ISODATA en píxeles` |input_number|: tamaño"
+" de clase mínimo deseado en píxeles, para :guilabel:`ISODATA`  un solo "
+"algoritmo;"
 
 #: ../../main_interface_window.rst:1455
 msgid "Seed signatures"
-msgstr ""
+msgstr "Firmas de semillas"
 
 #: ../../main_interface_window.rst:1457
 msgid ""
@@ -2921,6 +3174,16 @@ msgid ""
 "option :guilabel:`Use random seed signatures` randomly selects the spectral "
 "signatures of pixels in the :ref:`band_set_tab`;"
 msgstr ""
+"|radiobutton| :guilabel:`Firmas de semillas de valores de banda` "
+"|radiobutton| :guilabel:`Utilice la lista de firmas como firmas semilla` "
+"|radiobutton| :guilabel:`Use firmas de semillas aleatorias`:seleccione una "
+"opción para las firmas semilla que inician la iteración; la opción "
+":guilabel:`Firmas de semillas de valores de banda` divide el espacio "
+"espectral de la:ref:`band_set_tab` para obtener firmas espectrales; la "
+"opción :guilabel:`Utilice la lista de firmas como firmas semilla` utiliza "
+"las firmas espectrales registradas :ref:`ROI_list`; la opción:guilabel:`Use "
+"firmas de semillas aleatorias` selecciona aleatoriamente las firmas "
+"espectrales de píxeles en el :ref:`band_set_tab`;"
 
 #: ../../main_interface_window.rst:1458 ../../main_interface_window.rst:1490
 msgid ""
@@ -2929,12 +3192,19 @@ msgid ""
 ":ref:`minimum_distance_algorithm` or * "
 ":ref:`spectra_angle_mapping_algorithm` for spectral distance calculation;"
 msgstr ""
+":guilabel:`Algoritmo de distancia` |radiobutton| :guilabel:`Distancia "
+"minima` |radiobutton| :guilabel:`Mapeo de Ángulo Espectral`: seleccione "
+":ref:`minimum_distance_algorithm` o * :ref:`spectra_angle_mapping_algorithm`"
+" para cálculo de distancia espectral;"
 
 #: ../../main_interface_window.rst:1459
 msgid ""
 "|checkbox| :guilabel:`Save resulting signatures to Signature list`: if "
 "checked, save the resulting spectral signatures in the :ref:`ROI_list`;"
 msgstr ""
+"|checkbox| :guilabel:`Guardar firmas resultantes en la lista de firmas`: si "
+"está marcado, guarde las firmas espectrales resultantes en el "
+":ref:`ROI_list`;"
 
 #: ../../main_interface_window.rst:1466 ../../main_interface_window.rst:1498
 #: ../../main_interface_window.rst:1823 ../../main_interface_window.rst:1854
@@ -2943,14 +3213,15 @@ msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation;"
 msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo;"
 
 #: ../../main_interface_window.rst:1471
 msgid "Spectral distance"
-msgstr ""
+msgstr "Distancia espectral"
 
 #: ../../main_interface_window.rst:1477
 msgid "|spectral_distance| :guilabel:`Spectral distance`"
-msgstr ""
+msgstr "|spectral_distance| :guilabel:`Distancia espectral`"
 
 #: ../../main_interface_window.rst:1479
 msgid ""
@@ -2960,28 +3231,39 @@ msgid ""
 "be defined for creating a binary raster of values below and above the "
 "threshold."
 msgstr ""
+"Esta pestaña permite calcular la distancia espectral entre cada píxel "
+"correspondiente de dos: guilabel: `conjuntos de bandas`. La salida es un "
+"ráster que contiene la distancia espectral de cada píxel. Opcionalmente, se "
+"puede definir un umbral para crear un ráster binario de valores por debajo y"
+" por encima del umbral."
 
 #: ../../main_interface_window.rst:1486
 msgid "Spectral distance of band sets"
-msgstr ""
+msgstr "Distancia espectral de conjuntos de bandas"
 
 #: ../../main_interface_window.rst:1488
 msgid ""
 ":guilabel:`Select first input band set` |input_number|: select the first "
 "input :ref:`band_set_tab`;"
 msgstr ""
+":guilabel:``Seleccione el primer conjunto de bandas de entrada`` "
+"|input_number|: seleccione la primera entrada :ref:`band_set_tab`;"
 
 #: ../../main_interface_window.rst:1489
 msgid ""
 ":guilabel:`Select second input band set` |input_number|: select the second "
 "input :ref:`band_set_tab`;"
 msgstr ""
+":guilabel:`Seleccione el segundo conjunto de bandas de entrada`  "
+"|input_number|: seleccione la segunda entrada:ref:`band_set_tab`;"
 
 #: ../../main_interface_window.rst:1491
 msgid ""
 "|checkbox| :guilabel:`Distance threshold` |input_number|: if checked, a "
 "binary raster of values below and above the threshold is created;"
 msgstr ""
+"|checkbox| :guilabel: `Umbral de distancia` |input_number|: si está marcado,"
+" se crea un ráster binario de valores por debajo y por encima del umbral;"
 
 #: ../../main_interface_window.rst:1503
 msgid "Postprocessing"
@@ -3011,6 +3293,11 @@ msgid ""
 "raster). If a vector is selected as reference, it is possible to choose a "
 "field describing class values."
 msgstr ""
+"Esta pestaña permite la validación de una clasificación (leer "
+":ref:`accuracy_assessment_definition` ). La clasificación se compara con un "
+"ráster de referencia o un vector de referencia (que se convierte "
+"automáticamente en ráster). Si se selecciona un vector como referencia, es "
+"posible elegir un campo que describa los valores de clase."
 
 #: ../../main_interface_window.rst:1522
 msgid ""
@@ -3052,12 +3339,18 @@ msgid ""
 "raster or a vector (already loaded in QGIS), used as reference layer (ground"
 " truth) for the accuracy assessment;"
 msgstr ""
+":guilabel:`Seleccione el vector de referencia o ráster` |input_list|: "
+"seleccione un ráster o un vector (ya cargado en QGIS), utilizado como capa "
+"de referencia (terreno verdadero) para la evaluación de precisión;"
 
 #: ../../main_interface_window.rst:1535 ../../main_interface_window.rst:1635
 msgid ""
 ":guilabel:`Vector field` |input_list|: if a vector is selected as reference,"
 " select a vector field containing numeric class values;"
 msgstr ""
+":guilabel:`Campo vectorial` |input_list|: si se selecciona un vector como "
+"referencia, seleccione un campo vectorial que contenga valores de clase "
+"numéricos;"
 
 #: ../../main_interface_window.rst:1542
 msgid ""
@@ -3065,6 +3358,9 @@ msgid ""
 "calculation; the error matrix is displayed in the tab :guilabel:`Output` and"
 " the ``error raster`` is loaded in QGIS;"
 msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo; la "
+"matriz de error se muestra en la pestaña: guilabel:`Salida` y el  ``error "
+"del raster`` es cargado en QGIS;"
 
 #: ../../main_interface_window.rst:1547
 msgid "Land cover change"
@@ -3129,6 +3425,10 @@ msgid ""
 ":guilabel:`Output` (and saved in a text file) and the ``land cover change "
 "raster`` is loaded in QGIS;"
 msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo; las"
+" estadísticas de cambio de la cobertura del suelo se muestran en la pestaña:"
+" guilabel:`Salida` (y guardado en un archivo de texto) y el ``raster de "
+"cambio de Cobertura del suelo`` es cargado en QGIS;"
 
 #: ../../main_interface_window.rst:1579
 msgid "Classification report"
@@ -3171,6 +3471,9 @@ msgid ""
 "calculation; the report is saved in a text file and displayed in the tab "
 ":guilabel:`Output`;"
 msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo; el "
+"informe se guarda en un archivo de texto y se muestra en la pestaña "
+":guilabel:`Salida`;"
 
 #: ../../main_interface_window.rst:1608
 msgid "Cross classification"
@@ -3189,6 +3492,12 @@ msgid ""
 "classification values. If a vector is selected as reference, it is possible "
 "to choose a field describing class values."
 msgstr ""
+"Esta pestaña permite el cálculo de un ráster de clasificación cruzada y una "
+"matriz. La clasificación se compara con un ráster de referencia o un vector "
+"de referencia (que se convierte automáticamente en ráster). Esto es útil "
+"para calcular el área para cada combinación entre clases de referencia y "
+"valores de clasificación. Si se selecciona un vector como referencia, es "
+"posible elegir un campo que describa los valores de clase."
 
 #: ../../main_interface_window.rst:1622
 msgid ""
@@ -3218,6 +3527,9 @@ msgid ""
 ":guilabel:`Select the reference vector or raster` |input_list|: select a "
 "raster or a vector (already loaded in QGIS), used as reference layer;"
 msgstr ""
+":guilabel:`Seleccione el vector de referencia o ráster` |input_list|: "
+"seleccione un ráster o un vector (ya cargado en QGIS), utilizado como capa "
+"de referencia;"
 
 #: ../../main_interface_window.rst:1642
 msgid ""
@@ -3225,38 +3537,49 @@ msgid ""
 "calculation; the cross matrix is displayed in the tab :guilabel:`Output` and"
 " the ``cross raster`` is loaded in QGIS;"
 msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo; la "
+"matriz de error se muestra en la pestaña: guilabel:`Salida` y el  `` raster "
+"cruzado`` es cargado en QGIS;"
 
 #: ../../main_interface_window.rst:1647
 msgid "Class signature"
-msgstr ""
+msgstr "Clase de firma"
 
 #: ../../main_interface_window.rst:1653
 msgid "|class_signature| :guilabel:`Class signature`"
-msgstr ""
+msgstr "|class_signature| :guilabel:`Clase de firma`"
 
 #: ../../main_interface_window.rst:1655
 msgid ""
 "This tab allows for the calculation of the mean spectral signature of each "
 "class in a classification using a :ref:`band_set_tab`."
 msgstr ""
+"Esta pestaña permite el cálculo de la firma espectral media de cada clase en"
+" una clasificación usando un :ref:`band_set_tab`."
 
 #: ../../main_interface_window.rst:1659
 msgid ""
 ":guilabel:`Select input band set` |input_number|: select the input "
 ":ref:`band_set_tab` for spectral signature calculation;"
 msgstr ""
+":guilabel:`Seleccionar conjunto de banda de entrada` |input_number|: "
+"seleccione la entrada:ref:`band_set_tab` para el cálculo de la  firma "
+"espectral;"
 
 #: ../../main_interface_window.rst:1660
 msgid ""
 "|checkbox| :guilabel:`Save resulting signatures to Signature list`: if "
 "checked, save the resulting spectral signatures to :ref:`ROI_list`;"
 msgstr ""
+"|checkbox| :guilabel:`Guardar firmas resultantes en la lista de firmas`:si "
+"está marcado, guarde las firmas espectrales resultantes en:ref:`ROI_list`;"
 
 #: ../../main_interface_window.rst:1667 ../../main_interface_window.rst:1699
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "conversion;"
 msgstr ""
+":guilabel:`RUN` |run|: elige el destino de salida y comienza la conversión;"
 
 #: ../../main_interface_window.rst:1672
 msgid "Classification to vector"
@@ -3374,6 +3697,8 @@ msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation; reclassified raster is loaded in QGIS;"
 msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo; el "
+"ráster reclasificado se carga en QGIS;"
 
 #: ../../main_interface_window.rst:1752
 msgid "Edit raster"
@@ -3478,6 +3803,14 @@ msgid ""
 "entered, which sets 2 where ``raster`` equals 1, and leaves unchanged the "
 "values where ``raster`` is not equal to 1;"
 msgstr ""
+"|checkbox| :guilabel:`Usar expresión` |input_text|:si está marcado, el "
+"ráster se edita de acuerdo con la expresión ingresada; la expresión debe "
+"contener uno o más `` where``; las variables aceptadas son `` ráster '' que "
+"representa el valor ráster de entrada y `` vector '' que representa el valor"
+" del vector si se selecciona; el siguiente ejemplo de expresión `` where "
+"(raster == 1, 2, raster) '' ya está ingresado, que establece 2 donde `` "
+"raster`` es igual a 1, y deja sin cambios los valores donde `` raster`` no "
+"es igual a 1;"
 
 #: ../../main_interface_window.rst:1794
 msgid ""
@@ -3489,7 +3822,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1795
 msgid ":guilabel:`RUN` |run|: edit the raster;"
-msgstr ""
+msgstr ":guilabel:`RUN` |run|: editar el ráster;"
 
 #: ../../main_interface_window.rst:1800
 msgid "Classification sieve"
@@ -3751,18 +4084,21 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1931
 msgid "Variables for output name are available:"
-msgstr ""
+msgstr "Las variables para el nombre de salida están disponibles:"
 
 #: ../../main_interface_window.rst:1933
 msgid ""
 ":guilabel:`#BANDSET#`: the name of the first band in the "
 ":ref:`band_set_tab`;"
 msgstr ""
+":guilabel:`#BANDSET#`: el nombre de la primera banda en "
+"el:ref:`band_set_tab`;"
 
 #: ../../main_interface_window.rst:1934
 msgid ""
 ":guilabel:`#DATE#`: the current date and time (e.g. 20161110_113846527764);"
 msgstr ""
+":guilabel:`#DATE#`: la fecha y hora actuales(e.g. 20161110_113846527764);"
 
 #: ../../main_interface_window.rst:1936
 msgid ""
@@ -3929,6 +4265,8 @@ msgid ""
 ":guilabel:`Index calculation` allows for entering a spectral index "
 "expression (see :ref:`spectral_indices_definition`)."
 msgstr ""
+":guilabel: El `cálculo de índice` permite ingresar una expresión de índice "
+"espectral (ver:ref:`spectral_indices_definition`)."
 
 #: ../../main_interface_window.rst:1985
 msgid ":guilabel:`Index calculation` |input_list|: list of spectral indices:"
@@ -4129,6 +4467,11 @@ msgid ""
 "if ``Decision rules`` is active and text is green, choose the output "
 "destination and start the calculation based on ``Decision rules``;"
 msgstr ""
+":guilabel:`RUN` |run|:si `` Expresión '' está activa y el texto es verde, "
+"elija el destino de salida e inicie el cálculo en función de `` Expresión "
+"''; si las `` Reglas de decisión '' están activas y el texto es verde, elija"
+" el destino de salida e inicie el cálculo en función de las `` Reglas de "
+"decisión '';"
 
 #: ../../main_interface_window.rst:2038 ../../main_interface_window.rst:2051
 msgid "Batch"
@@ -4163,6 +4506,8 @@ msgid ""
 "Each function has options, identified by a name, with the following "
 "structure:"
 msgstr ""
+"Cada funcion tiene opciones, identificadas por un nombre, con la siguiente "
+"estructura."
 
 #: ../../main_interface_window.rst:2060
 msgid "``option name``: ``option argument``"
@@ -4190,12 +4535,19 @@ msgid ""
 "``path`` require the full path to a file. Some options require multiple "
 "arguments such as lists; lists must be separated by ``,`` ."
 msgstr ""
+"Según la función, algunas de las opciones son obligatorias, mientras que "
+"otras pueden omitirse de la expresión. Los nombres de las opciones que "
+"contienen `` ruta '' requieren la ruta completa a un archivo.  Algunas "
+"opciones requieren múltiples argumentos, como listas; las listas deben estar"
+" separadas por ``, ``."
 
 #: ../../main_interface_window.rst:2069
 msgid ""
 "If the expression contains errors, the text is red. An expression check "
 "label is displayed with a brief description of the error."
 msgstr ""
+"Si la expresión contiene errores, el texto es rojo. Se muestra una etiqueta "
+"de verificación de expresión con una breve descripción del error."
 
 #: ../../main_interface_window.rst:2072
 msgid "|reset|: clear the expression;"
@@ -4217,6 +4569,9 @@ msgid ""
 "to insert a function in the expression; the following functions are "
 "available with the corresponding options:"
 msgstr ""
+"Una tabla: guilabel: `Funciones` se muestra en el lado derecho; haga doble "
+"clic para insertar una función en la expresión; Las siguientes funciones "
+"están disponibles con las opciones correspondientes:"
 
 #: ../../main_interface_window.rst:2077
 msgid ""
@@ -4253,6 +4608,8 @@ msgid ""
 ":ref:`band_combination_tab`: band combination (``band_combination;band_set :"
 " 1;output_raster_path : ''``);"
 msgstr ""
+":ref:`band_combination_tab`:combinación de  bandas  "
+"(``band_combination;band_set : 1;output_raster_path : ''``);"
 
 #: ../../main_interface_window.rst:2081
 msgid ""
@@ -4260,6 +4617,9 @@ msgid ""
 "(``class_signature;input_raster_path : '';band_set : 1;save_signatures : "
 "1;output_text_path : ''``);"
 msgstr ""
+":ref:`class_signature_tab`: firma de clase "
+"(``class_signature;input_raster_path : '';band_set : 1;save_signatures : "
+"1;output_text_path : ''``);"
 
 #: ../../main_interface_window.rst:2082
 msgid ""
@@ -4343,6 +4703,9 @@ msgid ""
 "1;input_raster_path : '';class_values : '';use_buffer : 1;size_in_pixels : "
 "1;nodata_value : 0;output_name_prefix : 'mask';output_dir : ''``);"
 msgstr ""
+":ref:`cloud_masking_tab`: enmascaramiento de nubes(``cloud_masking;band_set "
+": 1;input_raster_path : '';class_values : '';use_buffer : 1;size_in_pixels :"
+" 1;nodata_value : 0;output_name_prefix : 'mask';output_dir : ''``);"
 
 #: ../../main_interface_window.rst:2090
 msgid ""
@@ -4353,6 +4716,12 @@ msgid ""
 "0;seed_signatures : 1;distance_algorithm : 1;save_signatures : "
 "0;output_raster_path : ''``);"
 msgstr ""
+":ref:`clustering_tab`: agrupamiento (``clustering;band_set : "
+"1;clustering_method : 1;use_distance_threshold : 1;threshold_value : "
+"0.0001;number_of_classes : 10;max_iterations : 10;isodata_max_std_dev : "
+"0.0001;isodata_min_class_size : 10;use_nodata : 0;nodata_value : "
+"0;seed_signatures : 1;distance_algorithm : 1;save_signatures : "
+"0;output_raster_path : ''``);"
 
 #: ../../main_interface_window.rst:2091
 msgid ""
@@ -4404,6 +4773,9 @@ msgid ""
 "'';reproject_wgs84 : 1;use_nodata : 1;nodata_value : -999;create_bandset : "
 "1;output_dir : ''``);"
 msgstr ""
+":ref:`modis_tab`: Conversión MODIS (``modis_conversion;input_raster_path : "
+"'';reproject_wgs84 : 1;use_nodata : 1;nodata_value : -999;create_bandset : "
+"1;output_dir : ''``);"
 
 #: ../../main_interface_window.rst:2096
 msgid ""
@@ -4433,6 +4805,9 @@ msgid ""
 "(``sentinel2_conversion;input_dir : '';mtd_safl1c_file_path : '';apply_dos1 "
 ": 0;use_nodata : 1;nodata_value : 0;create_bandset : 1;output_dir : ''``);"
 msgstr ""
+":ref:`sentinel2_tab`: Conversión Sentinel-2  "
+"(``sentinel2_conversion;input_dir : '';mtd_safl1c_file_path : '';apply_dos1 "
+": 0;use_nodata : 1;nodata_value : 0;create_bandset : 1;output_dir : ''``);"
 
 #: ../../main_interface_window.rst:2099
 msgid ""
@@ -4441,6 +4816,10 @@ msgid ""
 " 1;use_nodata : 1;nodata_value : 0;create_bandset : 1;output_dir : "
 "'';band_set : 1``);"
 msgstr ""
+":ref:`sentinel3_tab`: conversión Sentinel-3  "
+"(``sentinel3_conversion;input_dir : '';apply_dos1 : 0;dos1_only_blue_green :"
+" 1;use_nodata : 1;nodata_value : 0;create_bandset : 1;output_dir : "
+"'';band_set : 1``);"
 
 #: ../../main_interface_window.rst:2100
 msgid ""
@@ -4449,6 +4828,10 @@ msgid ""
 "2;distance_algorithm  : 1;use_distance_threshold : 1;threshold_value : "
 "0.1;output_dir : ''``);"
 msgstr ""
+":ref:`spectral_distance_tab`:distancia espectral de conjuntos de bandas "
+"(``spectral_distance;first_band_set : 1;second_band_set : "
+"2;distance_algorithm  : 1;use_distance_threshold : 1;threshold_value : "
+"0.1;output_dir : ''``);"
 
 #: ../../main_interface_window.rst:2101
 msgid ""
@@ -4465,6 +4848,8 @@ msgid ""
 ":ref:`stack_raster_tab`: stack rasters into a single file "
 "(``stack_raster_bands;input_raster_path : '';output_raster_path : ''``);"
 msgstr ""
+":ref:`stack_raster_tab`: apilar rásteres en un solo archivo "
+"(``stack_raster_bands;input_raster_path : '';output_raster_path : ''``);"
 
 #: ../../main_interface_window.rst:2103
 msgid ""
@@ -4487,6 +4872,8 @@ msgid ""
 ":guilabel:`Add a new band set`: add a new empty band set "
 "(``add_new_bandset;``);"
 msgstr ""
+":guilabel:`Agregar un nuevo conjunto de bandas`: agregue un nuevo conjunto "
+"de bandas vacío (``add_new_bandset;``);"
 
 #: ../../main_interface_window.rst:2108
 msgid ""
@@ -4502,6 +4889,9 @@ msgid ""
 "(``create_bandset;raster_path_list : '';center_wavelength : "
 "'';wavelength_unit : 1;multiplicative_factor : '';additive_factor : ''``);"
 msgstr ""
+":guilabel:`Crear un conjunto de bandas`: create a :guilabel:`Band set` "
+"assigning bands (``create_bandset;raster_path_list : '';center_wavelength : "
+"'';wavelength_unit : 1;multiplicative_factor : '';additive_factor : ''``);"
 
 #: ../../main_interface_window.rst:2110
 msgid ""
@@ -4516,12 +4906,16 @@ msgid ""
 ":guilabel:`Remove band set`: remove a band set by the number thereof "
 "(``remove_bandset;band_set : 1``);"
 msgstr ""
+":guilabel:`Eliminar conjunto de bandas`: eliminar un conjunto de bandas por "
+"el número(``remove_bandset;band_set : 1``);"
 
 #: ../../main_interface_window.rst:2112
 msgid ""
 ":guilabel:`Select band set`: select a band set (:guilabel:`active band set`)"
 " by the number thereof (``select_bandset;band_set : 1``);"
 msgstr ""
+":guilabel:`Seleccionar conjunto de bandas (:guilabel:`active band set`)por "
+"su número (``select_bandset;band_set : 1``);"
 
 #: ../../main_interface_window.rst:2113
 msgid ""
@@ -4549,6 +4943,8 @@ msgid ""
 ":guilabel:`RUN` |run|: if text in the batch expression is green, start the "
 "batch processes;"
 msgstr ""
+":guilabel:`RUN` |run|: si el texto en la expresión de lote es verde, inicie "
+"los procesos por lotes;"
 
 #: ../../main_interface_window.rst:2134
 msgid "Settings"
@@ -4610,7 +5006,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:2161
 msgid "SMTP process notification"
-msgstr ""
+msgstr "Notificación de proceso SMTP"
 
 #: ../../main_interface_window.rst:2163
 msgid ""
@@ -4619,21 +5015,31 @@ msgid ""
 "processes are finished (a notification is sent also in case of error, but "
 "not in case of crash);"
 msgstr ""
+":guilabel: `Servidor SMTP` |input_text| |registry_save|: el servidor SMTP "
+"para iniciar sesión para enviar un correo electrónico de notificación cuando"
+" todos los procesos: guilabel: `SCP` hayan finalizado (se envía una "
+"notificación también en caso de error, pero no en caso de bloqueo);"
 
 #: ../../main_interface_window.rst:2164
 msgid ":guilabel:`user` |input_text| |registry_save|: the SMTP server user;"
 msgstr ""
+":guilabel:`user` |input_text| |registry_save|: el usuario del servidor SMTP;"
 
 #: ../../main_interface_window.rst:2165
 msgid ""
 ":guilabel:`password` |input_text| |registry_save|: the SMTP server password;"
 msgstr ""
+":guilabel:`password` |input_text| |registry_save|: la contraseña del "
+"servidor SMTP;"
 
 #: ../../main_interface_window.rst:2166
 msgid ""
 ":guilabel:`Send email of completed process to` |input_text| |registry_save|:"
 " a list of addresses (separated by comma) to send the notification email to;"
 msgstr ""
+": guilabel: `Enviar correo electrónico del proceso completado a` | "
+"input_text | | Registry_save |: una lista de direcciones (separadas por "
+"comas) para enviar el correo electrónico de notificación;"
 
 #: ../../main_interface_window.rst:2171
 msgid "RAM"
@@ -4884,9 +5290,10 @@ msgstr ""
 
 #~ msgid "|reset|: clear all bands from  :guilabel:`active band set`;"
 #~ msgstr ""
+#~ "| reset |: borra todas las bandas de: guilabel: `conjunto de bandas activo`;"
 
 #~ msgid "RUN |run|: choose the output destination and start the process;"
-#~ msgstr ""
+#~ msgstr "RUN |run|: elija el destino de salida e inicie el proceso;"
 
 #~ msgid ""
 #~ ":guilabel:`Rapid ROI band` : if a band number is defined, ROI is created "
@@ -4901,6 +5308,8 @@ msgstr ""
 #~ "RUN |run|: start the ROI creation process for all the points and save ROIs "
 #~ "to the :ref:`training_input`;"
 #~ msgstr ""
+#~ "RUN |run|: iniciar el proceso de creación de ROI para todos los puntos y "
+#~ "guardar los ROI en :ref:`training_input`;"
 
 #~ msgid ""
 #~ ":guilabel:`Import spectral library` |enter|: download the library and add "
@@ -4909,27 +5318,42 @@ msgstr ""
 #~ "according to the image band wavelengths defined in the :guilabel:`active "
 #~ "band set` in :ref:`band_set_tab`, and added to the :ref:`ROI_list`;"
 #~ msgstr ""
+#~ ":guilabel:`Importar biblioteca espectral` |enter|: descargue la biblioteca y"
+#~ " agregue la firma espectral muestreada a la :ref:`ROI_list` utilizando los "
+#~ "parámetros definidos en :ref:`ROI_creation`; la biblioteca se muestrea "
+#~ "automáticamente de acuerdo con las longitudes de onda de la banda de imagen "
+#~ "definidas en :guilabel:`conjunto de banda activa` in :ref:`band_set_tab`, y "
+#~ "añadido a la:ref:`ROI_list`;"
 
 #~ msgid ""
 #~ ":ref:`Sentinel3_definition` images (OLCI) acquired from 2015 to present "
 #~ "days;"
 #~ msgstr ""
+#~ ": ref: imágenes `Sentinel3_definition` (OLCI) adquiridas desde 2015 hasta la"
+#~ " actualidad;"
 
 #~ msgid ""
 #~ "RUN |run|: start the download process of all the products listed in "
 #~ ":ref:`product_list`;"
 #~ msgstr ""
+#~ "RUN |run|: iniciar el proceso de descarga de todos los productos enumerados "
+#~ "en :ref:`product_list`;"
 
 #~ msgid ""
 #~ "This tab allows for the selection of single bands for Landsat 8, Sentinel-2,"
 #~ " and Sentinel-3 images. Depending on the download service, single band "
 #~ "download could be unavailable."
 #~ msgstr ""
+#~ "Esta pestaña permite la selección de bandas individuales para imágenes "
+#~ "Landsat 8, Sentinel-2 y Sentinel-3. Dependiendo del servicio de descarga, la"
+#~ " descarga de banda única podría no estar disponible."
 
 #~ msgid ""
 #~ "|checkbox| :guilabel:`Band QA`: if checked, the Landsat 8 QA band is "
 #~ "selected for download;"
 #~ msgstr ""
+#~ "|checkbox| :guilabel:`Banda QA`:si está marcada, la banda de  Landsat 8 QA "
+#~ "es selecciona para descargar;"
 
 #~ msgid ""
 #~ "RUN |run|: select an output directory and start the conversion process; only"
@@ -4937,6 +5361,10 @@ msgstr ""
 #~ "bands are saved in the output directory with the prefix ``RT_`` and "
 #~ "automatically loaded in QGIS;"
 #~ msgstr ""
+#~ "RUN |run|:seleccione un directorio de salida e inicie el proceso de "
+#~ "conversión; solo bandas listadas en la tabla :guilabel: `Metadatos` son  "
+#~ "convertidos; las bandas convertidas se guardan en el directorio de salida "
+#~ "con el prefijo `` RT_`` y se cargan automáticamente en QGIS;"
 
 #~ msgid ""
 #~ "This tab allows for the conversion of **Sentinel-2** images to the physical "
@@ -4955,6 +5383,7 @@ msgstr ""
 #~ msgid ""
 #~ "RUN |run|: choose the output destination and start the conversion to raster;"
 #~ msgstr ""
+#~ "RUN |run|: elija el destino de salida e inicie la conversión a ráster;"
 
 #~ msgid ""
 #~ "|checkbox| :guilabel:`Use temporary ROI for clipping`: if checked, use a "
@@ -4970,31 +5399,45 @@ msgstr ""
 #~ "rasters selected in the :ref:`raster_list` are clipped and automatically "
 #~ "loaded in QGIS;"
 #~ msgstr ""
+#~ "RUN |run|: elija un destino de salida y corte los rásters seleccionados; "
+#~ "solo los rásters selecionados in la :ref:`raster_list` son cortados y "
+#~ "automaticamente cargados en QGIS; "
 
 #~ msgid ""
 #~ "RUN |run|: choose the output destination and split selected raster; output "
 #~ "bands are automatically loaded in QGIS;"
 #~ msgstr ""
+#~ "RUN |run|: elija el destino de salida y divida el raster selecionado; las "
+#~ "bandas resultatntes son automaticamente cargadas en QGIS;"
 
 #~ msgid ""
 #~ "RUN |run|: choose the output destination and stack selected rasters; output "
 #~ "is automatically loaded in QGIS;"
 #~ msgstr ""
+#~ "RUN |run|: elija la salida de destino y apile los rasters seleccionados; el "
+#~ "resultado  es automaticamente cargada in QGIS;"
 
 #~ msgid "RUN |run|: select an output directory and start the mosaic process;"
 #~ msgstr ""
+#~ "RUN |run|: seleccione  un directorio de salida y empiece el proceso del "
+#~ "mosaico;"
 
 #~ msgid "|mosaic_tool| :guilabel:`Cloud masking`"
-#~ msgstr ""
+#~ msgstr "|mosaic_tool| :guilabel:`Enmascaramiento de nubes`"
 
 #~ msgid "RUN |run|: select an output directory and start the mask process;"
 #~ msgstr ""
+#~ "RUN |run|: seleccione un directorio de salida e inicie el proceso de "
+#~ "máscara;"
 
 #~ msgid ""
 #~ "RUN |run|: choose the output destination and start the calculation; also, "
 #~ "the details about the combinations are displayed in the tab "
 #~ ":guilabel:`Output` and saved in a .txt file in the output directory;"
 #~ msgstr ""
+#~ "RUN |run|: elija el destino de salida y comience el cálculo; Además, los "
+#~ "detalles sobre las combinaciones se muestran en la pestaña:guilabel: "
+#~ "`Salida` y guardado en un archivo .txt en el directorio de salida;"
 
 #~ msgid ""
 #~ "RUN |run|: select an output directory and start the calculation process; "
@@ -5002,32 +5445,44 @@ msgstr ""
 #~ "details about the PCA are displayed in the tab :guilabel:`Output` and saved "
 #~ "in a .txt file in the output directory;"
 #~ msgstr ""
+#~ "RUN |run|: seleccione un directorio de salida e inicie el proceso de "
+#~ "cálculo; los componentes principales se calculan y guardan como archivos "
+#~ "ráster; Además, los detalles sobre el PCA se muestran en la pestaña: "
+#~ "guilabel:`Salida` y guardado en un archivo .txt en el directorio de salida;"
 
 #~ msgid "|band_combination| :guilabel:`Clustering`"
-#~ msgstr ""
+#~ msgstr "|clustering| :guilabel:`Agrupamiento`"
 
 #~ msgid ""
 #~ "This tab allows for the :ref:`clustering` of a :ref:`band_set_tab`. In "
 #~ "particular, :ref:`kmeans\" and :ref:`isodata` methods are available."
 #~ msgstr ""
+#~ "Esta pestaña permite: ref: `agrupación` de a: ref:` band_set_tab`. En "
+#~ "particular, los métodos: ref: `kmeans\" y: ref: `isodata` están disponibles."
 
 #~ msgid ""
 #~ ":guilabel:`Method` |radiobutton| :guilabel:`K-means` |radiobutton| "
 #~ ":guilabel:`ISODATA`: select the clustering method :ref:`kmeans\" or "
 #~ ":ref:`isodata`;"
 #~ msgstr ""
+#~ ":guilabel:`Method` |radiobutton| :guilabel:`K-means` |radiobutton| "
+#~ ":guilabel:`ISODATA`: seleccione el metodo de agrupamiento :ref:`kmeans\" or "
+#~ ":ref:`isodata`;"
 
 #~ msgid "RUN |run|: choose the output destination and start the calculation;"
-#~ msgstr ""
+#~ msgstr "RUN |run|: elija el destino de salida y comience el cálculo;"
 
 #~ msgid "|band_combination| :guilabel:`Spectral distance`"
-#~ msgstr ""
+#~ msgstr "|band_combination| :guilabel:`Distancia espectral`"
 
 #~ msgid ""
 #~ "RUN |run|: choose the output destination and start the calculation; the "
 #~ "error matrix is displayed in the tab :guilabel:`Output` and the ``error "
 #~ "raster`` is loaded in QGIS;"
 #~ msgstr ""
+#~ "RUN |run|: elija el destino de salida y comience el cálculo; la matriz de "
+#~ "error se muestra en la pestaña: guilabel: `Salida` y el` `ráster de error`` "
+#~ "se cargan en QGIS;"
 
 #~ msgid ""
 #~ "RUN |run|: choose the output destination and start the calculation; the land"
@@ -5035,28 +5490,39 @@ msgstr ""
 #~ "saved in a text file) and the ``land cover change raster`` is loaded in "
 #~ "QGIS;"
 #~ msgstr ""
+#~ "RUN |run|: elija el destino de salida y comience el cálculo; las "
+#~ "estadísticas de cambio de la cobertura del suelo se muestran en la pestaña "
+#~ ":guilabel: `Salida` (y guardado en un archivo de texto) y el `` ráster de "
+#~ "cambio de cobertura del suelo '' se carga en QGIS;"
 
 #~ msgid ""
 #~ "RUN |run|: choose the output destination and start the calculation; the "
 #~ "report is saved in a text file and displayed in the tab :guilabel:`Output`;"
 #~ msgstr ""
+#~ "RUN |run|: elija el destino de salida y comience el cálculo; el informe se "
+#~ "guarda en un archivo de texto y se muestra en la pestaña :guilabel:`Salida`;"
 
 #~ msgid ""
 #~ "RUN |run|: choose the output destination and start the calculation; the "
 #~ "cross matrix is displayed in the tab :guilabel:`Output` and the ``cross "
 #~ "raster`` is loaded in QGIS;"
 #~ msgstr ""
+#~ "RUN |run|: elija el destino de salida y comience el cálculo; la matriz "
+#~ "cruzada se muestra en la pestaña: guilabel: 'Salida' y el \"raster cruzado\""
+#~ " es cargado en QGIS;"
 
 #~ msgid "RUN |run|: choose the output destination and start the conversion;"
-#~ msgstr ""
+#~ msgstr "RUN |run|: elija el destino de salida e inicie la conversión;"
 
 #~ msgid ""
 #~ "RUN |run|: choose the output destination and start the calculation; "
 #~ "reclassified raster is loaded in QGIS;"
 #~ msgstr ""
+#~ "RUN |run|: elija el destino de salida y comience el cálculo; el ráster "
+#~ "reclasificado se carga en QGIS;"
 
 #~ msgid "RUN |run|: edit the raster;"
-#~ msgstr ""
+#~ msgstr "RUN |run|: editar el raster;"
 
 #~ msgid ""
 #~ "RUN |run|: if ``Expression`` is active and text is green, choose the output "
@@ -5064,6 +5530,10 @@ msgstr ""
 #~ " rules`` is active and text is green, choose the output destination and "
 #~ "start the calculation based on ``Decision rules``;"
 #~ msgstr ""
+#~ "RUN |run|: si la `` Expresión '' está activa y el texto es verde, elija el "
+#~ "destino de salida e inicie el cálculo basado en `` Expresión ''; si las `` "
+#~ "Reglas de decisión '' están activas y el texto es verde, elija el destino de"
+#~ " salida e inicie el cálculo en función de las `` Reglas de decisión '';"
 
 #~ msgid ""
 #~ ":ref:`sentinel2_tab`: Sentinel-2 conversion (``sentinel_conversion;input_dir"
@@ -5078,3 +5548,5 @@ msgstr ""
 #~ "RUN |run|: if text in the batch expression is green, start the batch "
 #~ "processes;"
 #~ msgstr ""
+#~ "RUN |run|: si el texto en la expresión del lote es verde, inicie los "
+#~ "procesos por lotes;"

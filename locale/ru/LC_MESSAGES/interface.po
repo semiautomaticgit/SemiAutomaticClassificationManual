@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Luca Congedo <semiautomatic.blogger@gmail.com>, 2018
+# Ilvira Khaidarova <ilvira.haidarova@mail.ru>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"PO-Revision-Date: 2016-08-30 06:56+0000\n"
+"Last-Translator: Ilvira Khaidarova <ilvira.haidarova@mail.ru>, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/semi-automatic-classification/teams/53374/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../interface.rst:5
+msgid "The Interface of SCP"
+msgstr "Интерфейс SCP"
+
+#: ../../interface.rst:11
+msgid ""
+"The :guilabel:`SCP` interface is composed of several parts that are "
+"described in detail in the following paragraphs."
+msgstr ""
+"Интерфейс :guilabel:`SCP` состоит из нескольких частей, которые подробно "
+"описаны в следующих параграфах."
+
+#: ../../interface.rst:161
+msgid "|br|"
+msgstr "|br|"
+
+#: ../../interface.rst:167
+msgid ""
+"The functions described in the following paragraphs use these conventions:"
+msgstr "Функции, описанные в следующих параграфах, используют эти соглашения:"
+
+#: ../../interface.rst:169
+msgid "|input_date| = Input date"
+msgstr "|input_date| = Ввод даты"
+
+#: ../../interface.rst:171
+msgid "|input_text| = Input text"
+msgstr "|input_text| = Ввод текста"
+
+#: ../../interface.rst:173
+msgid "|input_list| = List"
+msgstr "|input_list| = Лист"
+
+#: ../../interface.rst:175
+msgid "|input_number| = Input number"
+msgstr "|input_number| = Ввод числа"
+
+#: ../../interface.rst:177
+msgid "|optional| = Optional"
+msgstr "|optional| = Необязательный"
+
+#: ../../interface.rst:179
+msgid "|project_save| = Configuration stored in the active project of QGIS"
+msgstr "|project_save| = Конфигурация хранится в активном проекте QGIS"
+
+#: ../../interface.rst:181
+msgid "|registry_save| = Configuration stored in QGIS registry"
+msgstr "|registry_save| = Конфигурация хранится в реестре QGIS"
+
+#: ../../interface.rst:183
+msgid "|input_slider| = Slider"
+msgstr "|input_slider| = Слайдер/Ползунок"
+
+#: ../../interface.rst:185
+msgid "|input_table| = Table"
+msgstr "|input_table| = Таблица"

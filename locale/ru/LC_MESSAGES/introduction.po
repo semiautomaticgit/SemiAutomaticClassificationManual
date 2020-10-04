@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Luca Congedo <semiautomatic.blogger@gmail.com>, 2016
+# Ilvira Khaidarova <ilvira.haidarova@mail.ru>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"PO-Revision-Date: 2016-08-29 15:42+0000\n"
+"Last-Translator: Ilvira Khaidarova <ilvira.haidarova@mail.ru>, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/semi-automatic-classification/teams/53374/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../introduction.rst:5
+msgid "Introduction"
+msgstr "Введение"
+
+#: ../../introduction.rst:14
+msgid ""
+"Developed by `Luca Congedo "
+"<http://www.researchgate.net/profile/Luca_Congedo>`_, the **Semi-Automatic "
+"Classification Plugin** (:guilabel:`SCP`) is a free open source plugin for "
+"`QGIS <http://www.qgis.org>`_ that allows for the semi-automatic "
+"classification (also known as supervised classification) of remote sensing "
+"images. It provides several tools for the download of free images, the "
+"preprocessing, the postprocessing, and the raster calculation (please see "
+":ref:`other_0`)."
+msgstr ""
+"Разработанный `Luca Congedo "
+"<http://www.researchgate.net/profile/Luca_Congedo>`_,  **Semi-Automatic "
+"Classification Plugin** (:guilabel:`SCP`) является бесплатным плагином с "
+"открытым исходным кодом для `QGIS <http://www.qgis.org>`_, который позволяет"
+" выполнить полуавтоматическую классификацию (также известную как "
+"контролируемая классификация) изображений дистанционного зондирования. Он "
+"предоставляет несколько инструментов для загрузки бесплатных изображений, "
+"предварительной обработки, постобработки и расчета растров (см. "
+":ref:`other_0`)."
+
+#: ../../introduction.rst:17
+msgid ""
+"The **overall objective** of :guilabel:`SCP` is to provide a set of "
+"intertwined tools for raster processing in order to make an automatic "
+"workflow and ease the land cover classification, which could be performed "
+"also by people whose main field is not remote sensing. The first version of "
+"the :guilabel:`SCP` was developed by Luca Congedo in 2012 for the \"ACC Dar "
+"Project\" in order to create a tool for the classification of land cover in "
+"an affordable and automatic fashion; following versions of :guilabel:`SCP` "
+"were developed as personal commitment to the remote sensing field and open "
+"source philosophy. :guilabel:`SCP` version 6 (codename: Greenbelt) is "
+"developed in the frame of Luca Congedo's PhD in Landscape and Environment at"
+" Sapienza University of Rome."
+msgstr ""
+"**Общая цель** :guilabel:`SCP` состоит в том, чтобы предоставить набор "
+"взаимосвязанных инструментов для обработки растров, с целью автоматизировать"
+" рабочий процесс и упростить классификацию земного покрова, что может быть "
+"выполнено также людьми, чья основная деятельность не связана с дистанционным"
+" зондированием. Первая версия :guilabel:`SCP` была разработана Лукой Конгедо"
+" в 2012 году для проекта «ACC Dar Project» с целью создания доступного и "
+"автоматического инструмента для классификации земельного покрова; следующие "
+"версии :guilabel:`SCP` были разработаны как личная приверженность области "
+"дистанционного зондирования и философии открытого исходного кода. "
+":guilabel:`SCP` версия 6 (кодовое имя: Greenbelt) разработана в рамках "
+"докторской диссертации Луки Конгедо по ландшафту и окружающей среде в "
+"Римском университете Ла Сапиенца."
+
+#: ../../introduction.rst:21
+msgid ""
+"This **user manual** provides information about the :ref:`installation` of "
+"SPC and the :ref:`interface`, with detailed information about all the "
+"functions. In addition, the :ref:`remote_sensing` illustrates the basic "
+"concepts and definitions which are required for using the :guilabel:`SCP`."
+msgstr ""
+"Это **руководство пользователя** предоставляет информацию об установке SPC  "
+":ref:`installation`  и интерфейсе :ref:`шnterface`, а также подробную "
+"информацию обо всех функциях. Кроме того, :ref:`remote_sensing` иллюстрирует"
+" основные концепции и определения, необходимые для использования "
+":guilabel:`SCP`."
+
+#: ../../introduction.rst:24
+msgid ""
+":ref:`tutorials` are available for learning the main functions of "
+":guilabel:`SCP`."
+msgstr ""
+":ref:`tutorials` доступны для изучения основных функций :guilabel:`SCP`."
+
+#: ../../introduction.rst:26
+msgid ""
+"You are kindly invited to **contribute to SCP** (see :ref:`other_1`) and "
+"join the `Facebook group "
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ . "
+"Also, please read the :ref:`FAQ`."
+msgstr ""
+"Приглашаем вас **внести свой вклад в SCP** (см . :ref:`other_1`) и "
+"присоединиться к `группе Facebook "
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_. Также"
+" прочтите :ref:`FAQ`."
+
+#: ../../introduction.rst:29
+msgid "For more information and tutorials visit the official site"
+msgstr ""
+"Для получения дополнительной информации и руководств посетите официальный "
+"сайт"
+
+#: ../../introduction.rst:31
+msgid ""
+"|fromGIStoRS| `From GIS to Remote Sensing "
+"<https://fromgistors.blogspot.com>`_"
+msgstr ""
+"|fromGIStoRS| `От ГИС к дистанционному зондированию "
+"<https://fromgistors.blogspot.com>`_"
+
+#: ../../introduction.rst:33 ../../introduction.rst:39
+#: ../../introduction.rst:50 ../../introduction.rst:56
+msgid "|br|"
+msgstr "|br|"
+
+#: ../../introduction.rst:35
+msgid "**How to cite:**"
+msgstr "**Цитирование:**"
+
+#: ../../introduction.rst:37
+msgid ""
+"*Congedo Luca (2016). Semi-Automatic Classification Plugin Documentation.* "
+"DOI: http://dx.doi.org/10.13140/RG.2.2.29474.02242/1"
+msgstr ""
+"*Congedo Luca (2016). Semi-Automatic Classification Plugin Documentation.* "
+"DOI: http://dx.doi.org/10.13140/RG.2.2.29474.02242/1"
+
+#: ../../introduction.rst:41
+msgid "**License:**"
+msgstr "**Лицензия:**"
+
+#: ../../introduction.rst:43
+msgid ""
+"Except where otherwise noted, content of this work is licensed under a "
+"`Creative Commons Attribution-ShareAlike 4.0 International License "
+"<http://creativecommons.org/licenses/by-sa/4.0/>`_."
+msgstr ""
+"Если не указано иное, содержание этой работы лицензировано на условиях "
+"Международной лицензии Creative Commons Attribution-ShareAlike 4.0  "
+"`Creative Commons Attribution-ShareAlike 4.0 International License "
+"<http://creativecommons.org/licenses/by-sa/4.0/>`_."
+
+#: ../../introduction.rst:46
+msgid ""
+"``Semi-Automatic Classification Plugin is free software: you can "
+"redistribute it and/or modify it under the terms of the GNU General Public "
+"License as published by the Free Software Foundation, version 3 of the "
+"License. Semi-Automatic Classification Plugin is distributed in the hope "
+"that it will be useful, but WITHOUT ANY WARRANTY; without even the implied "
+"warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU"
+" General Public License for more details. You should have received a copy of"
+" the GNU General Public License along with Semi-Automatic Classification "
+"Plugin. If not, see http://www.gnu.org/licenses/.``"
+msgstr ""
+"``Плагин полуавтоматической классификации - это бесплатное программное "
+"обеспечение: вы можете распространять и/или изменять его в соответствии с "
+"условиями Стандартной общественной лицензии GNU, опубликованной Free "
+"Software Foundation, версия 3 лицензии. Плагин полуавтоматической "
+"классификации распространяется в надежде, что он будет полезен, но БЕЗ "
+"КАКИХ-ЛИБО ГАРАНТИЙ; даже без подразумеваемых гарантий ТОВАРНОЙ ПРИГОДНОСТИ "
+"или ПРИГОДНОСТИ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ. Подробнее см. Стандартную общественную "
+"лицензию GNU. Вы должны были получить копию Стандартной общественной "
+"лицензии GNU вместе с подключаемым модулем полуавтоматической классификации."
+" Если нет, см. http://www.gnu.org/licenses/.``"
+
+#: ../../introduction.rst:52
+msgid "**Translators:**"
+msgstr "**Переводчики:**"
+
+#: ../../introduction.rst:54
+msgid "Language: Author"
+msgstr "Русский: Author"

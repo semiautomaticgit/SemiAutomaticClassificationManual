@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Ilvira Khaidarova <ilvira.haidarova@mail.ru>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"PO-Revision-Date: 2016-08-29 15:42+0000\n"
+"Last-Translator: Ilvira Khaidarova <ilvira.haidarova@mail.ru>, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/semi-automatic-classification/teams/53374/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../installation_win32.rst:5
+msgid "Installation in Windows 32 bit"
+msgstr "Установка на Windows 32 bit"
+
+#: ../../installation_win32.rst:14
+msgid "QGIS download and installation"
+msgstr "Скачивание и установка QGIS"
+
+#: ../../installation_win32.rst:16
+msgid ""
+"Download the latest QGIS version 32 bit from `here "
+"<https://www.qgis.org/en/site/forusers/download.html>`_ ;"
+msgstr ""
+"Скачайте последнюю версию QGIS 32 bit `отсюда "
+"<https://www.qgis.org/en/site/forusers/download.html>`_ ;"
+
+#: ../../installation_win32.rst:18
+msgid ""
+"Execute the QGIS installer with administrative rights, accepting the default"
+" configuration."
+msgstr ""
+"Запустите установщик QGIS с правами администратора, приняв конфигурацию по "
+"умолчанию."
+
+#: ../../installation_win32.rst:20
+msgid "Now, QGIS is installed."
+msgstr "Теперь QGIS установлен."
+
+#: ../../installation_win32.rst:27
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr "Установка Semi-Automatic Classification Plugin"
+
+#: ../../installation_win32.rst:29
+msgid "Run QGIS;"
+msgstr "Запустите QGIS;"
+
+#: ../../installation_win32.rst:31
+msgid ""
+"From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr ""
+"В главном меню выберите `` Модули''> `` Управление и установка модулей'';"
+
+#: ../../installation_win32.rst:35
+msgid ""
+"From the menu ``All``, select the Semi-Automatic Classification Plugin and "
+"click the button ``Install plugin``;"
+msgstr ""
+"В меню `` Все``  выберите Semi-Automatic Classification Plugin и нажмите "
+"кнопку `` Установить плагин`` ;"
+
+#: ../../installation_win32.rst:37
+msgid ""
+"**TIP**: in case of issues or an offline installation is required see "
+":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
+msgstr ""
+"** СОВЕТ **: в случае возникновения проблем или необходимости автономной "
+"установки см. : :ref:`plugin_installation_1` и :ref:`plugin_installation_2`."
+
+#: ../../installation_win32.rst:41
+msgid ""
+"The SCP should be automatically activated; however, be sure that the Semi-"
+"Automatic Classification Plugin is checked in the menu ``Installed`` (the "
+"restart of QGIS could be necessary to complete the SCP installation);"
+msgstr ""
+"Плагин Semi-Automatic Classification должен быть активирован автоматически, "
+"однако убедитесь, что подключаемый модуль отмечен в меню `` Установленнные``"
+" (для завершения установки Semi-Automatic Classification может потребоваться"
+" перезапуск QGIS);"
+
+#: ../../installation_win32.rst:48
+msgid "Configuration of the plugin"
+msgstr "Конфигурация плагина"
+
+#: ../../installation_win32.rst:50
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and a dock and a "
+"toolbar should be added to QGIS. Also, a SCP menu is available in the Menu "
+"Bar of QGIS. It is possible to move the toolbar and the dock according to "
+"your needs, as in the following image."
+msgstr ""
+"Теперь плагин Semi-Automatic Classification установлен, и в QGIS нужно "
+"добавить панель плагина/модуля и панель инструментов. Кроме того, в меню "
+"QGIS теперь доступно меню Semi-Automatic Classification. Панель инструментов"
+" и панель плагина можно перемещать в соответствии с вашими потребностями, "
+"как показано на следующем изображении."

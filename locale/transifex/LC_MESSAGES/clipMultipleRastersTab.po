@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../clipMultipleRastersTab.rst:5
+msgid "Clip multiple rasters"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:265
+msgid "|clip_tool| :guilabel:`Clip multiple rasters`"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:267
+msgid ""
+"This tab allows for cutting several image bands at once, using a "
+"rectangle defined with point coordinates or a boundary defined with a "
+"vector."
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:269
+msgid "**Parallel processing is available.**"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:274
+msgid "Clip band set"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:276
+msgid ""
+":guilabel:`Select input band set` |input_number|: select the input "
+":ref:`band_set_tab` to be clipped;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:277
+msgid ""
+"|checkbox| :guilabel:`Use value as NoData` |input_number|: if checked, "
+"set the value for ``NoData`` pixels (e.g. pixels outside the clipped "
+"area);"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:278
+msgid ""
+":guilabel:`Output name prefix` |input_text|: set the prefix for output "
+"file names (default is ``clip``);"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:283
+msgid "Clip coordinates"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:285
+msgid ""
+"Set the Upper Left (UL) and Lower Right (LR) point coordinates of the "
+"rectangle used for clipping; it is possible to enter the coordinates "
+"manually. Alternatively use a vector."
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:288
+msgid ":guilabel:`UL X` |input_number|: set the UL X coordinate;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:289
+msgid ":guilabel:`UL Y` |input_number|: set the UL Y coordinate;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:290
+msgid ":guilabel:`LR X` |input_number|: set the LR X coordinate;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:291
+msgid ":guilabel:`LR Y` |input_number|: set the LR Y coordinate;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:292
+msgid ""
+"|radiobutton| :guilabel:`Show`: show or hide the clip area drawn in the "
+"map;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:293
+msgid ""
+"|pointer|: define a clip area by drawing a rectangle in the map; left "
+"click to set the UL point and right click to set the LR point; the area "
+"is displayed in the map;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:294
+msgid ""
+"|checkbox| :guilabel:`Use vector for clipping` |input_list|: if checked, "
+"use the selected vector (already loaded in QGIS) for clipping; UL and LR "
+"coordinates are ignored;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:295
+msgid ""
+"|checkbox| :guilabel:`Use vector field for output name` |input_list|: if "
+"checked, a vector field is selected for clipping while iterating through "
+"each vector polygon and the corresponding field value is added to the "
+"output name;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:296
+msgid ""
+"|checkbox| :guilabel:`Use temporary ROI for clipping`: if checked, use a "
+":ref:`temporary_ROI` for clipping; UL and LR coordinates are ignored;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:297
+msgid "|reload|: refresh layer list;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:300
+msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../clipMultipleRastersTab.rst:301
+msgid ""
+":guilabel:`RUN` |run|: choose an output destination and clip rasters in "
+"the selected ``Band set``;"
+msgstr ""
+

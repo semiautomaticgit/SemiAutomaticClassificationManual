@@ -90,9 +90,9 @@ Plot Signature list
 * |input_table| :guilabel:`Signature list`:
 	* :guilabel:`S`: checkbox field; if checked, the spectral signature is displayed in the plot;
 	* :guilabel:`MC ID`: signature Macroclass ID;
-	* :guilabel:`MC Info`: signature Macroclass Information;
+	* :guilabel:`MC Name`: signature Macroclass Name;
 	* :guilabel:`C ID`: signature Class ID;
-	* :guilabel:`C Info`: signature Class Information;
+	* :guilabel:`C Name`: signature Class Name;
 	* :guilabel:`Color [overlap MC_ID-C_ID]`: signature color; also, the combination :guilabel:`MC ID`-:guilabel:`C ID` is displayed in case of overlap with other signatures (see :ref:`LCS_algorithm`);
 	* :guilabel:`Min B` ``X``: minimum value of band ``X``; this value can be edited;
 	* :guilabel:`Max B` ``X``: maximum value of band ``X``; this value can be edited;

@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../bandCombinationTab.rst:5
+msgid "Band combination"
+msgstr ""
+
+#: ../../bandCombinationTab.rst:265
+msgid "|band_combination| :guilabel:`Band combination`"
+msgstr ""
+
+#: ../../bandCombinationTab.rst:267
+msgid ""
+"This tab allows for the combination of bands loaded in a "
+":ref:`band_set_tab`. This tool is intended for combining classifications "
+"in order to get a raster where each value corresponds to a combination of"
+" class values. A combination raster is produced as output and the area of"
+" each combination is reported in an text file."
+msgstr ""
+
+#: ../../bandCombinationTab.rst:271
+msgid "**Parallel processing is available.**"
+msgstr ""
+
+#: ../../bandCombinationTab.rst:276
+msgid "Combination of band values"
+msgstr ""
+
+#: ../../bandCombinationTab.rst:278
+msgid ""
+":guilabel:`Select input band set (of classifications)` |input_number|: "
+"select the input :ref:`band_set_tab`;"
+msgstr ""
+
+#: ../../bandCombinationTab.rst:280
+msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../bandCombinationTab.rst:281
+msgid ""
+":guilabel:`RUN` |run|: choose the output destination and start the "
+"calculation; also, the details about the combinations are displayed in "
+"the tab :guilabel:`Output` and saved in a .txt file in the output "
+"directory;"
+msgstr ""
+

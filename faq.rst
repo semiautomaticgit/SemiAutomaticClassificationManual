@@ -61,7 +61,7 @@ In order to install the SCP repository follow these steps:
 
 * From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;
 
-.. image:: _static/install_u.jpg
+.. image:: _static/install.jpg
 
 * Click ``Settings`` then click the button ``Add``;
 
@@ -77,6 +77,49 @@ Name::
 URL::
 
 	https://semiautomaticgit.github.io/SemiAutomaticClassificationPlugin/repository.xml 
+	
+and click ``OK``;
+
+.. image:: _static/qgis_repos_add.jpg
+
+* After the repository update, the item ``Semi-Automatic Classification Plugin - master`` should be listed with the other plugins;
+
+.. image:: _static/qgis_repos_list.jpg
+
+* From the menu ``All``, select the ``Semi-Automatic Classification Plugin - master`` and click the button ``Install plugin``; the latest version of SCP should be automatically activated (ignore errors, the restart of QGIS could be necessary to complete the SCP installation); it is possible to deactivate the other SCP installed in the QGIS repository;
+
+.. image:: _static/qgis_repos_installed.jpg
+
+.. _plugin_installation_3:
+
+Can I use the previous version 6 of SCP?
+--------------------------------------------------------------
+
+It is possible to install the previous version 6 of SCP using the official repository.
+Also, this version can be installed along with the SCP version 7.
+
+In order to install the SCP repository follow these steps:
+
+* Run QGIS;
+
+* From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;
+
+.. image:: _static/install.jpg
+
+* Click ``Settings`` then click the button ``Add``;
+
+.. image:: _static/qgis_repos_settings.jpg
+
+* Inside the ``Repository details`` enter:
+
+Name::
+
+	SCP
+	
+	
+URL::
+
+	https://semiautomaticgit.github.io/SemiAutomaticClassificationPlugin_v6/repository.xml 
 	
 and click ``OK``;
 
@@ -124,6 +167,15 @@ You should move all the bands (.jp2 files) and if available the .xml file whose 
 Then select this directory in :ref:`sentinel2_conversion`.
 Images are converted to reflectance.
 
+.. _pre_processing_2BB:
+
+Can I apply the conversion to Sentinel-2 L2A download from the web?
+-----------------------------------------------------------------------------------------
+
+Yes, you should move all the .jp2 files inside the same directory and rename the files with the band number in the ending of the name (e.g. from name_02_10m.jp2 to name_02.jp2) 
+Then select this directory in :ref:`sentinel2_conversion`.
+Images are converted to reflectance.
+
 .. _pre_processing_2C:
 
 How are converted Sentinel-2 images that have different resolutions?
@@ -145,7 +197,7 @@ If you want to apply the DOS correction (which is an image based technique) you 
 Can I apply the DOS correction to bands with black border (i.e. with NoData value)?
 ---------------------------------------------------------------------------------------------------
 
-If you want to apply the DOS correction to an entire band which has NoData values (the black border with value = 0) then you have to check the checkbox ``Use NoData value`` and set the value to 0.
+If you want to apply the DOS correction to an entire band which has NoData values (the black border with value = 0) then you have to check the checkbox ``Use value as  NoData`` and set the value to 0.
 This is because DOS is an image based technique, and NoData values must be excluded from the calculation.
 
 .. _pre_processing_5:
@@ -154,10 +206,8 @@ How to remove cloud cover from images?
 -----------------------------------------------------------------------------------------
 
 DOS1 correction does not remove clouds from the image.
-However, Landsat 8 images include Band 9 that identifies clouds (see this `NASA site <http://landsat.gsfc.nasa.gov/?page_id=5377>`_).
+However, Landsat 8 images include Band 9 that identifies clouds (see this `NASA site <https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/>`_).
 You can use this band for the creation of a mask.
-
-For other Landsat satellites, clouds can be masked using the approach described `this paper <http://www.planning4adaptation.eu/Docs/papers/08_NWP-DoM_for_LCC_in_Dar_using_Landsat_Imagery.pdf>`_.
 
 Also, see the following `video-tutorial <https://youtu.be/xm9s97GPs0Y?t=7m00s>`_.
 
@@ -248,7 +298,7 @@ If you found an error of the Semi-Automatic Classification Plugin please follow 
 #. close QGIS if already open;
 #. open QGIS, open the Plugin tab :ref:`settings_debug_tab` and check the checkbox |checkbox| :guilabel:`Records events in a log file` ;
 
-.. figure:: _static/settings_debug_tab.jpg
+.. figure:: _static/settings_debug_tab.png
 	:align: center
 	
 	:guilabel:`Debug`
@@ -265,7 +315,7 @@ If you found an error of the Semi-Automatic Classification Plugin please follow 
 	
 6. open the tab :ref:`settings_debug_tab` and uncheck the checkbox |checkbox| :guilabel:`Records events in a log file`, then click the button |export| and save the **log file** (which is a text file containing information about the Plugin processes);
 #. open the **log file** and copy the whole content of the file;
-#. join the Facebook `group <https://www.facebook.com/groups/661271663969035/>`_ , create a new post and copy the error message and the **log file** (or attach them).
+#. join the Facebook `group <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ , create a new post and copy the error message and the **log file** (or attach them).
 
 .. _error_1:
 
@@ -459,56 +509,3 @@ Where is the source code of SCP?
 
 You can find the source code of SPC is at the following link 
 https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin
-
-.. _other_6:
-
-How to install QGIS using OSGeo4W?
------------------------------------------------------------------------------------------
-
-To install QGIS, first download the `OSGeo4W installer x86 <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe>`_ or `OSGeo4W installer x64 <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe>`_ according to your operating system.
-
-Then start the installer and select ``Advanced Install``.
-
-.. image:: _static/osgeo/1.jpg
-
-Check ``Install from Internet`` and click ``Next``.
-
-.. image:: _static/osgeo/2.jpg
-
-Select the installation directory and click ``Next``.
-
-.. image:: _static/osgeo/3.jpg
-
-Select the local package directory and click ``Next``.
-
-.. image:: _static/osgeo/4.jpg
-
-Select ``Direct connection`` (or select an internet connection option) and click ``Next``.
-
-.. image:: _static/osgeo/5.jpg
-
-Select the first download site and click ``Next``.
-
-.. image:: _static/osgeo/6.jpg
-
-In the package list select ``qgis-dev`` (in category ``Desktop``) until QGIS3 is released.
-
-.. image:: _static/osgeo/7.jpg
-
-In the package list select ``python3-matplotlib`` (in category ``Libs``).
-
-.. image:: _static/osgeo/8.jpg
-
-In the package list select ``python3-numpy`` (in category ``Libs``).
-
-.. image:: _static/osgeo/9.jpg
-
-In the package list select ``python3-scipy`` (in category ``Libs``) and click ``Next``.
-
-.. image:: _static/osgeo/10.jpg
-
-Click ``Next`` to install also other dependencies.
-
-.. image:: _static/osgeo/11.jpg
-
-After the download, QGIS should be installed with all the required dependencies for SCP.

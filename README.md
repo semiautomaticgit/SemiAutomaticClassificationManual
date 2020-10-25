@@ -1,2 +1,2 @@
-SemiAutomaticClassificationManual_v4
+SemiAutomaticClassificationManual
 ====================================

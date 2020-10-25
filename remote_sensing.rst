@@ -407,6 +407,126 @@ The following products (Version 6, see https://lpdaac.usgs.gov/dataset_discovery
 
 * MYD09A1: reflectance at 250m spatial resolution, which is a composite of MYD09GA (each pixel contains the best possible observation during an 8-day period);
 
+.. _GOES_definition:
+
+GOES Products
+-------------------------
+
+The **Geostationary Operational Environmental Satellite-R Series** (**GOES-R**) are geostationary satellites developed for weather monitoring by the National Oceanic and Atmospheric Administration (NOAA) and the NASA (NOAA, 2020).
+
+GOES constellation is composed of **GOES-R** satellite (also known as GOES-16 that replaced GOES-13 on December 2017), and **GOES-S** satellite (also known as GOES-17, operational since February 2019).
+Other satellites (GOES-T and GOES-U) are planned to be launched in the future.
+For more information please visit https://www.goes-r.gov/mission/mission.html .
+
+GOES geostationary satellites monitor continuously the same area, a very large portion of Earth surface with three geographic  coverage regions: Full Disk, Continental United States (CONUS), and Mesoscale.
+In particular, Full Disk products have hemispheric coverage of 83° local zenith angle, and images are acquired every 5-15 minutes.
+GOES-16 monitors from 75.2 degrees west longitude, including America, the Atlantic Ocean, and the west coast of Africa.
+GOES-17 monitors from 137.2 degrees west longitude, including the Pacific Ocean.
+
+GOES sensors include several spectral bands; the following table describes the bands downloaded using :guilabel:`SCP`.
+
+	:guilabel:`GOES Bands`
+	
++-------------------------------------+------------------------------------+------------------------+
+| GOES Bands                          | Central Wavelength  [micrometers]  |  Resolution [meters]   |
++=====================================+====================================+========================+
+| Band 1 - Blue                       | 0.47                               |  1000                  |
++-------------------------------------+------------------------------------+------------------------+
+| Band 2 - Red                        | 0.64                               |  500                   |
++-------------------------------------+------------------------------------+------------------------+
+| Band 3 - Near Infrared (NIR)        | 0.87                               |  1000                  |
++-------------------------------------+------------------------------------+------------------------+
+| Band 4 - SWIR - Cirrus              | 1.38                               |  2000                  |
++-------------------------------------+------------------------------------+------------------------+
+| Band 5 - SWIR                       | 1.61                               |  1000                  |
++-------------------------------------+------------------------------------+------------------------+
+| Band 6 - SWIR                       | 2.25                               |  2000                  |
++-------------------------------------+------------------------------------+------------------------+
+
+
+.. _sar_satellites:
+ 
+SAR satellites
+==========================
+
+**Synthetic Aperture Radar** (SAR) is a technique of active remote sensing that is the sensor platform emits microwaves in order to acquire images of the ground (Richards and Jia, 2006).
+In fact, the sensor platform emits the radiation (at a specific wavelength) and measures the magnitude and the phase of radiation that bounces back from the ground to the sensor.
+
+Unlike passive sensors, SAR systems can work day and night and can penetrate clouds allowing for the monitoring of surface also with adverse meteorological conditions; depending on the microwave wavelength, the radiation can penetrate different types of materials allowing for different applications (NASA, 2020).
+
+The main SAR systems can be divided according to the wavelength as illustrated in the following table (NASA, 2020):
+
+	:guilabel:`Main SAR Bands`
+	
++-------------------------------------+--------------------------+----------------------------------------------------------------------------------------------------------------+
+| Band                                | Wavelength [centimeters] |  Application                                                                                                   |
++=====================================+==========================+================================================================================================================+
+| X                                   | 3.8 – 2.4                |  High Resolution SAR, urban monitoring, ice and snow, little penetration into vegetation cover                 |
++-------------------------------------+--------------------------+----------------------------------------------------------------------------------------------------------------+
+| C                                   | 7.5 – 3.8                |  global mapping, change detection, ice, low penetration into vegetation cover                                  |
++-------------------------------------+--------------------------+----------------------------------------------------------------------------------------------------------------+
+| S                                   | 15 – 7.5                 |  global mapping, agriculture monitoring, medium penetration into vegetation cover                              |
++-------------------------------------+--------------------------+----------------------------------------------------------------------------------------------------------------+
+| L                                   | 30 – 15                  |  Medium resolution SAR, biomass and vegetation mapping, high penetration into vegetation cover                 |
++-------------------------------------+--------------------------+----------------------------------------------------------------------------------------------------------------+
+
+
+Usually, SAR sensors can emit and measure different polarizations (i.e. orientation of the microwaves of the electric field), for instance vertical (i.e. polarization oriented in the vertical direction in antenna coordinates) and horizontal (i.e. polarization oriented in the horizontal direction in antenna coordinates) (ESA, 2020).
+
+SAR systems can acquire in both ascending and descending orbits, however the acquired images are affected by the different acquisition geometries, which should be considered when mixing ascending and descending images.
+
+Acquisitions are called ``swaths`` and usually they are composed of sub-swaths.
+With particular acquisition modes, the resolution of pixels along track (the side parallel to the flight direction) can be different than slant-range (the side perpendicular to the flight direction).
+
+SAR phase information is used to perform interferometry (also InSAR) to measure the distance from the sensor to the target (NASA, 2020). 
+
+For more information, please read the `ESA introduction to SAR <https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Onboard_Data_Processing/Introduction_to_a_SAR_System>`_ and the `NASA definition of SAR <https://earthdata.nasa.gov/learn/what-is-sar>`_ .
+
+.. _Sentinel1_definition:
+
+Sentinel-1 Satellites
+-------------------------
+
+**Sentinel-1** is a `Copernicus mission <https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar>`_ of satellites that operate at C-band to provide SAR imagery at medium resolution (about 10m).
+
+The Sentinel-1 constellation provides high revisit time (about 5 days), a wide swath (250 km), and acquires images in different operational modes.
+The primary operation mode on land is the Interferometric Wide swath (IW), which is data is acquired in three swaths using the Terrain Observation with Progressive Scanning SAR (TOPSAR) imaging technique (ESA, 2020b).
+
+The Level-1 products systematically delivered by Copernicus are Single Look Complex (SLC, data comprising complex imagery with amplitude and phase) and **Ground Range Detected** (GRD, Level-1 data with multi-looked intensity only).
+
+Sentinel-1 supports dual polarization, which are horizontal (H) or vertical (V); VV and VH polarimetric channels are available to classify and analyze land cover such as built-up areas or vegetation.
+
+.. _sentinel1_preprocessing_method:
+
+Sentinel-1 preprocessing
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+:guilabel:`SCP` preprocesses Sentinel-1 GRD images performing basically the same methodology applied for the images included in `Google Earth Engine <https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD>`_ .
+
+The preprocessing comprises the following phases:
+
+* Application of the orbit file;
+
+* Removal of GRD border noise for low intensity and invalid data;
+
+* Removal of thermal noise to reduce discontinuities between sub-swaths;
+
+* Calculation of backscatter intensity using radiometric calibration;
+
+* Orthorectification (terrain correction) using the SRTM 30 meter DEM;
+
+* Conversion of backscatter coefficient to dB.
+
+
+These processes are performed through the SNAP Graph Processing Tool (GPT) and a graph file .xml .
+Therefore, SCP requires ESA SNAP to perform the preprocessing.
+For the installation of ESA SNAP, please visit this page http://step.esa.int/main/download/snap-download/ .
+
+The path to the SNAP gpt executable must be entered in settings :ref:`settings_processing_tab`.
+Usually ``C:/snap/bin/gpt.exe`` for Windows, ``/Applications/snap/bin/gpt`` for Mac, and ``/usr/local/snap/bin/gpt`` for Linux.
+
+It is also possible to use custom graph files and select to project the raster to the same coordinate reference system as a band set (default WGS 84).
+
 
 .. _land_cover_classification_definition:
  
@@ -735,6 +855,58 @@ Therefore, a pixel belongs to ``class X`` if the value of the algorithm raster c
 Given a classification, a combination of algorithm rasters can be produced, in order to create a raster with the lowest "distances" (i.e. pixels have the value of the algorithm raster corresponding to the class they belong in the classification).
 Therefore, this raster can be useful to identify pixels that require the collection of more similar spectral signatures (see :ref:`classification_preview`).
  
+.. _machine_learning_definition:
+
+Machine Learning
+-----------------------------------
+
+`Machine Learning <https://en.wikipedia.org/wiki/Machine_learning>`_ is a broad set of classification techniques that aim to build mathematical models based on training data.
+ 
+In general, Machine Learning algorithms split the data in (ESA, 2019):
+
+* Training Dataset: the sample data used to fit the model;
+
+* Validation Dataset: the sample data used to tune the model parameters to fit on the training dataset;
+
+* Test Dataset: the sample data used to provide an evaluation of the final model;
+
+Usually, the training and model evaluation are performed iteratively. 
+
+.. _random_forest_definition:
+
+Random Forest
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Random Forest <https://en.wikipedia.org/wiki/Random_forest>`_ is a particular machine learning technique, based on the iterative and random creation of decision trees (i.e. a set of rules and conditions that define a class).
+
+First, the input features should be defined, which can be spectral bands or ancillary rasters.
+:ref:`ROI_definition` should be created to define the classes used for training the model.
+
+Random Forest calculates several random decision trees, based on the following parameters:
+
+* number of training samples: is the number of training data (pixels) randomly used to train the model; it should be set lower than total training input pixels;
+
+* number of trees: is the number of decision trees; the more the number of trees, the more is the model accuracy, but it also increases the calculation time.
+
+For instance, a decision tree could be defined as:
+
+* class 1 = band 1 > 0.1 --> band 2 < 0.3 --> band 3 > 0.4 
+
+* class 2 = band 1 > 0.4 --> band 2 > 0.6 --> band 3 < 0.1
+
+* class 3 = band 1 < 0.7 --> band 2 > 0.1 --> band 3 < 0.5
+
+
+Random Forest creates several decision trees randomly.
+Usually, the `Gini coefficient <https://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity>`_ is calculated to split the trees.
+Therefore, a model based on the decision trees is created and used to classify all the pixels.
+
+A pixel is classified according to the majority vote of decision trees, for example a pixel is classified as class 1 if most decision trees evaluated it as class 1.
+Also, a confidence layer is produced, which measures the uncertainty of the model based on training data.
+
+Random Forest can be used to evaluate the importance of input features, according to the contribution thereof to the model.
+
+
 .. _spectral_distance_definition:
 
 Spectral Distance 
@@ -1483,6 +1655,12 @@ References
 
 * Didan, K.; Barreto Munoz, A.; Solano, R. & Huete, A., 2015. MODIS Vegetation Index User’s Guide. Collection 6, NASA
 
+* ESA, 2020. Sentinel-1 SAR Definitions. Available at https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/definitions
+
+* ESA, 2020b. Sentinel-1 SAR Definitions. Available at https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/overview
+
+* ESA, 2019. A machine learning glossary. Available at https://blogs.esa.int/philab/2019/03/29/a-machine-learning-glossary/
+
 * ESA, 2015. Sentinel-2 User Handbook. Available at https://sentinels.copernicus.eu/documents/247904/685211/Sentinel-2_User_Handbook
 
 * ESA, 2013. Sentinel-3 User Handbook. Available at https://sentinels.copernicus.eu/documents/247904/685236/Sentinel-3_User_Handbook
@@ -1505,9 +1683,13 @@ References
 
 * Moran, M.; Jackson, R.; Slater, P. & Teillet, P., 1992. Evaluation of simplified procedures for retrieval of land surface reflectance factors from satellite sensor output Remote Sensing of Environment, 41, 169-184
 
+* NASA, 2020. What is Synthetic Aperture Radar?. Available at https://earthdata.nasa.gov/learn/what-is-sar
+
+* NASA, 2013. Landsat 7 Science Data User's Handbook. Available at https://www.usgs.gov/land-resources/nli/landsat/landsat-7-data-users-handbook
+
 * NASA, 2011. Landsat 7 Science Data Users Handbook Landsat Project Science Office at NASA's Goddard Space Flight Center in Greenbelt, 186 http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf
 
-* NASA, 2013. Landsat 7 Science Data User's Handbook. Available at http://landsathandbook.gsfc.nasa.gov
+* NOAA, 2020. GOES-R Series. Available at Satelliteshttps://www.ncdc.noaa.gov/data-access/satellite-data/goes-r-series-satellites
 
 * Olofsson, P.; Foody, G. M.; Herold, M.; Stehman, S. V.; Woodcock, C. E. & Wulder, M. A., 2014. Good practices for estimating area and assessing accuracy of land change. Remote Sensing of Environment, 148, 42 – 57
 

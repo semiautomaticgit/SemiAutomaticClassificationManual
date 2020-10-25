@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../debugTab.rst:5
+msgid "Debug"
+msgstr ""
+
+#: ../../debugTab.rst:265
+msgid ":guilabel:`Debug`"
+msgstr ""
+
+#: ../../debugTab.rst:267
+msgid ""
+"Debugging utilities for the creation of a Log file (i.e. recording of "
+":guilabel:`SCP` activities for reporting issues) and testing "
+":guilabel:`SCP` dependencies."
+msgstr ""
+
+#: ../../debugTab.rst:273
+msgid "http://www.youtube.com/watch?v=So04gNzDC9Y"
+msgstr ""
+
+#: ../../debugTab.rst:275
+msgid "If you found a plugin error, please read :ref:`error_0` ."
+msgstr ""
+
+#: ../../debugTab.rst:280
+msgid "Log file"
+msgstr ""
+
+#: ../../debugTab.rst:282
+msgid ""
+"|checkbox| :guilabel:`Records events in a log file` |registry_save|: if "
+"checked, start recording events in a Log file;"
+msgstr ""
+
+#: ../../debugTab.rst:283
+msgid "|export|: export the Log file (i.e. a .txt file);"
+msgstr ""
+
+#: ../../debugTab.rst:284
+msgid "|reset|: clear the content of Log file;"
+msgstr ""
+
+#: ../../debugTab.rst:289
+msgid "Test"
+msgstr ""
+
+#: ../../debugTab.rst:291
+msgid ""
+":guilabel:`Test dependencies` |enter|: test :guilabel:`SCP` dependencies "
+"(GDAL, GDAL subprocess, NumPy, SciPy, Matplotlib, Internet connection); "
+"results are displayed in a window;"
+msgstr ""
+

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,7 +56,7 @@ msgid ":guilabel:`MC ID`: signature Macroclass ID;"
 msgstr ""
 
 #: ../../scatter_plot.rst:93
-msgid ":guilabel:`MC Info`: signature Macroclass Information;"
+msgid ":guilabel:`MC Name`: signature Macroclass Name;"
 msgstr ""
 
 #: ../../scatter_plot.rst:94
@@ -64,7 +64,7 @@ msgid ":guilabel:`C ID`: signature Class ID;"
 msgstr ""
 
 #: ../../scatter_plot.rst:95
-msgid ":guilabel:`C Info`: signature Class Information;"
+msgid ":guilabel:`C Name`: signature Class Name;"
 msgstr ""
 
 #: ../../scatter_plot.rst:96
@@ -132,21 +132,21 @@ msgstr ""
 #: ../../scatter_plot.rst:110
 msgid ""
 "|scatter_raster_temp_ROI|: add a temporary scatter plot to the list (as "
-"``MC Info = tempScatter``) and start the plot calculation of the last "
+"``MC Name = tempScatter``) and start the plot calculation of the last "
 "temporary ROI (see :ref:`working_toolbar`);"
 msgstr ""
 
 #: ../../scatter_plot.rst:111
 msgid ""
 "|scatter_raster_display|: add a temporary scatter plot to the list (as "
-"``MC Info = tempScatter``) and start the plot calculation of pixels in "
+"``MC Name = tempScatter``) and start the plot calculation of pixels in "
 "current display extent;"
 msgstr ""
 
 #: ../../scatter_plot.rst:112
 msgid ""
 "|scatter_raster_image|: add a temporary scatter plot to the list (as ``MC"
-" Info = tempScatter``) and start the plot calculation of the entire "
+" Name = tempScatter``) and start the plot calculation of the entire "
 "image;"
 msgstr ""
 
@@ -272,4 +272,34 @@ msgstr ""
 #: ../../scatter_plot.rst:158
 msgid ":guilabel:`Example Scatter Plot`"
 msgstr ""
+
+#~ msgid ":guilabel:`MC Info`: signature Macroclass Information;"
+#~ msgstr ""
+
+#~ msgid ":guilabel:`C Info`: signature Class Information;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "|scatter_raster_temp_ROI|: add a temporary "
+#~ "scatter plot to the list (as ``MC"
+#~ " Info = tempScatter``) and start the"
+#~ " plot calculation of the last "
+#~ "temporary ROI (see :ref:`working_toolbar`);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "|scatter_raster_display|: add a temporary "
+#~ "scatter plot to the list (as ``MC"
+#~ " Info = tempScatter``) and start the"
+#~ " plot calculation of pixels in "
+#~ "current display extent;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "|scatter_raster_image|: add a temporary "
+#~ "scatter plot to the list (as ``MC"
+#~ " Info = tempScatter``) and start the"
+#~ " plot calculation of the entire "
+#~ "image;"
+#~ msgstr ""
 

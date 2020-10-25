@@ -13,7 +13,7 @@ Installation in Windows 64 bit
 QGIS download and installation
 ------------------------------------------
 
-* Download the latest QGIS version 64 bit from `here <https://www.qgis.org/en/site/forusers/download.html>`_ ;
+* Download the latest QGIS version 64 bit from `here <https://www.qgis.org/en/site/forusers/download.html#windows>`_ ;
 
 * Execute the QGIS installer with administrative rights, accepting the default configuration.
 
@@ -63,4 +63,4 @@ In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that shoul
 .. |settings_tool| image:: _static/semiautomaticclassificationplugin_settings_tool.png
 	:width: 20pt
 	
-.. image:: _static/settings_processing_tab.jpg
+.. image:: _static/settings_processing_tab.png

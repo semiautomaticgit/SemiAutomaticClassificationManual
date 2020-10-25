@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-10 20:46+0200\n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,19 +74,63 @@ msgid ""
 " following example with matplotlib:"
 msgstr ""
 
-#: ../../installation_mac.rst:49
-msgid "To install matplotlib type in a terminal::"
+#: ../../installation_mac.rst:48
+msgid ""
+"A solution is to follow these steps as described in `this GIS "
+"Stackexchange post <https://gis.stackexchange.com/questions/366848/scp-"
+"plugin-for-qgis-3-10-on-mac>`_ :"
 msgstr ""
 
-#: ../../installation_mac.rst:53
-msgid "and repeat this step for other missing dependencies."
+#: ../../installation_mac.rst:50
+msgid ""
+"Download and install Python from https://www.python.org/downloads/mac-"
+"osx/ selecting the macOS 64-bit installer;"
 msgstr ""
 
-#: ../../installation_mac.rst:59
+#: ../../installation_mac.rst:52
+msgid ""
+"Download and install the complete GDAL installer from "
+"https://www.kyngchaos.com/software/frameworks/ ;"
+msgstr ""
+
+#: ../../installation_mac.rst:54
+msgid ""
+"**TIP**: In case of warnings about malicious software go to the ``Apple "
+"menu`` > ``System Preferences`` > ``Security & Privacy`` > ``General "
+"Tab`` > ``Allow Anyway`` ; Python should be in ``Library`` > "
+"``Frameworks`` > ``Python.framework`` ; GDAL should be in ``Library`` > "
+"``Application Support`` > ``GDAL``"
+msgstr ""
+
+#: ../../installation_mac.rst:56
+msgid ""
+"Open QGIS, go to ``Settings`` > ``Options`` > ``System`` > "
+"``Environment`` and enable ``Use Custom Variables`` ;"
+msgstr ""
+
+#: ../../installation_mac.rst:58
+msgid ""
+"Select ``Prepend``, under ``variable`` enter ``PATH``, under ``value`` "
+"enter the path to GDAL "
+"``/Library/Frameworks/GDAL.framework/Programs:/Library/Frameworks/Python.framework/Versions/3.8/bin:``"
+" ;"
+msgstr ""
+
+#: ../../installation_mac.rst:60
+msgid ""
+"**TIP**: In case of GDAL was installed through Macports, the path to GDAL"
+" should be ``/opt/local/bin/:``"
+msgstr ""
+
+#: ../../installation_mac.rst:62
+msgid "Restart QGIS."
+msgstr ""
+
+#: ../../installation_mac.rst:69
 msgid "Configuration of the plugin"
 msgstr ""
 
-#: ../../installation_mac.rst:61
+#: ../../installation_mac.rst:71
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and"
 " a toolbar should be added to QGIS. Also, a SCP menu is available in the "
@@ -94,14 +138,14 @@ msgid ""
 "according to your needs, as in the following image."
 msgstr ""
 
-#: ../../installation_mac.rst:67
+#: ../../installation_mac.rst:77
 msgid ""
 "The configuration of available RAM is recommended in order to reduce the "
 "processing time. From the :ref:`SCP_menu` select |settings_tool| "
 "``Settings > Processing`` ."
 msgstr ""
 
-#: ../../installation_mac.rst:72
+#: ../../installation_mac.rst:82
 msgid ""
 "In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
 "that should be half of the system RAM. For instance, if your system has "
@@ -111,15 +155,15 @@ msgstr ""
 #~ msgid ""
 #~ msgstr ""
 
-#~ msgid ""
-#~ "In case of error messages related "
-#~ "to missing dependencies, such as the "
-#~ "following example with matplotlib."
-#~ msgstr ""
-
 #~ msgid "To install matplotlib type in a terminal:"
 #~ msgstr ""
 
 #~ msgid "sudo pip3 install matplotlib"
+#~ msgstr ""
+
+#~ msgid "To install matplotlib type in a terminal::"
+#~ msgstr ""
+
+#~ msgid "and repeat this step for other missing dependencies."
 #~ msgstr ""
 

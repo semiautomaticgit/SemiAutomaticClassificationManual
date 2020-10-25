@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../algorithmBandWeightTab.rst:5
+msgid "Algorithm band weight"
+msgstr ""
+
+#: ../../algorithmBandWeightTab.rst:265
+msgid "|weight_tool| :guilabel:`Algorithm band weight`"
+msgstr ""
+
+#: ../../algorithmBandWeightTab.rst:267
+msgid ""
+"This tab allows for the definition of band weights that are useful for "
+"improving the spectral separability of materials at certain wavelengths "
+"(bands). During the classification process, band values and spectral "
+"signature values are multiplied by the corresponding band weights, thus "
+"modifying the spectral distances. A tab is displayed for every "
+":ref:`band_set_tab`."
+msgstr ""
+
+#: ../../algorithmBandWeightTab.rst:274
+msgid "Band weight"
+msgstr ""
+
+#: ../../algorithmBandWeightTab.rst:279
+msgid ""
+"|input_table| :guilabel:`Band weight`: table containing the following "
+"fields;"
+msgstr ""
+
+#: ../../algorithmBandWeightTab.rst:277
+msgid ":guilabel:`Band number` : number of the band in the :guilabel:`Band set`;"
+msgstr ""
+
+#: ../../algorithmBandWeightTab.rst:278
+msgid ":guilabel:`Band name` : name of the band;"
+msgstr ""
+
+#: ../../algorithmBandWeightTab.rst:279
+msgid ":guilabel:`Weight` : weight of the band; this value can be edited;"
+msgstr ""
+
+#: ../../algorithmBandWeightTab.rst:284
+msgid "Automatic weight"
+msgstr ""
+
+#: ../../algorithmBandWeightTab.rst:286
+msgid "|reset|: reset all band weights to 1;"
+msgstr ""
+
+#: ../../algorithmBandWeightTab.rst:287
+msgid ""
+":guilabel:`Set weight` |input_number| |enter|: set the defined value as "
+"weight for all the highlighted bands in the table;"
+msgstr ""
+

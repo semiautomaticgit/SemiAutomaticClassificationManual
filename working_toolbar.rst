@@ -70,6 +70,9 @@ Working toolbar
 	
 .. |remove_temp| image:: _static/semiautomaticclassificationplugin_remove_temp.png
 	:width: 20pt
+	
+.. |kml_add| image:: _static/semiautomaticclassificationplugin_kml_add.png
+	:width: 20pt
 
 .. |radiobutton| image:: _static/radiobutton.png
 	:width: 18pt
@@ -139,6 +142,8 @@ Classification previews are useful for testing the algorithm in a small area of 
 
 :guilabel:`Classification preview` is performed according to the parameters defined in :ref:`classification_alg`.
 
+	**WARNING**: ROIs and previews are performed on the active :ref:`band_set_tab`.
+	
 In addition to the classification raster, an :ref:`algorithm_raster` can be displayed, which is useful for assessing the distance of a pixel classified as ``class X`` from the corresponding spectral signature `X`.
 In :guilabel:`Classification previews`, black pixels are distant from the corresponding spectral signature (i.e. probably a new ROI, or spectral signature, should be collected in that area) and white pixels are closer to the corresponding spectral signature (i.e. probably the spectral signature identifies correctly those pixels).
 
@@ -153,3 +158,4 @@ After the creation of a new preview, old previews are placed in QGIS Layers insi
 * :guilabel:`T` |input_number|: change dynamically the classification preview transparency, which is useful for comparing  the classification to other layers;
 * :guilabel:`S` |input_number| |project_save|: size of the preview in pixel unit (i.e. the side length of a square, centred at the clicked pixel);
 * |remove_temp|: remove from QGIS the :guilabel:`classification previews` that are archived in the :guilabel:`Class_temp_group`;
+* |kml_add|: create a KML file of the QGIS view;

@@ -13,7 +13,7 @@ Installation in Windows 32 bit
 QGIS download and installation
 ------------------------------------------
 
-* Download the latest QGIS version 32 bit from `here <https://www.qgis.org/en/site/forusers/download.html>`_ ;
+* Download the latest QGIS version 32 bit from `here <https://www.qgis.org/en/site/forusers/download.html#windows>`_ ;
 
 * Execute the QGIS installer with administrative rights, accepting the default configuration.
 

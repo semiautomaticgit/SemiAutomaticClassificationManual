@@ -12,6 +12,5 @@ Semi-Automatic Classification Plugin Documentation
 	interface.rst
 	remote_sensing.rst
 	tutorials.rst
-	tutorials_advanced.rst
 	semi-automatic_os.rst
 	faq.rst

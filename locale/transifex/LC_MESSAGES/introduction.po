@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,17 +39,10 @@ msgid ""
 "The **overall objective** of :guilabel:`SCP` is to provide a set of "
 "intertwined tools for raster processing in order to make an automatic "
 "workflow and ease the land cover classification, which could be performed"
-" also by people whose main field is not remote sensing. The first version"
-" of the :guilabel:`SCP` was developed by Luca Congedo in 2012 for the "
-"\"ACC Dar Project\" in order to create a tool for the classification of "
-"land cover in an affordable and automatic fashion; following versions of "
-":guilabel:`SCP` were developed as personal commitment to the remote "
-"sensing field and open source philosophy. :guilabel:`SCP` version 6 "
-"(codename: Greenbelt) is developed in the frame of Luca Congedo's PhD in "
-"Landscape and Environment at Sapienza University of Rome."
+" also by people whose main field is not remote sensing."
 msgstr ""
 
-#: ../../introduction.rst:21
+#: ../../introduction.rst:19
 msgid ""
 "This **user manual** provides information about the :ref:`installation` "
 "of SPC and the :ref:`interface`, with detailed information about all the "
@@ -58,13 +51,13 @@ msgid ""
 ":guilabel:`SCP`."
 msgstr ""
 
-#: ../../introduction.rst:24
+#: ../../introduction.rst:22
 msgid ""
 ":ref:`tutorials` are available for learning the main functions of "
 ":guilabel:`SCP`."
 msgstr ""
 
-#: ../../introduction.rst:26
+#: ../../introduction.rst:24
 msgid ""
 "You are kindly invited to **contribute to SCP** (see :ref:`other_1`) and "
 "join the `Facebook group "
@@ -72,43 +65,61 @@ msgid ""
 "Also, please read the :ref:`FAQ`."
 msgstr ""
 
-#: ../../introduction.rst:29
+#: ../../introduction.rst:27
 msgid "For more information and tutorials visit the official site"
 msgstr ""
 
-#: ../../introduction.rst:31
+#: ../../introduction.rst:29
 msgid ""
 "|fromGIStoRS| `From GIS to Remote Sensing "
 "<https://fromgistors.blogspot.com>`_"
 msgstr ""
 
-#: ../../introduction.rst:33 ../../introduction.rst:39
-#: ../../introduction.rst:50 ../../introduction.rst:56
+#: ../../introduction.rst:31 ../../introduction.rst:37
+#: ../../introduction.rst:45 ../../introduction.rst:56
+#: ../../introduction.rst:62
 msgid "|br|"
 msgstr ""
 
-#: ../../introduction.rst:35
+#: ../../introduction.rst:33
 msgid "**How to cite:**"
 msgstr ""
 
-#: ../../introduction.rst:37
+#: ../../introduction.rst:35
 msgid ""
-"*Congedo Luca (2016). Semi-Automatic Classification Plugin "
+"*Congedo Luca (2020). Semi-Automatic Classification Plugin "
 "Documentation.* DOI: http://dx.doi.org/10.13140/RG.2.2.29474.02242/1"
 msgstr ""
 
+#: ../../introduction.rst:39
+msgid "**Brief history:**"
+msgstr ""
+
 #: ../../introduction.rst:41
+msgid ""
+"The first version of the :guilabel:`SCP` was developed by Luca Congedo in"
+" 2012 for the \"ACC Dar Project\" in order to create a tool for the "
+"classification of land cover in an affordable and automatic fashion; "
+"following versions of :guilabel:`SCP` were developed as personal "
+"commitment to the remote sensing field and open source philosophy. "
+":guilabel:`SCP` version 6 was developed in the frame of Luca Congedo's "
+"PhD in Landscape and Environment at Sapienza University of Rome. "
+":guilabel:`SCP` version 7 as personal commitment to the remote sensing "
+"field and open source philosophy."
+msgstr ""
+
+#: ../../introduction.rst:47
 msgid "**License:**"
 msgstr ""
 
-#: ../../introduction.rst:43
+#: ../../introduction.rst:49
 msgid ""
 "Except where otherwise noted, content of this work is licensed under a "
 "`Creative Commons Attribution-ShareAlike 4.0 International License "
 "<http://creativecommons.org/licenses/by-sa/4.0/>`_."
 msgstr ""
 
-#: ../../introduction.rst:46
+#: ../../introduction.rst:52
 msgid ""
 "``Semi-Automatic Classification Plugin is free software: you can "
 "redistribute it and/or modify it under the terms of the GNU General "
@@ -122,11 +133,42 @@ msgid ""
 "http://www.gnu.org/licenses/.``"
 msgstr ""
 
-#: ../../introduction.rst:52
+#: ../../introduction.rst:58
 msgid "**Translators:**"
 msgstr ""
 
-#: ../../introduction.rst:54
+#: ../../introduction.rst:60
 msgid "Language: Author"
 msgstr ""
+
+#~ msgid ""
+#~ "The **overall objective** of :guilabel:`SCP`"
+#~ " is to provide a set of "
+#~ "intertwined tools for raster processing "
+#~ "in order to make an automatic "
+#~ "workflow and ease the land cover "
+#~ "classification, which could be performed "
+#~ "also by people whose main field is"
+#~ " not remote sensing. The first "
+#~ "version of the :guilabel:`SCP` was "
+#~ "developed by Luca Congedo in 2012 "
+#~ "for the \"ACC Dar Project\" in "
+#~ "order to create a tool for the "
+#~ "classification of land cover in an "
+#~ "affordable and automatic fashion; following"
+#~ " versions of :guilabel:`SCP` were developed"
+#~ " as personal commitment to the remote"
+#~ " sensing field and open source "
+#~ "philosophy. :guilabel:`SCP` version 6 "
+#~ "(codename: Greenbelt) is developed in "
+#~ "the frame of Luca Congedo's PhD in"
+#~ " Landscape and Environment at Sapienza "
+#~ "University of Rome."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Congedo Luca (2016). Semi-Automatic "
+#~ "Classification Plugin Documentation.* DOI: "
+#~ "http://dx.doi.org/10.13140/RG.2.2.29474.02242/1"
+#~ msgstr ""
 

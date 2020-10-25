@@ -214,6 +214,9 @@ Tutorial 1
 	
 .. |remove_temp| image:: _static/semiautomaticclassificationplugin_remove_temp.png
 	:width: 20pt
+	
+.. |osm_add| image:: _static/semiautomaticclassificationplugin_osm_add.png
+	:width: 20pt
 
 The following is a basic tutorial about the land cover classification using the Semi-Automatic Classification Plugin (:guilabel:`SCP`).
 It is assumed that you have a basic knowledge of QGIS.
@@ -236,49 +239,71 @@ The purpose of the classification is to identify the following land cover classe
 #. Water;
 #. Built-up;
 #. Vegetation;
-#. Bare soil.
+#. Soil.
 
-The study area of this tutorial is Greenbelt (Maryland, USA) which is the site of NASA’s Goddard Space Flight Center (the institution that will lead the development of the future Landsat 9 flight segment).
+The study area of this tutorial is Matera (Basilicata, Italy) which is a city in the Southern Italy.
+Matera is the site of a Center of the Italian Space Agency (ASI) specialized in remote sensing, which has several purposes, in particular to acquire, process and store remote sensing data.
 
 Following the video of this tutorial.
 
 .. raw:: html
 
-	<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/fUZgYxgDjsk?rel=0" width="100%"></iframe>
+	<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/Ceyhm3DlZNY?rel=0" width="100%"></iframe>
 
-http://www.youtube.com/watch?v=fUZgYxgDjsk
+http://www.youtube.com/watch?v=Ceyhm3DlZNY
 
 .. _tutorial_1_data_download:
 
 Download the Data
 -------------------------
 
-We are going to download a :ref:`Landsat_definition` image (data available from the U.S. Geological Survey) and use the following bands:
+We are going to download a :ref:`Sentinel2_definition` image (`Copernicus <http://copernicus.eu/>`_ land monitoring services) and use the bands illustrated in the following table.
 
-#. Blue;
-#. Green;
-#. Red;
-#. Near-Infrared;
-#. Short Wavelength Infrared 1;
-#. Short Wavelength Infrared 2.
 
-	**TIP** : In case you have a slow connection you can download an image subset from `this archive <https://docs.google.com/uc?id=18CXceeQrjxQoM5Z80kvlvdTI4SmVBDZn>`_ (about 5 MB, data available from the U.S. Geological Survey), unzip the downloaded file, and skip to :ref:`tutorial_1_conversion`.
++-------------------------------------+-------------------------------------+------------------------+
+| Sentinel-2 Bands                    | Central Wavelength  [micrometers]   |  Resolution [meters]   |
++=====================================+=====================================+========================+
+| Band 2 - Blue                       | 0.490                               |  10                    |
++-------------------------------------+-------------------------------------+------------------------+
+| Band 3 - Green                      |  0.560                              |  10                    |
++-------------------------------------+-------------------------------------+------------------------+
+| Band 4 - Red                        | 0.665                               |  10                    |
++-------------------------------------+-------------------------------------+------------------------+
+| Band 5 - Vegetation Red Edge        | 0.705                               |  20                    |
++-------------------------------------+-------------------------------------+------------------------+
+| Band 6 - Vegetation Red Edge        | 0.740                               |  20                    |
++-------------------------------------+-------------------------------------+------------------------+
+| Band 7 - Vegetation Red Edge        | 0.783                               |  20                    |
++-------------------------------------+-------------------------------------+------------------------+
+| Band 8 - NIR                        | 0.842                               |  10                    |
++-------------------------------------+-------------------------------------+------------------------+
+| Band 8A - Vegetation Red Edge       | 0.865                               |  20                    |
++-------------------------------------+-------------------------------------+------------------------+
+| Band 11 - SWIR                      | 1.610                               |  20                    |
++-------------------------------------+-------------------------------------+------------------------+
+| Band 12 - SWIR                      | 2.190                               |  20                    |
++-------------------------------------+-------------------------------------+------------------------+
+
+
+	**TIP** : In case of slow internet connection you can download an image subset from `this archive <https://docs.google.com/uc?id=1cph9rCQ1oiWgRGusgRkjUWwLW3JEwqUK>`_ (about 30 MB, © Copernicus Sentinel data 2020 downloaded from https://scihub.copernicus.eu/), unzip the downloaded file, and skip to :ref:`tutorial_1_conversion`.
 
 Start QGIS and the :guilabel:`SCP`.
 Open the tab :ref:`download_tab` clicking the button |download| in the :ref:`SCP_home`, or in the :ref:`SCP_menu`,
 
-We are searching a specific image acquired on 16 April 2017 because it is cloud free.
+In the tab :ref:`download_tab` click the button |osm_add| to display the OpenStreetMap tiles (© `OpenStreetMap <http://www.openstreetmap.org/copyright>`_ contributors) in the QGIS map, licensed as CC BY-SA (`Tile Usage Policy <http://www.openstreetmap.org/copyright>`_ ).
+
+We are searching a specific image acquired on 8 July 2020 because it is cloud free (however you can use any other Sentinel-2 image).
 In :ref:`search_parameters` enter the point coordinates:
 
-* :guilabel:`UL`: -77 / 39
-* :guilabel:`LR`: -76.9 / 38.9
+* :guilabel:`UL`: 16.5 / 40.7
+* :guilabel:`LR`: 16.7 / 40.6
 
 	**TIP** : In general it is possible to define the area coordinates clicking the button |pointer| , then left click in the map for the UL point and right click in the map for the LR point.
 	
-Select :guilabel:`L8 OLI/TIRS` from the :guilabel:`Products` |input_list| and set:
+Select :guilabel:`Sentinel-2` from the :guilabel:`Products` |input_list| and set:
 
-* :guilabel:`Date from`: 2017-04-16
-* :guilabel:`to`: 2017-04-16
+* :guilabel:`Date from`: 2020-07-08
+* :guilabel:`to`: 2020-07-08
 
 .. figure:: _static/tutorial_1/tutorial_1_1_01.jpg
 	:align: center
@@ -287,7 +312,7 @@ Select :guilabel:`L8 OLI/TIRS` from the :guilabel:`Products` |input_list| and se
 	:guilabel:`Search products`
 	
 Now click the button :guilabel:`Find` |search_images| and after a few seconds the image will be listed in the :ref:`product_list`.
-Click the item in the table to display a preview that is useful for assessing the quality of the image and the cloud cover.
+Click the ProductID ``L2A_T33TXF_A026345_20200708T094035`` in the table to display a preview that is useful for assessing the quality of the image and the cloud cover.
 
 .. figure:: _static/tutorial_1/tutorial_1_1_02.jpg
 	:align: center
@@ -304,8 +329,8 @@ Now click the button |image_preview| to load the preview in the map.
 	:guilabel:`Image preview`
 	
 
-We can also select the bands to be downloaded according to our purpose.
-In particular, select the tab :ref:`download_options` and check only the Landsat bands (that will be used in this tutorial): 2, 3, 4, 5, 6, 7, and the ancillary data.
+We can also select which bands to be downloaded according to our purpose.
+In particular, select the tab :ref:`download_options` and check only the Sentinel-2 bands (that will be used in this tutorial): 2, 3, 4, 5, 6, 7, 8, 8A, 11, 12 and the ancillary data.
 
 .. figure:: _static/tutorial_1/tutorial_1_1_04.jpg
 	:align: center
@@ -326,7 +351,7 @@ After the download, all the bands are automatically loaded in the map.
 	:align: center
 	:width: 600pt
 	
-	:guilabel:`Download of Landsat bands`
+	:guilabel:`Download of Sentinel-2 bands`
 
 .. _tutorial_1_clip_data:
 
@@ -336,9 +361,11 @@ Clip the Data
 For for limiting the study area (and reducing the processing time) we can clip the image.
 
 First, we need to define a :guilabel:`Band set` containing the bands to be clipped.
+Several tools in SCP use the :guilabel:`Band sets`, which are numbered sets of raster bands and related information (such as center wavelength and acquisition date).
+
 Open the tab :ref:`band_set_tab` clicking the button |bandset_tool| in the :ref:`SCP_menu` or the :ref:`SCP_dock`.
 
-Click the button |reload| to refresh the layer list, and select the bands: 2, 3, 4, 5, 6, and 7; then click |plus| to add selected rasters to the :guilabel:`Band set 1`.
+Click the button |reload| to refresh the layer list, and select the bands: 2, 3, 4, 5, 6, 7, 8, 8A, 11, and 12; then click |plus| to add selected rasters to the :guilabel:`Band set 1`.
 
 .. figure:: _static/tutorial_1/tutorial_1_clip_1.jpg
 	:align: center
@@ -347,12 +374,12 @@ Click the button |reload| to refresh the layer list, and select the bands: 2, 3,
 	:guilabel:`Band set for clipping`
 	
 In :ref:`pre_processing_tab` open the tab :ref:`clip_multiple_rasters_tab`.
-We are going to clip the :guilabel:`Band set 1` which contains Landsat bands.
+We are going to clip the :guilabel:`Band set 1` which contains Sentinel-2 bands.
 
 Click the button |pointer| and select an area such as the following image (left click in the map for the UL point and right click in the map for the LR point), or enter the following values:
 
-* :guilabel:`UL`: 330015 / 4324995
-* :guilabel:`LR`: 349995 / 4309995
+* :guilabel:`UL`: 623830 / 4505410
+* :guilabel:`LR`: 645330 / 4494350
 
 .. figure:: _static/tutorial_1/tutorial_1_clip_2.jpg
 	:align: center
@@ -373,22 +400,23 @@ When the process is completed, clipped rasters are loaded and displayed.
 
 .. _tutorial_1_conversion:
 
-Convert Data to Surface Reflectance
+Preprocess the data
 ------------------------------------------------------
+
+The downloaded product is a Sentinel-2 Level 2A image, which is already atmospherically corrected (Level 1C images require atmospherical correction as described in :ref:`conversion_to_reflectance`).
+Nevertheless, preprocessing is required to convert pixel values to a decimal value of reflectance.
 
 Conversion to reflectance (see :ref:`radiance_reflectance_definition`) can be performed automatically.
 The metadata file (a .txt file whose name contains ``MTL``) downloaded with the images contains the required information for the conversion.
-Read :ref:`conversion_to_reflectance` for information about the :ref:`TOA_conversion` and :ref:`Surface_conversion`.
 
-In order to convert bands to reflectance, open the :ref:`pre_processing_tab` clicking the button |preprocessing| in the :ref:`SCP_menu` or the :ref:`SCP_dock`, and select the tab :ref:`landsat_tab`.
+In order to convert bands to reflectance, open the :ref:`pre_processing_tab` clicking the button |preprocessing| in the :ref:`SCP_menu` or the :ref:`SCP_dock`, and select the tab :ref:`sentinel2_tab`.
 
-Click the button :guilabel:`Directory containing Landsat bands` |open_dir| and select the directory of clipped Landsat bands.
-The list of bands is automatically loaded in the table :ref:`landsat_metadata`.
+Click the button :guilabel:`Directory containing Sentinel-2 bands` |open_dir| and select the directory of clipped Sentinel-2 bands.
+The list of bands is automatically loaded in the table :ref:`sentinel2_metadata`.
 
-Click the button :guilabel:`Select MTL file` |open_file| and select the metadata file ``LC08_L1TP_015033_20170416_20170501_01_T1_MTL.txt`` from the directory of downloaded Landsat images.
-Metadata information is added to the table :ref:`landsat_metadata`. 
+You can ignore :guilabel:`Select metadata file` because this conversion doesn't require additional information.
 
-In order to calculate :ref:`Surface_conversion` we are going to apply the :ref:`DOS1_correction`; therefore, enable the option |checkbox| :guilabel:`Apply DOS1 atmospheric correction`.
+Sentinel-2 Level 2A images don't require the :ref:`DOS1_correction`; if it was a Level 1C image we should enable the option |checkbox| :guilabel:`Apply DOS1 atmospheric correction`.
 
 	**TIP** : In general, it is recommended to perform the DOS1 atmospheric correction for the entire image (before clipping the image) in order to improve the calculation of parameters based on the image.
 
@@ -400,7 +428,7 @@ In order to start the conversion process, click the button :guilabel:`RUN` |run|
 	:align: center
 	:width: 600pt
 	
-	:guilabel:`Landsat 8 conversion to reflectance`
+	:guilabel:`Sentinel-2 conversion to reflectance`
 	
 After a few minutes, converted bands are loaded and displayed (file name beginning with ``RT_``).
 If |checkbox| :guilabel:`Play sound when finished` is checked in :ref:`classification_process` settings, a sound is played when the process is finished.
@@ -411,7 +439,7 @@ We can remove all the bands loaded in QGIS layers except the ones whose name beg
 	:align: center
 	:width: 600pt
 	
-	:guilabel:`Converted Landsat 8 bands`
+	:guilabel:`Converted Sentinel-2 bands`
 	
 	
 .. _tutorial_1_band_set:
@@ -419,7 +447,7 @@ We can remove all the bands loaded in QGIS layers except the ones whose name beg
 Define the Band set and create the Training Input File
 ----------------------------------------------------------
 
-Now we need to define the :guilabel:`Band set` which is the input image for :guilabel:`SCP`.
+Now we need to define the :guilabel:`Band set` which is the input image for :guilabel:`SCP` classification.
 Open the tab :ref:`band_set_tab` clicking the button |bandset_tool| in the :ref:`SCP_menu` or the :ref:`SCP_dock`.
 
 In :guilabel:`Band set definition` click the button |reset| to clear all the bands from :guilabel:`active band set` created during the previous steps.
@@ -427,7 +455,7 @@ In :guilabel:`Band set definition` click the button |reset| to clear all the ban
 Click the button |reload| to refresh the layer list, and select all the converted bands; then click |plus| to add selected rasters to the :guilabel:`Band set`.
 
 In the table :guilabel:`Band set definition` order the band names in ascending order (click |order_by_name| to sort bands by name automatically).
-Finally, select :guilabel:`Landsat 8 OLI` from the list :guilabel:`Quick wavelength settings`, in order to set automatically the :guilabel:`Center wavelength` of each band and the :guilabel:`Wavelength unit` (required for spectral signature calculation).
+Finally, select :guilabel:`Sentinel-2` from the list :guilabel:`Wavelength quick settings`, in order to set automatically the :guilabel:`Center wavelength` of each band and the :guilabel:`Wavelength unit` (required for spectral signature calculation).
 
 .. figure:: _static/tutorial_1/tutorial_1_band_set_1.jpg
 	:align: center
@@ -435,7 +463,7 @@ Finally, select :guilabel:`Landsat 8 OLI` from the list :guilabel:`Quick wavelen
 	
 	:guilabel:`Definition of a band set`
 	
-We can display a :ref:`color_composite_definition` of bands: Near-Infrared, Red, and Green: in the :ref:`working_toolbar`, click the list :guilabel:`RGB=` and select the item ``4-3-2`` (corresponding to the band numbers in :ref:`band_set_tab`).
+We can display a :ref:`color_composite_definition` of bands: Near-Infrared, Red, and Green: in the :ref:`working_toolbar`, click the list :guilabel:`RGB=` and select the item ``7-3-2`` (corresponding to the band numbers in :ref:`band_set_tab`).
 You can see that image colors in the map change according to the selected bands, and vegetation is highlighted in red (if the item ``3-2-1`` was selected, natural colors would be displayed).
 
 	**TIP** : If a :ref:`band_set_tab` is defined, a temporary virtual raster (named ``Virtual Band Set 1``) is created automatically, which allows for the display of :ref:`color_composite_definition`. In order to speed up the visualization, you can show only the virtual raster and hide all the layers in the QGIS Layers.
@@ -444,7 +472,7 @@ You can see that image colors in the map change according to the selected bands,
 	:align: center
 	:width: 600pt
 	
-	:guilabel:`Color composite RGB=4-3-2`
+	:guilabel:`Color composite RGB=7-3-2`
 	
 	
 Now we need to create the :ref:`training_input` in order to collect :ref:`ROI_definition` (ROIs) and calculate the :ref:`spectral_signature_definition` thereof (which are used in classification).
@@ -482,13 +510,13 @@ We are going to used the Macroclass IDs defined in the following table.
 +-----------------------------+--------------------------+
 | Vegetation                  |  3                       |
 +-----------------------------+--------------------------+
-| Bare soil (low vegetation)  |  4                       |
+| Soil                        |  4                       |
 +-----------------------------+--------------------------+
 
 ROIs can be created by manually drawing a polygon or with an automatic region growing algorithm.
 
-Zoom in the map over the dark area in the upper right corner of the image which is a water body.
-In order to create manually a ROI inside the dark area, click the button |manual_ROI| in the :ref:`working_toolbar`.
+In the map zoom over the dark blue area in the lower left corner of the image which is a water body.
+To manually create a ROI inside the dark area, click the button |manual_ROI| in the :ref:`working_toolbar`.
 Left click on the map to define the ROI vertices and right click to define the last vertex closing the polygon.
 An orange semi-transparent polygon is displayed over the image, which is a temporary polygon (i.e. it is not saved in the :guilabel:`Training input`).
 
@@ -503,10 +531,10 @@ An orange semi-transparent polygon is displayed over the image, which is a tempo
 If the shape of the temporary polygon is good we can save it to the :guilabel:`Training input`.
 
 Open the :ref:`training_input` to define the :ref:`classes_definition` .
-In the :ref:`ROI_list` set :guilabel:`MC ID` = 1 and :guilabel:`MC Info` = ``Water``; also set :guilabel:`C ID` = 1 and :guilabel:`C Info` = ``Lake``.
+In the :ref:`ROI_list` set :guilabel:`MC ID` = 1 and :guilabel:`MC Name` = ``Water``; also set :guilabel:`C ID` = 1 and :guilabel:`C Name` = ``Lake``.
 Now click |save_roi| to save the ROI in the :guilabel:`Training input`.
 
-After a few seconds, the ROI is listed in the :ref:`ROI_list` and the spectral signature is calculated (because |checkbox| :guilabel:`Signature` was checked).
+After a few seconds, the ROI is listed in the :ref:`ROI_list` and the spectral signature is calculated (because |checkbox| :guilabel:`Signature` is checked).
 
 .. figure:: _static/tutorial_1/tutorial_1_rois_2.jpg
 	:align: center
@@ -515,20 +543,12 @@ After a few seconds, the ROI is listed in the :ref:`ROI_list` and the spectral s
 	
 As you can see, the :guilabel:`C ID` in :ref:`ROI_list` is automatically increased by 1.
 Saved ROI is displayed as a dark polygon in the map and the temporary ROI is removed.
-Also, in the :ref:`ROI_list` you can notice that the :guilabel:`Type` is :guilabel:`B`, meaning that the ROI spectral signature was calculated and saved in the :guilabel:`Training input`.
-
-You can also see in the tab :ref:`macroclasses_tab` that the first macroclass has been added to the table :guilabel:`Macroclasses` .
-
-.. figure:: _static/tutorial_1/tutorial_1_rois_3.jpg
-	:align: center
-	
-	:guilabel:`Macroclasses`
-	
+Also, in the :ref:`ROI_list` you can notice that the :guilabel:`Type` is :guilabel:`R&S`, meaning that the ROI spectral signature was calculated and saved in the :guilabel:`Training input`.
 
 Now we are going to create a second ROI for the built-up class using the automatic region growing algorithm.
-Zoom in the lower region of the image.
-In :ref:`working_toolbar` set the :guilabel:`Dist` value to 0.08 .
-Click the button |roi_single| in the :ref:`working_toolbar` and click over the purple area of the map.
+Zoom in the upper region of the image.
+In :ref:`working_toolbar` set the :guilabel:`Dist` value to 0.05 .
+Click the button |roi_single| in the :ref:`working_toolbar` and click over the light blue area of the map.
 After a while the orange semi-transparent polygon is displayed over the image.
 
 	**TIP** : :guilabel:`Dist` value should be set according to the range of pixel values; in general, increasing this value creates larger ROIs.
@@ -539,7 +559,7 @@ After a while the orange semi-transparent polygon is displayed over the image.
 	
 	:guilabel:`A temporary ROI created with the automatic region growing algorithm`
 	
-In the :ref:`ROI_list` set :guilabel:`MC ID` = 2 and :guilabel:`MC Info` = ``Built-up`` ; also set :guilabel:`C ID` = 2 (it should be already set) and :guilabel:`C Info` = ``Buildings``.
+In the :ref:`ROI_list` set :guilabel:`MC ID` = 2 and :guilabel:`MC Name` = ``Built-up`` ; also set :guilabel:`C ID` = 2 (it should be already set) and :guilabel:`C Name` = ``Buildings``.
 
 .. figure:: _static/tutorial_1/tutorial_1_rois_6.jpg
 	:align: center
@@ -549,7 +569,7 @@ In the :ref:`ROI_list` set :guilabel:`MC ID` = 2 and :guilabel:`MC Info` = ``Bui
 Again, the :guilabel:`C ID` in :ref:`ROI_list` is automatically increased by 1.
 
 After clicking the button |roi_single| in the :ref:`working_toolbar` you should notice that the cursor in the map displays a value changing over the image.
-This is the NDVI value of the pixel beneath the cursor (NDVI is displayed because the function |checkbox| :guilabel:`Display` is checked in :ref:`training_input`).
+This is the NDVI value of the pixel beneath the cursor (NDVI is displayed because the function |checkbox| :guilabel:`Display` is checked in :ref:`roi_options_tab`).
 The NDVI value can be useful for identifying spectrally pure pixels, in fact vegetation has higher NDVI values than soil.
 
 For instance, move the mouse over a vegetation area and left click to create a ROI when you see a local maximum value.
@@ -559,10 +579,10 @@ This way, the created ROI and the spectral signature thereof will be particularl
 	:align: center
 	:width: 600pt
 	
-	:guilabel:`NDVI value of vegetation pixel displayed in the map. Color composite RGB = 4-3-2`
+	:guilabel:`NDVI value of vegetation pixel displayed in the map. Color composite RGB = 7-3-2`
 	
 
-Create a ROI for the class ``Vegetation`` (red pixels in color composite ``RGB=4-3-2``) and a ROI for the class ``Bare soil (low vegetation)`` (green pixels in color composite ``RGB=4-3-2``) following the same steps described previously.
+Create a ROI for the class ``Vegetation`` (red pixels in color composite ``RGB=7-3-2``) and a ROI for the class ``Soil (bare soil or low vegetation)`` (yellow pixels in color composite ``RGB=7-3-2``) following the same steps described previously.
 The following images show a few examples of these classes identified in the map.
 
 .. figure:: _static/tutorial_1/tutorial_1_3_7.jpg
@@ -575,7 +595,7 @@ The following images show a few examples of these classes identified in the map.
 	:align: center
 	:width: 600pt
 	
-	:guilabel:`Bare soil (low vegetation). Color composite RGB = 4-3-2`
+	:guilabel:`Soil. Color composite RGB = 4-3-2`
 
 .. _tutorial_1_signatures:
 
@@ -621,62 +641,21 @@ The similarity of signatures is affected by the similarity of materials (in rela
 
 Spectral signature values, standard deviation and other details such as the number of ROI pixels are displayed in the :ref:`signature_details`.
 
-.. figure:: _static/tutorial_1/tutorial_1_sig_3.jpg
-	:align: center
-	:width: 600pt
-	
-	:guilabel:`Spectral signature values`
-
 **We need to create several ROIs (i.e. spectral signatures) for each macroclass** (repeating the steps in :ref:`tutorial_1_3`), assigning a unique C ID to each spectral signature, and assess the spectral distance thereof in order to avoid the overlap of spectral signatures belonging to different macroclasses.
 
-In the list :guilabel:`RGB=` of the :ref:`working_toolbar` type ``3-4-6`` (you can also use the tool :ref:`RGB_list_tab`).
-Using this color composite, urban areas are purple and vegetation is green.
-You can notice that this color composite ``RGB = 3-4-6`` highlights roads more than natural color (``RGB = 3-2-1``).
+In the list :guilabel:`RGB=` of the :ref:`working_toolbar` type ``10-3-2`` (you can also use the tool :ref:`RGB_list_tab`).
+Using this color composite, urban areas are grey, bare soils are light green, and vegetation is brown.
+This color composite ``RGB = 10-3-2`` can help the identification of soils more than natural color composite (``RGB = 3-2-1``).
 
 .. figure:: _static/tutorial_1/tutorial_1_rois_4.jpg
 	:align: center
 	:width: 600pt
 	
-	:guilabel:`Color composite RGB = 3-4-6`
+	:guilabel:`Color composite RGB = 3-7-10`
 	
-The following examples display a few RGB color composites of Landsat images.
-
 	**TIP** : Change frequently the :ref:`color_composite_definition` in order to clearly identify the materials at the ground; use the mouse wheel on the list :guilabel:`RGB=` of the :ref:`working_toolbar` for changing the color composite rapidly; also use the buttons |cumulative_stretch| and |std_dev_stretch| for better displaying the :guilabel:`Input image` (i.e. image stretching).
-
-.. figure:: _static/tutorial_1/tutorial_1_3_9.jpg
-	:align: center
-	:width: 600pt
-	
-	:guilabel:`Built-up ROI: large buildings`
-	
-.. figure:: _static/tutorial_1/tutorial_1_3_10.jpg
-	:align: center
-	:width: 600pt
-	
-	:guilabel:`Built-up ROI: road`
-	
-.. figure:: _static/tutorial_1/tutorial_1_3_11.jpg
-	:align: center
-	:width: 600pt
-	
-	:guilabel:`Built-up ROI: buildings, narrow roads`
-	
-	
-.. figure:: _static/tutorial_1/tutorial_1_3_13.jpg
-	:align: center
-	:width: 600pt
-	
-	:guilabel:`Vegetation ROI: deciduous trees`
-	
-.. figure:: _static/tutorial_1/tutorial_1_3_12.jpg
-	:align: center
-	:width: 600pt
-	
-	:guilabel:`Vegetation ROI: riparian vegetation`
 		
 It is worth mentioning that you can show or hide the temporary ROI clicking the button |radiobutton| :guilabel:`ROI` in :ref:`working_toolbar`.
-
-	**TIP** : Install the plugin `QuickMapServices <http://plugins.qgis.org/plugins/quick_map_services/>`_ in QGIS, and add a map (e.g. `OpenStreetMap <http://www.openstreetmap.org>`_) in order to facilitate the identification of ROIs using high resolution data.
 
 .. _tutorial_1_4:
 
@@ -689,24 +668,20 @@ In case the results are not good, we can collect more ROIs to better classify la
 
 Before running a classification (or a preview), set the color of land cover classes that will be displayed in the classification raster.
 In the :ref:`ROI_list`, double click the color (in the column :guilabel:`Color`) of each ROI to choose a representative color of each class.
-	
+Also, we need to set the color for macroclasses in :ref:`ROI_list`.
+
 .. figure:: _static/tutorial_1/tutorial_1_preview_1.jpg
 	:align: center
 	
 	:guilabel:`Definition of class colors`
 	
-Also, we need to set the color for macroclasses in table :ref:`macroclasses_tab`.
-	
-.. figure:: _static/tutorial_1/tutorial_1_preview_2.jpg
-	:align: center
-	
-	:guilabel:`Definition of macroclass colors`
 	
 Now we need to select the classification algorithm.
 In this tutorial we are going to use the :ref:`max_likelihood_algorithm`.
 
-Open the :ref:`classification_dock` to set the use of classes or macroclasses.
-Check :guilabel:`Use` |checkbox| :guilabel:`C ID` and in :ref:`classification_alg` select the :guilabel:`Maximum Likelihood`.
+Open the tool :ref:`classification_tab` to set the use of classes or macroclasses.
+Check :guilabel:`Use` |checkbox| :guilabel:`C ID` and in :ref:`classification_alg` select the :guilabel:`Spectral Angle Mapping`.
+The :guilabel:`input band set` is 1 because it is the number of the band set containing the image (bands) that we want to classify.
 
 
 .. figure:: _static/tutorial_1/tutorial_1_preview_3.jpg
@@ -725,7 +700,7 @@ The classification process should be rapid, and the result is a classified squar
 	:guilabel:`Classification preview displayed over the image using C ID`
 	
 Previews are temporary rasters (deleted after QGIS is closed) placed in a group named :guilabel:`Class_temp_group` in the QGIS panel Layers.
-Now in :ref:`classification_dock` check :guilabel:`Use` |checkbox| :guilabel:`MC ID` and click the button |preview_redo| in :ref:`classification_preview`.
+Now in :ref:`classification_tab` check :guilabel:`Use` |checkbox| :guilabel:`MC ID` and click the button |preview_redo| in :ref:`classification_preview`.
 
 .. figure:: _static/tutorial_1/tutorial_1_preview_5.jpg
 	:align: center
@@ -747,7 +722,7 @@ Create the Classification Output
 
 Assuming that the results of classification previews were good (i.e. pixels are assigned to the correct class defined in the :ref:`ROI_list`), we can perform the actual land cover classification of the whole image.
 
-In :ref:`classification_dock` check :guilabel:`Use` |checkbox| :guilabel:`MC ID`.
+In :ref:`classification_tab` check :guilabel:`Use` |checkbox| :guilabel:`MC ID`.
 In the :ref:`classification_output` click the button |run| and define the path of the classification output, which is a raster file (.tif).
 If |checkbox| :guilabel:`Play sound when finished` is checked in :ref:`classification_process` settings, a sound is played when the process is finished.
 
@@ -766,12 +741,13 @@ However, you can see that there are several classification errors, because the n
 	:align: center
 	:width: 600pt
 	
-	:guilabel:`Example of error: Water bodies classified as Built-up`
+	:guilabel:`Example of error: Soil classified as Built-up`
+	
 	
 .. figure:: _static/tutorial_1/tutorial_1_class_3.jpg
 	:align: center
 	:width: 600pt
 	
-	:guilabel:`Example of error: Built-up classified as vegetation`
+	:guilabel:`Example of error: Water bodies classified as Built-up`
 	
 We can improve the classification using some of the tools that will be described in other tutorials.

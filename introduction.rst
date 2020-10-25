@@ -15,8 +15,6 @@ Developed by `Luca Congedo <http://www.researchgate.net/profile/Luca_Congedo>`_,
 It provides several tools for the download of free images, the preprocessing, the postprocessing, and the raster calculation (please see :ref:`other_0`).
 
 The **overall objective** of :guilabel:`SCP` is to provide a set of intertwined tools for raster processing in order to make an automatic workflow and ease the land cover classification, which could be performed also by people whose main field is not remote sensing.
-The first version of the :guilabel:`SCP` was developed by Luca Congedo in 2012 for the "ACC Dar Project" in order to create a tool for the classification of land cover in an affordable and automatic fashion; following versions of :guilabel:`SCP` were developed as personal commitment to the remote sensing field and open source philosophy.
-:guilabel:`SCP` version 6 (codename: Greenbelt) is developed in the frame of Luca Congedo's PhD in Landscape and Environment at Sapienza University of Rome.
 
 This **user manual** provides information about the :ref:`installation` of SPC and the :ref:`interface`, with detailed information about all the functions.
 In addition, the :ref:`remote_sensing` illustrates the basic concepts and definitions which are required for using the :guilabel:`SCP`.
@@ -34,8 +32,16 @@ For more information and tutorials visit the official site
 
 **How to cite:**
 
-*Congedo Luca (2016). Semi-Automatic Classification Plugin Documentation.* DOI: http://dx.doi.org/10.13140/RG.2.2.29474.02242/1
+*Congedo Luca (2020). Semi-Automatic Classification Plugin Documentation.* DOI: http://dx.doi.org/10.13140/RG.2.2.29474.02242/1
 
+|br|
+
+**Brief history:**
+
+The first version of the :guilabel:`SCP` was developed by Luca Congedo in 2012 for the "ACC Dar Project" in order to create a tool for the classification of land cover in an affordable and automatic fashion; following versions of :guilabel:`SCP` were developed as personal commitment to the remote sensing field and open source philosophy.
+:guilabel:`SCP` version 6 was developed in the frame of Luca Congedo's PhD in Landscape and Environment at Sapienza University of Rome.
+:guilabel:`SCP` version 7 as personal commitment to the remote sensing field and open source philosophy.
+	
 |br|
 
 **License:**

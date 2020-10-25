@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../signatureThresholdTab.rst:5 ../../signatureThresholdTab.rst:284
+msgid "Signature threshold"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:265
+msgid "|threshold_tool| :guilabel:`Signature threshold`"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:267
+msgid ""
+"This tab allows for the definition of a classification threshold for each"
+" spectral signature. All the signatures contained in the "
+":ref:`training_input` are listed. Thresholds defined in this tool are "
+"applied to classification only if :guilabel:`Threshold` value in "
+":ref:`classification_alg` is 0."
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:271
+msgid ""
+"This is useful for improving the classification results, especially when "
+"spectral signatures are similar. Thresholds of signatures are saved in "
+"the :ref:`training_input`."
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:274
+msgid ""
+"If threshold is 0 then no threshold is applied and all the image pixels "
+"are classified. Depending on the selected :ref:`classification_alg` the "
+"threshold value is evaluated differently:"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:277
+msgid ""
+"for Minimum Distance, pixels are unclassified if distance is greater than"
+" threshold value;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:278
+msgid ""
+"for Maximum Likelihood, pixels are unclassified if probability is less "
+"than threshold  value (max 100);"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:279
+msgid ""
+"for Spectral Angle Mapping, pixels are unclassified if spectral angle "
+"distance is greater than threshold value (max 90)."
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:293
+msgid ""
+"|input_table| :guilabel:`Signature threshold`: table containing the "
+"following fields;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:287
+msgid ":guilabel:`MC ID`: signature Macroclass ID;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:288
+msgid ":guilabel:`MC Name`: signature Macroclass Name;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:289
+msgid ":guilabel:`C ID`: signature Class ID;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:290
+msgid ":guilabel:`C Name`: signature Class Name;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:291
+msgid ""
+":guilabel:`MD Threshold`: Minimum Distance threshold; this value can be "
+"edited;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:292
+msgid ""
+":guilabel:`ML Threshold`: Maximum Likelihood threshold; this value can be"
+" edited;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:293
+msgid ""
+":guilabel:`SAM Threshold`: Spectral Angle Mapping threshold; this value "
+"can be edited;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:295
+msgid "|reset|: reset all signatures thresholds to 0 (i.e. no threshold used);"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:300
+msgid "Automatic thresholds"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:302
+msgid ""
+":guilabel:`Set threshold` |input_number| |enter|: set the defined value "
+"as threshold for all the highlighted signatures in the table;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:303
+msgid ""
+":guilabel:`Set threshold = σ *` |input_number| |enter|: for all the "
+"highlighted signatures, set an automatic threshold calculated as the "
+"distance (or angle) between mean signature and (mean signature + (σ * "
+"v)), where σ is the standard deviation and v is the defined value; "
+"currently works for Minimum Distance and Spectral Angle Mapping;"
+msgstr ""
+

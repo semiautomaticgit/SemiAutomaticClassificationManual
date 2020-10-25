@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../randomForestTab.rst:5
+msgid "Random Forest"
+msgstr ""
+
+#: ../../randomForestTab.rst:265
+msgid "|cloud_masking_tool| :guilabel:`Random forest`"
+msgstr ""
+
+#: ../../randomForestTab.rst:267
+msgid ""
+"This tool allows for the :ref:`random_forest_definition` classification, "
+"based on a :ref:`band_set_tab` and :ref:`training_input`."
+msgstr ""
+
+#: ../../randomForestTab.rst:269
+msgid ""
+"`ESA SNAP <http://step.esa.int/main/download/snap-download>`_ is "
+"required. The :guilabel:`ESA SNAP GPT executable` must be defined in "
+":ref:`external_programs` settings."
+msgstr ""
+
+#: ../../randomForestTab.rst:275
+msgid "Random Forest classification"
+msgstr ""
+
+#: ../../randomForestTab.rst:277
+msgid ""
+":guilabel:`Select input band set` |input_number|: select the input "
+":ref:`band_set_tab` to be classified;"
+msgstr ""
+
+#: ../../randomForestTab.rst:278
+msgid ""
+":guilabel:`Use` |checkbox| :guilabel:`MC ID` |checkbox| :guilabel:`C ID` "
+"|registry_save|: if :guilabel:`MC ID` is checked, the classification is "
+"performed using the Macroclass ID (code `MC ID` of the signature); if "
+":guilabel:`C ID` is checked, the classification is performed using the "
+"Class ID (code `C ID` of the signature);"
+msgstr ""
+
+#: ../../randomForestTab.rst:279
+msgid ""
+":guilabel:`Number of training samples` |input_number|: set the number of "
+"training data (pixels) randomly used to traing the model; it should be "
+"set lower than total training input pixels;"
+msgstr ""
+
+#: ../../randomForestTab.rst:280
+msgid ""
+":guilabel:`Number of trees` |input_number|: set the number of decision "
+"trees; a higher number allows for more accurate models, but it also "
+"increases the calculation time;"
+msgstr ""
+
+#: ../../randomForestTab.rst:281
+msgid ""
+"|checkbox| :guilabel:`Evaluate classifier`: if checked, the classifier is"
+" evaluated;"
+msgstr ""
+
+#: ../../randomForestTab.rst:282
+msgid ""
+"|checkbox| :guilabel:`Evaluate feature power set` :guilabel:`Min` "
+"|input_number| :guilabel:`Max` |input_number|: if checked, evaluate the "
+"power set of input features (e.g. Gini decrease), according to the "
+"contribution thereof to the model; :guilabel:`Min` and :guilabel:`Max` "
+"are used as thresholds for power sets; it can increase the calculation "
+"time;"
+msgstr ""
+
+#: ../../randomForestTab.rst:283
+msgid ""
+"|checkbox| :guilabel:`Save classifier`: if checked, save the classifier "
+"for later use;"
+msgstr ""
+
+#: ../../randomForestTab.rst:284
+msgid ""
+":guilabel:`Load classifier` |input_text| |open_file|: open a previously "
+"saved classifier; if loaded, the input :ref:`band_set_tab` is directly "
+"classified using this classifier;"
+msgstr ""
+
+#: ../../randomForestTab.rst:285
+msgid "|reset|: clear the classifier;"
+msgstr ""
+
+#: ../../randomForestTab.rst:289
+msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../randomForestTab.rst:290
+msgid ""
+":guilabel:`RUN` |run|: select an output directory and start the "
+"classification process;"
+msgstr ""
+

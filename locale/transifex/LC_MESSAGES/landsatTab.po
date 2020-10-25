@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../landsatTab.rst:5
+msgid "Landsat"
+msgstr ""
+
+#: ../../landsatTab.rst:265
+msgid "|landsat_tool| :guilabel:`Landsat`"
+msgstr ""
+
+#: ../../landsatTab.rst:267
+msgid ""
+"This tab allows for the conversion of **Landsat 1, 2, and 3 MSS** and "
+"**Landsat 4, 5, 7, and 8** images from DN (i.e. Digital Numbers) to the "
+"physical measure of Top Of Atmosphere reflectance (TOA), or the "
+"application of a simple atmospheric correction using the DOS1 method "
+"(Dark Object Subtraction 1), which is an image-based technique (for more "
+"information about the Landsat conversion to TOA and DOS1 correction, see "
+":ref:`conversion_to_reflectance`)."
+msgstr ""
+
+#: ../../landsatTab.rst:269
+msgid "**Parallel processing is available.**"
+msgstr ""
+
+#: ../../landsatTab.rst:271
+msgid ""
+"Once the input is selected, available bands are listed in the metadata "
+"table."
+msgstr ""
+
+#: ../../landsatTab.rst:273
+msgid ""
+"Pan-sharpening is also available; for more information read "
+":ref:`pan_sharpening_definition`. The panchromatic band is preprocessed "
+"only if pansharpening is checked."
+msgstr ""
+
+#: ../../landsatTab.rst:276
+msgid ""
+"**WARNING**: For the best spectral precision you should download the "
+"Landsat Level-2 Data Products (Surface Reflectance) from "
+"https://earthexplorer.usgs.gov ."
+msgstr ""
+
+#: ../../landsatTab.rst:281
+msgid "Landsat conversion to TOA reflectance and brightness temperature"
+msgstr ""
+
+#: ../../landsatTab.rst:283
+msgid ""
+":guilabel:`Directory containing Landsat bands` |open_dir|: open a "
+"directory containing Landsat bands; names of Landsat bands must end with "
+"the corresponding number; if the metadata file is included in this "
+"directory then :ref:`landsat_metadata` are automatically filled;"
+msgstr ""
+
+#: ../../landsatTab.rst:284
+msgid ""
+":guilabel:`Select MTL file` |open_file| |optional|: if the metadata file "
+"is not included in the :guilabel:`Directory containing Landsat bands`, "
+"select the path of the metadata file in order to fill the "
+":ref:`landsat_metadata` automatically;"
+msgstr ""
+
+#: ../../landsatTab.rst:285
+msgid ""
+"|checkbox| :guilabel:`Brightness temperature in Celsius`: if checked, "
+"convert brightness temperature to Celsius (if a Landsat thermal band is "
+"listed in :ref:`landsat_metadata`); if unchecked temperature is in "
+"Kelvin;"
+msgstr ""
+
+#: ../../landsatTab.rst:286
+msgid ""
+"|checkbox| :guilabel:`Apply DOS1 atmospheric correction`: if checked, the"
+" :ref:`DOS1_correction` is applied to all the bands (thermal bands "
+"excluded);"
+msgstr ""
+
+#: ../../landsatTab.rst:287
+msgid ""
+"|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
+"pixels having ``NoData`` value are not counted during conversion and the "
+"DOS1 calculation of DNmin; it is useful when image has a black border "
+"(usually pixel value = 0);"
+msgstr ""
+
+#: ../../landsatTab.rst:288
+msgid ""
+"|checkbox| :guilabel:`Perform pan-sharpening`: if checked, a Brovey "
+"Transform is applied for the :ref:`pan_sharpening_definition` of Landsat "
+"bands;"
+msgstr ""
+
+#: ../../landsatTab.rst:289
+msgid ""
+"|checkbox| :guilabel:`Create Band set and use Band set tools`: if "
+"checked, bands are added to the active :guilabel:`Band set` after the "
+"conversion; also, the :guilabel:`Band set` is processed according to the "
+"tools checked in the :ref:`band_set_tab`;"
+msgstr ""
+
+#: ../../landsatTab.rst:290
+msgid ""
+"|checkbox| :guilabel:`Add bands in a new Band set`: if checked, bands are"
+" added to a new empty :guilabel:`Band set` after the conversion;"
+msgstr ""
+
+#: ../../landsatTab.rst:295
+msgid "Metadata"
+msgstr ""
+
+#: ../../landsatTab.rst:297
+msgid ""
+"All the bands found in the :guilabel:`Directory containing Landsat bands`"
+" are listed in the table :guilabel:`Metadata`. If the Landsat metadata "
+"file (a .txt or .met file with the suffix MTL) is provided, then "
+":guilabel:`Metadata` are automatically filled. For information about "
+":guilabel:`Metadata` fields read `this page "
+"<http://landsat.usgs.gov/Landsat8_Using_Product.php>`_  and `this one "
+"<http://landsat.usgs.gov/how_is_radiance_calculated.php>`_ ."
+msgstr ""
+
+#: ../../landsatTab.rst:301
+msgid ":guilabel:`Satellite` |input_text|: satellite name (e.g. Landsat8);"
+msgstr ""
+
+#: ../../landsatTab.rst:302
+msgid ":guilabel:`Date` |input_text|: date of acquisition (e.g. 2013-04-15);"
+msgstr ""
+
+#: ../../landsatTab.rst:303
+msgid ":guilabel:`Sun elevation` |input_number|: Sun elevation in degrees;"
+msgstr ""
+
+#: ../../landsatTab.rst:304
+msgid ""
+":guilabel:`Earth sun distance` |input_number|: Earth Sun distance in "
+"astronomical units (automatically calculated if :guilabel:`Date` is "
+"filled;"
+msgstr ""
+
+#: ../../landsatTab.rst:305
+msgid "|remove|: remove highlighted bands from the table :guilabel:`Metadata`;"
+msgstr ""
+
+#: ../../landsatTab.rst:321
+msgid "|input_table| :guilabel:`Metadata`: table containing the following fields;"
+msgstr ""
+
+#: ../../landsatTab.rst:308
+msgid ":guilabel:`Band`: band name;"
+msgstr ""
+
+#: ../../landsatTab.rst:309
+msgid ":guilabel:`RADIANCE_MULT`: multiplicative rescaling factor;"
+msgstr ""
+
+#: ../../landsatTab.rst:310
+msgid ":guilabel:`RADIANCE_ADD`: additive rescaling factor;"
+msgstr ""
+
+#: ../../landsatTab.rst:311
+msgid ":guilabel:`REFLECTANCE_MULT`: multiplicative rescaling factor;"
+msgstr ""
+
+#: ../../landsatTab.rst:312
+msgid ":guilabel:`REFLECTANCE_ADD`: additive rescaling factor;"
+msgstr ""
+
+#: ../../landsatTab.rst:313
+msgid ":guilabel:`RADIANCE_MAXIMUM`: radiance maximum;"
+msgstr ""
+
+#: ../../landsatTab.rst:314
+msgid ":guilabel:`REFLECTANCE_MAXIMUM`: reflectance maximum;"
+msgstr ""
+
+#: ../../landsatTab.rst:315
+msgid ":guilabel:`K1_CONSTANT`: thermal conversion constant;"
+msgstr ""
+
+#: ../../landsatTab.rst:316
+msgid ":guilabel:`K2_CONSTANT`: thermal conversion constant;"
+msgstr ""
+
+#: ../../landsatTab.rst:317
+msgid ":guilabel:`LMAX`: spectral radiance that is scaled to QCALMAX;"
+msgstr ""
+
+#: ../../landsatTab.rst:318
+msgid ":guilabel:`LMIN`: spectral radiance that is scaled to QCALMIN;"
+msgstr ""
+
+#: ../../landsatTab.rst:319
+msgid ":guilabel:`QCALMAX`: minimum quantized calibrated pixel value;"
+msgstr ""
+
+#: ../../landsatTab.rst:320
+msgid ":guilabel:`QCALMIN`: maximum quantized calibrated pixel value;"
+msgstr ""
+
+#: ../../landsatTab.rst:323
+msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../landsatTab.rst:324
+msgid ""
+":guilabel:`RUN` |run|: select an output directory and start the "
+"conversion process; only bands listed in the table :guilabel:`Metadata` "
+"are converted; converted bands are saved in the output directory with the"
+" prefix ``RT_`` and automatically loaded in QGIS;"
+msgstr ""
+

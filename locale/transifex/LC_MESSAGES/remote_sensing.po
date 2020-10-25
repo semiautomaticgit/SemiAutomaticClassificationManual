@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-09 23:52+0200\n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,10 +103,10 @@ msgstr ""
 msgid "``http://commons.wikimedia.org/wiki/File%3AElectromagnetic-Spectrum.svg``"
 msgstr ""
 
-#: ../../remote_sensing.rst:58 ../../remote_sensing.rst:1101
-#: ../../remote_sensing.rst:1269 ../../remote_sensing.rst:1341
-#: ../../remote_sensing.rst:1355 ../../remote_sensing.rst:1398
-#: ../../remote_sensing.rst:1402 ../../remote_sensing.rst:1469
+#: ../../remote_sensing.rst:58 ../../remote_sensing.rst:1273
+#: ../../remote_sensing.rst:1441 ../../remote_sensing.rst:1513
+#: ../../remote_sensing.rst:1527 ../../remote_sensing.rst:1570
+#: ../../remote_sensing.rst:1574 ../../remote_sensing.rst:1641
 msgid "|br|"
 msgstr ""
 
@@ -289,10 +289,12 @@ msgstr ""
 #: ../../remote_sensing.rst:142 ../../remote_sensing.rst:164
 #: ../../remote_sensing.rst:188 ../../remote_sensing.rst:228
 #: ../../remote_sensing.rst:329 ../../remote_sensing.rst:375
+#: ../../remote_sensing.rst:431
 msgid "Resolution [meters]"
 msgstr ""
 
 #: ../../remote_sensing.rst:144 ../../remote_sensing.rst:166
+#: ../../remote_sensing.rst:433
 msgid "Band 1 - Blue"
 msgstr ""
 
@@ -343,6 +345,7 @@ msgid "0.76 - 0.90"
 msgstr ""
 
 #: ../../remote_sensing.rst:152 ../../remote_sensing.rst:174
+#: ../../remote_sensing.rst:441
 msgid "Band 5 - SWIR"
 msgstr ""
 
@@ -555,6 +558,7 @@ msgid "Sentinel-2 Bands"
 msgstr ""
 
 #: ../../remote_sensing.rst:228 ../../remote_sensing.rst:271
+#: ../../remote_sensing.rst:431
 msgid "Central Wavelength  [micrometers]"
 msgstr ""
 
@@ -573,7 +577,7 @@ msgstr ""
 
 #: ../../remote_sensing.rst:232 ../../remote_sensing.rst:234
 #: ../../remote_sensing.rst:236 ../../remote_sensing.rst:244
-#: ../../remote_sensing.rst:1306
+#: ../../remote_sensing.rst:1478
 msgid "10"
 msgstr ""
 
@@ -873,7 +877,7 @@ msgstr ""
 msgid "Band 1 - Green"
 msgstr ""
 
-#: ../../remote_sensing.rst:333
+#: ../../remote_sensing.rst:333 ../../remote_sensing.rst:435
 msgid "Band 2 - Red"
 msgstr ""
 
@@ -1040,7 +1044,7 @@ msgstr ""
 
 #: ../../remote_sensing.rst:381 ../../remote_sensing.rst:383
 #: ../../remote_sensing.rst:385 ../../remote_sensing.rst:387
-#: ../../remote_sensing.rst:389
+#: ../../remote_sensing.rst:389 ../../remote_sensing.rst:435
 msgid "500"
 msgstr ""
 
@@ -1127,19 +1131,352 @@ msgid ""
 "8-day period);"
 msgstr ""
 
-#: ../../remote_sensing.rst:414
-msgid "Land Cover Classification"
+#: ../../remote_sensing.rst:413
+msgid "GOES Products"
 msgstr ""
 
-#: ../../remote_sensing.rst:416
-msgid "This chapter provides basic definitions about land cover classifications."
+#: ../../remote_sensing.rst:415
+msgid ""
+"The **Geostationary Operational Environmental Satellite-R Series** "
+"(**GOES-R**) are geostationary satellites developed for weather "
+"monitoring by the National Oceanic and Atmospheric Administration (NOAA) "
+"and the NASA (NOAA, 2020)."
+msgstr ""
+
+#: ../../remote_sensing.rst:417
+msgid ""
+"GOES constellation is composed of **GOES-R** satellite (also known as "
+"GOES-16 that replaced GOES-13 on December 2017), and **GOES-S** satellite"
+" (also known as GOES-17, operational since February 2019). Other "
+"satellites (GOES-T and GOES-U) are planned to be launched in the future. "
+"For more information please visit "
+"https://www.goes-r.gov/mission/mission.html ."
 msgstr ""
 
 #: ../../remote_sensing.rst:421
+msgid ""
+"GOES geostationary satellites monitor continuously the same area, a very "
+"large portion of Earth surface with three geographic  coverage regions: "
+"Full Disk, Continental United States (CONUS), and Mesoscale. In "
+"particular, Full Disk products have hemispheric coverage of 83° local "
+"zenith angle, and images are acquired every 5-15 minutes. GOES-16 "
+"monitors from 75.2 degrees west longitude, including America, the "
+"Atlantic Ocean, and the west coast of Africa. GOES-17 monitors from 137.2"
+" degrees west longitude, including the Pacific Ocean."
+msgstr ""
+
+#: ../../remote_sensing.rst:426
+msgid ""
+"GOES sensors include several spectral bands; the following table "
+"describes the bands downloaded using :guilabel:`SCP`."
+msgstr ""
+
+#: ../../remote_sensing.rst:428
+msgid ":guilabel:`GOES Bands`"
+msgstr ""
+
+#: ../../remote_sensing.rst:431
+msgid "GOES Bands"
+msgstr ""
+
+#: ../../remote_sensing.rst:433
+msgid "0.47"
+msgstr ""
+
+#: ../../remote_sensing.rst:433 ../../remote_sensing.rst:437
+#: ../../remote_sensing.rst:441
+msgid "1000"
+msgstr ""
+
+#: ../../remote_sensing.rst:435
+msgid "0.64"
+msgstr ""
+
+#: ../../remote_sensing.rst:437
+msgid "Band 3 - Near Infrared (NIR)"
+msgstr ""
+
+#: ../../remote_sensing.rst:437
+msgid "0.87"
+msgstr ""
+
+#: ../../remote_sensing.rst:439
+msgid "Band 4 - SWIR - Cirrus"
+msgstr ""
+
+#: ../../remote_sensing.rst:439
+msgid "1.38"
+msgstr ""
+
+#: ../../remote_sensing.rst:439 ../../remote_sensing.rst:443
+msgid "2000"
+msgstr ""
+
+#: ../../remote_sensing.rst:441
+msgid "1.61"
+msgstr ""
+
+#: ../../remote_sensing.rst:443
+msgid "Band 6 - SWIR"
+msgstr ""
+
+#: ../../remote_sensing.rst:443
+msgid "2.25"
+msgstr ""
+
+#: ../../remote_sensing.rst:450
+msgid "SAR satellites"
+msgstr ""
+
+#: ../../remote_sensing.rst:452
+msgid ""
+"**Synthetic Aperture Radar** (SAR) is a technique of active remote "
+"sensing that is the sensor platform emits microwaves in order to acquire "
+"images of the ground (Richards and Jia, 2006). In fact, the sensor "
+"platform emits the radiation (at a specific wavelength) and measures the "
+"magnitude and the phase of radiation that bounces back from the ground to"
+" the sensor."
+msgstr ""
+
+#: ../../remote_sensing.rst:455
+msgid ""
+"Unlike passive sensors, SAR systems can work day and night and can "
+"penetrate clouds allowing for the monitoring of surface also with adverse"
+" meteorological conditions; depending on the microwave wavelength, the "
+"radiation can penetrate different types of materials allowing for "
+"different applications (NASA, 2020)."
+msgstr ""
+
+#: ../../remote_sensing.rst:457
+msgid ""
+"The main SAR systems can be divided according to the wavelength as "
+"illustrated in the following table (NASA, 2020):"
+msgstr ""
+
+#: ../../remote_sensing.rst:459
+msgid ":guilabel:`Main SAR Bands`"
+msgstr ""
+
+#: ../../remote_sensing.rst:462 ../../remote_sensing.rst:1418
+#: ../../remote_sensing.rst:1456 ../../remote_sensing.rst:1491
+msgid "Band"
+msgstr ""
+
+#: ../../remote_sensing.rst:462
+msgid "Wavelength [centimeters]"
+msgstr ""
+
+#: ../../remote_sensing.rst:462
+msgid "Application"
+msgstr ""
+
+#: ../../remote_sensing.rst:464
+msgid "X"
+msgstr ""
+
+#: ../../remote_sensing.rst:464
+msgid "3.8 – 2.4"
+msgstr ""
+
+#: ../../remote_sensing.rst:464
+msgid ""
+"High Resolution SAR, urban monitoring, ice and snow, little penetration "
+"into vegetation cover"
+msgstr ""
+
+#: ../../remote_sensing.rst:466
+msgid "C"
+msgstr ""
+
+#: ../../remote_sensing.rst:466
+msgid "7.5 – 3.8"
+msgstr ""
+
+#: ../../remote_sensing.rst:466
+msgid ""
+"global mapping, change detection, ice, low penetration into vegetation "
+"cover"
+msgstr ""
+
+#: ../../remote_sensing.rst:468
+msgid "S"
+msgstr ""
+
+#: ../../remote_sensing.rst:468
+msgid "15 – 7.5"
+msgstr ""
+
+#: ../../remote_sensing.rst:468
+msgid ""
+"global mapping, agriculture monitoring, medium penetration into "
+"vegetation cover"
+msgstr ""
+
+#: ../../remote_sensing.rst:470
+msgid "L"
+msgstr ""
+
+#: ../../remote_sensing.rst:470
+msgid "30 – 15"
+msgstr ""
+
+#: ../../remote_sensing.rst:470
+msgid ""
+"Medium resolution SAR, biomass and vegetation mapping, high penetration "
+"into vegetation cover"
+msgstr ""
+
+#: ../../remote_sensing.rst:474
+msgid ""
+"Usually, SAR sensors can emit and measure different polarizations (i.e. "
+"orientation of the microwaves of the electric field), for instance "
+"vertical (i.e. polarization oriented in the vertical direction in antenna"
+" coordinates) and horizontal (i.e. polarization oriented in the "
+"horizontal direction in antenna coordinates) (ESA, 2020)."
+msgstr ""
+
+#: ../../remote_sensing.rst:476
+msgid ""
+"SAR systems can acquire in both ascending and descending orbits, however "
+"the acquired images are affected by the different acquisition geometries,"
+" which should be considered when mixing ascending and descending images."
+msgstr ""
+
+#: ../../remote_sensing.rst:478
+msgid ""
+"Acquisitions are called ``swaths`` and usually they are composed of sub-"
+"swaths. With particular acquisition modes, the resolution of pixels along"
+" track (the side parallel to the flight direction) can be different than "
+"slant-range (the side perpendicular to the flight direction)."
+msgstr ""
+
+#: ../../remote_sensing.rst:481
+msgid ""
+"SAR phase information is used to perform interferometry (also InSAR) to "
+"measure the distance from the sensor to the target (NASA, 2020)."
+msgstr ""
+
+#: ../../remote_sensing.rst:483
+msgid ""
+"For more information, please read the `ESA introduction to SAR "
+"<https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Onboard_Data_Processing/Introduction_to_a_SAR_System>`_"
+" and the `NASA definition of SAR <https://earthdata.nasa.gov/learn/what-"
+"is-sar>`_ ."
+msgstr ""
+
+#: ../../remote_sensing.rst:488
+msgid "Sentinel-1 Satellites"
+msgstr ""
+
+#: ../../remote_sensing.rst:490
+msgid ""
+"**Sentinel-1** is a `Copernicus mission "
+"<https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar>`_ of "
+"satellites that operate at C-band to provide SAR imagery at medium "
+"resolution (about 10m)."
+msgstr ""
+
+#: ../../remote_sensing.rst:492
+msgid ""
+"The Sentinel-1 constellation provides high revisit time (about 5 days), a"
+" wide swath (250 km), and acquires images in different operational modes."
+" The primary operation mode on land is the Interferometric Wide swath "
+"(IW), which is data is acquired in three swaths using the Terrain "
+"Observation with Progressive Scanning SAR (TOPSAR) imaging technique "
+"(ESA, 2020b)."
+msgstr ""
+
+#: ../../remote_sensing.rst:495
+msgid ""
+"The Level-1 products systematically delivered by Copernicus are Single "
+"Look Complex (SLC, data comprising complex imagery with amplitude and "
+"phase) and **Ground Range Detected** (GRD, Level-1 data with multi-looked"
+" intensity only)."
+msgstr ""
+
+#: ../../remote_sensing.rst:497
+msgid ""
+"Sentinel-1 supports dual polarization, which are horizontal (H) or "
+"vertical (V); VV and VH polarimetric channels are available to classify "
+"and analyze land cover such as built-up areas or vegetation."
+msgstr ""
+
+#: ../../remote_sensing.rst:502
+msgid "Sentinel-1 preprocessing"
+msgstr ""
+
+#: ../../remote_sensing.rst:504
+msgid ""
+":guilabel:`SCP` preprocesses Sentinel-1 GRD images performing basically "
+"the same methodology applied for the images included in `Google Earth "
+"Engine <https://developers.google.com/earth-"
+"engine/datasets/catalog/COPERNICUS_S1_GRD>`_ ."
+msgstr ""
+
+#: ../../remote_sensing.rst:506
+msgid "The preprocessing comprises the following phases:"
+msgstr ""
+
+#: ../../remote_sensing.rst:508
+msgid "Application of the orbit file;"
+msgstr ""
+
+#: ../../remote_sensing.rst:510
+msgid "Removal of GRD border noise for low intensity and invalid data;"
+msgstr ""
+
+#: ../../remote_sensing.rst:512
+msgid "Removal of thermal noise to reduce discontinuities between sub-swaths;"
+msgstr ""
+
+#: ../../remote_sensing.rst:514
+msgid "Calculation of backscatter intensity using radiometric calibration;"
+msgstr ""
+
+#: ../../remote_sensing.rst:516
+msgid "Orthorectification (terrain correction) using the SRTM 30 meter DEM;"
+msgstr ""
+
+#: ../../remote_sensing.rst:518
+msgid "Conversion of backscatter coefficient to dB."
+msgstr ""
+
+#: ../../remote_sensing.rst:521
+msgid ""
+"These processes are performed through the SNAP Graph Processing Tool "
+"(GPT) and a graph file .xml . Therefore, SCP requires ESA SNAP to perform"
+" the preprocessing. For the installation of ESA SNAP, please visit this "
+"page http://step.esa.int/main/download/snap-download/ ."
+msgstr ""
+
+#: ../../remote_sensing.rst:525
+msgid ""
+"The path to the SNAP gpt executable must be entered in settings "
+":ref:`settings_processing_tab`. Usually ``C:/snap/bin/gpt.exe`` for "
+"Windows, ``/Applications/snap/bin/gpt`` for Mac, and "
+"``/usr/local/snap/bin/gpt`` for Linux."
+msgstr ""
+
+#: ../../remote_sensing.rst:528
+msgid ""
+"It is also possible to use custom graph files and select to project the "
+"raster to the same coordinate reference system as a band set (default WGS"
+" 84)."
+msgstr ""
+
+#: ../../remote_sensing.rst:534
+msgid "Land Cover Classification"
+msgstr ""
+
+#: ../../remote_sensing.rst:536
+msgid "This chapter provides basic definitions about land cover classifications."
+msgstr ""
+
+#: ../../remote_sensing.rst:541
 msgid "Supervised Classification"
 msgstr ""
 
-#: ../../remote_sensing.rst:423
+#: ../../remote_sensing.rst:543
 msgid ""
 "A **semi-automatic classification** (also supervised classification) is "
 "an image processing technique that allows for the identification of "
@@ -1148,27 +1485,27 @@ msgid ""
 " produce a thematic map of the land cover."
 msgstr ""
 
-#: ../../remote_sensing.rst:425
+#: ../../remote_sensing.rst:545
 msgid ""
 "Image processing and GIS spatial analyses require specific software such "
 "as the Semi-Automatic Classification Plugin for QGIS."
 msgstr ""
 
-#: ../../remote_sensing.rst:430
+#: ../../remote_sensing.rst:550
 msgid ""
 ":guilabel:`A multispectral image processed to produce a land cover "
 "classification`"
 msgstr ""
 
-#: ../../remote_sensing.rst:432
+#: ../../remote_sensing.rst:552
 msgid "``(Landsat image provided by USGS)``"
 msgstr ""
 
-#: ../../remote_sensing.rst:437
+#: ../../remote_sensing.rst:557
 msgid "Color Composite"
 msgstr ""
 
-#: ../../remote_sensing.rst:439
+#: ../../remote_sensing.rst:559
 msgid ""
 "Often, a combination is created of three individual monochrome images, in"
 " which each is assigned a given color; this is defined **color "
@@ -1176,46 +1513,46 @@ msgid ""
 "composites are usually expressed as:"
 msgstr ""
 
-#: ../../remote_sensing.rst:441
+#: ../../remote_sensing.rst:561
 msgid "*\"R G B = Br Bg Bb\"*"
 msgstr ""
 
-#: ../../remote_sensing.rst:443 ../../remote_sensing.rst:551
-#: ../../remote_sensing.rst:562 ../../remote_sensing.rst:590
-#: ../../remote_sensing.rst:645 ../../remote_sensing.rst:759
-#: ../../remote_sensing.rst:764 ../../remote_sensing.rst:803
-#: ../../remote_sensing.rst:822 ../../remote_sensing.rst:924
-#: ../../remote_sensing.rst:1126 ../../remote_sensing.rst:1145
-#: ../../remote_sensing.rst:1174 ../../remote_sensing.rst:1196
-#: ../../remote_sensing.rst:1375 ../../remote_sensing.rst:1442
+#: ../../remote_sensing.rst:563 ../../remote_sensing.rst:671
+#: ../../remote_sensing.rst:682 ../../remote_sensing.rst:710
+#: ../../remote_sensing.rst:765 ../../remote_sensing.rst:931
+#: ../../remote_sensing.rst:936 ../../remote_sensing.rst:975
+#: ../../remote_sensing.rst:994 ../../remote_sensing.rst:1096
+#: ../../remote_sensing.rst:1298 ../../remote_sensing.rst:1317
+#: ../../remote_sensing.rst:1346 ../../remote_sensing.rst:1368
+#: ../../remote_sensing.rst:1547 ../../remote_sensing.rst:1614
 msgid "where:"
 msgstr ""
 
-#: ../../remote_sensing.rst:445
+#: ../../remote_sensing.rst:565
 msgid "R stands for Red;"
 msgstr ""
 
-#: ../../remote_sensing.rst:447
+#: ../../remote_sensing.rst:567
 msgid "G stands for Green;"
 msgstr ""
 
-#: ../../remote_sensing.rst:449
+#: ../../remote_sensing.rst:569
 msgid "B stands for Blue;"
 msgstr ""
 
-#: ../../remote_sensing.rst:451
+#: ../../remote_sensing.rst:571
 msgid "Br is the band number associated to the Red color;"
 msgstr ""
 
-#: ../../remote_sensing.rst:453
+#: ../../remote_sensing.rst:573
 msgid "Bg is the band number associated to the Green color;"
 msgstr ""
 
-#: ../../remote_sensing.rst:455
+#: ../../remote_sensing.rst:575
 msgid "Bb is the band number associated to the Blue color."
 msgstr ""
 
-#: ../../remote_sensing.rst:457
+#: ../../remote_sensing.rst:577
 msgid ""
 "The following Figure :ref:`figCC` shows a color composite \"R G B = 4 3 "
 "2\" of a Landsat 8 image (for Landsat 7 the same color composite is R G B"
@@ -1228,20 +1565,20 @@ msgid ""
 " 5, thus higher values for the associated color red)."
 msgstr ""
 
-#: ../../remote_sensing.rst:464
+#: ../../remote_sensing.rst:584
 msgid ":guilabel:`Color composite of a Landsat 8 image`"
 msgstr ""
 
-#: ../../remote_sensing.rst:466 ../../remote_sensing.rst:844
-#: ../../remote_sensing.rst:976
+#: ../../remote_sensing.rst:586 ../../remote_sensing.rst:1016
+#: ../../remote_sensing.rst:1148
 msgid "``Data available from the U.S. Geological Survey``"
 msgstr ""
 
-#: ../../remote_sensing.rst:471
+#: ../../remote_sensing.rst:591
 msgid "Training Areas"
 msgstr ""
 
-#: ../../remote_sensing.rst:473
+#: ../../remote_sensing.rst:593
 msgid ""
 "Usually, supervised classifications require the user to select one or "
 "more Regions of Interest (ROIs, also Training Areas) for each land cover "
@@ -1250,11 +1587,11 @@ msgid ""
 "land cover class."
 msgstr ""
 
-#: ../../remote_sensing.rst:479
+#: ../../remote_sensing.rst:599
 msgid "Region Growing Algorithm"
 msgstr ""
 
-#: ../../remote_sensing.rst:481
+#: ../../remote_sensing.rst:601
 msgid ""
 "The Region Growing Algorithm allows to select pixels similar to a seed "
 "one, considering the **spectral similarity** (i.e. spectral distance) of "
@@ -1271,7 +1608,7 @@ msgid ""
 "size."
 msgstr ""
 
-#: ../../remote_sensing.rst:487
+#: ../../remote_sensing.rst:607
 msgid ""
 "In figure :ref:`figRegionGrowing_example` the central pixel is used as "
 "seed (image a) for the region growing of one band (image b) with the "
@@ -1279,15 +1616,15 @@ msgid ""
 "the training area (image c and image d)."
 msgstr ""
 
-#: ../../remote_sensing.rst:494
+#: ../../remote_sensing.rst:614
 msgid ":guilabel:`Region growing example`"
 msgstr ""
 
-#: ../../remote_sensing.rst:499
+#: ../../remote_sensing.rst:619
 msgid "Classes and Macroclasses"
 msgstr ""
 
-#: ../../remote_sensing.rst:501
+#: ../../remote_sensing.rst:621
 msgid ""
 "Land cover classes are identified with an arbitrary ID code (i.e. "
 "Identifier). :guilabel:`SCP` allows for the definition of **Macroclass "
@@ -1303,94 +1640,94 @@ msgid ""
 "the following table."
 msgstr ""
 
-#: ../../remote_sensing.rst:507
+#: ../../remote_sensing.rst:627
 msgid ":guilabel:`Example of Macroclasses`"
 msgstr ""
 
-#: ../../remote_sensing.rst:510
+#: ../../remote_sensing.rst:630
 msgid "Macroclass name"
 msgstr ""
 
-#: ../../remote_sensing.rst:510
+#: ../../remote_sensing.rst:630
 msgid "Macroclass ID"
 msgstr ""
 
-#: ../../remote_sensing.rst:510
+#: ../../remote_sensing.rst:630
 msgid "Class name"
 msgstr ""
 
-#: ../../remote_sensing.rst:510
+#: ../../remote_sensing.rst:630
 msgid "Class ID"
 msgstr ""
 
-#: ../../remote_sensing.rst:512 ../../remote_sensing.rst:514
+#: ../../remote_sensing.rst:632 ../../remote_sensing.rst:634
 msgid "Vegetation"
 msgstr ""
 
-#: ../../remote_sensing.rst:512 ../../remote_sensing.rst:514
-#: ../../remote_sensing.rst:1248 ../../remote_sensing.rst:1286
-#: ../../remote_sensing.rst:1321
+#: ../../remote_sensing.rst:632 ../../remote_sensing.rst:634
+#: ../../remote_sensing.rst:1420 ../../remote_sensing.rst:1458
+#: ../../remote_sensing.rst:1493
 msgid "1"
 msgstr ""
 
-#: ../../remote_sensing.rst:512 ../../remote_sensing.rst:1462
+#: ../../remote_sensing.rst:632 ../../remote_sensing.rst:1634
 msgid "Grass"
 msgstr ""
 
-#: ../../remote_sensing.rst:514
+#: ../../remote_sensing.rst:634
 msgid "Trees"
 msgstr ""
 
-#: ../../remote_sensing.rst:514 ../../remote_sensing.rst:516
-#: ../../remote_sensing.rst:518 ../../remote_sensing.rst:1250
-#: ../../remote_sensing.rst:1288 ../../remote_sensing.rst:1323
+#: ../../remote_sensing.rst:634 ../../remote_sensing.rst:636
+#: ../../remote_sensing.rst:638 ../../remote_sensing.rst:1422
+#: ../../remote_sensing.rst:1460 ../../remote_sensing.rst:1495
 msgid "2"
 msgstr ""
 
-#: ../../remote_sensing.rst:516 ../../remote_sensing.rst:518
+#: ../../remote_sensing.rst:636 ../../remote_sensing.rst:638
 msgid "Built-up"
 msgstr ""
 
-#: ../../remote_sensing.rst:516
+#: ../../remote_sensing.rst:636
 msgid "Buildings"
 msgstr ""
 
-#: ../../remote_sensing.rst:516 ../../remote_sensing.rst:1252
-#: ../../remote_sensing.rst:1290 ../../remote_sensing.rst:1325
+#: ../../remote_sensing.rst:636 ../../remote_sensing.rst:1424
+#: ../../remote_sensing.rst:1462 ../../remote_sensing.rst:1497
 msgid "3"
 msgstr ""
 
-#: ../../remote_sensing.rst:518
+#: ../../remote_sensing.rst:638
 msgid "Roads"
 msgstr ""
 
-#: ../../remote_sensing.rst:518 ../../remote_sensing.rst:1254
-#: ../../remote_sensing.rst:1292 ../../remote_sensing.rst:1327
+#: ../../remote_sensing.rst:638 ../../remote_sensing.rst:1426
+#: ../../remote_sensing.rst:1464 ../../remote_sensing.rst:1499
 msgid "4"
 msgstr ""
 
-#: ../../remote_sensing.rst:521
+#: ../../remote_sensing.rst:641
 msgid ""
 "Therefore, Classes are subsets of a Macroclass as illustrated in Figure "
 ":ref:`figMC_example`."
 msgstr ""
 
-#: ../../remote_sensing.rst:528
+#: ../../remote_sensing.rst:648
 msgid ":guilabel:`Macroclass example`"
 msgstr ""
 
-#: ../../remote_sensing.rst:530
+#: ../../remote_sensing.rst:650
 msgid ""
 "If the use of Macroclass is not required for the study purpose, then the "
 "same Macroclass ID can be defined for all the ROIs (e.g. Macroclass ID = "
 "1) and Macroclass values are ignored in the classification process."
 msgstr ""
 
-#: ../../remote_sensing.rst:535
+#: ../../remote_sensing.rst:655
 msgid "Classification Algorithms"
 msgstr ""
 
-#: ../../remote_sensing.rst:537
+#: ../../remote_sensing.rst:657
 msgid ""
 "The **spectral signatures** (spectral characteristics) of reference land "
 "cover classes are calculated considering the values of pixels under each "
@@ -1401,34 +1738,34 @@ msgid ""
 "classification algorithms."
 msgstr ""
 
-#: ../../remote_sensing.rst:544
+#: ../../remote_sensing.rst:664
 msgid "Minimum Distance"
 msgstr ""
 
-#: ../../remote_sensing.rst:546
+#: ../../remote_sensing.rst:666
 msgid ""
 "Minimum Distance algorithm calculates the Euclidean distance :math:`d(x, "
 "y)` between spectral signatures of image pixels and training spectral "
 "signatures, according to the following equation:"
 msgstr ""
 
-#: ../../remote_sensing.rst:553 ../../remote_sensing.rst:636
-#: ../../remote_sensing.rst:786
+#: ../../remote_sensing.rst:673 ../../remote_sensing.rst:756
+#: ../../remote_sensing.rst:958
 msgid ":math:`x` = spectral signature vector of an image pixel;"
 msgstr ""
 
-#: ../../remote_sensing.rst:554 ../../remote_sensing.rst:637
-#: ../../remote_sensing.rst:787
+#: ../../remote_sensing.rst:674 ../../remote_sensing.rst:757
+#: ../../remote_sensing.rst:959
 msgid ":math:`y` = spectral signature vector of a training area;"
 msgstr ""
 
-#: ../../remote_sensing.rst:555 ../../remote_sensing.rst:638
-#: ../../remote_sensing.rst:788 ../../remote_sensing.rst:807
-#: ../../remote_sensing.rst:826
+#: ../../remote_sensing.rst:675 ../../remote_sensing.rst:758
+#: ../../remote_sensing.rst:960 ../../remote_sensing.rst:979
+#: ../../remote_sensing.rst:998
 msgid ":math:`n` = number of image bands."
 msgstr ""
 
-#: ../../remote_sensing.rst:557
+#: ../../remote_sensing.rst:677
 msgid ""
 "Therefore, the distance is calculated for every pixel in the image, "
 "assigning the class of the spectral signature that is closer, according "
@@ -1436,30 +1773,30 @@ msgid ""
 "2006):"
 msgstr ""
 
-#: ../../remote_sensing.rst:564 ../../remote_sensing.rst:592
-#: ../../remote_sensing.rst:647
+#: ../../remote_sensing.rst:684 ../../remote_sensing.rst:712
+#: ../../remote_sensing.rst:767
 msgid ":math:`C_k` = land cover class :math:`k`;"
 msgstr ""
 
-#: ../../remote_sensing.rst:565 ../../remote_sensing.rst:648
+#: ../../remote_sensing.rst:685 ../../remote_sensing.rst:768
 msgid ":math:`y_k` = spectral signature of class :math:`k`;"
 msgstr ""
 
-#: ../../remote_sensing.rst:566 ../../remote_sensing.rst:649
+#: ../../remote_sensing.rst:686 ../../remote_sensing.rst:769
 msgid ":math:`y_j` = spectral signature of class :math:`j`."
 msgstr ""
 
-#: ../../remote_sensing.rst:568
+#: ../../remote_sensing.rst:688
 msgid ""
 "It is possible to define a threshold :math:`T_i` in order to exclude "
 "pixels below this value from the classification:"
 msgstr ""
 
-#: ../../remote_sensing.rst:580
+#: ../../remote_sensing.rst:700
 msgid "Maximum Likelihood"
 msgstr ""
 
-#: ../../remote_sensing.rst:582
+#: ../../remote_sensing.rst:702
 msgid ""
 "Maximum Likelihood algorithm calculates the probability distributions for"
 " the classes, related to Bayes’ theorem, estimating if a pixel belongs to"
@@ -1471,37 +1808,37 @@ msgid ""
 "described by Richards and Jia (2006), is calculated for every pixel as:"
 msgstr ""
 
-#: ../../remote_sensing.rst:593
+#: ../../remote_sensing.rst:713
 msgid ":math:`x` = spectral signature vector of a image pixel;"
 msgstr ""
 
-#: ../../remote_sensing.rst:594
+#: ../../remote_sensing.rst:714
 msgid ":math:`p(C_k)` = probability that the correct class is :math:`C_k`;"
 msgstr ""
 
-#: ../../remote_sensing.rst:595
+#: ../../remote_sensing.rst:715
 msgid ""
 ":math:`| \\Sigma_{k} |` = determinant of the covariance matrix of the "
 "data in class :math:`C_k`;"
 msgstr ""
 
-#: ../../remote_sensing.rst:596
+#: ../../remote_sensing.rst:716
 msgid ":math:`\\Sigma_{k}^{-1}` = inverse of the covariance matrix;"
 msgstr ""
 
-#: ../../remote_sensing.rst:597
+#: ../../remote_sensing.rst:717
 msgid ":math:`y_k` = spectral signature vector of class :math:`k`."
 msgstr ""
 
-#: ../../remote_sensing.rst:599
+#: ../../remote_sensing.rst:719
 msgid "Therefore:"
 msgstr ""
 
-#: ../../remote_sensing.rst:609
+#: ../../remote_sensing.rst:729
 msgid ":guilabel:`Maximum Likelihood example`"
 msgstr ""
 
-#: ../../remote_sensing.rst:611
+#: ../../remote_sensing.rst:731
 msgid ""
 "In addition, it is possible to define a threshold to the discriminant "
 "function in order to exclude pixels below this value from the "
@@ -1509,53 +1846,53 @@ msgid ""
 "condition becomes:"
 msgstr ""
 
-#: ../../remote_sensing.rst:621
+#: ../../remote_sensing.rst:741
 msgid ""
 "Maximum likelihood is one of the most common supervised classifications, "
 "however the classification process can be slower than "
 ":ref:`minimum_distance_algorithm`."
 msgstr ""
 
-#: ../../remote_sensing.rst:626
+#: ../../remote_sensing.rst:746
 msgid "Spectral Angle Mapping"
 msgstr ""
 
-#: ../../remote_sensing.rst:628
+#: ../../remote_sensing.rst:748
 msgid ""
 "The Spectral Angle Mapping calculates the spectral angle between spectral"
 " signatures of image pixels and training spectral signatures. The "
 "spectral angle :math:`\\theta` is defined as (Kruse et al., 1993):"
 msgstr ""
 
-#: ../../remote_sensing.rst:634 ../../remote_sensing.rst:784
+#: ../../remote_sensing.rst:754 ../../remote_sensing.rst:956
 msgid "Where:"
 msgstr ""
 
-#: ../../remote_sensing.rst:640
+#: ../../remote_sensing.rst:760
 msgid "Therefore a pixel belongs to the class having the lowest angle, that is:"
 msgstr ""
 
-#: ../../remote_sensing.rst:656
+#: ../../remote_sensing.rst:776
 msgid ":guilabel:`Spectral Angle Mapping example`"
 msgstr ""
 
-#: ../../remote_sensing.rst:658
+#: ../../remote_sensing.rst:778
 msgid ""
 "In order to exclude pixels below this value from the classification it is"
 " possible to define a threshold :math:`T_i`:"
 msgstr ""
 
-#: ../../remote_sensing.rst:667
+#: ../../remote_sensing.rst:787
 msgid ""
 "Spectral Angle Mapping is largely used, especially with hyperspectral "
 "data."
 msgstr ""
 
-#: ../../remote_sensing.rst:672
+#: ../../remote_sensing.rst:792
 msgid "Parallelepiped Classification"
 msgstr ""
 
-#: ../../remote_sensing.rst:674
+#: ../../remote_sensing.rst:794
 msgid ""
 "Parallelepiped classification is an algorithm that considers a range of "
 "values for each band, forming a multidimensional parallelepiped that "
@@ -1565,11 +1902,11 @@ msgid ""
 "parallelepipeds cannot be classified (Richards and Jia, 2006)."
 msgstr ""
 
-#: ../../remote_sensing.rst:681
+#: ../../remote_sensing.rst:801
 msgid "Land Cover Signature Classification"
 msgstr ""
 
-#: ../../remote_sensing.rst:683
+#: ../../remote_sensing.rst:803
 msgid ""
 ":guilabel:`Land Cover Signature Classification` is available in "
 ":guilabel:`SCP` (see :ref:`LCS_classification`). This classification "
@@ -1579,7 +1916,7 @@ msgid ""
 "belonging to a certain land cover class."
 msgstr ""
 
-#: ../../remote_sensing.rst:687
+#: ../../remote_sensing.rst:807
 msgid ""
 "Spectral signatures of image pixels are compared to the training spectral"
 " signatures; a pixel belongs to ``class X`` if pixel spectral signature "
@@ -1591,7 +1928,7 @@ msgid ""
 "considering the spectral characteristics of the original input signature."
 msgstr ""
 
-#: ../../remote_sensing.rst:690
+#: ../../remote_sensing.rst:810
 msgid ""
 "In the following image, a scheme illustrates the :guilabel:`Land Cover "
 "Signature Classification` for a simple case of two spectral bands "
@@ -1608,11 +1945,11 @@ msgid ""
 "could be extended to include point :math:`p_4` ."
 msgstr ""
 
-#: ../../remote_sensing.rst:702
+#: ../../remote_sensing.rst:822
 msgid ":guilabel:`Land cover signature classification`"
 msgstr ""
 
-#: ../../remote_sensing.rst:704
+#: ../../remote_sensing.rst:824
 msgid ""
 "This is similar to :ref:`parallelepiped_classiﬁcation`, with the "
 "exception that spectral regions are defined by user, and can be assigned "
@@ -1621,7 +1958,7 @@ msgid ""
 "one class."
 msgstr ""
 
-#: ../../remote_sensing.rst:707
+#: ../../remote_sensing.rst:827
 msgid ""
 "In figure :ref:`figLCS_plot` the spectral ranges of three classes "
 "(:math:`g_a`, :math:`g_b`, and :math:`g_c`) are displayed; the colored "
@@ -1635,11 +1972,11 @@ msgid ""
 " to class :math:`g_a`."
 msgstr ""
 
-#: ../../remote_sensing.rst:715
+#: ../../remote_sensing.rst:835
 msgid ":guilabel:`Plot of spectral ranges`"
 msgstr ""
 
-#: ../../remote_sensing.rst:717
+#: ../../remote_sensing.rst:837
 msgid ""
 "It is worth noticing that these spectral thresholds can be applied to any"
 " spectral signature, regardless of spectral characteristics thereof; this"
@@ -1655,7 +1992,7 @@ msgid ""
 ":ref:`figLCS_plot` could not exist)."
 msgstr ""
 
-#: ../../remote_sensing.rst:721
+#: ../../remote_sensing.rst:841
 msgid ""
 "One of the main benefit of the :guilabel:`Land Cover Signature "
 "Classification` is that it is possible to select pixels and and include "
@@ -1667,18 +2004,18 @@ msgid ""
 "purpose of the classification."
 msgstr ""
 
-#: ../../remote_sensing.rst:727
+#: ../../remote_sensing.rst:847
 msgid "Algorithm raster"
 msgstr ""
 
-#: ../../remote_sensing.rst:729
+#: ../../remote_sensing.rst:849
 msgid ""
 "An algorithm raster represents the \"distance\" (according to the "
 "definition of the classification algorithm) of an image pixel to a "
 "specific spectral signature."
 msgstr ""
 
-#: ../../remote_sensing.rst:731
+#: ../../remote_sensing.rst:851
 msgid ""
 "In general, an algorithm raster is produced for every spectral signature "
 "used as training input. The value of every pixel is the result of the "
@@ -1690,7 +2027,7 @@ msgid ""
 ":ref:`max_likelihood_algorithm`)."
 msgstr ""
 
-#: ../../remote_sensing.rst:735
+#: ../../remote_sensing.rst:855
 msgid ""
 "Given a classification, a combination of algorithm rasters can be "
 "produced, in order to create a raster with the lowest \"distances\" (i.e."
@@ -1700,11 +2037,124 @@ msgid ""
 "signatures (see :ref:`classification_preview`)."
 msgstr ""
 
-#: ../../remote_sensing.rst:741
+#: ../../remote_sensing.rst:861
+msgid "Machine Learning"
+msgstr ""
+
+#: ../../remote_sensing.rst:863
+msgid ""
+"`Machine Learning <https://en.wikipedia.org/wiki/Machine_learning>`_ is a"
+" broad set of classification techniques that aim to build mathematical "
+"models based on training data."
+msgstr ""
+
+#: ../../remote_sensing.rst:865
+msgid "In general, Machine Learning algorithms split the data in (ESA, 2019):"
+msgstr ""
+
+#: ../../remote_sensing.rst:867
+msgid "Training Dataset: the sample data used to fit the model;"
+msgstr ""
+
+#: ../../remote_sensing.rst:869
+msgid ""
+"Validation Dataset: the sample data used to tune the model parameters to "
+"fit on the training dataset;"
+msgstr ""
+
+#: ../../remote_sensing.rst:871
+msgid ""
+"Test Dataset: the sample data used to provide an evaluation of the final "
+"model;"
+msgstr ""
+
+#: ../../remote_sensing.rst:873
+msgid "Usually, the training and model evaluation are performed iteratively."
+msgstr ""
+
+#: ../../remote_sensing.rst:878
+msgid "Random Forest"
+msgstr ""
+
+#: ../../remote_sensing.rst:880
+msgid ""
+"`Random Forest <https://en.wikipedia.org/wiki/Random_forest>`_ is a "
+"particular machine learning technique, based on the iterative and random "
+"creation of decision trees (i.e. a set of rules and conditions that "
+"define a class)."
+msgstr ""
+
+#: ../../remote_sensing.rst:882
+msgid ""
+"First, the input features should be defined, which can be spectral bands "
+"or ancillary rasters. :ref:`ROI_definition` should be created to define "
+"the classes used for training the model."
+msgstr ""
+
+#: ../../remote_sensing.rst:885
+msgid ""
+"Random Forest calculates several random decision trees, based on the "
+"following parameters:"
+msgstr ""
+
+#: ../../remote_sensing.rst:887
+msgid ""
+"number of training samples: is the number of training data (pixels) "
+"randomly used to train the model; it should be set lower than total "
+"training input pixels;"
+msgstr ""
+
+#: ../../remote_sensing.rst:889
+msgid ""
+"number of trees: is the number of decision trees; the more the number of "
+"trees, the more is the model accuracy, but it also increases the "
+"calculation time."
+msgstr ""
+
+#: ../../remote_sensing.rst:891
+msgid "For instance, a decision tree could be defined as:"
+msgstr ""
+
+#: ../../remote_sensing.rst:893
+msgid "class 1 = band 1 > 0.1 --> band 2 < 0.3 --> band 3 > 0.4"
+msgstr ""
+
+#: ../../remote_sensing.rst:895
+msgid "class 2 = band 1 > 0.4 --> band 2 > 0.6 --> band 3 < 0.1"
+msgstr ""
+
+#: ../../remote_sensing.rst:897
+msgid "class 3 = band 1 < 0.7 --> band 2 > 0.1 --> band 3 < 0.5"
+msgstr ""
+
+#: ../../remote_sensing.rst:900
+msgid ""
+"Random Forest creates several decision trees randomly. Usually, the `Gini"
+" coefficient "
+"<https://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity>`_ is"
+" calculated to split the trees. Therefore, a model based on the decision "
+"trees is created and used to classify all the pixels."
+msgstr ""
+
+#: ../../remote_sensing.rst:904
+msgid ""
+"A pixel is classified according to the majority vote of decision trees, "
+"for example a pixel is classified as class 1 if most decision trees "
+"evaluated it as class 1. Also, a confidence layer is produced, which "
+"measures the uncertainty of the model based on training data."
+msgstr ""
+
+#: ../../remote_sensing.rst:907
+msgid ""
+"Random Forest can be used to evaluate the importance of input features, "
+"according to the contribution thereof to the model."
+msgstr ""
+
+#: ../../remote_sensing.rst:913
 msgid "Spectral Distance"
 msgstr ""
 
-#: ../../remote_sensing.rst:743
+#: ../../remote_sensing.rst:915
 msgid ""
 "It is useful to evaluate the spectral distance (or separability) between "
 "training signatures or pixels, in order to assess if different classes "
@@ -1713,11 +2163,11 @@ msgid ""
 "similarity of spectral signatures."
 msgstr ""
 
-#: ../../remote_sensing.rst:749
+#: ../../remote_sensing.rst:921
 msgid "Jeffries-Matusita Distance"
 msgstr ""
 
-#: ../../remote_sensing.rst:751
+#: ../../remote_sensing.rst:923
 msgid ""
 "Jeffries-Matusita Distance calculates the separability of a pair of "
 "probability distributions. This can be particularly meaningful for "
@@ -1725,75 +2175,75 @@ msgid ""
 "classifications."
 msgstr ""
 
-#: ../../remote_sensing.rst:754
+#: ../../remote_sensing.rst:926
 msgid ""
 "The Jeffries-Matusita Distance :math:`J_{xy}` is calculated as (Richards "
 "and Jia, 2006):"
 msgstr ""
 
-#: ../../remote_sensing.rst:766 ../../remote_sensing.rst:805
-#: ../../remote_sensing.rst:824
+#: ../../remote_sensing.rst:938 ../../remote_sensing.rst:977
+#: ../../remote_sensing.rst:996
 msgid ":math:`x` = first spectral signature vector;"
 msgstr ""
 
-#: ../../remote_sensing.rst:767 ../../remote_sensing.rst:806
-#: ../../remote_sensing.rst:825
+#: ../../remote_sensing.rst:939 ../../remote_sensing.rst:978
+#: ../../remote_sensing.rst:997
 msgid ":math:`y` = second spectral signature vector;"
 msgstr ""
 
-#: ../../remote_sensing.rst:768
+#: ../../remote_sensing.rst:940
 msgid ":math:`\\Sigma_{x}` = covariance matrix of sample :math:`x`;"
 msgstr ""
 
-#: ../../remote_sensing.rst:769
+#: ../../remote_sensing.rst:941
 msgid ":math:`\\Sigma_{y}` = covariance matrix of sample :math:`y`;"
 msgstr ""
 
-#: ../../remote_sensing.rst:771
+#: ../../remote_sensing.rst:943
 msgid ""
 "The Jeffries-Matusita Distance is asymptotic to 2 when signatures are "
 "completely different, and tends to 0 when signatures are identical."
 msgstr ""
 
-#: ../../remote_sensing.rst:776
+#: ../../remote_sensing.rst:948
 msgid "Spectral Angle"
 msgstr ""
 
-#: ../../remote_sensing.rst:778
+#: ../../remote_sensing.rst:950
 msgid ""
 "The Spectral Angle is the most appropriate for assessing the "
 ":ref:`spectra_angle_mapping_algorithm` algorithm. The spectral angle "
 ":math:`\\theta` is defined as (Kruse et al., 1993):"
 msgstr ""
 
-#: ../../remote_sensing.rst:790
+#: ../../remote_sensing.rst:962
 msgid ""
 "Spectral angle goes from 0 when signatures are identical to 90 when "
 "signatures are completely different."
 msgstr ""
 
-#: ../../remote_sensing.rst:795
+#: ../../remote_sensing.rst:967
 msgid "Euclidean Distance"
 msgstr ""
 
-#: ../../remote_sensing.rst:797
+#: ../../remote_sensing.rst:969
 msgid ""
 "The Euclidean Distance is particularly useful for the evaluating the "
 "result of :ref:`minimum_distance_algorithm` classifications. In fact, the"
 " distance is defined as:"
 msgstr ""
 
-#: ../../remote_sensing.rst:809
+#: ../../remote_sensing.rst:981
 msgid ""
 "The Euclidean Distance is 0 when signatures are identical and tends to "
 "increase according to the spectral distance of signatures."
 msgstr ""
 
-#: ../../remote_sensing.rst:814
+#: ../../remote_sensing.rst:986
 msgid "Bray-Curtis Similarity"
 msgstr ""
 
-#: ../../remote_sensing.rst:816
+#: ../../remote_sensing.rst:988
 #, python-format
 msgid ""
 "The Bray-Curtis Similarity is a statistic used for assessing the "
@@ -1803,29 +2253,29 @@ msgid ""
 " and Bray-Curtis Similarity :math:`S(x, y)` is calculated as:"
 msgstr ""
 
-#: ../../remote_sensing.rst:828
+#: ../../remote_sensing.rst:1000
 msgid ""
 "The Bray-Curtis similarity is calculated as percentage and ranges from 0 "
 "when signatures are completely different to 100 when spectral signatures "
 "are identical."
 msgstr ""
 
-#: ../../remote_sensing.rst:833
+#: ../../remote_sensing.rst:1005
 msgid "Classification Result"
 msgstr ""
 
-#: ../../remote_sensing.rst:835
+#: ../../remote_sensing.rst:1007
 msgid ""
 "The result of the classification process is a raster (see an example of "
 "Landsat classification in Figure :ref:`figLC`), where pixel values "
 "correspond to class IDs and each color represent a land cover class."
 msgstr ""
 
-#: ../../remote_sensing.rst:842
+#: ../../remote_sensing.rst:1014
 msgid ":guilabel:`Landsat classification`"
 msgstr ""
 
-#: ../../remote_sensing.rst:846
+#: ../../remote_sensing.rst:1018
 msgid ""
 "A certain amount of errors can occur in the land cover classification "
 "(i.e. pixels assigned to a wrong land cover class), due to spectral "
@@ -1833,11 +2283,11 @@ msgid ""
 "collection."
 msgstr ""
 
-#: ../../remote_sensing.rst:851
+#: ../../remote_sensing.rst:1023
 msgid "Accuracy Assessment"
 msgstr ""
 
-#: ../../remote_sensing.rst:853
+#: ../../remote_sensing.rst:1025
 msgid ""
 "After the classification process, it is useful to assess the accuracy of "
 "land cover classification, in order to identify and measure map errors. "
@@ -1847,7 +2297,7 @@ msgid ""
 "(Congalton and Green, 2009)."
 msgstr ""
 
-#: ../../remote_sensing.rst:856
+#: ../../remote_sensing.rst:1028
 msgid ""
 "The following table is a scheme of error matrix, where k is the number of"
 " classes identified in the land cover classification, and n is the total "
@@ -1856,113 +2306,113 @@ msgid ""
 " classification error."
 msgstr ""
 
-#: ../../remote_sensing.rst:858
+#: ../../remote_sensing.rst:1030
 msgid ":guilabel:`Scheme of Error Matrix`"
 msgstr ""
 
-#: ../../remote_sensing.rst:861
+#: ../../remote_sensing.rst:1033
 msgid "Ground truth 1"
 msgstr ""
 
-#: ../../remote_sensing.rst:861
+#: ../../remote_sensing.rst:1033
 msgid "Ground truth 2"
 msgstr ""
 
-#: ../../remote_sensing.rst:861 ../../remote_sensing.rst:863
-#: ../../remote_sensing.rst:865 ../../remote_sensing.rst:867
-#: ../../remote_sensing.rst:869 ../../remote_sensing.rst:871
+#: ../../remote_sensing.rst:1033 ../../remote_sensing.rst:1035
+#: ../../remote_sensing.rst:1037 ../../remote_sensing.rst:1039
+#: ../../remote_sensing.rst:1041 ../../remote_sensing.rst:1043
 msgid "…"
 msgstr ""
 
-#: ../../remote_sensing.rst:861
+#: ../../remote_sensing.rst:1033
 msgid "Ground truth k"
 msgstr ""
 
-#: ../../remote_sensing.rst:861
+#: ../../remote_sensing.rst:1033
 msgid "Total"
 msgstr ""
 
-#: ../../remote_sensing.rst:863
+#: ../../remote_sensing.rst:1035
 msgid "**Class 1**"
 msgstr ""
 
-#: ../../remote_sensing.rst:863
+#: ../../remote_sensing.rst:1035
 msgid ":math:`a_{11}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:863
+#: ../../remote_sensing.rst:1035
 msgid ":math:`a_{12}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:863
+#: ../../remote_sensing.rst:1035
 msgid ":math:`a_{1k}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:863
+#: ../../remote_sensing.rst:1035
 msgid ":math:`a_{1+}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:865
+#: ../../remote_sensing.rst:1037
 msgid "**Class 2**"
 msgstr ""
 
-#: ../../remote_sensing.rst:865
+#: ../../remote_sensing.rst:1037
 msgid ":math:`a_{21}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:865
+#: ../../remote_sensing.rst:1037
 msgid ":math:`a_{22}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:865
+#: ../../remote_sensing.rst:1037
 msgid ":math:`a_{2k}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:865
+#: ../../remote_sensing.rst:1037
 msgid ":math:`a_{2+}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:869
+#: ../../remote_sensing.rst:1041
 msgid "**Class k**"
 msgstr ""
 
-#: ../../remote_sensing.rst:869
+#: ../../remote_sensing.rst:1041
 msgid ":math:`a_{k1}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:869
+#: ../../remote_sensing.rst:1041
 msgid ":math:`a_{k2}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:869
+#: ../../remote_sensing.rst:1041
 msgid ":math:`a_{kk}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:869
+#: ../../remote_sensing.rst:1041
 msgid ":math:`a_{k+}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:871
+#: ../../remote_sensing.rst:1043
 msgid "**Total**"
 msgstr ""
 
-#: ../../remote_sensing.rst:871
+#: ../../remote_sensing.rst:1043
 msgid ":math:`a_{+1}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:871
+#: ../../remote_sensing.rst:1043
 msgid ":math:`a_{+2}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:871
+#: ../../remote_sensing.rst:1043
 msgid ":math:`a_{+k}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:871
+#: ../../remote_sensing.rst:1043
 msgid ":math:`n`"
 msgstr ""
 
-#: ../../remote_sensing.rst:874
+#: ../../remote_sensing.rst:1046
 msgid ""
 "Therefore, it is possible to calculate the overall accuracy as the ratio "
 "between the number of samples that are correctly classified (the sum of "
@@ -1970,36 +2420,36 @@ msgid ""
 "and Green, 2009)."
 msgstr ""
 
-#: ../../remote_sensing.rst:876
+#: ../../remote_sensing.rst:1048
 msgid "The overall accuracy (also expressed in percentage) is defined as:"
 msgstr ""
 
-#: ../../remote_sensing.rst:881
+#: ../../remote_sensing.rst:1053
 msgid ""
 "Ther user's accuracy for each class is defined as the ratio (also "
 "expressed in percentage) between correct samples and the row total:"
 msgstr ""
 
-#: ../../remote_sensing.rst:886
+#: ../../remote_sensing.rst:1058
 msgid ""
 "The commission error :math:`CE_i = 1 - U_i` corresponds to pixels "
 "classified as class :math:`i` that actually belong to a different class."
 msgstr ""
 
-#: ../../remote_sensing.rst:888
+#: ../../remote_sensing.rst:1060
 msgid ""
 "The producer's accuracy for each class is calculated as the ratio (also "
 "expressed in percentage) between correct samples and the column total:"
 msgstr ""
 
-#: ../../remote_sensing.rst:893
+#: ../../remote_sensing.rst:1065
 msgid ""
 "The omission error :math:`OE_i = 1 - P_i` corresponds to pixels actually "
 "belonging to class :math:`i` that were classified erroneously as a "
 "different class."
 msgstr ""
 
-#: ../../remote_sensing.rst:896
+#: ../../remote_sensing.rst:1068
 msgid ""
 "User's accuracy is It is recommended to calculate the area based error "
 "matrix (Olofsson, et al., 2014) where each element represents the "
@@ -2009,7 +2459,7 @@ msgid ""
 "estimates."
 msgstr ""
 
-#: ../../remote_sensing.rst:900
+#: ../../remote_sensing.rst:1072
 msgid ""
 "For further information, the following documentation is freely available:"
 " `Landsat 7 Science Data User's Handbook "
@@ -2018,29 +2468,29 @@ msgid ""
 "<http://en.wikipedia.org/wiki/Remote_sensing>`_."
 msgstr ""
 
-#: ../../remote_sensing.rst:905
+#: ../../remote_sensing.rst:1077
 msgid "Image processing"
 msgstr ""
 
-#: ../../remote_sensing.rst:907
+#: ../../remote_sensing.rst:1079
 msgid ""
 "Remote sensing images can be processed in various ways in order to obtain"
 " classification, indices, or other derived information that can be useful"
 " for land cover characterization."
 msgstr ""
 
-#: ../../remote_sensing.rst:912
+#: ../../remote_sensing.rst:1084
 msgid "Principal Component Analysis"
 msgstr ""
 
-#: ../../remote_sensing.rst:914
+#: ../../remote_sensing.rst:1086
 msgid ""
 "Principal Component Analysis (PCA) is a method for reducing the "
 "dimensions of measured variables (bands) to the principal components "
 "(JARS, 1993)."
 msgstr ""
 
-#: ../../remote_sensing.rst:916
+#: ../../remote_sensing.rst:1088
 msgid ""
 "Th principal component transformation provides a new set of bands "
 "(principal components) having the following characteristic: principal "
@@ -2049,40 +2499,40 @@ msgid ""
 " information and data compression (Ready and Wintz, 1973)."
 msgstr ""
 
-#: ../../remote_sensing.rst:919
+#: ../../remote_sensing.rst:1091
 msgid ""
 "Given an image with N spectral bands, the principal components are "
 "obtained by matrix calculation (Ready and Wintz, 1973; Richards and Jia, "
 "2006):"
 msgstr ""
 
-#: ../../remote_sensing.rst:926
+#: ../../remote_sensing.rst:1098
 msgid ":math:`Y` = vector of principal components"
 msgstr ""
 
-#: ../../remote_sensing.rst:927
+#: ../../remote_sensing.rst:1099
 msgid ""
 ":math:`D` = matrix of eigenvectors of the covariance matrix :math:`C_x` "
 "in X space"
 msgstr ""
 
-#: ../../remote_sensing.rst:928
+#: ../../remote_sensing.rst:1100
 msgid ":math:`t` denotes vector transpose"
 msgstr ""
 
-#: ../../remote_sensing.rst:930
+#: ../../remote_sensing.rst:1102
 msgid "And :math:`X` is calculated as:"
 msgstr ""
 
-#: ../../remote_sensing.rst:935
+#: ../../remote_sensing.rst:1107
 msgid ":math:`P` = vector of spectral values associated with each pixel"
 msgstr ""
 
-#: ../../remote_sensing.rst:936
+#: ../../remote_sensing.rst:1108
 msgid ":math:`M` = vector of the mean associated with each band"
 msgstr ""
 
-#: ../../remote_sensing.rst:938
+#: ../../remote_sensing.rst:1110
 msgid ""
 "Thus, the mean of :math:`X` associated with each band is 0. :math:`D` is "
 "formed by the eigenvectors (of the covariance matrix :math:`C_x`) ordered"
@@ -2092,7 +2542,7 @@ msgid ""
 "component(Ready and Wintz, 1973)."
 msgstr ""
 
-#: ../../remote_sensing.rst:942
+#: ../../remote_sensing.rst:1114
 #, python-format
 msgid ""
 "Usually the first two components contain more than the 90% of the "
@@ -2102,11 +2552,11 @@ msgid ""
 ":ref:`supervised_classification_definition`."
 msgstr ""
 
-#: ../../remote_sensing.rst:948
+#: ../../remote_sensing.rst:1120
 msgid "Pan-sharpening"
 msgstr ""
 
-#: ../../remote_sensing.rst:950
+#: ../../remote_sensing.rst:1122
 msgid ""
 "Pan-sharpening is the combination of the spectral information of "
 "multispectral bands (MS), which have lower spatial resolution (for "
@@ -2118,32 +2568,32 @@ msgid ""
 "calculated as (Johnson, Tateishi and Hoan, 2012):"
 msgstr ""
 
-#: ../../remote_sensing.rst:957
+#: ../../remote_sensing.rst:1129
 msgid "where :math:`I` is Intensity, which is a function of multispectral bands."
 msgstr ""
 
-#: ../../remote_sensing.rst:959
+#: ../../remote_sensing.rst:1131
 msgid ""
 "The following weights for I are defined, basing on several tests "
 "performed using the :guilabel:`SCP`. For Landsat 8, Intensity is "
 "calculated as:"
 msgstr ""
 
-#: ../../remote_sensing.rst:964
+#: ../../remote_sensing.rst:1136
 msgid "For Landsat 7, Intensity is calculated as:"
 msgstr ""
 
-#: ../../remote_sensing.rst:974
+#: ../../remote_sensing.rst:1146
 msgid ""
 ":guilabel:`Example of pan-sharpening of a Landsat 8 image. Left, original"
 " multispectral bands (30m); right, pan-sharpened bands (15m)`"
 msgstr ""
 
-#: ../../remote_sensing.rst:982
+#: ../../remote_sensing.rst:1154
 msgid "Spectral Indices"
 msgstr ""
 
-#: ../../remote_sensing.rst:984
+#: ../../remote_sensing.rst:1156
 msgid ""
 "Spectral indices are operations between spectral bands that are useful "
 "for extracting information such as vegetation cover (JARS, 1993). One of "
@@ -2151,13 +2601,13 @@ msgid ""
 "Vegetation Index** (NDVI), defined as (JARS, 1993):"
 msgstr ""
 
-#: ../../remote_sensing.rst:990
+#: ../../remote_sensing.rst:1162
 msgid ""
 "NDVI values range from -1 to 1. Dense and healthy vegetation show higher "
 "values, while non-vegetated areas show low NDVI values."
 msgstr ""
 
-#: ../../remote_sensing.rst:993
+#: ../../remote_sensing.rst:1165
 msgid ""
 "Another index is the **Enhanced Vegetation Index** (EVI) which attempts "
 "to account for atmospheric effects such as path radiance calculating the "
@@ -2165,7 +2615,7 @@ msgid ""
 "is defined as:"
 msgstr ""
 
-#: ../../remote_sensing.rst:999
+#: ../../remote_sensing.rst:1171
 msgid ""
 "where: :math:`G` is a scaling factor, :math:`C_1` and :math:`C_2` are "
 "coefficients for the atmospheric effects, and :math:`L` is a factor for "
@@ -2174,18 +2624,18 @@ msgid ""
 ":math:`C_1 = 6`, :math:`C_2 = 7.5` (Didan,et al., 2015)."
 msgstr ""
 
-#: ../../remote_sensing.rst:1006
+#: ../../remote_sensing.rst:1178
 msgid "Clustering"
 msgstr ""
 
-#: ../../remote_sensing.rst:1008
+#: ../../remote_sensing.rst:1180
 msgid ""
 "Clustering is the grouping of pixels based on spectral similarity (e.g. "
 ":ref:`euclidean_distance` or :ref:`spectral_angle`)  calculated for a "
 "multispectral image (Richards and Jia, 2006)."
 msgstr ""
 
-#: ../../remote_sensing.rst:1010
+#: ../../remote_sensing.rst:1182
 msgid ""
 "Clustering can be used for unsupervised classification or for the "
 "automatic selection of spectral signatures. It is worth noticing that, "
@@ -2196,7 +2646,7 @@ msgid ""
 "each class."
 msgstr ""
 
-#: ../../remote_sensing.rst:1013
+#: ../../remote_sensing.rst:1185
 msgid ""
 "The main advantage of clustering resides in automation. Of course, "
 "clusters do not necessarily represent a particular land cover type and "
@@ -2204,23 +2654,23 @@ msgid ""
 "classification."
 msgstr ""
 
-#: ../../remote_sensing.rst:1016
+#: ../../remote_sensing.rst:1188
 msgid ""
 "There are several types of clustering, mainly based on iterative methods;"
 " the following are the algorithms provided in :guilabel:`SCP`."
 msgstr ""
 
-#: ../../remote_sensing.rst:1021
+#: ../../remote_sensing.rst:1193
 msgid "K-means"
 msgstr ""
 
-#: ../../remote_sensing.rst:1023
+#: ../../remote_sensing.rst:1195
 msgid ""
 "The K-means method is based on the calculation of the average spectral "
 "signature of clusters (Wikipedia, 2017; JARS, 1993)."
 msgstr ""
 
-#: ../../remote_sensing.rst:1025
+#: ../../remote_sensing.rst:1197
 msgid ""
 "At first, the user defines the number of clusters expected in the image, "
 "which correspond to as many spectral signatures (i.e. seeds). Starting "
@@ -2228,7 +2678,7 @@ msgid ""
 "provided by the user, calculated automatically from image values)."
 msgstr ""
 
-#: ../../remote_sensing.rst:1028
+#: ../../remote_sensing.rst:1200
 msgid ""
 "During the first iteration clusters are produced calculating the pixel "
 "spectral distance with initial spectral signatures. The algorithms  "
@@ -2237,41 +2687,41 @@ msgid ""
 "spectral signature, therefore producing clusters."
 msgstr ""
 
-#: ../../remote_sensing.rst:1032
+#: ../../remote_sensing.rst:1204
 msgid ""
 "Then, the average spectral signature is calculated for each cluster of "
 "pixels, resulting in the spectral signatures that will be used in the "
 "following iteration."
 msgstr ""
 
-#: ../../remote_sensing.rst:1034
+#: ../../remote_sensing.rst:1206
 msgid ""
 "This process continues iteratively producing clusters and mean spectral "
 "signatures, until one of the following condition is verified:"
 msgstr ""
 
-#: ../../remote_sensing.rst:1036
+#: ../../remote_sensing.rst:1208
 msgid ""
 "the spectral distance between the spectral signatures produced in this "
 "iteration with the corresponding ones produced in the previous iteration "
 "is lower than a certain threshold;"
 msgstr ""
 
-#: ../../remote_sensing.rst:1037
+#: ../../remote_sensing.rst:1209
 msgid "the maximum number of iterations is reached."
 msgstr ""
 
-#: ../../remote_sensing.rst:1039
+#: ../../remote_sensing.rst:1211
 msgid ""
 "After the last iteration, a raster of clusters is produced using the "
 "spectral signatures derived from the last iteration."
 msgstr ""
 
-#: ../../remote_sensing.rst:1044
+#: ../../remote_sensing.rst:1216
 msgid "ISODATA"
 msgstr ""
 
-#: ../../remote_sensing.rst:1046
+#: ../../remote_sensing.rst:1218
 msgid ""
 "The ISODATA (Iterative Self-Organizing Data Analysis Technique) method is"
 " similar to K-means but with the additional steps of merging clusters "
@@ -2281,7 +2731,7 @@ msgid ""
 "described."
 msgstr ""
 
-#: ../../remote_sensing.rst:1049
+#: ../../remote_sensing.rst:1221
 msgid ""
 "At first, the user defines the number of clusters expected in the image, "
 "which correspond to as many spectral signatures (i.e. seeds). Starting "
@@ -2290,23 +2740,23 @@ msgid ""
 "Initial parameteres provided by user are:"
 msgstr ""
 
-#: ../../remote_sensing.rst:1053
+#: ../../remote_sensing.rst:1225
 msgid ":math:`C` = number of desired clusters"
 msgstr ""
 
-#: ../../remote_sensing.rst:1054
+#: ../../remote_sensing.rst:1226
 msgid ":math:`N_{min}` = minimum number of pixels for a cluster"
 msgstr ""
 
-#: ../../remote_sensing.rst:1055
+#: ../../remote_sensing.rst:1227
 msgid ":math:`\\sigma_{t}` = maximum standard deviation threshold for splitting"
 msgstr ""
 
-#: ../../remote_sensing.rst:1056
+#: ../../remote_sensing.rst:1228
 msgid ":math:`D_{t}` = distance threshold for merging"
 msgstr ""
 
-#: ../../remote_sensing.rst:1058
+#: ../../remote_sensing.rst:1230
 msgid ""
 "During the first iteration clusters are produced calculating the "
 ":ref:`euclidean_distance` of pixels with initial spectral signatures. "
@@ -2314,150 +2764,150 @@ msgid ""
 "therefore producing clusters."
 msgstr ""
 
-#: ../../remote_sensing.rst:1061
+#: ../../remote_sensing.rst:1233
 msgid "Therefore, the following parameters are calculated:"
 msgstr ""
 
-#: ../../remote_sensing.rst:1063
+#: ../../remote_sensing.rst:1235
 msgid ":math:`N_{i}` = number of pixels of cluster :math:`i`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1064
+#: ../../remote_sensing.rst:1236
 msgid ":math:`S_{i}` = average spectral signature of cluster :math:`i`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1065
+#: ../../remote_sensing.rst:1237
 msgid ""
 ":math:`AVERAGEDIST_{i}` = average distance of cluster :math:`i` with the "
 "seed spectral signature"
 msgstr ""
 
-#: ../../remote_sensing.rst:1066
+#: ../../remote_sensing.rst:1238
 msgid ":math:`AVERAGEDISTANCE` = overall average distance of all clusters"
 msgstr ""
 
-#: ../../remote_sensing.rst:1067
+#: ../../remote_sensing.rst:1239
 msgid ""
 ":math:`\\sigma_{ij}` = standard deviation of cluster :math:`i` in band "
 ":math:`j`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1068
+#: ../../remote_sensing.rst:1240
 msgid ""
 ":math:`\\sigma max_{i}` = maximum standard deviation of cluster :math:`i`"
 " (i.e. :math:`max( \\sigma_{ij} )`)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1069
+#: ../../remote_sensing.rst:1241
 msgid ":math:`k_{i}` = band where :math:`\\sigma max_{i}` occurred"
 msgstr ""
 
-#: ../../remote_sensing.rst:1070
+#: ../../remote_sensing.rst:1242
 msgid ":math:`Sk_{i}` = value of :math:`S_{i}` at band :math:`k_{i}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1071
+#: ../../remote_sensing.rst:1243
 msgid ":math:`P` = number of clusters"
 msgstr ""
 
-#: ../../remote_sensing.rst:1073
+#: ../../remote_sensing.rst:1245
 msgid ""
 "Then, for each cluster :math:`i`, if :math:`N_{i}` < :math:`N_{min}` , "
 "then the cluster :math:`i` is discarded."
 msgstr ""
 
-#: ../../remote_sensing.rst:1075
+#: ../../remote_sensing.rst:1247
 msgid ""
 "If :math:`P` <= :math:`C` then try to split clusters. For each cluster "
 ":math:`i`:"
 msgstr ""
 
-#: ../../remote_sensing.rst:1078
+#: ../../remote_sensing.rst:1250
 msgid "If :math:`\\sigma max_{i}` > :math:`\\sigma_{t}` :"
 msgstr ""
 
-#: ../../remote_sensing.rst:1080
+#: ../../remote_sensing.rst:1252
 msgid ""
 "If ((:math:`AVERAGEDIST_{i}` >  :math:`AVERAGEDISTANCE`) AND "
 "(:math:`N_{i}` > (2 * :math:`N_{min}` + 2) )) OR (:math:`C` > 2 * "
 ":math:`P`):"
 msgstr ""
 
-#: ../../remote_sensing.rst:1082
+#: ../../remote_sensing.rst:1254
 msgid "create a new spectral signature :math:`S_{p + 1}` = :math:`S_{i}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1083
+#: ../../remote_sensing.rst:1255
 msgid ""
 "in :math:`S_{i}` set the value :math:`Sk_{i}` = :math:`Sk_{i}` + "
 ":math:`\\sigma max_{i}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1084
+#: ../../remote_sensing.rst:1256
 msgid ""
 "in :math:`S_{p + 1}` set the value :math:`Sk_{p + 1}` = :math:`Sk_{i}` - "
 ":math:`\\sigma max_{i}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1085
+#: ../../remote_sensing.rst:1257
 msgid ":math:`P` = :math:`P` + 1"
 msgstr ""
 
-#: ../../remote_sensing.rst:1086 ../../remote_sensing.rst:1096
+#: ../../remote_sensing.rst:1258 ../../remote_sensing.rst:1268
 msgid "start a new iteration"
 msgstr ""
 
-#: ../../remote_sensing.rst:1088
+#: ../../remote_sensing.rst:1260
 msgid "If :math:`P` > (2 * :math:`C`) then try to merge clusters."
 msgstr ""
 
-#: ../../remote_sensing.rst:1090
+#: ../../remote_sensing.rst:1262
 msgid ""
 "For each combination :math:`xy` of spectrals signatures calculate "
 ":math:`D_{xy}` = :ref:`euclidean_distance` of spectral signatures "
 ":math:`S_{x}` and :math:`S_{y}` ."
 msgstr ""
 
-#: ../../remote_sensing.rst:1091
+#: ../../remote_sensing.rst:1263
 msgid "If the minimum :math:`D_{xy}` is greater than :math:`D_{t}`:"
 msgstr ""
 
-#: ../../remote_sensing.rst:1093
+#: ../../remote_sensing.rst:1265
 msgid ""
 "`S_{i}` = (:math:`N_{i}` * `S_{i}` + :math:`N_{j}` * "
 "`S_{j}`)/(:math:`N_{i}` + :math:`N_{j}`)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1094
+#: ../../remote_sensing.rst:1266
 msgid "discard `S_{j}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1095
+#: ../../remote_sensing.rst:1267
 msgid ":math:`P` = :math:`P` - 1"
 msgstr ""
 
-#: ../../remote_sensing.rst:1098
+#: ../../remote_sensing.rst:1270
 msgid ""
 "After the last iteration, a raster of clusters is produced using the "
 "spectral signatures derived from the last iteration. The number of "
 "clusters can vary according to the processes of splitting and merging."
 msgstr ""
 
-#: ../../remote_sensing.rst:1106
+#: ../../remote_sensing.rst:1278
 msgid "Image conversion to reflectance"
 msgstr ""
 
-#: ../../remote_sensing.rst:1108
+#: ../../remote_sensing.rst:1280
 msgid ""
 "This chapter provides information about the conversion to reflectance "
 "implemented in :guilabel:`SCP`."
 msgstr ""
 
-#: ../../remote_sensing.rst:1113
+#: ../../remote_sensing.rst:1285
 msgid "Radiance at the Sensor's Aperture"
 msgstr ""
 
-#: ../../remote_sensing.rst:1115
+#: ../../remote_sensing.rst:1287
 msgid ""
 "**Radiance** is the \"flux of energy (primarily irradiant or incident "
 "energy) per solid angle leaving a unit surface area in a given "
@@ -2465,14 +2915,14 @@ msgid ""
 " dependent on reflectance\" (NASA, 2011, p. 47)."
 msgstr ""
 
-#: ../../remote_sensing.rst:1117
+#: ../../remote_sensing.rst:1289
 msgid ""
 "Images such as Landsat or Sentinel-2 are composed of several bands and a "
 "metadata file which contains information required for the conversion to "
 "reflectance."
 msgstr ""
 
-#: ../../remote_sensing.rst:1119
+#: ../../remote_sensing.rst:1291
 msgid ""
 "Landsat images are provided in radiance, scaled prior to output. for "
 "Landsat images **Spectral Radiance at the sensor's aperture** "
@@ -2481,35 +2931,35 @@ msgid ""
 "(https://landsat.usgs.gov/Landsat8_Using_Product.php):"
 msgstr ""
 
-#: ../../remote_sensing.rst:1128
+#: ../../remote_sensing.rst:1300
 msgid ""
 ":math:`M_{L}` = Band-specific multiplicative rescaling factor from "
 "Landsat metadata (RADIANCE_MULT_BAND_x, where x is the band number)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1129
+#: ../../remote_sensing.rst:1301
 msgid ""
 ":math:`A_{L}` = Band-specific additive rescaling factor from Landsat "
 "metadata (RADIANCE_ADD_BAND_x, where x is the band number)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1130
+#: ../../remote_sensing.rst:1302
 msgid ""
 ":math:`Q_{cal}` = Quantized and calibrated standard product pixel values "
 "(DN)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1132
+#: ../../remote_sensing.rst:1304
 msgid ""
 "Sentinel-2 images (Level-1C) are already provided in "
 ":ref:`TOA_conversion`, scaled prior to output (ESA, 2015)."
 msgstr ""
 
-#: ../../remote_sensing.rst:1137
+#: ../../remote_sensing.rst:1309
 msgid "Top Of Atmosphere (TOA) Reflectance"
 msgstr ""
 
-#: ../../remote_sensing.rst:1139
+#: ../../remote_sensing.rst:1311
 msgid ""
 "Images in radiance can be converted to Top Of Atmosphere (TOA) "
 "Reflectance (combined surface and atmospheric reflectance) in order to "
@@ -2519,38 +2969,38 @@ msgid ""
 "calculated by:"
 msgstr ""
 
-#: ../../remote_sensing.rst:1147
+#: ../../remote_sensing.rst:1319
 msgid ""
 ":math:`L_{\\lambda}` = Spectral radiance at the sensor's aperture (at-"
 "satellite radiance)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1148
+#: ../../remote_sensing.rst:1320
 msgid ""
 ":math:`d` = Earth-Sun distance in astronomical units (provided with "
 "Landsat 8 metadata file, and an excel file is available from "
 "http://landsathandbook.gsfc.nasa.gov/excel_docs/d.xls)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1149
+#: ../../remote_sensing.rst:1321
 msgid ":math:`ESUN_{\\lambda}` = Mean solar exo-atmospheric irradiances"
 msgstr ""
 
-#: ../../remote_sensing.rst:1150
+#: ../../remote_sensing.rst:1322
 msgid ""
 ":math:`\\theta_{s}` = Solar zenith angle in degrees, which is equal to "
 ":math:`\\theta_{s}` = 90° - :math:`\\theta_{e}` where :math:`\\theta_{e}`"
 " is the Sun elevation"
 msgstr ""
 
-#: ../../remote_sensing.rst:1152
+#: ../../remote_sensing.rst:1324
 msgid ""
 "It is worth pointing out that Landsat 8 images are provided with band-"
 "specific rescaling factors that allow for the direct conversion from DN "
 "to TOA reflectance."
 msgstr ""
 
-#: ../../remote_sensing.rst:1154
+#: ../../remote_sensing.rst:1326
 msgid ""
 "Sentinel-2 images are already provided in scaled TOA reflectance, which "
 "can be converted to TOA reflectance with a simple calculation using the "
@@ -2558,7 +3008,7 @@ msgid ""
 "https://sentinel.esa.int/documents/247904/349490/S2_MSI_Product_Specification.pdf)."
 msgstr ""
 
-#: ../../remote_sensing.rst:1156
+#: ../../remote_sensing.rst:1328
 msgid ""
 "Sentinel-3 images are already provided in scaled TOA radiance. Conversion"
 " to reflectance is performed applying the coefficients ``scale_factor`` "
@@ -2571,42 +3021,42 @@ msgid ""
 "``geo_coordinates.nc`` which provides coordinates of every pixel."
 msgstr ""
 
-#: ../../remote_sensing.rst:1164
+#: ../../remote_sensing.rst:1336
 msgid "Surface Reflectance"
 msgstr ""
 
-#: ../../remote_sensing.rst:1166
+#: ../../remote_sensing.rst:1338
 msgid ""
 "The effects of the atmosphere (i.e. a disturbance on the reflectance that"
 " varies with the wavelength) should be considered in order to measure the"
 " reflectance at the ground."
 msgstr ""
 
-#: ../../remote_sensing.rst:1168
+#: ../../remote_sensing.rst:1340
 msgid ""
 "As described by Moran et al. (1992), the **land surface reflectance** "
 "(:math:`\\rho`) is:"
 msgstr ""
 
-#: ../../remote_sensing.rst:1176
+#: ../../remote_sensing.rst:1348
 msgid ":math:`L_{p}` is the path radiance"
 msgstr ""
 
-#: ../../remote_sensing.rst:1177
+#: ../../remote_sensing.rst:1349
 msgid ":math:`T_{v}` is the atmospheric transmittance in the viewing direction"
 msgstr ""
 
-#: ../../remote_sensing.rst:1178
+#: ../../remote_sensing.rst:1350
 msgid ""
 ":math:`T_{z}` is the atmospheric transmittance in the illumination "
 "direction"
 msgstr ""
 
-#: ../../remote_sensing.rst:1179
+#: ../../remote_sensing.rst:1351
 msgid ":math:`E_{down}` is the downwelling diffuse irradiance"
 msgstr ""
 
-#: ../../remote_sensing.rst:1181
+#: ../../remote_sensing.rst:1353
 msgid ""
 "Therefore, we need several atmospheric measurements in order to calculate"
 " :math:`\\rho` (physically-based corrections). Alternatively, it is "
@@ -2617,11 +3067,11 @@ msgid ""
 "http://landsat.usgs.gov/CDR_LSR.php)."
 msgstr ""
 
-#: ../../remote_sensing.rst:1187
+#: ../../remote_sensing.rst:1359
 msgid "DOS1 Correction"
 msgstr ""
 
-#: ../../remote_sensing.rst:1189
+#: ../../remote_sensing.rst:1361
 msgid ""
 "The **Dark Object Subtraction** (DOS) is a family of image-based "
 "atmospheric corrections. Chavez (1996) explains that \"the basic "
@@ -2637,7 +3087,7 @@ msgid ""
 "given by (Sobrino, et al., 2004):"
 msgstr ""
 
-#: ../../remote_sensing.rst:1198
+#: ../../remote_sensing.rst:1370
 #, python-format
 msgid ""
 ":math:`L_{min}` = \"radiance that corresponds to a digital count value "
@@ -2647,29 +3097,29 @@ msgid ""
 "obtained with that digital count value (:math:`DN_{min}`)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1199
+#: ../../remote_sensing.rst:1371
 msgid ""
 ":math:`L_{DO1\\%}` = radiance of Dark Object, assumed to have a "
 "reflectance value of 0.01"
 msgstr ""
 
-#: ../../remote_sensing.rst:1201
+#: ../../remote_sensing.rst:1373
 msgid "In particular for Landsat images:"
 msgstr ""
 
-#: ../../remote_sensing.rst:1207
+#: ../../remote_sensing.rst:1379
 msgid "Sentinel-2 images are converted to radiance prior to DOS1 calculation."
 msgstr ""
 
-#: ../../remote_sensing.rst:1209
+#: ../../remote_sensing.rst:1381
 msgid "The **radiance of Dark Object** is given by (Sobrino, et al., 2004):"
 msgstr ""
 
-#: ../../remote_sensing.rst:1215 ../../remote_sensing.rst:1228
+#: ../../remote_sensing.rst:1387 ../../remote_sensing.rst:1400
 msgid "Therefore the **path radiance** is:"
 msgstr ""
 
-#: ../../remote_sensing.rst:1221
+#: ../../remote_sensing.rst:1393
 msgid ""
 "There are several DOS techniques (e.g. DOS1, DOS2, DOS3, DOS4), based on "
 "different assumption about :math:`T_{v}`, :math:`T_{z}` , and "
@@ -2677,605 +3127,600 @@ msgid ""
 "following assumptions are made (Moran et al., 1992):"
 msgstr ""
 
-#: ../../remote_sensing.rst:1224
+#: ../../remote_sensing.rst:1396
 msgid ":math:`T_{v}` = 1"
 msgstr ""
 
-#: ../../remote_sensing.rst:1225
+#: ../../remote_sensing.rst:1397
 msgid ":math:`T_{z}` = 1"
 msgstr ""
 
-#: ../../remote_sensing.rst:1226
+#: ../../remote_sensing.rst:1398
 msgid ":math:`E_{down}` = 0"
 msgstr ""
 
-#: ../../remote_sensing.rst:1234
+#: ../../remote_sensing.rst:1406
 msgid "And the resulting **land surface reflectance** is given by:"
 msgstr ""
 
-#: ../../remote_sensing.rst:1240
+#: ../../remote_sensing.rst:1412
 msgid ""
 "ESUN [W /(m2 * :math:`\\mu m`)] values for Landsat sensors are provided "
 "in the following table."
 msgstr ""
 
-#: ../../remote_sensing.rst:1243
+#: ../../remote_sensing.rst:1415
 msgid ":guilabel:`ESUN values for Landsat bands`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1246 ../../remote_sensing.rst:1284
-#: ../../remote_sensing.rst:1319
-msgid "Band"
-msgstr ""
-
-#: ../../remote_sensing.rst:1246
+#: ../../remote_sensing.rst:1418
 msgid "Landsat 1 MSS*"
 msgstr ""
 
-#: ../../remote_sensing.rst:1246
+#: ../../remote_sensing.rst:1418
 msgid "Landsat 2 MSS*"
 msgstr ""
 
-#: ../../remote_sensing.rst:1246
+#: ../../remote_sensing.rst:1418
 msgid "Landsat 3 MSS*"
 msgstr ""
 
-#: ../../remote_sensing.rst:1246
+#: ../../remote_sensing.rst:1418
 msgid "Landsat 4 TM*"
 msgstr ""
 
-#: ../../remote_sensing.rst:1246
+#: ../../remote_sensing.rst:1418
 msgid "Landsat 5 TM*"
 msgstr ""
 
-#: ../../remote_sensing.rst:1246
+#: ../../remote_sensing.rst:1418
 msgid "Landsat 7 ETM+**"
 msgstr ""
 
-#: ../../remote_sensing.rst:1248
+#: ../../remote_sensing.rst:1420
 msgid "1983"
 msgstr ""
 
-#: ../../remote_sensing.rst:1248
+#: ../../remote_sensing.rst:1420
 msgid "1970"
 msgstr ""
 
-#: ../../remote_sensing.rst:1250
+#: ../../remote_sensing.rst:1422
 msgid "1795"
 msgstr ""
 
-#: ../../remote_sensing.rst:1250
+#: ../../remote_sensing.rst:1422
 msgid "1796"
 msgstr ""
 
-#: ../../remote_sensing.rst:1250
+#: ../../remote_sensing.rst:1422
 msgid "1842"
 msgstr ""
 
-#: ../../remote_sensing.rst:1252 ../../remote_sensing.rst:1256
+#: ../../remote_sensing.rst:1424 ../../remote_sensing.rst:1428
 msgid "1539"
 msgstr ""
 
-#: ../../remote_sensing.rst:1252
+#: ../../remote_sensing.rst:1424
 msgid "1536"
 msgstr ""
 
-#: ../../remote_sensing.rst:1252
+#: ../../remote_sensing.rst:1424
 msgid "1547"
 msgstr ""
 
-#: ../../remote_sensing.rst:1254
+#: ../../remote_sensing.rst:1426
 msgid "1823"
 msgstr ""
 
-#: ../../remote_sensing.rst:1254
+#: ../../remote_sensing.rst:1426
 msgid "1829"
 msgstr ""
 
-#: ../../remote_sensing.rst:1254
+#: ../../remote_sensing.rst:1426
 msgid "1839"
 msgstr ""
 
-#: ../../remote_sensing.rst:1254
+#: ../../remote_sensing.rst:1426
 msgid "1028"
 msgstr ""
 
-#: ../../remote_sensing.rst:1254
+#: ../../remote_sensing.rst:1426
 msgid "1031"
 msgstr ""
 
-#: ../../remote_sensing.rst:1254
+#: ../../remote_sensing.rst:1426
 msgid "1044"
 msgstr ""
 
-#: ../../remote_sensing.rst:1256 ../../remote_sensing.rst:1294
-#: ../../remote_sensing.rst:1329
+#: ../../remote_sensing.rst:1428 ../../remote_sensing.rst:1466
+#: ../../remote_sensing.rst:1501
 msgid "5"
 msgstr ""
 
-#: ../../remote_sensing.rst:1256
+#: ../../remote_sensing.rst:1428
 msgid "1559"
 msgstr ""
 
-#: ../../remote_sensing.rst:1256
+#: ../../remote_sensing.rst:1428
 msgid "1555"
 msgstr ""
 
-#: ../../remote_sensing.rst:1256
+#: ../../remote_sensing.rst:1428
 msgid "219.8"
 msgstr ""
 
-#: ../../remote_sensing.rst:1256
+#: ../../remote_sensing.rst:1428
 msgid "220"
 msgstr ""
 
-#: ../../remote_sensing.rst:1256
+#: ../../remote_sensing.rst:1428
 msgid "225.7"
 msgstr ""
 
-#: ../../remote_sensing.rst:1258 ../../remote_sensing.rst:1296
-#: ../../remote_sensing.rst:1331
+#: ../../remote_sensing.rst:1430 ../../remote_sensing.rst:1468
+#: ../../remote_sensing.rst:1503
 msgid "6"
 msgstr ""
 
-#: ../../remote_sensing.rst:1258
+#: ../../remote_sensing.rst:1430
 msgid "1276"
 msgstr ""
 
-#: ../../remote_sensing.rst:1258
+#: ../../remote_sensing.rst:1430
 msgid "1268"
 msgstr ""
 
-#: ../../remote_sensing.rst:1258
+#: ../../remote_sensing.rst:1430
 msgid "1291"
 msgstr ""
 
-#: ../../remote_sensing.rst:1260 ../../remote_sensing.rst:1298
-#: ../../remote_sensing.rst:1333
+#: ../../remote_sensing.rst:1432 ../../remote_sensing.rst:1470
+#: ../../remote_sensing.rst:1505
 msgid "7"
 msgstr ""
 
-#: ../../remote_sensing.rst:1260
+#: ../../remote_sensing.rst:1432
 msgid "880.1"
 msgstr ""
 
-#: ../../remote_sensing.rst:1260
+#: ../../remote_sensing.rst:1432
 msgid "886.6"
 msgstr ""
 
-#: ../../remote_sensing.rst:1260
+#: ../../remote_sensing.rst:1432
 msgid "887.9"
 msgstr ""
 
-#: ../../remote_sensing.rst:1260
+#: ../../remote_sensing.rst:1432
 msgid "83.49"
 msgstr ""
 
-#: ../../remote_sensing.rst:1260
+#: ../../remote_sensing.rst:1432
 msgid "83.44"
 msgstr ""
 
-#: ../../remote_sensing.rst:1260
+#: ../../remote_sensing.rst:1432
 msgid "82.06"
 msgstr ""
 
-#: ../../remote_sensing.rst:1262 ../../remote_sensing.rst:1300
-#: ../../remote_sensing.rst:1335
+#: ../../remote_sensing.rst:1434 ../../remote_sensing.rst:1472
+#: ../../remote_sensing.rst:1507
 msgid "8"
 msgstr ""
 
-#: ../../remote_sensing.rst:1262
+#: ../../remote_sensing.rst:1434
 msgid "1369"
 msgstr ""
 
-#: ../../remote_sensing.rst:1265
+#: ../../remote_sensing.rst:1437
 msgid "\\* from Chander, Markham, & Helder (2009)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1267
+#: ../../remote_sensing.rst:1439
 msgid "** from http://landsathandbook.gsfc.nasa.gov/data_prod/prog_sect11_3.html"
 msgstr ""
 
-#: ../../remote_sensing.rst:1271
+#: ../../remote_sensing.rst:1443
 msgid ""
 "For **Landsat 8**, :math:`ESUN` can be calculated as (from "
 "http://grass.osgeo.org/grass65/manuals/i.landsat.toar.html):"
 msgstr ""
 
-#: ../../remote_sensing.rst:1277
+#: ../../remote_sensing.rst:1449
 msgid ""
 "where RADIANCE_MAXIMUM and REFLECTANCE_MAXIMUM are provided by image "
 "metadata."
 msgstr ""
 
-#: ../../remote_sensing.rst:1279
+#: ../../remote_sensing.rst:1451
 msgid ""
 "ESUN [W /(m2 * :math:`\\mu m`)] values for **Sentinel-2** sensor "
 "(provided in image metadata) are illustrated in the following table."
 msgstr ""
 
-#: ../../remote_sensing.rst:1281
+#: ../../remote_sensing.rst:1453
 msgid ":guilabel:`ESUN values for Sentinel-2 bands`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1284
+#: ../../remote_sensing.rst:1456
 msgid "Sentinel-2"
 msgstr ""
 
-#: ../../remote_sensing.rst:1286
+#: ../../remote_sensing.rst:1458
 msgid "1913.57"
 msgstr ""
 
-#: ../../remote_sensing.rst:1288
+#: ../../remote_sensing.rst:1460
 msgid "1941.63"
 msgstr ""
 
-#: ../../remote_sensing.rst:1290
+#: ../../remote_sensing.rst:1462
 msgid "1822.61"
 msgstr ""
 
-#: ../../remote_sensing.rst:1292
+#: ../../remote_sensing.rst:1464
 msgid "1512.79"
 msgstr ""
 
-#: ../../remote_sensing.rst:1294
+#: ../../remote_sensing.rst:1466
 msgid "1425.56"
 msgstr ""
 
-#: ../../remote_sensing.rst:1296
+#: ../../remote_sensing.rst:1468
 msgid "1288.32"
 msgstr ""
 
-#: ../../remote_sensing.rst:1298
+#: ../../remote_sensing.rst:1470
 msgid "1163.19"
 msgstr ""
 
-#: ../../remote_sensing.rst:1300
+#: ../../remote_sensing.rst:1472
 msgid "1036.39"
 msgstr ""
 
-#: ../../remote_sensing.rst:1302
+#: ../../remote_sensing.rst:1474
 msgid "8A"
 msgstr ""
 
-#: ../../remote_sensing.rst:1302
+#: ../../remote_sensing.rst:1474
 msgid "955.19"
 msgstr ""
 
-#: ../../remote_sensing.rst:1304 ../../remote_sensing.rst:1337
+#: ../../remote_sensing.rst:1476 ../../remote_sensing.rst:1509
 msgid "9"
 msgstr ""
 
-#: ../../remote_sensing.rst:1304
+#: ../../remote_sensing.rst:1476
 msgid "813.04"
 msgstr ""
 
-#: ../../remote_sensing.rst:1306
+#: ../../remote_sensing.rst:1478
 msgid "367.15"
 msgstr ""
 
-#: ../../remote_sensing.rst:1308
+#: ../../remote_sensing.rst:1480
 msgid "11"
 msgstr ""
 
-#: ../../remote_sensing.rst:1308
+#: ../../remote_sensing.rst:1480
 msgid "245.59"
 msgstr ""
 
-#: ../../remote_sensing.rst:1310
+#: ../../remote_sensing.rst:1482
 msgid "12"
 msgstr ""
 
-#: ../../remote_sensing.rst:1310
+#: ../../remote_sensing.rst:1482
 msgid "85.25"
 msgstr ""
 
-#: ../../remote_sensing.rst:1314
+#: ../../remote_sensing.rst:1486
 msgid ""
 "ESUN [W /(m2 * :math:`\\mu m`)] values for **ASTER** sensor are "
 "illustrated in the following table (from Finn, et al., 2012)."
 msgstr ""
 
-#: ../../remote_sensing.rst:1316
+#: ../../remote_sensing.rst:1488
 msgid ":guilabel:`ESUN values for ASTER bands`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1319
+#: ../../remote_sensing.rst:1491
 msgid "ASTER"
 msgstr ""
 
-#: ../../remote_sensing.rst:1321
+#: ../../remote_sensing.rst:1493
 msgid "1848"
 msgstr ""
 
-#: ../../remote_sensing.rst:1323
+#: ../../remote_sensing.rst:1495
 msgid "1549"
 msgstr ""
 
-#: ../../remote_sensing.rst:1325
+#: ../../remote_sensing.rst:1497
 msgid "1114"
 msgstr ""
 
-#: ../../remote_sensing.rst:1327
+#: ../../remote_sensing.rst:1499
 msgid "225.4"
 msgstr ""
 
-#: ../../remote_sensing.rst:1329
+#: ../../remote_sensing.rst:1501
 msgid "86.63"
 msgstr ""
 
-#: ../../remote_sensing.rst:1331
+#: ../../remote_sensing.rst:1503
 msgid "81.85"
 msgstr ""
 
-#: ../../remote_sensing.rst:1333
+#: ../../remote_sensing.rst:1505
 msgid "74.85"
 msgstr ""
 
-#: ../../remote_sensing.rst:1335
+#: ../../remote_sensing.rst:1507
 msgid "66.49"
 msgstr ""
 
-#: ../../remote_sensing.rst:1337
+#: ../../remote_sensing.rst:1509
 msgid "59.85"
 msgstr ""
 
-#: ../../remote_sensing.rst:1343
+#: ../../remote_sensing.rst:1515
 msgid ""
 "An example of comparison of to TOA reflectance, DOS1 corrected "
 "reflectance and the Landsat Surface Reflectance High Level Data Products "
 "(ground truth) is provided in Figure :ref:`figRefl`."
 msgstr ""
 
-#: ../../remote_sensing.rst:1350
+#: ../../remote_sensing.rst:1522
 msgid ":guilabel:`Spectral signatures of a built-up pixel`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1352
+#: ../../remote_sensing.rst:1524
 msgid ""
 "``Comparison of TOA reflectance, DOS1 corrected reflectance and Landsat "
 "Surface Reflectance High Level Data Products``"
 msgstr ""
 
-#: ../../remote_sensing.rst:1360
+#: ../../remote_sensing.rst:1532
 msgid "Conversion to Temperature"
 msgstr ""
 
-#: ../../remote_sensing.rst:1362
+#: ../../remote_sensing.rst:1534
 msgid ""
 "This chapter provides the basic information about the conversion to **At-"
 "Satellite Brightness Temperature** implemented in :guilabel:`SCP` and the"
 " estimation of **Land Surface Temperature**."
 msgstr ""
 
-#: ../../remote_sensing.rst:1367
+#: ../../remote_sensing.rst:1539
 msgid "Conversion to At-Satellite Brightness Temperature"
 msgstr ""
 
-#: ../../remote_sensing.rst:1369
+#: ../../remote_sensing.rst:1541
 msgid ""
 "For thermal bands, the conversion of DN to At-Satellite Brightness "
 "Temperature is given by (from "
 "https://landsat.usgs.gov/Landsat8_Using_Product.php):"
 msgstr ""
 
-#: ../../remote_sensing.rst:1377
+#: ../../remote_sensing.rst:1549
 msgid ""
 ":math:`K_{1}` = Band-specific thermal conversion constant (in watts/meter"
 " squared * ster * :math:`\\mu m`)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1378
+#: ../../remote_sensing.rst:1550
 msgid ":math:`K_{2}` = Band-specific thermal conversion constant (in kelvin)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1380
+#: ../../remote_sensing.rst:1552
 msgid ""
 "and :math:`L_{\\lambda}` is the Spectral Radiance at the sensor's "
 "aperture, measured in watts/(meter squared * ster * :math:`\\mu m`)."
 msgstr ""
 
-#: ../../remote_sensing.rst:1382
+#: ../../remote_sensing.rst:1554
 msgid ""
 "The :math:`K_{1}` and :math:`K_{2}` constants for Landsat sensors are "
 "provided in the following table."
 msgstr ""
 
-#: ../../remote_sensing.rst:1384
+#: ../../remote_sensing.rst:1556
 msgid ":guilabel:`Thermal Conversion Constants for Landsat`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1387 ../../remote_sensing.rst:1423
+#: ../../remote_sensing.rst:1559 ../../remote_sensing.rst:1595
 msgid "Constant"
 msgstr ""
 
-#: ../../remote_sensing.rst:1387
+#: ../../remote_sensing.rst:1559
 msgid "Landsat 4*"
 msgstr ""
 
-#: ../../remote_sensing.rst:1387
+#: ../../remote_sensing.rst:1559
 msgid "Landsat 5*"
 msgstr ""
 
-#: ../../remote_sensing.rst:1387
+#: ../../remote_sensing.rst:1559
 msgid "Landsat 7**"
 msgstr ""
 
-#: ../../remote_sensing.rst:1389 ../../remote_sensing.rst:1425
+#: ../../remote_sensing.rst:1561 ../../remote_sensing.rst:1597
 msgid ":math:`K_{1}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1389
+#: ../../remote_sensing.rst:1561
 msgid "671.62"
 msgstr ""
 
-#: ../../remote_sensing.rst:1389
+#: ../../remote_sensing.rst:1561
 msgid "607.76"
 msgstr ""
 
-#: ../../remote_sensing.rst:1389
+#: ../../remote_sensing.rst:1561
 msgid "666.09"
 msgstr ""
 
-#: ../../remote_sensing.rst:1391 ../../remote_sensing.rst:1427
+#: ../../remote_sensing.rst:1563 ../../remote_sensing.rst:1599
 msgid ":math:`K_{2}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1391
+#: ../../remote_sensing.rst:1563
 msgid "1284.30"
 msgstr ""
 
-#: ../../remote_sensing.rst:1391
+#: ../../remote_sensing.rst:1563
 msgid "1260.56"
 msgstr ""
 
-#: ../../remote_sensing.rst:1391
+#: ../../remote_sensing.rst:1563
 msgid "1282.71"
 msgstr ""
 
-#: ../../remote_sensing.rst:1394
+#: ../../remote_sensing.rst:1566
 msgid "\\* from Chander & Markham (2003)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1396
+#: ../../remote_sensing.rst:1568
 msgid "** from NASA (2011)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1400
+#: ../../remote_sensing.rst:1572
 msgid ""
 "For **Landsat 8**, the :math:`K_{1}` and :math:`K_{2}` values are "
 "provided in the image metadata file."
 msgstr ""
 
-#: ../../remote_sensing.rst:1404
+#: ../../remote_sensing.rst:1576
 msgid ""
 ":math:`K_{1}` and :math:`K_{2}` are calculated as (Jimenez-Munoz & "
 "Sobrino, 2010):"
 msgstr ""
 
-#: ../../remote_sensing.rst:1412
+#: ../../remote_sensing.rst:1584
 msgid "where (Mohr, Newell, & Taylor, 2015):"
 msgstr ""
 
-#: ../../remote_sensing.rst:1414
+#: ../../remote_sensing.rst:1586
 msgid ""
 ":math:`c_{1}` = first radiation constant = :math:`1.191 * 10^{-16}  W  "
 "m^{2}  sr^{-1}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1415
+#: ../../remote_sensing.rst:1587
 msgid ":math:`c_{2}` = second radiation constant = :math:`1.4388 * 10^{-2}  m  K`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1418
+#: ../../remote_sensing.rst:1590
 msgid ""
 "Therefore, for ASTER bands :math:`K_{1}` and :math:`K_{2}` are provided "
 "in the following table."
 msgstr ""
 
-#: ../../remote_sensing.rst:1420
+#: ../../remote_sensing.rst:1592
 msgid ":guilabel:`Thermal Conversion Constants for ASTER`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1423
+#: ../../remote_sensing.rst:1595
 msgid "Band 10"
 msgstr ""
 
-#: ../../remote_sensing.rst:1423
+#: ../../remote_sensing.rst:1595
 msgid "Band 11"
 msgstr ""
 
-#: ../../remote_sensing.rst:1423
+#: ../../remote_sensing.rst:1595
 msgid "Band 12"
 msgstr ""
 
-#: ../../remote_sensing.rst:1423
+#: ../../remote_sensing.rst:1595
 msgid "Band 13"
 msgstr ""
 
-#: ../../remote_sensing.rst:1423
+#: ../../remote_sensing.rst:1595
 msgid "Band 14"
 msgstr ""
 
-#: ../../remote_sensing.rst:1425
+#: ../../remote_sensing.rst:1597
 msgid ":math:`3.024 * 10^{3}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1425
+#: ../../remote_sensing.rst:1597
 msgid ":math:`2.460 * 10^{3}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1425
+#: ../../remote_sensing.rst:1597
 msgid ":math:`1.909 * 10^{3}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1425
+#: ../../remote_sensing.rst:1597
 msgid ":math:`8.900 * 10^{2}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1425
+#: ../../remote_sensing.rst:1597
 msgid ":math:`6.464 * 10^{2}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1427
+#: ../../remote_sensing.rst:1599
 msgid ":math:`1.733 * 10^{3}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1427
+#: ../../remote_sensing.rst:1599
 msgid ":math:`1.663 * 10^{3}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1427
+#: ../../remote_sensing.rst:1599
 msgid ":math:`1.581 * 10^{3}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1427
+#: ../../remote_sensing.rst:1599
 msgid ":math:`1.357 * 10^{3}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1427
+#: ../../remote_sensing.rst:1599
 msgid ":math:`1.273 * 10^{3}`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1434
+#: ../../remote_sensing.rst:1606
 msgid "Estimation of Land Surface Temperature"
 msgstr ""
 
-#: ../../remote_sensing.rst:1436
+#: ../../remote_sensing.rst:1608
 msgid ""
 "Several studies have described the estimation of Land Surface "
 "Temperature. Land Surface Temperature can be calculated from At-Satellite"
 " Brightness Temperature :math:`T_{B}` as (Weng, et al. 2004):"
 msgstr ""
 
-#: ../../remote_sensing.rst:1444
+#: ../../remote_sensing.rst:1616
 msgid ":math:`\\lambda` = wavelength of emitted radiance"
 msgstr ""
 
-#: ../../remote_sensing.rst:1445
+#: ../../remote_sensing.rst:1617
 msgid ":math:`c_{2} = h * c / s = 1.4388 * 10^{-2}` m K"
 msgstr ""
 
-#: ../../remote_sensing.rst:1446
+#: ../../remote_sensing.rst:1618
 msgid ":math:`h` = Planck’s constant = :math:`6.626 * 10^{-34}`  J s"
 msgstr ""
 
-#: ../../remote_sensing.rst:1447
+#: ../../remote_sensing.rst:1619
 msgid ":math:`s` = Boltzmann constant = :math:`1.38 * 10^{-23}` J/K"
 msgstr ""
 
-#: ../../remote_sensing.rst:1448
+#: ../../remote_sensing.rst:1620
 msgid ":math:`c` = velocity of light = :math:`2.998 * 10^{8}` m/s"
 msgstr ""
 
-#: ../../remote_sensing.rst:1450
+#: ../../remote_sensing.rst:1622
 msgid ""
 "The values of :math:`\\lambda` for the thermal bands of Landsat and ASTER"
 " satellites can be calculated from the tables in "
 ":ref:`Landsat_definition` and :ref:`ASTER_definition`."
 msgstr ""
 
-#: ../../remote_sensing.rst:1452
+#: ../../remote_sensing.rst:1624
 msgid ""
 "Several studies used NDVI for the estimation of land surface emissivity "
 "(Sobrino, et al., 2004); other studies used a land cover classification "
@@ -3285,97 +3730,116 @@ msgid ""
 "al. 2012)."
 msgstr ""
 
-#: ../../remote_sensing.rst:1455
+#: ../../remote_sensing.rst:1627
 msgid ":guilabel:`Emissivity values`"
 msgstr ""
 
-#: ../../remote_sensing.rst:1458
+#: ../../remote_sensing.rst:1630
 msgid "Land surface"
 msgstr ""
 
-#: ../../remote_sensing.rst:1458
+#: ../../remote_sensing.rst:1630
 msgid "Emissivity e"
 msgstr ""
 
-#: ../../remote_sensing.rst:1460
+#: ../../remote_sensing.rst:1632
 msgid "Soil"
 msgstr ""
 
-#: ../../remote_sensing.rst:1460
+#: ../../remote_sensing.rst:1632
 msgid "0.928"
 msgstr ""
 
-#: ../../remote_sensing.rst:1462
+#: ../../remote_sensing.rst:1634
 msgid "0.982"
 msgstr ""
 
-#: ../../remote_sensing.rst:1464
+#: ../../remote_sensing.rst:1636
 msgid "Asphalt"
 msgstr ""
 
-#: ../../remote_sensing.rst:1464
+#: ../../remote_sensing.rst:1636
 msgid "0.942"
 msgstr ""
 
-#: ../../remote_sensing.rst:1466
+#: ../../remote_sensing.rst:1638
 msgid "Concrete"
 msgstr ""
 
-#: ../../remote_sensing.rst:1466
+#: ../../remote_sensing.rst:1638
 msgid "0.937"
 msgstr ""
 
-#: ../../remote_sensing.rst:1474
+#: ../../remote_sensing.rst:1646
 msgid "References"
 msgstr ""
 
-#: ../../remote_sensing.rst:1476
+#: ../../remote_sensing.rst:1648
 msgid ""
 "Ball, G. H. & Hall, D. J., 1965. ISODATA. A novel method of data analysis"
 " and pattern classification. Menlo Park: Stanford Research Institute."
 msgstr ""
 
-#: ../../remote_sensing.rst:1478
+#: ../../remote_sensing.rst:1650
 msgid ""
 "Chander, G. & Markham, B., 2003. Revised Landsat-5 TM radiometric "
 "calibration procedures and postcalibration dynamic ranges Geoscience and "
 "Remote Sensing, IEEE Transactions on, 41, 2674 - 2677"
 msgstr ""
 
-#: ../../remote_sensing.rst:1480
+#: ../../remote_sensing.rst:1652
 msgid ""
 "Chavez, P. S., 1996. Image-Based Atmospheric Corrections - Revisited and "
 "Improved Photogrammetric Engineering and Remote Sensing, [Falls Church, "
 "Va.] American Society of Photogrammetry, 62, 1025-1036"
 msgstr ""
 
-#: ../../remote_sensing.rst:1482
+#: ../../remote_sensing.rst:1654
 msgid ""
 "Congalton, R. and Green, K., 2009. Assessing the Accuracy of Remotely "
 "Sensed Data: Principles and Practices. Boca Raton, FL: CRC Press"
 msgstr ""
 
-#: ../../remote_sensing.rst:1484
+#: ../../remote_sensing.rst:1656
 msgid ""
 "Didan, K.; Barreto Munoz, A.; Solano, R. & Huete, A., 2015. MODIS "
 "Vegetation Index User’s Guide. Collection 6, NASA"
 msgstr ""
 
-#: ../../remote_sensing.rst:1486
+#: ../../remote_sensing.rst:1658
+msgid ""
+"ESA, 2020. Sentinel-1 SAR Definitions. Available at "
+"https://sentinel.esa.int/web/sentinel/user-"
+"guides/sentinel-1-sar/definitions"
+msgstr ""
+
+#: ../../remote_sensing.rst:1660
+msgid ""
+"ESA, 2020b. Sentinel-1 SAR Definitions. Available at "
+"https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/overview"
+msgstr ""
+
+#: ../../remote_sensing.rst:1662
+msgid ""
+"ESA, 2019. A machine learning glossary. Available at "
+"https://blogs.esa.int/philab/2019/03/29/a-machine-learning-glossary/"
+msgstr ""
+
+#: ../../remote_sensing.rst:1664
 msgid ""
 "ESA, 2015. Sentinel-2 User Handbook. Available at "
 "https://sentinels.copernicus.eu/documents/247904/685211/Sentinel-"
 "2_User_Handbook"
 msgstr ""
 
-#: ../../remote_sensing.rst:1488
+#: ../../remote_sensing.rst:1666
 msgid ""
 "ESA, 2013. Sentinel-3 User Handbook. Available at "
 "https://sentinels.copernicus.eu/documents/247904/685236/Sentinel-"
 "3_User_Handbook"
 msgstr ""
 
-#: ../../remote_sensing.rst:1490
+#: ../../remote_sensing.rst:1668
 #, python-format
 msgid ""
 "Finn, M.P., Reed, M.D, and Yamamoto, K.H., 2012. A Straight Forward Guide"
@@ -3385,26 +3849,26 @@ msgid ""
 "http://cegis.usgs.gov/soil_moisture/pdf/A%20Straight%20Forward%20guide%20for%20Processing%20Radiance%20and%20Reflectance_V_24Jul12.pdf"
 msgstr ""
 
-#: ../../remote_sensing.rst:1492
+#: ../../remote_sensing.rst:1670
 msgid ""
 "Fisher, P. F. and Unwin, D. J., eds., 2005. Representing GIS. Chichester,"
 " England: John Wiley & Sons"
 msgstr ""
 
-#: ../../remote_sensing.rst:1494
+#: ../../remote_sensing.rst:1672
 msgid ""
 "JARS, 1993. Remote Sensing Note. Japan Association on Remote Sensing. "
 "Available at http://www.jars1974.net/pdf/rsnote_e.html"
 msgstr ""
 
-#: ../../remote_sensing.rst:1496
+#: ../../remote_sensing.rst:1674
 msgid ""
 "Jimenez-Munoz, J. C. & Sobrino, J. A., 2010. A Single-Channel Algorithm "
 "for Land-Surface Temperature Retrieval From ASTER Data IEEE Geoscience "
 "and Remote Sensing Letters, 7, 176-179"
 msgstr ""
 
-#: ../../remote_sensing.rst:1498
+#: ../../remote_sensing.rst:1676
 msgid ""
 "Johnson, B. A., Tateishi, R. and Hoan, N. T., 2012. Satellite Image "
 "Pansharpening Using a Hybrid Approach for Object-Based Image Analysis "
@@ -3412,14 +3876,14 @@ msgid ""
 "http://www.mdpi.com/2220-9964/1/3/228)"
 msgstr ""
 
-#: ../../remote_sensing.rst:1500
+#: ../../remote_sensing.rst:1678
 msgid ""
 "Kruse, F. A., et al., 1993. The Spectral Image Processing System (SIPS) -"
 " Interactive Visualization and Analysis of Imaging spectrometer. Data "
 "Remote Sensing of Environment"
 msgstr ""
 
-#: ../../remote_sensing.rst:1502
+#: ../../remote_sensing.rst:1680
 msgid ""
 "Mallick, J.; Singh, C. K.; Shashtri, S.; Rahman, A. & Mukherjee, S., "
 "2012. Land surface emissivity retrieval based on moisture index from "
@@ -3428,61 +3892,75 @@ msgid ""
 "19, 348 - 358"
 msgstr ""
 
-#: ../../remote_sensing.rst:1504
+#: ../../remote_sensing.rst:1682
 msgid ""
 "Mohr, P. J.; Newell, D. B. & Taylor, B. N., 2015. CODATA Recommended "
 "Values of the Fundamental Physical Constants: 2014 National Institute of "
 "Standards and Technology, Committee on Data for Science and Technology"
 msgstr ""
 
-#: ../../remote_sensing.rst:1506
+#: ../../remote_sensing.rst:1684
 msgid ""
 "Moran, M.; Jackson, R.; Slater, P. & Teillet, P., 1992. Evaluation of "
 "simplified procedures for retrieval of land surface reflectance factors "
 "from satellite sensor output Remote Sensing of Environment, 41, 169-184"
 msgstr ""
 
-#: ../../remote_sensing.rst:1508
+#: ../../remote_sensing.rst:1686
+msgid ""
+"NASA, 2020. What is Synthetic Aperture Radar?. Available at "
+"https://earthdata.nasa.gov/learn/what-is-sar"
+msgstr ""
+
+#: ../../remote_sensing.rst:1688
+msgid ""
+"NASA, 2013. Landsat 7 Science Data User's Handbook. Available at "
+"https://www.usgs.gov/land-resources/nli/landsat/landsat-7-data-users-"
+"handbook"
+msgstr ""
+
+#: ../../remote_sensing.rst:1690
 msgid ""
 "NASA, 2011. Landsat 7 Science Data Users Handbook Landsat Project Science"
 " Office at NASA's Goddard Space Flight Center in Greenbelt, 186 "
 "http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf"
 msgstr ""
 
-#: ../../remote_sensing.rst:1510
+#: ../../remote_sensing.rst:1692
 msgid ""
-"NASA, 2013. Landsat 7 Science Data User's Handbook. Available at "
-"http://landsathandbook.gsfc.nasa.gov"
+"NOAA, 2020. GOES-R Series. Available at "
+"Satelliteshttps://www.ncdc.noaa.gov/data-access/satellite-data/goes-r"
+"-series-satellites"
 msgstr ""
 
-#: ../../remote_sensing.rst:1512
+#: ../../remote_sensing.rst:1694
 msgid ""
 "Olofsson, P.; Foody, G. M.; Herold, M.; Stehman, S. V.; Woodcock, C. E. &"
 " Wulder, M. A., 2014. Good practices for estimating area and assessing "
 "accuracy of land change. Remote Sensing of Environment, 148, 42 – 57"
 msgstr ""
 
-#: ../../remote_sensing.rst:1514
+#: ../../remote_sensing.rst:1696
 msgid ""
 "Ready, P. and Wintz, P., 1973. Information Extraction, SNR Improvement, "
 "and Data Compression in Multispectral Imagery. IEEE Transactions on "
 "Communications, 21, 1123-1131"
 msgstr ""
 
-#: ../../remote_sensing.rst:1516
+#: ../../remote_sensing.rst:1698
 msgid ""
 "Richards, J. A. and Jia, X., 2006. Remote Sensing Digital Image Analysis:"
 " An Introduction. Berlin, Germany: Springer"
 msgstr ""
 
-#: ../../remote_sensing.rst:1518
+#: ../../remote_sensing.rst:1700
 msgid ""
 "Sobrino, J.; Jiménez-Muñoz, J. C. & Paolini, L., 2004. Land surface "
 "temperature retrieval from LANDSAT TM 5 Remote Sensing of Environment, "
 "Elsevier, 90, 434-440"
 msgstr ""
 
-#: ../../remote_sensing.rst:1520
+#: ../../remote_sensing.rst:1702
 msgid ""
 "USGS, 2015. Advanced Spaceborne Thermal Emission and Reflection "
 "Radiometer (ASTER) Level 1 Precision Terrain Corrected Registered At-"
@@ -3490,13 +3968,13 @@ msgid ""
 "EROS Data Center."
 msgstr ""
 
-#: ../../remote_sensing.rst:1522
+#: ../../remote_sensing.rst:1704
 msgid ""
 "Vermote, E. F.; Roger, J. C. & Ray, J. P., 2015. MODIS Surface "
 "Reflectance User’s Guide. Collection 6, NASA"
 msgstr ""
 
-#: ../../remote_sensing.rst:1524
+#: ../../remote_sensing.rst:1706
 msgid ""
 "Weng, Q.; Lu, D. & Schubring, J., 2004. Estimation of land surface "
 "temperature–vegetation abundance relationship for urban heat island "
@@ -3504,11 +3982,17 @@ msgid ""
 "New York NY 10159 USA, 89, 467-483"
 msgstr ""
 
-#: ../../remote_sensing.rst:1526
+#: ../../remote_sensing.rst:1708
 msgid ""
 "Wikipedia, 2017. k-means clustering. Available at "
 "https://en.wikipedia.org/wiki/K-means_clustering"
 msgstr ""
+
+#~ msgid ""
+#~ "NASA, 2013. Landsat 7 Science Data "
+#~ "User's Handbook. Available at "
+#~ "http://landsathandbook.gsfc.nasa.gov"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Richards, J. A. and Jia, X., 2006."

@@ -90,9 +90,9 @@ Scatter list
 * |input_table| :guilabel:`Scatter list`:
 	* :guilabel:`S`: checkbox field; if checked, the spectral signature is displayed in the plot;
 	* :guilabel:`MC ID`: signature Macroclass ID;
-	* :guilabel:`MC Info`: signature Macroclass Information;
+	* :guilabel:`MC Name`: signature Macroclass Name;
 	* :guilabel:`C ID`: signature Class ID;
-	* :guilabel:`C Info`: signature Class Information;
+	* :guilabel:`C Name`: signature Class Name;
 	* :guilabel:`Color`: color field; double click to select a color for the plot;
 * :guilabel:`Band X` |input_number|: X band of the plot;
 * :guilabel:`Band Y` |input_number|: Y band of the plot;
@@ -107,9 +107,9 @@ Scatter list
 	* -3 = :math:`10^{3}`
 * :guilabel:`Calculate` |enter|: calculate the scatter plot for the ROIs checked in the list;
 * |remove|: remove highlighted signatures from this list;
-* |scatter_raster_temp_ROI|: add a temporary scatter plot to the list (as ``MC Info = tempScatter``) and start the plot calculation of the last temporary ROI (see :ref:`working_toolbar`);
-* |scatter_raster_display|: add a temporary scatter plot to the list (as ``MC Info = tempScatter``) and start the plot calculation of pixels in current display extent;
-* |scatter_raster_image|: add a temporary scatter plot to the list (as ``MC Info = tempScatter``) and start the plot calculation of the entire image;
+* |scatter_raster_temp_ROI|: add a temporary scatter plot to the list (as ``MC Name = tempScatter``) and start the plot calculation of the last temporary ROI (see :ref:`working_toolbar`);
+* |scatter_raster_display|: add a temporary scatter plot to the list (as ``MC Name = tempScatter``) and start the plot calculation of pixels in current display extent;
+* |scatter_raster_image|: add a temporary scatter plot to the list (as ``MC Name = tempScatter``) and start the plot calculation of the entire image;
 
 	**WARNING**: Using a precision value that is too high can result in slow calculation or failure.
 

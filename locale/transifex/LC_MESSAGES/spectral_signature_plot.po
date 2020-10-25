@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgid ":guilabel:`MC ID`: signature Macroclass ID;"
 msgstr ""
 
 #: ../../spectral_signature_plot.rst:93
-msgid ":guilabel:`MC Info`: signature Macroclass Information;"
+msgid ":guilabel:`MC Name`: signature Macroclass Name;"
 msgstr ""
 
 #: ../../spectral_signature_plot.rst:94
@@ -79,7 +79,7 @@ msgid ":guilabel:`C ID`: signature Class ID;"
 msgstr ""
 
 #: ../../spectral_signature_plot.rst:95
-msgid ":guilabel:`C Info`: signature Class Information;"
+msgid ":guilabel:`C Name`: signature Class Name;"
 msgstr ""
 
 #: ../../spectral_signature_plot.rst:96
@@ -305,4 +305,10 @@ msgstr ""
 #: ../../spectral_signature_plot.rst:194
 msgid ":guilabel:`Spectral Signature: Example of spectral distances`"
 msgstr ""
+
+#~ msgid ":guilabel:`MC Info`: signature Macroclass Information;"
+#~ msgstr ""
+
+#~ msgid ":guilabel:`C Info`: signature Class Information;"
+#~ msgstr ""
 

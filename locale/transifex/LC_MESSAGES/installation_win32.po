@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 #: ../../installation_win32.rst:16
 msgid ""
 "Download the latest QGIS version 32 bit from `here "
-"<https://www.qgis.org/en/site/forusers/download.html>`_ ;"
+"<https://www.qgis.org/en/site/forusers/download.html#windows>`_ ;"
 msgstr ""
 
 #: ../../installation_win32.rst:18
@@ -85,4 +85,10 @@ msgid ""
 "Menu Bar of QGIS. It is possible to move the toolbar and the dock "
 "according to your needs, as in the following image."
 msgstr ""
+
+#~ msgid ""
+#~ "Download the latest QGIS version 32 "
+#~ "bit from `here "
+#~ "<https://www.qgis.org/en/site/forusers/download.html>`_ ;"
+#~ msgstr ""
 

@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../stackrasterbandsTab.rst:5
+msgid "Stack raster bands"
+msgstr ""
+
+#: ../../stackrasterbandsTab.rst:265
+msgid "|stack_raster| :guilabel:`Stack raster bands`"
+msgstr ""
+
+#: ../../stackrasterbandsTab.rst:268
+msgid "Stack all the bands in a :ref:`band_set_tab` into a multiband raster."
+msgstr ""
+
+#: ../../stackrasterbandsTab.rst:273
+msgid "Stack band set"
+msgstr ""
+
+#: ../../stackrasterbandsTab.rst:275
+msgid ""
+":guilabel:`Select input band set` |input_number|: select the input "
+":ref:`band_set_tab` to be stacked;"
+msgstr ""
+
+#: ../../stackrasterbandsTab.rst:276
+msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../stackrasterbandsTab.rst:277
+msgid ""
+":guilabel:`RUN` |run|: choose the output destination and stack selected "
+"raster;"
+msgstr ""
+

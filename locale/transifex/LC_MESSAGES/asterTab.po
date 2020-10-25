@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../asterTab.rst:5
+msgid "ASTER"
+msgstr ""
+
+#: ../../asterTab.rst:265
+msgid "|aster_tool| :guilabel:`ASTER`"
+msgstr ""
+
+#: ../../asterTab.rst:267
+msgid ""
+"This tab allows for the conversion of **ASTER L1T** images to the "
+"physical measure of Top Of Atmosphere reflectance (TOA), or the "
+"application of a simple atmospheric correction using the DOS1 method "
+"(Dark Object Subtraction 1), which is an image-based technique (for more "
+"information about conversion to TOA and DOS1 correction, see "
+":ref:`conversion_to_reflectance`)."
+msgstr ""
+
+#: ../../asterTab.rst:269
+msgid "**Parallel processing is available.**"
+msgstr ""
+
+#: ../../asterTab.rst:271
+msgid ""
+"Once the input is selected, available bands are listed in the metadata "
+"table."
+msgstr ""
+
+#: ../../asterTab.rst:276
+msgid "ASTER conversion"
+msgstr ""
+
+#: ../../asterTab.rst:278
+msgid ""
+":guilabel:`Select file ASTER L1T` |open_file|: select an ASTER image "
+"(file .hdf);"
+msgstr ""
+
+#: ../../asterTab.rst:279
+msgid ""
+"|checkbox| :guilabel:`Apply DOS1 atmospheric correction`: if checked, the"
+" :ref:`DOS1_correction` is applied to all the bands;"
+msgstr ""
+
+#: ../../asterTab.rst:280
+msgid ""
+"|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
+"pixels having ``NoData`` value are not counted during conversion and the "
+"DOS1 calculation of DNmin; it is useful when image has a black border "
+"(usually pixel value = 0);"
+msgstr ""
+
+#: ../../asterTab.rst:281
+msgid ""
+"|checkbox| :guilabel:`Create Band set and use Band set tools`: if "
+"checked, bands are added to the active :guilabel:`Band set` after the "
+"conversion; also, the :guilabel:`Band set` is processed according to the "
+"tools checked in the :ref:`band_set_tab`;"
+msgstr ""
+
+#: ../../asterTab.rst:282
+msgid ""
+"|checkbox| :guilabel:`Add bands in a new Band set`: if checked, bands are"
+" added to a new empty :guilabel:`Band set` after the conversion;"
+msgstr ""
+
+#: ../../asterTab.rst:288
+msgid "Metadata"
+msgstr ""
+
+#: ../../asterTab.rst:290
+msgid ""
+"All the bands found in the :guilabel:`Select file ASTER L1T` are listed "
+"in the table :guilabel:`Metadata`. For information about "
+":guilabel:`Metadata` fields visit `the ASTER page "
+"<https://lpdaac.usgs.gov/products/ast_l1tv003/>`_ ."
+msgstr ""
+
+#: ../../asterTab.rst:293
+msgid ":guilabel:`Date` |input_text|: date of acquisition (e.g. 20130415);"
+msgstr ""
+
+#: ../../asterTab.rst:294
+msgid ":guilabel:`Sun elevation` |input_number|: Sun elevation in degrees;"
+msgstr ""
+
+#: ../../asterTab.rst:295
+msgid ""
+":guilabel:`Earth sun distance` |input_number|: Earth Sun distance in "
+"astronomical units (automatically calculated if :guilabel:`Date` is "
+"filled;"
+msgstr ""
+
+#: ../../asterTab.rst:296
+msgid ":guilabel:`UTM zone` |input_text|: UTM zone code of the image;"
+msgstr ""
+
+#: ../../asterTab.rst:297
+msgid ""
+":guilabel:`UPPERLEFTM` |input_text|: coordinates of the upper left corner"
+" of the image;"
+msgstr ""
+
+#: ../../asterTab.rst:298
+msgid ""
+":guilabel:`LOWERRIGHTM` |input_text|: coordinates of the lower right "
+"corner of the image;"
+msgstr ""
+
+#: ../../asterTab.rst:299
+msgid "|remove|: remove highlighted bands from the table :guilabel:`Metadata`;"
+msgstr ""
+
+#: ../../asterTab.rst:305
+msgid "|input_table|"
+msgstr ""
+
+#: ../../asterTab.rst:304
+msgid "table containing the following fields;"
+msgstr ""
+
+#: ../../asterTab.rst:302
+msgid ":guilabel:`Band`: band name;"
+msgstr ""
+
+#: ../../asterTab.rst:303
+msgid ":guilabel:`UnitConversionCoeff`: value for radiance conversion;"
+msgstr ""
+
+#: ../../asterTab.rst:304
+msgid ":guilabel:`PixelSize`: solar irradiance of band;"
+msgstr ""
+
+#: ../../asterTab.rst:307
+msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../asterTab.rst:308
+msgid ""
+":guilabel:`RUN` |run|: select an output directory and start the "
+"conversion process; only bands listed in the table :guilabel:`Metadata` "
+"are converted; converted bands are saved in the output directory with the"
+" prefix ``RT_`` and automatically loaded in QGIS;"
+msgstr ""
+

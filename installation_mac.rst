@@ -17,7 +17,7 @@ QGIS download and installation
 
 Now, QGIS is installed.
 
-.. image:: _static/QGIS_u.jpg
+.. image:: _static/QGIS.jpg
 
 .. _plugin_installation_mac:
  
@@ -28,7 +28,7 @@ Semi-Automatic Classification Plugin installation
 
 * From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;
 
-.. image:: _static/install_u.jpg
+.. image:: _static/install.jpg
 
 * From the menu ``All``, select the Semi-Automatic Classification Plugin and click the button ``Install plugin``;
 
@@ -45,13 +45,23 @@ In case of missing dependencies, you could get error messages such as the follow
 
 .. image:: _static/error_message_mac.jpg
 
+A solution is to follow these steps as described in `this GIS Stackexchange post <https://gis.stackexchange.com/questions/366848/scp-plugin-for-qgis-3-10-on-mac>`_ :
 
-To install matplotlib type in a terminal::
+* Download and install Python from https://www.python.org/downloads/mac-osx/ selecting the macOS 64-bit installer;
 
-	sudo pip3 install matplotlib
-	
-and repeat this step for other missing dependencies.
-	
+* Download and install the complete GDAL installer from https://www.kyngchaos.com/software/frameworks/ ;
+
+	**TIP**: In case of warnings about malicious software go to the ``Apple menu`` > ``System Preferences`` > ``Security & Privacy`` > ``General Tab`` > ``Allow Anyway`` ; Python should be in ``Library`` > ``Frameworks`` > ``Python.framework`` ; GDAL should be in ``Library`` > ``Application Support`` > ``GDAL``
+
+* Open QGIS, go to ``Settings`` > ``Options`` > ``System`` > ``Environment`` and enable ``Use Custom Variables`` ;
+
+* Select ``Prepend``, under ``variable`` enter ``PATH``, under ``value`` enter the path to GDAL ``/Library/Frameworks/GDAL.framework/Programs:/Library/Frameworks/Python.framework/Versions/3.8/bin:`` ;
+
+	**TIP**: In case of GDAL was installed through Macports, the path to GDAL should be ``/opt/local/bin/:``
+
+* Restart QGIS.
+
+
 	
 .. _plugin_configuration_mac:
 
@@ -74,4 +84,4 @@ In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that shoul
 .. |settings_tool| image:: _static/semiautomaticclassificationplugin_settings_tool.png
 	:width: 20pt
 	
-.. image:: _static/settings_processing_tab.jpg
+.. image:: _static/settings_processing_tab.png

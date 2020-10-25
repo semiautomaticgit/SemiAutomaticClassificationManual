@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../classSignatureTab.rst:5
+msgid "Class signature"
+msgstr ""
+
+#: ../../classSignatureTab.rst:264
+msgid "|class_signature| :guilabel:`Class signature`"
+msgstr ""
+
+#: ../../classSignatureTab.rst:266
+msgid ""
+"This tab allows for the calculation of the mean spectral signature of "
+"each class in a classification using a :ref:`band_set_tab`."
+msgstr ""
+
+#: ../../classSignatureTab.rst:268
+msgid ""
+":guilabel:`Select the classification` |input_list|: select a "
+"classification raster (already loaded in QGIS);"
+msgstr ""
+
+#: ../../classSignatureTab.rst:269
+msgid "|reload|: refresh layer list;"
+msgstr ""
+
+#: ../../classSignatureTab.rst:270
+msgid ""
+":guilabel:`Select input band set` |input_number|: select the input "
+":ref:`band_set_tab` for spectral signature calculation;"
+msgstr ""
+
+#: ../../classSignatureTab.rst:271
+msgid ""
+"|checkbox| :guilabel:`Save resulting signatures to Signature list`: if "
+"checked, save the resulting spectral signatures to :ref:`ROI_list`;"
+msgstr ""
+
+#: ../../classSignatureTab.rst:274
+msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../classSignatureTab.rst:275
+msgid ""
+":guilabel:`RUN` |run|: choose the output destination and start the "
+"conversion;"
+msgstr ""
+

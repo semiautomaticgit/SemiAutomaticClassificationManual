@@ -27,7 +27,7 @@ QGIS download and installation
 
 Now, QGIS is installed.
 
-.. image:: _static/QGIS_u.jpg
+.. image:: _static/QGIS.jpg
 
 .. _plugin_installation_ubuntu:
  
@@ -38,7 +38,7 @@ Semi-Automatic Classification Plugin installation
 
 * From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;
 
-.. image:: _static/install_u.jpg
+.. image:: _static/install.jpg
 
 * From the menu ``All``, select the Semi-Automatic Classification Plugin and click the button ``Install plugin``;
 
@@ -71,4 +71,4 @@ In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that shoul
 .. |settings_tool| image:: _static/semiautomaticclassificationplugin_settings_tool.png
 	:width: 20pt
 	
-.. image:: _static/settings_processing_tab.jpg
+.. image:: _static/settings_processing_tab.png

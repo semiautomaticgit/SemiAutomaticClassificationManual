@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 #: ../../installation_win64.rst:16
 msgid ""
 "Download the latest QGIS version 64 bit from `here "
-"<https://www.qgis.org/en/site/forusers/download.html>`_ ;"
+"<https://www.qgis.org/en/site/forusers/download.html#windows>`_ ;"
 msgstr ""
 
 #: ../../installation_win64.rst:18
@@ -99,4 +99,10 @@ msgid ""
 "that should be half of the system RAM. For instance, if your system has "
 "2GB of RAM, set the value to 1024MB."
 msgstr ""
+
+#~ msgid ""
+#~ "Download the latest QGIS version 64 "
+#~ "bit from `here "
+#~ "<https://www.qgis.org/en/site/forusers/download.html>`_ ;"
+#~ msgstr ""
 

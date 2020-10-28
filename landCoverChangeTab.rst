@@ -265,8 +265,11 @@ Land cover change
 	|land_cover_change| :guilabel:`Land cover change`
 	
 The tab ``Land cover change`` allows for the comparison between two classifications in order to assess land cover changes.
-Output is a ``land cover change raster`` (i.e. a file .tif showing the changes in the map, where each pixel represents a category of comparison (i.e. combinations) between the two classifications, which is the ``ChangeCode`` in the land cover change statistics) and a text file containing the land cover change statistics (i.e. a file .csv separated by tab, with the same name defined for the .tif file).
 
+	**Parallel processing is available.**
+	
+Output is a ``land cover change raster`` (i.e. a file .tif showing the changes in the map, where each pixel represents a category of comparison (i.e. combinations) between the two classifications, which is the ``ChangeCode`` in the land cover change statistics) and a text file containing the land cover change statistics (i.e. a file .csv separated by tab, with the same name defined for the .tif file).
+	
 .. _classification_input:
 
 Input

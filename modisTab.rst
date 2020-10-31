@@ -277,7 +277,7 @@ MODIS conversion
 
 * :guilabel:`Select file MODIS` |open_file|: select a MODIS image (file .hdf);
 * |checkbox| :guilabel:`Reproject to WGS 84`: if checked, reproject bands to WGS 84, required for use in :guilabel:`SCP`;
-* |checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, pixels having ``NoData`` value are not counted during conversion and the DOS1 calculation of DNmin; it is useful when image has a black border (usually pixel value = 0);
+* |checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, pixels having ``NoData`` value are not counted during conversion and the DOS1 calculation of DNmin; it is useful when image has a black border (usually pixel value = -999);
 * |checkbox| :guilabel:`Create Band set and use Band set tools`: if checked, bands are added to the active :guilabel:`Band set` after the conversion; also, the :guilabel:`Band set` is processed according to the tools checked in the :ref:`band_set_tab`;
 * |checkbox| :guilabel:`Add bands in a new Band set`: if checked, bands are added to a new empty :guilabel:`Band set` after the conversion;
 

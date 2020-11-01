@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Daria Svidzinska <d.svidzinska@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:47+0000\n"
+"Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2020\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: ../../vectorToRasterTab.rst:5
+msgid "Vector to raster"
+msgstr "Вектор в растр"
+
+#: ../../vectorToRasterTab.rst:265
+msgid "|vector_to_raster_tool| :guilabel:`Vector to raster`"
+msgstr "|vector_to_raster_tool| :guilabel:`Вектор в растр`"
+
+#: ../../vectorToRasterTab.rst:267
+msgid "This tab allows for the conversion of a vector to raster format."
+msgstr "Ця вкладка забезпечує перетворення вектора в растровий формат."
+
+#: ../../vectorToRasterTab.rst:272
+msgid "Convert vector to raster"
+msgstr ""
+
+#: ../../vectorToRasterTab.rst:274
+msgid ""
+":guilabel:`Select the vector` |input_list|: select a vector already loaded "
+"in QGIS;"
+msgstr ""
+":guilabel:`Вибрати вектор` |input_list|: вибрати вектор, попередньо "
+"завантажений до QGIS;"
+
+#: ../../vectorToRasterTab.rst:275 ../../vectorToRasterTab.rst:282
+msgid "|reload|: refresh layer list;"
+msgstr "|reload|: оновити перелік шарів;"
+
+#: ../../vectorToRasterTab.rst:276
+msgid ""
+"|checkbox| :guilabel:`Use the value field of the vector` |input_list|: if "
+"checked, the selected field is used as attribute for the conversion; pixels "
+"of the output raster have the same values as the vector attribute;"
+msgstr ""
+"|checkbox| :guilabel:`Використати поле значень вектора` |input_list|: якщо "
+"опцію увімкнено, то вибране поле використовується в якості атрибута для "
+"перетворення; пікселі вихідного результуючого растра мають ті ж самі "
+"значення, що і атрибут вектора;"
+
+#: ../../vectorToRasterTab.rst:277
+msgid ""
+"|checkbox| :guilabel:`Use constant value` |input_number|: if checked, the "
+"polygons are converted to raster using the selected constant value;"
+msgstr ""
+"|checkbox| :guilabel:`Використати постійне значення` |input_number|: якщо "
+"опцію увімкнено, то полігони перетворюються в растр з використанням "
+"вибраного постійного значення;"
+
+#: ../../vectorToRasterTab.rst:279
+msgid ""
+":guilabel:`Select the type of conversion` |input_list|: select the type of "
+"conversion between :guilabel:`Center of pixels` and :guilabel:`All pixels "
+"touched`:"
+msgstr ""
+":guilabel:`Вибрати тип перетворення` |input_list|: вибрати тип перетворення "
+"між :guilabel:`Центр пікселів` та  :guilabel:`Всі дотичні пікселі`:"
+
+#: ../../vectorToRasterTab.rst:279
+msgid ""
+":guilabel:`Center of pixels`: during the conversion, vector is compared to "
+"the reference raster; output raster pixels are attributed to a polygon if "
+"pixel center is within that polygon;"
+msgstr ""
+":guilabel:`Центр пікселів`: під час перетворення вектор порівнюється з "
+"реперним растром; пікселі вихідного результуючого растра відносяться до "
+"полігона, якщо центр пікселя всередині цього полігона;"
+
+#: ../../vectorToRasterTab.rst:280
+msgid ""
+":guilabel:`All pixels touched`: during the conversion, vector is compared to"
+" the reference raster; output raster pixels are attributed to a polygon if "
+"pixel touches that polygon;"
+msgstr ""
+":guilabel:`Всі дотичні пікселі`: під час перетворення вектор порівнюється з "
+"реперним растром; пікселі вихідного результуючого растра відносяться до "
+"полігона, якщо піксель дотичний до нього;"
+
+#: ../../vectorToRasterTab.rst:281
+msgid ""
+":guilabel:`Select the reference raster` |input_list|: select a reference "
+"raster; pixels of the output raster have the same size and alignment as the "
+"reference raster;"
+msgstr ""
+":guilabel:`Вибрати реперний растр` |input_list|: вибрати реперний растр; "
+"пікселі вихідного результуючого растра мають той самий розмір та "
+"розташування, що і в реперного растра;"
+
+#: ../../vectorToRasterTab.rst:284
+msgid ""
+":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../vectorToRasterTab.rst:285
+msgid ""
+":guilabel:`RUN` |run|: choose the output destination and start the "
+"conversion to raster;"
+msgstr ""

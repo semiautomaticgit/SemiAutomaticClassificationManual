@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:47+0000\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../vectorToRasterTab.rst:5
+msgid "Vector to raster"
+msgstr "Vectorial a ráster"
+
+#: ../../vectorToRasterTab.rst:265
+msgid "|vector_to_raster_tool| :guilabel:`Vector to raster`"
+msgstr "|vector_to_raster_tool| :guilabel:`Vectorial a ráster`"
+
+#: ../../vectorToRasterTab.rst:267
+msgid "This tab allows for the conversion of a vector to raster format."
+msgstr "Esta pestaña permite la conversión de formato vectorial a ráster."
+
+#: ../../vectorToRasterTab.rst:272
+msgid "Convert vector to raster"
+msgstr ""
+
+#: ../../vectorToRasterTab.rst:274
+msgid ""
+":guilabel:`Select the vector` |input_list|: select a vector already loaded "
+"in QGIS;"
+msgstr ""
+":guilabel:`Selecciona el vectorial` |input_list|: selecciona un vectorial ya"
+" cargado en QGIS;"
+
+#: ../../vectorToRasterTab.rst:275 ../../vectorToRasterTab.rst:282
+msgid "|reload|: refresh layer list;"
+msgstr "|reload|: recargar la lista de capas;"
+
+#: ../../vectorToRasterTab.rst:276
+msgid ""
+"|checkbox| :guilabel:`Use the value field of the vector` |input_list|: if "
+"checked, the selected field is used as attribute for the conversion; pixels "
+"of the output raster have the same values as the vector attribute;"
+msgstr ""
+"|checkbox| :guilabel:`Usar el valor del campo del vector` |input_list|: si "
+"está seleccionado, el campo seleccionado es usado como atributo para la "
+"conversión; los pixeles del ráster de salida tienen los mismos valores que "
+"los atributos del vectorial;"
+
+#: ../../vectorToRasterTab.rst:277
+msgid ""
+"|checkbox| :guilabel:`Use constant value` |input_number|: if checked, the "
+"polygons are converted to raster using the selected constant value;"
+msgstr ""
+"|checkbox| :guilabel:`Usar un valor constante` |input_number|: si está "
+"seleccionado, los polígonos son convertidos a ráster usando el valor "
+"constante seleccionado;"
+
+#: ../../vectorToRasterTab.rst:279
+msgid ""
+":guilabel:`Select the type of conversion` |input_list|: select the type of "
+"conversion between :guilabel:`Center of pixels` and :guilabel:`All pixels "
+"touched`:"
+msgstr ""
+":guilabel:`Seleccionar el tipo de conversión` |input_list|: selecciona el "
+"tipo de conversión entre :guilabel:`Centro de los pixeles` y "
+":guilabel:`Todos los pixeles en contacto`:"
+
+#: ../../vectorToRasterTab.rst:279
+msgid ""
+":guilabel:`Center of pixels`: during the conversion, vector is compared to "
+"the reference raster; output raster pixels are attributed to a polygon if "
+"pixel center is within that polygon;"
+msgstr ""
+":guilabel:`Centro de los pixeles`: durante la conversión, el vector es "
+"comparado con el ráster de referencia; los pixeles ráster de salida son "
+"atribuidos al polígono si el centro del pixel está dentro de ese polígono;"
+
+#: ../../vectorToRasterTab.rst:280
+msgid ""
+":guilabel:`All pixels touched`: during the conversion, vector is compared to"
+" the reference raster; output raster pixels are attributed to a polygon if "
+"pixel touches that polygon;"
+msgstr ""
+":guilabel:`Todos los pixeles en contacto`: durante la conversión, el vector "
+"es comparado con el ráster de referencia; los pixeles ráster de salida son "
+"atribuidos al polígono si el pixel topa a ese polígono;"
+
+#: ../../vectorToRasterTab.rst:281
+msgid ""
+":guilabel:`Select the reference raster` |input_list|: select a reference "
+"raster; pixels of the output raster have the same size and alignment as the "
+"reference raster;"
+msgstr ""
+":guilabel:`Selecciona el ráster de referencia` |input_list|: selecciona un "
+"ráster de referencia; los pixeles del ráster de salida tienen el mismo "
+"tamaño y alineamiento al del ráster de referencia. El ráster de referencia "
+"es un ráster de una sola banda;"
+
+#: ../../vectorToRasterTab.rst:284
+msgid ""
+":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../vectorToRasterTab.rst:285
+msgid ""
+":guilabel:`RUN` |run|: choose the output destination and start the "
+"conversion to raster;"
+msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida e inicie la conversión a "
+"ráster;"

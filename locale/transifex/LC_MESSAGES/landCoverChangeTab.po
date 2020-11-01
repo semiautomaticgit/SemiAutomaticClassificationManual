@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2019, Luca Congedo
+# Copyright (C) 2012-2020, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 00:17+0100\n"
+"POT-Creation-Date: 2020-11-01 13:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,22 +84,4 @@ msgid ""
 ":guilabel:`Output` (and saved in a text file) and the ``land cover change"
 " raster`` is loaded in QGIS;"
 msgstr ""
-
-#~ msgid ""
-#~ "The tab ``Land cover change`` allows "
-#~ "for the comparison between two "
-#~ "classifications in order to assess land"
-#~ " cover changes. Output is a ``land"
-#~ " cover change raster`` (i.e. a file"
-#~ " .tif showing the changes in the "
-#~ "map, where each pixel represents a "
-#~ "category of comparison (i.e. combinations) "
-#~ "between the two classifications, which "
-#~ "is the ``ChangeCode`` in the land "
-#~ "cover change statistics) and a text "
-#~ "file containing the land cover change"
-#~ " statistics (i.e. a file .csv "
-#~ "separated by tab, with the same "
-#~ "name defined for the .tif file)."
-#~ msgstr ""
 

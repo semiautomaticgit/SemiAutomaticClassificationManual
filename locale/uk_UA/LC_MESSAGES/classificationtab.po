@@ -1,0 +1,320 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Daria Svidzinska <d.svidzinska@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2020\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: ../../classificationTab.rst:5 ../../classificationTab.rst:278
+msgid "Classification"
+msgstr "Класифікація"
+
+#: ../../classificationTab.rst:265
+msgid ":guilabel:`Classification`"
+msgstr ":guilabel:`Classification`"
+
+#: ../../classificationTab.rst:267
+msgid ""
+"This tab allows for the classification of the :ref:`band_set_tab` using the "
+"spectral signatures checked in :ref:`ROI_list`. Several classification "
+"options are set in this tab which affect the classification process also "
+"during the :ref:`classification_preview`."
+msgstr ""
+
+#: ../../classificationTab.rst:270
+msgid "**Parallel processing is available.**"
+msgstr ""
+
+#: ../../classificationTab.rst:272
+msgid ""
+"This tool allows for the use of the following algorithms: Minimum Distance, "
+"Maximum Likelihood, Spectral Angle Mapping. ``Random Forest`` is available "
+"in the :ref:`random_forest_tab` tab."
+msgstr ""
+
+#: ../../classificationTab.rst:280
+msgid ""
+":guilabel:`Select input band set` |input_number|: select the input "
+":ref:`band_set_tab` to be classified;"
+msgstr ""
+
+#: ../../classificationTab.rst:281
+msgid ""
+":guilabel:`Use` |checkbox| :guilabel:`MC ID` |checkbox| :guilabel:`C ID` "
+"|registry_save|: if :guilabel:`MC ID` is checked, the classification is "
+"performed using the Macroclass ID (code `MC ID` of the signature); if "
+":guilabel:`C ID` is checked, the classification is performed using the Class"
+" ID (code `C ID` of the signature);"
+msgstr ""
+":guilabel:`Застосувати` |checkbox| :guilabel:`MC ID` |checkbox| :guilabel:`C"
+" ID` |registry_save|: якщо :guilabel:`MC ID` увімкнено, то класифікація "
+"відбувається на підставі унікальних ідентифікаторів макрокласів (код "
+"сигнатури `MC ID`); якщо увімкнено :guilabel:`C ID`, то класифікація "
+"відбувається на підставі унікальних ідентифікаторів класів (код сигнатури `C"
+" ID`);"
+
+#: ../../classificationTab.rst:282
+msgid ""
+"|weight_tool| : open the :ref:`Algorithm_band_weight_tab` for the definition"
+" of band weights;"
+msgstr ""
+"|weight_tool| : відкрити :ref:`Algorithm_band_weight_tab` для визначення "
+"вагових коефіцієнтів каналів;"
+
+#: ../../classificationTab.rst:287
+msgid "Algorithm"
+msgstr "Алгоритм"
+
+#: ../../classificationTab.rst:289
+msgid ""
+"This tool allows for the selection of the classification algorithm and the "
+"optiona definition of thresholds."
+msgstr ""
+"Цей інструмент забезпечує вибір алгоритму класифікації та необов'язкове "
+"визначення порогових величин."
+
+#: ../../classificationTab.rst:291
+msgid ""
+"|input_list| |project_save|: available "
+":ref:`classification_algorithm_definition` are:"
+msgstr ""
+"|input_list| |project_save|: доступні "
+":ref:`classification_algorithm_definition`:"
+
+#: ../../classificationTab.rst:293
+msgid ":ref:`minimum_distance_algorithm`;"
+msgstr ":ref:`minimum_distance_algorithm`;"
+
+#: ../../classificationTab.rst:294
+msgid ":ref:`max_likelihood_algorithm`;"
+msgstr ":ref:`max_likelihood_algorithm`;"
+
+#: ../../classificationTab.rst:295
+msgid ":ref:`spectra_angle_mapping_algorithm`;"
+msgstr ":ref:`spectra_angle_mapping_algorithm`;"
+
+#: ../../classificationTab.rst:300
+msgid ""
+":guilabel:`Threshold` |input_number| |optional|: it allows for the "
+"definition of a classification threshold (applied to all the spectral "
+"signatures); if :guilabel:`Threshold` is equal to 0, then thresholds "
+":ref:`Signature_threshold_tab` are evaluated; in particular:"
+msgstr ""
+":guilabel:`Threshold` |input_number| |optional|: дозволяє визначати порогову"
+" величину класифікації (застосовується до всіх спектральних сигнатур); якщо "
+":guilabel:`Threshold` дорівнює 0, то порогові величини "
+":ref:`Signature_threshold_tab` оцінюються; зокрема:"
+
+#: ../../classificationTab.rst:298
+msgid ""
+"for Minimum Distance, pixels are unclassified if distance is greater than "
+"threshold value;"
+msgstr ""
+"для Мінімальної відстані пікселі не класифікуються, якщо відстань більша за "
+"значення порогової величини;"
+
+#: ../../classificationTab.rst:299
+msgid ""
+"for Maximum Likelihood, pixels are unclassified if probability is less than "
+"threshold  value (max 100);"
+msgstr ""
+"для Максимальної імовірності пікселі не класифікуються, якщо імовірність "
+"менша за значення порогової величини (максимально 100);"
+
+#: ../../classificationTab.rst:300
+msgid ""
+"for Spectral Angle Mapping, pixels are unclassified if spectral angle "
+"distance is greater than threshold value (max 90);"
+msgstr ""
+"для Картографування спектрального кута пікселі не класифікуються. якщо "
+"спектральний кут більший за значення порогової величини (максимально 90)."
+
+#: ../../classificationTab.rst:302
+msgid ""
+"|threshold_tool|: open the :ref:`Signature_threshold_tab` for the definition"
+" of signature thresholds;"
+msgstr ""
+"|threshold_tool|: відкрити :ref:`Signature_threshold_tab` для визначення "
+"порогових величин сигнатур;"
+
+#: ../../classificationTab.rst:307
+msgid "Land Cover Signature Classification"
+msgstr "Класифікація сигнатур земельного покриву"
+
+#: ../../classificationTab.rst:309
+msgid ""
+":ref:`LCS_algorithm` is a classification that can be used as alternative or "
+"in combination with the :ref:`classification_alg` (see "
+":ref:`LCS_threshold`). Pixels belonging to two or more different classes (or"
+" macroclasses) are classified as :guilabel:`Class overlap` with raster value"
+" = -1000."
+msgstr ""
+":ref:`LCS_algorithm` це класифікація, яка може бути використана в якості "
+"альтернативи або у поєднанні з :ref:`classification_alg` (див. "
+":ref:`LCS_threshold`). Пікселі, що належать до двох або більше класів (або "
+"макрокласів) класифікуються як :guilabel:`Class overlap` з значеннями растра"
+" = -1000."
+
+#: ../../classificationTab.rst:312
+msgid ""
+":guilabel:`Use` |checkbox| :guilabel:`LCS` |checkbox| :guilabel:`Algorithm` "
+"|checkbox| :guilabel:`only overlap`: if :guilabel:`LCS` is checked, the "
+":guilabel:`Land Cover Signature Classification` is used; if "
+":guilabel:`Algorithm` is checked, the selected :ref:`classification_alg` is "
+"used for unclassified pixels of the :guilabel:`Land Cover Signature "
+"Classification`; if :guilabel:`only overlap` is checked, the selected "
+":ref:`classification_alg` is used only for class overlapping pixels of the "
+":guilabel:`Land Cover Signature Classification`; unclassified pixels of the "
+":guilabel:`Land Cover Signature Classification` are left unclassified;"
+msgstr ""
+":guilabel:`Use` |checkbox| :guilabel:`LCS` |checkbox| :guilabel:`Algorithm` "
+"|checkbox| :guilabel:`only overlap`: якщо параметр :guilabel:`LCS` увімкнено"
+" , то застосовується :guilabel:`Land Cover Signature Classification`; якщо "
+"параметр :guilabel:`Алгоритм` увімкнено, то вибраний "
+":ref:`classification_alg` застосовується до некласифікованих пікселів "
+":guilabel:`Класифікація сигнатур земельного покриву`; якщо увімкнено "
+":guilabel:`тільки перекриття`, вибраний :ref:`classification_alg` "
+"застосовується лише до пікселів з класів, що перекриваються за "
+":guilabel:`Класифікація сигнатур земельного покриву`; некласифіковані "
+"пікселі :guilabel:`Класифікація сигнатур земельного покриву` залишаються "
+"некласифікованими;"
+
+#: ../../classificationTab.rst:313
+msgid "|threshold_tool|: open the :ref:`LCS_threshold`;"
+msgstr "|threshold_tool|: відкрити :ref:`LCS_threshold`;"
+
+#: ../../classificationTab.rst:319
+msgid "Classification output"
+msgstr "Результат класифікації"
+
+#: ../../classificationTab.rst:321
+msgid ""
+":guilabel:`Classification output` allows for the classification of the "
+":ref:`band_set_tab` according to the parameters defined in "
+":ref:`classification_alg`."
+msgstr ""
+":guilabel:`Classification output` забезпечує класифікацію  "
+":ref:`band_set_tab` відповідно до параметрів визначених у "
+":ref:`classification_alg`."
+
+#: ../../classificationTab.rst:323
+msgid ""
+"In addition, a previously saved `classification style` (QGIS .qml file) can "
+"be loaded and used for classification style."
+msgstr ""
+"Додатково, в якості стилю класифікації може бути відкритий та використаний "
+"завчасно збережений `стиль класифікації` (файл QGIS .qml)  ."
+
+#: ../../classificationTab.rst:325
+msgid ""
+"Classification raster is a file ``.tif`` (a QGIS style file ``.qml`` is "
+"saved along with the classification); also other outputs can be optionally "
+"calculated. Outputs are loaded in QGIS after the calculation."
+msgstr ""
+"Растр класифікації це файл ``.tif`` (файл стилю QGIS ``.qml`` зберігається "
+"разом з результатом класифікації); додатково можуть бути розраховані і інші "
+"результати. Після завершення розрахунків, результат завантажуються до QGIS."
+
+#: ../../classificationTab.rst:328
+msgid ""
+":guilabel:`Load qml` |open_file| |project_save|: select a .qml file "
+"overriding the colors defined for :guilabel:`C ID` or :guilabel:`MC ID`;"
+msgstr ""
+":guilabel:`Відкрити qml` |open_file| |project_save|: вибрати файл .qml, "
+"скасовуючи кольори, визначені для :guilabel:`C ID` або :guilabel:`MC ID`;"
+
+#: ../../classificationTab.rst:329
+msgid ""
+"|reset|: reset style to default (i.e. use the colors defined for "
+":guilabel:`C ID` or :guilabel:`MC ID`);"
+msgstr ""
+"|reset|: повернутись до стандартного стилю (тобто використовувати кольори, "
+"визначені для :guilabel:`C ID` або :guilabel:`MC ID`);"
+
+#: ../../classificationTab.rst:330
+msgid ""
+"|checkbox| :guilabel:`Apply mask` |optional|: if checked, a shapefile can be"
+" selected for masking the classification output (i.e. the area outside the "
+"shapefile is not classified);"
+msgstr ""
+"|checkbox| :guilabel:`Застосувати маску` |optional|: якщо увмікнено, то для "
+"маскування результатів класифікації може бути використаний шейп-файл (тобто,"
+" територія поза межами шейп-файлу не класифікується);"
+
+#: ../../classificationTab.rst:331
+msgid "|reset|: reset the mask shapefile;"
+msgstr "|reset|: повторно встановити шейп-файл маски;"
+
+#: ../../classificationTab.rst:332
+msgid ""
+"|checkbox| :guilabel:`Create vector` |optional|: if checked, in addition to "
+"the classification raster, a classification shapefile is saved in the same "
+"directory and with the same name as the :guilabel:`Classification output`; "
+"conversion to vector can also be performed at a later time (see "
+":ref:`classification_vector_tab`);"
+msgstr ""
+"|checkbox| :guilabel:`Створити вектор` |optional|: якщо увімкнено, то "
+"додатково до растру класифікації зберігається шейп-файл класифікації до того"
+" ж каталогу і під тією самою назвою, що і :guilabel:`Результат "
+"класифікації`; перетворення у вектор може бути реалізоване і пізніше (див. "
+":ref:`classification_vector_tab`);"
+
+#: ../../classificationTab.rst:333
+msgid ""
+"|checkbox| :guilabel:`Classification report` |optional|: if checked, a "
+"report about the land cover classification is calculated and saved as a .csv"
+" file in the same directory and with the same name (with the suffix "
+"``_report``) as the :guilabel:`Classification output`; report can also be "
+"performed at a later time (see :ref:`classification_report_tab`);"
+msgstr ""
+"|checkbox| :guilabel:`Звіт за результатами класифікації` |optional|: якщо "
+"увімкнено, то розраховується звіт за результатами класифікації земельного "
+"покриву та зберігається як файл .csv в той самий каталог та під тією самою "
+"назвою  (з приставкою ``_report``), які визначено як :guilabel:`Результат "
+"класифікації`; звіт також може бути розрахований пізніше (див. "
+":ref:`classification_report_tab`);"
+
+#: ../../classificationTab.rst:334
+msgid ""
+"|checkbox| :guilabel:`Save algorithm files` |optional| |registry_save|: if "
+"checked, the :ref:`algorithm_raster` is saved, in addition to the "
+"classification raster, in the same directory as the "
+":guilabel:`Classification output`; a raster for each spectral signature used"
+" as input (with the suffix ``_sig_MC ID_C ID``) and a general algorithm "
+"raster (with the suffix ``_alg_raster``) are created;"
+msgstr ""
+"|checkbox| :guilabel:`Зберегти файли алгоритму` |optional| |registry_save|: "
+"якщо увімкнено, то додатково до растра класифікації зберігається "
+":ref:`algorithm_raster`  в той самий каталог, що і :guilabel:`Результат "
+"класифікації`; в якості входових даних використовується растр для кожної "
+"спектральної сигнатури (з приставкою ``_sig_MC ID_C ID``) та створюється "
+"загальний растр алгоритму (з приставкою ``_alg_raster``);"
+
+#: ../../classificationTab.rst:336
+msgid ""
+":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../classificationTab.rst:337
+msgid ""
+":guilabel:`RUN` |run|: choose the output destination and start the image "
+"classification;"
+msgstr ""

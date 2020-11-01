@@ -1,0 +1,1153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Daria Svidzinska <d.svidzinska@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2020\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: ../../scp_dock.rst:5
+msgid "SCP dock"
+msgstr "Панель SCP"
+
+#: ../../scp_dock.rst:149
+msgid ""
+"The :guilabel:`SCP dock` allows for the the creation of ROIs (Regions Of "
+"Interest) and spectral signatures, and the classification of a "
+":ref:`band_set_tab`. The :ref:`training_input`, created with "
+":guilabel:`SCP`, stores the ROI polygons and spectral signatures used for "
+"the land cover classification (see :ref:`tutorial_1`)."
+msgstr ""
+":guilabel:`Панель SCP` забезпечує створення ROI (від англ. Regions Of "
+"Interest - області інтересу), спектральних сигнатур та класифікацію "
+":ref:`band_set_tab`. :ref:`training_input`, створені з :guilabel:`SCP`, "
+"зберігають полігони ROI та спектральні сигнатури, що використовуються для "
+"класифікації земельних покривів (див. :ref:`tutorial_1`)."
+
+#: ../../scp_dock.rst:152
+msgid ""
+"ROIs are polygons used for the definition of the spectral characteristics of"
+" land cover classes. Spectral signatures of classes are calculated from the "
+"ROIs or can be imported from other sources (see "
+":ref:`import_signatures_tab`). It is worth pointing out that classification "
+"is always based on spectral signatures."
+msgstr ""
+"ROI це полігони, що використовуються для визначення спектральних "
+"характеристик класів земельного покриву. Спектральні сигнатури класів "
+"розраховуються за ROI або можуть бути імпортовані з інших джерел (див. "
+":ref:`import_signatures_tab`). Варто зазначити, що класифікація завжди "
+"ґрунтується на спектральних сигнатурах."
+
+#: ../../scp_dock.rst:156
+msgid ""
+":guilabel:`SCP` allows for the creation of :guilabel:`temporary ROI "
+"polygons` using a region growing algorithm or drawn manually with the tools "
+"provided in the :ref:`working_toolbar`. :guilabel:`Temporary ROI polygons` "
+"can be saved in the :ref:`training_input` along with the spectral signatures"
+" of the ROI."
+msgstr ""
+":guilabel:`SCP` забезпечує створення :guilabel:`тимчасових полігонів ROI` з "
+"використанням алгоритму нарощування області або ручного окреслювання за "
+"допомогою інструментів :ref:`working_toolbar`.  :guilabel:`Тимчасові "
+"полігони ROI` можуть бути збережені до :ref:`training_input` разом з "
+"спектральними сигнатурами ROI."
+
+#: ../../scp_dock.rst:159
+msgid ""
+"The :ref:`training_input` is composed of a vector part (i.e. a shapefile) "
+"and a spectral signature part which are independent. The attribute table of "
+"the vector contains four fields as in the following table."
+msgstr ""
+":ref:`training_input` складаються з векторної частини (тобто шейпфайлу) та "
+"незалежної частини спектральних сигнатур. Атрибутивна таблиця векторної "
+"частини містить чотири поля, як в таблиці нижче."
+
+#: ../../scp_dock.rst:162
+msgid ":guilabel:`Training input fields`"
+msgstr ":guilabel:`Поля входових навчальних даних`"
+
+#: ../../scp_dock.rst:165
+msgid "Description"
+msgstr "Характеристика"
+
+#: ../../scp_dock.rst:165
+msgid "Field name"
+msgstr "Ім'я поля"
+
+#: ../../scp_dock.rst:165
+msgid "Field type"
+msgstr "Тип поля"
+
+#: ../../scp_dock.rst:167
+msgid "Macroclass ID"
+msgstr "ID макрокласу"
+
+#: ../../scp_dock.rst:167
+msgid "MC_ID"
+msgstr "MC_ID"
+
+#: ../../scp_dock.rst:167 ../../scp_dock.rst:171
+msgid "int"
+msgstr "ціле"
+
+#: ../../scp_dock.rst:169
+msgid "Macroclass Name"
+msgstr ""
+
+#: ../../scp_dock.rst:169
+msgid "MC_info"
+msgstr "MC_info"
+
+#: ../../scp_dock.rst:169 ../../scp_dock.rst:173
+msgid "string"
+msgstr "текст"
+
+#: ../../scp_dock.rst:171
+msgid "Class ID"
+msgstr "ID класу"
+
+#: ../../scp_dock.rst:171
+msgid "C_ID"
+msgstr "C_ID"
+
+#: ../../scp_dock.rst:173
+msgid "Class Name"
+msgstr ""
+
+#: ../../scp_dock.rst:173
+msgid "C_info"
+msgstr "C_info"
+
+#: ../../scp_dock.rst:176
+msgid ""
+"**TIP**: The :ref:`training_input` is managed by :guilabel:`SCP`, a "
+"temporary layer is added to QGIS but the real file is saved and modified "
+"during the editing in :guilabel:`SCP`."
+msgstr ""
+
+#: ../../scp_dock.rst:178
+msgid ""
+"In :guilabel:`SCP`, land cover classes (and ROIs) are defined with a system "
+"of :guilabel:`Classes` (:guilabel:`Class ID`) and :guilabel:`Macroclasses` "
+"(:guilabel:`Macroclass ID`) (see :ref:`classes_definition`) that are used "
+"for the classification process; each :guilabel:`Macroclass ID` is related to"
+" a :guilabel:`Macroclass Information` (e.g. macroclass name) and each "
+":guilabel:`Class ID` is related to a :guilabel:`Class Information` (e.g. "
+"class name), but only :guilabel:`Macroclass ID` and :guilabel:`Class ID` are"
+" used for the classification process."
+msgstr ""
+"В :guilabel:`SCP` класи земельного покриву (та ROI) визначаються системою "
+":guilabel:`Класів` (:guilabel:`ID класу`) та :guilabel:`Макрокласів` "
+"(:guilabel:`ID макрокласу`) (див. :ref:`classes_definition`), які "
+"використовуються в процесі класифікації; кожний :guilabel:`ID макрокласу` "
+"співвідноситься з :guilabel:`Характеристика макрокласу` (тобто ім'я "
+"макрокласу) та кожний :guilabel:`ID класу` співвідноситься з "
+":guilabel:`Характеристика класу` (тобто ім'я класу), але тільки "
+":guilabel:`ID макрокласу` та :guilabel:`ID класу` використовуються в процесі"
+" класифікації."
+
+#: ../../scp_dock.rst:180
+msgid ""
+"The use of the :guilabel:`Macroclass ID` or :guilabel:`Class ID` for "
+"classifications is defined with the option :guilabel:`Use MC ID or C ID` in "
+"the :ref:`classification_alg`. It is worth highlighting that when using "
+":guilabel:`Macroclass ID` all the spectral signatures are evaluated "
+"separately and each pixel is classified with the corresponding :guilabel:`MC"
+" ID` (i.e. there is no combination of signatures before the classification)."
+msgstr ""
+"Використання :guilabel:`ID макрокласу` або :guilabel:`ID класу` для "
+"проведення класифікації визначається вибором :guilabel:`Використовувати MC "
+"ID або C ID` на вкладці :ref:`classification_alg`. Варто зазначити, що при "
+"використанні :guilabel:`ID макрокласу` всі спектральні сигнатури оцінюються "
+"поокремо та кожен піксель відноситься до відповідного :guilabel:`MC ID` "
+"(тобто комбінування сигнатур перед класифікацією відсутнє)."
+
+#: ../../scp_dock.rst:183
+msgid ""
+"The **classification** can be performed for the entire image (see "
+":ref:`classification_alg`) or a part of it, creating a "
+":ref:`classification_preview`."
+msgstr ""
+
+#: ../../scp_dock.rst:185
+msgid "The :guilabel:`SCP dock` contains the following tabs:"
+msgstr ":guilabel:`Панель SCP` містить наступні вкладки:"
+
+#: ../../scp_dock.rst:191
+msgid ""
+"The left side of :guilabel:`SCP dock` contains buttons for accessing the "
+"main functions of :guilabel:`SCP`."
+msgstr ""
+"Ліва сторона :guilabel:`Панелі SCP` містить кнопки доступу до основних "
+"функцій :guilabel:`SCP`."
+
+#: ../../scp_dock.rst:196
+msgid "Home"
+msgstr "Домашня"
+
+#: ../../scp_dock.rst:201
+msgid ":guilabel:`Home`"
+msgstr ":guilabel:`Домашня`"
+
+#: ../../scp_dock.rst:203
+msgid ""
+"The tab :guilabel:`Home` contains the buttons for accessing the main "
+"functions of :guilabel:`SCP`:"
+msgstr ""
+"Вкладка :guilabel:`Домашня` містить кнопки доступу до основних функцій "
+":guilabel:`SCP`:"
+
+#: ../../scp_dock.rst:205
+msgid "|bandset_tool| :ref:`band_set_tab`;"
+msgstr "|bandset_tool| :ref:`band_set_tab`;"
+
+#: ../../scp_dock.rst:206
+msgid "|tools| :ref:`tools_tab`;"
+msgstr "|tools| :ref:`tools_tab`;"
+
+#: ../../scp_dock.rst:207
+msgid "|download| :ref:`download_tab`;"
+msgstr "|download| :ref:`download_tab`;"
+
+#: ../../scp_dock.rst:208
+msgid "|preprocessing| :ref:`pre_processing_tab`;"
+msgstr "|preprocessing| :ref:`pre_processing_tab`;"
+
+#: ../../scp_dock.rst:209
+msgid "|band_processing| :ref:`band_processing_tab`;"
+msgstr "|band_processing| :ref:`band_processing_tab`;"
+
+#: ../../scp_dock.rst:210
+msgid "|postprocessing| :ref:`post_processing_tab`;"
+msgstr "|postprocessing| :ref:`post_processing_tab`;"
+
+#: ../../scp_dock.rst:211
+msgid "|bandcalc| :ref:`band_calc_tab`;"
+msgstr "|bandcalc| :ref:`band_calc_tab`;"
+
+#: ../../scp_dock.rst:212
+msgid "|batch_tool| :ref:`batch_tab`;"
+msgstr "|batch_tool| :ref:`batch_tab`;"
+
+#: ../../scp_dock.rst:217
+msgid "SCP news"
+msgstr "Новини SCP"
+
+#: ../../scp_dock.rst:219
+msgid ""
+"This section displays news about the :guilabel:`SCP` and related services. "
+"News are downloaded on startup (internet connection required). It can be "
+"enabled or disabled in the settings :ref:`dock_settings`."
+msgstr ""
+"Ця секція відображає новини про :guilabel:`SCP` та пов'язані сервіси. Новини"
+" завантажуються під час запуску (необхідне Інтернет-з'єднання). Ця "
+"можливість може бути увімкнена або вимкнена в налаштуваннях "
+":ref:`dock_settings`."
+
+#: ../../scp_dock.rst:223
+msgid "It also contains the following buttons:"
+msgstr "Вона також містить наступні кнопки:"
+
+#: ../../scp_dock.rst:225
+msgid ":guilabel:`User manual`: open the link to the user manual;"
+msgstr ""
+":guilabel:`Посібник користувача`: відкрити посилання на посібник "
+"користувача;"
+
+#: ../../scp_dock.rst:226
+msgid ":guilabel:`Ask a question`: open the link to the online help;"
+msgstr ":guilabel:`Поставити питання`: відкрити посилання на онлайн-довідку;"
+
+#: ../../scp_dock.rst:227
+msgid ""
+":guilabel:`Support the SCP`: open the link to support the :guilabel:`SCP` ;"
+msgstr ""
+":guilabel:`Підтримати SCP`: відкрити посилання на підтримку :guilabel:`SCP` "
+";"
+
+#: ../../scp_dock.rst:232
+msgid "Training input"
+msgstr "Входові навчальні дані"
+
+#: ../../scp_dock.rst:237
+msgid ":guilabel:`Training input`"
+msgstr ":guilabel:`Входові навчальні дані`"
+
+#: ../../scp_dock.rst:239
+msgid ""
+"This tool allows for the creation of the training input file (``.scp`` ) "
+"required for storing ROIs and spectral signatures. The training input file "
+"is created according to the characteristics of the :guilabel:`active band "
+"set` defined in :ref:`band_set_tab`. A new training input file should be "
+"created for every :guilabel:`band set`, unless the :guilabel:`band sets` "
+"have the same spectral characteristics and coordinate reference system."
+msgstr ""
+"Цей інструмент забезпечує створення файлу входових навчальних даних "
+"(``.scp`` ), необхідного для збереження ROI та спектральних сигнатур. Файл "
+"входових навчальних даних створюється у відповідності з характеристиками "
+":guilabel:`активного набору каналів`, визначеного у ref:`band_set_tab`. "
+"Новий файл входових навчальних даних повинен бути створений для кожного "
+":guilabel:`набору каналів`, за винятком тих випадків, коли :guilabel:`набори"
+" каналів` мають ідентичні спектральні характеристики та системи координат."
+
+#: ../../scp_dock.rst:243
+msgid ""
+"|open_file|: open a training input file; ROIs and spectral signatures are "
+"loaded in :ref:`ROI_list`; the vector part of the training input is loaded "
+"in QGIS;"
+msgstr ""
+"|open_file|: відкрити входовий навчальний файл; ROI та спектральні сигнатури"
+" завантажуються до :ref:`ROI_list`; векторна частина входових навчальних "
+"даних завантажується до QGIS;"
+
+#: ../../scp_dock.rst:244
+msgid ""
+"|new_file|: create an empty training input file (``.scp``); the vector part "
+"of the training input is loaded in QGIS; also a backup file is created (a "
+"file ``.scp.backup`` in the same directory as the file ``.scp``) when the "
+"training input file is saved;"
+msgstr ""
+"|new_file|: створити пустий входовий навчальний файл (``.scp``); векторна "
+"частина входових навчальних даних завантажується до QGIS; під час збереження"
+" входових навчальних даних також створюється резервний файл (файл "
+"``.scp.backup`` в тому самому каталозі, що і файл ``.scp``);"
+
+#: ../../scp_dock.rst:245
+msgid ""
+":guilabel:`Training input` |input_text| |project_save|: it displays the path"
+" to the training input file;"
+msgstr ""
+":guilabel:`Входові навчальні дані` |input_text| |project_save|: відображає "
+"шлях до входового навчального файлу;"
+
+#: ../../scp_dock.rst:246
+msgid "|reset|: remove the training input;"
+msgstr ""
+
+#: ../../scp_dock.rst:248
+msgid ""
+"The training input is displayed in QGIS as vector file. ROIs and spectral "
+"signatures are displayed in the :ref:`ROI_list`."
+msgstr ""
+
+#: ../../scp_dock.rst:251
+msgid ""
+"**WARNING**: In order to avoid data loss, do not edit the vector "
+":guilabel:`Training input` using the QGIS tools. Use only the tools of "
+":guilabel:`SCP` for managing the :guilabel:`Training input`."
+msgstr ""
+"**ЗАСТЕРЕЖЕННЯ**: З метою уникнення втрати даних, не редагуйте вектор "
+":guilabel:`Входові навчальні дані` інструментами QGIS. Застосовуйте лише "
+"інструменти :guilabel:`SCP` для управління :guilabel:`Входовими навчальними "
+"даними`."
+
+#: ../../scp_dock.rst:256
+msgid "ROI & Signature list"
+msgstr ""
+
+#: ../../scp_dock.rst:258
+msgid ""
+"The tab :guilabel:`ROI & Signature list` displays the ROI polygons and "
+"spectral signatures contained in the training input file. The tab "
+":guilabel:`ROI & Signature list` is structured as tree list, where every ROI"
+" is grouped in the corresponding Macroclass."
+msgstr ""
+
+#: ../../scp_dock.rst:264
+msgid ":guilabel:`ROI & Signature list example`"
+msgstr ""
+
+#: ../../scp_dock.rst:266
+msgid ""
+"Changes in the :guilabel:`ROI & Signature list` are applied to the file "
+":ref:`training_input` only when the QGIS project is saved. ROIs can be "
+"edited, deleted and merged from this list."
+msgstr ""
+
+#: ../../scp_dock.rst:269
+msgid ""
+"If an item is a ROI polygon, double click the item to zoom to that ROI in "
+"the map. Items in the list can be highlighted with the mouse left click."
+msgstr ""
+
+#: ../../scp_dock.rst:272
+msgid ""
+"**TIP**: ROIs and spectral signatures can be imported from other sources "
+"(see :ref:`import_signatures_tab`) and exported (see "
+":ref:`export_signatures_tab`)."
+msgstr ""
+
+#: ../../scp_dock.rst:275
+msgid ":guilabel:`Filter` |input_text|: set a filter for names;"
+msgstr ""
+
+#: ../../scp_dock.rst:286
+msgid "|input_table| :guilabel:`ROI & Signature list`:"
+msgstr ""
+
+#: ../../scp_dock.rst:277
+msgid ""
+":guilabel:`MC ID`: Macroclass ID is the root of corresponding ROIs and "
+"signatures; it can be edited with a single click; if the ID of a spectral "
+"signature is set 0, then pixels belonging to this signature are labelled as "
+"unclassified; every listed ROIs or signatures has a selection checkbox (only"
+" the spectral signatures checked in this list are used for the "
+"classification process);"
+msgstr ""
+
+#: ../../scp_dock.rst:278
+msgid ":guilabel:`C ID`: Class ID; it can be edited with a single click;"
+msgstr ""
+
+#: ../../scp_dock.rst:279
+msgid ""
+":guilabel:`Name`: Macroclass and Class Name; it can be edited with a single "
+"click;"
+msgstr ""
+
+#: ../../scp_dock.rst:282
+msgid ":guilabel:`Type`: type of the item:"
+msgstr ":guilabel:`Type`: тип елемента:"
+
+#: ../../scp_dock.rst:281
+msgid ":guilabel:`R` = only ROI polygon;"
+msgstr ":guilabel:`R` = тільки полігон ROI;"
+
+#: ../../scp_dock.rst:282
+msgid ":guilabel:`S` = only spectral signature;"
+msgstr ":guilabel:`S` = тільки спектральна сигнатура;"
+
+#: ../../scp_dock.rst:283
+msgid ":guilabel:`R&S` = both ROI and spectral signature;"
+msgstr ""
+
+#: ../../scp_dock.rst:284
+msgid ""
+":guilabel:`Color`: C ID color; double click to select a color for the class "
+"that is used in the classification; if the ID of a spectral signature is set"
+" 0, then pixels belonging to this signature are labelled as unclassified;"
+msgstr ""
+":guilabel:`Колір`: колір C ID; двічі клацніть для вибору кольору класу, який"
+" буде застосований при відображенні класифікації; якщо ID спектральної "
+"сигнатури дорівнює 0, тоді пікселі, що належать до цієї сигнаури "
+"позначаються як некласифіковані;"
+
+#: ../../scp_dock.rst:286
+msgid ""
+"**TIP**: According to :ref:`classification_alg`, classifications performed "
+"using :guilabel:`C ID` have the colors defined for classes in the "
+":ref:`ROI_list`; classifications performed using :guilabel:`MC ID` have the "
+"colors defined for the macroclasses."
+msgstr ""
+
+#: ../../scp_dock.rst:288
+msgid ""
+"|merge_sign|: merge highlighted spectral signatures or ROIs obtaining a new "
+"signature calculated as the average of signature values for each band "
+"(covariance matrix is excluded);"
+msgstr ""
+"|merge_sign|: об'єднати виділені спектральні сигнатури або ROI з отриманням "
+"нової сигнатури, що розраховується як середнє значень сигнатури для кожного "
+"каналу (з виключенням матриці коваріації);"
+
+#: ../../scp_dock.rst:289
+msgid ""
+"|add_sign_tool|: calculate spectral signatures of highlighted ROIs using the"
+" :guilabel:`active band set` in :ref:`band_set_tab`;"
+msgstr ""
+
+#: ../../scp_dock.rst:290
+msgid "|delete_signature|: delete highlighted ROIs and signatures;"
+msgstr "|delete_signature|: видалити виділені ROI та сигнатури;"
+
+#: ../../scp_dock.rst:291
+msgid ""
+"|sign_plot|: show the ROI spectral signature in the "
+":ref:`spectral_signature_plot`; spectral signature is calculated from the "
+":ref:`band_set_tab`;"
+msgstr ""
+"|sign_plot|: відобразити спектральну сигнатуру ROI на "
+":ref:`spectral_signature_plot`; спектральні сигнатури розраховуються на "
+"основі :ref:`band_set_tab`;"
+
+#: ../../scp_dock.rst:292
+msgid "|scatter_plot| : open the :ref:`scatter_plot`;"
+msgstr "|scatter_plot| : відкрити :ref:`scatter_plot`;"
+
+#: ../../scp_dock.rst:293
+msgid "|import_spectral_library|: open the tab :ref:`import_signatures_tab`;"
+msgstr ""
+"|import_spectral_library|: відкрити вкладку :ref:`import_signatures_tab`;"
+
+#: ../../scp_dock.rst:294
+msgid "|export_spectral_library|: open the tab :ref:`export_signatures_tab`;"
+msgstr ""
+"|export_spectral_library|: відкрити вкладку :ref:`export_signatures_tab`;"
+
+#: ../../scp_dock.rst:296
+msgid ""
+":guilabel:`ROI & Signature list` is complementary to the "
+":ref:`working_toolbar` and it allows for saving ROIs to the "
+":ref:`training_input` defining classes and macroclasses. A "
+":ref:`band_set_tab` must be defined before the ROI creation, and ROI "
+"polygons must be inside the area of the :guilabel:`Band set`."
+msgstr ""
+
+#: ../../scp_dock.rst:299
+msgid ":guilabel:`MC ID` |input_number| |project_save|: ROI Macroclass ID;"
+msgstr ""
+
+#: ../../scp_dock.rst:300
+msgid ":guilabel:`MC Name` |input_text| |project_save|: ROI Macroclass Name;"
+msgstr ""
+
+#: ../../scp_dock.rst:301
+msgid ":guilabel:`C ID` |input_number| |project_save|: ROI Class ID;"
+msgstr ""
+
+#: ../../scp_dock.rst:302
+msgid ":guilabel:`C Name` |input_text| |project_save|: ROI Class Name;"
+msgstr ""
+
+#: ../../scp_dock.rst:303
+msgid ""
+"|undo_save_roi|: delete the last saved ROI from the :ref:`training_input`;"
+msgstr ""
+"|undo_save_roi|: видалити останню збережену ROI з :ref:`training_input`;"
+
+#: ../../scp_dock.rst:304
+msgid ""
+"|checkbox| :guilabel:`Autosave` |project_save|: if checked, automatically "
+"save the :guilabel:`ROI & Signature list` to the :ref:`training_input` every"
+" time a ROI is saved;"
+msgstr ""
+
+#: ../../scp_dock.rst:305
+msgid ""
+"|checkbox| :guilabel:`Signature` |project_save|: if checked, while saving a "
+"ROI, the spectral signature thereof is calculated (from :ref:`band_set_tab` "
+"pixels under ROI polygon) and saved to :ref:`training_input` (calculation "
+"time depends on the band number of the :guilabel:`active band set` in "
+":ref:`band_set_tab`);"
+msgstr ""
+
+#: ../../scp_dock.rst:306
+msgid ""
+"|save_roi|: save the temporary ROI to the :ref:`training_input` using the "
+"defined classes and macroclasses; ROI is displayed in the :ref:`ROI_list`;"
+msgstr ""
+"|save_roi|: зберегти тимчасову ROI до :ref:`training_input`, застосовуючи "
+"визначені класи та макрокласи; ROI унаочнюється в :ref:`ROI_list`;"
+
+#: ../../scp_dock.rst:313
+msgid "ROI options"
+msgstr "Параметри ROI"
+
+#: ../../scp_dock.rst:318
+msgid ":guilabel:`ROI options`"
+msgstr ":guilabel:`Параметри ROI`"
+
+#: ../../scp_dock.rst:320
+msgid ""
+":guilabel:`ROI options` are useful for displaying pixel values or improving "
+"the creation of ROIs."
+msgstr ""
+":guilabel:`Параметри ROI` зручні для відображення значень пікселів або "
+"покращення створення ROI."
+
+#: ../../scp_dock.rst:325
+msgid ""
+"|checkbox| :guilabel:`Display` |input_list| |project_save|: if the ROI "
+"creation pointer is active (see :ref:`working_toolbar`), the pixel value of "
+"selected vegetation index is  displayed on the map; vegetation indices "
+"available in the combo box are:"
+msgstr ""
+"|checkbox| :guilabel:`Відобразити` |input_list| |project_save|: якщо "
+"вказівник створення ROI активовано (див. :ref:`working_toolbar`), то для "
+"даного пікселя на карті відображається значення вибраного вегетаційного "
+"індекса; з спадного списку доступні такі вегетаціні індекси:"
+
+#: ../../scp_dock.rst:323
+msgid ""
+"NDVI (Normalized Difference Vegetation Index); NDVI requires the near-"
+"infrared and red bands;"
+msgstr ""
+"NDVI (Normalized Difference Vegetation Index - нормалізований різницевий "
+"вегетаційний індекс); NDVI потребує ближнього інфрачервоного та червоного "
+"каналів;"
+
+#: ../../scp_dock.rst:324
+msgid ""
+"EVI (Enhanced Vegetation Index); EVI requires the blue, near-infrared and "
+"red bands converted to reflectance; wavelengths must be defined in the "
+":ref:`band_set_tab`;"
+msgstr ""
+"EVI (Enhanced Vegetation Index - вдосконалений вегетаційний індекс); EVI "
+"потребує синій, ближній інфрачервоний та червоний канали, перераховані в "
+"значення відбивальності; довжина хвиль повинна бути визначена на "
+":ref:`band_set_tab`;"
+
+#: ../../scp_dock.rst:325
+msgid "Custom; use the custom expression defined in the following line;"
+msgstr "Нетиповий; застосувати нетиповий вираз, визначений наступним рядком;"
+
+#: ../../scp_dock.rst:326
+msgid ""
+"|input_text| |project_save|: set a custom expression; expression is based on"
+" the :guilabel:`Band set`; bands are defined as :guilabel:`bandset#b + band "
+"number` (e.g. ``bandset#b1`` for the first band of the :guilabel:`Band "
+"set`); for example NDVI for a Landsat image would be ( ``bandset#b4`` - "
+"``bandset#b3`` ) / ( ``bandset#b4`` + ``bandset#b3`` );"
+msgstr ""
+"|input_text| |project_save|: визначити нетиповий вираз; вираз ґрунтується на"
+" :guilabel:`Band set`; канали визначаються як :guilabel:`bandset#b + номер "
+"каналу` (тобто, ``bandset#b1`` для першого каналу з :guilabel:`Band set`); "
+"наприклад, NDVI для зображення Landsat буде представлений як ( "
+"``bandset#b4`` - ``bandset#b3`` ) / ( ``bandset#b4`` + ``bandset#b3`` );"
+
+#: ../../scp_dock.rst:327
+msgid ""
+"|checkbox| :guilabel:`Rapid ROI b.` |input_number| |project_save|: if "
+"checked, temporary ROI is created with region growing using only one "
+":ref:`band_set_tab` band (i.e.region growing is rapider); the band is "
+"defined by the :guilabel:`Band set` number; if unchecked, ROI is the result "
+"of the intersection between ROIs calculated on every band (i.e. region "
+"growing is slower, but ROI is spectrally homogeneous in every band);"
+msgstr ""
+"|checkbox| :guilabel:`Rapid ROI b.` |input_number| |project_save|: якщо "
+"параметр увімкнено, то тимчасова ROI створюється з застосуванням алгоритму "
+"нарощування області з використанням тільки одного каналу :ref:`band_set_tab`"
+" (тобто нарощування області відбувається швидше); канал визначається номером"
+" в :guilabel:`Band set`; якщо параметр вимкнено, то ROI є результатом "
+"перетину між ROI, розрахованими для кожного каналу (тобто нарощування "
+"області відбувається повільніше, але ROI спектрально однорідні за кожним "
+"каналом);"
+
+#: ../../scp_dock.rst:328
+msgid ""
+"|radiobutton| :guilabel:`Auto-plot`: calculate automatically the temporary "
+"ROI spectral signature and display it in the :ref:`spectral_signature_plot` "
+"(``MC Name`` of this spectral signature is set ``tempo_ROI``);"
+msgstr ""
+
+#: ../../scp_dock.rst:329
+msgid ""
+"|radiobutton| :guilabel:`Auto-refresh ROI`: calculate automatically a new "
+"temporary ROI while :guilabel:`Region growing parameters` in the "
+":ref:`working_toolbar` are being changed;"
+msgstr ""
+"|radiobutton| :guilabel:`Auto-refresh ROI`: автоматично розраховувати нову "
+"тимчасову ROI під час зміни :guilabel:`Region growing parameters` на "
+":ref:`working_toolbar`;"
+
+#~ msgid "Macroclass Information"
+#~ msgstr "Характеристика макрокласу"
+
+#~ msgid "Class Information"
+#~ msgstr "Характеристика класу"
+
+#~ msgid ""
+#~ "The **classification** can be performed for the entire image ( "
+#~ ":ref:`classification_alg` ) or a part of it, creating a "
+#~ ":ref:`classification_preview`."
+#~ msgstr ""
+#~ "**Класифікація** може бути проведена як для всього зображення ( "
+#~ ":ref:`classification_alg` ) так і для його частини зі створенням "
+#~ ":ref:`classification_preview`."
+
+#~ msgid ""
+#~ "The training input is displayed in QGIS as vector file. ROIs and spectral "
+#~ "signatures are displayed in the :ref:`ROI_list`. Macroclasses are defined in"
+#~ " the :ref:`macroclasses_tab`."
+#~ msgstr ""
+#~ "Входові навчальні дані відображаються у QGIS як векторний файл. ROI та "
+#~ "спектральні сигнатури відображаються у :ref:`ROI_list`. Макрокласии "
+#~ "визначаються на :ref:`macroclasses_tab`."
+
+#~ msgid "ROI Signature list"
+#~ msgstr "Перелік сигнатур ROI"
+
+#~ msgid ""
+#~ "The tab :guilabel:`ROI Signature list` displays the ROI polygons and "
+#~ "spectral signatures contained in the training input file. If an item is a "
+#~ "ROI polygon, double click the item to zoom to that ROI in the map. Items in "
+#~ "the table can be highlighted with the mouse left click."
+#~ msgstr ""
+#~ "Вкладка :guilabel:`Перелік сигнатур ROI` відображає полігони ROI та "
+#~ "спектральні сигнатури, що містяться у файлі входових навчальних даних. Якщо "
+#~ "елемент - це полігон ROI, двічі клацніть на ньому, щоб наблизитись до цієї "
+#~ "ROI на карті. Елементи в таблиці можуть бути виділені клацанням лівою "
+#~ "кнопкою мишки."
+
+#~ msgid ""
+#~ "Changes in the :guilabel:`ROI Signature list` are applied to the file "
+#~ ":ref:`training_input` only when the QGIS project is saved. ROIs can be "
+#~ "edited, deleted and merged from this table."
+#~ msgstr ""
+#~ "Зміни в :guilabel:`Переліку сигнатур ROI` застосовуються до файлу "
+#~ ":ref:`training_input` лише під час збереження проекту QGIS. В цій таблиці "
+#~ "ROI можуть бути відредаговані, видалені або об'єднані."
+
+#~ msgid ""
+#~ "ROIs and spectral signatures can be imported from other sources (see "
+#~ ":ref:`import_signatures_tab`) and exported (see "
+#~ ":ref:`export_signatures_tab`)."
+#~ msgstr ""
+#~ "ROI та спектральні сигнатури можуть бути імпортовані з інших джерел (див. "
+#~ ":ref:`import_signatures_tab`) та експортовані (див. "
+#~ ":ref:`export_signatures_tab`)."
+
+#~ msgid "|input_table| :guilabel:`ROI Signature list`:"
+#~ msgstr "|input_table| :guilabel:`Перелі сигнатур ROI`:"
+
+#~ msgid ""
+#~ ":guilabel:`S`: selection checkbox; only the spectral signatures checked in "
+#~ "this list are used for the classification process;"
+#~ msgstr ""
+#~ ":guilabel:`S`: перемикач вибору; тільки спектральні, що  сигнатури позначені"
+#~ " в цьому переліку, будуть використані в процесі класифікації;"
+
+#~ msgid ":guilabel:`B` = both ROI and spectral signature;"
+#~ msgstr ":guilabel:`B` = обидві, ROI та спектральна сигнатура;"
+
+#~ msgid ""
+#~ ":guilabel:`MC ID`: ROI Macroclass ID [int]; it can be edited with a single "
+#~ "click; :guilabel:`MC Info` is displayed in :ref:`macroclasses_tab`; if the "
+#~ "ID of a spectral signature is set 0, then pixels belonging to this signature"
+#~ " are labelled as unclassified;"
+#~ msgstr ""
+#~ ":guilabel:`MC ID`: унікальний ідентифікатор макрокласу ROI [ціле]; "
+#~ "редагується одинарним клацанням; :guilabel:`MC Info` відображається у "
+#~ ":ref:`macroclasses_tab`; якщо ID спектральної сигнатури дорівнює 0, тоді "
+#~ "пікселі, що належать до неї, позначаються як некласифіковані;"
+
+#~ msgid ""
+#~ ":guilabel:`C ID`: ROI Class ID [int]; it can be edited with a single click;"
+#~ msgstr ""
+#~ ":guilabel:`C ID`: унікальний ідентифікатор класу ROI [ціле]; редагується "
+#~ "одинарним клацанням;"
+
+#~ msgid ""
+#~ ":guilabel:`C Info`: ROI Class Information [text]; it can be edited with a "
+#~ "single click;"
+#~ msgstr ""
+#~ ":guilabel:`C Info`: характеристика класу ROI [текст]; редагується одинарним "
+#~ "клацанням;"
+
+#~ msgid ""
+#~ "|calculate_signature|: calculate spectral signatures of highlighted ROIs "
+#~ "using the :guilabel:`active band set` in :ref:`band_set_tab`;"
+#~ msgstr ""
+#~ "|calculate_signature|: розрахувати спектральні сигнатури виділених ROI з "
+#~ "використанням :guilabel:`активного набору каналів` на :ref:`band_set_tab`;"
+
+#~ msgid ""
+#~ ":guilabel:`ROI Signature list` is complementary to the "
+#~ ":ref:`working_toolbar` and it allows for saving ROIs to the "
+#~ ":ref:`training_input` defining classes and macroclasses. A "
+#~ ":ref:`band_set_tab` must be defined before the ROI creation, and ROI "
+#~ "polygons must be inside the area of the :guilabel:`Band set`."
+#~ msgstr ""
+#~ ":guilabel:`ROI Signature list` це доповнення до :ref:`working_toolbar`, що "
+#~ "дозволяє зберігати ROI до :ref:`training_input` з визначенням класів та "
+#~ "макрокласів. :ref:`band_set_tab` повинна бути визначена до створення ROI та "
+#~ "полігони ROI мають знаходитись всередині території охоплення :guilabel:`Band"
+#~ " set`."
+
+#~ msgid ""
+#~ ":guilabel:`MC ID` |input_number| |project_save|: ROI Macroclass ID [int]; "
+#~ "the corresponding :guilabel:`MC Info` is loaded if already defined in "
+#~ ":ref:`macroclasses_tab`;"
+#~ msgstr ""
+#~ ":guilabel:`MC ID` |input_number| |project_save|: унікальний ідентифікатор "
+#~ "макрокласу ROI [ціле]; відповідна :guilabel:`MC Info` буде завантажена, якщо"
+#~ " вона вже визначена у :ref:`macroclasses_tab`;"
+
+#~ msgid ""
+#~ ":guilabel:`MC Info` |input_text| |project_save|: ROI Macroclass information "
+#~ "[text]; style and information for macroclasses are defined in "
+#~ ":ref:`macroclasses_tab`;"
+#~ msgstr ""
+#~ ":guilabel:`MC Info` |input_text| |project_save|: характеристика макрокласу "
+#~ "ROI [текст]; стиль та характеристика макрокласів визначаються у "
+#~ ":ref:`macroclasses_tab`;"
+
+#~ msgid ":guilabel:`C ID` |input_number| |project_save|: ROI Class ID [int];"
+#~ msgstr ""
+#~ ":guilabel:`C ID` |input_number| |project_save|: унікальний ідентифікато "
+#~ "класу ROI [ціле];"
+
+#~ msgid ""
+#~ ":guilabel:`C Info` |input_text| |project_save|: ROI Class information "
+#~ "[text];"
+#~ msgstr ""
+#~ ":guilabel:`C Info` |input_text| |project_save|: характеристика класу ROI "
+#~ "[текст];"
+
+#~ msgid ""
+#~ "|checkbox| :guilabel:`Autosave` |project_save|: if checked, automatically "
+#~ "save the :guilabel:`ROI Signature list` to the :ref:`training_input` every "
+#~ "time a ROI is saved;"
+#~ msgstr ""
+#~ "|checkbox| :guilabel:`Autosave` |project_save|: якщо параметр увімкнено, то "
+#~ ":guilabel:`ROI Signature list` автоматично зберігається до "
+#~ ":ref:`training_input` кожного разу, коли зберігається ROI;"
+
+#~ msgid ""
+#~ "|checkbox| :guilabel:`Calculate sig.` |project_save|: if checked, while "
+#~ "saving a ROI, the spectral signature thereof is calculated (from "
+#~ ":ref:`band_set_tab` pixels under ROI polygon) and saved to "
+#~ ":ref:`training_input` (calculation time depends on the band number of the "
+#~ ":guilabel:`active band set` in :ref:`band_set_tab`);"
+#~ msgstr ""
+#~ "|checkbox| :guilabel:`Calculate sig.` |project_save|: якщо параметр "
+#~ "увімкнено, то під час збереження ROI буде розраховано її спектральну "
+#~ "сигнатуру  (на основі значень пікселів :ref:`band_set_tab`, що охоплюються "
+#~ "полігоном ROI) та збережено до :ref:`training_input` (час розрахунку "
+#~ "залежить від кількості каналів :guilabel:`active band set` у "
+#~ ":ref:`band_set_tab`);"
+
+#~ msgid "Macroclasses"
+#~ msgstr "Макрокласи"
+
+#~ msgid ":guilabel:`Macroclasses`"
+#~ msgstr ":guilabel:`Макрокласи`"
+
+#~ msgid ""
+#~ ":guilabel:`Macroclasses` allows for the definition of **Macroclass names and"
+#~ " colors** (used to display the results of :ref:`classification_preview` and "
+#~ ":ref:`classification_alg`). According to :ref:`classification_alg`, "
+#~ "classifications performed using :guilabel:`C ID` have the colors defined for"
+#~ " classes in the :ref:`ROI_list`; classifications performed using "
+#~ ":guilabel:`MC ID`  have the colors defined in the :ref:`macroclasses_tab`."
+#~ msgstr ""
+#~ ":guilabel:`Macroclasses` забезпечують визначення **Назв та кольорів "
+#~ "макрокласів** (використовуються для відображення результатів "
+#~ ":ref:`classification_preview` та :ref:`classification_alg`). Відповідно до "
+#~ ":ref:`classification_alg`, класифікації, що виконуються на підставі "
+#~ ":guilabel:`C ID`, мають кольори,  визначені для класів в :ref:`ROI_list`; "
+#~ "класифікації, що виконуються на підставі :guilabel:`MC ID`, мають кольори, "
+#~ "визначені у :ref:`classification_style`."
+
+#~ msgid ""
+#~ ":guilabel:`MC IDs` are automatically added to this table when a new ROI is "
+#~ "saved to the :ref:`ROI_list` (if the :guilabel:`MC ID` is not already in the"
+#~ " list). Settings are stored in :ref:`training_input`."
+#~ msgstr ""
+#~ ":guilabel:`MC ID` автоматично додаються до цієї таблиці, коли нова ROI "
+#~ "зберігається до :ref:`ROI_list` (якщо :guilabel:`MC ID` вже не додано до "
+#~ "переліку). Налаштування зберігаються в :ref:`training_input`."
+
+#~ msgid "|input_table| :guilabel:`Macroclasses` |project_save|:"
+#~ msgstr "|input_table| :guilabel:`Макрокласи` |project_save|:"
+
+#~ msgid ""
+#~ ":guilabel:`MC ID`: Macroclass ID [int]; it can be edited with a single "
+#~ "click;"
+#~ msgstr ""
+#~ ":guilabel:`MC ID`: унікальний ідентифікатор макрокласу [ціле]; редагується "
+#~ "одинарним клацанням;"
+
+#~ msgid ""
+#~ ":guilabel:`MC Info`: Macroclass Information [text]; it can be edited with a "
+#~ "single click;"
+#~ msgstr ""
+#~ ":guilabel:`MC Info`: характеристика макрокласу [текст]; редагується "
+#~ "одинарним клацанням;"
+
+#~ msgid ""
+#~ ":guilabel:`Color`: MC ID color; double click to select a color for the class"
+#~ " that is used in the classification;"
+#~ msgstr ""
+#~ ":guilabel:`Колір`: колір MC ID; двічі клацніть, щоб вибрати колір для "
+#~ "макрокласу, яки буде використовуватись для відображення результатів "
+#~ "класифікації;"
+
+#~ msgid "|add|: add a new row to the table;"
+#~ msgstr "|add|: додати новий рядок до таблиці;"
+
+#~ msgid "|remove|: delete the highlighted rows from the table;"
+#~ msgstr "|remove|: видалити виділені рядки з таблиці;"
+
+#~ msgid ""
+#~ "|radiobutton| :guilabel:`Auto-plot`: calculate automatically the temporary "
+#~ "ROI spectral signature and display it in the :ref:`spectral_signature_plot` "
+#~ "(``MC Info`` of this spectral signature is set ``tempo_ROI``);"
+#~ msgstr ""
+#~ "|radiobutton| :guilabel:`Auto-plot`: автоматично розрахувати спектральну "
+#~ "сигнатуру тимчасової ROI та відобразити її на :ref:`spectral_signature_plot`"
+#~ " (``MC Info`` цієї спектральної сигнатури позначається ``tempo_ROI``);"
+
+#~ msgid "Classification"
+#~ msgstr "Класифікація"
+
+#~ msgid ":guilabel:`Classification`"
+#~ msgstr ":guilabel:`Classification`"
+
+#~ msgid ""
+#~ "This tab allows for the classification of the :guilabel:`active band set` "
+#~ "defined in :ref:`band_set_tab`."
+#~ msgstr ""
+#~ "Ця вкладка забезпечує класифікацію :guilabel:`active band set` визначеного у"
+#~ " :ref:`band_set_tab`."
+
+#~ msgid ""
+#~ "Classification is performed using the :guilabel:`active band set` and the "
+#~ "spectral signatures checked in :ref:`ROI_list`. Several classification "
+#~ "options are set in this tab which affect the classification process also "
+#~ "during the :ref:`classification_preview`."
+#~ msgstr ""
+#~ "Класифікація відбувається з використанням :guilabel:`active band set` та "
+#~ "спектральних сигнатур, увімкнених у :ref:`ROI_list`. На цій вкладці "
+#~ "визначаються декілька параметрів класифікації, які також впливають на процес"
+#~ " класифікації під час :ref:`classification_preview`."
+
+#~ msgid "In particular the  following options are available:"
+#~ msgstr "Зокрема, доступні наступні параметри:"
+
+#~ msgid ""
+#~ ":guilabel:`Use` |checkbox| :guilabel:`MC ID` |checkbox| :guilabel:`C ID` "
+#~ "|registry_save|: if :guilabel:`MC ID` is checked, the classification is "
+#~ "performed using the Macroclass ID (code `MC ID` of the signature); if "
+#~ ":guilabel:`C ID` is checked, the classification is performed using the Class"
+#~ " ID (code `C ID` of the signature);"
+#~ msgstr ""
+#~ ":guilabel:`Застосувати` |checkbox| :guilabel:`MC ID` |checkbox| :guilabel:`C"
+#~ " ID` |registry_save|: якщо :guilabel:`MC ID` увімкнено, то класифікація "
+#~ "відбувається на підставі унікальних ідентифікаторів макрокласів (код "
+#~ "сигнатури `MC ID`); якщо увімкнено :guilabel:`C ID`, то класифікація "
+#~ "відбувається на підставі унікальних ідентифікаторів класів (код сигнатури `C"
+#~ " ID`);"
+
+#~ msgid ""
+#~ "|weight_tool| : open the :ref:`Algorithm_band_weight_tab` for the definition"
+#~ " of band weights;"
+#~ msgstr ""
+#~ "|weight_tool| : відкрити :ref:`Algorithm_band_weight_tab` для визначення "
+#~ "вагових коефіцієнтів каналів;"
+
+#~ msgid "Algorithm"
+#~ msgstr "Алгоритм"
+
+#~ msgid ""
+#~ "This tool allows for the selection of the classification algorithm and the "
+#~ "optiona definition of thresholds."
+#~ msgstr ""
+#~ "Цей інструмент забезпечує вибір алгоритму класифікації та необов'язкове "
+#~ "визначення порогових величин."
+
+#~ msgid ""
+#~ "|input_list| |project_save|: available "
+#~ ":ref:`classification_algorithm_definition` are:"
+#~ msgstr ""
+#~ "|input_list| |project_save|: доступні "
+#~ ":ref:`classification_algorithm_definition`:"
+
+#~ msgid ":ref:`minimum_distance_algorithm`;"
+#~ msgstr ":ref:`minimum_distance_algorithm`;"
+
+#~ msgid ":ref:`max_likelihood_algorithm`;"
+#~ msgstr ":ref:`max_likelihood_algorithm`;"
+
+#~ msgid ":ref:`spectra_angle_mapping_algorithm`;"
+#~ msgstr ":ref:`spectra_angle_mapping_algorithm`;"
+
+#~ msgid ""
+#~ ":guilabel:`Threshold` |input_number| |optional|: it allows for the "
+#~ "definition of a classification threshold (applied to all the spectral "
+#~ "signatures); if :guilabel:`Threshold` is equal to 0, then thresholds "
+#~ ":ref:`Signature_threshold_tab` are evaluated; in particular:"
+#~ msgstr ""
+#~ ":guilabel:`Threshold` |input_number| |optional|: дозволяє визначати порогову"
+#~ " величину класифікації (застосовується до всіх спектральних сигнатур); якщо "
+#~ ":guilabel:`Threshold` дорівнює 0, то порогові величини "
+#~ ":ref:`Signature_threshold_tab` оцінюються; зокрема:"
+
+#~ msgid ""
+#~ "for Minimum Distance, pixels are unclassified if distance is greater than "
+#~ "threshold value;"
+#~ msgstr ""
+#~ "для Мінімальної відстані пікселі не класифікуються, якщо відстань більша за "
+#~ "значення порогової величини;"
+
+#~ msgid ""
+#~ "for Maximum Likelihood, pixels are unclassified if probability is less than "
+#~ "threshold  value (max 100);"
+#~ msgstr ""
+#~ "для Максимальної імовірності пікселі не класифікуються, якщо імовірність "
+#~ "менша за значення порогової величини (максимально 100);"
+
+#~ msgid ""
+#~ "for Spectral Angle Mapping, pixels are unclassified if spectral angle "
+#~ "distance is greater than threshold value (max 90);"
+#~ msgstr ""
+#~ "для Картографування спектрального кута пікселі не класифікуються. якщо "
+#~ "спектральний кут більший за значення порогової величини (максимально 90)."
+
+#~ msgid ""
+#~ "|threshold_tool|: open the :ref:`Signature_threshold_tab` for the definition"
+#~ " of signature thresholds;"
+#~ msgstr ""
+#~ "|threshold_tool|: відкрити :ref:`Signature_threshold_tab` для визначення "
+#~ "порогових величин сигнатур;"
+
+#~ msgid "Land Cover Signature Classification"
+#~ msgstr "Класифікація сигнатур земельного покриву"
+
+#~ msgid ""
+#~ ":ref:`LCS_algorithm` is a classification that can be used as alternative or "
+#~ "in combination with the :ref:`classification_alg` (see "
+#~ ":ref:`LCS_threshold`). Pixels belonging to two or more different classes (or"
+#~ " macroclasses) are classified as :guilabel:`Class overlap` with raster value"
+#~ " = -1000."
+#~ msgstr ""
+#~ ":ref:`LCS_algorithm` це класифікація, яка може бути використана в якості "
+#~ "альтернативи або у поєднанні з :ref:`classification_alg` (див. "
+#~ ":ref:`LCS_threshold`). Пікселі, що належать до двох або більше класів (або "
+#~ "макрокласів) класифікуються як :guilabel:`Class overlap` з значеннями растра"
+#~ " = -1000."
+
+#~ msgid ""
+#~ ":guilabel:`Use` |checkbox| :guilabel:`LCS` |checkbox| :guilabel:`Algorithm` "
+#~ "|checkbox| :guilabel:`only overlap`: if :guilabel:`LCS` is checked, the "
+#~ ":guilabel:`Land Cover Signature Classification` is used; if "
+#~ ":guilabel:`Algorithm` is checked, the selected :ref:`classification_alg` is "
+#~ "used for unclassified pixels of the :guilabel:`Land Cover Signature "
+#~ "Classification`; if :guilabel:`only overlap` is checked, the selected "
+#~ ":ref:`classification_alg` is used only for class overlapping pixels of the "
+#~ ":guilabel:`Land Cover Signature Classification`; unclassified pixels of the "
+#~ ":guilabel:`Land Cover Signature Classification` are left unclassified;"
+#~ msgstr ""
+#~ ":guilabel:`Use` |checkbox| :guilabel:`LCS` |checkbox| :guilabel:`Algorithm` "
+#~ "|checkbox| :guilabel:`only overlap`: якщо параметр :guilabel:`LCS` увімкнено"
+#~ " , то застосовується :guilabel:`Land Cover Signature Classification`; якщо "
+#~ "параметр :guilabel:`Алгоритм` увімкнено, то вибраний "
+#~ ":ref:`classification_alg` застосовується до некласифікованих пікселів "
+#~ ":guilabel:`Класифікація сигнатур земельного покриву`; якщо увімкнено "
+#~ ":guilabel:`тільки перекриття`, вибраний :ref:`classification_alg` "
+#~ "застосовується лише до пікселів з класів, що перекриваються за "
+#~ ":guilabel:`Класифікація сигнатур земельного покриву`; некласифіковані "
+#~ "пікселі :guilabel:`Класифікація сигнатур земельного покриву` залишаються "
+#~ "некласифікованими;"
+
+#~ msgid "|threshold_tool|: open the :ref:`LCS_threshold`;"
+#~ msgstr "|threshold_tool|: відкрити :ref:`LCS_threshold`;"
+
+#~ msgid "Classification output"
+#~ msgstr "Результат класифікації"
+
+#~ msgid ""
+#~ ":guilabel:`Classification output` allows for the classification of the "
+#~ ":ref:`band_set_tab` according to the parameters defined in "
+#~ ":ref:`classification_alg`."
+#~ msgstr ""
+#~ ":guilabel:`Classification output` забезпечує класифікацію  "
+#~ ":ref:`band_set_tab` відповідно до параметрів визначених у "
+#~ ":ref:`classification_alg`."
+
+#~ msgid ""
+#~ "In addition, a previously saved `classification style` (QGIS .qml file) can "
+#~ "be loaded and used for classification style."
+#~ msgstr ""
+#~ "Додатково, в якості стилю класифікації може бути відкритий та використаний "
+#~ "завчасно збережений `стиль класифікації` (файл QGIS .qml)  ."
+
+#~ msgid ""
+#~ "Classification raster is a file ``.tif`` (a QGIS style file ``.qml`` is "
+#~ "saved along with the classification); also other outputs can be optionally "
+#~ "calculated. Outputs are loaded in QGIS after the calculation."
+#~ msgstr ""
+#~ "Растр класифікації це файл ``.tif`` (файл стилю QGIS ``.qml`` зберігається "
+#~ "разом з результатом класифікації); додатково можуть бути розраховані і інші "
+#~ "результати. Після завершення розрахунків, результат завантажуються до QGIS."
+
+#~ msgid ""
+#~ ":guilabel:`Load qml` |open_file| |project_save|: select a .qml file "
+#~ "overriding the colors defined for :guilabel:`C ID` or :guilabel:`MC ID`;"
+#~ msgstr ""
+#~ ":guilabel:`Відкрити qml` |open_file| |project_save|: вибрати файл .qml, "
+#~ "скасовуючи кольори, визначені для :guilabel:`C ID` або :guilabel:`MC ID`;"
+
+#~ msgid ""
+#~ "|reset|: reset style to default (i.e. use the colors defined for "
+#~ ":guilabel:`C ID` or :guilabel:`MC ID`);"
+#~ msgstr ""
+#~ "|reset|: повернутись до стандартного стилю (тобто використовувати кольори, "
+#~ "визначені для :guilabel:`C ID` або :guilabel:`MC ID`);"
+
+#~ msgid ""
+#~ "|checkbox| :guilabel:`Apply mask` |optional|: if checked, a shapefile can be"
+#~ " selected for masking the classification output (i.e. the area outside the "
+#~ "shapefile is not classified);"
+#~ msgstr ""
+#~ "|checkbox| :guilabel:`Застосувати маску` |optional|: якщо увмікнено, то для "
+#~ "маскування результатів класифікації може бути використаний шейп-файл (тобто,"
+#~ " територія поза межами шейп-файлу не класифікується);"
+
+#~ msgid "|reset|: reset the mask shapefile;"
+#~ msgstr "|reset|: повторно встановити шейп-файл маски;"
+
+#~ msgid ""
+#~ "|checkbox| :guilabel:`Create vector` |optional|: if checked, in addition to "
+#~ "the classification raster, a classification shapefile is saved in the same "
+#~ "directory and with the same name as the :guilabel:`Classification output`; "
+#~ "conversion to vector can also be performed at a later time (see "
+#~ ":ref:`classification_vector_tab`);"
+#~ msgstr ""
+#~ "|checkbox| :guilabel:`Створити вектор` |optional|: якщо увімкнено, то "
+#~ "додатково до растру класифікації зберігається шейп-файл класифікації до того"
+#~ " ж каталогу і під тією самою назвою, що і :guilabel:`Результат "
+#~ "класифікації`; перетворення у вектор може бути реалізоване і пізніше (див. "
+#~ ":ref:`classification_vector_tab`);"
+
+#~ msgid ""
+#~ "|checkbox| :guilabel:`Classification report` |optional|: if checked, a "
+#~ "report about the land cover classification is calculated and saved as a .csv"
+#~ " file in the same directory and with the same name (with the suffix "
+#~ "``_report``) as the :guilabel:`Classification output`; report can also be "
+#~ "performed at a later time (see :ref:`classification_report_tab`);"
+#~ msgstr ""
+#~ "|checkbox| :guilabel:`Звіт за результатами класифікації` |optional|: якщо "
+#~ "увімкнено, то розраховується звіт за результатами класифікації земельного "
+#~ "покриву та зберігається як файл .csv в той самий каталог та під тією самою "
+#~ "назвою  (з приставкою ``_report``), які визначено як :guilabel:`Результат "
+#~ "класифікації`; звіт також може бути розрахований пізніше (див. "
+#~ ":ref:`classification_report_tab`);"
+
+#~ msgid ""
+#~ "|checkbox| :guilabel:`Save algorithm files` |optional| |registry_save|: if "
+#~ "checked, the :ref:`algorithm_raster` is saved, in addition to the "
+#~ "classification raster, in the same directory as the "
+#~ ":guilabel:`Classification output`; a raster for each spectral signature used"
+#~ " as input (with the suffix ``_sig_MC ID_C ID``) and a general algorithm "
+#~ "raster (with the suffix ``_alg_raster``) are created;"
+#~ msgstr ""
+#~ "|checkbox| :guilabel:`Зберегти файли алгоритму` |optional| |registry_save|: "
+#~ "якщо увімкнено, то додатково до растра класифікації зберігається "
+#~ ":ref:`algorithm_raster`  в той самий каталог, що і :guilabel:`Результат "
+#~ "класифікації`; в якості входових даних використовується растр для кожної "
+#~ "спектральної сигнатури (з приставкою ``_sig_MC ID_C ID``) та створюється "
+#~ "загальний растр алгоритму (з приставкою ``_alg_raster``);"
+
+#~ msgid ""
+#~ "|run|: choose the output destination and start the image classification;"
+#~ msgstr ""
+#~ "|run|: визначити каталог вихідних результатів та розпочати класифікацію "
+#~ "зображення;"

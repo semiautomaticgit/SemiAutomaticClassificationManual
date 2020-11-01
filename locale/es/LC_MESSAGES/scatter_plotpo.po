@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Luca Congedo <semiautomatic.blogger@gmail.com>, 2020
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# Daniel Florez <dafflorezc@correo.udistrital.edu.co>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Daniel Florez <dafflorezc@correo.udistrital.edu.co>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../scatter_plot.rst:5
+msgid "Scatter Plot"
+msgstr "Gráfico de Dispersión"
+
+#: ../../scatter_plot.rst:74
+msgid ""
+"The window :guilabel:`Scatter plot` displays pixel values for two raster "
+"bands as points in the 2D space. Scatter plots are useful for assessing ROI "
+"separability between two bands."
+msgstr ""
+"La ventana del :guilabel:`Gráfico de dispersión` despliega valores de pixel "
+"de dos bandas ráster como puntos en un espacio 2D. Los Diagramas de "
+"Dispersión son útiles para determinar la separación del ROI entre dos "
+"bandas."
+
+#: ../../scatter_plot.rst:81
+msgid ":guilabel:`Scatter Plot`"
+msgstr ":guilabel:`Gráfico de Dispersión`"
+
+#: ../../scatter_plot.rst:83
+msgid "The functions are described in detail in the following paragraphs."
+msgstr "Las funciones se describen en detalle en los siguiente parrafos"
+
+#: ../../scatter_plot.rst:88
+msgid "Scatter list"
+msgstr "Listado de Dispersión"
+
+#: ../../scatter_plot.rst:95
+msgid "|input_table| :guilabel:`Scatter list`:"
+msgstr "|input_table| :guilabel:`Listado de Dispersión`:"
+
+#: ../../scatter_plot.rst:91
+msgid ""
+":guilabel:`S`: checkbox field; if checked, the spectral signature is "
+"displayed in the plot;"
+msgstr ""
+":guilabel:`S`: cuadro de selección; si está mseleccionado, la firma "
+"espectral es mostrada en el gráfico;"
+
+#: ../../scatter_plot.rst:92
+msgid ":guilabel:`MC ID`: signature Macroclass ID;"
+msgstr ":guilabel:`MC ID`: Macroclase ID de la firma;"
+
+#: ../../scatter_plot.rst:93
+msgid ":guilabel:`MC Name`: signature Macroclass Name;"
+msgstr ""
+
+#: ../../scatter_plot.rst:94
+msgid ":guilabel:`C ID`: signature Class ID;"
+msgstr ":guilabel:`C ID`: Clase ID de la firma;"
+
+#: ../../scatter_plot.rst:95
+msgid ":guilabel:`C Name`: signature Class Name;"
+msgstr ""
+
+#: ../../scatter_plot.rst:96
+msgid ""
+":guilabel:`Color`: color field; double click to select a color for the plot;"
+msgstr ""
+":guilabel:`Color`: campo de color; doble clic para seleccionar un color para"
+" el gráfico;"
+
+#: ../../scatter_plot.rst:97
+msgid ":guilabel:`Band X` |input_number|: X band of the plot;"
+msgstr ":guilabel:`Banda X` |input_number|: banda X en el gráfico;"
+
+#: ../../scatter_plot.rst:98
+msgid ":guilabel:`Band Y` |input_number|: Y band of the plot;"
+msgstr ":guilabel:`Banda Y` |input_number|: banda Y en el gráfico;"
+
+#: ../../scatter_plot.rst:106
+msgid ""
+"|checkbox| :guilabel:`Precision` |input_list|: use custom precision for "
+"calculation (precision should be selected according to pixel values):"
+msgstr ""
+"|checkbox| :guilabel:`Precisión` |input_list|: usa una precisión "
+"personalizada para los cálculos (la precisión debe ser seleccionada de "
+"acuerdo a los valores de pixel):"
+
+#: ../../scatter_plot.rst:100
+msgid "4 = :math:`10^{-4}`"
+msgstr "4 = :math:`10^{-4}`"
+
+#: ../../scatter_plot.rst:101
+msgid "3 = :math:`10^{-3}`"
+msgstr "3 = :math:`10^{-3}`"
+
+#: ../../scatter_plot.rst:102
+msgid "2 = :math:`10^{-2}`"
+msgstr "2 = :math:`10^{-2}`"
+
+#: ../../scatter_plot.rst:103
+msgid "1 = :math:`10^{-1}`"
+msgstr "1 = :math:`10^{-1}`"
+
+#: ../../scatter_plot.rst:104
+msgid "0 = 1"
+msgstr "0 = 1"
+
+#: ../../scatter_plot.rst:105
+msgid "-1 = 10"
+msgstr "-1 = 10"
+
+#: ../../scatter_plot.rst:106
+msgid "-2 = :math:`10^{2}`"
+msgstr "-2 = :math:`10^{2}`"
+
+#: ../../scatter_plot.rst:107
+msgid "-3 = :math:`10^{3}`"
+msgstr "-3 = :math:`10^{3}`"
+
+#: ../../scatter_plot.rst:108
+msgid ""
+":guilabel:`Calculate` |enter|: calculate the scatter plot for the ROIs "
+"checked in the list;"
+msgstr ""
+":guilabel:`Calcular` |enter|: calcula el gráfico de dispersión para los ROIs"
+" marcados en S de la lista;"
+
+#: ../../scatter_plot.rst:109
+msgid "|remove|: remove highlighted signatures from this list;"
+msgstr "|remove|: elimina las firmas seleccionadas de esta lista;"
+
+#: ../../scatter_plot.rst:110
+msgid ""
+"|scatter_raster_temp_ROI|: add a temporary scatter plot to the list (as ``MC"
+" Name = tempScatter``) and start the plot calculation of the last temporary "
+"ROI (see :ref:`working_toolbar`);"
+msgstr ""
+
+#: ../../scatter_plot.rst:111
+msgid ""
+"|scatter_raster_display|: add a temporary scatter plot to the list (as ``MC "
+"Name = tempScatter``) and start the plot calculation of pixels in current "
+"display extent;"
+msgstr ""
+
+#: ../../scatter_plot.rst:112
+msgid ""
+"|scatter_raster_image|: add a temporary scatter plot to the list (as ``MC "
+"Name = tempScatter``) and start the plot calculation of the entire image;"
+msgstr ""
+
+#: ../../scatter_plot.rst:114
+msgid ""
+"**WARNING**: Using a precision value that is too high can result in slow "
+"calculation or failure."
+msgstr ""
+"**ADVERTENCIA**: Usar un valor de precisión demasiado alto puede resultar en"
+" cálculos lentos o fallas."
+
+#: ../../scatter_plot.rst:119
+msgid "Scatter raster"
+msgstr "Ráster de Dispersión"
+
+#: ../../scatter_plot.rst:121
+msgid ""
+"This tool allows for the drawing of selection polygons inside the scatter "
+"plot; these selection polygons are used for creating a :guilabel:`Scatter "
+"raster` that is a temporary raster classified according to the intersection "
+"of scatter plots and drawn polygons."
+msgstr ""
+"Esta herramienta permite dibujar polígonos de selección dentro del gráfico "
+"de dispersión; estos polígonos de selección son usados para crear un "
+":guilabel:`Ráster de Dispersión` que es un ráster temporal clasificado de "
+"acuerdo a la intersección de los gráficos de dispersión y los polígonos "
+"dibujados."
+
+#: ../../scatter_plot.rst:123
+msgid ""
+"Pixels of the :guilabel:`active band set` are classified, according to "
+"scatter plot bands, if pixel values are in the range of intersection between"
+" scatter plots and selection polygons (polygons should not overlap). The "
+"value assigned to the :guilabel:`Scatter raster` pixels is the sequential "
+"number of selection polygon; also the raster color is derived from the "
+"selection polygon."
+msgstr ""
+"Pixeles del :guilabel:`active band set` son clasificados, de acuerdo a los "
+"diagramas de dispersión de las bandas, si el valor de un pixel está entre el"
+" rango de intersección entre los diagramas de dispersión y los polígonos "
+"seleccionados (Los polígonos no deben sobreponerse). El valor es asignado a "
+"los :guilabel:`Scatter raster` pixeles in los numeros secuenciales de los "
+"polígonos seleccionados; también el color del raster es derivado de los "
+"polígonos seleccionados. "
+
+#: ../../scatter_plot.rst:126
+msgid ""
+"After the creation of a new :guilabel:`Scatter raster`, old rasters are "
+"placed in QGIS Layers inside a layer group named ``Class_temp_group`` "
+"(custom name can be defined in  :ref:`group_name`) and are deleted when the "
+"QGIS session is closed."
+msgstr ""
+"Después de la creación de un nuevo :guilabel:`Ráster de Dispersión`, los "
+"rásters antiguos son colocados en el Panel de Capas de QGIS dentro de un "
+"grupo llamado ``Class_temp_group`` (se puede definir un nombre personalizado"
+" en :ref:`group_name`) y son eliminados cuando se cierra la sesión de QGIS."
+
+#: ../../scatter_plot.rst:128
+msgid ""
+"|scatter_edit_polygon|: activate the cursor for interactively drawing a "
+"polygon in the plot; left click on the plot to define the vertices and right"
+" click to define the last vertex closing the polygon;"
+msgstr ""
+"|scatter_edit_polygon|: activa el cursor para dibujar interactivamente un "
+"polígono en el gráfico; clic izquierdo en el gráfico para definir los "
+"vértices y clic derecho para definir el último vértice y cerrar el polígono;"
+
+#: ../../scatter_plot.rst:129
+msgid ""
+":guilabel:`color`: select the color of polygon (which is used also in the "
+":guilabel:`Scatter raster`);"
+msgstr ""
+":guilabel:`color`: selecciona el color del polígono (el cual es usado "
+"también en el :guilabel:`Ráster de Dispersión`);"
+
+#: ../../scatter_plot.rst:130
+msgid ""
+"|scatter_reset_polygon|: remove all the selection polygons from the plot;"
+msgstr "|scatter_reset_polygon|: elimina todos los polígonos del gráfico;"
+
+#: ../../scatter_plot.rst:131
+msgid ""
+"|scatter_show_raster|: calculate the :guilabel:`Scatter raster` and display "
+"it in the map;"
+msgstr ""
+"|scatter_show_raster|: calcula el :guilabel:`Ráster de Dispersión` y lo "
+"despliega en el mapa;"
+
+#: ../../scatter_plot.rst:132
+msgid ""
+"|save_plot|: calculate the spectral signature of the :guilabel:`Scatter "
+"raster` (considering all the classified pixels) using the :guilabel:`active "
+"band set`, and save the signature to the :ref:`ROI_list`;"
+msgstr ""
+"|save_plot|: calcula la firma espectral del :guilabel:`Scatter raster` "
+"(considerando todos los pixeles clasificados) usando el :guilabel:`active "
+"band set`, y guarda la firma en la :ref:`ROI_list`;"
+
+#: ../../scatter_plot.rst:135
+msgid ""
+":guilabel:`Extent` |input_list|: extent of the :guilabel:`Scatter raster`; "
+"available options are:"
+msgstr ""
+":guilabel:`Extensión` |input_list|: extensión del :guilabel:`Ráster de "
+"Dispersión`; las opciones disponibles son:"
+
+#: ../../scatter_plot.rst:134
+msgid ":guilabel:`Same as display`: extent is the same as map display;"
+msgstr ""
+":guilabel:`Igual a pantalla`: la extensión es la misma que la del mapa;"
+
+#: ../../scatter_plot.rst:135
+msgid ":guilabel:`Same as image`: extent is the same as the whole image;"
+msgstr ""
+":guilabel:`Igual a imagen`: la entensión es la misma que la de toda la "
+"imagen;"
+
+#: ../../scatter_plot.rst:140
+msgid "Plot"
+msgstr "Gráfico"
+
+#: ../../scatter_plot.rst:142
+msgid ""
+"**Left click** and hold inside the plot to **move** the view of the plot. "
+"Use the **mouse wheel** to **zoom in and out** the view of the plot. **Right"
+" click** and hold inside the plot to **zoom in a specific area** of the "
+"plot."
+msgstr ""
+"**Clic izquierdo** mantenlo presionado dentro del gráfico para **mover** la "
+"vista del gráfico. Usa la **rueda del ratón** para **acercar y alejar** la "
+"vista del gráfico. **Clic derecho** y mantelo presionado dentro del gráfico "
+"para **acercar en un área específica** del gráfico."
+
+#: ../../scatter_plot.rst:146
+msgid ""
+":guilabel:`Colormap` |input_list| |enter|: select a colormap that is applied"
+" to highlighted scatter plots in the list when |enter| is clicked; if no "
+"scatter plot is highlighted then the colormap is applied to all the scatter "
+"plots;"
+msgstr ""
+":guilabel:`Rampa de color` |input_list| |enter|: selecciona la rampa de "
+"colores que se aplica a los gráficos de dispersión seleccionados en la lista"
+" cuando |enter| es presionado; si no está seleccionado ningún gráfico de "
+"dispersión la rampa de colores se aplica a todos los gráficos de dispersión;"
+
+#: ../../scatter_plot.rst:147
+msgid "|fit_plot|: automatically fit the plot to data;"
+msgstr "|fit_plot|: ajusta automáticamente el gráfico a los datos;"
+
+#: ../../scatter_plot.rst:148
+msgid ""
+"|save_plot_image|: save the plot image to file (available formats are "
+"``.jpg``, ``.png``, and ``.pdf``);"
+msgstr ""
+"|save_plot_image|: guarda la imagen del gráfico en un archivo (formatos "
+"disponibles son ``.jpg``, ``.png``, y ``.pdf``);"
+
+#: ../../scatter_plot.rst:149
+msgid ""
+":guilabel:`x y`: display x y coordinates of mouse cursor inside the plot;"
+msgstr ""
+":guilabel:`x y`: muestra las coordenadas x y del cursor del ratón dentro del"
+" gráfico;"
+
+#: ../../scatter_plot.rst:152
+msgid "|br|"
+msgstr "|br|"
+
+#: ../../scatter_plot.rst:158
+msgid ":guilabel:`Example Scatter Plot`"
+msgstr ":guilabel:`Ejemplo de Gráfico de Dispersión`"
+
+#~ msgid ":guilabel:`MC Info`: signature Macroclass Information;"
+#~ msgstr ":guilabel:`MC Info`: Información de Macroclase de la firma;"
+
+#~ msgid ":guilabel:`C Info`: signature Class Information;"
+#~ msgstr ":guilabel:`C Info`: Información de Clase de la firma;"
+
+#~ msgid ""
+#~ "|scatter_raster_temp_ROI|: add a temporary scatter plot to the list (as ``MC"
+#~ " Info = tempScatter``) and start the plot calculation of the last temporary "
+#~ "ROI (see :ref:`working_toolbar`);"
+#~ msgstr ""
+#~ "|scatter_raster_temp_ROI|: agrega un gráfico de dispersión temporal al "
+#~ "listado (como ``MC Info = tempScatter``) e inicia el cálculo del gráfico del"
+#~ " último ROI temporal (mira :ref:`working_toolbar`);"
+
+#~ msgid ""
+#~ "|scatter_raster_display|: add a temporary scatter plot to the list (as ``MC "
+#~ "Info = tempScatter``) and start the plot calculation of pixels in current "
+#~ "display extent;"
+#~ msgstr ""
+#~ "|scatter_raster_display|: agrega un gráfico de dispersión temporal al "
+#~ "listado (como ``MC Info = tempScatter``) e inicia el cálculo del gráfico de "
+#~ "los pixeles en la extensión actual de la pantalla;"
+
+#~ msgid ""
+#~ "|scatter_raster_image|: add a temporary scatter plot to the list (as ``MC "
+#~ "Info = tempScatter``) and start the plot calculation of the entire image;"
+#~ msgstr ""
+#~ "|scatter_raster_image|: agrega un gráfico de dispersión temporal al listado "
+#~ "(como ``MC Info = tempScatter``) e inicia el cálculo del gráfico de toda la "
+#~ "imagen;"

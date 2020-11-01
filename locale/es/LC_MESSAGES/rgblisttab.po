@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../RGBListTab.rst:5 ../../RGBListTab.rst:267
+msgid "RGB list"
+msgstr "Lista RGB"
+
+#: ../../RGBListTab.rst:260
+msgid "|rgb_tool| :guilabel:`RGB list`"
+msgstr "|rgb_tool| :guilabel:`Lista RGB`"
+
+#: ../../RGBListTab.rst:262
+msgid ""
+"This tab allows for managing the RGB :ref:`color_composite_definition` used "
+"in the list :guilabel:`RGB=` of the :ref:`image_control`."
+msgstr ""
+"Esta pestaña permite manipular las RGB :ref:`color_composite_definition` "
+"usadas en la lista :guilabel:`RGB=` de la :ref:`image_control`."
+
+#: ../../RGBListTab.rst:270
+msgid ""
+"|input_table| :guilabel:`RGB list`: table containing the following fields;"
+msgstr ""
+"|input_table| :guilabel:`RGB list`: tabla conteniendo los siguientes campos;"
+
+#: ../../RGBListTab.rst:270
+msgid ":guilabel:`RGB`: RGB combination; this field can be manually edited;"
+msgstr ""
+":guilabel:`RGB`: combinación RGB; este campo puede ser modificado "
+"manualmente;"
+
+#: ../../RGBListTab.rst:272
+msgid "|move_up|: move highlighted RGB combination upward;"
+msgstr "|move_up|: mueve la combinación RGB resaltada hacia arriba;"
+
+#: ../../RGBListTab.rst:273
+msgid "|move_down|: move highlighted RGB combination downward;"
+msgstr "|move_down|: mueve la combinación RGB resaltada hacia abajo;"
+
+#: ../../RGBListTab.rst:274
+msgid "|order_by_name| : automatically sort RGB combinations by name;"
+msgstr ""
+"|order_by_name| : ordena automáticamente las combinaciones RGB por nombre;"
+
+#: ../../RGBListTab.rst:275
+msgid "|add|: add a row to the table;"
+msgstr "|add|: agrega una fila a la tabla;"
+
+#: ../../RGBListTab.rst:276
+msgid "|remove|: remove highlighted rows from the table;"
+msgstr "|remove|: elimina las filas resaltadas de la tabla;"
+
+#: ../../RGBListTab.rst:277
+msgid "|reset|: clear all RGB combinations from :guilabel:`RGB list`;"
+msgstr "|reset|: elimina todas las combinaciones RGB de :guilabel:`RGB list`;"
+
+#: ../../RGBListTab.rst:278
+msgid "|export|: export the :guilabel:`RGB list` to a file (i.e. ``.csv``);"
+msgstr ""
+"|export|: exporta la :guilabel:`Lista RGB` a un archivo (i.e. ``.csv``);"
+
+#: ../../RGBListTab.rst:279
+msgid ""
+"|import|: import a previously saved :guilabel:`RGB list` from file (i.e. "
+"``.csv``);"
+msgstr ""
+"|import|: importa una :guilabel:`Lista RGB` guardada anteriormente desde "
+"archivo (i.e. ``.csv``);"
+
+#: ../../RGBListTab.rst:284
+msgid "Automatic RGB"
+msgstr "RGB Automático"
+
+#: ../../RGBListTab.rst:286
+msgid ""
+":guilabel:`Band combinations` |enter|: add the combinations of all bands "
+"(i.e. permutation) to the :ref:`RGB_list_table` (e.g. 1-2-3, 1-2-4, ..., "
+"3-2-1);"
+msgstr ""
+":guilabel:`Combinaciones de bandas` |enter|: agrega la combinación de todas "
+"las bandas (i.e. permutación) a la :ref:`RGB_list_table` (e.g. 1-2-3, 1-2-4,"
+" ..., 3-2-1);"

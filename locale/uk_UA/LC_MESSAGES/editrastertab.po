@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Daria Svidzinska <d.svidzinska@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2020\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: ../../editRasterTab.rst:5 ../../editRasterTab.rst:277
+msgid "Edit raster"
+msgstr "Редагувати растр"
+
+#: ../../editRasterTab.rst:264
+msgid "|edit_raster| :guilabel:`Edit raster`"
+msgstr "|edit_raster| :guilabel:`Редагувати растр`"
+
+#: ../../editRasterTab.rst:266
+msgid ""
+"This tab allows for the direct editing of pixel values in a raster. Only "
+"pixels beneath ROI polygons or vector polygons are edited."
+msgstr ""
+"Ця вкладка забезпечує безпосереднє редагування значень пікселів растра. "
+"Редагуються лише пікселі, що знаходяться під полігонами ROI або векторними "
+"полігонами."
+
+#: ../../editRasterTab.rst:269
+msgid ""
+"**WARNING**: the input raster is directly edited; it is recommended to "
+"create a **backup copy** of the input raster before using this tool in order"
+" to prevent data loss."
+msgstr ""
+
+#: ../../editRasterTab.rst:271
+msgid ""
+"This tool can rapidly edit large rasters, especially when editing polygons "
+"are small, because pixel values are edited directly. In addition, the "
+":ref:`toolbar_edit_raster` is available for easing the raster editing using "
+"multiple values."
+msgstr ""
+"Завдяки безпосередньому редагуванню значень пікселів цей інструмент може "
+"швидко редагувати великі растри, особливо у випадку маленьких полігонів "
+"редагування. Також для спрощення редагування растрів з застосуванням "
+"декількох значень доступна :ref:`toolbar_edit_raster`."
+
+#: ../../editRasterTab.rst:279
+msgid ""
+":guilabel:`Select the input raster` |input_list|: select a raster (already "
+"loaded in QGIS);"
+msgstr ""
+":guilabel:`Вибрати входовий растр` |input_list|: вибрати растр (попередньо "
+"завантажений до QGIS);"
+
+#: ../../editRasterTab.rst:280 ../../editRasterTab.rst:289
+msgid "|reload|: refresh layer list;"
+msgstr "|reload|: оновити перелік шарів;"
+
+#: ../../editRasterTab.rst:285
+msgid "Edit raster values"
+msgstr "Редагувати значення растра"
+
+#: ../../editRasterTab.rst:287
+msgid ""
+"|radiobutton| :guilabel:`Edit values using ROI polygons`: if checked, raster"
+" is edited using temporary ROI polygons in the map;"
+msgstr ""
+"|radiobutton| :guilabel:`Редагувати значення, застосовуючи полігони ROI`: "
+"якщо опцію уівмкнено, то растр редагується з застосуванням тимчасових "
+"полігонів ROI на карті;"
+
+#: ../../editRasterTab.rst:288
+msgid ""
+"|radiobutton| :guilabel:`Edit values using a vector` |input_list|: if "
+"checked, raster is edited using all the polygons of selected vector;"
+msgstr ""
+"|radiobutton| :guilabel:`Редагувати значення, застосовуючи вектор` "
+"|input_list|: якщо опцію увімкнено, то растр редагується з застосуванням "
+"всіх полігонів вибраного вектора;"
+
+#: ../../editRasterTab.rst:294
+msgid "Edit options"
+msgstr "Параметри редагування"
+
+#: ../../editRasterTab.rst:296
+msgid ""
+"|checkbox| :guilabel:`Use the value field of the vector` |input_list|: if "
+"checked, raster is edited using the selected vector (in :guilabel:`Edit "
+"values using a vector`) and the polygon values of selected vector field;"
+msgstr ""
+"|checkbox| :guilabel:`Використати поле значень вектора` |input_list|: якщо "
+"параметр увімкнено, то растр редагується з застосуванням вибраного вектора "
+"(у :guilabel:`Редагувати значення, застосовуючи вектор`) та значень "
+"полігонів вибраного атрибутивного поля вектора;"
+
+#: ../../editRasterTab.rst:297
+msgid ""
+"|checkbox| :guilabel:`Use constant value` |input_number|: if checked, raster"
+" is edited using the selected constant value;"
+msgstr ""
+"|checkbox| :guilabel:`Використати постійне значення` |input_number|: якщо "
+"параметр увімкнено, то растр редагується з використанням вибраного "
+"постійного значення;"
+
+#: ../../editRasterTab.rst:298
+msgid ""
+"|checkbox| :guilabel:`Use expression` |input_text|: if checked, raster is "
+"edited according to the entered expression; the expression must contain one "
+"or more ``where``; accepted variable are ``raster`` representing the input "
+"raster value and ``vector`` representing the vector value if selected; the "
+"following example expression ``where(raster == 1, 2, raster)`` is already "
+"entered, which sets 2 where ``raster`` equals 1, and leaves unchanged the "
+"values where ``raster`` is not equal to 1;"
+msgstr ""
+
+#: ../../editRasterTab.rst:301
+msgid ""
+"|undo_edit_raster|: undo the last raster edit (available only when using ROI"
+" polygons);"
+msgstr ""
+"|undo_edit_raster|: відмінити останню правку растра (доступно лише у випадку"
+" використання  полігонів ROI);"
+
+#: ../../editRasterTab.rst:302
+msgid ":guilabel:`RUN` |run|: edit the raster;"
+msgstr ""

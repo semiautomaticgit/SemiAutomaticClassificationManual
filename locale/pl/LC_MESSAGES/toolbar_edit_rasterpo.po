@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Tomasz Nycz <tomasz.merkato@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"PO-Revision-Date: 2020-11-01 11:47+0000\n"
+"Last-Translator: Tomasz Nycz <tomasz.merkato@gmail.com>, 2020\n"
+"Language-Team: Polish (https://www.transifex.com/semi-automatic-classification/teams/53374/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: ../../toolbar_edit_raster.rst:5
+msgid "SCP Edit Toolbar"
+msgstr "Pasek narzędzi Edycja SCP"
+
+#: ../../toolbar_edit_raster.rst:26
+msgid ":guilabel:`SCP Tools`"
+msgstr ":guilabel:`Narzędzia SCP`"
+
+#: ../../toolbar_edit_raster.rst:28
+msgid ""
+"The :guilabel:`SCP Edit Toolbar` allows for the direct editing of pixel "
+"values in the input raster defined in :ref:`edit_raster_tab` using ROI "
+"polygons. Only pixels beneath ROI polygons are edited."
+msgstr ""
+":guilabel:`Pasek narzędzi Edycja SCP` pozwala na bezpośrednią edycję "
+"wartości pikseli w rastrze zdefiniowanych w :ref:`edit_raster_tab` używając "
+"poligonów ROI. Tylko piksele w poligonie ROI będą zmienione."
+
+#: ../../toolbar_edit_raster.rst:31
+msgid ""
+"|edit_raster|: open the tool :guilabel:`SCP Edit Toolbar` for selecting the "
+"input raster;"
+msgstr ""
+"|edit_raster|: otwórz narzędzie :guilabel:`Pasek narzędzi Edycja SCP` dla "
+"wybrania rastra wejściowego"
+
+#: ../../toolbar_edit_raster.rst:32 ../../toolbar_edit_raster.rst:33
+#: ../../toolbar_edit_raster.rst:34
+msgid ""
+"|input_number| |enter|: edit the raster using the selected constant value;"
+msgstr ""
+"|input_number| |enter|: edytuj raster używając wybranej stałej wartości;"
+
+#: ../../toolbar_edit_raster.rst:35
+msgid ""
+"|undo_edit_raster|: undo the last raster edit (available only when using ROI"
+" polygons);"
+msgstr ""
+"|undo_edit_raster|: wycofając ostatnią edycję rastra (dostępne jedynie gdy "
+"używaliśmy poligonów ROI);"

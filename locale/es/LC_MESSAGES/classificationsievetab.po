@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../classificationSieveTab.rst:5 ../../classificationSieveTab.rst:272
+msgid "Classification sieve"
+msgstr "Filtrado de la Clasificación"
+
+#: ../../classificationSieveTab.rst:264
+msgid "|classification_sieve| :guilabel:`Classification sieve`"
+msgstr "|classification_sieve| :guilabel:`Filtrado de la clasificación`"
+
+#: ../../classificationSieveTab.rst:266
+msgid ""
+"This tab allows for the replacement of isolated pixel values with the value "
+"of the largest neighbour patch (based on `GDAL Sieve "
+"<http://www.gdal.org/gdal_sieve.html>`_ ). It is useful for removing small "
+"patches from a classification."
+msgstr ""
+"Esta pestaña permite reemplazar valores de pequeños pixeles aislados con los"
+" valores con los del polígono vecino más grande (basado en `GDAL Sieve "
+"<http://www.gdal.org/gdal_sieve.html>`_ ). Es útil para remover manchas de "
+"la clasificación."
+
+#: ../../classificationSieveTab.rst:274
+msgid ""
+":guilabel:`Select the classification` |input_list|: select a raster (already"
+" loaded in QGIS);"
+msgstr ""
+":guilabel:`Selecciona la clasificación` |input_list|: selecciona un ráster "
+"(ya cargado en QGIS);"
+
+#: ../../classificationSieveTab.rst:275
+msgid "|reload|: refresh layer list;"
+msgstr "|reload|: recargar la lista de capas;"
+
+#: ../../classificationSieveTab.rst:276
+msgid ""
+":guilabel:`Size threshold` |input_number|: size of the patch to be replaced "
+"(in pixel unit); all patches smaller the the selected number of pixels will "
+"be replaced by the value of the largest neighbour patch;"
+msgstr ""
+":guilabel:`Tamaño de umbral` |input_number|: tamaño de la mancha que será "
+"reemplazada (en unidades de pixel); todas las manchas más pequeñas que el "
+"número fijado serán reemplazadas por el valor del vecino cercano más grande;"
+
+#: ../../classificationSieveTab.rst:280
+msgid ""
+":guilabel:`Pixel connection` |input_list|: select the type of pixel "
+"connection:"
+msgstr ""
+":guilabel:`Conexión de pixeles` |input_list|: selecciona el tipo de conexión"
+" de pixeles:"
+
+#: ../../classificationSieveTab.rst:278
+msgid ""
+":guilabel:`4`: in a 3x3 window, diagonal pixels are not considered "
+"connected;"
+msgstr ""
+":guilabel:`4`: en una ventana 3x3, los pixeles diagonales no son "
+"considerados conectados;"
+
+#: ../../classificationSieveTab.rst:279
+msgid ""
+":guilabel:`8`: in a 3x3 window, diagonal pixels are considered connected;"
+msgstr ""
+":guilabel:`8`: en una ventana 3x3, los pixeles diagonales son considerados "
+"conectados;"
+
+#: ../../classificationSieveTab.rst:282
+msgid ""
+":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../classificationSieveTab.rst:283
+msgid ""
+":guilabel:`RUN` |run|: choose the output destination and start the "
+"calculation;"
+msgstr ""
+":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo;"

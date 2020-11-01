@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../mosaicBandSetsTab.rst:5
+msgid "Mosaic band sets"
+msgstr "Conjuntos de bandas del mosaico"
+
+#: ../../mosaicBandSetsTab.rst:265
+msgid "|mosaic_tool| :guilabel:`Mosaic band sets`"
+msgstr "|mosaic_tool| :guilabel:`Conjuntos de bandas del mosaico`"
+
+#: ../../mosaicBandSetsTab.rst:267
+msgid ""
+"This tool allows for the mosaic of band sets, merging the corresponding "
+"bands of two or more band sets defined in the :ref:`band_set_tab`. An output"
+" band is created for every corresponding set of bands in the band sets."
+msgstr ""
+"Esta herramienta permite el mosaico de conjuntos de bandas, fusionando las "
+"bandas correspondientes de dos o más conjuntos de bandas definidos en el "
+":ref:`band_set_tab`. Se crea una banda de salida para cada conjunto de "
+"bandas correspondiente en los conjuntos de bandas."
+
+#: ../../mosaicBandSetsTab.rst:270
+msgid ""
+"``NoData`` values of one band set are replaced by the values of the other "
+"band sets."
+msgstr ""
+"Los valores `` NoData '' de un conjunto de bandas se reemplazan por los "
+"valores de los otros conjuntos de bandas."
+
+#: ../../mosaicBandSetsTab.rst:275
+msgid "Mosaic of band sets"
+msgstr "Mosaico de conjuntos de bandas"
+
+#: ../../mosaicBandSetsTab.rst:277
+msgid ""
+":guilabel:`Band set list` |input_text|: list if band sets defined in the "
+":ref:`band_set_tab`; in case of overlapping images, the pixel values of the "
+"first band set in the list are assigned."
+msgstr ""
+":guilabel:`Band set list` |input_text|:lista si los conjuntos de bandas "
+"definidos en el :ref:`band_set_tab`;en caso de imágenes superpuestas, se "
+"asignan los valores de píxeles de la primera banda establecida en la lista."
+
+#: ../../mosaicBandSetsTab.rst:278
+msgid ""
+"|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, set "
+"the value of ``NoData`` pixels, ignored during the calculation;"
+msgstr ""
+
+#: ../../mosaicBandSetsTab.rst:279
+msgid ""
+":guilabel:`Output name prefix` |input_text|: set the prefix for output file "
+"names (default is ``mosaic``);"
+msgstr ""
+":guilabel:`Prefijo de nombre de salida` | input_text |: establece el prefijo"
+" para los nombres de archivo de salida (por defecto es  ``mosaic``);"
+
+#: ../../mosaicBandSetsTab.rst:282
+msgid ""
+":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../mosaicBandSetsTab.rst:283
+msgid ""
+":guilabel:`RUN` |run|: select an output directory and start the mosaic "
+"process;"
+msgstr ""
+":guilabel:`RUN` |run|: seleccione un directorio de salida e inicie el "
+"proceso del mosaico;"

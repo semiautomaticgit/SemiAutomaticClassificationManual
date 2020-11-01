@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2019, Luca Congedo
+# Copyright (C) 2012-2020, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 00:17+0100\n"
+"POT-Creation-Date: 2020-11-01 13:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,14 +127,4 @@ msgid ""
 "are converted; converted bands are saved in the output directory with the"
 " prefix ``RT_`` and automatically loaded in QGIS;"
 msgstr ""
-
-#~ msgid ""
-#~ "|checkbox| :guilabel:`Use value as  NoData`"
-#~ " |input_number|: if checked, pixels having"
-#~ " ``NoData`` value are not counted "
-#~ "during conversion and the DOS1 "
-#~ "calculation of DNmin; it is useful "
-#~ "when image has a black border "
-#~ "(usually pixel value = 0);"
-#~ msgstr ""
 

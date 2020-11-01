@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Daria Svidzinska <d.svidzinska@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2020\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: ../../LCSThresholdTab.rst:5
+msgid "LCS threshold"
+msgstr "Порогові величини LCS"
+
+#: ../../LCSThresholdTab.rst:264
+msgid "|LCS_threshold| :guilabel:`LCS threshold`"
+msgstr "|LCS_threshold| :guilabel:`Порогові величини LCS`"
+
+#: ../../LCSThresholdTab.rst:266
+msgid ""
+"This tab allows for setting the signature thresholds used by "
+":ref:`LCS_algorithm`. All the signatures contained in the "
+":ref:`training_input` are listed; also, signature thresholds are saved in "
+"the :ref:`training_input`."
+msgstr ""
+"Ця вкладка відповідає за призначення порогових величин сигнатур, що "
+"використовуються :ref:`LCS_algorithm`. Наведено перелік всіх сигнатур, що "
+"входять до :ref:`training_input`; крім того, порогові величини сигнтаур "
+"зберігаються до :ref:`training_input`."
+
+#: ../../LCSThresholdTab.rst:269
+msgid ""
+"Overlapping signatures (belonging to different classes or macroclasses) are "
+"highlighted in orange in the table :guilabel:`LC Signature threshold`; the "
+"overlapping check is performed considering :guilabel:`MC ID` or :guilabel:`C"
+" ID` according to the setting :guilabel:`Use` |checkbox| :guilabel:`MC ID` "
+"|checkbox| :guilabel:`C ID` in :ref:`classification_alg`. Overlapping "
+"signatures sharing the same :guilabel:`ID` are not highlighted."
+msgstr ""
+"Сигнатури, що перетинаються (за належності до різних класів або "
+"макрокласів), виділено помаранчевим в таблиці  :guilabel:`Порогова величина "
+"LC`; перевірка перетину відбувається на підставі :guilabel:`MC ID` або "
+":guilabel:`C ID` відповідно до налаштування :guilabel:`Застосувати` "
+"|checkbox| :guilabel:`MC ID` |checkbox| :guilabel:`C ID` в  "
+":ref:`classification_alg`. Сигнатури, що перетинаються та мають ідентичний "
+":guilabel:`ID`, не виділяються."
+
+#: ../../LCSThresholdTab.rst:275
+msgid "LC Signature threshold"
+msgstr "Порогова величина LC"
+
+#: ../../LCSThresholdTab.rst:284
+msgid ""
+"|input_table| :guilabel:`LC Signature threshold`: table containing the "
+"following fields;"
+msgstr ""
+"|input_table| :guilabel:`Порогова величина LC`: таблиця містить наступні "
+"поля;"
+
+#: ../../LCSThresholdTab.rst:278
+msgid ":guilabel:`MC ID`: signature Macroclass ID;"
+msgstr ":guilabel:`MC ID`: унікальний ідентифікатор макрокласу сигнатури;"
+
+#: ../../LCSThresholdTab.rst:279
+msgid ":guilabel:`MC Name`: signature Macroclass Name;"
+msgstr ""
+
+#: ../../LCSThresholdTab.rst:280
+msgid ":guilabel:`C ID`: signature Class ID;"
+msgstr ":guilabel:`C ID`: унікальний ідентифікатор класу сигнатури;"
+
+#: ../../LCSThresholdTab.rst:281
+msgid ":guilabel:`C Name`: signature Class Name;"
+msgstr ""
+
+#: ../../LCSThresholdTab.rst:282
+msgid ""
+":guilabel:`Color [overlap MC_ID-C_ID]`: signature color; also, the "
+"combination :guilabel:`MC ID`-:guilabel:`C ID` is displayed in case of "
+"overlap with other signatures (see :ref:`LCS_algorithm`);"
+msgstr ""
+":guilabel:`Колір [перетин MC_ID-C_ID]`: колір сигнатури; додатково "
+"відображається комбінація :guilabel:`MC ID`-:guilabel:`C ID` у випадку "
+"перетину з іншими сигнатурами (див. :ref:`LCS_algorithm`);"
+
+#: ../../LCSThresholdTab.rst:283
+msgid ""
+":guilabel:`Min B` ``X``: minimum value of band ``X``; this value can be "
+"edited;"
+msgstr ""
+":guilabel:`Мін B` ``X``: мінімальне значення каналу ``X``; це значення "
+"редагується;"
+
+#: ../../LCSThresholdTab.rst:284
+msgid ""
+":guilabel:`Max B` ``X``: maximum value of band ``X``; this value can be "
+"edited;"
+msgstr ""
+":guilabel:`Макс B` ``X``: максимальне значення каналу ``X``; це значення "
+"редагується;"
+
+#: ../../LCSThresholdTab.rst:286
+msgid ""
+"|sign_plot|: show the ROI spectral signature in the "
+":ref:`spectral_signature_plot`; spectral signature is calculated from the "
+":ref:`band_set_tab`;"
+msgstr ""
+"|sign_plot|: відобразити спектральну сигнатуру ROI на "
+":ref:`spectral_signature_plot`; спектральні сигнатури розраховуються на "
+"основі :ref:`band_set_tab`;"
+
+#: ../../LCSThresholdTab.rst:291
+msgid "Automatic thresholds"
+msgstr "Автоматичні порогові величини"
+
+#: ../../LCSThresholdTab.rst:293
+msgid ""
+"Set thresholds automatically for highlighted signatures in the table "
+":guilabel:`LC Signature threshold`; if no signature is highlighted, then the"
+" threshold is applied to all the signatures."
+msgstr ""
+"Автоматично призначити порогові величини для сигнатур, виділених в таблиці "
+":guilabel:`Порогова величина LC`; якщо жодна сигнатура не виділена, то "
+"порогова величина застосовується до всіх сигнатур."
+
+#: ../../LCSThresholdTab.rst:295
+msgid ""
+":guilabel:`Min Max` |enter|: set the threshold based on the minimum and "
+"maximum of each band;"
+msgstr ""
+":guilabel:`Мін Макс` |enter|: встановити порогову величину на підставі "
+"мінімуму та максимуму кожного каналу;"
+
+#: ../../LCSThresholdTab.rst:296
+msgid ""
+":guilabel:`σ *` |input_number| |enter|: set an automatic threshold "
+"calculated as (band value + (σ * v)), where σ is the standard deviation of "
+"each band and v is the defined value;"
+msgstr ""
+":guilabel:`σ *` |input_number| |enter|: автоматично встановити порогову "
+"величину, розраховану як (значення каналу + (σ * v)), де σ стандартне "
+"відхилення кожного каналу, а v визначене значення;"
+
+#: ../../LCSThresholdTab.rst:298
+msgid ""
+":guilabel:`From ROI` |LCS_threshold_ROI_tool|: set the threshold using the "
+"temporary ROI pixel values, according to the following checkboxes:"
+msgstr ""
+":guilabel:`На підставі ROI` |LCS_threshold_ROI_tool|: встановити порогову "
+"величину на підставі значеннь пікселів тимчасової ROI відповідно до "
+"наступних перемикачів:"
+
+#: ../../LCSThresholdTab.rst:298 ../../LCSThresholdTab.rst:301
+msgid ""
+"|checkbox| **+**: if checked, signature threshold is extended to include "
+"pixel signature;"
+msgstr ""
+"|checkbox| **+**: якщо увімкнено, то порогова величина сигнатури "
+"збільшується для включення сигнатури пікселя;"
+
+#: ../../LCSThresholdTab.rst:299 ../../LCSThresholdTab.rst:302
+msgid ""
+"|checkbox| **–**: if checked, signature threshold is reduced to exclude "
+"pixel signature;"
+msgstr ""
+"|checkbox| **–**: якщо увімкнено, то порогова величина сигнатури зменшується"
+" для виключення сигнатури пікселя;"
+
+#: ../../LCSThresholdTab.rst:302
+msgid ""
+":guilabel:`From pixel` |LCS_threshold_set_tool|: set the threshold by "
+"clicking on a pixel, according to the following checkboxes:"
+msgstr ""
+":guilabel:`На підставі пікселя` |LCS_threshold_set_tool|: встановити "
+"порогову величину клацанням на пікселі, відповідно до наступних перемикачів:"

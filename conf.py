@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Semi-Automatic Classification Plugin'
-copyright = u'2012-2019, Luca Congedo'
+copyright = u'2012-2020, Luca Congedo'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

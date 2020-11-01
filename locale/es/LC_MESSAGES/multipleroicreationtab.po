@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../multipleROICreationTab.rst:5
+msgid "Multiple ROI Creation"
+msgstr "Creación de ROI Múltiples"
+
+#: ../../multipleROICreationTab.rst:265
+msgid "|roi_multiple| :guilabel:`Multiple ROI Creation`"
+msgstr "|roi_multiple| :guilabel:`Creación de ROI múltiples`"
+
+#: ../../multipleROICreationTab.rst:267
+msgid ""
+"This tab allows for the automatic creation of ROIs, useful for the rapid "
+"classification of multi-temporal images, or for accuracy assessment. Given a"
+" list of point coordinates and ROI options, this tool performs the region "
+"growing of ROIs. Created ROIs are automatically saved to the "
+":ref:`training_input`. The :guilabel:`active band set` in "
+":ref:`band_set_tab` is used for calculations."
+msgstr ""
+"Esta pestaña permite la creación automática de ROI, útil para la "
+"clasificación rápida de imágenes multitemporales o para la evaluación de "
+"precisión. Dada una lista de coordenadas de puntos y opciones de ROI, esta "
+"herramienta realiza el crecimiento regional de ROI. El ROI creado se guarda "
+"automáticamente en :ref:`training_input`. El :guilabel:`active band set` in "
+":ref:`band_set_tab` se usa para cálculos."
+
+#: ../../multipleROICreationTab.rst:275
+msgid "Create random points"
+msgstr "Crear puntos aleatorios"
+
+#: ../../multipleROICreationTab.rst:277
+msgid ""
+":guilabel:`Number of points` |input_number|: set a number of points that "
+"will be created when :guilabel:`Create points` |enter| is clicked;"
+msgstr ""
+":guilabel:`Número de puntos` |input_number|: establece la cantidad de puntos"
+" que serán creados cuando :guilabel:`Crear puntos` |enter| es presionado;"
+
+#: ../../multipleROICreationTab.rst:278
+msgid ""
+"|checkbox| :guilabel:`inside grid` |input_number|: if checked, the "
+":guilabel:`band set` area is divided in cells where the size thereof is "
+"defined in the combobox (image unit, usually meters); points defined in "
+"``Number of random points`` are created randomly within each cell;"
+msgstr ""
+"|checkbox| :guilabel:`inside grid` |input_number|: si está marcada, el área:"
+" guilabel: `band set` se divide en celdas donde el tamaño de las mismas se "
+"define en el cuadro combinado (unidad de imagen, generalmente metros); los "
+"puntos definidos en `` Número de puntos aleatorios '' se crean "
+"aleatoriamente dentro de cada celda;"
+
+#: ../../multipleROICreationTab.rst:279
+msgid ""
+"|checkbox| :guilabel:`min distance` |input_number|: if checked, random "
+"points have a minimum distance defined in the combobox (image unit, usually "
+"meters); setting a minimum distance can result in fewer points than the "
+"number defined in :guilabel:`Number of points`;"
+msgstr ""
+"|checkbox| :guilabel:`distancia min` |input_number|: si está seleccionado, "
+"los puntos aleatorios tienen como distancia mínima la definida en el cuadro "
+"combinado (en unidades de imagen, usualmente metros); establecer una "
+"distancia mínima puede producir menos puntos que el definido en "
+":guilabel:`Número de puntos`;"
+
+#: ../../multipleROICreationTab.rst:280
+msgid ""
+":guilabel:`Create points` |enter|: create random points inside the "
+":guilabel:`band set` area;"
+msgstr ""
+": guilabel: `Crear puntos` | enter |: crea puntos aleatorios dentro del "
+"área: guilabel:` conjunto de bandas`;"
+
+#: ../../multipleROICreationTab.rst:281
+msgid ""
+"|checkbox| :guilabel:`stratified for the values` |input_text| of the first "
+"band of the band set :guilabel:`min distance` |input_number|: if checked, "
+"create random points inside the values defined in the expression calculated "
+"for the first band of the defined band set; the expression must include the "
+"variable ``raster`` ; multiple expressions can be entered separated by "
+"semicolon ( ; ) but the total number of stratified points is the same as the"
+" defined :guilabel:`Number of points`;"
+msgstr ""
+
+#: ../../multipleROICreationTab.rst:286
+msgid "Point coordinates and ROI definition"
+msgstr "Coordenadas de punto y definición de ROI"
+
+#: ../../multipleROICreationTab.rst:298
+msgid ""
+"|input_table| :guilabel:`Point coordinates and ROI definition`: table "
+"containing the following fields;"
+msgstr ""
+"|input_table| :guilabel:`Coordenadas de los Puntos y definición de ROI`: "
+"tabla conteniendo los siguientes campos;"
+
+#: ../../multipleROICreationTab.rst:289
+msgid ":guilabel:`X` : point X coordinate (float);"
+msgstr ":guilabel:`X` : coordenada X del punto (float);"
+
+#: ../../multipleROICreationTab.rst:290
+msgid ":guilabel:`Y` : point Y coordinate (float);"
+msgstr ":guilabel:`Y` : coordenada Y del punto (float);"
+
+#: ../../multipleROICreationTab.rst:291
+msgid ":guilabel:`MC ID`: ROI Macroclass ID (int);"
+msgstr ":guilabel:`MC ID`: ID de Macroclase del ROI (int);"
+
+#: ../../multipleROICreationTab.rst:292
+msgid ":guilabel:`MC Name`: ROI Macroclass Name (text);"
+msgstr ""
+
+#: ../../multipleROICreationTab.rst:293
+msgid ":guilabel:`C ID`: ROI Class ID (int);"
+msgstr ":guilabel:`C ID`: ID de Clase del ROI (int);"
+
+#: ../../multipleROICreationTab.rst:294
+msgid ":guilabel:`C Name`: ROI Class Name (text);"
+msgstr ""
+
+#: ../../multipleROICreationTab.rst:295
+msgid ":guilabel:`Min` : the minimum area of a ROI (in pixel unit);"
+msgstr ":guilabel:`Min` : el área mínima de un ROI (en unidades de pixel);"
+
+#: ../../multipleROICreationTab.rst:296
+msgid ":guilabel:`Max` : the maximum width of a ROI (in pixel unit);"
+msgstr ":guilabel:`Max` : el ancho máximo de un ROI (en unidades de pixel);"
+
+#: ../../multipleROICreationTab.rst:297
+msgid ""
+":guilabel:`Dist` : the interval which defines the maximum spectral distance "
+"between the seed pixel and the surrounding pixels (in radiometry unit);"
+msgstr ""
+":guilabel:`Dist` : el intervalo que define la máxima distancia espectral "
+"entre el pixel origen y los circundantes (en unidades radiométricas);"
+
+#: ../../multipleROICreationTab.rst:298
+msgid ""
+":guilabel:`Rapid ROI band` : if a band number is defined, ROI is created "
+"only using the selected band, similarly to :guilabel:`Rapid ROI band` in "
+":ref:`ROI_list` ;"
+msgstr ""
+": guilabel: `Rapid ROI band`: si se define un número de banda, el ROI se "
+"crea solo con la banda seleccionada, de manera similar a: guilabel:` Rapid "
+"ROI band` en: ref: `ROI_list`;"
+
+#: ../../multipleROICreationTab.rst:300
+msgid ""
+"|add|: add a new row to the table; all the table fields must be filled for "
+"the ROI creation;"
+msgstr ""
+"|add|: agrega una nueva fila a la tabla; todos los campos de la tabla deben "
+"ser llenados para la creación del ROI;"
+
+#: ../../multipleROICreationTab.rst:301
+msgid "|remove|: delete the highlighted rows from the table;"
+msgstr "|remove|: elimina las filas seleccionadas de la tabla;"
+
+#: ../../multipleROICreationTab.rst:302
+msgid ""
+"|import|: import a point list from text file or a point shapefile to the "
+"table; in case of text file, every line must contain values separated by "
+"tabs of ``X``, ``Y``, ``MC ID``, ``MC Name``, ``Class ID``, ``C Name``, "
+"``Min``, ``Max``, ``Dist``, and optionally the ``Rapid ROI band``; in case "
+"of shapefile, only point coordinates are imported;"
+msgstr ""
+
+#: ../../multipleROICreationTab.rst:303
+msgid "|export|: export the point list to text file;"
+msgstr "|export|: exporta la lista de puntos a un archivo de texto;"
+
+#: ../../multipleROICreationTab.rst:307
+msgid ""
+"|checkbox| :guilabel:`Calculate sig.`: if checked, the spectral signature is"
+" calculated while the ROI is saved to :ref:`training_input`;"
+msgstr ""
+"|checkbox| :guilabel:`Calcular firm.`: si está seleccionado, la firma "
+"espectral es calculada mientras el ROI es guardado en el "
+":ref:`training_input`;"
+
+#: ../../multipleROICreationTab.rst:308
+msgid ""
+":guilabel:`RUN` |run|: start the ROI creation process for all the points and"
+" save ROIs to the :ref:`training_input`;"
+msgstr ""
+": guilabel: `RUN` | run |: inicia el proceso de creación de ROI para todos "
+"los puntos y guarda los ROI en: ref:` training_input`;"

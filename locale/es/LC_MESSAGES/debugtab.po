@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../debugTab.rst:5
+msgid "Debug"
+msgstr "Depurar"
+
+#: ../../debugTab.rst:265
+msgid ":guilabel:`Debug`"
+msgstr ":guilabel:`Depurar`"
+
+#: ../../debugTab.rst:267
+msgid ""
+"Debugging utilities for the creation of a Log file (i.e. recording of "
+":guilabel:`SCP` activities for reporting issues) and testing :guilabel:`SCP`"
+" dependencies."
+msgstr ""
+"Utiliidades de Depurado para la creación de un archivo Log (i.e. grabación "
+"de actividades del :guilabel:`SCP` para reportar problemas) y verificar "
+"dependencias del :guilabel:`SCP`."
+
+#: ../../debugTab.rst:273
+msgid "http://www.youtube.com/watch?v=So04gNzDC9Y"
+msgstr ""
+
+#: ../../debugTab.rst:275
+msgid "If you found a plugin error, please read :ref:`error_0` ."
+msgstr ""
+"Si encuentras algún error en el complemento, por favor lee :ref:`error_0` ."
+
+#: ../../debugTab.rst:280
+msgid "Log file"
+msgstr "Archivo Log"
+
+#: ../../debugTab.rst:282
+msgid ""
+"|checkbox| :guilabel:`Records events in a log file` |registry_save|: if "
+"checked, start recording events in a Log file;"
+msgstr ""
+"|checkbox| :guilabel:`Guardar eventos en un archivo Log` |registry_save|: si"
+" está seleccionado, guarda los eventos en un archivo Log;"
+
+#: ../../debugTab.rst:283
+msgid "|export|: export the Log file (i.e. a .txt file);"
+msgstr "|export|: exporta el archivo Log (i.e. en un archivo .txt);"
+
+#: ../../debugTab.rst:284
+msgid "|reset|: clear the content of Log file;"
+msgstr "|reset|: borra el contenido de un archivo Log;"
+
+#: ../../debugTab.rst:289
+msgid "Test"
+msgstr "Prueba"
+
+#: ../../debugTab.rst:291
+msgid ""
+":guilabel:`Test dependencies` |enter|: test :guilabel:`SCP` dependencies "
+"(GDAL, GDAL subprocess, NumPy, SciPy, Matplotlib, Internet connection); "
+"results are displayed in a window;"
+msgstr ""
+":guilabel:`Test dependencies` |enter|: test :guilabel:`SCP` dependencies "
+"(GDAL, GDAL subprocess, NumPy, SciPy, Matplotlib, Internet connection); "
+"results are displayed in a window;"

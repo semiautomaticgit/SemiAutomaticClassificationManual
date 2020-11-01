@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../cloudMaskingTab.rst:5
+msgid "Cloud masking"
+msgstr "Enmascaramiento de nubes"
+
+#: ../../cloudMaskingTab.rst:265
+msgid "|cloud_masking_tool| :guilabel:`Cloud masking`"
+msgstr "|cloud_masking_tool| :guilabel:`Enmascaramiento de nubes`"
+
+#: ../../cloudMaskingTab.rst:267
+msgid ""
+"This tool allows for cloud masking, based on the values of a raster mask, "
+"creating an output masked band for each band of the :ref:`band_set_tab`. "
+"``NoData`` is set in all the bands of the :ref:`band_set_tab` for pixels "
+"corresponding to clouds."
+msgstr ""
+"Esta herramienta permite el enmascaramiento de las nubes, basado en los "
+"valores de una máscara ráster, creando una banda enmascarada de salida para "
+"cada banda del:ref:`band_set_tab`. ``NoData`` se establece en todas las "
+"bandas de la :ref:`band_set_tab` para píxeles correspondientes a nubes."
+
+#: ../../cloudMaskingTab.rst:273
+msgid "Mask of band set"
+msgstr "Conjunto de máscara de banda"
+
+#: ../../cloudMaskingTab.rst:275
+msgid ""
+":guilabel:`Select input band set` |input_number|: select the input "
+":ref:`band_set_tab` to be masked;"
+msgstr ""
+":guilabel:`Seleccionar el conjunto de banda de entrada` |input_number|: "
+"seleccione la entrada:ref:`band_set_tab` a ser  enmascarado;"
+
+#: ../../cloudMaskingTab.rst:276
+msgid ""
+":guilabel:`Select the classification` |input_list|: select a classification "
+"raster (already loaded in QGIS) which contains a cloud class;"
+msgstr ""
+":guilabel:`Seleccione la clasificación` |input_list|: seleccione un raster "
+"de clasificacion (ya cargado en QGIS) que contiene una clase de nube;"
+
+#: ../../cloudMaskingTab.rst:277
+msgid "|reload|: refresh layer list;"
+msgstr "|reload|: recargar la lista de capas;"
+
+#: ../../cloudMaskingTab.rst:278
+msgid ""
+":guilabel:`Mask class values` |input_text|: set the class values to be "
+"masked; class values must be separated by ``,`` and ``-`` can be used to "
+"define a range of values (e.g. ``1, 3-5, 8`` will select classes 1, 3, 4, 5,"
+" 8); if the text is red then the expression contains errors;"
+msgstr ""
+":guilabel:`Valores de clase de máscara` |input_text|:establecer los valores "
+"de la clase que se enmascararán; los valores de clase deben estar separados "
+"por  ``,``  y  ``-`` se puede usar para definir un rango de valores (por "
+"ejemplo ``1, 3-5, 8`` seleccionará las clases 1, 3, 4, 5, 8); si el texto es"
+" rojo, entonces la expresión contiene errores;"
+
+#: ../../cloudMaskingTab.rst:279
+msgid ""
+"|checkbox| :guilabel:`Use buffer of pixel size` |input_number|: if checked, "
+"a buffer is created for masked area, corresponding to the defined number of "
+"pixels; this can be useful to dilate masked area in case the mask doesn't "
+"cover the thinner border of clouds;"
+msgstr ""
+"|checkbox| :guilabel:`Usar buffer del  tamaño del píxel` |input_number|: si "
+"está marcado, se crea un búfer para el área enmascarada, correspondiente al "
+"número definido de píxeles; esto puede ser útil para dilatar el área "
+"enmascarada en caso de que la máscara no cubra el borde más delgado de las "
+"nubes;"
+
+#: ../../cloudMaskingTab.rst:280
+msgid ""
+":guilabel:`Output NoData value` |input_number|: set the value of ``NoData`` "
+"pixels corresponding to clouds;"
+msgstr ""
+
+#: ../../cloudMaskingTab.rst:281
+msgid ""
+":guilabel:`Output name prefix` |input_text|: set the prefix for output file "
+"names (default is ``mask``);"
+msgstr ""
+":guilabel:`Prefijo del nombre de salida` |input_text|: establecer el prefijo"
+" para los nombres de los archivos de salida (por defecto es ``mask``);"
+
+#: ../../cloudMaskingTab.rst:284
+msgid ""
+":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../cloudMaskingTab.rst:285
+msgid ""
+":guilabel:`RUN` |run|: select an output directory and start the mask "
+"process;"
+msgstr ""
+":guilabel:`RUN` |run|: seleccione un directorio de salida e inicie el "
+"proceso de máscara;"

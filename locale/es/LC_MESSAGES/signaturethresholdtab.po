@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2019, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../signatureThresholdTab.rst:5 ../../signatureThresholdTab.rst:284
+msgid "Signature threshold"
+msgstr "Umbral de firma"
+
+#: ../../signatureThresholdTab.rst:265
+msgid "|threshold_tool| :guilabel:`Signature threshold`"
+msgstr "|threshold_tool| :guilabel:`Umbral de firma`"
+
+#: ../../signatureThresholdTab.rst:267
+msgid ""
+"This tab allows for the definition of a classification threshold for each "
+"spectral signature. All the signatures contained in the "
+":ref:`training_input` are listed. Thresholds defined in this tool are "
+"applied to classification only if :guilabel:`Threshold` value in "
+":ref:`classification_alg` is 0."
+msgstr ""
+"Esta pestaña permite la definición de un umbral de clasificación para cada "
+"firma espectral. Se enumeran todas las firmas contenidas en: ref: "
+"`training_input`. Los umbrales definidos en esta herramienta se aplican a la"
+" clasificación solo si: guilabel: el valor de `Umbral` en: ref:` class_alg` "
+"es 0."
+
+#: ../../signatureThresholdTab.rst:271
+msgid ""
+"This is useful for improving the classification results, especially when "
+"spectral signatures are similar. Thresholds of signatures are saved in the "
+":ref:`training_input`."
+msgstr ""
+"Esto es útil para mejorar los resultados de clasificación, especialmente "
+"cuando las firmas espectrales son similares. Los umbrales de las firmas se "
+"guardan en: ref: `training_input`."
+
+#: ../../signatureThresholdTab.rst:274
+msgid ""
+"If threshold is 0 then no threshold is applied and all the image pixels are "
+"classified. Depending on the selected :ref:`classification_alg` the "
+"threshold value is evaluated differently:"
+msgstr ""
+"Si el umbral es 0, entonces no se aplica ningún umbral y se clasifican todos"
+" los píxeles de la imagen. Dependiendo del seleccionado: ref: "
+"`clasificación_alg` el valor umbral se evalúa de manera diferente:"
+
+#: ../../signatureThresholdTab.rst:277
+msgid ""
+"for Minimum Distance, pixels are unclassified if distance is greater than "
+"threshold value;"
+msgstr ""
+"para Distancia mínima, los pixeles no serán clasificados si la distancia es "
+"mayor que el valor del umbral;"
+
+#: ../../signatureThresholdTab.rst:278
+msgid ""
+"for Maximum Likelihood, pixels are unclassified if probability is less than "
+"threshold  value (max 100);"
+msgstr ""
+"para Máxima Probabilidad, los pixeles no serán clasificados si la "
+"probabilidad es menor que el valor del umbral (máx 100);"
+
+#: ../../signatureThresholdTab.rst:279
+msgid ""
+"for Spectral Angle Mapping, pixels are unclassified if spectral angle "
+"distance is greater than threshold value (max 90)."
+msgstr ""
+"para Mapeo del Angulo Espectral, los pixeles no serán clasificados si la "
+"distancia del ángulo espectral es mayor que el valor del umbral (máx 90)."
+
+#: ../../signatureThresholdTab.rst:293
+msgid ""
+"|input_table| :guilabel:`Signature threshold`: table containing the "
+"following fields;"
+msgstr ""
+"|input_table| :guilabel:`Umbral de firma`: tabla conteniendo los siguientes "
+"campos;"
+
+#: ../../signatureThresholdTab.rst:287
+msgid ":guilabel:`MC ID`: signature Macroclass ID;"
+msgstr ":guilabel:`MC ID`: Macroclase ID de la firma;"
+
+#: ../../signatureThresholdTab.rst:288
+msgid ":guilabel:`MC Name`: signature Macroclass Name;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:289
+msgid ":guilabel:`C ID`: signature Class ID;"
+msgstr ":guilabel:`C ID`: Clase ID de la firma;"
+
+#: ../../signatureThresholdTab.rst:290
+msgid ":guilabel:`C Name`: signature Class Name;"
+msgstr ""
+
+#: ../../signatureThresholdTab.rst:291
+msgid ""
+":guilabel:`MD Threshold`: Minimum Distance threshold; this value can be "
+"edited;"
+msgstr ""
+":guilabel:`Umbral MD`: umbral Distancia Mínima; este valor puede ser "
+"editado;"
+
+#: ../../signatureThresholdTab.rst:292
+msgid ""
+":guilabel:`ML Threshold`: Maximum Likelihood threshold; this value can be "
+"edited;"
+msgstr ""
+":guilabel:`Umbral ML`: umbral Máxima Probabilidad; este valor puede ser "
+"editado;"
+
+#: ../../signatureThresholdTab.rst:293
+msgid ""
+":guilabel:`SAM Threshold`: Spectral Angle Mapping threshold; this value can "
+"be edited;"
+msgstr ""
+":guilabel:`Umbral SAM`: umbral Mapeo del Angulo Espectral; este valor puede "
+"ser editado;"
+
+#: ../../signatureThresholdTab.rst:295
+msgid ""
+"|reset|: reset all signatures thresholds to 0 (i.e. no threshold used);"
+msgstr ""
+"|reset|: restaura todos los umbrales de firmas a 0 (por tanto no se usa el "
+"umbral);"
+
+#: ../../signatureThresholdTab.rst:300
+msgid "Automatic thresholds"
+msgstr "Umbrales automáticos"
+
+#: ../../signatureThresholdTab.rst:302
+msgid ""
+":guilabel:`Set threshold` |input_number| |enter|: set the defined value as "
+"threshold for all the highlighted signatures in the table;"
+msgstr ""
+":guilabel:`Establecer umbral` |input_number| |enter|: establece el valor "
+"definido como umbral para todas las firmas seleccionadas en la tabla;"
+
+#: ../../signatureThresholdTab.rst:303
+msgid ""
+":guilabel:`Set threshold = σ *` |input_number| |enter|: for all the "
+"highlighted signatures, set an automatic threshold calculated as the "
+"distance (or angle) between mean signature and (mean signature + (σ * v)), "
+"where σ is the standard deviation and v is the defined value; currently "
+"works for Minimum Distance and Spectral Angle Mapping;"
+msgstr ""
+":guilabel:`Establecer umbral = σ *` |input_number| |enter|: para todas las "
+"firmas seleccionadas, establece un umbral automático calculado como la "
+"distancia (o el ángulo) entre el promedio de la firma y (promedio de firma +"
+" (σ * v)), donde σ es la desviación estándar y v es el valor definido; "
+"funciona con Distancia Mínima y Mapeo del Angulo Espectral;"

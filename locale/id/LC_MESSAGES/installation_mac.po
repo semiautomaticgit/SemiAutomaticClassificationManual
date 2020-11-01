@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2018, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# arthur koto <atthetruth@gmail.com>, 2016
+# iqnaul <iqnaulhaq@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-09 11:13+0100\n"
+"PO-Revision-Date: 2016-08-29 15:42+0000\n"
+"Last-Translator: iqnaul <iqnaulhaq@gmail.com>, 2019\n"
+"Language-Team: Indonesian (https://www.transifex.com/semi-automatic-classification/teams/53374/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../installation_mac.rst:5
+msgid "Installation in Mac OS"
+msgstr "Instalasi pada OS Mac"
+
+#: ../../installation_mac.rst:14
+msgid "QGIS download and installation"
+msgstr "Unduh QGIS dan instal"
+
+#: ../../installation_mac.rst:16
+msgid ""
+"Download and install the latest version of QGIS and GDAL from `here "
+"<http://www.kyngchaos.com/software/qgis>`_ ."
+msgstr ""
+"Unduh dan instal QGIS versi terbaru dan GDAL dari sini "
+"<http://www.kyngchaos.com/software/qgis>`_ ."
+
+#: ../../installation_mac.rst:18
+msgid ""
+"In addition, download and install the python modules Numpy, Scipy, and "
+"Matplotlib from this `link <http://www.kyngchaos.com/software/python>`_ ."
+msgstr ""
+"Selain itu, unduh dan instal modul python Numpy, Scipy, dan Matplotlib dari "
+"link berikut <http://www.kyngchaos.com/software/python>`_ ."
+
+#: ../../installation_mac.rst:20
+msgid "Now, QGIS is installed."
+msgstr ""
+
+#: ../../installation_mac.rst:27
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr "Menginstal Semi-Automatic Classification Plugin"
+
+#: ../../installation_mac.rst:29
+msgid "Run QGIS;"
+msgstr "Jalankan QGIS;"
+
+#: ../../installation_mac.rst:31
+msgid ""
+"From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr "Pada menu utama pilih ``Plugins`` > ``Manage and Install Plugins``;"
+
+#: ../../installation_mac.rst:35
+msgid ""
+"From the menu ``All``, select the Semi-Automatic Classification Plugin and "
+"click the button ``Install plugin``;"
+msgstr ""
+"Pda menu \"All\", pilih Semi-Automatic Classification Plugin dan klik tombol"
+" `Install plugin``;"
+
+#: ../../installation_mac.rst:37
+msgid ""
+"**TIP**: in case of issues or an offline installation is required see "
+":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
+msgstr ""
+"**TIP**: Pada masalah atau instalasi secara offline diperlukan :ref: "
+"`plugin_installation_1` dan: ref:` plugin_installation_2`."
+
+#: ../../installation_mac.rst:41
+msgid ""
+"The SCP should be automatically activated; however, be sure that the Semi-"
+"Automatic Classification Plugin is checked in the menu ``Installed`` (the "
+"restart of QGIS could be necessary to complete the SCP installation);"
+msgstr ""
+"SCP harus aktif secara otomatis; Namun, pastikan bahwa Semi-Automatic "
+"Classification Plugin dicentang di menu `` Installed`` (restart QGIS "
+"diperlukan untuk menyempurnakan proses instalasi SCP);"
+
+#: ../../installation_mac.rst:48
+msgid "Configuration of the plugin"
+msgstr "Konfigurasi plugin"
+
+#: ../../installation_mac.rst:50
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and a dock and a "
+"toolbar should be added to QGIS. Also, a SCP menu is available in the Menu "
+"Bar of QGIS. It is possible to move the toolbar and the dock according to "
+"your needs, as in the following image."
+msgstr ""
+
+#: ../../installation_mac.rst:56
+msgid ""
+"The configuration of available RAM is recommended in order to reduce the "
+"processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings "
+"> Processing`` ."
+msgstr ""
+"Konfigurasi RAM yang tersedia dianjurkan untuk mengurangi waktu pemrosesan. "
+"Dari :ref:`SCP_menu` pilih |settings_too| ``Settings > Processing``."
+
+#: ../../installation_mac.rst:61
+msgid ""
+"In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that "
+"should be half of the system RAM. For instance, if your system has 2GB of "
+"RAM, set the value to 1024MB."
+msgstr ""
+"Pada :ref:`settings_tab`, set ``Available RAM (MB)`` ke nilai setengah dari "
+"sistem RAM. Misalnya, jika sistem anda memiliki RAM 2GB, atur nilainya "
+"menjadi 1024MB."

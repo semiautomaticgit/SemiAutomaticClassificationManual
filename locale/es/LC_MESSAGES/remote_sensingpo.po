@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2018, Luca Congedo
+# Copyright (C) 2012-2020, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
 # Luca Congedo <semiautomatic.blogger@gmail.com>, 2020
@@ -17,9 +17,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"POT-Creation-Date: 2020-11-01 13:22+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -4715,17 +4715,3 @@ msgid ""
 "Wikipedia, 2017. k-means clustering. Available at "
 "https://en.wikipedia.org/wiki/K-means_clustering"
 msgstr ""
-
-#~ msgid ""
-#~ "NASA, 2013. Landsat 7 Science Data User's Handbook. Available at "
-#~ "http://landsathandbook.gsfc.nasa.gov"
-#~ msgstr ""
-#~ "NASA, 2013. Landsat 7 Science Data User's Handbook. Available at "
-#~ "http://landsathandbook.gsfc.nasa.gov"
-
-#~ msgid ""
-#~ "Richards, J. A. and Jia, X., 2006. Remote Sensing Digital Image Analysis: An"
-#~ " Introduction. Berlin, Germany: Springer."
-#~ msgstr ""
-#~ "Richards, J. A. and Jia, X., 2006. Remote Sensing Digital Image Analysis: An"
-#~ " Introduction. Berlin, Germany: Springer."

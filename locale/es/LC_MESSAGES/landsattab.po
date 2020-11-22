@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2019, Luca Congedo
+# Copyright (C) 2012-2020, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"POT-Creation-Date: 2020-11-01 13:22+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../../landsatTab.rst:269
 msgid "**Parallel processing is available.**"
-msgstr ""
+msgstr "** El procesamiento en paralelo está disponible. **"
 
 #: ../../landsatTab.rst:271
 msgid ""
@@ -130,6 +130,10 @@ msgid ""
 "DOS1 calculation of DNmin; it is useful when image has a black border "
 "(usually pixel value = 0);"
 msgstr ""
+"| casilla de verificación | : guilabel: `Usar valor como NoData` | "
+"input_number |: si está marcado, los píxeles que tienen el valor` `NoData ''"
+" no se cuentan durante la conversión y el cálculo DOS1 de DNmin; es útil "
+"cuando la imagen tiene un borde negro (normalmente el valor del píxel = 0);"
 
 #: ../../landsatTab.rst:288
 msgid ""
@@ -148,12 +152,18 @@ msgid ""
 "also, the :guilabel:`Band set` is processed according to the tools checked "
 "in the :ref:`band_set_tab`;"
 msgstr ""
+"|checkbox| :guilabel: `Crear conjunto de bandas y usar herramientas del "
+"conjunto de bandas`: si está marcado, las bandas se agregan al activo: "
+"guilabel:` Conjunto de bandas` después de la conversión;"
 
 #: ../../landsatTab.rst:290
 msgid ""
 "|checkbox| :guilabel:`Add bands in a new Band set`: if checked, bands are "
 "added to a new empty :guilabel:`Band set` after the conversion;"
 msgstr ""
+"|checkbox| : guilabel: `Agregar bandas en un nuevo conjunto de bandas`: si "
+"está marcado, las bandas se agregan a uno nuevo vacío: guilabel:` Grupo de "
+"bandas` después de la conversión;"
 
 #: ../../landsatTab.rst:295
 msgid "Metadata"
@@ -271,6 +281,7 @@ msgstr ":guilabel:`QCALMIN`: valor mínimo de pixel cuantificado y calibrado;"
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
+": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
 #: ../../landsatTab.rst:324
 msgid ""

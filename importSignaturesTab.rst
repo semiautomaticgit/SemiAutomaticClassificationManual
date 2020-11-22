@@ -278,24 +278,24 @@ In case of USGS Spectral Library, the library is automatically sampled according
 	
 .. _import_shapefile_tab:
 
-Import shapefile
+Import vector
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: _static/import_shapefile.jpg
 	:align: center
 	:width: 500pt
 	
-	:guilabel:`Import shapefile`
+	:guilabel:`Import vector`
 
-This tool allows for importing a shapefile, selecting the corresponding fields of the :ref:`training_input`.
+This tool allows for importing a vector (shapefile or geopackage), selecting the corresponding fields of the :ref:`training_input`.
 
-* :guilabel:`Select a shapefile` |open_file|: open a shapefile; 
-* :guilabel:`MC ID field` |input_list|: select the shapefile field corresponding to MC ID;
-* :guilabel:`MC Name field` |input_list|: select the shapefile field corresponding to MC Name;
-* :guilabel:`C ID field` |input_list|: select the shapefile field corresponding to C ID;
-* :guilabel:`C Name field` |input_list|: select the shapefile field corresponding to C Name;
+* :guilabel:`Select a vector` |open_file|: open a vector; 
+* :guilabel:`MC ID field` |input_list|: select the vector field corresponding to MC ID;
+* :guilabel:`MC Name field` |input_list|: select the vector field corresponding to MC Name;
+* :guilabel:`C ID field` |input_list|: select the vector field corresponding to C ID;
+* :guilabel:`C Name field` |input_list|: select the vector field corresponding to C Name;
 * |checkbox| :guilabel:`Calculate sig.`: if checked, the spectral signature is calculated while the ROI is saved to :ref:`training_input`;
-* :guilabel:`Import shapefile` |enter|: import all the shapefile polygons as ROIs in the :ref:`training_input`;
+* :guilabel:`Import vector` |enter|: import all the vector polygons as ROIs in the :ref:`training_input`;
 
 .. _USGS_spec_library_tab:
 

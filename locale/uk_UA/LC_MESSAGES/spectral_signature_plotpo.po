@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2018, Luca Congedo
+# Copyright (C) 2012-2020, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
 # Daria Svidzinska <d.svidzinska@gmail.com>, 2020
@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"POT-Creation-Date: 2020-11-01 13:22+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Luca Congedo <semiautomatic.blogger@gmail.com>, 2020\n"
 "Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
@@ -394,9 +394,3 @@ msgstr "Якщо сигнатури дуже подібні, то значенн
 #: ../../spectral_signature_plot.rst:194
 msgid ":guilabel:`Spectral Signature: Example of spectral distances`"
 msgstr ":guilabel:`Спектральна сигнатура: Приклад спектральних відстаней`"
-
-#~ msgid ":guilabel:`MC Info`: signature Macroclass Information;"
-#~ msgstr ":guilabel:`MC Info`: характеристика макрокласу сигнатури;"
-
-#~ msgid ":guilabel:`C Info`: signature Class Information;"
-#~ msgstr ":guilabel:`C Info`: характеристика класу сигнатури;"

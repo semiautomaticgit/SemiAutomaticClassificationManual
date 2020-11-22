@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2020, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../asterTab.rst:5
+msgid "ASTER"
+msgstr "ASTER"
+
+#: ../../asterTab.rst:265
+msgid "|aster_tool| :guilabel:`ASTER`"
+msgstr "|aster_tool| :guilabel:`ASTER`"
+
+#: ../../asterTab.rst:267
+msgid ""
+"This tab allows for the conversion of **ASTER L1T** images to the physical "
+"measure of Top Of Atmosphere reflectance (TOA), or the application of a "
+"simple atmospheric correction using the DOS1 method (Dark Object Subtraction"
+" 1), which is an image-based technique (for more information about "
+"conversion to TOA and DOS1 correction, see "
+":ref:`conversion_to_reflectance`)."
+msgstr ""
+"Esta pestaña permite la conversión de imágenes **ASTER LT1** a la medida "
+"física Top Of Atmosphere reflectance (TOA), o a la aplicación de la "
+"corrección atmosférica simple usando el método DOS1 (Dark Object Subtraction"
+" 1), el cual es un método basado en imagen (para mayor información sobre "
+"conversión s TOA y corrección DOS1, mira :ref:`conversion_to_reflectance`)."
+
+#: ../../asterTab.rst:269
+msgid "**Parallel processing is available.**"
+msgstr "** El procesamiento en paralelo está disponible. **"
+
+#: ../../asterTab.rst:271
+msgid ""
+"Once the input is selected, available bands are listed in the metadata "
+"table."
+msgstr ""
+"Cuando el directorio de entrada se selecciona, las bandas disponibles se "
+"listan en la tabla de Metadatos"
+
+#: ../../asterTab.rst:276
+msgid "ASTER conversion"
+msgstr "Conversión de ASTER"
+
+#: ../../asterTab.rst:278
+msgid ""
+":guilabel:`Select file ASTER L1T` |open_file|: select an ASTER image (file "
+".hdf);"
+msgstr ""
+":guilabel:`Seleccionar archivo ASTER L1T` |open_file|: selecciona una imagen"
+" ASTER (archivo .hdf);"
+
+#: ../../asterTab.rst:279
+msgid ""
+"|checkbox| :guilabel:`Apply DOS1 atmospheric correction`: if checked, the "
+":ref:`DOS1_correction` is applied to all the bands;"
+msgstr ""
+"|checkbox| :guilabel:`Aplicar la corrección atmosférica DOS1`: si está "
+"seleccionado, la :ref:`DOS1_correction` es aplicada a todas las bandas;"
+
+#: ../../asterTab.rst:280
+msgid ""
+"|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
+"pixels having ``NoData`` value are not counted during conversion and the "
+"DOS1 calculation of DNmin; it is useful when image has a black border "
+"(usually pixel value = 0);"
+msgstr ""
+"| casilla de verificación | : guilabel: `Usar valor como NoData` | "
+"input_number |: si está marcado, los píxeles que tienen el valor` `NoData ''"
+" no se cuentan durante la conversión y el cálculo DOS1 de DNmin; es útil "
+"cuando la imagen tiene un borde negro (normalmente el valor del píxel = 0);"
+
+#: ../../asterTab.rst:281
+msgid ""
+"|checkbox| :guilabel:`Create Band set and use Band set tools`: if checked, "
+"bands are added to the active :guilabel:`Band set` after the conversion; "
+"also, the :guilabel:`Band set` is processed according to the tools checked "
+"in the :ref:`band_set_tab`;"
+msgstr ""
+"|checkbox| :guilabel: `Crear conjunto de bandas y usar herramientas del "
+"conjunto de bandas`: si está marcado, las bandas se agregan al activo: "
+"guilabel:` Conjunto de bandas` después de la conversión;"
+
+#: ../../asterTab.rst:282
+msgid ""
+"|checkbox| :guilabel:`Add bands in a new Band set`: if checked, bands are "
+"added to a new empty :guilabel:`Band set` after the conversion;"
+msgstr ""
+"|checkbox| : guilabel: `Agregar bandas en un nuevo conjunto de bandas`: si "
+"está marcado, las bandas se agregan a uno nuevo vacío: guilabel:` Grupo de "
+"bandas` después de la conversión;"
+
+#: ../../asterTab.rst:288
+msgid "Metadata"
+msgstr "Metadatos"
+
+#: ../../asterTab.rst:290
+msgid ""
+"All the bands found in the :guilabel:`Select file ASTER L1T` are listed in "
+"the table :guilabel:`Metadata`. For information about :guilabel:`Metadata` "
+"fields visit `the ASTER page "
+"<https://lpdaac.usgs.gov/products/ast_l1tv003/>`_ ."
+msgstr ""
+"Todas las bandas encontradas en: guilabel: `Seleccionar archivo ASTER L1T` "
+"se enumeran en la tabla: guilabel:` Metadatos`. Para obtener información "
+"sobre: guilabel: campos de `Metadatos` visite` la página de  ASTER "
+"<https://lpdaac.usgs.gov/products/ast_l1tv003/> `_."
+
+#: ../../asterTab.rst:293
+msgid ":guilabel:`Date` |input_text|: date of acquisition (e.g. 20130415);"
+msgstr ""
+":guilabel:`Date` |input_text|: fecha de adquisición (por ejemplo, 20130415);"
+
+#: ../../asterTab.rst:294
+msgid ":guilabel:`Sun elevation` |input_number|: Sun elevation in degrees;"
+msgstr ""
+":guilabel:`Elevación del Sol` |input_number|: elevación del Sol en grados;"
+
+#: ../../asterTab.rst:295
+msgid ""
+":guilabel:`Earth sun distance` |input_number|: Earth Sun distance in "
+"astronomical units (automatically calculated if :guilabel:`Date` is filled;"
+msgstr ""
+":guilabel:`Distancia Tierra-Sol` |input_number|: distancia de la Tierra al "
+"Sol en unidades astronómicas (calculada automáticamente si :guilabel:`Date` "
+"está llenada;"
+
+#: ../../asterTab.rst:296
+msgid ":guilabel:`UTM zone` |input_text|: UTM zone code of the image;"
+msgstr ""
+":guilabel:`Zona UTM` |input_text|: código de la zona UTM de la imagen;"
+
+#: ../../asterTab.rst:297
+msgid ""
+":guilabel:`UPPERLEFTM` |input_text|: coordinates of the upper left corner of"
+" the image;"
+msgstr ""
+":guilabel:`SUPIZQUIERDAM` |input_text|: coordenadas de la esquina superior "
+"izquierda de la imagen;"
+
+#: ../../asterTab.rst:298
+msgid ""
+":guilabel:`LOWERRIGHTM` |input_text|: coordinates of the lower right corner "
+"of the image;"
+msgstr ""
+":guilabel:`LOWERRIGHTM` |input_text|: coordenadas de la esquina inferior "
+"derecha de la imagen;"
+
+#: ../../asterTab.rst:299
+msgid ""
+"|remove|: remove highlighted bands from the table :guilabel:`Metadata`;"
+msgstr ""
+"|remove|: elimina las bandas seleccionadas de la tabla "
+":guilabel:`Metadatos`;"
+
+#: ../../asterTab.rst:305
+msgid "|input_table|"
+msgstr "tabla de entrada"
+
+#: ../../asterTab.rst:304
+msgid "table containing the following fields;"
+msgstr "tabla que contiene los siguientes campos;"
+
+#: ../../asterTab.rst:302
+msgid ":guilabel:`Band`: band name;"
+msgstr ":guilabel:`Band`: nombre de banda;"
+
+#: ../../asterTab.rst:303
+msgid ":guilabel:`UnitConversionCoeff`: value for radiance conversion;"
+msgstr ""
+":guilabel:`UnitConversionCoeff`: valor para la conversión a radiancia;"
+
+#: ../../asterTab.rst:304
+msgid ":guilabel:`PixelSize`: solar irradiance of band;"
+msgstr ":guilabel:`PixelSize`: irradiancia solar de la banda;"
+
+#: ../../asterTab.rst:307
+msgid ""
+":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
+
+#: ../../asterTab.rst:308
+msgid ""
+":guilabel:`RUN` |run|: select an output directory and start the conversion "
+"process; only bands listed in the table :guilabel:`Metadata` are converted; "
+"converted bands are saved in the output directory with the prefix ``RT_`` "
+"and automatically loaded in QGIS;"
+msgstr ""
+": guilabel: `RUN` | run |: seleccione un directorio de salida e inicie el "
+"proceso de conversión; solo las bandas que figuran en la tabla: guilabel: se"
+" convierten los 'Metadatos'; las bandas convertidas se guardan en el "
+"directorio de salida con el prefijo `` RT_`` y se cargan automáticamente en "
+"QGIS;"

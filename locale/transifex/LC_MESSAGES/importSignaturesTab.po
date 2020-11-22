@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-11-22 20:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,44 +53,44 @@ msgid ""
 msgstr ""
 
 #: ../../importSignaturesTab.rst:282
-msgid "Import shapefile"
+msgid "Import vector"
 msgstr ""
 
 #: ../../importSignaturesTab.rst:288
-msgid ":guilabel:`Import shapefile`"
+msgid ":guilabel:`Import vector`"
 msgstr ""
 
 #: ../../importSignaturesTab.rst:290
 msgid ""
-"This tool allows for importing a shapefile, selecting the corresponding "
-"fields of the :ref:`training_input`."
+"This tool allows for importing a vector (shapefile or geopackage), "
+"selecting the corresponding fields of the :ref:`training_input`."
 msgstr ""
 
 #: ../../importSignaturesTab.rst:292
-msgid ":guilabel:`Select a shapefile` |open_file|: open a shapefile;"
+msgid ":guilabel:`Select a vector` |open_file|: open a vector;"
 msgstr ""
 
 #: ../../importSignaturesTab.rst:293
 msgid ""
-":guilabel:`MC ID field` |input_list|: select the shapefile field "
+":guilabel:`MC ID field` |input_list|: select the vector field "
 "corresponding to MC ID;"
 msgstr ""
 
 #: ../../importSignaturesTab.rst:294
 msgid ""
-":guilabel:`MC Name field` |input_list|: select the shapefile field "
+":guilabel:`MC Name field` |input_list|: select the vector field "
 "corresponding to MC Name;"
 msgstr ""
 
 #: ../../importSignaturesTab.rst:295
 msgid ""
-":guilabel:`C ID field` |input_list|: select the shapefile field "
+":guilabel:`C ID field` |input_list|: select the vector field "
 "corresponding to C ID;"
 msgstr ""
 
 #: ../../importSignaturesTab.rst:296
 msgid ""
-":guilabel:`C Name field` |input_list|: select the shapefile field "
+":guilabel:`C Name field` |input_list|: select the vector field "
 "corresponding to C Name;"
 msgstr ""
 
@@ -102,8 +102,8 @@ msgstr ""
 
 #: ../../importSignaturesTab.rst:298
 msgid ""
-":guilabel:`Import shapefile` |enter|: import all the shapefile polygons "
-"as ROIs in the :ref:`training_input`;"
+":guilabel:`Import vector` |enter|: import all the vector polygons as ROIs"
+" in the :ref:`training_input`;"
 msgstr ""
 
 #: ../../importSignaturesTab.rst:303
@@ -161,4 +161,49 @@ msgid ""
 "but not Maximum Likelihood because this algorithm needs the covariance "
 "matrix that is not included in the spectral libraries."
 msgstr ""
+
+#~ msgid "Import shapefile"
+#~ msgstr ""
+
+#~ msgid ":guilabel:`Import shapefile`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This tool allows for importing a "
+#~ "shapefile, selecting the corresponding fields"
+#~ " of the :ref:`training_input`."
+#~ msgstr ""
+
+#~ msgid ":guilabel:`Select a shapefile` |open_file|: open a shapefile;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`MC ID field` |input_list|: select"
+#~ " the shapefile field corresponding to "
+#~ "MC ID;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`MC Name field` |input_list|: select"
+#~ " the shapefile field corresponding to "
+#~ "MC Name;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`C ID field` |input_list|: select"
+#~ " the shapefile field corresponding to "
+#~ "C ID;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`C Name field` |input_list|: select"
+#~ " the shapefile field corresponding to "
+#~ "C Name;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`Import shapefile` |enter|: import "
+#~ "all the shapefile polygons as ROIs "
+#~ "in the :ref:`training_input`;"
+#~ msgstr ""
 

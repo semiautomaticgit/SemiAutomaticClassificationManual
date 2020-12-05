@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,10 +33,6 @@ msgid ""
 msgstr ""
 
 #: ../../landCoverChangeTab.rst:269
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../landCoverChangeTab.rst:271
 msgid ""
 "Output is a ``land cover change raster`` (i.e. a file .tif showing the "
 "changes in the map, where each pixel represents a category of comparison "
@@ -46,42 +42,45 @@ msgid ""
 "by tab, with the same name defined for the .tif file)."
 msgstr ""
 
-#: ../../landCoverChangeTab.rst:276
+#: ../../landCoverChangeTab.rst:274
 msgid "Input"
 msgstr ""
 
-#: ../../landCoverChangeTab.rst:278
+#: ../../landCoverChangeTab.rst:276
 msgid ""
 ":guilabel:`Select the reference classification` |input_list|: select a "
 "reference classification raster (already loaded in QGIS);"
 msgstr ""
 
-#: ../../landCoverChangeTab.rst:279 ../../landCoverChangeTab.rst:281
+#: ../../landCoverChangeTab.rst:277 ../../landCoverChangeTab.rst:279
 msgid "|reload|: refresh layer list;"
 msgstr ""
 
-#: ../../landCoverChangeTab.rst:280
+#: ../../landCoverChangeTab.rst:278
 msgid ""
 ":guilabel:`Select the new classification` |input_list|: select a new "
 "classification raster (already loaded in QGIS), to be compared with the "
 "reference classification;"
 msgstr ""
 
-#: ../../landCoverChangeTab.rst:282
+#: ../../landCoverChangeTab.rst:280
 msgid ""
 "|checkbox| :guilabel:`Report unchanged pixels`: if checked, report also "
 "unchanged pixels (having the same value in both classifications);"
 msgstr ""
 
-#: ../../landCoverChangeTab.rst:286
+#: ../../landCoverChangeTab.rst:284
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../landCoverChangeTab.rst:287
+#: ../../landCoverChangeTab.rst:285
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation; the land cover change statistics are displayed in the tab "
 ":guilabel:`Output` (and saved in a text file) and the ``land cover change"
 " raster`` is loaded in QGIS;"
 msgstr ""
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
 

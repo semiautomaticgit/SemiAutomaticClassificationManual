@@ -265,8 +265,6 @@ Reclassification
 		
 This tab allows for the reclassification (i.e. assigning a new class code to raster pixels).
 In particular, it eases the conversion from C ID to MC ID values.
-
-	**Parallel processing is available.**
 	
 .. _reclassification:
 

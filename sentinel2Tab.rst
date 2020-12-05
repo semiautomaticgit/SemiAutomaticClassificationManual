@@ -267,8 +267,6 @@ Sentinel-2
 This tab allows for the conversion of **Sentinel-2** images Level-1C to the physical measure of Top Of Atmosphere reflectance (TOA), or the application of a simple atmospheric correction using the DOS1 method (Dark Object Subtraction 1), which is an image-based technique (for more information about conversion to TOA and DOS1 correction, see :ref:`conversion_to_reflectance`).
 This tool can also convert **Sentinel-2** images Level-2A from DN to reflectance values.
 
-	**Parallel processing is available.**
-	
 Once the input is selected, available bands are listed in the metadata table.
 Bands with 20m spatial resolution are resampled to 10m resolution without changing the original pixel value (i.e. one 20m pixel is divided in four 10m pixels with the same value).
 

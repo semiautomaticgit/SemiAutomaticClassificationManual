@@ -13,6 +13,7 @@ Introduction
 
 Developed by `Luca Congedo <http://www.researchgate.net/profile/Luca_Congedo>`_, the **Semi-Automatic Classification Plugin** (:guilabel:`SCP`) is a free open source plugin for `QGIS <http://www.qgis.org>`_ that allows for the semi-automatic classification (also known as supervised classification) of remote sensing images.
 It provides several tools for the download of free images, the preprocessing, the postprocessing, and the raster calculation (please see :ref:`other_0`).
+All the main tools are designed for parallel processing.
 
 The **overall objective** of :guilabel:`SCP` is to provide a set of intertwined tools for raster processing in order to make an automatic workflow and ease the land cover classification, which could be performed also by people whose main field is not remote sensing.
 

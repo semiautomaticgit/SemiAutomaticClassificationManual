@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,81 +33,77 @@ msgid ""
 "vector."
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:269
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../clipMultipleRastersTab.rst:274
+#: ../../clipMultipleRastersTab.rst:272
 msgid "Clip band set"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:276
+#: ../../clipMultipleRastersTab.rst:274
 msgid ""
 ":guilabel:`Select input band set` |input_number|: select the input "
 ":ref:`band_set_tab` to be clipped;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:277
+#: ../../clipMultipleRastersTab.rst:275
 msgid ""
 "|checkbox| :guilabel:`Use value as NoData` |input_number|: if checked, "
 "set the value for ``NoData`` pixels (e.g. pixels outside the clipped "
 "area);"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:278
+#: ../../clipMultipleRastersTab.rst:276
 msgid ""
 ":guilabel:`Output name prefix` |input_text|: set the prefix for output "
 "file names (default is ``clip``);"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:283
+#: ../../clipMultipleRastersTab.rst:281
 msgid "Clip coordinates"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:285
+#: ../../clipMultipleRastersTab.rst:283
 msgid ""
 "Set the Upper Left (UL) and Lower Right (LR) point coordinates of the "
 "rectangle used for clipping; it is possible to enter the coordinates "
 "manually. Alternatively use a vector."
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:288
+#: ../../clipMultipleRastersTab.rst:286
 msgid ":guilabel:`UL X` |input_number|: set the UL X coordinate;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:289
+#: ../../clipMultipleRastersTab.rst:287
 msgid ":guilabel:`UL Y` |input_number|: set the UL Y coordinate;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:290
+#: ../../clipMultipleRastersTab.rst:288
 msgid ":guilabel:`LR X` |input_number|: set the LR X coordinate;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:291
+#: ../../clipMultipleRastersTab.rst:289
 msgid ":guilabel:`LR Y` |input_number|: set the LR Y coordinate;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:292
+#: ../../clipMultipleRastersTab.rst:290
 msgid ""
 "|radiobutton| :guilabel:`Show`: show or hide the clip area drawn in the "
 "map;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:293
+#: ../../clipMultipleRastersTab.rst:291
 msgid ""
 "|pointer|: define a clip area by drawing a rectangle in the map; left "
 "click to set the UL point and right click to set the LR point; the area "
 "is displayed in the map;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:294
+#: ../../clipMultipleRastersTab.rst:292
 msgid ""
 "|checkbox| :guilabel:`Use vector for clipping` |input_list|: if checked, "
 "use the selected vector (already loaded in QGIS) for clipping; UL and LR "
 "coordinates are ignored;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:295
+#: ../../clipMultipleRastersTab.rst:293
 msgid ""
 "|checkbox| :guilabel:`Use vector field for output name` |input_list|: if "
 "checked, a vector field is selected for clipping while iterating through "
@@ -115,23 +111,26 @@ msgid ""
 "output name;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:296
+#: ../../clipMultipleRastersTab.rst:294
 msgid ""
 "|checkbox| :guilabel:`Use temporary ROI for clipping`: if checked, use a "
 ":ref:`temporary_ROI` for clipping; UL and LR coordinates are ignored;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:297
+#: ../../clipMultipleRastersTab.rst:295
 msgid "|reload|: refresh layer list;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:300
+#: ../../clipMultipleRastersTab.rst:298
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../clipMultipleRastersTab.rst:301
+#: ../../clipMultipleRastersTab.rst:299
 msgid ""
 ":guilabel:`RUN` |run|: choose an output destination and clip rasters in "
 "the selected ``Band set``;"
 msgstr ""
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
 

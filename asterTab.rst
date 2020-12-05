@@ -266,8 +266,6 @@ ASTER
 	
 This tab allows for the conversion of **ASTER L1T** images to the physical measure of Top Of Atmosphere reflectance (TOA), or the application of a simple atmospheric correction using the DOS1 method (Dark Object Subtraction 1), which is an image-based technique (for more information about conversion to TOA and DOS1 correction, see :ref:`conversion_to_reflectance`).
 
-	**Parallel processing is available.**
-	
 Once the input is selected, available bands are listed in the metadata table.
 
 .. _aster_conversion:

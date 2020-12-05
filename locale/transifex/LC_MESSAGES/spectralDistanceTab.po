@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,27 +35,23 @@ msgid ""
 "above the threshold."
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:271
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../spectralDistanceTab.rst:276
+#: ../../spectralDistanceTab.rst:274
 msgid "Spectral distance of band sets"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:278
+#: ../../spectralDistanceTab.rst:276
 msgid ""
 ":guilabel:`Select first input band set` |input_number|: select the first "
 "input :ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:279
+#: ../../spectralDistanceTab.rst:277
 msgid ""
 ":guilabel:`Select second input band set` |input_number|: select the "
 "second input :ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:280
+#: ../../spectralDistanceTab.rst:278
 msgid ""
 ":guilabel:`Distance algorithm` |radiobutton| :guilabel:`Minimum Distance`"
 " |radiobutton| :guilabel:`Spectral Angle Mapping`: select "
@@ -63,19 +59,22 @@ msgid ""
 ":ref:`spectra_angle_mapping_algorithm` for spectral distance calculation;"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:281
+#: ../../spectralDistanceTab.rst:279
 msgid ""
 "|checkbox| :guilabel:`Distance threshold` |input_number|: if checked, a "
 "binary raster of values below and above the threshold is created;"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:283
+#: ../../spectralDistanceTab.rst:281
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:284
+#: ../../spectralDistanceTab.rst:282
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation;"
 msgstr ""
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
 

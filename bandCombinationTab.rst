@@ -268,8 +268,6 @@ This tab allows for the combination of bands loaded in a :ref:`band_set_tab`.
 This tool is intended for combining classifications in order to get a raster where each value corresponds to a combination of class values.
 A combination raster is produced as output and the area of each combination is reported in an text file. 
 
-	**Parallel processing is available.**
-	
 .. _band_combination_input:
 
 Combination of band values

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.3.4\n"
 
 #: ../../classificationToVectorTab.rst:5
-#: ../../classificationToVectorTab.rst:273
+#: ../../classificationToVectorTab.rst:271
 msgid "Classification to vector"
 msgstr ""
 
@@ -33,45 +33,44 @@ msgid ""
 "shapefile."
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:268
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../classificationToVectorTab.rst:275
+#: ../../classificationToVectorTab.rst:273
 msgid ""
 ":guilabel:`Select the classification` |input_list|: select a "
 "classification raster (already loaded in QGIS);"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:276
+#: ../../classificationToVectorTab.rst:274
 msgid "|reload|: refresh layer list;"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:281
+#: ../../classificationToVectorTab.rst:279
 msgid "Symbology"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:286
+#: ../../classificationToVectorTab.rst:284
 msgid ""
 "|checkbox| :guilabel:`Use code from Signature list` |input_list|: if "
 "checked, color and class information are defined from :ref:`ROI_list`:"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:284
+#: ../../classificationToVectorTab.rst:282
 msgid "``MC ID``: use the ID of macroclasses;"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:285
+#: ../../classificationToVectorTab.rst:283
 msgid "``C ID``: use the ID of classes;"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:288
+#: ../../classificationToVectorTab.rst:286
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:289
+#: ../../classificationToVectorTab.rst:287
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "conversion;"
 msgstr ""
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
 

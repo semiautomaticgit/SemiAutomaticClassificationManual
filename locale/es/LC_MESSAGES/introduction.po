@@ -56,6 +56,11 @@ msgid ""
 "workflow and ease the land cover classification, which could be performed "
 "also by people whose main field is not remote sensing."
 msgstr ""
+"El ** objetivo general ** de: guilabel: `SCP` es proporcionar un conjunto de"
+" herramientas entrelazadas para el procesamiento de ráster con el fin de "
+"realizar un flujo de trabajo automático y facilitar la clasificación de la "
+"cobertura del suelo, que también podrían realizar las personas cuyo campo "
+"principal  no es  la teledetección."
 
 #: ../../introduction.rst:19
 msgid ""
@@ -116,10 +121,12 @@ msgid ""
 "*Congedo Luca (2020). Semi-Automatic Classification Plugin Documentation.* "
 "DOI: http://dx.doi.org/10.13140/RG.2.2.25480.65286/1"
 msgstr ""
+"*Congedo Luca (2020). Semi-Automatic Classification Plugin Documentation.* "
+"DOI: http://dx.doi.org/10.13140/RG.2.2.25480.65286/1"
 
 #: ../../introduction.rst:39
 msgid "**Brief history:**"
-msgstr ""
+msgstr "**Breve historia::**"
 
 #: ../../introduction.rst:41
 msgid ""
@@ -132,6 +139,16 @@ msgid ""
 "Environment at Sapienza University of Rome. :guilabel:`SCP` version 7 as "
 "personal commitment to the remote sensing field and open source philosophy."
 msgstr ""
+"La primera versión de: guilabel: `SCP` fue desarrollada por Luca Congedo en "
+"2012 para el\" Proyecto ACC Dar \"con el fin de crear una herramienta para "
+"la clasificación de la cobertura del suelo de una manera asequible y "
+"automática; las siguientes versiones de: guilabel: `SCP` fueron "
+"desarrolladas como compromiso personal con el campo de la teledetección y la"
+" filosofía de código abierto. : guilabel: La versión 6 de `SCP` fue "
+"desarrollada en el marco del doctorado de Luca Congedo en Paisaje y Medio "
+"Ambiente en la Universidad Sapienza de Roma. : guilabel: `SCP` versión 7 "
+"como compromiso personal con el campo de la teledetección y la filosofía de "
+"código abierto."
 
 #: ../../introduction.rst:47
 msgid "**License:**"

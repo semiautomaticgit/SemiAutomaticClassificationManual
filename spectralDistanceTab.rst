@@ -268,8 +268,6 @@ This tab allows for calculating the spectral distance between every correspondin
 The output is a raster containing the spectral distance of each pixel.
 Optionally, a threshold can be defined for creating a binary raster (0-1) of values below and above the threshold.
 
-	**Parallel processing is available.**
-	
 .. _spectral_distance_input:
 
 Spectral distance of band sets

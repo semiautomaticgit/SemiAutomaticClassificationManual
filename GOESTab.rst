@@ -266,8 +266,6 @@ GOES
 	
 This tab allows for the conversion of **GOES** images provided in netCDF4 (.nc) format inside a directory.
 
-	**Parallel processing is available.**
-	
 .. _goes_conversion:
 
 GOES conversion

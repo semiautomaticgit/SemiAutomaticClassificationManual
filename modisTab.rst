@@ -266,8 +266,6 @@ MODIS
 	
 This tab allows for the conversion of **MODIS** images to .tif format, and the reprojection to WGS 84.
 
-	**Parallel processing is available.**
-	
 Once the input is selected, available bands are listed in the metadata table.
 
 .. _modis_conversion:

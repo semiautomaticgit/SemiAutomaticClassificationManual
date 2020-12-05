@@ -266,8 +266,6 @@ Accuracy
 	
 This tab allows for the validation of a classification (read :ref:`accuracy_assessment_definition` ).
 
-	**Parallel processing is available.**
-	
 Classification is compared to a reference raster or reference vector (which is automatically converted to raster).
 If a vector is selected as reference, it is possible to choose a field describing class values.
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,29 +35,28 @@ msgid ""
 " each combination is reported in an text file."
 msgstr ""
 
-#: ../../bandCombinationTab.rst:271
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../bandCombinationTab.rst:276
+#: ../../bandCombinationTab.rst:274
 msgid "Combination of band values"
 msgstr ""
 
-#: ../../bandCombinationTab.rst:278
+#: ../../bandCombinationTab.rst:276
 msgid ""
 ":guilabel:`Select input band set (of classifications)` |input_number|: "
 "select the input :ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../bandCombinationTab.rst:280
+#: ../../bandCombinationTab.rst:278
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../bandCombinationTab.rst:281
+#: ../../bandCombinationTab.rst:279
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation; also, the details about the combinations are displayed in "
 "the tab :guilabel:`Output` and saved in a .txt file in the output "
 "directory;"
 msgstr ""
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
 

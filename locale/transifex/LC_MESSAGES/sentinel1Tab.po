@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,10 +34,6 @@ msgid ""
 msgstr ""
 
 #: ../../sentinel1Tab.rst:270
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../sentinel1Tab.rst:272
 msgid ""
 "These processes are performed through the SNAP Graph Processing Tool "
 "(GPT) and a graph file .xml . Therefore, SCP requires ESA SNAP to perform"
@@ -45,21 +41,21 @@ msgid ""
 "page http://step.esa.int/main/download/snap-download/ ."
 msgstr ""
 
-#: ../../sentinel1Tab.rst:276
+#: ../../sentinel1Tab.rst:274
 msgid ""
 "The path to the SNAP gpt executable must be entered in settings "
 ":ref:`settings_processing_tab`."
 msgstr ""
 
-#: ../../sentinel1Tab.rst:282
+#: ../../sentinel1Tab.rst:280
 msgid "Sentinel-1 conversion"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:284
+#: ../../sentinel1Tab.rst:282
 msgid ":guilabel:`Sentinel-1 file` |open_file|: open a Sentinel-1 file (.zip);"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:285
+#: ../../sentinel1Tab.rst:283
 msgid ""
 ":guilabel:`Select SNAP xml graph (optional)` |open_file| |optional|: "
 "select a custom graph file (.xml) to be used for preprocessing; "
@@ -69,30 +65,30 @@ msgid ""
 "and ``$outputVH`` if both polarizations are checked);"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:286
+#: ../../sentinel1Tab.rst:284
 msgid ""
 "Polarization |checkbox| :guilabel:`VV` |checkbox| :guilabel:`VH`: if "
 "checked, process VV and VH polarizations;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:287
+#: ../../sentinel1Tab.rst:285
 msgid ""
 "|checkbox| :guilabel:`Raster projection as Band set` |input_number|: if "
 "checked, project the raster to the same coordinate reference system as a "
 "band set (default WGS 84);"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:288
+#: ../../sentinel1Tab.rst:286
 msgid "|checkbox| :guilabel:`convert to dB`: if checked, convert values to dB;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:289
+#: ../../sentinel1Tab.rst:287
 msgid ""
 "|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
 "pixels having ``NoData`` value are not counted during conversion;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:291
+#: ../../sentinel1Tab.rst:289
 msgid ""
 "|checkbox| :guilabel:`Create Band set and use Band set tools`: if "
 "checked, bands are added to the active :guilabel:`Band set` after the "
@@ -100,17 +96,17 @@ msgid ""
 "tools checked in the :ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:292
+#: ../../sentinel1Tab.rst:290
 msgid ""
 "|checkbox| :guilabel:`Add bands in a new Band set`: if checked, bands are"
 " added to a new empty :guilabel:`Band set` after the conversion;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:297
+#: ../../sentinel1Tab.rst:295
 msgid "Metadata"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:299
+#: ../../sentinel1Tab.rst:297
 msgid ""
 "All the bands found in the :guilabel:`Directory containing Landsat bands`"
 " are listed in the table :guilabel:`Metadata`. If the Landsat metadata "
@@ -121,94 +117,97 @@ msgid ""
 "<http://landsat.usgs.gov/how_is_radiance_calculated.php>`_ ."
 msgstr ""
 
-#: ../../sentinel1Tab.rst:303
+#: ../../sentinel1Tab.rst:301
 msgid ":guilabel:`Satellite` |input_text|: satellite name (e.g. Landsat8);"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:304
+#: ../../sentinel1Tab.rst:302
 msgid ":guilabel:`Date` |input_text|: date of acquisition (e.g. 2013-04-15);"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:305
+#: ../../sentinel1Tab.rst:303
 msgid ":guilabel:`Sun elevation` |input_number|: Sun elevation in degrees;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:306
+#: ../../sentinel1Tab.rst:304
 msgid ""
 ":guilabel:`Earth sun distance` |input_number|: Earth Sun distance in "
 "astronomical units (automatically calculated if :guilabel:`Date` is "
 "filled;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:307
+#: ../../sentinel1Tab.rst:305
 msgid "|remove|: remove highlighted bands from the table :guilabel:`Metadata`;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:323
+#: ../../sentinel1Tab.rst:321
 msgid "|input_table| :guilabel:`Metadata`: table containing the following fields;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:310
+#: ../../sentinel1Tab.rst:308
 msgid ":guilabel:`Band`: band name;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:311
+#: ../../sentinel1Tab.rst:309
 msgid ":guilabel:`RADIANCE_MULT`: multiplicative rescaling factor;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:312
+#: ../../sentinel1Tab.rst:310
 msgid ":guilabel:`RADIANCE_ADD`: additive rescaling factor;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:313
+#: ../../sentinel1Tab.rst:311
 msgid ":guilabel:`REFLECTANCE_MULT`: multiplicative rescaling factor;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:314
+#: ../../sentinel1Tab.rst:312
 msgid ":guilabel:`REFLECTANCE_ADD`: additive rescaling factor;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:315
+#: ../../sentinel1Tab.rst:313
 msgid ":guilabel:`RADIANCE_MAXIMUM`: radiance maximum;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:316
+#: ../../sentinel1Tab.rst:314
 msgid ":guilabel:`REFLECTANCE_MAXIMUM`: reflectance maximum;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:317
+#: ../../sentinel1Tab.rst:315
 msgid ":guilabel:`K1_CONSTANT`: thermal conversion constant;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:318
+#: ../../sentinel1Tab.rst:316
 msgid ":guilabel:`K2_CONSTANT`: thermal conversion constant;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:319
+#: ../../sentinel1Tab.rst:317
 msgid ":guilabel:`LMAX`: spectral radiance that is scaled to QCALMAX;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:320
+#: ../../sentinel1Tab.rst:318
 msgid ":guilabel:`LMIN`: spectral radiance that is scaled to QCALMIN;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:321
+#: ../../sentinel1Tab.rst:319
 msgid ":guilabel:`QCALMAX`: minimum quantized calibrated pixel value;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:322
+#: ../../sentinel1Tab.rst:320
 msgid ":guilabel:`QCALMIN`: maximum quantized calibrated pixel value;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:325
+#: ../../sentinel1Tab.rst:323
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../sentinel1Tab.rst:326
+#: ../../sentinel1Tab.rst:324
 msgid ""
 ":guilabel:`RUN` |run|: select an output directory and start the "
 "conversion process; only bands listed in the table :guilabel:`Metadata` "
 "are converted; converted bands are saved in the output directory with the"
 " prefix ``RT_`` and automatically loaded in QGIS;"
 msgstr ""
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
 

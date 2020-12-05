@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,75 +34,71 @@ msgid ""
 msgstr ""
 
 #: ../../clusteringTab.rst:270
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../clusteringTab.rst:272
 msgid ""
 "A report .txt is saved along with the classifiction, containing the class"
 " spectral signature and the spectral distance thereof."
 msgstr ""
 
-#: ../../clusteringTab.rst:277
+#: ../../clusteringTab.rst:275
 msgid "Clustering of band set"
 msgstr ""
 
-#: ../../clusteringTab.rst:279
+#: ../../clusteringTab.rst:277
 msgid ""
 ":guilabel:`Select input band set` |input_number|: select the input "
 ":ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../clusteringTab.rst:280
+#: ../../clusteringTab.rst:278
 msgid ""
 ":guilabel:`Method` |radiobutton| :guilabel:`K-means` |radiobutton| "
 ":guilabel:`ISODATA`: select the clustering method "
 ":ref:`kmeans_definition` or :ref:`isodata_definition`;"
 msgstr ""
 
-#: ../../clusteringTab.rst:281
+#: ../../clusteringTab.rst:279
 msgid ""
 "|checkbox| :guilabel:`Distance threshold` |input_number|: if checked, for"
 " K-means: iteration is terminated if distance is lower than threshold; "
 "for ISODATA: signatures are merged if distance is greater than threshold;"
 msgstr ""
 
-#: ../../clusteringTab.rst:282
+#: ../../clusteringTab.rst:280
 msgid ""
 ":guilabel:`Number of classes` |input_number|: number of desired output "
 "classes;"
 msgstr ""
 
-#: ../../clusteringTab.rst:283
+#: ../../clusteringTab.rst:281
 msgid ""
 ":guilabel:`Max number of iterations` |input_number|: maximum number of "
 "iterations if :guilabel:`Distance threshold` is not reached;"
 msgstr ""
 
-#: ../../clusteringTab.rst:284
+#: ../../clusteringTab.rst:282
 msgid ""
 ":guilabel:`ISODATA max standard deviation` |input_number|: maximum "
 "standard deviation considered for splitting a class, for "
 ":guilabel:`ISODATA` algorithm only;"
 msgstr ""
 
-#: ../../clusteringTab.rst:285
+#: ../../clusteringTab.rst:283
 msgid ""
 ":guilabel:`ISODATA minimum class size in pixels` |input_number|: desired "
 "minimum class size in pixels, for :guilabel:`ISODATA` algorithm only;"
 msgstr ""
 
-#: ../../clusteringTab.rst:286
+#: ../../clusteringTab.rst:284
 msgid ""
 "|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
 "set the value of ``NoData`` pixels, ignored during the calculation;"
 msgstr ""
 
-#: ../../clusteringTab.rst:291
+#: ../../clusteringTab.rst:289
 msgid "Seed signatures"
 msgstr ""
 
-#: ../../clusteringTab.rst:293
+#: ../../clusteringTab.rst:291
 msgid ""
 "|radiobutton| :guilabel:`Seed signatures from band values` |radiobutton| "
 ":guilabel:`Use Signature list as seed signatures` |radiobutton| "
@@ -116,7 +112,7 @@ msgid ""
 ":ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../clusteringTab.rst:294
+#: ../../clusteringTab.rst:292
 msgid ""
 ":guilabel:`Distance algorithm` |radiobutton| :guilabel:`Minimum Distance`"
 " |radiobutton| :guilabel:`Spectral Angle Mapping`: select "
@@ -124,19 +120,22 @@ msgid ""
 ":ref:`spectra_angle_mapping_algorithm` for spectral distance calculation;"
 msgstr ""
 
-#: ../../clusteringTab.rst:295
+#: ../../clusteringTab.rst:293
 msgid ""
 "|checkbox| :guilabel:`Save resulting signatures to Signature list`: if "
 "checked, save the resulting spectral signatures in the :ref:`ROI_list`;"
 msgstr ""
 
-#: ../../clusteringTab.rst:297
+#: ../../clusteringTab.rst:295
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../clusteringTab.rst:298
+#: ../../clusteringTab.rst:296
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation;"
 msgstr ""
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
 

@@ -266,8 +266,6 @@ Classification
 	
 This tab allows for the classification of the :ref:`band_set_tab` using the spectral signatures checked in :ref:`ROI_list`.
 Several classification options are set in this tab which affect the classification process also during the :ref:`classification_preview`.
-
-	**Parallel processing is available.**
 	
 This tool allows for the use of the following algorithms: Minimum Distance, Maximum Likelihood, Spectral Angle Mapping.
 ``Random Forest`` is available in the :ref:`random_forest_tab` tab.

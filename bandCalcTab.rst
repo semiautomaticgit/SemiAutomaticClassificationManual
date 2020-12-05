@@ -267,8 +267,6 @@ Band calc
 The ``Band calc`` allows for the **raster calculation for bands** (i.e. calculation of pixel values) using `NumPy functions <https://numpy.org/doc/stable/reference/routines.math.html>`_ .
 ``Band calc`` can also work with multuple expression lines to perform multiple calculation at a time; several iteration functions are available for :guilabel:`Band sets` allowing to perform multitemporal calculations.
 
-	**Parallel processing is available.**
-
 Raster bands must be already loaded in QGIS.
 Input rasters must be in the same projection.
 
@@ -333,6 +331,10 @@ The following variables related to the :ref:`band_set_tab` are available (please
 * :guilabel:`bandset` `BANDSET_NUMBER` ``b`` `BAND_NUMBER`: bands in the :guilabel:`Band set` can be referenced directly; the following example refers to band 1 of the :guilabel:`Band set` 1::
 
 	"bandset1b1"
+	
+* :guilabel:`bandset{` `BANDSET_NUMBER_LIST` ``}b`` `BAND_NUMBER`: list of all the bands X of all the :guilabel:`Band sets` matching a list between curly brackets (e.g. {1,2,3}) or range of :guilabel:`Band sets` separated by colon (e.g. {1:3}) or a list of ranges of :guilabel:`Band sets` (e.g. {1:3, 5:8}), which is equivalent to ``[bandset1bX, bandset2bX, ..., bandsetNbX]``; this variable can be used in expressions that accept band lists such as the sum::
+
+	sum("bandset{1,3}b1")
 	
 * :guilabel:`bandset#b*`: list of all the bands of active :guilabel:`Band set`, which is equivalent to ``[bandset#b1, bandset#b2, ..., bandset#bX]``; to be used in expressions that accept band lists such as the maximum value::
 
@@ -473,20 +475,34 @@ A band list between square brackets or :ref:`input_variables` are required argum
 	
 * :guilabel:`min`: minimum; for instance::
 
-	min(["bandset#b1"])
+	min(["bandset#b*"])
 	
-* :guilabel:`mean`: mean;
-* :guilabel:`median`: median;
+* :guilabel:`mean`: mean; for instance::
+
+	mean("bandset*b1")
+	
+* :guilabel:`median`: median; for instance::
+
+	median("bandset{2019-01-01,2019-07-31}b1")
+
 * :guilabel:`percentile`: percentile calculation; the expression must have this structure ``percentile([band_list], percentile_value)``; for instance, the following expression calculates the 10th percentile of active band set::
 
 	percentile("bandset#b*", 10)
 	
-* :guilabel:`std`: standard deviation;
-* :guilabel:`sum`: sum;
+* :guilabel:`std`: standard deviation; for instance::
+
+	std("bandset{1,3}b1")
+
+* :guilabel:`sum`: sum; for instance::
+
+	sum("bandset{1:5}b1")
 
 **Operations**
 
-* :guilabel:`sin`: sine;
+* :guilabel:`sin`: sine; for instance::
+
+	sin("raster1")
+	
 * :guilabel:`cos`: cosine;
 * :guilabel:`tan`: tangent;
 * :guilabel:`asin`: inverse sine;

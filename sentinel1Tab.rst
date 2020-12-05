@@ -267,8 +267,6 @@ Sentinel-1
 This tab allows for the conversion of **Sentine-1** images, in particular :ref:`Sentinel1_definition` images (GRD) VV and VH polarizations.
 For the processing method please read :ref:`sentinel1_preprocessing_method`.
 
-	**Parallel processing is available.**
-	
 These processes are performed through the SNAP Graph Processing Tool (GPT) and a graph file .xml .
 Therefore, SCP requires ESA SNAP to perform the preprocessing.
 For the installation of ESA SNAP, please visit this page http://step.esa.int/main/download/snap-download/ .

@@ -266,8 +266,6 @@ Landsat
 	
 This tab allows for the conversion of **Landsat 1, 2, and 3 MSS** and **Landsat 4, 5, 7, and 8** images from DN (i.e. Digital Numbers) to the physical measure of Top Of Atmosphere reflectance (TOA), or the application of a simple atmospheric correction using the DOS1 method (Dark Object Subtraction 1), which is an image-based technique (for more information about the Landsat conversion to TOA and DOS1 correction, see :ref:`conversion_to_reflectance`).
 
-	**Parallel processing is available.**
-	
 Once the input is selected, available bands are listed in the metadata table.
 
 Pan-sharpening is also available; for more information read :ref:`pan_sharpening_definition`.

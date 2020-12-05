@@ -266,8 +266,6 @@ Clip multiple rasters
 
 This tab allows for cutting several image bands at once, using a rectangle defined with point coordinates or a boundary defined with a vector.
 
-	**Parallel processing is available.**
-	
 .. _clip_band_set:
 
 Clip band set

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: ../../zonalStatRasterTab.rst:5 ../../zonalStatRasterTab.rst:274
+#: ../../zonalStatRasterTab.rst:5 ../../zonalStatRasterTab.rst:272
 msgid "Zonal stat raster"
 msgstr ""
 
@@ -34,57 +34,56 @@ msgid ""
 "calculating the mean value (for each zone) of input raster pixels."
 msgstr ""
 
-#: ../../zonalStatRasterTab.rst:269
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../zonalStatRasterTab.rst:276
+#: ../../zonalStatRasterTab.rst:274
 msgid ""
 ":guilabel:`Select the input raster` |input_list|: select a raster "
 "(already loaded in QGIS);"
 msgstr ""
 
-#: ../../zonalStatRasterTab.rst:277 ../../zonalStatRasterTab.rst:280
+#: ../../zonalStatRasterTab.rst:275 ../../zonalStatRasterTab.rst:278
 msgid "|reload|: refresh layer list;"
 msgstr ""
 
-#: ../../zonalStatRasterTab.rst:278
+#: ../../zonalStatRasterTab.rst:276
 msgid ""
 "|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
 "pixels having ``NoData`` value are excluded from the calculation;"
 msgstr ""
 
-#: ../../zonalStatRasterTab.rst:279
+#: ../../zonalStatRasterTab.rst:277
 msgid ""
 ":guilabel:`Select the reference vector or raster` |input_list|: select a "
 "raster or a vector (already loaded in QGIS), used as reference layer for "
 "zones;"
 msgstr ""
 
-#: ../../zonalStatRasterTab.rst:281
+#: ../../zonalStatRasterTab.rst:279
 msgid ""
 ":guilabel:`Vector field` |input_list|: if a vector is selected as "
 "reference, select a vector field containing numeric values;"
 msgstr ""
 
-#: ../../zonalStatRasterTab.rst:286
+#: ../../zonalStatRasterTab.rst:284
 msgid "Statistic"
 msgstr ""
 
-#: ../../zonalStatRasterTab.rst:288
+#: ../../zonalStatRasterTab.rst:286
 msgid ""
 ":guilabel:`Select a statistics` |input_list|: select a statistic; "
 "available options are ``Sum``, ``Max``, ``Min``, ``Count``, ``Mean``, "
 "``Median``, ``Percentile``, ``StandardDeviation``;"
 msgstr ""
 
-#: ../../zonalStatRasterTab.rst:290
+#: ../../zonalStatRasterTab.rst:288
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../zonalStatRasterTab.rst:291
+#: ../../zonalStatRasterTab.rst:289
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation;"
 msgstr ""
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
 

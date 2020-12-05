@@ -38,6 +38,8 @@ msgid ""
 "The tab ``Land cover change`` allows for the comparison between two "
 "classifications in order to assess land cover changes."
 msgstr ""
+"La pestaña `` Cambio de cobertura del suelo '' permite la comparación entre "
+"dos clasificaciones para evaluar los cambios en la cobertura del suelo."
 
 #: ../../landCoverChangeTab.rst:269
 msgid "**Parallel processing is available.**"
@@ -52,6 +54,14 @@ msgid ""
 "containing the land cover change statistics (i.e. a file .csv separated by "
 "tab, with the same name defined for the .tif file)."
 msgstr ""
+"La salida es un `` ráster de cambio de cobertura del suelo '' (es decir, un "
+"archivo .tif que muestra los cambios en el mapa, donde cada píxel representa"
+" una categoría de comparación (es decir, combinaciones) entre las dos "
+"clasificaciones, que es el `` Código de cambio '' en las estadísticas de "
+"cambio de cobertura del suelo) y un archivo de texto que contiene las "
+"estadísticas de cambio de cobertura del suelo (es decir, un archivo .csv "
+"separado por tabulaciones, con el mismo nombre definido para el archivo "
+".tif)."
 
 #: ../../landCoverChangeTab.rst:276
 msgid "Input"

@@ -270,8 +270,6 @@ Classification is compared to a reference raster or reference vector (which is a
 This is useful for calculating the area for every combination between reference classes and classification values.
 If a vector is selected as reference, it is possible to choose a field describing class values.
 
-	**Parallel processing is available.**
-	
 The output is a ``cross raster`` that is a ``.tif`` file where pixel values represent the categories of comparison (i.e. combinations identified by the ``CrossMatrixCode``) between the classification and reference.
 Also, a text file containing the cross matrix (i.e. a ``.csv`` file separated by tab) is created with the same name defined for the ``.tif`` file.
 

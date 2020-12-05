@@ -267,8 +267,6 @@ Sentinel-3
 This tab allows for the conversion of **Sentinel-3** images (OL_1_EFR) to the physical measure of Top Of Atmosphere reflectance (TOA), or the application of a simple atmospheric correction using the DOS1 method (Dark Object Subtraction 1), which is an image-based technique (for more information about conversion to TOA and DOS1 correction, see :ref:`conversion_to_reflectance`).
 The following ancillary data are required for conversion: ``instrument_data.nc`` , ``geo_coordinates.nc`` , ``tie_geometries.nc`` .
 
-	**Parallel processing is available.**
-	
 Once the input is selected, available bands are listed in the metadata table.
 
 	**WARNING**: Sentinel-3 bands are reprojected to WGS 84 coordinate system using a sample of pixels from the file geo_coordinates.nc . For the best precision you should use the official SNAP tool (see http://step.esa.int).

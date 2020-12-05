@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: ../../reclassificationTab.rst:5 ../../reclassificationTab.rst:274
+#: ../../reclassificationTab.rst:5 ../../reclassificationTab.rst:272
 msgid "Reclassification"
 msgstr ""
 
@@ -33,49 +33,45 @@ msgid ""
 "MC ID values."
 msgstr ""
 
-#: ../../reclassificationTab.rst:269
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../reclassificationTab.rst:276
+#: ../../reclassificationTab.rst:274
 msgid ""
 ":guilabel:`Select the classification` |input_list|: select a "
 "classification raster (already loaded in QGIS);"
 msgstr ""
 
-#: ../../reclassificationTab.rst:277
+#: ../../reclassificationTab.rst:275
 msgid "|reload|: refresh layer list;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:282
+#: ../../reclassificationTab.rst:280
 msgid "Values"
 msgstr ""
 
-#: ../../reclassificationTab.rst:284
+#: ../../reclassificationTab.rst:282
 msgid ""
 "|checkbox| :guilabel:`calculate C ID to MC ID values`: if checked, the "
 "reclassification table is filled according to the :ref:`ROI_list` when "
 ":guilabel:`Calculate unique values` |enter| is clicked;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:285
+#: ../../reclassificationTab.rst:283
 msgid ""
 ":guilabel:`Calculate unique values` |enter|: calculate unique values in "
 "the classification and fill the reclassification table;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:286
+#: ../../reclassificationTab.rst:284
 msgid ""
 ":guilabel:`Incremental new values` |enter|: calculate a new incremental "
 "value (e.g. 1, 2, 3, ...) for every old value and fill the "
 "reclassification table;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:290
+#: ../../reclassificationTab.rst:288
 msgid "|input_table| :guilabel:`Values`: table containing the following fields;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:289
+#: ../../reclassificationTab.rst:287
 msgid ""
 ":guilabel:`Old value`: set the expression defining old values to be "
 "reclassified; ``Old value`` can be a value or an expressions defined "
@@ -86,45 +82,48 @@ msgid ""
 " all pixel values between 2 and 5);"
 msgstr ""
 
-#: ../../reclassificationTab.rst:290
+#: ../../reclassificationTab.rst:288
 msgid ""
 ":guilabel:`New value`: set the new value for the old values defined in "
 "``Old value``;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:292
+#: ../../reclassificationTab.rst:290
 msgid "|add|: add a row to the table;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:293
+#: ../../reclassificationTab.rst:291
 msgid "|remove|: remove highlighted rows from the table;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:298
+#: ../../reclassificationTab.rst:296
 msgid "Symbology"
 msgstr ""
 
-#: ../../reclassificationTab.rst:302
+#: ../../reclassificationTab.rst:300
 msgid ""
 "|checkbox| :guilabel:`Use code from Signature list` |input_list|: if "
 "checked, color and class information are defined from :ref:`ROI_list`:"
 msgstr ""
 
-#: ../../reclassificationTab.rst:301
+#: ../../reclassificationTab.rst:299
 msgid "``MC ID``: use the ID of macroclasses;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:302
+#: ../../reclassificationTab.rst:300
 msgid "``C ID``: use the ID of classes;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:304
+#: ../../reclassificationTab.rst:302
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:305
+#: ../../reclassificationTab.rst:303
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation; reclassified raster is loaded in QGIS;"
 msgstr ""
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
 

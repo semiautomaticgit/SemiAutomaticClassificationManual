@@ -6,6 +6,7 @@
 # 
 # Translators:
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-01 13:22+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
-"Last-Translator: Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,6 +37,8 @@ msgid ""
 "Download the latest QGIS version 32 bit from `here "
 "<https://www.qgis.org/en/site/forusers/download.html#windows>`_ ;"
 msgstr ""
+"Descargue la última versión de QGIS de 32 bits desde `aquí "
+"<https://www.qgis.org/en/site/forusers/download.html#windows>`_ ;"
 
 #: ../../installation_win32.rst:18
 msgid ""

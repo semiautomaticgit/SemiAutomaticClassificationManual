@@ -48,6 +48,9 @@ msgid ""
 "create a **backup copy** of the input raster before using this tool in order"
 " to prevent data loss."
 msgstr ""
+"** ADVERTENCIA **: el ráster de entrada se edita directamente; se recomienda"
+" crear una ** copia de seguridad ** del ráster de entrada antes de usar esta"
+" herramienta para evitar la pérdida de datos."
 
 #: ../../editRasterTab.rst:271
 msgid ""

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,10 +38,6 @@ msgid ""
 msgstr ""
 
 #: ../../sentinel2Tab.rst:270
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../sentinel2Tab.rst:272
 msgid ""
 "Once the input is selected, available bands are listed in the metadata "
 "table. Bands with 20m spatial resolution are resampled to 10m resolution "
@@ -49,18 +45,18 @@ msgid ""
 "in four 10m pixels with the same value)."
 msgstr ""
 
-#: ../../sentinel2Tab.rst:275
+#: ../../sentinel2Tab.rst:273
 msgid ""
 "**WARNING**: For the best spectral precision you should download the "
 "Sentinel-2 Level-2A Products (Surface Reflectance) or use the official "
 "SNAP tool for atmospheric correction (see http://step.esa.int)."
 msgstr ""
 
-#: ../../sentinel2Tab.rst:280
+#: ../../sentinel2Tab.rst:278
 msgid "Sentinel-2 conversion"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:282
+#: ../../sentinel2Tab.rst:280
 msgid ""
 ":guilabel:`Directory containing Sentinel-2 bands` |open_dir|: open a "
 "directory containing Sentinel-2 bands; names of Sentinel-2 bands must end"
@@ -68,20 +64,20 @@ msgid ""
 "directory then :ref:`sentinel2_metadata` are automatically filled;"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:283
+#: ../../sentinel2Tab.rst:281
 msgid ""
 ":guilabel:`Select metadata file` |open_file| |optional|: select the "
 "metadata file which is a .xml file whose name contains ``MTD_MSIL1C``); "
 "this is optional and can be generally ignored;"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:284
+#: ../../sentinel2Tab.rst:282
 msgid ""
 "|checkbox| :guilabel:`Apply DOS1 atmospheric correction`: if checked, the"
 " :ref:`DOS1_correction` is applied to all the bands;"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:285
+#: ../../sentinel2Tab.rst:283
 msgid ""
 "|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
 "pixels having ``NoData`` value are not counted during conversion and the "
@@ -89,13 +85,13 @@ msgid ""
 "(usually pixel value = 0);"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:286
+#: ../../sentinel2Tab.rst:284
 msgid ""
 "|checkbox| :guilabel:`Preprocess bands 1, 9, 10`: if checked, preprocess "
 "also bands 1, 9, 10 (i.e. 60m bands);"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:287
+#: ../../sentinel2Tab.rst:285
 msgid ""
 "|checkbox| :guilabel:`Create Band set and use Band set tools`: if "
 "checked, bands are added to the active :guilabel:`Band set` after the "
@@ -103,24 +99,24 @@ msgid ""
 "tools checked in the :ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:288
+#: ../../sentinel2Tab.rst:286
 msgid ""
 "|checkbox| :guilabel:`Add bands in a new Band set`: if checked, bands are"
 " added to a new empty :guilabel:`Band set` after the conversion;"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:290
+#: ../../sentinel2Tab.rst:288
 msgid ""
 "**TIP**: in order to convert L2A images you should move all the .jp2 "
 "files inside the same directory and rename the files with the band number"
 " in the ending of the name (e.g. from name_02_10m.jp2 to name_02.jp2)."
 msgstr ""
 
-#: ../../sentinel2Tab.rst:295
+#: ../../sentinel2Tab.rst:293
 msgid "Metadata"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:297
+#: ../../sentinel2Tab.rst:295
 msgid ""
 "All the bands found in the :guilabel:`Directory containing Sentinel-2 "
 "bands` are listed in the table :guilabel:`Metadata`. If the Sentinel-2 "
@@ -131,39 +127,42 @@ msgid ""
 "formats>`_ ."
 msgstr ""
 
-#: ../../sentinel2Tab.rst:301
+#: ../../sentinel2Tab.rst:299
 msgid ":guilabel:`Satellite` |input_text|: satellite name (e.g. Sentinel-2A);"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:302
+#: ../../sentinel2Tab.rst:300
 msgid "|remove|: remove highlighted bands from the table :guilabel:`Metadata`;"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:307
+#: ../../sentinel2Tab.rst:305
 msgid "|input_table| :guilabel:`Metadata`: table containing the following fields;"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:305
+#: ../../sentinel2Tab.rst:303
 msgid ":guilabel:`Band`: band name;"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:306
+#: ../../sentinel2Tab.rst:304
 msgid ":guilabel:`Quantification value`: value for conversion to TOA reflectance;"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:307
+#: ../../sentinel2Tab.rst:305
 msgid ":guilabel:`Solar irradiance`: solar irradiance of band;"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:309
+#: ../../sentinel2Tab.rst:307
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../sentinel2Tab.rst:310
+#: ../../sentinel2Tab.rst:308
 msgid ""
 ":guilabel:`RUN` |run|: select an output directory and start the "
 "conversion process; only bands listed in the table :guilabel:`Metadata` "
 "are converted; converted bands are saved in the output directory with the"
 " prefix ``RT_`` and automatically loaded in QGIS;"
 msgstr ""
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
 

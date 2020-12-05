@@ -265,8 +265,6 @@ Classification to vector
 	
 This tab allows for the conversion of a classification raster to vector shapefile.
 
-	**Parallel processing is available.**
-	
 .. _classification_to_vector:
 
 Classification to vector

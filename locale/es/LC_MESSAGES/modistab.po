@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -42,10 +42,6 @@ msgstr ""
 "la reproyección a WGS 84."
 
 #: ../../modisTab.rst:269
-msgid "**Parallel processing is available.**"
-msgstr "** El procesamiento en paralelo está disponible. **"
-
-#: ../../modisTab.rst:271
 msgid ""
 "Once the input is selected, available bands are listed in the metadata "
 "table."
@@ -53,18 +49,18 @@ msgstr ""
 "Cuando el directorio de entrada se selecciona, las bandas disponibles se "
 "listan en la tabla de Metadatos"
 
-#: ../../modisTab.rst:276
+#: ../../modisTab.rst:274
 msgid "MODIS conversion"
 msgstr "Conversión de MODIS"
 
-#: ../../modisTab.rst:278
+#: ../../modisTab.rst:276
 msgid ""
 ":guilabel:`Select file MODIS` |open_file|: select a MODIS image (file .hdf);"
 msgstr ""
 ": guilabel: `Seleccionar archivo MODIS` | abrir_archivo |: seleccionar una "
 "imagen MODIS (archivo .hdf);"
 
-#: ../../modisTab.rst:279
+#: ../../modisTab.rst:277
 msgid ""
 "|checkbox| :guilabel:`Reproject to WGS 84`: if checked, reproject bands to "
 "WGS 84, required for use in :guilabel:`SCP`;"
@@ -73,7 +69,7 @@ msgstr ""
 "marcado, reproyecte las bandas a WGS 84, requerido para su uso en: "
 "guilabel:` SCP`;"
 
-#: ../../modisTab.rst:280
+#: ../../modisTab.rst:278
 msgid ""
 "|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
 "pixels having ``NoData`` value are not counted during conversion and the "
@@ -81,7 +77,7 @@ msgid ""
 "(usually pixel value = -999);"
 msgstr ""
 
-#: ../../modisTab.rst:281
+#: ../../modisTab.rst:279
 msgid ""
 "|checkbox| :guilabel:`Create Band set and use Band set tools`: if checked, "
 "bands are added to the active :guilabel:`Band set` after the conversion; "
@@ -92,7 +88,7 @@ msgstr ""
 "conjunto de bandas`: si está marcado, las bandas se agregan al activo: "
 "guilabel:` Conjunto de bandas` después de la conversión;"
 
-#: ../../modisTab.rst:282
+#: ../../modisTab.rst:280
 msgid ""
 "|checkbox| :guilabel:`Add bands in a new Band set`: if checked, bands are "
 "added to a new empty :guilabel:`Band set` after the conversion;"
@@ -101,11 +97,11 @@ msgstr ""
 "está marcado, las bandas se agregan a uno nuevo vacío: guilabel:` Grupo de "
 "bandas` después de la conversión;"
 
-#: ../../modisTab.rst:287
+#: ../../modisTab.rst:285
 msgid "Metadata"
 msgstr "Metadatos"
 
-#: ../../modisTab.rst:289
+#: ../../modisTab.rst:287
 msgid ""
 "All the bands found in the :guilabel:`Select file MODIS` are listed in the "
 "table :guilabel:`Metadata`. For information about :guilabel:`Metadata` "
@@ -117,43 +113,43 @@ msgstr ""
 "sobre: ​​guilabel: los campos `Metadata` visite` la página  de MODIS "
 "<https://lpdaac.usgs.gov/dataset_discovery/modis>`_ ."
 
-#: ../../modisTab.rst:292
+#: ../../modisTab.rst:290
 msgid ":guilabel:`ID` |input_text|: ID of the image;"
 msgstr ": guilabel: `ID` | input_text |: ID de la imagen;"
 
-#: ../../modisTab.rst:293
+#: ../../modisTab.rst:291
 msgid ":guilabel:`Date` |input_text|: date of acquisition (e.g. 2013-04-15);"
 msgstr ""
 
-#: ../../modisTab.rst:294
+#: ../../modisTab.rst:292
 msgid ""
 "|remove|: remove highlighted bands from the table :guilabel:`Metadata`;"
 msgstr ""
 "|remove|: elimina las bandas seleccionadas de la tabla "
 ":guilabel:`Metadatos`;"
 
-#: ../../modisTab.rst:299
+#: ../../modisTab.rst:297
 msgid ""
 "|input_table| :guilabel:`Metadata`: table containing the following fields;"
 msgstr ""
 "|input_table| :guilabel:`Metadatos`: tabla conteniendo los siguientes "
 "campos;"
 
-#: ../../modisTab.rst:297
+#: ../../modisTab.rst:295
 msgid ":guilabel:`Band`: band name;"
 msgstr ":guilabel:`Band`: nombre de banda;"
 
-#: ../../modisTab.rst:298
+#: ../../modisTab.rst:296
 msgid ":guilabel:`UnitConversionCoeff`: value for conversion;"
 msgstr ": guilabel: `UnitConversionCoeff`: valor para la conversión;"
 
-#: ../../modisTab.rst:301
+#: ../../modisTab.rst:299
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 ": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
-#: ../../modisTab.rst:302
+#: ../../modisTab.rst:300
 msgid ""
 ":guilabel:`RUN` |run|: select an output directory and start the conversion "
 "process; only bands listed in the table :guilabel:`Metadata` are converted; "
@@ -165,3 +161,6 @@ msgstr ""
 " convierten los 'Metadatos'; las bandas convertidas se guardan en el "
 "directorio de salida con el prefijo `` RT_`` y se cargan automáticamente en "
 "QGIS;"
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr "** El procesamiento en paralelo está disponible. **"

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -42,10 +42,6 @@ msgstr ""
 "dos clasificaciones para evaluar los cambios en la cobertura del suelo."
 
 #: ../../landCoverChangeTab.rst:269
-msgid "**Parallel processing is available.**"
-msgstr "** El procesamiento en paralelo está disponible. **"
-
-#: ../../landCoverChangeTab.rst:271
 msgid ""
 "Output is a ``land cover change raster`` (i.e. a file .tif showing the "
 "changes in the map, where each pixel represents a category of comparison "
@@ -63,11 +59,11 @@ msgstr ""
 "separado por tabulaciones, con el mismo nombre definido para el archivo "
 ".tif)."
 
-#: ../../landCoverChangeTab.rst:276
+#: ../../landCoverChangeTab.rst:274
 msgid "Input"
 msgstr "Entrada"
 
-#: ../../landCoverChangeTab.rst:278
+#: ../../landCoverChangeTab.rst:276
 msgid ""
 ":guilabel:`Select the reference classification` |input_list|: select a "
 "reference classification raster (already loaded in QGIS);"
@@ -75,11 +71,11 @@ msgstr ""
 ":guilabel:`Selecciona la clasificación de referencia` |input_list|: "
 "selecciona una clasificación ráster de referencia (ya cargado en QGIS);"
 
-#: ../../landCoverChangeTab.rst:279 ../../landCoverChangeTab.rst:281
+#: ../../landCoverChangeTab.rst:277 ../../landCoverChangeTab.rst:279
 msgid "|reload|: refresh layer list;"
 msgstr "|reload|: recargar la lista de capas;"
 
-#: ../../landCoverChangeTab.rst:280
+#: ../../landCoverChangeTab.rst:278
 msgid ""
 ":guilabel:`Select the new classification` |input_list|: select a new "
 "classification raster (already loaded in QGIS), to be compared with the "
@@ -89,7 +85,7 @@ msgstr ""
 "nueva clasificación ráster (ya cargada en QGIS), para ser comparada con la "
 "clasificación de referencia;"
 
-#: ../../landCoverChangeTab.rst:282
+#: ../../landCoverChangeTab.rst:280
 msgid ""
 "|checkbox| :guilabel:`Report unchanged pixels`: if checked, report also "
 "unchanged pixels (having the same value in both classifications);"
@@ -98,13 +94,13 @@ msgstr ""
 "reporta también los pixeles sin cambios (que tienen el mismo valor en ambas "
 "clasificaciones);"
 
-#: ../../landCoverChangeTab.rst:286
+#: ../../landCoverChangeTab.rst:284
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 ": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
-#: ../../landCoverChangeTab.rst:287
+#: ../../landCoverChangeTab.rst:285
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation; the land cover change statistics are displayed in the tab "
@@ -115,3 +111,6 @@ msgstr ""
 " estadísticas de cambio de la cobertura del suelo se muestran en la pestaña:"
 " guilabel:`Salida` (y guardado en un archivo de texto) y el ``raster de "
 "cambio de Cobertura del suelo`` es cargado en QGIS;"
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr "** El procesamiento en paralelo está disponible. **"

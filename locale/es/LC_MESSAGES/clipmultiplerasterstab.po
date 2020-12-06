@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -42,15 +42,11 @@ msgstr ""
 " un rectángulo definido con coordenadas de puntos o un límite definido con "
 "un vector."
 
-#: ../../clipMultipleRastersTab.rst:269
-msgid "**Parallel processing is available.**"
-msgstr "** El procesamiento en paralelo está disponible. **"
-
-#: ../../clipMultipleRastersTab.rst:274
+#: ../../clipMultipleRastersTab.rst:272
 msgid "Clip band set"
 msgstr "Cortar conjunto de bandas"
 
-#: ../../clipMultipleRastersTab.rst:276
+#: ../../clipMultipleRastersTab.rst:274
 msgid ""
 ":guilabel:`Select input band set` |input_number|: select the input "
 ":ref:`band_set_tab` to be clipped;"
@@ -58,7 +54,7 @@ msgstr ""
 ": guilabel: `Seleccionar conjunto de bandas de entrada` | número_entrada |: "
 "seleccionar la entrada: ref:` band_set_tab` a recortar;"
 
-#: ../../clipMultipleRastersTab.rst:277
+#: ../../clipMultipleRastersTab.rst:275
 msgid ""
 "|checkbox| :guilabel:`Use value as NoData` |input_number|: if checked, set "
 "the value for ``NoData`` pixels (e.g. pixels outside the clipped area);"
@@ -67,7 +63,7 @@ msgstr ""
 "marcado, establezca el valor para los píxeles` `NoData '' (por ejemplo, "
 "píxeles fuera del área recortada);"
 
-#: ../../clipMultipleRastersTab.rst:278
+#: ../../clipMultipleRastersTab.rst:276
 msgid ""
 ":guilabel:`Output name prefix` |input_text|: set the prefix for output file "
 "names (default is ``clip``);"
@@ -75,11 +71,11 @@ msgstr ""
 ":guilabel:`Prefijo para nombre de salida` |input_text|: establece el prefijo"
 " para los nombres de los archivos de salida (por defecto es ``clip``);"
 
-#: ../../clipMultipleRastersTab.rst:283
+#: ../../clipMultipleRastersTab.rst:281
 msgid "Clip coordinates"
 msgstr "Coordenadas de corte"
 
-#: ../../clipMultipleRastersTab.rst:285
+#: ../../clipMultipleRastersTab.rst:283
 msgid ""
 "Set the Upper Left (UL) and Lower Right (LR) point coordinates of the "
 "rectangle used for clipping; it is possible to enter the coordinates "
@@ -89,30 +85,30 @@ msgstr ""
 "derecho (ID) del rectángulo utilizado para el recorte; Es posible ingresar "
 "las coordenadas manualmente. Alternativamente, use un vector."
 
-#: ../../clipMultipleRastersTab.rst:288
+#: ../../clipMultipleRastersTab.rst:286
 msgid ":guilabel:`UL X` |input_number|: set the UL X coordinate;"
 msgstr ":guilabel:`UL X` |input_number|: establecer la coordenada UL X;"
 
-#: ../../clipMultipleRastersTab.rst:289
+#: ../../clipMultipleRastersTab.rst:287
 msgid ":guilabel:`UL Y` |input_number|: set the UL Y coordinate;"
 msgstr ":guilabel:`UL Y` |input_number|: establecer la coordenada UL Y;"
 
-#: ../../clipMultipleRastersTab.rst:290
+#: ../../clipMultipleRastersTab.rst:288
 msgid ":guilabel:`LR X` |input_number|: set the LR X coordinate;"
 msgstr ":guilabel:`LR X` |input_number|: establecer la coordenada LR X;"
 
-#: ../../clipMultipleRastersTab.rst:291
+#: ../../clipMultipleRastersTab.rst:289
 msgid ":guilabel:`LR Y` |input_number|: set the LR Y coordinate;"
 msgstr ":guilabel:`LR Y` |input_number|: establecer la coordenada LR Y;"
 
-#: ../../clipMultipleRastersTab.rst:292
+#: ../../clipMultipleRastersTab.rst:290
 msgid ""
 "|radiobutton| :guilabel:`Show`: show or hide the clip area drawn in the map;"
 msgstr ""
 "|radiobutton| :guilabel:`Mostrar`: muestra u oculta el área de corte "
 "dibujada en el mapa;"
 
-#: ../../clipMultipleRastersTab.rst:293
+#: ../../clipMultipleRastersTab.rst:291
 msgid ""
 "|pointer|: define a clip area by drawing a rectangle in the map; left click "
 "to set the UL point and right click to set the LR point; the area is "
@@ -122,7 +118,7 @@ msgstr ""
 "izquierdo para establecer el punto UL y clic derecho para establecer el "
 "punto LR; el área es mostrada en el mapa;"
 
-#: ../../clipMultipleRastersTab.rst:294
+#: ../../clipMultipleRastersTab.rst:292
 msgid ""
 "|checkbox| :guilabel:`Use vector for clipping` |input_list|: if checked, use"
 " the selected vector (already loaded in QGIS) for clipping; UL and LR "
@@ -132,7 +128,7 @@ msgstr ""
 "input_list |: si está marcado, use el vector seleccionado (ya cargado en "
 "QGIS) para el recorte; Las coordenadas SI y ID se ignoran;"
 
-#: ../../clipMultipleRastersTab.rst:295
+#: ../../clipMultipleRastersTab.rst:293
 msgid ""
 "|checkbox| :guilabel:`Use vector field for output name` |input_list|: if "
 "checked, a vector field is selected for clipping while iterating through "
@@ -144,7 +140,7 @@ msgstr ""
 "para recortar mientras itera a través de cada polígono de vector y el valor "
 "del campo correspondiente se agrega al nombre de salida;"
 
-#: ../../clipMultipleRastersTab.rst:296
+#: ../../clipMultipleRastersTab.rst:294
 msgid ""
 "|checkbox| :guilabel:`Use temporary ROI for clipping`: if checked, use a "
 ":ref:`temporary_ROI` for clipping; UL and LR coordinates are ignored;"
@@ -153,20 +149,23 @@ msgstr ""
 "use a: ref:` temporary_ROI` para el recorte; Se ignoran las coordenadas UL y"
 " LR"
 
-#: ../../clipMultipleRastersTab.rst:297
+#: ../../clipMultipleRastersTab.rst:295
 msgid "|reload|: refresh layer list;"
 msgstr "|reload|: recargar la lista de capas;"
 
-#: ../../clipMultipleRastersTab.rst:300
+#: ../../clipMultipleRastersTab.rst:298
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 ": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
-#: ../../clipMultipleRastersTab.rst:301
+#: ../../clipMultipleRastersTab.rst:299
 msgid ""
 ":guilabel:`RUN` |run|: choose an output destination and clip rasters in the "
 "selected ``Band set``;"
 msgstr ""
 ": guilabel: `RUN` | run |: elige un destino de salida y recorte los rásteres"
 "  del `Conjunto de bandas '' seleccionado;"
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr "** El procesamiento en paralelo está disponible. **"

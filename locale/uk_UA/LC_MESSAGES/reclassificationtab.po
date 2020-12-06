@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2020\n"
 "Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Language: uk_UA\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
-#: ../../reclassificationTab.rst:5 ../../reclassificationTab.rst:274
+#: ../../reclassificationTab.rst:5 ../../reclassificationTab.rst:272
 msgid "Reclassification"
 msgstr "Перекласифікація"
 
@@ -40,11 +40,7 @@ msgstr ""
 "Ця вкладка забезпечує перекласифікацію (тобто призначення пікселям нового "
 "кода класу). Зокрема, вона спрощує перетворення значень з C ID до MC ID."
 
-#: ../../reclassificationTab.rst:269
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../reclassificationTab.rst:276
+#: ../../reclassificationTab.rst:274
 msgid ""
 ":guilabel:`Select the classification` |input_list|: select a classification "
 "raster (already loaded in QGIS);"
@@ -52,15 +48,15 @@ msgstr ""
 ":guilabel:`Вибрати класифікацію` |input_list|: вибрати растр класифікації "
 "(попередньо завантажений до QGIS);"
 
-#: ../../reclassificationTab.rst:277
+#: ../../reclassificationTab.rst:275
 msgid "|reload|: refresh layer list;"
 msgstr "|reload|: оновити перелік шарів;"
 
-#: ../../reclassificationTab.rst:282
+#: ../../reclassificationTab.rst:280
 msgid "Values"
 msgstr "Значення"
 
-#: ../../reclassificationTab.rst:284
+#: ../../reclassificationTab.rst:282
 msgid ""
 "|checkbox| :guilabel:`calculate C ID to MC ID values`: if checked, the "
 "reclassification table is filled according to the :ref:`ROI_list` when "
@@ -71,7 +67,7 @@ msgstr ""
 ":ref:`ROI_list`, коли клацнути  :guilabel:`Розрахувати унікальні значення` "
 "|enter|;"
 
-#: ../../reclassificationTab.rst:285
+#: ../../reclassificationTab.rst:283
 msgid ""
 ":guilabel:`Calculate unique values` |enter|: calculate unique values in the "
 "classification and fill the reclassification table;"
@@ -79,19 +75,19 @@ msgstr ""
 ":guilabel:`Розрахувати унікальні значення` |enter|: розрахувати унікальні "
 "значення в класифікації та заповнити таблицю перекласифікації;"
 
-#: ../../reclassificationTab.rst:286
+#: ../../reclassificationTab.rst:284
 msgid ""
 ":guilabel:`Incremental new values` |enter|: calculate a new incremental "
 "value (e.g. 1, 2, 3, ...) for every old value and fill the reclassification "
 "table;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:290
+#: ../../reclassificationTab.rst:288
 msgid ""
 "|input_table| :guilabel:`Values`: table containing the following fields;"
 msgstr "|input_table| :guilabel:`Значення`: таблиця містить наступні поля;"
 
-#: ../../reclassificationTab.rst:289
+#: ../../reclassificationTab.rst:287
 msgid ""
 ":guilabel:`Old value`: set the expression defining old values to be "
 "reclassified; ``Old value`` can be a value or an expressions defined using "
@@ -110,7 +106,7 @@ msgstr ""
 "мають значення > 5 або < 2 ; ``raster >= 2 & raster <= 5`` вибере всі "
 "пікселі з значеннями між 2 та 5);"
 
-#: ../../reclassificationTab.rst:290
+#: ../../reclassificationTab.rst:288
 msgid ""
 ":guilabel:`New value`: set the new value for the old values defined in ``Old"
 " value``;"
@@ -118,19 +114,19 @@ msgstr ""
 ":guilabel:`Нове значення`: призначити нове значення для старих значень, що "
 "визначені у ``Старе значення``;"
 
-#: ../../reclassificationTab.rst:292
+#: ../../reclassificationTab.rst:290
 msgid "|add|: add a row to the table;"
 msgstr "|add|: додати рядок до таблиці;"
 
-#: ../../reclassificationTab.rst:293
+#: ../../reclassificationTab.rst:291
 msgid "|remove|: remove highlighted rows from the table;"
 msgstr "|remove|: видалити виділені рядки з таблиці;"
 
-#: ../../reclassificationTab.rst:298
+#: ../../reclassificationTab.rst:296
 msgid "Symbology"
 msgstr "Символіка"
 
-#: ../../reclassificationTab.rst:302
+#: ../../reclassificationTab.rst:300
 msgid ""
 "|checkbox| :guilabel:`Use code from Signature list` |input_list|: if "
 "checked, color and class information are defined from :ref:`ROI_list`:"
@@ -139,21 +135,24 @@ msgstr ""
 "якщо опцію увімкнено, то колір та інформація про клас визначається з "
 ":ref:`ROI_list`:"
 
-#: ../../reclassificationTab.rst:301
+#: ../../reclassificationTab.rst:299
 msgid "``MC ID``: use the ID of macroclasses;"
 msgstr "``MC ID``: застосувати унікальні ідентифікатори макрокласів;"
 
-#: ../../reclassificationTab.rst:302
+#: ../../reclassificationTab.rst:300
 msgid "``C ID``: use the ID of classes;"
 msgstr "``C ID``: застосувати унікальні ідентифікатори класів;"
 
-#: ../../reclassificationTab.rst:304
+#: ../../reclassificationTab.rst:302
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../reclassificationTab.rst:305
+#: ../../reclassificationTab.rst:303
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation; reclassified raster is loaded in QGIS;"
 msgstr ""
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr ""

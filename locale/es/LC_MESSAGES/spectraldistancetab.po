@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -40,15 +40,11 @@ msgid ""
 "threshold."
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:271
-msgid "**Parallel processing is available.**"
-msgstr "** El procesamiento en paralelo está disponible. **"
-
-#: ../../spectralDistanceTab.rst:276
+#: ../../spectralDistanceTab.rst:274
 msgid "Spectral distance of band sets"
 msgstr "Distancia espectral de conjuntos de bandas"
 
-#: ../../spectralDistanceTab.rst:278
+#: ../../spectralDistanceTab.rst:276
 msgid ""
 ":guilabel:`Select first input band set` |input_number|: select the first "
 "input :ref:`band_set_tab`;"
@@ -56,7 +52,7 @@ msgstr ""
 ":guilabel:``Seleccione el primer conjunto de bandas de entrada`` "
 "|input_number|: seleccione la primera entrada :ref:`band_set_tab`;"
 
-#: ../../spectralDistanceTab.rst:279
+#: ../../spectralDistanceTab.rst:277
 msgid ""
 ":guilabel:`Select second input band set` |input_number|: select the second "
 "input :ref:`band_set_tab`;"
@@ -64,7 +60,7 @@ msgstr ""
 ":guilabel:`Seleccione el segundo conjunto de bandas de entrada`  "
 "|input_number|: seleccione la segunda entrada:ref:`band_set_tab`;"
 
-#: ../../spectralDistanceTab.rst:280
+#: ../../spectralDistanceTab.rst:278
 msgid ""
 ":guilabel:`Distance algorithm` |radiobutton| :guilabel:`Minimum Distance` "
 "|radiobutton| :guilabel:`Spectral Angle Mapping`: select "
@@ -76,7 +72,7 @@ msgstr ""
 ":ref:`minimum_distance_algorithm` o * :ref:`spectra_angle_mapping_algorithm`"
 " para cálculo de distancia espectral;"
 
-#: ../../spectralDistanceTab.rst:281
+#: ../../spectralDistanceTab.rst:279
 msgid ""
 "|checkbox| :guilabel:`Distance threshold` |input_number|: if checked, a "
 "binary raster of values below and above the threshold is created;"
@@ -84,15 +80,18 @@ msgstr ""
 "|checkbox| :guilabel: `Umbral de distancia` |input_number|: si está marcado,"
 " se crea un ráster binario de valores por debajo y por encima del umbral;"
 
-#: ../../spectralDistanceTab.rst:283
+#: ../../spectralDistanceTab.rst:281
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 ": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
-#: ../../spectralDistanceTab.rst:284
+#: ../../spectralDistanceTab.rst:282
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation;"
 msgstr ""
 ":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo;"
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr "** El procesamiento en paralelo está disponible. **"

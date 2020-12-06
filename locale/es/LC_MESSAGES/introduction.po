@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: 2016-08-29 15:42+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -38,18 +38,10 @@ msgid ""
 "classification (also known as supervised classification) of remote sensing "
 "images. It provides several tools for the download of free images, the "
 "preprocessing, the postprocessing, and the raster calculation (please see "
-":ref:`other_0`)."
+":ref:`other_0`). All the main tools are designed for parallel processing."
 msgstr ""
-"Desarrollado por `Luca Congedo "
-"<http://www.researchgate.net/profile/Luca_Congedo>`_, **Semi-Automatic "
-"Classification Plugin** (:guilabel:`SCP`) es un complemento de código "
-"abierto gratuito para `QGIS <http://www.qgis.org>`_ que permite la "
-"clasificación semi-automática (también conocida como clasificación "
-"supervisada) de imágenes de sensores remotos. Proporciona muchas "
-"herramientas para la descarga de imágenes gratuitas, el preprocesamiento, el"
-" postprocesamiento y la calculadora ráster (por favor mira :ref:`other_0`)."
 
-#: ../../introduction.rst:17
+#: ../../introduction.rst:18
 msgid ""
 "The **overall objective** of :guilabel:`SCP` is to provide a set of "
 "intertwined tools for raster processing in order to make an automatic "
@@ -62,7 +54,7 @@ msgstr ""
 "cobertura del suelo, que también podrían realizar las personas cuyo campo "
 "principal  no es  la teledetección."
 
-#: ../../introduction.rst:19
+#: ../../introduction.rst:20
 msgid ""
 "This **user manual** provides information about the :ref:`installation` of "
 "SPC and the :ref:`interface`, with detailed information about all the "
@@ -75,7 +67,7 @@ msgstr ""
 "conceptos básicos y definiciones que son requeridos para usar "
 ":guilabel:`SCP`."
 
-#: ../../introduction.rst:22
+#: ../../introduction.rst:23
 msgid ""
 ":ref:`tutorials` are available for learning the main functions of "
 ":guilabel:`SCP`."
@@ -83,7 +75,7 @@ msgstr ""
 ":ref:`tutorials` están disponibles para aprender las funciones principales "
 "de :guilabel:`SCP`."
 
-#: ../../introduction.rst:24
+#: ../../introduction.rst:25
 msgid ""
 "You are kindly invited to **contribute to SCP** (see :ref:`other_1`) and "
 "join the `Facebook group "
@@ -95,28 +87,28 @@ msgstr ""
 "<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ . "
 "Tambien por favor lea la, :ref:`FAQ`."
 
-#: ../../introduction.rst:27
+#: ../../introduction.rst:28
 msgid "For more information and tutorials visit the official site"
 msgstr "Para mayor información y tutoriales visita el sitio oficial"
 
-#: ../../introduction.rst:29
+#: ../../introduction.rst:30
 msgid ""
 "|fromGIStoRS| `From GIS to Remote Sensing "
 "<https://fromgistors.blogspot.com>`_"
 msgstr ""
 "|fromGIStoRS| `De SIG a teledetección` <https://fromgistors.blogspot.com>`_"
 
-#: ../../introduction.rst:31 ../../introduction.rst:37
-#: ../../introduction.rst:45 ../../introduction.rst:56
-#: ../../introduction.rst:62
+#: ../../introduction.rst:32 ../../introduction.rst:38
+#: ../../introduction.rst:46 ../../introduction.rst:57
+#: ../../introduction.rst:63
 msgid "|br|"
 msgstr "|br|"
 
-#: ../../introduction.rst:33
+#: ../../introduction.rst:34
 msgid "**How to cite:**"
 msgstr "**Cómo citar**"
 
-#: ../../introduction.rst:35
+#: ../../introduction.rst:36
 msgid ""
 "*Congedo Luca (2020). Semi-Automatic Classification Plugin Documentation.* "
 "DOI: http://dx.doi.org/10.13140/RG.2.2.25480.65286/1"
@@ -124,11 +116,11 @@ msgstr ""
 "*Congedo Luca (2020). Semi-Automatic Classification Plugin Documentation.* "
 "DOI: http://dx.doi.org/10.13140/RG.2.2.25480.65286/1"
 
-#: ../../introduction.rst:39
+#: ../../introduction.rst:40
 msgid "**Brief history:**"
 msgstr "**Breve historia::**"
 
-#: ../../introduction.rst:41
+#: ../../introduction.rst:42
 msgid ""
 "The first version of the :guilabel:`SCP` was developed by Luca Congedo in "
 "2012 for the \"ACC Dar Project\" in order to create a tool for the "
@@ -150,11 +142,11 @@ msgstr ""
 "como compromiso personal con el campo de la teledetección y la filosofía de "
 "código abierto."
 
-#: ../../introduction.rst:47
+#: ../../introduction.rst:48
 msgid "**License:**"
 msgstr "**Licencia:**"
 
-#: ../../introduction.rst:49
+#: ../../introduction.rst:50
 msgid ""
 "Except where otherwise noted, content of this work is licensed under a "
 "`Creative Commons Attribution-ShareAlike 4.0 International License "
@@ -164,7 +156,7 @@ msgstr ""
 " licencia de tipo `Creative Commons Attribution-ShareAlike 4.0 International"
 " License <http://creativecommons.org/licenses/by-sa/4.0/>`_."
 
-#: ../../introduction.rst:52
+#: ../../introduction.rst:53
 msgid ""
 "``Semi-Automatic Classification Plugin is free software: you can "
 "redistribute it and/or modify it under the terms of the GNU General Public "
@@ -186,10 +178,29 @@ msgstr ""
 "recibido una copia de la GNU General Public License junto con Semi-Automatic"
 " Classification Plugin. Si no es así, mira http://www.gnu.org/licenses/.``"
 
-#: ../../introduction.rst:58
+#: ../../introduction.rst:59
 msgid "**Translators:**"
 msgstr "**Traductores:**"
 
-#: ../../introduction.rst:60
+#: ../../introduction.rst:61
 msgid "Language: Author"
 msgstr "Español: Igor Francisco Dávalos Rojas, Imanol Uriarte Latorre"
+
+#~ msgid ""
+#~ "Developed by `Luca Congedo "
+#~ "<http://www.researchgate.net/profile/Luca_Congedo>`_, the **Semi-Automatic "
+#~ "Classification Plugin** (:guilabel:`SCP`) is a free open source plugin for "
+#~ "`QGIS <http://www.qgis.org>`_ that allows for the semi-automatic "
+#~ "classification (also known as supervised classification) of remote sensing "
+#~ "images. It provides several tools for the download of free images, the "
+#~ "preprocessing, the postprocessing, and the raster calculation (please see "
+#~ ":ref:`other_0`)."
+#~ msgstr ""
+#~ "Desarrollado por `Luca Congedo "
+#~ "<http://www.researchgate.net/profile/Luca_Congedo>`_, **Semi-Automatic "
+#~ "Classification Plugin** (:guilabel:`SCP`) es un complemento de código "
+#~ "abierto gratuito para `QGIS <http://www.qgis.org>`_ que permite la "
+#~ "clasificación semi-automática (también conocida como clasificación "
+#~ "supervisada) de imágenes de sensores remotos. Proporciona muchas "
+#~ "herramientas para la descarga de imágenes gratuitas, el preprocesamiento, el"
+#~ " postprocesamiento y la calculadora ráster (por favor mira :ref:`other_0`)."

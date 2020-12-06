@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../classificationTab.rst:5 ../../classificationTab.rst:278
+#: ../../classificationTab.rst:5 ../../classificationTab.rst:276
 msgid "Classification"
 msgstr "Classificación"
 
@@ -47,10 +47,6 @@ msgstr ""
 "clasificación también durante la: ref: `class_preview`."
 
 #: ../../classificationTab.rst:270
-msgid "**Parallel processing is available.**"
-msgstr "** El procesamiento en paralelo está disponible. **"
-
-#: ../../classificationTab.rst:272
 msgid ""
 "This tool allows for the use of the following algorithms: Minimum Distance, "
 "Maximum Likelihood, Spectral Angle Mapping. ``Random Forest`` is available "
@@ -60,7 +56,7 @@ msgstr ""
 "mínima, Probabilidad máxima, Mapeo de Ángulo Espectral. `` Random Forest`` "
 "está disponible en la pestaña: ref: `random_forest_tab`."
 
-#: ../../classificationTab.rst:280
+#: ../../classificationTab.rst:278
 msgid ""
 ":guilabel:`Select input band set` |input_number|: select the input "
 ":ref:`band_set_tab` to be classified;"
@@ -68,7 +64,7 @@ msgstr ""
 ": guilabel: `Seleccionar conjunto de bandas de entrada` | número_entrada |: "
 "seleccionar la entrada: ref:` band_set_tab` para ser clasificado;"
 
-#: ../../classificationTab.rst:281
+#: ../../classificationTab.rst:279
 msgid ""
 ":guilabel:`Use` |checkbox| :guilabel:`MC ID` |checkbox| :guilabel:`C ID` "
 "|registry_save|: if :guilabel:`MC ID` is checked, the classification is "
@@ -83,7 +79,7 @@ msgstr ""
 "marcado, la clasificación se realiza utilizando la Clase ID (código` C ID` "
 "de la firma);"
 
-#: ../../classificationTab.rst:282
+#: ../../classificationTab.rst:280
 msgid ""
 "|weight_tool| : open the :ref:`Algorithm_band_weight_tab` for the definition"
 " of band weights;"
@@ -91,11 +87,11 @@ msgstr ""
 "| herramienta de valor | : abra la: ref: ʻAlgorithm Band_weight_tab` para la"
 " definición del valor  de banda;"
 
-#: ../../classificationTab.rst:287
+#: ../../classificationTab.rst:285
 msgid "Algorithm"
 msgstr "Algoritmo"
 
-#: ../../classificationTab.rst:289
+#: ../../classificationTab.rst:287
 msgid ""
 "This tool allows for the selection of the classification algorithm and the "
 "optiona definition of thresholds."
@@ -103,7 +99,7 @@ msgstr ""
 "Esta herramienta permite la selección del algoritmo de clasificación y la "
 "opcion de definición de umbrales."
 
-#: ../../classificationTab.rst:291
+#: ../../classificationTab.rst:289
 msgid ""
 "|input_list| |project_save|: available "
 ":ref:`classification_algorithm_definition` are:"
@@ -111,19 +107,19 @@ msgstr ""
 "| input_list | | project_save |: disponible: ref: "
 "`class_algorithm_definition` son:"
 
-#: ../../classificationTab.rst:293
+#: ../../classificationTab.rst:291
 msgid ":ref:`minimum_distance_algorithm`;"
 msgstr ":ref:`minimum_distance_algorithm`;"
 
-#: ../../classificationTab.rst:294
+#: ../../classificationTab.rst:292
 msgid ":ref:`max_likelihood_algorithm`;"
 msgstr ":ref:`max_likelihood_algorithm`;"
 
-#: ../../classificationTab.rst:295
+#: ../../classificationTab.rst:293
 msgid ":ref:`spectra_angle_mapping_algorithm`;"
 msgstr ":ref:`spectra_angle_mapping_algorithm`;"
 
-#: ../../classificationTab.rst:300
+#: ../../classificationTab.rst:298
 msgid ""
 ":guilabel:`Threshold` |input_number| |optional|: it allows for the "
 "definition of a classification threshold (applied to all the spectral "
@@ -135,7 +131,7 @@ msgstr ""
 "guilabel: `Umbral` es igual a 0, entonces se evalúan los umbrales: ref:` "
 "Signature_threshold_tab`; en particular:"
 
-#: ../../classificationTab.rst:298
+#: ../../classificationTab.rst:296
 msgid ""
 "for Minimum Distance, pixels are unclassified if distance is greater than "
 "threshold value;"
@@ -143,7 +139,7 @@ msgstr ""
 "para Distancia mínima, los pixeles no serán clasificados si la distancia es "
 "mayor que el valor del umbral;"
 
-#: ../../classificationTab.rst:299
+#: ../../classificationTab.rst:297
 msgid ""
 "for Maximum Likelihood, pixels are unclassified if probability is less than "
 "threshold  value (max 100);"
@@ -151,7 +147,7 @@ msgstr ""
 "para Máxima Probabilidad, los pixeles no serán clasificados si la "
 "probabilidad es menor que el valor del umbral (máx 100);"
 
-#: ../../classificationTab.rst:300
+#: ../../classificationTab.rst:298
 msgid ""
 "for Spectral Angle Mapping, pixels are unclassified if spectral angle "
 "distance is greater than threshold value (max 90);"
@@ -159,7 +155,7 @@ msgstr ""
 "para Mapeo de Ángulo Espectral, los pixeles no serán clasificados si la "
 "distancia del ángulo espectral es mayor que el valor del umbral (máx 90);"
 
-#: ../../classificationTab.rst:302
+#: ../../classificationTab.rst:300
 msgid ""
 "|threshold_tool|: open the :ref:`Signature_threshold_tab` for the definition"
 " of signature thresholds;"
@@ -167,11 +163,11 @@ msgstr ""
 "| herramienta_umbral |: abre: ref: `Signature_threshold_tab` para la "
 "definición de los umbrales de firma;"
 
-#: ../../classificationTab.rst:307
+#: ../../classificationTab.rst:305
 msgid "Land Cover Signature Classification"
 msgstr " Clasificación por Firmas de Cobertura del Suelo"
 
-#: ../../classificationTab.rst:309
+#: ../../classificationTab.rst:307
 msgid ""
 ":ref:`LCS_algorithm` is a classification that can be used as alternative or "
 "in combination with the :ref:`classification_alg` (see "
@@ -185,7 +181,7 @@ msgstr ""
 "(o macroclases) se clasifican como: guilabel: `Superposición de clases` con "
 "valor de ráster = -1000."
 
-#: ../../classificationTab.rst:312
+#: ../../classificationTab.rst:310
 msgid ""
 ":guilabel:`Use` |checkbox| :guilabel:`LCS` |checkbox| :guilabel:`Algorithm` "
 "|checkbox| :guilabel:`only overlap`: if :guilabel:`LCS` is checked, the "
@@ -209,15 +205,15 @@ msgstr ""
 "píxeles no clasificados de: guilabel: \"Clasificación por Firmas de "
 "Cobertura del Suelo\" se dejan sin clasificar;"
 
-#: ../../classificationTab.rst:313
+#: ../../classificationTab.rst:311
 msgid "|threshold_tool|: open the :ref:`LCS_threshold`;"
 msgstr "| herramienta de umbral |: abre el: ref: `umbral LCS`;"
 
-#: ../../classificationTab.rst:319
+#: ../../classificationTab.rst:317
 msgid "Classification output"
 msgstr " Resultado de la Clasificación"
 
-#: ../../classificationTab.rst:321
+#: ../../classificationTab.rst:319
 msgid ""
 ":guilabel:`Classification output` allows for the classification of the "
 ":ref:`band_set_tab` according to the parameters defined in "
@@ -226,7 +222,7 @@ msgstr ""
 ": guilabel: `Salida de clasificación` permite la clasificación de: ref:` "
 "band_set_tab` según los parámetros definidos en: ref: `class_alg`."
 
-#: ../../classificationTab.rst:323
+#: ../../classificationTab.rst:321
 msgid ""
 "In addition, a previously saved `classification style` (QGIS .qml file) can "
 "be loaded and used for classification style."
@@ -234,7 +230,7 @@ msgstr ""
 "Además, un \"estilo de clasificación\" previamente guardado (archivo QGIS "
 ".qml) se puede cargar y usar para el estilo de clasificación."
 
-#: ../../classificationTab.rst:325
+#: ../../classificationTab.rst:323
 msgid ""
 "Classification raster is a file ``.tif`` (a QGIS style file ``.qml`` is "
 "saved along with the classification); also other outputs can be optionally "
@@ -245,7 +241,7 @@ msgstr ""
 "calcular opcionalmente otras salidas. Las salidas se cargan en QGIS después "
 "del cálculo."
 
-#: ../../classificationTab.rst:328
+#: ../../classificationTab.rst:326
 msgid ""
 ":guilabel:`Load qml` |open_file| |project_save|: select a .qml file "
 "overriding the colors defined for :guilabel:`C ID` or :guilabel:`MC ID`;"
@@ -254,7 +250,7 @@ msgstr ""
 " archivo .qml que anule los colores definidos para: guilabel: `C ID` o: "
 "guilabel:` MC ID`;"
 
-#: ../../classificationTab.rst:329
+#: ../../classificationTab.rst:327
 msgid ""
 "|reset|: reset style to default (i.e. use the colors defined for "
 ":guilabel:`C ID` or :guilabel:`MC ID`);"
@@ -262,7 +258,7 @@ msgstr ""
 "| restablecer |: restablecer el estilo para el  predeterminado (es decir, "
 "usar los colores definidos para: guilabel: `C ID` o: guilabel:` MC ID`);"
 
-#: ../../classificationTab.rst:330
+#: ../../classificationTab.rst:328
 msgid ""
 "|checkbox| :guilabel:`Apply mask` |optional|: if checked, a shapefile can be"
 " selected for masking the classification output (i.e. the area outside the "
@@ -273,11 +269,11 @@ msgstr ""
 "salida de la clasificación (es decir, el área fuera del archivo shapefile no"
 " está clasificada);"
 
-#: ../../classificationTab.rst:331
+#: ../../classificationTab.rst:329
 msgid "|reset|: reset the mask shapefile;"
 msgstr "| restablecer |: restablecer el shapefile de la máscara;"
 
-#: ../../classificationTab.rst:332
+#: ../../classificationTab.rst:330
 msgid ""
 "|checkbox| :guilabel:`Create vector` |optional|: if checked, in addition to "
 "the classification raster, a classification shapefile is saved in the same "
@@ -291,7 +287,7 @@ msgstr ""
 "Salida de la  clasificación`; la conversión a vector también se puede "
 "realizar en un momento posterior (ver: ref: `class_vector_tab`);"
 
-#: ../../classificationTab.rst:333
+#: ../../classificationTab.rst:331
 msgid ""
 "|checkbox| :guilabel:`Classification report` |optional|: if checked, a "
 "report about the land cover classification is calculated and saved as a .csv"
@@ -306,7 +302,7 @@ msgstr ""
 "guilabel: `Salida de la clasificación`; el informe también se puede realizar"
 " en un momento posterior (ver: ref: `class_report_tab`);"
 
-#: ../../classificationTab.rst:334
+#: ../../classificationTab.rst:332
 msgid ""
 "|checkbox| :guilabel:`Save algorithm files` |optional| |registry_save|: if "
 "checked, the :ref:`algorithm_raster` is saved, in addition to the "
@@ -323,16 +319,19 @@ msgstr ""
 "ID_C ID '') y un ráster del algoritmo general (con el sufijo `` _alg_raster "
 "'');"
 
-#: ../../classificationTab.rst:336
+#: ../../classificationTab.rst:334
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 ": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
-#: ../../classificationTab.rst:337
+#: ../../classificationTab.rst:335
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the image "
 "classification;"
 msgstr ""
 ": guilabel: `RUN` | run |: eliga el destino de salida y se  inicia la "
 "clasificación de la imagen;"
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr "** El procesamiento en paralelo está disponible. **"

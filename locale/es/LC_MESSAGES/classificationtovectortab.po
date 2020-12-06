@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../classificationToVectorTab.rst:5
-#: ../../classificationToVectorTab.rst:273
+#: ../../classificationToVectorTab.rst:271
 msgid "Classification to vector"
 msgstr "Clasificación a vectorial"
 
@@ -42,11 +42,7 @@ msgstr ""
 "Esta pestaña permite la conversión de un ráster de clasificación en un "
 "archivo vectorial shape."
 
-#: ../../classificationToVectorTab.rst:268
-msgid "**Parallel processing is available.**"
-msgstr "** El procesamiento en paralelo está disponible. **"
-
-#: ../../classificationToVectorTab.rst:275
+#: ../../classificationToVectorTab.rst:273
 msgid ""
 ":guilabel:`Select the classification` |input_list|: select a classification "
 "raster (already loaded in QGIS);"
@@ -54,15 +50,15 @@ msgstr ""
 ":guilabel:`Selecciona la clasificación` |input_list|: selecciona un ráster "
 "de clasificación (ya cargadoen QGIS);"
 
-#: ../../classificationToVectorTab.rst:276
+#: ../../classificationToVectorTab.rst:274
 msgid "|reload|: refresh layer list;"
 msgstr "|reload|: recargar la lista de capas;"
 
-#: ../../classificationToVectorTab.rst:281
+#: ../../classificationToVectorTab.rst:279
 msgid "Symbology"
 msgstr "Simbología"
 
-#: ../../classificationToVectorTab.rst:286
+#: ../../classificationToVectorTab.rst:284
 msgid ""
 "|checkbox| :guilabel:`Use code from Signature list` |input_list|: if "
 "checked, color and class information are defined from :ref:`ROI_list`:"
@@ -71,23 +67,26 @@ msgstr ""
 "está seleccionado, el color y la información de Clase son definidos desde "
 ":ref:`ROI_list`:"
 
-#: ../../classificationToVectorTab.rst:284
+#: ../../classificationToVectorTab.rst:282
 msgid "``MC ID``: use the ID of macroclasses;"
 msgstr "``MC ID``: usar el ID de las Macroclases;"
 
-#: ../../classificationToVectorTab.rst:285
+#: ../../classificationToVectorTab.rst:283
 msgid "``C ID``: use the ID of classes;"
 msgstr "``C ID``: usar el ID de las Clases;"
 
-#: ../../classificationToVectorTab.rst:288
+#: ../../classificationToVectorTab.rst:286
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 ": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
-#: ../../classificationToVectorTab.rst:289
+#: ../../classificationToVectorTab.rst:287
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "conversion;"
 msgstr ""
 ":guilabel:`RUN` |run|: elige el destino de salida y comienza la conversión;"
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr "** El procesamiento en paralelo está disponible. **"

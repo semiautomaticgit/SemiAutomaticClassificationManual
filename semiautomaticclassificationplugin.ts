@@ -4674,88 +4674,88 @@ ROI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../maininterface/classificationTab.py" line="707"/>
+        <location filename="../maininterface/classificationTab.py" line="714"/>
         <source>Select a qml style</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="230"/>
+        <location filename="../dock/scpdock.py" line="223"/>
         <source>Select a signature list file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="244"/>
+        <location filename="../dock/scpdock.py" line="237"/>
         <source>Select a SCP training input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="664"/>
+        <location filename="../dock/scpdock.py" line="657"/>
         <source>Export SCP training input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="720"/>
+        <location filename="../dock/scpdock.py" line="713"/>
         <source>Select a library file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="753"/>
+        <location filename="../dock/scpdock.py" line="746"/>
         <source>Export the highlighted signatures to CSV library</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="820"/>
+        <location filename="../dock/scpdock.py" line="813"/>
         <source>Calculate signatures</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="820"/>
+        <location filename="../dock/scpdock.py" line="813"/>
         <source>Calculate signatures for highlighted items?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="852"/>
+        <location filename="../dock/scpdock.py" line="845"/>
         <source>Merge signatures</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="852"/>
+        <location filename="../dock/scpdock.py" line="845"/>
         <source>Merge highlighted signatures?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="470"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="473"/>
         <source>Delete signatures</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="972"/>
+        <location filename="../dock/scpdock.py" line="965"/>
         <source>Are you sure you want to delete highlighted ROIs and signatures?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="1892"/>
+        <location filename="../dock/scpdock.py" line="1885"/>
         <source>Create SCP training input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="1993"/>
+        <location filename="../dock/scpdock.py" line="1986"/>
         <source>It appears that the shapefile </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="1993"/>
+        <location filename="../dock/scpdock.py" line="1986"/>
         <source> is missing some fields that are required for the signature calculation. 
 Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="2085"/>
+        <location filename="../dock/scpdock.py" line="2078"/>
         <source>Undo save ROI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="2085"/>
+        <location filename="../dock/scpdock.py" line="2078"/>
         <source>Are you sure you want to delete the last saved ROI?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5250,12 +5250,12 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="1203"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="1211"/>
         <source>Set thresholds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="1203"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="1211"/>
         <source>Are you sure you want to set thresholds for several signatures?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5385,12 +5385,12 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/utils.py" line="6733"/>
+        <location filename="../core/utils.py" line="6760"/>
         <source>Build overviews</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/utils.py" line="6733"/>
+        <location filename="../core/utils.py" line="6760"/>
         <source>Do you want to build the external overviews of bands?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5415,7 +5415,7 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../maininterface/clusteringTab.py" line="1241"/>
+        <location filename="../maininterface/clusteringTab.py" line="1254"/>
         <source>Class</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5630,57 +5630,57 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/scatter_plot.py" line="489"/>
+        <location filename="../spectralsignature/scatter_plot.py" line="497"/>
         <source>Delete scatter plot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/scatter_plot.py" line="489"/>
+        <location filename="../spectralsignature/scatter_plot.py" line="497"/>
         <source>Are you sure you want to delete highlighted scatter plots?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="206"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="209"/>
         <source>Save plot to file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="87"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="90"/>
         <source>Edit value range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="87"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="90"/>
         <source>Are you sure you want to edit the value range for several signatures?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="233"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="236"/>
         <source>Add to Signature list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="233"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="236"/>
         <source>Are you sure you want to add highlighted signatures to the list?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="470"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="473"/>
         <source>Are you sure you want to delete highlighted signatures?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="650"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="658"/>
         <source>Values</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="1075"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="1083"/>
         <source>Undo thresholds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../spectralsignature/spectralsignatureplot.py" line="1075"/>
+        <location filename="../spectralsignature/spectralsignatureplot.py" line="1083"/>
         <source>Are you sure you want to undo thresholds?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5905,12 +5905,12 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../semiautomaticclassificationplugin.py" line="1564"/>
+        <location filename="../semiautomaticclassificationplugin.py" line="1569"/>
         <source>Please, restart QGIS for executing the Semi-Automatic Classification Plugin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="1993"/>
+        <location filename="../dock/scpdock.py" line="1986"/>
         <source>Add required fields</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5940,7 +5940,7 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../maininterface/clusteringTab.py" line="796"/>
+        <location filename="../maininterface/clusteringTab.py" line="805"/>
         <source> Calculating. Please wait ...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5980,22 +5980,22 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../maininterface/clusteringTab.py" line="1241"/>
+        <location filename="../maininterface/clusteringTab.py" line="1254"/>
         <source>Signature</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../maininterface/clusteringTab.py" line="1249"/>
+        <location filename="../maininterface/clusteringTab.py" line="1262"/>
         <source>C_ID_</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../maininterface/clusteringTab.py" line="819"/>
+        <location filename="../maininterface/clusteringTab.py" line="828"/>
         <source> Calculating classification. Please wait ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../maininterface/clusteringTab.py" line="1239"/>
+        <location filename="../maininterface/clusteringTab.py" line="1252"/>
         <source>Clustering</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6005,7 +6005,7 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/utils.py" line="8731"/>
+        <location filename="../core/utils.py" line="8768"/>
         <source>SCP: completed process</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6120,7 +6120,7 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../maininterface/clusteringTab.py" line="1241"/>
+        <location filename="../maininterface/clusteringTab.py" line="1254"/>
         <source>Distance</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6385,7 +6385,7 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="1964"/>
+        <location filename="../dock/scpdock.py" line="1957"/>
         <source>Creating ROI</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6420,27 +6420,27 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/utils.py" line="5725"/>
+        <location filename="../core/utils.py" line="5752"/>
         <source>Calculating signature</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/utils.py" line="6976"/>
+        <location filename="../core/utils.py" line="7003"/>
         <source>Writing file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/utils.py" line="5061"/>
+        <location filename="../core/utils.py" line="5070"/>
         <source>Conversion to vector</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/utils.py" line="6694"/>
+        <location filename="../core/utils.py" line="6721"/>
         <source>Sieve</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/utils.py" line="6812"/>
+        <location filename="../core/utils.py" line="6839"/>
         <source>Building overviews</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6470,12 +6470,12 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="1866"/>
+        <location filename="../dock/scpdock.py" line="1859"/>
         <source>Remove training input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dock/scpdock.py" line="1866"/>
+        <location filename="../dock/scpdock.py" line="1859"/>
         <source>Are you sure you want to remove training input?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6485,12 +6485,12 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/utils.py" line="8186"/>
+        <location filename="../core/utils.py" line="8223"/>
         <source>Remove rows</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/utils.py" line="8186"/>
+        <location filename="../core/utils.py" line="8223"/>
         <source>Are you sure you want to remove highlighted rows from the table?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6575,17 +6575,17 @@ Do you want to add the required fields to this shapefile?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../maininterface/clusteringTab.py" line="1093"/>
+        <location filename="../maininterface/clusteringTab.py" line="1102"/>
         <source>Calculate raster values iteration </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../maininterface/clusteringTab.py" line="484"/>
+        <location filename="../maininterface/clusteringTab.py" line="490"/>
         <source>Classification iteration </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../maininterface/clusteringTab.py" line="1057"/>
+        <location filename="../maininterface/clusteringTab.py" line="1066"/>
         <source>Classification iteration</source>
         <translation type="unfinished"></translation>
     </message>

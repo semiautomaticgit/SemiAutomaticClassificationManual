@@ -307,9 +307,9 @@ External programs
 
 Some SCP tools require external programs to perform the processing.
 
-* :guilabel:`ESA SNAP GPT executable` |input_text| |registry_save|: enter the path to the SNAP gpt executable; usually ``C:/snap/bin/gpt.exe`` for Windows, ``/Applications/snap/bin/gpt`` for Mac, and ``/usr/local/snap/bin/gpt`` for Linux; for the installation of ESA SNAP, please visit this page http://step.esa.int/main/download/snap-download/ ;
-
-
+* :guilabel:`ESA SNAP GPT executable` |input_text| |registry_save| |optional|: enter the path to the SNAP gpt executable; usually ``C:/snap/bin/gpt.exe`` for Windows, ``/Applications/snap/bin/gpt`` for Mac, and ``/usr/local/snap/bin/gpt`` for Linux; for the installation of ESA SNAP, please visit this page http://step.esa.int/main/download/snap-download/ ;
+* :guilabel:`Python executable path` |input_text| |registry_save| |optional|: enter the path to the Python 3 executable (e.g. ``/usr/local/bin/python3``); should be used only in case of issues with multiprocessing;
+* :guilabel:`GDAL installation directory` |input_text| |registry_save| |optional|: enter the path to the GDAL directory containing tools such as gdal_translate and gdalwarp (e.g. ``/usr/bin``); should be used only in case of issues with GDAL processing;
 
 .. _temporary_directory:
 

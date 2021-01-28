@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../../scp_menu.rst:74
 msgid ":guilabel:`About`: information about the plugin;"
-msgstr ""
+msgstr ": guilabel: `Acerca de`: información sobre el complemento;"
 
 #: ../../scp_menu.rst:75
 msgid ""

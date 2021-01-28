@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2021-01-28 16:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,11 +85,17 @@ msgid ""
 "the reference raster;"
 msgstr ""
 
-#: ../../vectorToRasterTab.rst:284
-msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+#: ../../vectorToRasterTab.rst:283
+msgid ""
+"|checkbox| :guilabel:`Same extent as reference raster`: the output raster"
+" will have the same extent as reference raster;"
 msgstr ""
 
 #: ../../vectorToRasterTab.rst:285
+msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../vectorToRasterTab.rst:286
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "conversion to raster;"

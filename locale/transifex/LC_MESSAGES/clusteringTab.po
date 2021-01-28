@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-05 14:44+0100\n"
+"POT-Creation-Date: 2021-01-28 16:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,8 +35,8 @@ msgstr ""
 
 #: ../../clusteringTab.rst:270
 msgid ""
-"A report .txt is saved along with the classifiction, containing the class"
-" spectral signature and the spectral distance thereof."
+"A report .txt is saved along with the classification, containing the "
+"class spectral signature and the spectral distance thereof."
 msgstr ""
 
 #: ../../clusteringTab.rst:275
@@ -137,5 +137,12 @@ msgid ""
 msgstr ""
 
 #~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A report .txt is saved along with"
+#~ " the classifiction, containing the class"
+#~ " spectral signature and the spectral "
+#~ "distance thereof."
 #~ msgstr ""
 

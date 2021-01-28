@@ -637,7 +637,7 @@ The output raster is a .tif file, with the same spatial resolution and projectio
 	**WARNING**: if multiple lines are entered in Expression or output name are defined in line, a directory selection instead of a file selection is prompted for output.
 
 * :guilabel:`Float32` |input_list|: option to select output raster type as Float32 (default), Int32, Int16, UInt32, UInt16, Byte;
-* |checkbox| :guilabel:`Output NoData value` |input_number|: if checked, set the value of ``NoData`` pixels in output raster;
+* :guilabel:`Output NoData` |input_number|: set the value of ``NoData`` pixels in output raster;
 * |checkbox| :guilabel:`Set scale` |input_number|: if checked, set a scale in output raster (and output values are divided by scale);
 * |checkbox| :guilabel:`Set offset` |input_number|: if checked, set an offset in output raster (and offset is subtracted to output values);
 * :guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;

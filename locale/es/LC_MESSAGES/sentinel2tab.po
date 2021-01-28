@@ -99,6 +99,10 @@ msgid ""
 " file which is a .xml file whose name contains ``MTD_MSIL1C``); this is "
 "optional and can be generally ignored;"
 msgstr ""
+": guilabel: `Seleccionar archivo de metadatos` | open_file | | opcional |: "
+"seleccione el archivo de metadatos que es un archivo .xml cuyo nombre "
+"contiene `` MTD_MSIL1C ''); esto es opcional y generalmente se puede "
+"ignorar;"
 
 #: ../../sentinel2Tab.rst:282
 msgid ""
@@ -125,6 +129,9 @@ msgid ""
 "|checkbox| :guilabel:`Preprocess bands 1, 9, 10`: if checked, preprocess "
 "also bands 1, 9, 10 (i.e. 60m bands);"
 msgstr ""
+"| casilla de verificación | : guilabel: `Preprocesar bandas 1, 9, 10`: si "
+"está marcado, preprocesar también las bandas 1, 9, 10 (es decir, bandas de "
+"60 m);"
 
 #: ../../sentinel2Tab.rst:285
 msgid ""
@@ -152,6 +159,10 @@ msgid ""
 "inside the same directory and rename the files with the band number in the "
 "ending of the name (e.g. from name_02_10m.jp2 to name_02.jp2)."
 msgstr ""
+"** SUGERENCIA **: para convertir imágenes L2A, debe mover todos los archivos"
+" .jp2 dentro del mismo directorio y cambiar el nombre de los archivos con el"
+" número de banda al final del nombre (por ejemplo, de nombre_02_10m.jp2 a "
+"nombre_02.jp2)."
 
 #: ../../sentinel2Tab.rst:293
 msgid "Metadata"

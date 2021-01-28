@@ -15,3 +15,4 @@ It is assumed that you have a basic knowledge of QGIS (you can find a guide to Q
 	:maxdepth: 1
 	
 	tutorial_1.rst
+	tutorial_2.rst

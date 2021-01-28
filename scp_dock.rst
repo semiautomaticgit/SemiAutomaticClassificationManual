@@ -88,6 +88,24 @@ SCP dock
 	
 .. |delete_signature| image:: _static/semiautomaticclassificationplugin_delete_signature.png
 	:width: 20pt
+		
+.. |accuracy_tool| image:: _static/semiautomaticclassificationplugin_accuracy_tool.png
+	:width: 20pt
+	
+.. |enter| image:: _static/semiautomaticclassificationplugin_enter.png
+	:width: 20pt
+	
+.. |zoom_to_ROI| image:: _static/semiautomaticclassificationplugin_zoom_to_ROI.png
+	:width: 20pt
+	
+.. |check| image:: _static/semiautomaticclassificationplugin_batch_check.png
+	:width: 20pt
+
+.. |select_all| image:: _static/semiautomaticclassificationplugin_select_all.png
+	:width: 20pt
+	
+.. |docks| image:: _static/semiautomaticclassificationplugin_docks.png
+	:width: 20pt
 	
 .. |add_sign_tool| image:: _static/semiautomaticclassificationplugin_add_sign_tool.png
 	:width: 20pt
@@ -146,7 +164,7 @@ SCP dock
 .. |remove_temp| image:: _static/semiautomaticclassificationplugin_remove_temp.png
 	:width: 20pt
 	
-The :guilabel:`SCP dock` allows for the the creation of ROIs (Regions Of Interest) and spectral signatures, and the classification of a :ref:`band_set_tab`.
+The :guilabel:`SCP dock` allows for the the creation of ROIs (Regions Of Interest) and spectral signatures required for the classification of a :ref:`band_set_tab`.
 The :ref:`training_input`, created with :guilabel:`SCP`, stores the ROI polygons and spectral signatures used for the land cover classification (see :ref:`tutorial_1`).
 
 ROIs are polygons used for the definition of the spectral characteristics of land cover classes.
@@ -241,7 +259,7 @@ The training input file is created according to the characteristics of the :guil
 A new training input file should be created for every :guilabel:`band set`, unless the :guilabel:`band sets` have the same spectral characteristics and coordinate reference system.
 
 * |open_file|: open a training input file; ROIs and spectral signatures are loaded in :ref:`ROI_list`; the vector part of the training input is loaded in QGIS;
-* |new_file|: create an empty training input file (``.scp``); the vector part of the training input is loaded in QGIS; also a backup file is created (a file ``.scp.backup`` in the same directory as the file ``.scp``) when the training input file is saved;
+* |new_file|: create an empty training input file (``.scp``); the vector part of the training input is loaded in QGIS; also a backup file is created (a file ``.scp.backup`` in the same directory as the file ``.scp``) when the QGIS project is saved; to use the backup file simply rename it deleting the ending ``.backup`` extension and open it as training input;
 * :guilabel:`Training input` |input_text| |project_save|: it displays the path to the training input file;
 * |reset|: remove the training input;
 
@@ -263,7 +281,7 @@ The tab :guilabel:`ROI & Signature list` is structured as tree list, where every
 	
 	:guilabel:`ROI & Signature list example`
 
-Changes in the :guilabel:`ROI & Signature list` are applied to the file :ref:`training_input` only when the QGIS project is saved.
+Changes in the :guilabel:`ROI & Signature list` are applied to the file :ref:`training_input` only when the QGIS project is saved (but there is also the option |checkbox| :guilabel:`Autosave`).
 ROIs can be edited, deleted and merged from this list.
 
 If an item is a ROI polygon, double click the item to zoom to that ROI in the map.
@@ -289,9 +307,9 @@ Items in the list can be highlighted with the mouse left click.
 * |add_sign_tool|: calculate spectral signatures of highlighted ROIs using the :guilabel:`active band set` in :ref:`band_set_tab`;
 * |delete_signature|: delete highlighted ROIs and signatures;
 * |sign_plot|: show the ROI spectral signature in the :ref:`spectral_signature_plot`; spectral signature is calculated from the :ref:`band_set_tab`;
-* |scatter_plot| : open the :ref:`scatter_plot`;
+* |scatter_plot| : add highlighted ROIs to the :ref:`scatter_plot`;
 * |import_spectral_library|: open the tab :ref:`import_signatures_tab`;
-* |export_spectral_library|: open the tab :ref:`export_signatures_tab`;
+* |export_spectral_library|: open the tab :ref:`export_signatures_tab` and export highlighted items;
 	
 :guilabel:`ROI & Signature list` is complementary to the :ref:`working_toolbar` and it allows for saving ROIs to the :ref:`training_input` defining classes and macroclasses.
 A :ref:`band_set_tab` must be defined before the ROI creation, and ROI polygons must be inside the area of the :guilabel:`Band set`.
@@ -306,6 +324,32 @@ A :ref:`band_set_tab` must be defined before the ROI creation, and ROI polygons 
 * |save_roi|: save the temporary ROI to the :ref:`training_input` using the defined classes and macroclasses; ROI is displayed in the :ref:`ROI_list`;
 
 
+.. _ROI_list_menu:
+ 
+Right click menu
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/scp_dock_menu.jpg
+	:align: center
+	
+	:guilabel:`Right click menu`
+
+A right click on :ref:`ROI_list` allows for opening a menu containing several functions to manage ROIs and spectral signatures.
+
+* |zoom_to_ROI| :guilabel:`Zoom to`: zoom to highlighted items (if ROI polygons) in the map;
+* |check| :guilabel:`Check/uncheck`: check or uncheck highlighted items;
+* |select_all| :guilabel:`Clear selection`: clear selection of highlighted items;
+* |docks| :guilabel:`Collapse/expand all`: collapse or expand all macroclasses;
+* |enter| :guilabel:`Change MC ID`: edit the macroclass of highlighted items (using the value :guilabel:`MC ID` |input_number| displayed in :ref:`ROI_list`); if a macroclass is selected, the function is performed to all the included items;
+* |enter| :guilabel:`Change color`: select a color for the highlighted items; if a macroclass is selected, the function is performed to all the included items;
+* |merge_sign| :guilabel:`Merge items`: merge highlighted spectral signatures or ROIs obtaining a new signature calculated as the average of signature values for each band (covariance matrix is excluded); if a macroclass is selected, the function is performed to all the included items;
+* |add_sign_tool| :guilabel:`Calculate signatures`: calculate spectral signatures of highlighted ROIs using the :guilabel:`active band set` in :ref:`band_set_tab`; if a macroclass is selected, the function is performed to all the included items;
+* |delete_signature| :guilabel:`Delete items`: delete highlighted ROIs and signatures; if a macroclass is selected, the function is performed to all the included items;
+* |sign_plot| :guilabel:`Add to spectral plot`: show the ROI spectral signature in the :ref:`spectral_signature_plot`; spectral signature is calculated from the :ref:`band_set_tab`; if a macroclass is selected, the function is performed to all the included items;
+* |scatter_plot| :guilabel:`Add to scatter plot`: add highlighted ROIs to the :ref:`scatter_plot`; if a macroclass is selected, the function is performed to all the included items;
+* |accuracy_tool| :guilabel:`Properties`: show the properties of highlighted items;
+* |import_spectral_library| :guilabel:`Import`: open the tab :ref:`import_signatures_tab`;
+* |export_spectral_library| :guilabel:`Export`: open the tab :ref:`export_signatures_tab` and export highlighted items;
 
 .. _roi_options_tab:
  

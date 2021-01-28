@@ -273,7 +273,7 @@ Classification sieve
 
 * :guilabel:`Select the classification` |input_list|: select a raster (already loaded in QGIS);
 * |reload|: refresh layer list;
-* :guilabel:`Size threshold` |input_number|: size of the patch to be replaced (in pixel unit); all patches smaller the the selected number of pixels will be replaced by the value of the largest neighbour patch;
+* :guilabel:`Size threshold` |input_number|: size of the patch to be replaced (in pixel unit); all patches smaller than the selected number of pixels will be replaced by the value of the largest neighbour patch;
 * :guilabel:`Pixel connection` |input_list|: select the type of pixel connection:
 	* :guilabel:`4`: in a 3x3 window, diagonal pixels are not considered connected;
 	* :guilabel:`8`: in a 3x3 window, diagonal pixels are considered connected;

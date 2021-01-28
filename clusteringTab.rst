@@ -267,7 +267,7 @@ Clustering
 This tab allows for the :ref:`clustering_definition` of a :ref:`band_set_tab`.
 In particular, :ref:`kmeans_definition` and :ref:`isodata_definition` methods are available.
 
-A report .txt is saved along with the classifiction, containing the class spectral signature and the spectral distance thereof.
+A report .txt is saved along with the classification, containing the class spectral signature and the spectral distance thereof.
 
 .. _clustering_input:
 

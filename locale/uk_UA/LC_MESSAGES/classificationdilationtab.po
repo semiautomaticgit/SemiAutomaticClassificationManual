@@ -6,6 +6,7 @@
 # 
 # Translators:
 # Daria Svidzinska <d.svidzinska@gmail.com>, 2020
+# Vasyl Korbutiak <v.m.korbutiak@nuwm.edu.ua>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-01 13:22+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
-"Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2020\n"
+"Last-Translator: Vasyl Korbutiak <v.m.korbutiak@nuwm.edu.ua>, 2020\n"
 "Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,6 +99,7 @@ msgstr ":guilabel:`8`: у вікні 3x3 діагональні пікселі �
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
+":guilabel:`BATCH` |batch_tool|: додати цю функцію до :ref:`batch_tab`;"
 
 #: ../../classificationDilationTab.rst:283
 msgid ""

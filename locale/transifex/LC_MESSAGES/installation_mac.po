@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2021-01-28 16:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,39 +28,53 @@ msgstr ""
 
 #: ../../installation_mac.rst:16
 msgid ""
-"Download and install the latest version of QGIS and GDAL from `here "
-"<https://qgis.org/it/site/forusers/download.html#mac>`_ ."
+"Visit the website `KyngChaos <https://www.kyngchaos.com/software/qgis/>`_"
+" and download the latest QGIS disk image (including Python and GDAL). "
+"QGIS 3.16 is recommended at the moment."
 msgstr ""
 
 #: ../../installation_mac.rst:18
+msgid ""
+"**WARNING**: it is recommended to install only one versions of QGIS; for "
+"a clean QGIS installation, uninstall any previous version of QGIS and "
+"remove all the related directories."
+msgstr ""
+
+#: ../../installation_mac.rst:20
+msgid ""
+"Follow the Readme instructions and clean up any previous path settings. "
+"Python must be installed prior to GDAL and QGIS."
+msgstr ""
+
+#: ../../installation_mac.rst:22
 msgid "Now, QGIS is installed."
 msgstr ""
 
-#: ../../installation_mac.rst:25
+#: ../../installation_mac.rst:29
 msgid "Semi-Automatic Classification Plugin installation"
 msgstr ""
 
-#: ../../installation_mac.rst:27
+#: ../../installation_mac.rst:31
 msgid "Run QGIS;"
 msgstr ""
 
-#: ../../installation_mac.rst:29
+#: ../../installation_mac.rst:33
 msgid "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr ""
 
-#: ../../installation_mac.rst:33
+#: ../../installation_mac.rst:37
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin "
 "and click the button ``Install plugin``;"
 msgstr ""
 
-#: ../../installation_mac.rst:35
+#: ../../installation_mac.rst:39
 msgid ""
 "**TIP**: in case of issues or an offline installation is required see "
 ":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
 msgstr ""
 
-#: ../../installation_mac.rst:39
+#: ../../installation_mac.rst:43
 msgid ""
 "The SCP should be automatically activated; however, be sure that the "
 "Semi-Automatic Classification Plugin is checked in the menu ``Installed``"
@@ -68,32 +82,62 @@ msgid ""
 "installation);"
 msgstr ""
 
-#: ../../installation_mac.rst:44
+#: ../../installation_mac.rst:52
+msgid "Configuration of the plugin"
+msgstr ""
+
+#: ../../installation_mac.rst:54
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and a dock and"
+" a toolbar should be added to QGIS. Also, a SCP menu is available in the "
+"Menu Bar of QGIS. It is possible to move the toolbar and the dock "
+"according to your needs, as in the following image."
+msgstr ""
+
+#: ../../installation_mac.rst:60
+msgid ""
+"The configuration of available RAM is recommended in order to reduce the "
+"processing time. From the :ref:`SCP_menu` select |settings_tool| "
+"``Settings > Processing`` ."
+msgstr ""
+
+#: ../../installation_mac.rst:65
+msgid ""
+"In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
+"that should be half of the system RAM. For instance, if your system has "
+"2GB of RAM, set the value to 1024MB."
+msgstr ""
+
+#: ../../installation_mac.rst:76
+msgid "Installation issues"
+msgstr ""
+
+#: ../../installation_mac.rst:78
 msgid ""
 "In case of missing dependencies, you could get error messages such as the"
 " following example with matplotlib:"
 msgstr ""
 
-#: ../../installation_mac.rst:48
+#: ../../installation_mac.rst:82
 msgid ""
 "A solution is to follow these steps as described in `this GIS "
 "Stackexchange post <https://gis.stackexchange.com/questions/366848/scp-"
 "plugin-for-qgis-3-10-on-mac>`_ :"
 msgstr ""
 
-#: ../../installation_mac.rst:50
+#: ../../installation_mac.rst:84
 msgid ""
 "Download and install Python from https://www.python.org/downloads/mac-"
 "osx/ selecting the macOS 64-bit installer;"
 msgstr ""
 
-#: ../../installation_mac.rst:52
+#: ../../installation_mac.rst:86
 msgid ""
 "Download and install the complete GDAL installer from "
 "https://www.kyngchaos.com/software/frameworks/ ;"
 msgstr ""
 
-#: ../../installation_mac.rst:54
+#: ../../installation_mac.rst:88
 msgid ""
 "**TIP**: In case of warnings about malicious software go to the ``Apple "
 "menu`` > ``System Preferences`` > ``Security & Privacy`` > ``General "
@@ -102,13 +146,13 @@ msgid ""
 "``Application Support`` > ``GDAL``"
 msgstr ""
 
-#: ../../installation_mac.rst:56
+#: ../../installation_mac.rst:90
 msgid ""
 "Open QGIS, go to ``Settings`` > ``Options`` > ``System`` > "
 "``Environment`` and enable ``Use Custom Variables`` ;"
 msgstr ""
 
-#: ../../installation_mac.rst:58
+#: ../../installation_mac.rst:92
 msgid ""
 "Select ``Prepend``, under ``variable`` enter ``PATH``, under ``value`` "
 "enter the path to GDAL "
@@ -116,39 +160,19 @@ msgid ""
 " ;"
 msgstr ""
 
-#: ../../installation_mac.rst:60
+#: ../../installation_mac.rst:94
 msgid ""
 "**TIP**: In case of GDAL was installed through Macports, the path to GDAL"
 " should be ``/opt/local/bin/:``"
 msgstr ""
 
-#: ../../installation_mac.rst:62
+#: ../../installation_mac.rst:96
 msgid "Restart QGIS."
 msgstr ""
 
-#: ../../installation_mac.rst:69
-msgid "Configuration of the plugin"
-msgstr ""
-
-#: ../../installation_mac.rst:71
-msgid ""
-"Now, the Semi-Automatic Classification Plugin is installed and a dock and"
-" a toolbar should be added to QGIS. Also, a SCP menu is available in the "
-"Menu Bar of QGIS. It is possible to move the toolbar and the dock "
-"according to your needs, as in the following image."
-msgstr ""
-
-#: ../../installation_mac.rst:77
-msgid ""
-"The configuration of available RAM is recommended in order to reduce the "
-"processing time. From the :ref:`SCP_menu` select |settings_tool| "
-"``Settings > Processing`` ."
-msgstr ""
-
-#: ../../installation_mac.rst:82
-msgid ""
-"In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
-"that should be half of the system RAM. For instance, if your system has "
-"2GB of RAM, set the value to 1024MB."
-msgstr ""
+#~ msgid ""
+#~ "Download and install the latest version"
+#~ " of QGIS and GDAL from `here "
+#~ "<https://qgis.org/it/site/forusers/download.html#mac>`_ ."
+#~ msgstr ""
 

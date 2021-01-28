@@ -39,6 +39,11 @@ msgid ""
 "be defined for creating a binary raster (0-1) of values below and above the "
 "threshold."
 msgstr ""
+"Esta pestaña permite calcular la distancia espectral entre cada píxel "
+"correspondiente de dos: guilabel: `band sets`. La salida es un ráster que "
+"contiene la distancia espectral de cada píxel. Opcionalmente, se puede "
+"definir un umbral para crear un ráster binario (0-1) de valores por debajo y"
+" por encima del umbral."
 
 #: ../../spectralDistanceTab.rst:274
 msgid "Spectral distance of band sets"

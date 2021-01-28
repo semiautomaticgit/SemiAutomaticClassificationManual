@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2019, Luca Congedo
+# Copyright (C) 2012-2020, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"POT-Creation-Date: 2020-12-05 14:44+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -70,53 +70,56 @@ msgstr ""
 "importado en el :ref:`training_input`;"
 
 #: ../../importSignaturesTab.rst:282
-msgid "Import shapefile"
-msgstr "Importar archivo shape"
+msgid "Import vector"
+msgstr "Importar vector"
 
 #: ../../importSignaturesTab.rst:288
-msgid ":guilabel:`Import shapefile`"
-msgstr ":guilabel:`Importar archivo shape`"
+msgid ":guilabel:`Import vector`"
+msgstr ":guilabel:`Importar vector`"
 
 #: ../../importSignaturesTab.rst:290
 msgid ""
-"This tool allows for importing a shapefile, selecting the corresponding "
-"fields of the :ref:`training_input`."
+"This tool allows for importing a vector (shapefile or geopackage), selecting"
+" the corresponding fields of the :ref:`training_input`."
 msgstr ""
-"Esta herramienta permite importar un archivo shape, seleccionando los campos"
-" correspondientes al :ref:`training_input`."
+"Esta herramienta permite importar un vector (shapefile o geopackage), "
+"seleccionando los campos correspondientes de el :ref:`training_input`."
 
 #: ../../importSignaturesTab.rst:292
-msgid ":guilabel:`Select a shapefile` |open_file|: open a shapefile;"
-msgstr ""
-":guilabel:`Selecciona un archivo shape` |open_file|: abre un archivo shape;"
+msgid ":guilabel:`Select a vector` |open_file|: open a vector;"
+msgstr ":guilabel:`Seleccione un vector` |open_file|: abrir un vector;"
 
 #: ../../importSignaturesTab.rst:293
 msgid ""
-":guilabel:`MC ID field` |input_list|: select the shapefile field "
-"corresponding to MC ID;"
+":guilabel:`MC ID field` |input_list|: select the vector field corresponding "
+"to MC ID;"
 msgstr ""
-":guilabel:`Campo MC ID` |input_list|: selecciona del archivo shape el campo "
+":guilabel:`MC ID campo` |input_list|: seleccione el campo de vector "
 "correspondiente a MC ID;"
 
 #: ../../importSignaturesTab.rst:294
 msgid ""
-":guilabel:`MC Name field` |input_list|: select the shapefile field "
+":guilabel:`MC Name field` |input_list|: select the vector field "
 "corresponding to MC Name;"
 msgstr ""
+":guilabel:`MC Nombre del campo` |input_list|: seleccione el campo del vector"
+" correspondiente a MC Nombre;"
 
 #: ../../importSignaturesTab.rst:295
 msgid ""
-":guilabel:`C ID field` |input_list|: select the shapefile field "
-"corresponding to C ID;"
+":guilabel:`C ID field` |input_list|: select the vector field corresponding "
+"to C ID;"
 msgstr ""
-":guilabel:`Campo C ID` |input_list|: selecciona del archivo shape el campo "
+":guilabel:`C ID campo` |input_list|: seleccione el campo del vector "
 "correspondiente a C ID;"
 
 #: ../../importSignaturesTab.rst:296
 msgid ""
-":guilabel:`C Name field` |input_list|: select the shapefile field "
-"corresponding to C Name;"
+":guilabel:`C Name field` |input_list|: select the vector field corresponding"
+" to C Name;"
 msgstr ""
+":guilabel:`C Nombre del campo` |input_list|: seleccione el campo vectorial "
+"correspondiente a C Nombre;"
 
 #: ../../importSignaturesTab.rst:297
 msgid ""
@@ -129,11 +132,11 @@ msgstr ""
 
 #: ../../importSignaturesTab.rst:298
 msgid ""
-":guilabel:`Import shapefile` |enter|: import all the shapefile polygons as "
-"ROIs in the :ref:`training_input`;"
+":guilabel:`Import vector` |enter|: import all the vector polygons as ROIs in"
+" the :ref:`training_input`;"
 msgstr ""
-":guilabel:`Importar shape` |enter|: importa todos los polígonos del archivo "
-"shape como ROIs en el :ref:`training_input`;"
+":guilabel:`Importar vector` |enter|: importar todos los polígonos "
+"vectoriales como ROI en el :ref:`training_input`; "
 
 #: ../../importSignaturesTab.rst:303
 msgid "Download USGS Spectral Library"
@@ -209,3 +212,60 @@ msgid ""
 "not Maximum Likelihood because this algorithm needs the covariance matrix "
 "that is not included in the spectral libraries."
 msgstr ""
+"**Consejo**: Las bibliotecas espectrales descargadas de la `` Biblioteca "
+"espectral de USGS '' se pueden usar con algoritmos de Distancia Mínima o "
+"Mapeo de Ángulo Espectral, pero no con Máxima Probabilidad porque este "
+"algoritmo necesita la matriz de covarianza que no está incluida en las "
+"bibliotecas espectrales."
+
+#~ msgid "Import shapefile"
+#~ msgstr "Importar archivo shape"
+
+#~ msgid ":guilabel:`Import shapefile`"
+#~ msgstr ":guilabel:`Importar archivo shape`"
+
+#~ msgid ""
+#~ "This tool allows for importing a shapefile, selecting the corresponding "
+#~ "fields of the :ref:`training_input`."
+#~ msgstr ""
+#~ "Esta herramienta permite importar un archivo shape, seleccionando los campos"
+#~ " correspondientes al :ref:`training_input`."
+
+#~ msgid ":guilabel:`Select a shapefile` |open_file|: open a shapefile;"
+#~ msgstr ""
+#~ ":guilabel:`Selecciona un archivo shape` |open_file|: abre un archivo shape;"
+
+#~ msgid ""
+#~ ":guilabel:`MC ID field` |input_list|: select the shapefile field "
+#~ "corresponding to MC ID;"
+#~ msgstr ""
+#~ ":guilabel:`Campo MC ID` |input_list|: selecciona del archivo shape el campo "
+#~ "correspondiente a MC ID;"
+
+#~ msgid ""
+#~ ":guilabel:`MC Name field` |input_list|: select the shapefile field "
+#~ "corresponding to MC Name;"
+#~ msgstr ""
+#~ ":guilabel:`MC Nombre del campo` |input_list|: seleccione el campo del "
+#~ "shapefile correspondiente a MC Nombre;"
+
+#~ msgid ""
+#~ ":guilabel:`C ID field` |input_list|: select the shapefile field "
+#~ "corresponding to C ID;"
+#~ msgstr ""
+#~ ":guilabel:`Campo C ID` |input_list|: selecciona del archivo shape el campo "
+#~ "correspondiente a C ID;"
+
+#~ msgid ""
+#~ ":guilabel:`C Name field` |input_list|: select the shapefile field "
+#~ "corresponding to C Name;"
+#~ msgstr ""
+#~ ":guilabel:`C Nombre del campo` |input_list|: seleccione el campo del "
+#~ "shapefile correspondiente a C Nombre;"
+
+#~ msgid ""
+#~ ":guilabel:`Import shapefile` |enter|: import all the shapefile polygons as "
+#~ "ROIs in the :ref:`training_input`;"
+#~ msgstr ""
+#~ ":guilabel:`Importar shape` |enter|: importa todos los polígonos del archivo "
+#~ "shape como ROIs en el :ref:`training_input`;"

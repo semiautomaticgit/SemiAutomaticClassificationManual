@@ -105,7 +105,7 @@ msgstr ":guilabel:`MC ID`: Macroclase ID de la firma;"
 
 #: ../../signatureThresholdTab.rst:288
 msgid ":guilabel:`MC Name`: signature Macroclass Name;"
-msgstr ""
+msgstr ":guilabel:`MC Nombre`: Nombre de Macroclase de la firma ;"
 
 #: ../../signatureThresholdTab.rst:289
 msgid ":guilabel:`C ID`: signature Class ID;"
@@ -113,7 +113,7 @@ msgstr ":guilabel:`C ID`: Clase ID de la firma;"
 
 #: ../../signatureThresholdTab.rst:290
 msgid ":guilabel:`C Name`: signature Class Name;"
-msgstr ""
+msgstr ":guilabel:`C Nombre`: Nombre de Clase de la firma;"
 
 #: ../../signatureThresholdTab.rst:291
 msgid ""

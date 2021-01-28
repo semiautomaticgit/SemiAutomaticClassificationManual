@@ -46,6 +46,9 @@ msgid ""
 "A report .txt is saved along with the PCA bands, containing the covariance "
 "matrix, correlation matrix, eigen vectors, and eigen values."
 msgstr ""
+"Se guarda un .txt de informe junto con las bandas de PCA, que contiene la "
+"matriz de covarianza, la matriz de correlación, los vectores propios y los "
+"valores propios."
 
 #: ../../PCATab.rst:275
 msgid "Principal Component Analysis of Band set"

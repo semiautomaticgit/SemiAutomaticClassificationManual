@@ -280,6 +280,7 @@ Convert vector to raster
 	* :guilabel:`All pixels touched`: during the conversion, vector is compared to the reference raster; output raster pixels are attributed to a polygon if pixel touches that polygon;
 * :guilabel:`Select the reference raster` |input_list|: select a reference raster; pixels of the output raster have the same size and alignment as the reference raster;
 * |reload|: refresh layer list;
+* |checkbox| :guilabel:`Same extent as reference raster`: the output raster will have the same extent as reference raster;
 	
 * :guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;
 * :guilabel:`RUN` |run|: choose the output destination and start the conversion to raster;

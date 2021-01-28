@@ -80,7 +80,7 @@ msgstr ":guilabel:`MC ID`: Macroclase ID de la firma;"
 
 #: ../../LCSThresholdTab.rst:279
 msgid ":guilabel:`MC Name`: signature Macroclass Name;"
-msgstr ""
+msgstr ":guilabel:`MC Nombre`: Nombre de Macroclase de la firma ;"
 
 #: ../../LCSThresholdTab.rst:280
 msgid ":guilabel:`C ID`: signature Class ID;"
@@ -88,7 +88,7 @@ msgstr ":guilabel:`C ID`: Clase ID de la firma;"
 
 #: ../../LCSThresholdTab.rst:281
 msgid ":guilabel:`C Name`: signature Class Name;"
-msgstr ""
+msgstr ":guilabel:`C Nombre`: Nombre de Clase de la firma;"
 
 #: ../../LCSThresholdTab.rst:282
 msgid ""

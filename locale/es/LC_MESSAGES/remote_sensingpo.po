@@ -12,7 +12,7 @@
 # Francisco Limon <Wany1954@armyspy.com>, 2020
 # Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020
 # Fran Raga <FRANKA1986@gmail.com>, 2020
-# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-01 13:22+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
-"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2437,7 +2437,7 @@ msgstr ""
 
 #: ../../remote_sensing.rst:878
 msgid "Random Forest"
-msgstr ""
+msgstr "Bosque Aleatorio"
 
 #: ../../remote_sensing.rst:880
 msgid ""

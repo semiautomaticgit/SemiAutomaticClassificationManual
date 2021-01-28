@@ -1050,7 +1050,7 @@ The overall accuracy (also expressed in percentage) is defined as:
 .. math::
 	O =  \sum_{i=1}^{k} a_{ii} / n
 
-Ther user's accuracy for each class is defined as the ratio (also expressed in percentage) between correct samples and the row total:
+The user's accuracy for each class is defined as the ratio (also expressed in percentage) between correct samples and the row total:
 
 .. math::
 	U_i =  a_{ii} / a_{i+}
@@ -1064,12 +1064,10 @@ The producer's accuracy for each class is calculated as the ratio (also expresse
 	
 The omission error :math:`OE_i = 1 - P_i` corresponds to pixels actually belonging to class :math:`i` that were classified erroneously as a different class.
 
-
-User's accuracy is 
-It is recommended to calculate the area based error matrix (Olofsson, et al., 2014) where each element represents the estimated area proportion of each class.
+It is recommended to calculate the area based error matrix (Olofsson et al., 2014) where each element represents the estimated area proportion of each class.
 This allows for estimating the unbiased user's accuracy and producer's accuracy, the unbiased area of classes according to reference data, and the standard error of area estimates.
 
-For further information, the following documentation is freely available: `Landsat 7 Science Data User's Handbook <http://landsathandbook.gsfc.nasa.gov>`_, `Remote Sensing Note <http://www.jars1974.net/pdf/rsnote_e.html>`_ , or `Wikipedia <http://en.wikipedia.org/wiki/Remote_sensing>`_.
+For further information, the following documentation is freely available: `Landsat Data Users Handbook <https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/LSDS-1574_L8_Data_Users_Handbook-v5.0.pdf>`_.
 
 .. _image_processing_definition:
  
@@ -1180,7 +1178,7 @@ Clustering
 Clustering is the grouping of pixels based on spectral similarity (e.g. :ref:`euclidean_distance` or :ref:`spectral_angle`)  calculated for a multispectral image (Richards and Jia, 2006).
 
 Clustering can be used for unsupervised classification or for the automatic selection of spectral signatures.
-It is worth noticing that, while :ref:`supervised_classification_definition` produces a classification whith the classes identified during the trainining process, the classes produced by clustering (i.e. clusters) have no definition and consequently the user must assign a land cover label to each class.
+It is worth noticing that, while :ref:`supervised_classification_definition` produces a classification whit the classes identified during the training process, the classes produced by clustering (i.e. clusters) have no definition and consequently the user must assign a land cover label to each class.
 
 The main advantage of clustering resides in automation.
 Of course, clusters do not necessarily represent a particular land cover type and additional processing could be required for producing an accurate classification.
@@ -1215,12 +1213,12 @@ After the last iteration, a raster of clusters is produced using the spectral si
 ISODATA
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The ISODATA (Iterative Self-Organizing Data Analysis Technique) method is similar to K-means but with the additional steps of merging clusters having similar spectral signatures and splitting clusters having too high varability (i.e. standard deviation) of spectral signatures (Ball & Hall, 1965).
+The ISODATA (Iterative Self-Organizing Data Analysis Technique) method is similar to K-means but with the additional steps of merging clusters having similar spectral signatures and splitting clusters having too high variability (i.e. standard deviation) of spectral signatures (Ball & Hall, 1965).
 Following, the :guilabel:`SCP` implementation of ISODATA is described.
 
 At first, the user defines the number of clusters expected in the image, which correspond to as many spectral signatures (i.e. seeds).
 Starting spectral signatures can be selected in various ways (e.g. randomly, provided by the user, calculated automatically from image values).
-Initial parameteres provided by user are:
+Initial parameters provided by user are:
 
 * :math:`C` = number of desired clusters
 * :math:`N_{min}` = minimum number of pixels for a cluster
@@ -1289,7 +1287,7 @@ Radiance at the Sensor's Aperture
 Images such as Landsat or Sentinel-2 are composed of several bands and a metadata file which contains information required for the conversion to reflectance.
 
 Landsat images are provided in radiance, scaled prior to output.
-for Landsat images **Spectral Radiance at the sensor's aperture** (:math:`L_{\lambda}`, measured in [watts/(meter squared * ster * :math:`\mu m`)]) is given by (https://landsat.usgs.gov/Landsat8_Using_Product.php):
+For Landsat images **Spectral Radiance at the sensor's aperture** (:math:`L_{\lambda}`, measured in [watts/(meter squared * ster * :math:`\mu m`)]) is given by (https://www.usgs.gov/core-science-systems/nli/landsat/using-usgs-landsat-level-1-data-product):
 
 .. math::
 
@@ -1360,14 +1358,14 @@ DOS1 Correction
 
 The **Dark Object Subtraction** (DOS) is a family of image-based atmospheric corrections.
 Chavez (1996) explains that "the basic assumption is that within the image some pixels are in complete shadow and their radiances received at the satellite are due to atmospheric scattering (path radiance). This assumption is combined with the fact that very few targets on the Earth's surface are absolute black, so an assumed one-percent minimum reflectance is better than zero percent”. It is worth pointing out that the accuracy of image-based techniques is generally lower than physically-based corrections, but they are very useful when no atmospheric measurements are available as they can improve the estimation of land surface reflectance.
-The **path radiance** is given by (Sobrino, et al., 2004):
+The **path radiance** is given by (Sobrino et al., 2004):
 
 .. math::
 	L_{p} = L_{min} - L_{DO1\%}
 
 where:
 
-* :math:`L_{min}` = "radiance that corresponds to a digital count value for which the sum of all the pixels with digital counts lower or equal to this value is equal to the 0.01% of all the pixels from the image considered” (Sobrino, et al., 2004, p. 437), therefore the radiance obtained with that digital count value (:math:`DN_{min}`)
+* :math:`L_{min}` = "radiance that corresponds to a digital count value for which the sum of all the pixels with digital counts lower or equal to this value is equal to the 0.01% of all the pixels from the image considered” (Sobrino et al., 2004, p. 437), therefore the radiance obtained with that digital count value (:math:`DN_{min}`)
 * :math:`L_{DO1\%}` = radiance of Dark Object, assumed to have a reflectance value of 0.01
 
 In particular for Landsat images:
@@ -1378,7 +1376,7 @@ In particular for Landsat images:
 
 Sentinel-2 images are converted to radiance prior to DOS1 calculation.
 
-The **radiance of Dark Object** is given by (Sobrino, et al., 2004):
+The **radiance of Dark Object** is given by (Sobrino et al., 2004):
 
 .. math::
 
@@ -1483,7 +1481,7 @@ ESUN [W /(m2 * :math:`\mu m`)] values for **Sentinel-2** sensor (provided in ima
 +-------+---------------+
 
 
-ESUN [W /(m2 * :math:`\mu m`)] values for **ASTER** sensor are illustrated in the following table (from Finn, et al., 2012).
+ESUN [W /(m2 * :math:`\mu m`)] values for **ASTER** sensor are illustrated in the following table (from Finn et al., 2012).
 
 	:guilabel:`ESUN values for ASTER bands`
 	
@@ -1538,7 +1536,7 @@ This chapter provides the basic information about the conversion to **At-Satelli
 Conversion to At-Satellite Brightness Temperature
 ----------------------------------------------------------------------
 
-For thermal bands, the conversion of DN to At-Satellite Brightness Temperature is given by (from https://landsat.usgs.gov/Landsat8_Using_Product.php):
+For thermal bands, the conversion of DN to At-Satellite Brightness Temperature is given by (from https://www.usgs.gov/core-science-systems/nli/landsat/using-usgs-landsat-level-1-data-product ):
 
 .. math::
 
@@ -1606,7 +1604,7 @@ Estimation of Land Surface Temperature
 ------------------------------------------
 
 Several studies have described the estimation of Land Surface Temperature.
-Land Surface Temperature can be calculated from At-Satellite Brightness Temperature :math:`T_{B}` as (Weng, et al. 2004):
+Land Surface Temperature can be calculated from At-Satellite Brightness Temperature :math:`T_{B}` as (Weng et al., 2004):
 
 .. math::
 	T = T_{B} / [ 1 +  (\lambda * T_{B} / c_{2}) * ln(e) ]
@@ -1621,8 +1619,8 @@ where:
 
 The values of :math:`\lambda` for the thermal bands of Landsat and ASTER satellites can be calculated from the tables in :ref:`Landsat_definition` and :ref:`ASTER_definition`.
 
-Several studies used NDVI for the estimation of land surface emissivity (Sobrino, et al., 2004); other studies used a land cover classification for the definition of the land surface emissivity of each class (Weng, et al. 2004).
-For instance, the emissivity (:math:`e`) values of various land cover types are provided in the following table (from Mallick, et al. 2012).
+Several studies used NDVI for the estimation of land surface emissivity (Sobrino et al., 2004); other studies used a land cover classification for the definition of the land surface emissivity of each class (Weng et al. 2004).
+For instance, the emissivity (:math:`e`) values of various land cover types are provided in the following table (from Mallick et al., 2012).
 
 	:guilabel:`Emissivity values`
 	
@@ -1689,7 +1687,7 @@ References
 
 * NASA, 2011. Landsat 7 Science Data Users Handbook Landsat Project Science Office at NASA's Goddard Space Flight Center in Greenbelt, 186 http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf
 
-* NOAA, 2020. GOES-R Series. Available at Satelliteshttps://www.ncdc.noaa.gov/data-access/satellite-data/goes-r-series-satellites
+* NOAA, 2020. GOES-R Series. Available at https://www.ncdc.noaa.gov/data-access/satellite-data/goes-r-series-satellites
 
 * Olofsson, P.; Foody, G. M.; Herold, M.; Stehman, S. V.; Woodcock, C. E. & Wulder, M. A., 2014. Good practices for estimating area and assessing accuracy of land change. Remote Sensing of Environment, 148, 42 – 57
 

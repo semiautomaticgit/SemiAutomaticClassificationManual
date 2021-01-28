@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-05 14:44+0100\n"
+"POT-Creation-Date: 2021-01-28 16:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -777,8 +777,8 @@ msgstr ""
 
 #: ../../bandCalcTab.rst:640
 msgid ""
-"|checkbox| :guilabel:`Output NoData value` |input_number|: if checked, "
-"set the value of ``NoData`` pixels in output raster;"
+":guilabel:`Output NoData` |input_number|: set the value of ``NoData`` "
+"pixels in output raster;"
 msgstr ""
 
 #: ../../bandCalcTab.rst:641
@@ -822,5 +822,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":guilabel:`sin`: sine;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "|checkbox| :guilabel:`Output NoData value` "
+#~ "|input_number|: if checked, set the "
+#~ "value of ``NoData`` pixels in output "
+#~ "raster;"
 #~ msgstr ""
 

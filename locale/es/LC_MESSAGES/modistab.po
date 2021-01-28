@@ -76,6 +76,10 @@ msgid ""
 "DOS1 calculation of DNmin; it is useful when image has a black border "
 "(usually pixel value = -999);"
 msgstr ""
+"|checkbox| :guilabel:`Usar el valor como NoData` | input_number |: si está "
+"marcado, los píxeles que tienen el valor` `NoData '' no se cuentan durante "
+"la conversión y el cálculo DOS1 de DNmin; es útil cuando la imagen tiene un "
+"borde negro (normalmente valor del píxel  es = -999);"
 
 #: ../../modisTab.rst:279
 msgid ""
@@ -120,6 +124,8 @@ msgstr ": guilabel: `ID` | input_text |: ID de la imagen;"
 #: ../../modisTab.rst:291
 msgid ":guilabel:`Date` |input_text|: date of acquisition (e.g. 2013-04-15);"
 msgstr ""
+":guilabel:`Date` |input_text|: fecha de adquisición (por ejemplo, "
+"2013-04-15);"
 
 #: ../../modisTab.rst:292
 msgid ""

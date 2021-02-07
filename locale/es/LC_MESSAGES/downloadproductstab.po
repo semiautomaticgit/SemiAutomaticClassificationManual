@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2020, Luca Congedo
+# Copyright (C) 2012-2019, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -64,8 +64,6 @@ msgstr ""
 msgid ""
 ":ref:`Sentinel1_definition` images (GRD) acquired from 2014 to present days;"
 msgstr ""
-": ref: Imágenes `Sentinel1_definition` (GRD) adquiridas desde 2014 hasta la "
-"actualidad;"
 
 #: ../../downloadProductsTab.rst:270
 msgid ""
@@ -105,8 +103,6 @@ msgid ""
 ":ref:`GOES_definition` images (GOES 16 and GOES 17 Full Disk L1b Radiance) "
 "acquired from 2017 to present days;"
 msgstr ""
-": ref: Imágenes `GOES_definition` (GOES 16 y GOES 17 Full Disk L1b Radiance)"
-" adquiridas desde 2017 hasta la actualidad;"
 
 #: ../../downloadProductsTab.rst:276
 msgid ""
@@ -121,26 +117,12 @@ msgid ""
 "DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux "
 "Falls, South Dakota, https://lpdaac.usgs.gov/data_access/data_pool."
 msgstr ""
-"Para Landsat, ASTER y MODIS, la búsqueda se realiza a través de la API de "
-"búsqueda CMR "
-"<https://cmr.earthdata.nasa.gov/search/site/search_api_docs.html> `_ "
-"desarrollada por la NASA. Las imágenes de Landsat están disponibles "
-"gratuitamente a través de los servicios: `EarthExplorer "
-"<http://earthexplorer.usgs.gov/>` _, `Google Cloud Storage Landsat  "
-"<https://cloud.google.com/storage/docs/public-datasets/landsat>`_. Los "
-"productos ASTER L1T y MODIS se recuperan del Data Pool en línea, cortesía "
-"del Centro de Archivo Activo Distribuido de Procesos Terrestres de la NASA "
-"(LP DAAC), Centro de Observación y Ciencia de Recursos de la Tierra (EROS) "
-"del USGS, Sioux Falls, Dakota del Sur,  "
-"https://lpdaac.usgs.gov/data_access/data_pool."
 
 #: ../../downloadProductsTab.rst:280
 msgid ""
 "GOES products are downloaded through `Amazon AWS Open Data "
 "<https://registry.opendata.aws/noaa-goes>`_ ."
 msgstr ""
-"Los productos GOES se descargan a través de `Amazon AWS Open Data "
-"<https://registry.opendata.aws/noaa-goes>`_ ."
 
 #: ../../downloadProductsTab.rst:282
 msgid ""
@@ -152,13 +134,6 @@ msgid ""
 "<https://cloud.google.com/storage/docs/public-datasets/sentinel-2>`_ if "
 "available."
 msgstr ""
-"Para Sentinel-1, Sentinel-2 y Sentinel-3, la búsqueda se realiza a través "
-"del `Copernicus Open Access Hub <https://scihub.copernicus.eu/>` _ "
-"(utilizando la API `Data Hub "
-"<https://scihub.copernicus.eu/userguide/5APIsAndBatchScripting>`_). "
-"Sentinel-2 se descargan de `Google Cloud Storage "
-"<https://cloud.google.com/storage/docs/public-datasets/sentinel-2>` _ si "
-"está disponible."
 
 #: ../../downloadProductsTab.rst:285
 msgid ""
@@ -168,11 +143,6 @@ msgid ""
 "requested through the `Copernicus Open Access Hub "
 "<https://scihub.copernicus.eu/>`_ ."
 msgstr ""
-"Tenga en cuenta que los productos Sentinel de más de 12 meses pueden "
-"archivarse en `Archivos a largo plazo "
-"<https://scihub.copernicus.eu/userguide/LongTermArchive>`_ ) y debe "
-"solicitarse a través del `Copernicus Open Access Hub "
-"<https://scihub.copernicus.eu/>`_ ."
 
 #: ../../downloadProductsTab.rst:287
 msgid ""
@@ -314,10 +284,6 @@ msgid ""
 " Sentinel-2 it is possible to avoid the definition of a search by entering a"
 " granule name in the :guilabel:`Advanced search` |input_text|."
 msgstr ""
-"Se requiere la definición de un área de búsqueda antes de buscar las "
-"imágenes. Para Sentinel-2, es posible evitar la definición de una búsqueda "
-"ingresando un nombre de gránulo en la :guilabel:`Advanced search` "
-"|input_text|."
 
 #: ../../downloadProductsTab.rst:361
 msgid ""
@@ -389,11 +355,6 @@ msgid ""
 "to get the results of that granule; Sentinel-2 level 2A can be filtered "
 "entering ``S2A_MSIL2A*`` ;"
 msgstr ""
-":guilabel:`Advanced search` |input_text|: algunos servicios (por ejemplo, "
-"Sentinel-2) permiten ingresar parámetros de búsqueda; por ejemplo, es "
-"posible ingresar el nombre de un gránulo (por ejemplo, 33TTG) sin definir un"
-" área de búsqueda para obtener los resultados de ese gránulo; Sentinel-2 "
-"nivel 2A se puede filtrar ingresando `` S2A_MSIL2A * '';"
 
 #: ../../downloadProductsTab.rst:371
 msgid ""
@@ -443,10 +404,6 @@ msgid ""
 "multiple searches defining smaller area extent and narrow acquisition dates "
 "(from and to)."
 msgstr ""
-"** SUGERENCIA **: Los resultados de la búsqueda (y el número de los mismos) "
-"dependen de la extensión del área definida y del rango de fechas. Para "
-"obtener más resultados, realice varias búsquedas definiendo una extensión de"
-" área más pequeña y fechas de adquisición limitadas (desde y hasta)."
 
 #: ../../downloadProductsTab.rst:380
 msgid "Product list"
@@ -458,10 +415,6 @@ msgid ""
 " on any item (highlight) to display the image preview thereof (not all the "
 "products include image previews). Results are saved with the QGIS project."
 msgstr ""
-"The table :guilabel: `Lista de productos` contiene los resultados de la "
-"búsqueda. Haga clic en cualquier elemento (resaltado) para mostrar la vista "
-"previa de la imagen del mismo (no todos los productos incluyen vistas "
-"previas de imágenes). Los resultados se guardan con el proyecto QGIS."
 
 #: ../../downloadProductsTab.rst:400
 msgid ""
@@ -551,9 +504,6 @@ msgid ""
 "is roughly georeferenced on the fly (not all the products include a "
 "preview);"
 msgstr ""
-"|image_preview|: muestra una vista previa de las imágenes resaltadas en el "
-"mapa; la vista previa está georreferenciada al vuelo (no todos los productos"
-" incluyen una vista previa);"
 
 #: ../../downloadProductsTab.rst:403
 msgid "|remove|: remove highlighted images from the list;"

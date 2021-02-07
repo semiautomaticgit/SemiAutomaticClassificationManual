@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2020, Luca Congedo
+# Copyright (C) 2012-2019, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
 # Daria Svidzinska <d.svidzinska@gmail.com>, 2020
-# Vasyl Korbutiak <v.m.korbutiak@nuwm.edu.ua>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-05 14:44+0100\n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
-"Last-Translator: Vasyl Korbutiak <v.m.korbutiak@nuwm.edu.ua>, 2020\n"
+"Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2020\n"
 "Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #: ../../classificationToVectorTab.rst:5
-#: ../../classificationToVectorTab.rst:271
+#: ../../classificationToVectorTab.rst:273
 msgid "Classification to vector"
 msgstr "Класифікацію у вектор"
 
@@ -41,7 +40,11 @@ msgstr ""
 "Ця вкладка забезпечує перетворення растра класифікації у векторний шейп-"
 "файл."
 
-#: ../../classificationToVectorTab.rst:273
+#: ../../classificationToVectorTab.rst:268
+msgid "**Parallel processing is available.**"
+msgstr ""
+
+#: ../../classificationToVectorTab.rst:275
 msgid ""
 ":guilabel:`Select the classification` |input_list|: select a classification "
 "raster (already loaded in QGIS);"
@@ -49,15 +52,15 @@ msgstr ""
 ":guilabel:`Вибрати класифікацію` |input_list|: вибрати растр класифікації "
 "(попередньо завантажений до QGIS);"
 
-#: ../../classificationToVectorTab.rst:274
+#: ../../classificationToVectorTab.rst:276
 msgid "|reload|: refresh layer list;"
 msgstr "|reload|: оновити перелік шарів;"
 
-#: ../../classificationToVectorTab.rst:279
+#: ../../classificationToVectorTab.rst:281
 msgid "Symbology"
 msgstr "Символіка"
 
-#: ../../classificationToVectorTab.rst:284
+#: ../../classificationToVectorTab.rst:286
 msgid ""
 "|checkbox| :guilabel:`Use code from Signature list` |input_list|: if "
 "checked, color and class information are defined from :ref:`ROI_list`:"
@@ -66,25 +69,21 @@ msgstr ""
 "якщо опцію увімкнено, то колір та інформація про клас визначається з "
 ":ref:`ROI_list`:"
 
-#: ../../classificationToVectorTab.rst:282
+#: ../../classificationToVectorTab.rst:284
 msgid "``MC ID``: use the ID of macroclasses;"
 msgstr "``MC ID``: застосувати унікальні ідентифікатори макрокласів;"
 
-#: ../../classificationToVectorTab.rst:283
+#: ../../classificationToVectorTab.rst:285
 msgid "``C ID``: use the ID of classes;"
 msgstr "``C ID``: застосувати унікальні ідентифікатори класів;"
 
-#: ../../classificationToVectorTab.rst:286
+#: ../../classificationToVectorTab.rst:288
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
-":guilabel:`BATCH` |batch_tool|: додати цю функцію до :ref:`batch_tab`;"
 
-#: ../../classificationToVectorTab.rst:287
+#: ../../classificationToVectorTab.rst:289
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "conversion;"
 msgstr ""
-
-#~ msgid "**Parallel processing is available.**"
-#~ msgstr "Доступна паралельна обробка"

@@ -284,11 +284,18 @@ Values
 * :guilabel:`Incremental new values` |enter|: calculate a new incremental value (e.g. 1, 2, 3, ...) for every old value and fill the reclassification table;
 
 * |input_table| :guilabel:`Values`: table containing the following fields;
-	* :guilabel:`Old value`: set the expression defining old values to be reclassified; ``Old value`` can be a value or an expressions defined using the variable name ``raster`` (custom names can be defined in :ref:`variable_name` ), following Python operators (e.g. ``raster > 3`` select all pixels having value > 3 ; ``raster > 5 | raster < 2`` select all pixels having value > 5 or < 2 ; ``raster >= 2 & raster <= 5`` select all pixel values between 2 and 5);
-	* :guilabel:`New value`: set the new value for the old values defined in ``Old value``;
+	* :guilabel:`Old value`: set the expression defining old values to be reclassified; ``Old value`` can be a value or an expressions defined using the variable name ``raster`` (custom names can be defined in :ref:`variable_name` ), following Python operators (e.g. ``raster > 3`` select all pixels having value > 3 ; ``(raster > 5) | (raster < 2)`` with parenthesis required select all pixels having value > 5 or < 2 ; ``(raster >= 2) & (raster <= 5)`` with parenthesis required select all pixel values between 2 and 5);
+	* :guilabel:`New value`: set the new value for the old values defined in ``Old value``; it must be an integer value;
 
 * |add|: add a row to the table;
 * |remove|: remove highlighted rows from the table;
+* |import|: import rules from a text file .csv  separated by comma having the following structure ``Old_value,New_value`` (where Old_value cam be also an expression and New_value is an integer value) for instance::
+
+	raster < 1,1
+	(raster > 1) & (raster < 3),2
+	raster < 3,3
+
+* |export|: export the reclassification table to a text file (.csv) that can be imported later;
 
 .. _reclass_symbology:
 

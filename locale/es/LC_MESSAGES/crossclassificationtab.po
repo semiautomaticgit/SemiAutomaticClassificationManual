@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2020, Luca Congedo
+# Copyright (C) 2012-2019, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-05 14:44+0100\n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -50,6 +50,10 @@ msgstr ""
 "posible elegir un campo que describa los valores de clase."
 
 #: ../../crossClassificationTab.rst:273
+msgid "**Parallel processing is available.**"
+msgstr ""
+
+#: ../../crossClassificationTab.rst:275
 msgid ""
 "The output is a ``cross raster`` that is a ``.tif`` file where pixel values "
 "represent the categories of comparison (i.e. combinations identified by the "
@@ -64,11 +68,11 @@ msgstr ""
 "conteniendo la matriz cruzada (i.e. un archivo ``.csv`` separado por "
 "tabulaciones) con el mismo nombre que el archivo ``.tif``."
 
-#: ../../crossClassificationTab.rst:279
+#: ../../crossClassificationTab.rst:281
 msgid "Input"
 msgstr "Entrada"
 
-#: ../../crossClassificationTab.rst:281
+#: ../../crossClassificationTab.rst:283
 msgid ""
 ":guilabel:`Select the classification` |input_list|: select a classification "
 "raster (already loaded in QGIS);"
@@ -76,19 +80,17 @@ msgstr ""
 ":guilabel:`Selecciona la clasificación` |input_list|: selecciona un ráster "
 "de clasificación (ya cargadoen QGIS);"
 
-#: ../../crossClassificationTab.rst:282 ../../crossClassificationTab.rst:285
+#: ../../crossClassificationTab.rst:284 ../../crossClassificationTab.rst:287
 msgid "|reload|: refresh layer list;"
 msgstr "|reload|: recargar la lista de capas;"
 
-#: ../../crossClassificationTab.rst:283
+#: ../../crossClassificationTab.rst:285
 msgid ""
 "|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
 "``NoData`` value will be excluded from the calculation;"
 msgstr ""
-"|checkbox| :guilabel: `Usar valor como NoData` | input_number |: si está "
-"marcado, el valor` `NoData`` se excluirá del cálculo;"
 
-#: ../../crossClassificationTab.rst:284
+#: ../../crossClassificationTab.rst:286
 msgid ""
 ":guilabel:`Select the reference vector or raster` |input_list|: select a "
 "raster or a vector (already loaded in QGIS), used as reference layer;"
@@ -97,7 +99,7 @@ msgstr ""
 "seleccione un ráster o un vector (ya cargado en QGIS), utilizado como capa "
 "de referencia;"
 
-#: ../../crossClassificationTab.rst:286
+#: ../../crossClassificationTab.rst:288
 msgid ""
 ":guilabel:`Vector field` |input_list|: if a vector is selected as reference,"
 " select a vector field containing numeric class values;"
@@ -106,13 +108,12 @@ msgstr ""
 "referencia, seleccione un campo vectorial que contenga valores de clase "
 "numéricos;"
 
-#: ../../crossClassificationTab.rst:289
+#: ../../crossClassificationTab.rst:291
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
-": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
-#: ../../crossClassificationTab.rst:290
+#: ../../crossClassificationTab.rst:292
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation; the cross matrix is displayed in the tab :guilabel:`Output` and"
@@ -121,6 +122,3 @@ msgstr ""
 ":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo; la "
 "matriz de error se muestra en la pestaña: guilabel:`Salida` y el  `` raster "
 "cruzado`` es cargado en QGIS;"
-
-#~ msgid "**Parallel processing is available.**"
-#~ msgstr "** El procesamiento en paralelo está disponible. **"

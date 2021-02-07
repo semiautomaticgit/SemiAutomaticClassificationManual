@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-28 16:24+0100\n"
+"POT-Creation-Date: 2021-02-07 21:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -311,13 +311,13 @@ msgstr ""
 msgid "Also, variables for output name are available:"
 msgstr ""
 
-#: ../../bandCalcTab.rst:401 ../../bandCalcTab.rst:598
+#: ../../bandCalcTab.rst:401 ../../bandCalcTab.rst:609
 msgid ""
 ":guilabel:`#BANDSET#`: the name of the first band in the "
 ":ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:402 ../../bandCalcTab.rst:599
+#: ../../bandCalcTab.rst:402 ../../bandCalcTab.rst:610
 msgid ""
 ":guilabel:`#DATE#`: the current date and time (e.g. "
 "20161110_113846527764);"
@@ -431,57 +431,66 @@ msgstr ""
 #: ../../bandCalcTab.rst:452
 msgid ""
 ":guilabel:`where`: conditional expression according to the syntax "
-"``where( condition , value if true, value if false)`` (e.g. "
-"``where(\"raster1\" == 1, 2, \"raster1\")``);"
+"``where( condition , value if true, value if false)`` for example::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:457
-msgid "Logical"
-msgstr ""
-
-#: ../../bandCalcTab.rst:459
-msgid ":guilabel:`AND`: AND;"
-msgstr ""
-
-#: ../../bandCalcTab.rst:460
-msgid ":guilabel:`OR`: OR;"
+#: ../../bandCalcTab.rst:456
+msgid ""
+"Parenthesis are required for multiple conditions for instance to select "
+"pixel values between 1 and 3::"
 msgstr ""
 
 #: ../../bandCalcTab.rst:461
-msgid ":guilabel:`XOR`: XOR;"
-msgstr ""
-
-#: ../../bandCalcTab.rst:462
-msgid ":guilabel:`NOT`: NOT;"
+msgid "Nested conditions can be defined such as::"
 msgstr ""
 
 #: ../../bandCalcTab.rst:468
-msgid "Statistics"
+msgid "Logical"
 msgstr ""
 
 #: ../../bandCalcTab.rst:470
+msgid ":guilabel:`AND`: AND;"
+msgstr ""
+
+#: ../../bandCalcTab.rst:471
+msgid ":guilabel:`OR`: OR;"
+msgstr ""
+
+#: ../../bandCalcTab.rst:472
+msgid ":guilabel:`XOR`: XOR;"
+msgstr ""
+
+#: ../../bandCalcTab.rst:473
+msgid ":guilabel:`NOT`: NOT;"
+msgstr ""
+
+#: ../../bandCalcTab.rst:479
+msgid "Statistics"
+msgstr ""
+
+#: ../../bandCalcTab.rst:481
 msgid ""
 "A band list between square brackets or :ref:`input_variables` are "
 "required arguments."
 msgstr ""
 
-#: ../../bandCalcTab.rst:472
+#: ../../bandCalcTab.rst:483
 msgid ":guilabel:`max`: maximum; for instance::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:476
+#: ../../bandCalcTab.rst:487
 msgid ":guilabel:`min`: minimum; for instance::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:480
+#: ../../bandCalcTab.rst:491
 msgid ":guilabel:`mean`: mean; for instance::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:484
+#: ../../bandCalcTab.rst:495
 msgid ":guilabel:`median`: median; for instance::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:488
+#: ../../bandCalcTab.rst:499
 msgid ""
 ":guilabel:`percentile`: percentile calculation; the expression must have "
 "this structure ``percentile([band_list], percentile_value)``; for "
@@ -489,87 +498,87 @@ msgid ""
 "active band set::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:492
+#: ../../bandCalcTab.rst:503
 msgid ":guilabel:`std`: standard deviation; for instance::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:496
+#: ../../bandCalcTab.rst:507
 msgid ":guilabel:`sum`: sum; for instance::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:500
+#: ../../bandCalcTab.rst:511
 msgid "**Operations**"
 msgstr ""
 
-#: ../../bandCalcTab.rst:502
+#: ../../bandCalcTab.rst:513
 msgid ":guilabel:`sin`: sine; for instance::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:506
+#: ../../bandCalcTab.rst:517
 msgid ":guilabel:`cos`: cosine;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:507
+#: ../../bandCalcTab.rst:518
 msgid ":guilabel:`tan`: tangent;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:508
+#: ../../bandCalcTab.rst:519
 msgid ":guilabel:`asin`: inverse sine;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:509
+#: ../../bandCalcTab.rst:520
 msgid ":guilabel:`acos`: inverse cosine;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:510
+#: ../../bandCalcTab.rst:521
 msgid ":guilabel:`atan`: inverse tangent;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:511
+#: ../../bandCalcTab.rst:522
 msgid ":guilabel:`exp`: natural exponential;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:512
+#: ../../bandCalcTab.rst:523
 msgid ":guilabel:`ln`: natural logarithm;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:513
+#: ../../bandCalcTab.rst:524
 msgid ":guilabel:`log`: base 10 logarithm;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:515
+#: ../../bandCalcTab.rst:526
 msgid "**Indices**"
 msgstr ""
 
-#: ../../bandCalcTab.rst:517
+#: ../../bandCalcTab.rst:528
 msgid ""
 ":guilabel:`NDVI`: if selected, the NDVI calculation is entered in the "
 ":guilabel:`Expression`::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:521
+#: ../../bandCalcTab.rst:532
 msgid ""
 ":guilabel:`EVI`: if selected, the EVI calculation is entered in the "
 ":guilabel:`Expression`::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:525
+#: ../../bandCalcTab.rst:536
 msgid ""
 ":guilabel:`NBR`: if selected, the NBR calculation is entered in the "
 ":guilabel:`Expression`::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:529
+#: ../../bandCalcTab.rst:540
 msgid "**Variables**"
 msgstr ""
 
-#: ../../bandCalcTab.rst:531
+#: ../../bandCalcTab.rst:542
 msgid ""
 ":guilabel:`nodata`: NoData value of raster (e.g. "
 "``nodata(\"raster1\")``); it can be used as value in the expression::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:535
+#: ../../bandCalcTab.rst:546
 msgid ""
 ":guilabel:`forbandsets`: it allows for the iteration over :guilabel:`Band"
 " sets` defined between square brackets; a range of :guilabel:`Band sets` "
@@ -579,18 +588,18 @@ msgid ""
 "``forbandsinbandset``), for instance::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:540
+#: ../../bandCalcTab.rst:551
 msgid ""
 "During the iteration, the :ref:`input_variables` related to the active "
 ":guilabel:`Band set` are replaced by the iterator, therefore the "
 "expression::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:545
+#: ../../bandCalcTab.rst:556
 msgid "is equivalent to::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:551
+#: ../../bandCalcTab.rst:562
 msgid ""
 "It is possible to enter a string (or a list of strings separated by comma"
 " ``,``) after the square bracket ``]`` to filter :guilabel:`Band sets` by"
@@ -600,7 +609,7 @@ msgid ""
 "includes ``RT``::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:555
+#: ../../bandCalcTab.rst:566
 msgid ""
 ":guilabel:`forbsdates`: it allows for the iteration over :guilabel:`Band "
 "sets` dates (format yyyy-mm-dd, defined in :ref:`band_set_definition`) "
@@ -609,25 +618,25 @@ msgid ""
 "``forbandsinbandset``) such as the following examples:"
 msgstr ""
 
-#: ../../bandCalcTab.rst:557
+#: ../../bandCalcTab.rst:568
 msgid "Iterating over a range of dates::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:562
+#: ../../bandCalcTab.rst:573
 msgid "Iterating over a list of dates::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:567
+#: ../../bandCalcTab.rst:578
 msgid "Iterating over a list of ranges of dates::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:572
+#: ../../bandCalcTab.rst:583
 msgid ""
 "During the iteration, the :ref:`input_variables` related to the active "
 ":guilabel:`Band set` are replaced by the iterator."
 msgstr ""
 
-#: ../../bandCalcTab.rst:574
+#: ../../bandCalcTab.rst:585
 msgid ""
 "It is possible to enter a string (or a list of strings separated by comma"
 " ``,``) after the square bracket ``]`` to filter :guilabel:`Band sets` by"
@@ -637,7 +646,7 @@ msgid ""
 "includes ``RT``::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:578
+#: ../../bandCalcTab.rst:589
 msgid ""
 ":guilabel:`forbandsinbandset`: it allows for the iteration over bands in "
 "a :guilabel:`Band set` or a range of :guilabel:`Band sets` between square"
@@ -647,21 +656,21 @@ msgid ""
 "following examples:"
 msgstr ""
 
-#: ../../bandCalcTab.rst:580
+#: ../../bandCalcTab.rst:591
 msgid ""
 "Iterating over the bands of the first :guilabel:`Band set` (note the "
 "``\"`` in the expression)::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:585
+#: ../../bandCalcTab.rst:596
 msgid "Iterating over all the bands of :guilabel:`Band sets` from 1 to 3::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:590
+#: ../../bandCalcTab.rst:601
 msgid ":guilabel:`#BAND#`:"
 msgstr ""
 
-#: ../../bandCalcTab.rst:592
+#: ../../bandCalcTab.rst:603
 msgid ""
 ":guilabel:`!function!`: it allows for using a :ref:`batch_tools` function"
 " inside Band calc; !function! must be followed by a Batch command to "
@@ -676,15 +685,15 @@ msgid ""
 "instance::"
 msgstr ""
 
-#: ../../bandCalcTab.rst:600
+#: ../../bandCalcTab.rst:611
 msgid ":guilabel:`@`: charcter @;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:605
+#: ../../bandCalcTab.rst:616
 msgid "Decision rules"
 msgstr ""
 
-#: ../../bandCalcTab.rst:611
+#: ../../bandCalcTab.rst:622
 msgid ""
 ":guilabel:`Decision rules` allows for the calculation of an output raster"
 " based on rules. Rules are conditional statements based on other rasters;"
@@ -692,7 +701,7 @@ msgid ""
 "assigned to the output pixel."
 msgstr ""
 
-#: ../../bandCalcTab.rst:614
+#: ../../bandCalcTab.rst:625
 msgid ""
 "Rules are verified from the first to the last row in the table; if the "
 "first :guilabel:`Rule` is false, the next :guilabel:`Rule` is verified "
@@ -702,19 +711,19 @@ msgid ""
 ":guilabel:`Rule` is true."
 msgstr ""
 
-#: ../../bandCalcTab.rst:620
+#: ../../bandCalcTab.rst:631
 msgid ""
 "|input_table| :guilabel:`Decision rules`: table containing the following "
 "fields;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:619
+#: ../../bandCalcTab.rst:630
 msgid ""
 ":guilabel:`Value`: the value assigned to pixels if the :guilabel:`Rule` "
 "is true;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:620
+#: ../../bandCalcTab.rst:631
 msgid ""
 ":guilabel:`Rule`: the rule to be verified (e.g. ``\"raster1\" > 0``); "
 "multiple conditional statements can be entered separated by ``;`` (e.g. "
@@ -722,39 +731,39 @@ msgid ""
 ":guilabel:`Value` where ``raster1`` > 0 and ``raster2`` < 1);"
 msgstr ""
 
-#: ../../bandCalcTab.rst:622
+#: ../../bandCalcTab.rst:633
 msgid "|move_up|: move highlighted rule up;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:623
+#: ../../bandCalcTab.rst:634
 msgid "|move_down|: move highlighted rule down;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:624
+#: ../../bandCalcTab.rst:635
 msgid "|add|: add a new row to the table;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:625
+#: ../../bandCalcTab.rst:636
 msgid "|remove|: delete the highlighted rows from the table;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:626
+#: ../../bandCalcTab.rst:637
 msgid "|reset|: clear the table;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:627
-msgid "|export|: export the rules to a text file that can be imported later;"
-msgstr ""
-
-#: ../../bandCalcTab.rst:628
+#: ../../bandCalcTab.rst:638
 msgid "|import|: import rules from a text file;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:633
+#: ../../bandCalcTab.rst:639
+msgid "|export|: export the rules to a text file that can be imported later;"
+msgstr ""
+
+#: ../../bandCalcTab.rst:644
 msgid "Output raster"
 msgstr ""
 
-#: ../../bandCalcTab.rst:635
+#: ../../bandCalcTab.rst:646
 msgid ""
 "The output raster is a .tif file, with the same spatial resolution and "
 "projection of input rasters; if input rasters have different spatial "
@@ -762,42 +771,42 @@ msgid ""
 "used for output raster."
 msgstr ""
 
-#: ../../bandCalcTab.rst:637
+#: ../../bandCalcTab.rst:648
 msgid ""
 "**WARNING**: if multiple lines are entered in Expression or output name "
 "are defined in line, a directory selection instead of a file selection is"
 " prompted for output."
 msgstr ""
 
-#: ../../bandCalcTab.rst:639
+#: ../../bandCalcTab.rst:650
 msgid ""
 ":guilabel:`Float32` |input_list|: option to select output raster type as "
 "Float32 (default), Int32, Int16, UInt32, UInt16, Byte;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:640
+#: ../../bandCalcTab.rst:651
 msgid ""
 ":guilabel:`Output NoData` |input_number|: set the value of ``NoData`` "
 "pixels in output raster;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:641
+#: ../../bandCalcTab.rst:652
 msgid ""
 "|checkbox| :guilabel:`Set scale` |input_number|: if checked, set a scale "
 "in output raster (and output values are divided by scale);"
 msgstr ""
 
-#: ../../bandCalcTab.rst:642
+#: ../../bandCalcTab.rst:653
 msgid ""
 "|checkbox| :guilabel:`Set offset` |input_number|: if checked, set an "
 "offset in output raster (and offset is subtracted to output values);"
 msgstr ""
 
-#: ../../bandCalcTab.rst:643
+#: ../../bandCalcTab.rst:654
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../bandCalcTab.rst:644
+#: ../../bandCalcTab.rst:655
 msgid ""
 ":guilabel:`RUN` |run|: if ``Expression`` is active and text is green, "
 "choose the output destination and start the calculation based on "
@@ -807,6 +816,14 @@ msgid ""
 msgstr ""
 
 #~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`where`: conditional expression according"
+#~ " to the syntax ``where( condition ,"
+#~ " value if true, value if false)`` "
+#~ "(e.g. ``where(\"raster1\" == 1, 2, "
+#~ "\"raster1\")``);"
 #~ msgstr ""
 
 #~ msgid ":guilabel:`mean`: mean;"

@@ -449,7 +449,18 @@ Functions
 Conditional
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* :guilabel:`where`: conditional expression according to the syntax ``where( condition , value if true, value if false)`` (e.g. ``where("raster1" == 1, 2, "raster1")``);
+* :guilabel:`where`: conditional expression according to the syntax ``where( condition , value if true, value if false)`` for example::
+
+	where("raster1" == 1, 2, "raster1")
+	
+Parenthesis are required for multiple conditions for instance to select pixel values between 1 and 3::
+
+	where( ("raster1" > 1) & ("raster1" < 3), 2, "raster1")
+
+
+Nested conditions can be defined such as::
+
+	where( ("raster1" > 1) & ("raster1" < 3), 2, "raster1")
 
 .. _band_calc_logical:
 
@@ -624,8 +635,8 @@ The ``NoData`` value is assigned to those pixels where no :guilabel:`Rule` is tr
 * |add|: add a new row to the table;
 * |remove|: delete the highlighted rows from the table;
 * |reset|: clear the table;
-* |export|: export the rules to a text file that can be imported later;
 * |import|: import rules from a text file;
+* |export|: export the rules to a text file that can be imported later;
 	
 .. _output_raster:
 

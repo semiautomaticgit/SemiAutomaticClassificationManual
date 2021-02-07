@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2020, Luca Congedo
+# Copyright (C) 2012-2019, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2020-10-25 23:18+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -46,9 +46,6 @@ msgid ""
 "A report .txt is saved along with the PCA bands, containing the covariance "
 "matrix, correlation matrix, eigen vectors, and eigen values."
 msgstr ""
-"Se guarda un .txt de informe junto con las bandas de PCA, que contiene la "
-"matriz de covarianza, la matriz de correlación, los vectores propios y los "
-"valores propios."
 
 #: ../../PCATab.rst:275
 msgid "Principal Component Analysis of Band set"
@@ -77,15 +74,11 @@ msgid ""
 "|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, set "
 "the value of ``NoData`` pixels, ignored during the calculation;"
 msgstr ""
-"|checkbox| :guilabel:`Usar valor como NoData` | input_number |: si está "
-"marcado, establezca el valor de los píxeles` `NoData '', ignorados durante "
-"el cálculo;"
 
 #: ../../PCATab.rst:281
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
-": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
 #: ../../PCATab.rst:282
 msgid ""

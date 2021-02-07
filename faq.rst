@@ -317,25 +317,6 @@ If you found an error of the Semi-Automatic Classification Plugin please follow 
 #. open the **log file** and copy the whole content of the file;
 #. join the Facebook `group <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ , create a new post and copy the error message and the **log file** (or attach them).
 
-.. _error_1:
-
-Virtual raster creation issues. Why?
------------------------------------------------------------------------------------------
-
-The automatic creation of the virtual raster after Landsat conversion to reflectance is not required for the classification. Errors could happen if the output destination path contains special characters (such as accented letters) or spaces; try to rename directories (e.g. rename ``new directory`` to ``new_directory``).
-If you still get the same error you can create a virtual raster manually.
-
-.. _error_3:
-
-Error 'Plugin is damaged. Python said: ascii'. Why?
------------------------------------------------------------------------------------------
-
-It could be related to a wrong installation.
-Please, uninstall QGIS and install it again with administrative rights.
-Then run QGIS and try to install the plugin following the :ref:`installation` guide.
-
-Also, it could be related to the user name containing special characters.
-Please try the installation creating a new user without special characters (e.g. ``user``).
 
 .. _error_4:
 
@@ -417,13 +398,9 @@ Free and valuable resources about remote sensing and GIS
 
 The following links are valuable resources:
 
-	* `The Landsat 8 Data Users Handbook by USGS <https://www.usgs.gov/land-resources/nli/landsat/landsat-8-data-users-handbook>`_;
-	* `The Landsat 7 Science Data Users Handbook by NASA <https://www.usgs.gov/land-resources/nli/landsat/landsat-7-data-users-handbook>`_;
-	* `Webinar: Fundamentals of Remote Sensing by NASA <https://arset.gsfc.nasa.gov/webinars/fundamentals-remote-sensing>`_.
-	* `Webinar: NASA Remote Sensing for Land Management by NASA <https://arset.gsfc.nasa.gov/land/webinars/land-management14>`_.
-	* `Webinar: Creating and Using Normalized Difference Vegetation Index (NDVI) from Satellite Imagery by NASA <https://arset.gsfc.nasa.gov/land/webinars/advancedNDVI>`_.
-	* `Webinar: Remote Sensing of Forest Cover and Change Assessment for Carbon Monitoring by NASA <https://arset.gsfc.nasa.gov/land/webinars/carbon-monitoring-2016>`_.
-	* `Webinar: Introduction to Remote Sensing for Conservation Management by NASA <https://arset.gsfc.nasa.gov/land/webinars/intro-conservation15>`_.
+	* `The Landsat 8 Data Users Handbook by USGS <https://www.usgs.gov/core-science-systems/nli/landsat/landsat-8-data-users-handbook>`_;
+	* `The Landsat 7 Science Data Users Handbook by NASA <https://www.usgs.gov/core-science-systems/nli/landsat/landsat-7-data-users-handbook>`_;
+	* `Webinar: Fundamentals of Remote Sensing by NASA <https://appliedsciences.nasa.gov/join-mission/training/english/fundamentals-remote-sensing>`_.
 
 .. _other_3:
 
@@ -435,20 +412,19 @@ Following an incomplete list of these resources (please note that these resource
 
 	* `English: Webinar by NASA ARSET about Land Cover Classification with Satellite Imagery <https://arset.gsfc.nasa.gov/land/webinars/advanced-land-classification>`_;
 	* `English: Recommended Practice by UN-SPIDER about Burn Severity Mapping Burn Severity with QGIS <http://www.un-spider.org/node/10955>`_;
-	* `English: Using the SCP QGIS plugin to download and process Sentinel 2 imagery <https://www.youtube.com/watch?v=77BEF7txk4s>`_;
 	* `French: Télédétection des feux de forêts <https://www.geonov.fr/exemples/teledetection-feux-de-forets/>`_;
 	* `German: 2015 Jakob Erfassung von Landnutzungsveränderungen mit FOSS Image Processing Tools <https://www.youtube.com/watch?v=vIsHFvLS5_Q>`_;
+	* `Greek: Landsat radiometric correction with QGIS - Ραδιομετρική διόρθωση δεδομένων <https://www.youtube.com/watch?v=FStnE0jwVx4>`_;
+	* `Greek: Supervised classification of Landsat image and accuracy assessment with QGIS <https://www.youtube.com/watch?v=f7SkMUWOvTo>`_;
 	* `Indonesian: Koreksi Radiometrik Menggunakan QGIS:Semi Automatic Classification <https://rosegislabs.com/2017/02/28/koreksi-radiometrik-menggunakan-qgissemi-automatic-classification-part-1/>`_;
-	* `Italian: Classificazione e Mosaico di Varie Immagini Landsat <https://fromgistors.blogspot.com/2015/09/tutorial-classificazione-mosaico-landsat.html>`_;
+	* `Italian: Geobreak 7 - I dati satellitari Sentinel 2 in QGIS <https://www.youtube.com/watch?v=qZOu_wAACyU>`_;
 	* `Korean: QGIS Semi-Automatic Classification Plugin <http://blog.daum.net/geoscience/715>`_;
 	* `Portuguese: Workshop de Deteção Remota e Processamento Digital de Imagem com o QGIS e o Semi-Automatic Classification Plugin <https://pt.slideshare.net/PedroNGV/workshop-de-deteo-remota-e-processamento-digital-de-imagem-com-o-qgis-e-o-semiautomatic-classification-plugin>`_;
-	* `Portuguese: Classificacao supervisionada de imagens Sentinel-2 com QGIS e SCP <https://www.youtube.com/watch?v=t5D6JT7adYY>`_;
 	* `Portuguese: Avaliação do erro de uma imagem de satélite usando o QGIS e o SCP <https://www.youtube.com/watch?v=k1yjcJPb1WI>`_;
-	* `Portuguese: Conversão Sentinel-2 para refletância com QGIS SCP <https://www.youtube.com/watch?v=m3XFvvVrU24>`_;
-	* `Portuguese: Criar composições coloridas no QGIS com SCP <https://www.youtube.com/watch?v=LWvDEE1Evxg>`_;
-	* `Portuguese: Corte de imagem Sentinel-2 usand QGIS e SCP <https://www.youtube.com/watch?v=8UHey-bQJGs>`_;
-	* `Portuguese: Deteção Remota Com O QGIS <http://qgis.pt/blog/2016/12/14/detecao-remota-com-o-qgis/>`_;
+	* `Portuguese: QGIS 3.10: Baixar Bandas Individuais do Sentinel-2 pelo Plugin SCP <https://www.youtube.com/watch?v=r73HO1TuosM>`_;
 	* `Russian: Опыт классификации космоснимка Sentinel- 2a с помощью Semi-Automatic Classification Plugin в QGIS <http://gis-lab.info/qa/qgis-sacp-sentinel2a.html>`_;
+	* `Spanish: Descargar imágenes Landsat, calcular NDVI y NDWI con QGIS <https://www.youtube.com/watch?v=4vDY8o5uBhs>`_;
+	* `Spanish: Clasificación Supervisada con Imágenes Landsat8 en QGIS "Pi" y Semi-Automatic Classification Plugin <https://www.youtube.com/watch?v=ZbIsJuHeoJo>`_;
 	* `Spanish: Descarga de imágenes de satélite desde servidores públicos <https://www.youtube.com/watch?v=OxGbZo6Go5g>`_;
 	* `Swedish: Landsat 8 och fjärranalys med QGIS <https://geosupportsystem.wordpress.com/2015/04/02/landsat-8-och-fjarranalys-med-qgis/>`_;
 	* `Ukrainian: Основи дешифрування плагіном Semi-Automatic Classification 5.0 <https://www.youtube.com/watch?v=kwI4RhYr8Rc>`_;

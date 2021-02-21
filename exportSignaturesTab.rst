@@ -266,6 +266,6 @@ Export signatures
 This tool allows for exporting the signatures highlighted in the :ref:`ROI_list`.
 
 * :guilabel:`Export as SCP file` |new_file|: create a new .scp file and export highlighted ROIs and spectral signatures as :guilabel:`SCP` file (* .scp);
-* :guilabel:`Export as shapefile` |new_file|: export highlighted ROIs (spectral signature data excluded) as a new shapefile (* .shp);
+* :guilabel:`Export as shapefile or geopackage` |new_file|: export highlighted ROIs (spectral signature data excluded) as a new shapefile (* .shp) or geopackage (* .gpkg);
 * :guilabel:`Export as CSV file` |open_dir|: open a directory, and export highlighted spectral signatures as individual CSV files (* .csv) separated by semicolon ( ; );
 	

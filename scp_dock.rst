@@ -143,6 +143,9 @@ SCP dock
 .. |undo_save_roi| image:: _static/semiautomaticclassificationplugin_undo_save_roi.png
 	:width: 20pt
 	
+.. |redo_save_roi| image:: _static/semiautomaticclassificationplugin_redo_save_roi.png
+	:width: 20pt
+	
 .. |radiobutton| image:: _static/radiobutton.png
 	:width: 18pt
 	
@@ -318,7 +321,8 @@ A :ref:`band_set_tab` must be defined before the ROI creation, and ROI polygons 
 * :guilabel:`MC Name` |input_text| |project_save|: ROI Macroclass Name;
 * :guilabel:`C ID` |input_number| |project_save|: ROI Class ID;
 * :guilabel:`C Name` |input_text| |project_save|: ROI Class Name;
-* |undo_save_roi|: delete the last saved ROI from the :ref:`training_input`;
+* |undo_save_roi|: undo of ROI creation from the :ref:`training_input`; it is possible to undo a maximum of 10 actions;
+* |redo_save_roi|: redo ROI creation in the :ref:`training_input`;
 * |checkbox| :guilabel:`Autosave` |project_save|: if checked, automatically save the :guilabel:`ROI & Signature list` to the :ref:`training_input` every time a ROI is saved;
 * |checkbox| :guilabel:`Signature` |project_save|: if checked, while saving a ROI, the spectral signature thereof is calculated (from :ref:`band_set_tab` pixels under ROI polygon) and saved to :ref:`training_input` (calculation time depends on the band number of the :guilabel:`active band set` in :ref:`band_set_tab`);
 * |save_roi|: save the temporary ROI to the :ref:`training_input` using the defined classes and macroclasses; ROI is displayed in the :ref:`ROI_list`;

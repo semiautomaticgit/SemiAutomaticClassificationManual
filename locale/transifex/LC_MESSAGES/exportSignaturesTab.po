@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2021-02-21 01:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,8 +41,9 @@ msgstr ""
 
 #: ../../exportSignaturesTab.rst:269
 msgid ""
-":guilabel:`Export as shapefile` |new_file|: export highlighted ROIs "
-"(spectral signature data excluded) as a new shapefile (* .shp);"
+":guilabel:`Export as shapefile or geopackage` |new_file|: export "
+"highlighted ROIs (spectral signature data excluded) as a new shapefile (*"
+" .shp) or geopackage (* .gpkg);"
 msgstr ""
 
 #: ../../exportSignaturesTab.rst:270
@@ -51,4 +52,11 @@ msgid ""
 "highlighted spectral signatures as individual CSV files (* .csv) "
 "separated by semicolon ( ; );"
 msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`Export as shapefile` |new_file|: "
+#~ "export highlighted ROIs (spectral signature"
+#~ " data excluded) as a new shapefile"
+#~ " (* .shp);"
+#~ msgstr ""
 

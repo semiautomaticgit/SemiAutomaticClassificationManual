@@ -274,7 +274,7 @@ This tool allows for searching and downloading:
 * :ref:`GOES_definition` images (GOES 16 and GOES 17 Full Disk L1b Radiance) acquired from 2017 to present days;
 
 For Landsat, ASTER, and MODIS the search is performed through the `CMR Search API <https://cmr.earthdata.nasa.gov/search/site/search_api_docs.html>`_ developed by NASA.
-Landsat images are freely available through the services: `EarthExplorer <http://earthexplorer.usgs.gov/>`_ , `Google Cloud Storage Landsat <https://cloud.google.com/storage/docs/public-datasets/landsat>`_ .
+Landsat images are freely available through the services: `EarthExplorer USGS <http://earthexplorer.usgs.gov/>`_ , `Google Cloud Storage Landsat <https://cloud.google.com/storage/docs/public-datasets/landsat>`_ .
 The ASTER L1T and MODIS products are retrieved from the online Data Pool, courtesy of the NASA Land Processes Distributed Active Archive Center (LP DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux Falls, South Dakota, https://lpdaac.usgs.gov/data_access/data_pool.
 
 GOES products are downloaded through `Amazon AWS Open Data <https://registry.opendata.aws/noaa-goes>`_ .
@@ -302,7 +302,7 @@ Login data
 Login https://ers.cr.usgs.gov
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-For Landsat images `USGS EROS` credentials (https://ers.cr.usgs.gov) are required for downloads from `EarthExplorer <http://earthexplorer.usgs.gov/>`_ .
+For Landsat images `USGS EROS` credentials (https://ers.cr.usgs.gov) are required for downloads from `EarthExplorer <https://earthexplorer.usgs.gov/>`_ .
 Login using your `USGS EROS` credentials or register for free at https://ers.cr.usgs.gov/register .
 
 * :guilabel:`User` |input_text| |registry_save|: enter the user name;
@@ -329,12 +329,15 @@ Login Sentinels
 
 In order to access to Sentinel data a free registration is required at https://scihub.copernicus.eu/userguide/1SelfRegistration (other services may require different registrations).
 After the registration, enter the user name and password for accessing data.
+
+For searching Sentinel-2 images it is possible to use a service that does not require authentication. 
 	
 * :guilabel:`Service` |input_text| |registry_save|: enter the service URL (default is https://scihub.copernicus.eu/apihub); other mirror services that share the same infrastructure can be used (such as https://scihub.copernicus.eu/dhus , https://finhub.nsdc.fmi.fi , https://data.sentinel.zamg.ac.at);
 * |reset|: reset the default service;
 * :guilabel:`User` |input_text| |registry_save|: enter the user name;
 * :guilabel:`Password` |input_text| |registry_save|: enter the password;
 * |checkbox| :guilabel:`remember`: remember user name and password in QGIS;
+* |checkbox| :guilabel:`Use alternative search for Sentinel-2 (no authentication required)` |registry_save|: if checked, use the `CREODIAS Finder API <https://creodias.eu/>`_ for searching (from https://creodias.eu/eo-data-finder-api-manual the database is accessible free and anonymously, and open for anonymous access to everyone, no authorization is used); more information about Copernicus DIAS platforms at https://www.copernicus.eu/en/access-data/dias ;
 
 .. _search_tab:
 

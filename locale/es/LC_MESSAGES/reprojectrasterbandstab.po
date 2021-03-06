@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2020, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../reprojectrasterbandsTab.rst:5 ../../reprojectrasterbandsTab.rst:272
+msgid "Reproject raster bands"
+msgstr "Reproyectar bandas ráster"
+
+#: ../../reprojectrasterbandsTab.rst:265
+msgid "|clip_tool| :guilabel:`Reproject raster bands`"
+msgstr "|clip_tool| :guilabel:`Reproyectar bandas ráster`"
+
+#: ../../reprojectrasterbandsTab.rst:267
+msgid ""
+"This tab allows for reprojecting bands in a :ref:`band_set_tab` and perform "
+"other raster operations."
+msgstr ""
+"Esta pestaña permite reproyectar bandas en un: ref: `band_set_tab` y "
+"realizar otras operaciones ráster."
+
+#: ../../reprojectrasterbandsTab.rst:274
+msgid ""
+":guilabel:`Select input band set` |input_number|: select the input "
+":ref:`band_set_tab` to be reprojected;"
+msgstr ""
+": guilabel: `Select input band set` | input_number |: seleccione la entrada:"
+" ref:` band_set_tab` a reproyectar;"
+
+#: ../../reprojectrasterbandsTab.rst:275
+msgid ""
+"|checkbox| :guilabel:`Align to raster` |checkbox| :guilabel:`same extent as "
+"reference` |input_list| |optional|: if :guilabel:`Align to raster` is "
+"checked, use the same coordinate reference system and pixel size as the "
+"selected reference; if :guilabel:`same extent as reference` is checked, the "
+"output extent will be the same as the reference;"
+msgstr ""
+"| casilla de verificación | : guilabel: `Alinear con raster` | casilla de "
+"verificación | : guilabel: `misma extensión que la referencia` | input_list "
+"| | opcional |: si: guilabel: `Alinear al ráster` está marcado, use el mismo"
+" sistema de referencia de coordenadas y tamaño de píxel que la referencia "
+"seleccionada; si: guilabel: `misma extensión que la referencia` está "
+"marcada, la extensión de salida será la misma que la referencia;"
+
+#: ../../reprojectrasterbandsTab.rst:276
+msgid "|reload|: refresh layer list;"
+msgstr "|reload|: recargar la lista de capas;"
+
+#: ../../reprojectrasterbandsTab.rst:277
+msgid ""
+"|checkbox| :guilabel:`Use EPSG code` |input_text| :guilabel:`X resolution` "
+"|input_text| :guilabel:`Y resolution` |input_text| |optional|: if checked, "
+"use the EPSG code for defining the output coordinate reference system with "
+":guilabel:`X resolution` and :guilabel:`Y resolution`;"
+msgstr ""
+"| casilla de verificación | : guilabel: `Usar códigos EPSG` | input_text | :"
+" guilabel: `Resolución X` | input_text | : guilabel: `Y resolución` | "
+"input_text | | opcional |: si está marcado, use el código EPSG para definir "
+"el sistema de referencia de coordenadas de salida con: guilabel: `resolución"
+" X` y: guilabel:` resolución Y`;"
+
+#: ../../reprojectrasterbandsTab.rst:278
+msgid ""
+"|checkbox| :guilabel:`Resample pixel factor` |input_text| |optional|: if "
+"checked, new pixel size will be the original size times this factor;"
+msgstr ""
+"| casilla de verificación | : guilabel: `Volver a muestrear el factor de "
+"píxeles` | input_text | | opcional |: si se marca, el nuevo tamaño de píxel "
+"será el tamaño original multiplicado por este factor;"
+
+#: ../../reprojectrasterbandsTab.rst:279
+msgid ""
+":guilabel:`Resampling method` |input_list|: select the resampling method; "
+"options are ``nearest_neighbour``, ``average``, ``sum``, ``maximum``, "
+"``minimum``, ``mode``, ``median``, ``first_quartile``, ``third_quartile``;"
+msgstr ""
+": guilabel: `Método de remuestreo` | input_list |: seleccione el método de "
+"remuestreo; las opciones son `` vecino_más cercano '', `` promedio '', `` "
+"suma '', `` máximo '', `` mínimo '', `` moda '', `` mediana '', `` primer "
+"cuartil '', `` tercer cuartil '';"
+
+#: ../../reprojectrasterbandsTab.rst:280
+msgid ""
+":guilabel:`Output type` |input_list|: select the output raster type; options"
+" are ``Auto`` (same as input), ``Float32``, ``Int32``, ``UInt32``, "
+"``Int16``, ``UInt16``, ``Byte``;"
+msgstr ""
+": guilabel: `Tipo de salida` | lista_entrada |: seleccione el tipo de ráster"
+" de salida; las opciones son `` Auto '' (igual que la entrada), `` Float32 "
+"'', `` Int32 '', `` UInt32 '', `` Int16 '', `` UInt16 '', `` Byte '';"
+
+#: ../../reprojectrasterbandsTab.rst:281
+msgid ""
+"|checkbox| :guilabel:`Change output NoData value` |input_number| |optional|:"
+" if checked, set a new value for ``NoData`` pixels;"
+msgstr ""
+"| casilla de verificación | : guilabel: `Cambiar el valor de salida NoData` "
+"| input_number | | opcional |: si está marcado, establezca un nuevo valor "
+"para los píxeles `` NoData '';"
+
+#: ../../reprojectrasterbandsTab.rst:282
+msgid ""
+":guilabel:`Output name prefix` |input_text|: set the prefix for output file "
+"names (default is ``reproj``);"
+msgstr ""
+": guilabel: `Prefijo del nombre de salida` | input_text |: establesca el "
+"prefijo para los nombres de los archivos de salida (el valor predeterminado "
+"es` `reproj '');"
+
+#: ../../reprojectrasterbandsTab.rst:284
+msgid ""
+":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
+
+#: ../../reprojectrasterbandsTab.rst:285
+msgid ""
+":guilabel:`RUN` |run|: choose an output destination and start the process;"
+msgstr ""
+":guilabel:`RUN` |run|: elija un destino de salida e inicie el proceso;"

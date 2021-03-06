@@ -283,7 +283,6 @@ Zonal stat raster
 Statistic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* :guilabel:`Select a statistics` |input_list|: select a statistic; available options are ``Sum``, ``Max``, ``Min``, ``Count``, ``Mean``, ``Median``, ``Percentile``, ``StandardDeviation``;
-	
+* :guilabel:`Select a statistic` |input_list| |input_text|: select a statistic; available options are ``Sum``, ``Max``, ``Min``, ``Count``, ``Mean``, ``Median``, ``Percentile``, ``StandardDeviation``; for ``Percentile`` a value can be entered;
 * :guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;
 * :guilabel:`RUN` |run|: choose the output destination and start the calculation; 

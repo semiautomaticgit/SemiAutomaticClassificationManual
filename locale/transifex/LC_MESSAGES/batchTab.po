@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2021-03-06 20:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,130 +178,134 @@ msgid ":ref:`mosaic_bandsets_tab`: mosaic band sets::"
 msgstr ""
 
 #: ../../batchTab.rst:376
-msgid ":ref:`reproject_raster_bands_tab`: reproject raster bands::"
+msgid ":ref:`neighbor_pixels_tab`: neighbor pixels::"
 msgstr ""
 
 #: ../../batchTab.rst:380
-msgid ":ref:`sentinel1_tab`: Sentinel-1 conversion::"
+msgid ":ref:`reproject_raster_bands_tab`: reproject raster bands::"
 msgstr ""
 
 #: ../../batchTab.rst:384
-msgid ":ref:`sentinel2_tab`: Sentinel-2 conversion::"
+msgid ":ref:`sentinel1_tab`: Sentinel-1 conversion::"
 msgstr ""
 
 #: ../../batchTab.rst:388
-msgid ":ref:`sentinel3_tab`: Sentinel-3 conversion::"
+msgid ":ref:`sentinel2_tab`: Sentinel-2 conversion::"
 msgstr ""
 
 #: ../../batchTab.rst:392
-msgid ":ref:`vector_to_raster_tab`: convert vector to raster::"
+msgid ":ref:`sentinel3_tab`: Sentinel-3 conversion::"
 msgstr ""
 
 #: ../../batchTab.rst:396
-msgid ":ref:`split_raster_tab`: split raster to single bands::"
+msgid ":ref:`vector_to_raster_tab`: convert vector to raster::"
 msgstr ""
 
 #: ../../batchTab.rst:400
+msgid ":ref:`split_raster_tab`: split raster to single bands::"
+msgstr ""
+
+#: ../../batchTab.rst:404
 msgid ":ref:`stack_raster_tab`: stack rasters into a single file::"
 msgstr ""
 
-#: ../../batchTab.rst:407
-msgid "Band preprocessing"
-msgstr ""
-
-#: ../../batchTab.rst:409
-msgid ":ref:`band_combination_tab`: band combination::"
+#: ../../batchTab.rst:411
+msgid "Band processing"
 msgstr ""
 
 #: ../../batchTab.rst:413
-msgid ":ref:`classification_tab`: perform classification::"
+msgid ":ref:`band_combination_tab`: band combination::"
 msgstr ""
 
 #: ../../batchTab.rst:417
-msgid ":ref:`clustering_tab`: clustering::"
+msgid ":ref:`classification_tab`: perform classification::"
 msgstr ""
 
 #: ../../batchTab.rst:421
-msgid ":ref:`pca_tab`: Principal Component Analysis::"
+msgid ":ref:`clustering_tab`: clustering::"
 msgstr ""
 
 #: ../../batchTab.rst:425
-msgid ":ref:`random_forest_tab`: Random Forest classification::"
+msgid ":ref:`pca_tab`: Principal Component Analysis::"
 msgstr ""
 
 #: ../../batchTab.rst:429
+msgid ":ref:`random_forest_tab`: Random Forest classification::"
+msgstr ""
+
+#: ../../batchTab.rst:433
 msgid ":ref:`spectral_distance_tab`: spectral distance of band sets::"
 msgstr ""
 
-#: ../../batchTab.rst:436
-msgid "Post preprocessing"
-msgstr ""
-
-#: ../../batchTab.rst:438
-msgid ":ref:`accuracy_tab`: calculate accuracy::"
+#: ../../batchTab.rst:440
+msgid "Post processing"
 msgstr ""
 
 #: ../../batchTab.rst:442
-msgid ":ref:`class_signature_tab`: class signature::"
+msgid ":ref:`accuracy_tab`: calculate accuracy::"
 msgstr ""
 
 #: ../../batchTab.rst:446
-msgid ":ref:`classification_dilation_tab`: dilation of a classification::"
+msgid ":ref:`class_signature_tab`: class signature::"
 msgstr ""
 
 #: ../../batchTab.rst:450
-msgid ":ref:`classification_erosion_tab`: erosion of a classification::"
+msgid ":ref:`classification_dilation_tab`: dilation of a classification::"
 msgstr ""
 
 #: ../../batchTab.rst:454
-msgid ":ref:`classification_report_tab`: report of a classification::"
+msgid ":ref:`classification_erosion_tab`: erosion of a classification::"
 msgstr ""
 
 #: ../../batchTab.rst:458
-msgid ":ref:`classification_sieve_tab`: classification sieve::"
+msgid ":ref:`classification_report_tab`: report of a classification::"
 msgstr ""
 
 #: ../../batchTab.rst:462
-msgid ":ref:`classification_vector_tab`: convert classification to vector::"
+msgid ":ref:`classification_sieve_tab`: classification sieve::"
 msgstr ""
 
 #: ../../batchTab.rst:466
-msgid ":ref:`cross_classification_tab`: cross classification::"
+msgid ":ref:`classification_vector_tab`: convert classification to vector::"
 msgstr ""
 
 #: ../../batchTab.rst:470
-msgid ":ref:`edit_raster_tab`: edit raster values using a vector::"
+msgid ":ref:`cross_classification_tab`: cross classification::"
 msgstr ""
 
 #: ../../batchTab.rst:474
-msgid ":ref:`land_cover_change_tab`: calculate land cover change::"
+msgid ":ref:`edit_raster_tab`: edit raster values using a vector::"
 msgstr ""
 
 #: ../../batchTab.rst:478
-msgid ":ref:`reclassification_tab`: raster reclassification::"
+msgid ":ref:`land_cover_change_tab`: calculate land cover change::"
 msgstr ""
 
 #: ../../batchTab.rst:482
+msgid ":ref:`reclassification_tab`: raster reclassification::"
+msgstr ""
+
+#: ../../batchTab.rst:486
 msgid ""
 ":ref:`zonal_stat_raster_tab`: calculate zonal statistics related to an "
 "input raster::"
 msgstr ""
 
-#: ../../batchTab.rst:489
+#: ../../batchTab.rst:493
 msgid "Variables"
 msgstr ""
 
-#: ../../batchTab.rst:491
+#: ../../batchTab.rst:495
 msgid "**Working directory**"
 msgstr ""
 
-#: ../../batchTab.rst:493
+#: ../../batchTab.rst:497
 msgid ""
 ":guilabel:`!working_dir!`: set a working directory (argument is the path "
 "to a directory)::"
 msgstr ""
 
-#: ../../batchTab.rst:497
+#: ../../batchTab.rst:501
 msgid ""
 "If a working directory is defined, ``!working_dir!`` can be entered in "
 "other functions where a path is required (e.g. "
@@ -310,165 +314,165 @@ msgid ""
 "example of batch expression is::"
 msgstr ""
 
-#: ../../batchTab.rst:505
+#: ../../batchTab.rst:509
 msgid "**Iterate directories**"
 msgstr ""
 
-#: ../../batchTab.rst:507
+#: ../../batchTab.rst:511
 msgid ""
 ":guilabel:`!for_directory_in!`: function to iterate commands for all the "
 "directories in a directory path (e.g. "
 "``!for_directory_in!;'directoryPath'``)::"
 msgstr ""
 
-#: ../../batchTab.rst:511
+#: ../../batchTab.rst:515
 msgid ""
 "The variables !directory_name! can be used to reference the current "
 "directory name and !directory! for the current directory path."
 msgstr ""
 
-#: ../../batchTab.rst:513
+#: ../../batchTab.rst:517
 msgid ""
 "The iterated commands must terminate with a line ``!end_for_directory!``;"
 " for instance the following script performs Sentinel-2 conversion of all "
 "the subdirectories of ``/home/user/``::"
 msgstr ""
 
-#: ../../batchTab.rst:519
+#: ../../batchTab.rst:523
 msgid ""
 "Optionally a filter (i.e. only directories matching the filter will be "
 "processed) can be defined for the subdirectory level; the following "
 "examples stop the iteration at level 2::"
 msgstr ""
 
-#: ../../batchTab.rst:523
+#: ../../batchTab.rst:527
 msgid ""
 "A name filter can be set; for instance the following script creates a "
 "band set for every subdirectory having ``rt`` in the name::"
 msgstr ""
 
-#: ../../batchTab.rst:530 ../../batchTab.rst:574
+#: ../../batchTab.rst:534 ../../batchTab.rst:578
 msgid "Multiple name filters can be set separated by character ``|`` such as::"
 msgstr ""
 
-#: ../../batchTab.rst:534
+#: ../../batchTab.rst:538
 msgid ""
 "It is possible to filter by date if the directory name ends with a date "
 "(format yyyy-mm-dd) using a range separated by colon::"
 msgstr ""
 
-#: ../../batchTab.rst:540
+#: ../../batchTab.rst:544
 msgid ""
 ":guilabel:`!directory!`: variable to be used with ``!for_directory_in!`` "
 "to reference current directory path::"
 msgstr ""
 
-#: ../../batchTab.rst:544
+#: ../../batchTab.rst:548
 msgid ""
 ":guilabel:`!directory_name!`: variable to be used with "
 "``!for_directory_in!`` to reference current directory name::"
 msgstr ""
 
-#: ../../batchTab.rst:548
+#: ../../batchTab.rst:552
 msgid ""
 ":guilabel:`!end_for_directory!`: ending line to be used with "
 "``!for_directory_in!`` to close the iterative commands::"
 msgstr ""
 
-#: ../../batchTab.rst:552
+#: ../../batchTab.rst:556
 msgid "**Iterate files**"
 msgstr ""
 
-#: ../../batchTab.rst:554
+#: ../../batchTab.rst:558
 msgid ""
 ":guilabel:`!for_file_in!`: function to iterate commands for all the files"
 " in a directory path (e.g. ``!for_file_in!;'directoryPath'``)::"
 msgstr ""
 
-#: ../../batchTab.rst:558
+#: ../../batchTab.rst:562
 msgid "The variable !file! can be used to reference the current file path."
 msgstr ""
 
-#: ../../batchTab.rst:560
+#: ../../batchTab.rst:564
 msgid ""
 "The iterated commands must terminate with a line ``!end_for_file!``, for "
 "instance::"
 msgstr ""
 
-#: ../../batchTab.rst:566
+#: ../../batchTab.rst:570
 msgid ""
 "Optionally a filter (i.e. only directories matching the filter will be "
 "processed) can be defined for the subdirectory level; the following "
 "examples stop the iteration at level 0::"
 msgstr ""
 
-#: ../../batchTab.rst:570
+#: ../../batchTab.rst:574
 msgid "Also, a file name filter can be defined::"
 msgstr ""
 
-#: ../../batchTab.rst:578
+#: ../../batchTab.rst:582
 msgid ""
 "It is possible to filter by date if the file name ends with a date "
 "(format yyyy-mm-dd) using a range::"
 msgstr ""
 
-#: ../../batchTab.rst:582
+#: ../../batchTab.rst:586
 msgid ""
 "Also !file_directory! can be used to refer to the parent directory of the"
 " file."
 msgstr ""
 
-#: ../../batchTab.rst:584
+#: ../../batchTab.rst:588
 msgid ""
 ":guilabel:`!file!`: variable to be used with ``!for_file_in!`` to "
 "reference current file path::"
 msgstr ""
 
-#: ../../batchTab.rst:588
+#: ../../batchTab.rst:592
 msgid ""
 ":guilabel:`!file_directory!`: variable to be used with ``!for_file_in!`` "
 "to reference the directory containing current file path::"
 msgstr ""
 
-#: ../../batchTab.rst:592
+#: ../../batchTab.rst:596
 msgid ""
 ":guilabel:`!end_for_file!`: ending line to be used with ``!for_file_in!``"
 " to close the iterative commands::"
 msgstr ""
 
-#: ../../batchTab.rst:596
+#: ../../batchTab.rst:600
 msgid "**Iterate band sets**"
 msgstr ""
 
-#: ../../batchTab.rst:598
+#: ../../batchTab.rst:602
 msgid ""
 ":guilabel:`!for_band_set!`: function to iterate commands for all the band"
 " sets in a range (e.g. ``!for_band_set!;bandsetNumbers``)::"
 msgstr ""
 
-#: ../../batchTab.rst:603
+#: ../../batchTab.rst:607
 msgid ""
 "It is possible to enter a list of numbers (separated by commas), a range "
 "separated by colon, or a list of ranges, for instance::"
 msgstr ""
 
-#: ../../batchTab.rst:609
+#: ../../batchTab.rst:613
 msgid ""
 ":guilabel:`!bandset_number!`: variable to be used with ``!for_band_set!``"
 " to reference band set number;"
 msgstr ""
 
-#: ../../batchTab.rst:611
+#: ../../batchTab.rst:615
 msgid ""
 ":guilabel:`!end_for_band_set!`: ending line to be used with "
 "``!for_band_set!``;"
 msgstr ""
 
-#: ../../batchTab.rst:614
+#: ../../batchTab.rst:618
 msgid "**Custom variables**"
 msgstr ""
 
-#: ../../batchTab.rst:616
+#: ../../batchTab.rst:620
 msgid ""
 ":guilabel:`!customVariableName!`: it is possible to create custom "
 "variables entering a line such as ``!customVariableName! = value`` (value"
@@ -477,23 +481,23 @@ msgid ""
 " Batch variables); for instance::"
 msgstr ""
 
-#: ../../batchTab.rst:623
+#: ../../batchTab.rst:627
 msgid "**Temporary output**"
 msgstr ""
 
-#: ../../batchTab.rst:625
+#: ../../batchTab.rst:629
 msgid ""
 ":guilabel:`!temp_raster_1!`: create a temporary raster path (saved in the"
 " temporary directory) to be used with other functions::"
 msgstr ""
 
-#: ../../batchTab.rst:629
+#: ../../batchTab.rst:633
 msgid ""
 "``!temp_raster_1!`` can be used as temporary output for other functions "
 "such as::"
 msgstr ""
 
-#: ../../batchTab.rst:633
+#: ../../batchTab.rst:637
 msgid ""
 "Additional temporary output can be entered manually, replacing ``1`` with"
 " any number or string (e.g. !temp_raster_2! or !temp_raster_calculation! "
@@ -501,11 +505,11 @@ msgid ""
 " temp_raster_1 is the raster name of variable ``!temp_raster_1!``."
 msgstr ""
 
-#: ../../batchTab.rst:639
+#: ../../batchTab.rst:643
 msgid "QGIS Processing"
 msgstr ""
 
-#: ../../batchTab.rst:641
+#: ../../batchTab.rst:645
 msgid ""
 ":guilabel:`qgis_processing`: use a `QGIS Processing algorithm "
 "<https://docs.qgis.org/3.10/en/docs/user_manual/processing_algs/index.html>`_"
@@ -515,21 +519,21 @@ msgid ""
 " ::"
 msgstr ""
 
-#: ../../batchTab.rst:645
+#: ../../batchTab.rst:649
 msgid "For instance the following command executes GRASS vector dissolve::"
 msgstr ""
 
-#: ../../batchTab.rst:649
+#: ../../batchTab.rst:653
 msgid ""
 "It is possible to use the Batch :ref:`batch_variables` for setting input "
 "or output paths."
 msgstr ""
 
-#: ../../batchTab.rst:654
+#: ../../batchTab.rst:658
 msgid "Run"
 msgstr ""
 
-#: ../../batchTab.rst:656
+#: ../../batchTab.rst:660
 msgid ""
 ":guilabel:`CHECK` |check|: check if expression syntax is correct; if "
 "expression is correct then the text color is green, red otherwise; in "
@@ -537,9 +541,15 @@ msgid ""
 "error;"
 msgstr ""
 
-#: ../../batchTab.rst:657
+#: ../../batchTab.rst:661
 msgid ""
 ":guilabel:`RUN` |run|: check if expression syntax is correct and start "
 "the batch processes;"
 msgstr ""
+
+#~ msgid "Band preprocessing"
+#~ msgstr ""
+
+#~ msgid "Post preprocessing"
+#~ msgstr ""
 

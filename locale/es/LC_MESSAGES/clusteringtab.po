@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2019, Luca Congedo
+# Copyright (C) 2012-2020, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 00:17+0100\n"
+"POT-Creation-Date: 2021-02-21 01:20+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -42,20 +42,16 @@ msgstr ""
 "métodos están disponibles."
 
 #: ../../clusteringTab.rst:270
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../clusteringTab.rst:272
 msgid ""
-"A report .txt is saved along with the classifiction, containing the class "
+"A report .txt is saved along with the classification, containing the class "
 "spectral signature and the spectral distance thereof."
 msgstr ""
 
-#: ../../clusteringTab.rst:277
+#: ../../clusteringTab.rst:275
 msgid "Clustering of band set"
 msgstr "Agrupación de conjunto de bandas"
 
-#: ../../clusteringTab.rst:279
+#: ../../clusteringTab.rst:277
 msgid ""
 ":guilabel:`Select input band set` |input_number|: select the input "
 ":ref:`band_set_tab`;"
@@ -63,7 +59,7 @@ msgstr ""
 ":guilabel:`Seleccionar el conjunto de banda de entrada` |input_number|: "
 "seleccione la entrada: ref:`band_set_tab`;"
 
-#: ../../clusteringTab.rst:280
+#: ../../clusteringTab.rst:278
 msgid ""
 ":guilabel:`Method` |radiobutton| :guilabel:`K-means` |radiobutton| "
 ":guilabel:`ISODATA`: select the clustering method :ref:`kmeans_definition` "
@@ -73,7 +69,7 @@ msgstr ""
 ":guilabel:`ISODATA`:seleccione el método de agrupamiento "
 ":ref:`kmeans_definition` o :ref:`isodata_definition`;"
 
-#: ../../clusteringTab.rst:281
+#: ../../clusteringTab.rst:279
 msgid ""
 "|checkbox| :guilabel:`Distance threshold` |input_number|: if checked, for "
 "K-means: iteration is terminated if distance is lower than threshold; for "
@@ -83,7 +79,7 @@ msgstr ""
 "para K-means: la iteración termina si la distancia es inferior al umbral; "
 "para ISODATA: las firmas se fusionan si la distancia es mayor que el umbral;"
 
-#: ../../clusteringTab.rst:282
+#: ../../clusteringTab.rst:280
 msgid ""
 ":guilabel:`Number of classes` |input_number|: number of desired output "
 "classes;"
@@ -91,7 +87,7 @@ msgstr ""
 ":guilabel:`Numero de clases` |input_number|: numero de clases de salida "
 "deseadas;"
 
-#: ../../clusteringTab.rst:283
+#: ../../clusteringTab.rst:281
 msgid ""
 ":guilabel:`Max number of iterations` |input_number|: maximum number of "
 "iterations if :guilabel:`Distance threshold` is not reached;"
@@ -99,7 +95,7 @@ msgstr ""
 ":guilabel:`Número máximo de iteraciones.` |input_number|: número máximo de "
 "iteraciones si :guilabel:`Umbral de distancia` no se alcanza;"
 
-#: ../../clusteringTab.rst:284
+#: ../../clusteringTab.rst:282
 msgid ""
 ":guilabel:`ISODATA max standard deviation` |input_number|: maximum standard "
 "deviation considered for splitting a class, for :guilabel:`ISODATA` "
@@ -109,7 +105,7 @@ msgstr ""
 "estándar máxima considerada para dividir una clase, para :guilabel:`ISODATA`"
 " un solo algoritmo;"
 
-#: ../../clusteringTab.rst:285
+#: ../../clusteringTab.rst:283
 msgid ""
 ":guilabel:`ISODATA minimum class size in pixels` |input_number|: desired "
 "minimum class size in pixels, for :guilabel:`ISODATA` algorithm only;"
@@ -118,17 +114,20 @@ msgstr ""
 " de clase mínimo deseado en píxeles, para :guilabel:`ISODATA`  un solo "
 "algoritmo;"
 
-#: ../../clusteringTab.rst:286
+#: ../../clusteringTab.rst:284
 msgid ""
 "|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, set "
 "the value of ``NoData`` pixels, ignored during the calculation;"
 msgstr ""
+"|checkbox| :guilabel:`Usar valor como NoData` | input_number |: si está "
+"marcado, establezca el valor de los píxeles` `NoData '', ignorados durante "
+"el cálculo;"
 
-#: ../../clusteringTab.rst:291
+#: ../../clusteringTab.rst:289
 msgid "Seed signatures"
 msgstr "Firmas de semillas"
 
-#: ../../clusteringTab.rst:293
+#: ../../clusteringTab.rst:291
 msgid ""
 "|radiobutton| :guilabel:`Seed signatures from band values` |radiobutton| "
 ":guilabel:`Use Signature list as seed signatures` |radiobutton| "
@@ -151,7 +150,7 @@ msgstr ""
 "firmas de semillas aleatorias` selecciona aleatoriamente las firmas "
 "espectrales de píxeles en el :ref:`band_set_tab`;"
 
-#: ../../clusteringTab.rst:294
+#: ../../clusteringTab.rst:292
 msgid ""
 ":guilabel:`Distance algorithm` |radiobutton| :guilabel:`Minimum Distance` "
 "|radiobutton| :guilabel:`Spectral Angle Mapping`: select "
@@ -163,7 +162,7 @@ msgstr ""
 ":ref:`minimum_distance_algorithm` o * :ref:`spectra_angle_mapping_algorithm`"
 " para cálculo de distancia espectral;"
 
-#: ../../clusteringTab.rst:295
+#: ../../clusteringTab.rst:293
 msgid ""
 "|checkbox| :guilabel:`Save resulting signatures to Signature list`: if "
 "checked, save the resulting spectral signatures in the :ref:`ROI_list`;"
@@ -172,14 +171,25 @@ msgstr ""
 "está marcado, guarde las firmas espectrales resultantes en el "
 ":ref:`ROI_list`;"
 
-#: ../../clusteringTab.rst:297
+#: ../../clusteringTab.rst:295
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
+": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
-#: ../../clusteringTab.rst:298
+#: ../../clusteringTab.rst:296
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation;"
 msgstr ""
 ":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo;"
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr "** El procesamiento en paralelo está disponible. **"
+
+#~ msgid ""
+#~ "A report .txt is saved along with the classifiction, containing the class "
+#~ "spectral signature and the spectral distance thereof."
+#~ msgstr ""
+#~ "Se guarda un informe .txt junto con la clasificación, que contiene la firma "
+#~ "espectral de la clase y la distancia espectral de la misma."

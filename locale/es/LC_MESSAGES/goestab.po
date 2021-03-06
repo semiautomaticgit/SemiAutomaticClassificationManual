@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2020, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-21 01:20+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../GOESTab.rst:5
+msgid "GOES"
+msgstr "GOES"
+
+#: ../../GOESTab.rst:265
+msgid "|goes_tool| :guilabel:`GOES`"
+msgstr "|herramienta_goes| :guilabel:`GOES`"
+
+#: ../../GOESTab.rst:267
+msgid ""
+"This tab allows for the conversion of **GOES** images provided in netCDF4 "
+"(.nc) format inside a directory."
+msgstr ""
+"Esta pestaña permite la conversión de imágenes ** GOES ** proporcionadas en "
+"formato netCDF4 (.nc) dentro de un directorio."
+
+#: ../../GOESTab.rst:272
+msgid "GOES conversion"
+msgstr "Conversión de GOES"
+
+#: ../../GOESTab.rst:274
+msgid ""
+":guilabel:`Directory containing GOES bands` |open_dir|: open a directory "
+"containing GOES bands; names of bands must end with the corresponding "
+"number;"
+msgstr ""
+":guilabel: `Directorio que contiene bandas GOES` | open_dir |: abre un "
+"directorio que contiene bandas GOES; los nombres de las bandas deben "
+"terminar con el número correspondiente;"
+
+#: ../../GOESTab.rst:275
+msgid ""
+"|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
+"pixels having ``NoData`` value are not counted during conversion; it is "
+"useful when image has a black border (usually pixel value = 0);"
+msgstr ""
+"|checkbox| :guilabel: `Usar valor como NoData` | input_number |: si está "
+"marcado, los píxeles que tienen el valor`` NoData`` no se cuentan durante la"
+" conversión; es útil cuando la imagen tiene un borde negro (normalmente "
+"valor de píxel = 0);"
+
+#: ../../GOESTab.rst:276
+msgid ""
+"|checkbox| :guilabel:`Create Band set and use Band set tools`: if checked, "
+"bands are added to the active :guilabel:`Band set` after the conversion; "
+"also, the :guilabel:`Band set` is processed according to the tools checked "
+"in the :ref:`band_set_tab`;"
+msgstr ""
+"|checkbox| :guilabel: `Crear conjunto de bandas y usar herramientas del "
+"conjunto de bandas`: si está marcado, las bandas se agregan al activo: "
+"guilabel:` Conjunto de bandas` después de la conversión;"
+
+#: ../../GOESTab.rst:277
+msgid ""
+"|checkbox| :guilabel:`Add bands in a new Band set`: if checked, bands are "
+"added to a new empty :guilabel:`Band set` after the conversion;"
+msgstr ""
+"|checkbox| : guilabel: `Agregar bandas en un nuevo conjunto de bandas`: si "
+"está marcado, las bandas se agregan a uno nuevo vacío: guilabel:` Grupo de "
+"bandas` después de la conversión;"
+
+#: ../../GOESTab.rst:282
+msgid "Metadata"
+msgstr "Metadatos"
+
+#: ../../GOESTab.rst:284
+msgid ""
+"All the bands found in the :guilabel:`Directory containing GOES bands` are "
+"listed in the table :guilabel:`Metadata`."
+msgstr ""
+"Todas las bandas que se encuentran en: guilabel: `Directorio que contiene "
+"las bandas GOES` se enumeran en la tabla :guilabel:`Metadata`."
+
+#: ../../GOESTab.rst:286
+msgid ":guilabel:`Satellite` |input_text|: satellite name (e.g. GOES);"
+msgstr ""
+":guilabel: `Satélite` | input_text |: nombre del satélite (por ejemplo, "
+"GOES);"
+
+#: ../../GOESTab.rst:287
+msgid ""
+"|remove|: remove highlighted bands from the table :guilabel:`Metadata`;"
+msgstr ""
+"|remove|: elimina las bandas seleccionadas de la tabla "
+":guilabel:`Metadatos`;"
+
+#: ../../GOESTab.rst:291
+msgid "|input_table|"
+msgstr "tabla de entrada"
+
+#: ../../GOESTab.rst:290
+msgid "table containing the following fields;"
+msgstr "tabla que contiene los siguientes campos;"
+
+#: ../../GOESTab.rst:290
+msgid ":guilabel:`Band`: band name;"
+msgstr ":guilabel:`Band`: nombre de banda;"
+
+#: ../../GOESTab.rst:293
+msgid ""
+":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
+msgstr ""
+": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
+
+#: ../../GOESTab.rst:294
+msgid ""
+":guilabel:`RUN` |run|: select an output directory and start the conversion "
+"process; only bands listed in the table :guilabel:`Metadata` are converted; "
+"converted bands are saved in the output directory with the prefix ``RT_`` "
+"and automatically loaded in QGIS;"
+msgstr ""
+": guilabel: `RUN` | run |: seleccione un directorio de salida e inicie el "
+"proceso de conversión; solo las bandas que figuran en la tabla: guilabel: se"
+" convierten los 'Metadatos'; las bandas convertidas se guardan en el "
+"directorio de salida con el prefijo `` RT_`` y se cargan automáticamente en "
+"QGIS;"
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr "** El procesamiento en paralelo está disponible. **"

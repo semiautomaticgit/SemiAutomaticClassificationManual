@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2020, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-21 01:20+0100\n"
+"PO-Revision-Date: 2020-11-01 11:46+0000\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../processingSettingTab.rst:5
+msgid "Processing"
+msgstr "Procesamiento"
+
+#: ../../processingSettingTab.rst:265
+msgid ":guilabel:`Processing`"
+msgstr ":guilabel:`Procesado`"
+
+#: ../../processingSettingTab.rst:270
+msgid "System"
+msgstr "Sistema"
+
+#: ../../processingSettingTab.rst:272
+msgid ""
+":guilabel:`Available RAM (MB)` |input_number| |registry_save|: set the "
+"available RAM (in MB) that is used during the processes in order to improve "
+"the :guilabel:`SCP` performance; this value should be half of the system RAM"
+" (e.g. 1024MB if system has 2GB of RAM); in case of errors, set a value "
+"lower than 512MB;"
+msgstr ""
+":guilabel:`RAM disponible (MB)` |input_number| |registry_save|: asigna la "
+"memoria RAM (en MB) disponible que es usada durante los procesos con el fin "
+"de mejorar el desempeño de :guilabel:`SCP` ; este valor debería ser la mitad"
+" de la RAM del sistema (Ej. 1024MB si el sistema tiene 2GB de RAM); en caso "
+"de errores, establezca a un valor menor que 512;"
+
+#: ../../processingSettingTab.rst:273
+msgid ""
+":guilabel:`CPU threads` |input_number| |registry_save|: set the number of "
+"threads available for processing; it is recommended to set a value lower "
+"than the maximum number of system threads (e.g. if the system has 4 "
+"available threads set value 3);"
+msgstr ""
+": guilabel: `Subprocesos del CPU` | input_number | | registration_save |: "
+"establece el número de subprocesos disponibles para su procesamiento; se "
+"recomienda establecer un valor inferior al número máximo de subprocesos del "
+"sistema (por ejemplo, si el sistema tiene 4 subprocesos disponibles, "
+"establezca el valor 3);"
+
+#: ../../processingSettingTab.rst:279
+msgid "http://www.youtube.com/watch?v=KDI3ud9L6UY"
+msgstr "http://www.youtube.com/watch?v=KDI3ud9L6UY"
+
+#: ../../processingSettingTab.rst:286
+msgid "Classification process"
+msgstr "Procesos para la Clasificación"
+
+#: ../../processingSettingTab.rst:288
+msgid ""
+"|checkbox| :guilabel:`Play sound when finished` |registry_save|: if checked,"
+" play a sound when the classification process is completed;"
+msgstr ""
+"|checkbox| :guilabel:`Reproducir sonido cuando termina` |registry_save|: si "
+"está seleccionado, reproduce un sonido cuando el proceso de clasificación se"
+" completa;"
+
+#: ../../processingSettingTab.rst:289
+msgid ""
+"|checkbox| :guilabel:`Use virtual rasters for temp files` |registry_save|: "
+"if checked, create virtual rasters for certain temporary files, instead of "
+"creating real rasters; it is useful for reducing disk space usage during "
+"calculations;"
+msgstr ""
+"|checkbox| :guilabel:`Usar ráster virtual para archivos temporales` "
+"|registry_save|: si está seleccionado, crea rásters virtuales para ciertos "
+"archivos temporales, en lugar de crear rásters reales; es útil para reducir "
+"el uso del espacio en disco durante los cálculos;"
+
+#: ../../processingSettingTab.rst:290
+msgid ""
+"|checkbox| :guilabel:`Raster compression` |registry_save|: if checked, a "
+"lossless compression (DEFLATE or PACKBITS) is applied to raster outputs in "
+"order to save disk space; it is recommended to check this option, however "
+"compressed files are sometimes larger than files without compression;"
+msgstr ""
+"|checkbox| :guilabel:`Compresión Ráster` |registry_save|: si está "
+"seleccionado, se aplica la compresión sin pérdidas (DEFLATE or PACKBITS) a "
+"los rásters de salida con el fin de ahorrar espacio en disco; es "
+"recomendable seleccionar esta opción, sin embargo los archivos comprimidos a"
+" veces son más grandes que los archivos sin comprimir;"
+
+#: ../../processingSettingTab.rst:291
+msgid ""
+"|checkbox| :guilabel:`Enable writing verification` |registry_save|: if "
+"checked, the output raster is compared to output calculation in order to "
+"avoid writing errors; it can slow the process;"
+msgstr ""
+"| casilla de verificación | : guilabel: `Habilitar verificación de "
+"escritura` | registry_save |: si está marcado, el ráster de salida se "
+"compara con el cálculo de salida para evitar errores de escritura; puede "
+"ralentizar el proceso;"
+
+#: ../../processingSettingTab.rst:296
+msgid "SMTP process notification"
+msgstr "Notificación de proceso SMTP"
+
+#: ../../processingSettingTab.rst:298
+msgid ""
+":guilabel:`SMTP server` |input_text| |registry_save|: the SMTP server to "
+"login for sending a notification email when all the :guilabel:`SCP` "
+"processes are finished (a notification is sent also in case of error, but "
+"not in case of crash);"
+msgstr ""
+":guilabel: `Servidor SMTP` |input_text| |registry_save|: el servidor SMTP "
+"para iniciar sesión para enviar un correo electrónico de notificación cuando"
+" todos los procesos: guilabel: `SCP` hayan finalizado (se envía una "
+"notificación también en caso de error, pero no en caso de bloqueo);"
+
+#: ../../processingSettingTab.rst:299
+msgid ":guilabel:`user` |input_text| |registry_save|: the SMTP server user;"
+msgstr ""
+":guilabel:`user` |input_text| |registry_save|: el usuario del servidor SMTP;"
+
+#: ../../processingSettingTab.rst:300
+msgid ""
+":guilabel:`password` |input_text| |registry_save|: the SMTP server password;"
+msgstr ""
+":guilabel:`password` |input_text| |registry_save|: la contraseña del "
+"servidor SMTP;"
+
+#: ../../processingSettingTab.rst:301
+msgid ""
+":guilabel:`Send email of completed process to` |input_text| |registry_save|:"
+" a list of addresses (separated by comma) to send the notification email to;"
+msgstr ""
+": guilabel: `Enviar correo electrónico del proceso completado a` | "
+"input_text | | Registry_save |: una lista de direcciones (separadas por "
+"comas) para enviar el correo electrónico de notificación;"
+
+#: ../../processingSettingTab.rst:306
+msgid "External programs"
+msgstr "Programas externos"
+
+#: ../../processingSettingTab.rst:308
+msgid "Some SCP tools require external programs to perform the processing."
+msgstr ""
+"Algunas herramientas de SCP requieren programas externos para realizar el "
+"procesamiento."
+
+#: ../../processingSettingTab.rst:310
+msgid ""
+":guilabel:`ESA SNAP GPT executable` |input_text| |registry_save| |optional|:"
+" enter the path to the SNAP gpt executable; usually ``C:/snap/bin/gpt.exe`` "
+"for Windows, ``/Applications/snap/bin/gpt`` for Mac, and "
+"``/usr/local/snap/bin/gpt`` for Linux; for the installation of ESA SNAP, "
+"please visit this page http://step.esa.int/main/download/snap-download/ ;"
+msgstr ""
+
+#: ../../processingSettingTab.rst:311
+msgid ""
+":guilabel:`Python executable path` |input_text| |registry_save| |optional|: "
+"enter the path to the Python 3 executable (e.g. ``/usr/local/bin/python3``);"
+" should be used only in case of issues with multiprocessing;"
+msgstr ""
+
+#: ../../processingSettingTab.rst:312
+msgid ""
+":guilabel:`GDAL installation directory` |input_text| |registry_save| "
+"|optional|: enter the path to the GDAL directory containing tools such as "
+"gdal_translate and gdalwarp (e.g. ``/usr/bin``); should be used only in case"
+" of issues with GDAL processing;"
+msgstr ""
+
+#: ../../processingSettingTab.rst:317
+msgid "Temporary directory"
+msgstr "Directorio temporal"
+
+#: ../../processingSettingTab.rst:319
+msgid ""
+"|open_dir| |registry_save|: select a new temporary directory where temporary"
+" files are saved during processing; the path to the current temporary "
+"directory is displayed; default is a system temporary directory;"
+msgstr ""
+"|open_dir| |registry_save|: selecciona un nuevo directorio temporal cuando "
+"los archivos temporales son guardados durante los procesamientos; la ruta "
+"del directorio temporal actual es mostrada; por defecto es el directorio "
+"temporal del sistema;"
+
+#: ../../processingSettingTab.rst:320
+msgid "|reset|: reset to default temporary directory;"
+msgstr "|reset|: restaura el directorio temporal al valor por defecto;"
+
+#~ msgid ""
+#~ ":guilabel:`ESA SNAP GPT executable` |input_text| |registry_save|: enter the "
+#~ "path to the SNAP gpt executable; usually ``C:/snap/bin/gpt.exe`` for "
+#~ "Windows, ``/Applications/snap/bin/gpt`` for Mac, and "
+#~ "``/usr/local/snap/bin/gpt`` for Linux; for the installation of ESA SNAP, "
+#~ "please visit this page http://step.esa.int/main/download/snap-download/ ;"
+#~ msgstr ""
+#~ ": guilabel: `ESA SNAP GPT ejecutable` | input_text | | registration_save |: "
+#~ "ingrese la ruta al ejecutable SNAP gpt; generalmente `` C: / snap / bin / "
+#~ "gpt.exe '' para Windows, `` / Aplicaciones / snap / bin / gpt '' para Mac y "
+#~ "`` / usr / local / snap / bin / gpt '' para Linux ; para la instalación de "
+#~ "ESA SNAP, visite esta página http://step.esa.int/main/download/snap-"
+#~ "download/;"

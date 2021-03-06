@@ -1,24 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2018, Luca Congedo
+# Copyright (C) 2012-2020, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
 # Fran Raga <FRANKA1986@gmail.com>, 2020
-# Marlon Castillo <marloncastillo286@gmail.com>, 2020
 # Santiago Behr <behr.santiago@inta.gob.ar>, 2020
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
 # Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 6.1\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"POT-Creation-Date: 2021-02-21 01:20+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
-"Last-Translator: Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -201,7 +201,7 @@ msgstr ""
 
 #: ../../faq.rst:96
 msgid "Can I use the previous version 6 of SCP?"
-msgstr ""
+msgstr "¿Puedo usar la versión 6 anterior de SCP?"
 
 #: ../../faq.rst:98
 msgid ""
@@ -209,6 +209,9 @@ msgid ""
 "repository. Also, this version can be installed along with the SCP version "
 "7."
 msgstr ""
+"Es posible instalar la versión anterior 6 de SCP utilizando el repositorio "
+"oficial. Además, esta versión se puede instalar junto con la versión 7 de "
+"SCP."
 
 #: ../../faq.rst:139
 msgid "Pre processing"
@@ -288,6 +291,7 @@ msgstr ""
 #: ../../faq.rst:173
 msgid "Can I apply the conversion to Sentinel-2 L2A download from the web?"
 msgstr ""
+"¿Puedo aplicar la conversión a la descarga de Sentinel-2 L2A desde la web?"
 
 #: ../../faq.rst:175
 msgid ""
@@ -296,6 +300,11 @@ msgid ""
 "name_02_10m.jp2 to name_02.jp2) Then select this directory in "
 ":ref:`sentinel2_conversion`. Images are converted to reflectance."
 msgstr ""
+"Sí, debe mover todos los archivos .jp2 dentro del mismo directorio y cambiar"
+" el nombre de los archivos con el número de banda al final del nombre (por "
+"ejemplo, de nombre_02_10m.jp2 a nombre_02.jp2). Luego seleccione este "
+"directorio en: ref: `sentinel2_conversion` . Las imágenes se convierten en "
+"reflectancia."
 
 #: ../../faq.rst:182
 msgid "How are converted Sentinel-2 images that have different resolutions?"
@@ -355,6 +364,11 @@ msgid ""
 "image based technique, and NoData values must be excluded from the "
 "calculation."
 msgstr ""
+"Si desea aplicar la corrección de DOS a una banda completa que tiene valores"
+" NoData (el borde negro con valor = 0), debe marcar la casilla de "
+"verificación `` Usar valor como NoData '' y establecer el valor en 0. Esto "
+"se debe a que DOS es una técnica basada en imágenes y los valores NoData "
+"deben excluirse del cálculo."
 
 #: ../../faq.rst:206
 msgid "How to remove cloud cover from images?"
@@ -367,6 +381,11 @@ msgid ""
 "<https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/>`_). You can use "
 "this band for the creation of a mask."
 msgstr ""
+"La corrección DOS1 no elimina las nubes de la imagen. Sin embargo, las "
+"imágenes de Landsat 8 incluyen la Banda 9 que identifica las nubes (consulte"
+" este `sitio de la NASA "
+"<https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/>` _). Puede "
+"utilizar esta banda para la creación de una máscara."
 
 #: ../../faq.rst:212
 msgid ""
@@ -629,60 +648,19 @@ msgid ""
 "create a new post and copy the error message and the **log file** (or attach"
 " them)."
 msgstr ""
+"únase al grupo de Facebook "
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin> `_, cree"
+" una nueva publicación y copie el mensaje de error y el ** archivo de "
+"registro ** (o adjúntelos)."
 
-#: ../../faq.rst:323
-msgid "Virtual raster creation issues. Why?"
-msgstr "Problemas con la creación de ráster virtual. ¿Por qué?"
-
-#: ../../faq.rst:325
-msgid ""
-"The automatic creation of the virtual raster after Landsat conversion to "
-"reflectance is not required for the classification. Errors could happen if "
-"the output destination path contains special characters (such as accented "
-"letters) or spaces; try to rename directories (e.g. rename ``new directory``"
-" to ``new_directory``). If you still get the same error you can create a "
-"virtual raster manually."
-msgstr ""
-"La creación automática de un ráster virtual después de la conversión a "
-"reflectancia de una imagen Landsat, no es requerida para la clasificación. "
-"Pueden ocurrir errores si la ruta de destino contiene caracteres especiales "
-"(como letras acentuadas) o espacios; intenta renombrar directorios (Ej. "
-"cambia \"nuevo directorio\" por \"nuevo_directorio\"). Si continúas teniendo"
-" el mismo error puedes crear un ráster virtual manualmente."
-
-#: ../../faq.rst:331
-msgid "Error 'Plugin is damaged. Python said: ascii'. Why?"
-msgstr "Error 'Plugin is damaged. Python said: ascii'. ¿Por qué?"
-
-#: ../../faq.rst:333
-msgid ""
-"It could be related to a wrong installation. Please, uninstall QGIS and "
-"install it again with administrative rights. Then run QGIS and try to "
-"install the plugin following the :ref:`installation` guide."
-msgstr ""
-"Podría estar relacionado con una instalación incorrecta. Por favor, "
-"desinstale QGIS e instálelo nuevamente con derechos administrativos. Luego "
-"ejecute QGIS e intente instalar el complemento siguiendo la guía: ref: "
-"ʻinstallation`."
-
-#: ../../faq.rst:337
-msgid ""
-"Also, it could be related to the user name containing special characters. "
-"Please try the installation creating a new user without special characters "
-"(e.g. ``user``)."
-msgstr ""
-"También puede estar relacionado al nombre de usuario que contiene caracteres"
-" especiales. Por favor intenta la instalación creando un nuevo usuario sin "
-"caracteres especiales (Ej. \"usuario\")."
-
-#: ../../faq.rst:343
+#: ../../faq.rst:324
 msgid ""
 "Error [50] 'Internet error'. Unable to download Sentinel-2 images. Why?"
 msgstr ""
 "Error [50] 'Internet error'. No se puede descargar imágenes Sentinel-2. ¿Por"
 " qué?"
 
-#: ../../faq.rst:345
+#: ../../faq.rst:326
 msgid ""
 "The error message usually includes some information about the issue. First, "
 "check the user name and password. If the account registration was recent, it"
@@ -694,7 +672,7 @@ msgstr ""
 "creación de la cuenta fue reciente, el proceso puede llevar algunos días "
 "hasta que SCP tenga permitida la descarga."
 
-#: ../../faq.rst:349
+#: ../../faq.rst:330
 msgid ""
 "Also, there could be an interruption of the service. For Sentinel-2 images "
 "please check this website https://scihub.copernicus.eu/news/ for messages "
@@ -704,7 +682,7 @@ msgstr ""
 "Sentinel-2 revisa este sitio web https://scihub.copernicus.eu/news/ por "
 "mensajes sobre el estado del servicio."
 
-#: ../../faq.rst:352
+#: ../../faq.rst:333
 msgid ""
 "In case you still get the same error, please follow these steps "
 ":ref:`error_0`."
@@ -712,12 +690,12 @@ msgstr ""
 "En caso de continuar el mismo error, por favor sigue estos pasos "
 ":ref:`error_0`."
 
-#: ../../faq.rst:357
+#: ../../faq.rst:338
 msgid "Error installing the plugin, possible missing dependencies. Why?"
 msgstr ""
 "Error al instalar el plugin, posiblemente faltan dependencias. ¿Por qué?"
 
-#: ../../faq.rst:359
+#: ../../faq.rst:340
 msgid ""
 "The plugin requires the installation of GDAL, NumPy, SciPy and Matplotlib, "
 "which should be installed along with QGIS. If the plugin installation fails,"
@@ -733,15 +711,15 @@ msgstr ""
 "las dependencias requeridas. Nótese que para evitar este error, las "
 "dependencias Python no deberían ser instaladas a través de Anaconda."
 
-#: ../../faq.rst:366
+#: ../../faq.rst:347
 msgid "Various"
 msgstr "Varios"
 
-#: ../../faq.rst:371
+#: ../../faq.rst:352
 msgid "What can I do with the SCP?"
 msgstr "¿Qué puedo hacer con SCP?"
 
-#: ../../faq.rst:373
+#: ../../faq.rst:354
 msgid ""
 ":guilabel:`SCP` allows for the **land cover classification** of remote "
 "sensing images through :ref:`supervised_classification_definition`. You can "
@@ -760,7 +738,7 @@ msgstr ""
 "definiciones lee :ref:`remote_sensing`) que definen las clases de cobertura "
 "terrestre que serán identificadas en la imagen."
 
-#: ../../faq.rst:380
+#: ../../faq.rst:361
 msgid ""
 ":guilabel:`A multispectral image processed to produce a land cover "
 "classification`"
@@ -768,11 +746,11 @@ msgstr ""
 ":guilabel:`Imagen multiespectral procesada para producir una clasificación "
 "de la cobertura del suelo`"
 
-#: ../../faq.rst:382
+#: ../../faq.rst:363
 msgid "``(Landsat image provided by USGS)``"
 msgstr "``(Imagen Landsat proporcionada por USGS)``"
 
-#: ../../faq.rst:384
+#: ../../faq.rst:365
 msgid ""
 ":guilabel:`SCP` can work with **multispectral images** acquired by "
 "satellites, airplanes, or drones. Also, :guilabel:`SCP` allows for the "
@@ -785,7 +763,7 @@ msgstr ""
 "búsqueda y descarga de imágenes gratis (mira :ref:`download_tab`). No puedes"
 " usar con SCP, ortofotos con menos de 4 bandas, datos SAR y LIDAR."
 
-#: ../../faq.rst:388
+#: ../../faq.rst:369
 msgid ""
 "**Input image** in :guilabel:`SCP` is called :ref:`band_set_tab`, which is "
 "used as input for the classification. :guilabel:`SCP` provides several tools"
@@ -797,7 +775,7 @@ msgstr ""
 "de varias herramientas para el :ref:`pre_processing_tab` de imágenes "
 "descargadas, como la conversión a reflectancia y la manipulación de bandas."
 
-#: ../../faq.rst:391
+#: ../../faq.rst:372
 msgid ""
 "**Classification results** can be assessed with the tools "
 ":ref:`accuracy_tab` and :ref:`classification_report_tab`. Also, rasters can "
@@ -813,7 +791,7 @@ msgstr ""
 ":ref:`edit_raster_tab` directamente, :ref:`classification_sieve_tab`, "
 ":ref:`classification_erosion_tab`, y :ref:`classification_dilation_tab`."
 
-#: ../../faq.rst:394
+#: ../../faq.rst:375
 msgid ""
 "The :ref:`spectral_signature_plot` and :ref:`scatter_plot` allow for the "
 "**analysis of spectral signatures and ROIs**. Also, several :ref:`tools_tab`"
@@ -824,7 +802,7 @@ msgstr ""
 "están disponibles para la creación fácil de un ROI y edición de firmas "
 "espectrales."
 
-#: ../../faq.rst:397
+#: ../../faq.rst:378
 msgid ""
 "**Raster calculation** is available through the seamless integration of the "
 "tool :ref:`band_calc_tab` with bands in the :ref:`band_set_tab`, calculating"
@@ -836,7 +814,7 @@ msgstr ""
 "expresiones matemáticas e índices espectrales. También se puede calcular un "
 "ráster de salida basados en :ref:`decision_rules`."
 
-#: ../../faq.rst:400
+#: ../../faq.rst:381
 msgid ""
 "The tool :ref:`batch_tab` allows for the automatic execution of several "
 ":guilabel:`SCP` functions using a scripting interface."
@@ -844,15 +822,15 @@ msgstr ""
 "La herramienta :ref:`batch_tab` permite la ejecución automática de varias "
 "funciones de :guilabel:`SCP` usando una interfaz de script."
 
-#: ../../faq.rst:402
+#: ../../faq.rst:383
 msgid "See the :ref:`tutorials` for more information and examples."
 msgstr "Ver los :ref:`tutorials` para más información y ejemplos."
 
-#: ../../faq.rst:407
+#: ../../faq.rst:388
 msgid "How to contribute to SCP"
 msgstr "Cómo contribuir a SCP"
 
-#: ../../faq.rst:409
+#: ../../faq.rst:390
 msgid ""
 "You can contribute to :guilabel:`SCP` by fixing and adding functionalities "
 "(see :ref:`other_5`), or translating the user manual (see :ref:`other_4`)."
@@ -861,7 +839,7 @@ msgstr ""
 "funcionalidades (mira :ref:`other_5`), o traduciendo el manual de usuario "
 "(mira :ref:`other_4`)."
 
-#: ../../faq.rst:411
+#: ../../faq.rst:392
 msgid ""
 "Also, you can donate to this project at the following link "
 "https://fromgistors.blogspot.com/p/donations.html ."
@@ -869,80 +847,39 @@ msgstr ""
 "Además. usted puede donar a este proyecto en el siguiente enlace: "
 "https://fromgistors.blogspot.com/p/donations.html ."
 
-#: ../../faq.rst:416
+#: ../../faq.rst:397
 msgid "Free and valuable resources about remote sensing and GIS"
 msgstr "Recursos gratis y valiosos sobre teledetección y SIG"
 
-#: ../../faq.rst:418
+#: ../../faq.rst:399
 msgid "The following links are valuable resources:"
 msgstr "Los siguientes enlaces son recursos valiosos:"
 
-#: ../../faq.rst:420
+#: ../../faq.rst:401
 msgid ""
-"`The Landsat 8 Data Users Handbook by USGS <https://www.usgs.gov/land-"
-"resources/nli/landsat/landsat-8-data-users-handbook>`_;"
+"`The Landsat 8 Data Users Handbook by USGS <https://www.usgs.gov/core-"
+"science-systems/nli/landsat/landsat-8-data-users-handbook>`_;"
 msgstr ""
-"`The Landsat 8 Data Users Handbook by USGS <https://www.usgs.gov/land-"
-"resources/nli/landsat/landsat-8-data-users-handbook>`_;"
 
-#: ../../faq.rst:421
+#: ../../faq.rst:402
 msgid ""
 "`The Landsat 7 Science Data Users Handbook by NASA <https://www.usgs.gov"
-"/land-resources/nli/landsat/landsat-7-data-users-handbook>`_;"
+"/core-science-systems/nli/landsat/landsat-7-data-users-handbook>`_;"
 msgstr ""
-"`The Landsat 7 Science Data Users Handbook by NASA <https://www.usgs.gov"
-"/land-resources/nli/landsat/landsat-7-data-users-handbook>`_;"
 
-#: ../../faq.rst:422
+#: ../../faq.rst:403
 msgid ""
 "`Webinar: Fundamentals of Remote Sensing by NASA "
-"<https://arset.gsfc.nasa.gov/webinars/fundamentals-remote-sensing>`_."
+"<https://appliedsciences.nasa.gov/join-mission/training/english"
+"/fundamentals-remote-sensing>`_."
 msgstr ""
-"`Webinar: Fundamentals of Remote Sensing by NASA "
-"<https://arset.gsfc.nasa.gov/webinars/fundamentals-remote-sensing>`_."
 
-#: ../../faq.rst:423
-msgid ""
-"`Webinar: NASA Remote Sensing for Land Management by NASA "
-"<https://arset.gsfc.nasa.gov/land/webinars/land-management14>`_."
-msgstr ""
-"`Webinar: NASA Remote Sensing for Land Management by NASA "
-"<https://arset.gsfc.nasa.gov/land/webinars/land-management14>`_."
-
-#: ../../faq.rst:424
-msgid ""
-"`Webinar: Creating and Using Normalized Difference Vegetation Index (NDVI) "
-"from Satellite Imagery by NASA "
-"<https://arset.gsfc.nasa.gov/land/webinars/advancedNDVI>`_."
-msgstr ""
-"`Webinar: Creating and Using Normalized Difference Vegetation Index (NDVI) "
-"from Satellite Imagery by NASA "
-"<https://arset.gsfc.nasa.gov/land/webinars/advancedNDVI>`_."
-
-#: ../../faq.rst:425
-msgid ""
-"`Webinar: Remote Sensing of Forest Cover and Change Assessment for Carbon "
-"Monitoring by NASA <https://arset.gsfc.nasa.gov/land/webinars/carbon-"
-"monitoring-2016>`_."
-msgstr ""
-"`Webinar: Remote Sensing of Forest Cover and Change Assessment for Carbon "
-"Monitoring by NASA <https://arset.gsfc.nasa.gov/land/webinars/carbon-"
-"monitoring-2016>`_."
-
-#: ../../faq.rst:426
-msgid ""
-"`Webinar: Introduction to Remote Sensing for Conservation Management by NASA"
-" <https://arset.gsfc.nasa.gov/land/webinars/intro-conservation15>`_."
-msgstr ""
-"`Webinar: Introduction to Remote Sensing for Conservation Management by NASA"
-" <https://arset.gsfc.nasa.gov/land/webinars/intro-conservation15>`_."
-
-#: ../../faq.rst:431
+#: ../../faq.rst:408
 msgid "Other tutorials about SCP, also in languages other than English"
 msgstr ""
 "Otros tutoriales sobre SCP, tambien en otros idiomas distintos al inglés"
 
-#: ../../faq.rst:433
+#: ../../faq.rst:410
 msgid ""
 "There are several tutorials about :guilabel:`SCP` on the internet. Following"
 " an incomplete list of these resources (please note that these resources "
@@ -952,32 +889,33 @@ msgstr ""
 "una lista incompleta de esos recursos (por favor nota que esos recursos "
 "podrían usar versiones antiguas de SCP):"
 
-#: ../../faq.rst:436
+#: ../../faq.rst:413
 msgid ""
 "`English: Webinar by NASA ARSET about Land Cover Classification with "
 "Satellite Imagery <https://arset.gsfc.nasa.gov/land/webinars/advanced-land-"
 "classification>`_;"
 msgstr ""
+"`English: Seminario web de NASA ARSET sobre cobertura del suelo con imágenes"
+" de satélite<https://arset.gsfc.nasa.gov/land/webinars/advanced-land-"
+"classification>`_;"
 
-#: ../../faq.rst:437
+#: ../../faq.rst:414
 msgid ""
 "`English: Recommended Practice by UN-SPIDER about Burn Severity Mapping Burn"
 " Severity with QGIS <http://www.un-spider.org/node/10955>`_;"
 msgstr ""
+"`English: Práctica recomendada por ONU-SPIDER sobre el mapeo de la gravedad "
+"de las quemaduras con QGIS <http://www.un-spider.org/node/10955>`_;"
 
-#: ../../faq.rst:438
-msgid ""
-"`English: Using the SCP QGIS plugin to download and process Sentinel 2 "
-"imagery <https://www.youtube.com/watch?v=77BEF7txk4s>`_;"
-msgstr ""
-
-#: ../../faq.rst:439
+#: ../../faq.rst:415
 msgid ""
 "`French: Télédétection des feux de forêts <https://www.geonov.fr/exemples"
 "/teledetection-feux-de-forets/>`_;"
 msgstr ""
+"`Francés: Teledetección de incendios forestales "
+"<https://www.geonov.fr/exemples/teledetection-feux-de-forets/>`_;"
 
-#: ../../faq.rst:440
+#: ../../faq.rst:416
 msgid ""
 "`German: 2015 Jakob Erfassung von Landnutzungsveränderungen mit FOSS Image "
 "Processing Tools <https://www.youtube.com/watch?v=vIsHFvLS5_Q>`_;"
@@ -985,24 +923,35 @@ msgstr ""
 "`Alemán: 2015 Jakob Erfassung von Landnutzungsveränderungen mit FOSS Image "
 "Processing Tools <https://www.youtube.com/watch?v=vIsHFvLS5_Q>`_;"
 
-#: ../../faq.rst:441
+#: ../../faq.rst:417
+msgid ""
+"`Greek: Landsat radiometric correction with QGIS - Ραδιομετρική διόρθωση "
+"δεδομένων <https://www.youtube.com/watch?v=FStnE0jwVx4>`_;"
+msgstr ""
+
+#: ../../faq.rst:418
+msgid ""
+"`Greek: Supervised classification of Landsat image and accuracy assessment "
+"with QGIS <https://www.youtube.com/watch?v=f7SkMUWOvTo>`_;"
+msgstr ""
+
+#: ../../faq.rst:419
 msgid ""
 "`Indonesian: Koreksi Radiometrik Menggunakan QGIS:Semi Automatic "
 "Classification <https://rosegislabs.com/2017/02/28/koreksi-radiometrik-"
 "menggunakan-qgissemi-automatic-classification-part-1/>`_;"
 msgstr ""
+"`Indonesio: Corrección radiométrica con QGIS: Clasificación "
+"Semiautomática<https://rosegislabs.com/2017/02/28/koreksi-radiometrik-"
+"menggunakan-qgissemi-automatic-classification-part-1/>`_;"
 
-#: ../../faq.rst:442
+#: ../../faq.rst:420
 msgid ""
-"`Italian: Classificazione e Mosaico di Varie Immagini Landsat "
-"<https://fromgistors.blogspot.com/2015/09/tutorial-classificazione-mosaico-"
-"landsat.html>`_;"
+"`Italian: Geobreak 7 - I dati satellitari Sentinel 2 in QGIS "
+"<https://www.youtube.com/watch?v=qZOu_wAACyU>`_;"
 msgstr ""
-"`Italiano: Classificazione e Mosaico di Varie Immagini Landsat "
-"<https://fromgistors.blogspot.com/2015/09/tutorial-classificazione-mosaico-"
-"landsat.html>`_;"
 
-#: ../../faq.rst:443
+#: ../../faq.rst:421
 msgid ""
 "`Korean: QGIS Semi-Automatic Classification Plugin "
 "<http://blog.daum.net/geoscience/715>`_;"
@@ -1010,7 +959,7 @@ msgstr ""
 "`Coreano: QGIS Semi-Automatic Classification Plugin "
 "<http://blog.daum.net/geoscience/715>`_;"
 
-#: ../../faq.rst:444
+#: ../../faq.rst:422
 msgid ""
 "`Portuguese: Workshop de Deteção Remota e Processamento Digital de Imagem "
 "com o QGIS e o Semi-Automatic Classification Plugin "
@@ -1018,16 +967,13 @@ msgid ""
 "-processamento-digital-de-imagem-com-o-qgis-e-o-semiautomatic-"
 "classification-plugin>`_;"
 msgstr ""
+"`Portugués: Taller sobre percepción remota y procesamiento de imágenes "
+"digitales con QGIS y el complemento de clasificación semiautomática "
+"<https://pt.slideshare.net/PedroNGV/workshop-de-deteo-remota-e"
+"-processamento-digital-de-imagem-com-o-qgis-e-o-semiautomatic-"
+"classification-plugin>`_;"
 
-#: ../../faq.rst:445
-msgid ""
-"`Portuguese: Classificacao supervisionada de imagens Sentinel-2 com QGIS e "
-"SCP <https://www.youtube.com/watch?v=t5D6JT7adYY>`_;"
-msgstr ""
-"`Portugués: Classificacao supervisionada de imagens Sentinel-2 com QGIS e "
-"SCP <https://www.youtube.com/watch?v=t5D6JT7adYY>`_;"
-
-#: ../../faq.rst:446
+#: ../../faq.rst:423
 msgid ""
 "`Portuguese: Avaliação do erro de uma imagem de satélite usando o QGIS e o "
 "SCP <https://www.youtube.com/watch?v=k1yjcJPb1WI>`_;"
@@ -1035,50 +981,44 @@ msgstr ""
 "`Portugués: Avaliação do erro de uma imagem de satélite usando o QGIS e o "
 "SCP <https://www.youtube.com/watch?v=k1yjcJPb1WI>`_;"
 
-#: ../../faq.rst:447
+#: ../../faq.rst:424
 msgid ""
-"`Portuguese: Conversão Sentinel-2 para refletância com QGIS SCP "
-"<https://www.youtube.com/watch?v=m3XFvvVrU24>`_;"
-msgstr ""
-"`Portugués: Conversão Sentinel-2 para refletância com QGIS SCP "
-"<https://www.youtube.com/watch?v=m3XFvvVrU24>`_;"
-
-#: ../../faq.rst:448
-msgid ""
-"`Portuguese: Criar composições coloridas no QGIS com SCP "
-"<https://www.youtube.com/watch?v=LWvDEE1Evxg>`_;"
-msgstr ""
-"`Portugués: Criar composições coloridas no QGIS com SCP "
-"<https://www.youtube.com/watch?v=LWvDEE1Evxg>`_;"
-
-#: ../../faq.rst:449
-msgid ""
-"`Portuguese: Corte de imagem Sentinel-2 usand QGIS e SCP "
-"<https://www.youtube.com/watch?v=8UHey-bQJGs>`_;"
-msgstr ""
-"`Portugués: Corte de imagem Sentinel-2 usand QGIS e SCP "
-"<https://www.youtube.com/watch?v=8UHey-bQJGs>`_;"
-
-#: ../../faq.rst:450
-msgid ""
-"`Portuguese: Deteção Remota Com O QGIS <http://qgis.pt/blog/2016/12/14"
-"/detecao-remota-com-o-qgis/>`_;"
+"`Portuguese: QGIS 3.10: Baixar Bandas Individuais do Sentinel-2 pelo Plugin "
+"SCP <https://www.youtube.com/watch?v=r73HO1TuosM>`_;"
 msgstr ""
 
-#: ../../faq.rst:451
+#: ../../faq.rst:425
 msgid ""
 "`Russian: Опыт классификации космоснимка Sentinel- 2a с помощью Semi-"
 "Automatic Classification Plugin в QGIS <http://gis-lab.info/qa/qgis-sacp-"
 "sentinel2a.html>`_;"
 msgstr ""
+"`Ruso: Опыт классификации космоснимка Sentinel- 2a с помощью Semi-Automatic "
+"Classification Plugin в QGIS <http://gis-lab.info/qa/qgis-sacp-"
+"sentinel2a.html>`_;"
 
-#: ../../faq.rst:452
+#: ../../faq.rst:426
+msgid ""
+"`Spanish: Descargar imágenes Landsat, calcular NDVI y NDWI con QGIS "
+"<https://www.youtube.com/watch?v=4vDY8o5uBhs>`_;"
+msgstr ""
+
+#: ../../faq.rst:427
+msgid ""
+"`Spanish: Clasificación Supervisada con Imágenes Landsat8 en QGIS \"Pi\" y "
+"Semi-Automatic Classification Plugin "
+"<https://www.youtube.com/watch?v=ZbIsJuHeoJo>`_;"
+msgstr ""
+
+#: ../../faq.rst:428
 msgid ""
 "`Spanish: Descarga de imágenes de satélite desde servidores públicos "
 "<https://www.youtube.com/watch?v=OxGbZo6Go5g>`_;"
 msgstr ""
+"`Spanish: Descarga de imágenes de satélite desde servidores públicos "
+"<https://www.youtube.com/watch?v=OxGbZo6Go5g>`_;"
 
-#: ../../faq.rst:453
+#: ../../faq.rst:429
 msgid ""
 "`Swedish: Landsat 8 och fjärranalys med QGIS "
 "<https://geosupportsystem.wordpress.com/2015/04/02/landsat-8-och-"
@@ -1088,7 +1028,7 @@ msgstr ""
 "<https://geosupportsystem.wordpress.com/2015/04/02/landsat-8-och-"
 "fjarranalys-med-qgis/>`_;"
 
-#: ../../faq.rst:454
+#: ../../faq.rst:430
 msgid ""
 "`Ukrainian: Основи дешифрування плагіном Semi-Automatic Classification 5.0 "
 "<https://www.youtube.com/watch?v=kwI4RhYr8Rc>`_;"
@@ -1096,17 +1036,19 @@ msgstr ""
 "`Ukrainian: Основи дешифрування плагіном Semi-Automatic Classification 5.0 "
 "<https://www.youtube.com/watch?v=kwI4RhYr8Rc>`_;"
 
-#: ../../faq.rst:455
+#: ../../faq.rst:431
 msgid ""
 "`Ukrainian: Використання Гіс Qgis Для Отримання Та Обробки Космічних Знімків"
 " Євген Василенко <https://www.youtube.com/watch?v=O1nyOqMdIiQ>`_;"
 msgstr ""
+"`Ucranio: Використання Гіс Qgis Для Отримання Та Обробки Космічних Знімків "
+"Євген Василенко <https://www.youtube.com/watch?v=O1nyOqMdIiQ>`_;"
 
-#: ../../faq.rst:461
+#: ../../faq.rst:437
 msgid "How can I translate this user manual to another language?"
 msgstr "¿Cómo puedo traducir este manual del usuario a otro lenguaje?"
 
-#: ../../faq.rst:463
+#: ../../faq.rst:439
 msgid ""
 "It is possible to easily translate the user manual to any language, because "
 "it is written in reStructuredText as markup language (using Sphinx). "
@@ -1120,15 +1062,15 @@ msgstr ""
 "manual a tu lenguaje. Las siguientes guías ilustran los pasos principales "
 "para la traducción. La cual puede efectuarse:"
 
-#: ../../faq.rst:467
+#: ../../faq.rst:443
 msgid "using the free online service Transifex;"
 msgstr "usando el servicio en línea gratuito Transifex;"
 
-#: ../../faq.rst:468
+#: ../../faq.rst:444
 msgid "using the gettext .po files."
 msgstr "usando los archivos gettext.po."
 
-#: ../../faq.rst:470
+#: ../../faq.rst:446
 msgid ""
 "Before translating, please `read this document "
 "<http://docs.qgis.org/testing/en/docs/documentation_guidelines/do_translations.html#translate-a-manual>`_"
@@ -1140,12 +1082,12 @@ msgstr ""
 " de la guía de traducción de QGIS, la cual te ayudará a comprender "
 "reStructuredText."
 
-#: ../../faq.rst:472
+#: ../../faq.rst:448
 msgid "**Method 1. Translation using the free online service Transifex**"
 msgstr ""
 "**Método 1. Traducción usando el servicio en línea gratuito Transifex**"
 
-#: ../../faq.rst:474
+#: ../../faq.rst:450
 msgid ""
 "This is probably the easiest way to translate the manual using an online "
 "service."
@@ -1153,11 +1095,11 @@ msgstr ""
 "Esta probablemente es la forma más fácil de traducir el manual usando un "
 "servicio en línea."
 
-#: ../../faq.rst:476
+#: ../../faq.rst:452
 msgid "Join the Semi-automatic Classification Manual project"
 msgstr "únete al proyecto del Manual de Semi-automatic Classification"
 
-#: ../../faq.rst:478
+#: ../../faq.rst:454
 msgid ""
 "Go to the page https://www.transifex.com/semi-automatic-classification/semi-"
 "automatic-classification-plugin-manual and click the button ``Help "
@@ -1169,11 +1111,11 @@ msgstr ""
 "translate``. Puedes suscribirte usando tus cuentas de Google o Facebook, o "
 "registrando una nueva cuenta gratuita."
 
-#: ../../faq.rst:481
+#: ../../faq.rst:457
 msgid "Select your language"
 msgstr "Selecciona tu idioma"
 
-#: ../../faq.rst:483
+#: ../../faq.rst:459
 msgid ""
 "Select your language and click the button ``Join team``. If your language is"
 " not listed, click the button ``Request language``."
@@ -1181,11 +1123,11 @@ msgstr ""
 "Selecciona tu idioma y haz clic en el botón ``Join team``. Si tu idioma no "
 "está en el listado, clic en el botón ``Request language``."
 
-#: ../../faq.rst:486
+#: ../../faq.rst:462
 msgid "Translation"
 msgstr "Traducción"
 
-#: ../../faq.rst:488
+#: ../../faq.rst:464
 msgid ""
 "There are several files to be translated, which refer to the sections of the"
 " SCP documentation. To translate the SCP interface you should select the "
@@ -1195,11 +1137,11 @@ msgstr ""
 "secciones de la documentación de SCP. Para traducir la interfaz de SCP, "
 "debes seleccionar el archivo ``semiautomaticclassificationplugin.ts`` ."
 
-#: ../../faq.rst:491
+#: ../../faq.rst:467
 msgid "**Method 2. Translation using the gettext .po files**"
 msgstr "**Método 2. Traducir usando los archivos gettext.po**"
 
-#: ../../faq.rst:493
+#: ../../faq.rst:469
 msgid ""
 "In order to use this method, you should be familiar with GitHub. This "
 "translation method allows for the translation of the PO files locally."
@@ -1207,11 +1149,11 @@ msgstr ""
 "Para elegir usar este método, deberías estar familiarizado con GitHub. Este "
 "método de traducción permite la traducción de los archivos PO en modo local."
 
-#: ../../faq.rst:495
+#: ../../faq.rst:471
 msgid "Download the translation files"
 msgstr "Descargar los archivos de traducción"
 
-#: ../../faq.rst:497
+#: ../../faq.rst:473
 msgid ""
 "Go to the GitHub project "
 "https://github.com/semiautomaticgit/SemiAutomaticClassificationManual_v4/tree/master/locale"
@@ -1225,11 +1167,11 @@ msgstr ""
 "no está listado), o puedes bifurcar el repositorio. Cada archivo .po es un "
 "archivo de texto que se refiere a una sección del Manual del Usuario."
 
-#: ../../faq.rst:500
+#: ../../faq.rst:476
 msgid "Edit the translation files"
 msgstr "Edita los archivos de traducción"
 
-#: ../../faq.rst:502
+#: ../../faq.rst:478
 msgid ""
 "Now you can edit the .po files. It is convenient to edit those file using "
 "one of the following programs: for instance `Poedit "
@@ -1246,11 +1188,11 @@ msgstr ""
 "<http://www.omegat.org/en/download_selector/ui.php>`_ (basado en Java) para "
 "Windows, Linux y Mac OS X."
 
-#: ../../faq.rst:508
+#: ../../faq.rst:484
 msgid "Where is the source code of SCP?"
 msgstr "¿Dónde está el código fuente de SCP?"
 
-#: ../../faq.rst:510
+#: ../../faq.rst:486
 msgid ""
 "You can find the source code of SPC is at the following link "
 "https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin"
@@ -1258,409 +1200,146 @@ msgstr ""
 "Puedes encontrar el código fuente de SPC en el siguiente enlace "
 "https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin"
 
-#~ msgid ""
-#~ "open the QGIS ``plugins`` directory (in Windows usually "
-#~ "``C:\\Users\\username\\.qgis2\\python\\plugins``, in Linux and Mac usually "
-#~ "``/home/username/.qgis2/python/plugins/``) and delete the folder "
-#~ "``SemiAutomaticClassificationPlugin`` if present;"
-#~ msgstr ""
-#~ "abre el directorio \"plugins\" (en Windows normalmente "
-#~ "``C:\\Users\\nombreusuario\\.qgis2\\python\\plugins``, en Linux y Mac "
-#~ "normalmente \"/home/usuario/.qgis2/python/plugins/\") borra el directorio "
-#~ "``SemiAutomaticClassificationPlugin`` si existe;"
+#~ msgid "Virtual raster creation issues. Why?"
+#~ msgstr "Problemas con la creación de ráster virtual. ¿Por qué?"
 
 #~ msgid ""
-#~ "All Landsat 1,2, and 3 MSS and Landsat 4, 5, 7, and 8 images downloaded from"
-#~ " http://earthexplorer.usgs.gov/ and processed with the Level 1 Product "
-#~ "Generation System (LPGS) can be converted to reflectance automatically by "
-#~ "the SCP; products generated by the LPGS have a MTL file included that is "
-#~ "required for the conversion. Since version 3.1.1 the :guilabel:`SCP` can "
-#~ "also convert images from the `Global Land Cover Facility "
-#~ "<http://glcfapp.glcf.umd.edu/>`_ (images available for free from "
-#~ "ftp://ftp.glcf.umd.edu/glcf/Landsat/). In particular, images having an old "
-#~ "format of the MTL file (or a .met file) can be processed through the "
-#~ "automatic conversion to reflectance and the DOS correction. However, some "
-#~ "images do not have the required information and cannot be processed. Also, "
-#~ "notice that some images available from the Global Land Cover Facility are "
-#~ "already converted to reflectance. For this process, image bands must be "
-#~ "renamed in order to remove the final 0 if present (e.g. rename B10 to B1)."
+#~ "The automatic creation of the virtual raster after Landsat conversion to "
+#~ "reflectance is not required for the classification. Errors could happen if "
+#~ "the output destination path contains special characters (such as accented "
+#~ "letters) or spaces; try to rename directories (e.g. rename ``new directory``"
+#~ " to ``new_directory``). If you still get the same error you can create a "
+#~ "virtual raster manually."
 #~ msgstr ""
-#~ "Todas las imágenes Landsat 1, 2 y 3 MSS y Landsat 4, 5, 7 y 8 descargadas "
-#~ "desde http://earthexplorer.usgs.gov/ y procesadas con el \"Level 1 Product "
-#~ "Generation System (LPGS)\" pueden ser convertidas a reflectancia "
-#~ "automáticamente por el SCP; los productos generados por el LPGS tienen "
-#~ "incluido un archivo MTL que es requerido para la conversión. Desde la "
-#~ "versdión 3.11, SCP puede también convertir imágenes de `Global Land Cover "
-#~ "Facility <http://glcfapp.glcf.umd.edu/>`_ (imágenes gratis disponibles desde"
-#~ " ftp://ftp.glcf.umd.edu/glcf/Landsat/). En particular, imágenes que tienen "
-#~ "un formato antiguo del archivo MTL (o un archivo .met) pueden ser procesadas"
-#~ " a través de la conversión automática a reflectancia y la corrección DOS. "
-#~ "Sin embargo, algunas imágenes no tienen la información requerida y no pueden"
-#~ " ser procesadas. Además note que algunas imágenes disponibles desde Global "
-#~ "Land Cover Facility ya están convertidas a reflectancia. Para este proceso "
-#~ "las bandas deben ser renombradas para eliminar el 0 final existente (Ej. "
-#~ "reemplaza B10 por B1)."
+#~ "La creación automática de un ráster virtual después de la conversión a "
+#~ "reflectancia de una imagen Landsat, no es requerida para la clasificación. "
+#~ "Pueden ocurrir errores si la ruta de destino contiene caracteres especiales "
+#~ "(como letras acentuadas) o espacios; intenta renombrar directorios (Ej. "
+#~ "cambia \"nuevo directorio\" por \"nuevo_directorio\"). Si continúas teniendo"
+#~ " el mismo error puedes crear un ráster virtual manualmente."
 
-#~ msgid ""
-#~ "If you want to apply the DOS correction to an entire band which has NoData "
-#~ "values (the black border with value = 0) then you have to check the checkbox"
-#~ " ``Use NoData value`` and set the value to 0. This is because DOS is an "
-#~ "image based technique, and NoData values must be excluded from the "
-#~ "calculation."
-#~ msgstr ""
-#~ "Si quieres aplicar la corrección DOS a una banda entera que tiene valores "
-#~ "SinDatos (borde negro con valor = 0) tienes que marcar la casilla \"Usar "
-#~ "valor SinDatos\" y poner el valor en 0. Es así porque DOS es una técnica "
-#~ "basada en imagen y los valores SinDatos deben ser excluidos del cálculo."
-
-#~ msgid ""
-#~ "DOS1 correction does not remove clouds from the image. However, Landsat 8 "
-#~ "images include Band 9 that identifies clouds (see this `NASA site "
-#~ "<http://landsat.gsfc.nasa.gov/?page_id=5377>`_). You can use this band for "
-#~ "the creation of a mask."
-#~ msgstr ""
-#~ "La corrección DOS1 no remueve las nubes de una imagen. Sin embargo, las "
-#~ "imágenes Landsat 8 incluyen la banda 9 que identifica las nubes (vea este "
-#~ "enlace `NASA site <http://landsat.gsfc.nasa.gov/?page_id=5377>`_). Puede "
-#~ "usar esta banda para crear una máscara."
-
-#~ msgid ""
-#~ "For other Landsat satellites, clouds can be masked using the approach "
-#~ "described `this paper <http://www.planning4adaptation.eu/Docs/papers/08_NWP-"
-#~ "DoM_for_LCC_in_Dar_using_Landsat_Imagery.pdf>`_."
-#~ msgstr ""
-#~ "Para otros satélites Landsat, las nubes pueden ser enmascaradas usando el "
-#~ "enfoque descrito en el siguiente `artículo "
-#~ "<http://www.planning4adaptation.eu/Docs/papers/08_NWP-"
-#~ "DoM_for_LCC_in_Dar_using_Landsat_Imagery.pdf>`_."
-
-#~ msgid ""
-#~ "Also, see the following `video-tutorial <https://youtu.be/acxmIrM-"
-#~ "Qns?t=37m08s>`_."
-#~ msgstr ""
-#~ "También puede ver el siguiente `vídeo-tutorial <https://youtu.be/acxmIrM-"
-#~ "Qns?t=37m08s>`_."
-
-#~ msgid ""
-#~ "join the Facebook `group "
-#~ "<https://www.facebook.com/groups/661271663969035/>`_ , create a new post and"
-#~ " copy the error message and the **log file** (or attach them)."
-#~ msgstr ""
-#~ "únase al grupo de Facebook "
-#~ "<https://www.facebook.com/groups/661271663969035/> `_, cree una nueva "
-#~ "publicación y copie el mensaje de error y el ** archivo de registro ** (o "
-#~ "adjúntelos)."
-
-#~ msgid "Error [26] 'The version of Numpy is outdated'. Why?"
-#~ msgstr "Error [26] 'La versión de Numpy está desactualizada'. ¿Por qué?"
-
-#~ msgid ""
-#~ "QGIS 32bit could have an older version of Numpy as default; in order to "
-#~ "update Numpy:"
-#~ msgstr ""
-#~ "QGIS 32bit podría tener una versión antigua de Numpy por defecto; para "
-#~ "actualizar Numpy:"
-
-#~ msgid ""
-#~ "download `this file "
-#~ "<https://docs.google.com/uc?id=0BysUrKXWIDwBUmZaRGpXOF9nQ2M&export=download>`_"
-#~ " (which is based on `WinPython installer "
-#~ "<http://sourceforge.net/projects/winpython/files/WinPython_2.7/2.7.6.4"
-#~ "/WinPython-32bit-2.7.6.4.exe/download>`_ and `PyParsing "
-#~ "<https://pypi.python.org/packages/source/p/pyparsing/pyparsing-1.5.7.zip>`_);"
-#~ msgstr ""
-#~ "descarga `este archivo "
-#~ "<https://docs.google.com/uc?id=0BysUrKXWIDwBUmZaRGpXOF9nQ2M&export=download>`_"
-#~ " (que se basa en `WinPython installer "
-#~ "<http://sourceforge.net/projects/winpython/files/WinPython_2.7/2.7.6.4"
-#~ "/WinPython-32bit-2.7.6.4.exe/download>`_ y `PyParsing "
-#~ "<https://pypi.python.org/packages/source/p/pyparsing/pyparsing-1.5.7.zip>`_);"
-
-#~ msgid "extract the file with `7-zip <http://www.7-zip.org/>`_;"
-#~ msgstr "descomprime el archivo con `7-zip <http://www.7-zip.org/>`_;"
-
-#~ msgid ""
-#~ "copy the content of the extracted directory inside the directory "
-#~ "``apps\\Python27\\Lib\\site-packages`` inside the QGIS installation "
-#~ "directory (e.g. ``C:\\Program Files (x86)\\QGIS Chugiak\\apps\\Python27\\Lib"
-#~ "\\site-packages``) overwriting the files ``pyparsing``, ``numpy``, "
-#~ "``matplotlib``, and ``scipy``."
-#~ msgstr ""
-#~ "copia el contenido del directorio extraído dentro del directorio "
-#~ "``apps\\Python27\\Lib\\site-packages`` dentro del directorio de instalación "
-#~ "de QGIS (Ej. ``C:\\Program Files (x86)\\QGIS Chugiak\\apps\\Python27\\Lib"
-#~ "\\site-packages``) sobrescribiendo los archivos ``pyparsing``, ``numpy``, "
-#~ "``matplotlib``, y ``scipy``."
-
-#~ msgid ""
-#~ "Alternatively, you should be able to install QGIS and Numpy with the "
-#~ "`OSGEO4W advanced installer <http://download.osgeo.org/osgeo4w/osgeo4w-"
-#~ "setup-x86.exe>`_."
-#~ msgstr ""
-#~ "Alternativamente debería poder instalar QGIS y Numpy con el `Instalador "
-#~ "avanzado OSGEO4W <http://download.osgeo.org/osgeo4w/osgeo4w-"
-#~ "setup-x86.exe>`_."
+#~ msgid "Error 'Plugin is damaged. Python said: ascii'. Why?"
+#~ msgstr "Error 'Plugin is damaged. Python said: ascii'. ¿Por qué?"
 
 #~ msgid ""
 #~ "It could be related to a wrong installation. Please, uninstall QGIS and "
-#~ "install it again with administrative rights. Delete also the directory "
-#~ ".qgis2 in your user directory. Then run QGIS and try to install the plugin "
-#~ "following the :ref:`installation` guide."
+#~ "install it again with administrative rights. Then run QGIS and try to "
+#~ "install the plugin following the :ref:`installation` guide."
 #~ msgstr ""
-
-#~ msgid "Also, if the error message contains something like:"
-#~ msgstr "Además, si el mensaje de error contiene algo como:"
-
-#~ msgid "``sfnt4 = sfnt4.decode('ascii').lower()``"
-#~ msgstr "``sfnt4 = sfnt4.decode('ascii').lower()``"
+#~ "Podría estar relacionado con una instalación incorrecta. Por favor, "
+#~ "desinstale QGIS e instálelo nuevamente con derechos administrativos. Luego "
+#~ "ejecute QGIS e intente instalar el complemento siguiendo la guía: ref: "
+#~ "ʻinstallation`."
 
 #~ msgid ""
-#~ "it could be related to a known issue of Matplotlib (a Python library); in "
-#~ "order to solve this, you should (as reported at `stackoverflow "
-#~ "<http://stackoverflow.com/questions/18689854/enthought-matplotlib-problems-"
-#~ "with-plot-function>`_):"
+#~ "Also, it could be related to the user name containing special characters. "
+#~ "Please try the installation creating a new user without special characters "
+#~ "(e.g. ``user``)."
 #~ msgstr ""
-#~ "puede estar relacionado con un problema conocido de Matplotlib (una librería"
-#~ " de Python); para solucionar esto, puedes (reportarlo a `stackoverflow "
-#~ "<http://stackoverflow.com/questions/18689854/enthought-matplotlib-problems-"
-#~ "with-plot-function>`_):"
+#~ "También puede estar relacionado al nombre de usuario que contiene caracteres"
+#~ " especiales. Por favor intenta la instalación creando un nuevo usuario sin "
+#~ "caracteres especiales (Ej. \"usuario\")."
 
 #~ msgid ""
-#~ "open in a text editor the file font_manager.py which is inside the directory"
-#~ " ``C:\\PROGRA~1\\QGISCH~1\\apps\\Python27\\lib\\site-"
-#~ "packages\\matplotlib\\``"
+#~ "`The Landsat 8 Data Users Handbook by USGS <https://www.usgs.gov/land-"
+#~ "resources/nli/landsat/landsat-8-data-users-handbook>`_;"
 #~ msgstr ""
-#~ "abrir en un editor de texto el archivo font_manager.py que está dentro del "
-#~ "directorio ``C:\\PROGRA~1\\QGISCH~1\\apps\\Python27\\lib\\site-"
-#~ "packages\\matplotlib\\``. La ruta puede cambiar según la versión del sistema"
-#~ " operativo y de QGIS."
-
-#~ msgid "search for the line"
-#~ msgstr "busca la línea"
-
-#~ msgid "and replace it with the line"
-#~ msgstr "y reemplaza por la línea"
-
-#~ msgid "``sfnt4 = sfnt4.decode('ascii', 'ignore').lower()``"
-#~ msgstr "``sfnt4 = sfnt4.decode('ascii', 'ignore').lower()``"
+#~ "`The Landsat 8 Data Users Handbook by USGS <https://www.usgs.gov/land-"
+#~ "resources/nli/landsat/landsat-8-data-users-handbook>`_;"
 
 #~ msgid ""
-#~ "Alternatively, try to install QGIS through the `OSGEO4W installer "
-#~ "<http://trac.osgeo.org/osgeo4w/>`_, which includes an updated Matplotlib "
-#~ "version."
+#~ "`The Landsat 7 Science Data Users Handbook by NASA <https://www.usgs.gov"
+#~ "/land-resources/nli/landsat/landsat-7-data-users-handbook>`_;"
 #~ msgstr ""
-#~ "Alternativamente, intenta instalar QGIS a través del `instalador OSGEO4W "
-#~ "<http://trac.osgeo.org/osgeo4w/>`_, el cual incluye una versión actualizada "
-#~ "de Matplotlib."
-
-#~ msgid ""
-#~ "The error message usually includes some information about the issue. First, "
-#~ "check the user name and password."
-#~ msgstr ""
-#~ "El mensaje de error generalmente incluye alguna información sobre el "
-#~ "problema. Primero verifica el nombre de usuario y la contraseña."
-
-#~ msgid ""
-#~ "Error [56] 'SSL connection error'. Unable to download Sentinel-2 images. "
-#~ "Why?"
-#~ msgstr ""
-#~ "Error [56] 'SSL error de conexión'. No se puede descargar imágenes "
-#~ "Sentinel-2. ¿Por qué?"
-
-#~ msgid "First, check the user name and password."
-#~ msgstr "Primero revisa el nombre de usuario y la contraseña."
-
-#~ msgid ""
-#~ "This issue could be related to SSL protocols (TLS v1.1 and TLS v1.2) "
-#~ "required for Sentinel-2 download. As described here "
-#~ "https://docs.python.org/2/library/ssl.html the protocols TLS v1.1 and TLS "
-#~ "v1.2 are available only in Python 2.7.9+ with openssl version 1.0.1+. QGIS "
-#~ "could have a previous version of Python where TLS v1.1 and TLS v1.2 are not "
-#~ "available. Therefore the Sentinel-2 download process fails."
-#~ msgstr ""
-#~ "Este problema puede estar relacionado con el protocolo SSL (TLS v1.1 y TLS "
-#~ "v1.2) requerido para descarga de Sentinel-2. Como se describe aquí "
-#~ "https://docs.python.org/2/library/ssl.html los protocolos TLS v1.1 y TLS "
-#~ "v1.2 están disponibles solo en Python 2.7.9+ con openssl version 1.0.1+. "
-#~ "QGIS pudiera tener una versión previa de Python donde TLS v1.1 y TLS v1.2 no"
-#~ " están disponibles. Por lo tanto el proceso de descarga de Sentinel-2 falla."
-
-#~ msgid "A temporary solution for Windows OS:"
-#~ msgstr "Una solución temporal para Windows OS:"
-
-#~ msgid ""
-#~ "**Warning**: this could break other QGIS functions, but fortunately you can "
-#~ "install multiple versions of QGIS."
-#~ msgstr ""
-#~ "**Advertencia**: esto podría dañar otras funciones de QGIS, pero "
-#~ "afortunadamente puedes instalar múltiples versiones de QGIS."
-
-#~ msgid "Close QGIS if open"
-#~ msgstr "Cierra QGIS si está abierto"
-
-#~ msgid ""
-#~ "Download and install Python `for 32bit "
-#~ "<https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi>`_ or `for 64bit"
-#~ " <https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi>`_ "
-#~ "according to the installed version of QGIS"
-#~ msgstr ""
-#~ "Descarga e instala Python `para 32bit "
-#~ "<https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi>`_ o `para 64bit"
-#~ " <https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi>`_ en "
-#~ "función de la versión instalada de QGIS"
-
-#~ msgid ""
-#~ "Copy and replace ``C:\\python27\\python.exe`` to ``\"QGIS installation "
-#~ "folder\"\\bin\\`` (e.g. ``C:\\Program Files (x86)\\QGIS Chugiak\\bin\\``)"
-#~ msgstr ""
-#~ "Copia y reemplaza ``C:\\python27\\python.exe`` en ``\"QGIS installation "
-#~ "folder\"\\bin\\`` (e.g. ``C:\\Program Files (x86)\\QGIS Chugiak\\bin\\``)"
-
-#~ msgid ""
-#~ "Copy and replace ``C:\\python27\\pythonw.exe`` to ``\"QGIS installation "
-#~ "folder\"\\bin\\``"
-#~ msgstr ""
-#~ "Copia y reemplaza ``C:\\python27\\pythonw.exe`` en ``\"QGIS installation "
-#~ "folder\"\\bin\\``"
-
-#~ msgid ""
-#~ "Copy and replace all the content of ``C:\\python27\\`` to ``\"QGIS "
-#~ "installation folder\"\\apps\\python27\\``"
-#~ msgstr ""
-#~ "Copia y reemplaza todo el contenido de ``C:\\python27\\`` en ``\"QGIS "
-#~ "installation folder\"\\apps\\python27\\``"
-
-#~ msgid ""
-#~ "Now start QGIS and if everything went well you should be able to search and "
-#~ "download Sentinel-2 images using SCP"
-#~ msgstr ""
-#~ "Inicia QGIS y si todo salió bien deberías poder buscar y descargar imágenes "
-#~ "Sentinel-2 usando SCP"
-
-#~ msgid ""
-#~ "`The Landsat 8 Data Users Handbook by USGS "
-#~ "<http://landsat.usgs.gov/documents/Landsat8DataUsersHandbook.pdf>`_;"
-#~ msgstr ""
-#~ "`The Landsat 8 Data Users Handbook by USGS "
-#~ "<http://landsat.usgs.gov/documents/Landsat8DataUsersHandbook.pdf>`_;"
-
-#~ msgid ""
-#~ "`The Landsat 7 Science Data Users Handbook by NASA "
-#~ "<http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf>`_;"
-#~ msgstr ""
-#~ "`The Landsat 7 Science Data Users Handbook by NASA "
-#~ "<http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf>`_;"
-
-#~ msgid ""
-#~ "`Remote Sensing Note by JARS <http://www.jars1974.net/pdf/rsnote_e.html>`_."
-#~ msgstr ""
-#~ "`Remote Sensing Note by JARS <http://www.jars1974.net/pdf/rsnote_e.html>`_."
+#~ "`The Landsat 7 Science Data Users Handbook by NASA <https://www.usgs.gov"
+#~ "/land-resources/nli/landsat/landsat-7-data-users-handbook>`_;"
 
 #~ msgid ""
 #~ "`Webinar: Fundamentals of Remote Sensing by NASA "
-#~ "<http://arset.gsfc.nasa.gov/webinars/fundamentals-remote-sensing>`_."
+#~ "<https://arset.gsfc.nasa.gov/webinars/fundamentals-remote-sensing>`_."
 #~ msgstr ""
 #~ "`Webinar: Fundamentals of Remote Sensing by NASA "
-#~ "<http://arset.gsfc.nasa.gov/webinars/fundamentals-remote-sensing>`_."
+#~ "<https://arset.gsfc.nasa.gov/webinars/fundamentals-remote-sensing>`_."
 
 #~ msgid ""
 #~ "`Webinar: NASA Remote Sensing for Land Management by NASA "
-#~ "<http://arset.gsfc.nasa.gov/land/webinars/land-management14>`_."
+#~ "<https://arset.gsfc.nasa.gov/land/webinars/land-management14>`_."
 #~ msgstr ""
 #~ "`Webinar: NASA Remote Sensing for Land Management by NASA "
-#~ "<http://arset.gsfc.nasa.gov/land/webinars/land-management14>`_."
+#~ "<https://arset.gsfc.nasa.gov/land/webinars/land-management14>`_."
 
 #~ msgid ""
 #~ "`Webinar: Creating and Using Normalized Difference Vegetation Index (NDVI) "
 #~ "from Satellite Imagery by NASA "
-#~ "<http://arset.gsfc.nasa.gov/land/webinars/advancedNDVI>`_."
+#~ "<https://arset.gsfc.nasa.gov/land/webinars/advancedNDVI>`_."
 #~ msgstr ""
 #~ "`Webinar: Creating and Using Normalized Difference Vegetation Index (NDVI) "
 #~ "from Satellite Imagery by NASA "
-#~ "<http://arset.gsfc.nasa.gov/land/webinars/advancedNDVI>`_."
+#~ "<https://arset.gsfc.nasa.gov/land/webinars/advancedNDVI>`_."
 
 #~ msgid ""
 #~ "`Webinar: Remote Sensing of Forest Cover and Change Assessment for Carbon "
-#~ "Monitoring by NASA <http://arset.gsfc.nasa.gov/land/webinars/carbon-"
+#~ "Monitoring by NASA <https://arset.gsfc.nasa.gov/land/webinars/carbon-"
 #~ "monitoring-2016>`_."
 #~ msgstr ""
 #~ "`Webinar: Remote Sensing of Forest Cover and Change Assessment for Carbon "
-#~ "Monitoring by NASA <http://arset.gsfc.nasa.gov/land/webinars/carbon-"
+#~ "Monitoring by NASA <https://arset.gsfc.nasa.gov/land/webinars/carbon-"
 #~ "monitoring-2016>`_."
 
 #~ msgid ""
 #~ "`Webinar: Introduction to Remote Sensing for Conservation Management by NASA"
-#~ " <http://arset.gsfc.nasa.gov/land/webinars/intro-conservation15>`_."
+#~ " <https://arset.gsfc.nasa.gov/land/webinars/intro-conservation15>`_."
 #~ msgstr ""
 #~ "`Webinar: Introduction to Remote Sensing for Conservation Management by NASA"
-#~ " <http://arset.gsfc.nasa.gov/land/webinars/intro-conservation15>`_."
+#~ " <https://arset.gsfc.nasa.gov/land/webinars/intro-conservation15>`_."
 
 #~ msgid ""
-#~ "`Polish: Klasyfikacja pokrycia terenu w QGIS SCP "
-#~ "<http://nycz.beskidy.pl/2018/01/29/klasyfikacja-pokrycia-terenu-w-qgis-scp-"
-#~ "cz-2/>`_;"
+#~ "`English: Using the SCP QGIS plugin to download and process Sentinel 2 "
+#~ "imagery <https://www.youtube.com/watch?v=77BEF7txk4s>`_;"
 #~ msgstr ""
+#~ "`English: Uso del complemento SCP en QGIS para descargar y procesar imágenes"
+#~ " de Sentinel 2<https://www.youtube.com/watch?v=77BEF7txk4s>`_;"
 
 #~ msgid ""
-#~ "`Polish: Klasyfikacja nienadzorowana w QGIS SCP "
-#~ "<http://nycz.beskidy.pl/2018/02/04/klasyfikacja-nienadzorowana-qgis-scp/>`_;"
+#~ "`Italian: Classificazione e Mosaico di Varie Immagini Landsat "
+#~ "<https://fromgistors.blogspot.com/2015/09/tutorial-classificazione-mosaico-"
+#~ "landsat.html>`_;"
 #~ msgstr ""
-
-#~ msgid "How to install QGIS using OSGeo4W?"
-#~ msgstr ""
+#~ "`Italiano: Classificazione e Mosaico di Varie Immagini Landsat "
+#~ "<https://fromgistors.blogspot.com/2015/09/tutorial-classificazione-mosaico-"
+#~ "landsat.html>`_;"
 
 #~ msgid ""
-#~ "To install QGIS, first download the `OSGeo4W installer x86 "
-#~ "<http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe>`_ or `OSGeo4W "
-#~ "installer x64 <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe>`_"
-#~ " according to your operating system."
+#~ "`Portuguese: Classificacao supervisionada de imagens Sentinel-2 com QGIS e "
+#~ "SCP <https://www.youtube.com/watch?v=t5D6JT7adYY>`_;"
 #~ msgstr ""
-#~ "Para instalar QGIS, primero descargue el instalador OSGeo4W x86 "
-#~ "<http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe> ó el instalador "
-#~ "OSGeo4W x64 <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe>, de"
-#~ " acuerdo a su sistmea operativo."
-
-#~ msgid "Then start the installer and select ``Advanced Install``."
-#~ msgstr "Luego inicie el instalador y selecciones \"instalación avanzada\"."
-
-#~ msgid "Check ``Install from Internet`` and click ``Next``."
-#~ msgstr "Tilde la opción \"Instalar desde Internet\" y click en \"Siguiente\"."
-
-#~ msgid "Select the installation directory and click ``Next``."
-#~ msgstr ""
-
-#~ msgid "Select the local package directory and click ``Next``."
-#~ msgstr ""
+#~ "`Portugués: Classificacao supervisionada de imagens Sentinel-2 com QGIS e "
+#~ "SCP <https://www.youtube.com/watch?v=t5D6JT7adYY>`_;"
 
 #~ msgid ""
-#~ "Select ``Direct connection`` (or select an internet connection option) and "
-#~ "click ``Next``."
+#~ "`Portuguese: Conversão Sentinel-2 para refletância com QGIS SCP "
+#~ "<https://www.youtube.com/watch?v=m3XFvvVrU24>`_;"
 #~ msgstr ""
-
-#~ msgid "Select the first download site and click ``Next``."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In the package list select ``qgis-dev`` (in category ``Desktop``) until "
-#~ "QGIS3 is released."
-#~ msgstr ""
+#~ "`Portugués: Conversão Sentinel-2 para refletância com QGIS SCP "
+#~ "<https://www.youtube.com/watch?v=m3XFvvVrU24>`_;"
 
 #~ msgid ""
-#~ "In the package list select ``python3-matplotlib`` (in category ``Libs``)."
+#~ "`Portuguese: Criar composições coloridas no QGIS com SCP "
+#~ "<https://www.youtube.com/watch?v=LWvDEE1Evxg>`_;"
 #~ msgstr ""
-
-#~ msgid "In the package list select ``python3-numpy`` (in category ``Libs``)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In the package list select ``python3-scipy`` (in category ``Libs``) and "
-#~ "click ``Next``."
-#~ msgstr ""
-
-#~ msgid "Click ``Next`` to install also other dependencies."
-#~ msgstr ""
+#~ "`Portugués: Criar composições coloridas no QGIS com SCP "
+#~ "<https://www.youtube.com/watch?v=LWvDEE1Evxg>`_;"
 
 #~ msgid ""
-#~ "After the download, QGIS should be installed with all the required "
-#~ "dependencies for SCP."
+#~ "`Portuguese: Corte de imagem Sentinel-2 usand QGIS e SCP "
+#~ "<https://www.youtube.com/watch?v=8UHey-bQJGs>`_;"
 #~ msgstr ""
+#~ "`Portugués: Corte de imagem Sentinel-2 usand QGIS e SCP "
+#~ "<https://www.youtube.com/watch?v=8UHey-bQJGs>`_;"
+
+#~ msgid ""
+#~ "`Portuguese: Deteção Remota Com O QGIS <http://qgis.pt/blog/2016/12/14"
+#~ "/detecao-remota-com-o-qgis/>`_;"
+#~ msgstr ""
+#~ "`Portugués: Teledetección con QGIS <http://qgis.pt/blog/2016/12/14/detecao-"
+#~ "remota-com-o-qgis/>`_;"

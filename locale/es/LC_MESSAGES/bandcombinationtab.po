@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2019, Luca Congedo
+# Copyright (C) 2012-2020, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"POT-Creation-Date: 2021-02-21 01:20+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -45,15 +45,11 @@ msgstr ""
 "combinación de valores de clase. Una  combinación del  ráster se produce  "
 "como salida y el área de cada combinación se informa en un archivo de texto."
 
-#: ../../bandCombinationTab.rst:271
-msgid "**Parallel processing is available.**"
-msgstr ""
-
-#: ../../bandCombinationTab.rst:276
+#: ../../bandCombinationTab.rst:274
 msgid "Combination of band values"
 msgstr "Combinación de valores de banda."
 
-#: ../../bandCombinationTab.rst:278
+#: ../../bandCombinationTab.rst:276
 msgid ""
 ":guilabel:`Select input band set (of classifications)` |input_number|: "
 "select the input :ref:`band_set_tab`;"
@@ -61,12 +57,13 @@ msgstr ""
 ":guilabel:`Seleccione el conjunto de banda de entrada (de clasificaciones)` "
 "|input_number|: seleccione la entrada :ref:`band_set_tab`;"
 
-#: ../../bandCombinationTab.rst:280
+#: ../../bandCombinationTab.rst:278
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
+": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
-#: ../../bandCombinationTab.rst:281
+#: ../../bandCombinationTab.rst:279
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation; also, the details about the combinations are displayed in the "
@@ -75,3 +72,6 @@ msgstr ""
 ":guilabel:`RUN` |run|: elija el destino de salida y comience el cálculo; "
 "tambien, los detalles sobre las combinaciones se muestran en la pestaña: "
 "guilabel: `Salida` y guardado en un archivo .txt en el directorio de salida;"
+
+#~ msgid "**Parallel processing is available.**"
+#~ msgstr "** El procesamiento en paralelo está disponible. **"

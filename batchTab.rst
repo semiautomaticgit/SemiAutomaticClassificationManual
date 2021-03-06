@@ -373,6 +373,10 @@ Preprocessing
 	
 	mosaic_bandsets;band_set_list : '';output_dir : '';output_name_prefix : 'mosaic'
 	
+* :ref:`neighbor_pixels_tab`: neighbor pixels::
+	
+	neighbor_pixels;band_set : 1;matrix_size : 1;matrix_file_path : '';output_name_prefix : 'neighbor';statistic : 'sum';stat_value : 50;output_dir : ''
+	
 * :ref:`reproject_raster_bands_tab`: reproject raster bands::
 	
 	reproject_raster_bands;band_set : 1;output_dir : '';align_raster_path : '';same_extent_reference : 0;epsg : '';x_resolution : '';y_resolution : '';resample_pixel_factor : '';resampling_method : 'near';output_nodata_value : -32768;data_type : 'auto';output_name_prefix : 'reproj'
@@ -401,9 +405,9 @@ Preprocessing
 	
 	stack_raster_bands;band_set : 1;output_raster_path : ''
 
-.. _batch_band_preprocessing:
+.. _batch_band_processing:
 
-Band preprocessing
+Band processing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * :ref:`band_combination_tab`: band combination::
@@ -430,9 +434,9 @@ Band preprocessing
 
 	spectral_distance;first_band_set : 1;second_band_set : 2;distance_algorithm  : 1;use_distance_threshold : 1;threshold_value : 0.1;output_raster_path : ''
 	
-.. _batch_post_preprocessing:
+.. _batch_post_processing:
 
-Post preprocessing
+Post processing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * :ref:`accuracy_tab`: calculate accuracy::

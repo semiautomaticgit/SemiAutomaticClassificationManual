@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-21 01:20+0100\n"
+"POT-Creation-Date: 2021-03-06 20:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,21 +69,30 @@ msgstr ""
 
 #: ../../zonalStatRasterTab.rst:286
 msgid ""
-":guilabel:`Select a statistics` |input_list|: select a statistic; "
-"available options are ``Sum``, ``Max``, ``Min``, ``Count``, ``Mean``, "
-"``Median``, ``Percentile``, ``StandardDeviation``;"
+":guilabel:`Select a statistic` |input_list| |input_text|: select a "
+"statistic; available options are ``Sum``, ``Max``, ``Min``, ``Count``, "
+"``Mean``, ``Median``, ``Percentile``, ``StandardDeviation``; for "
+"``Percentile`` a value can be entered;"
 msgstr ""
 
-#: ../../zonalStatRasterTab.rst:288
+#: ../../zonalStatRasterTab.rst:287
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../zonalStatRasterTab.rst:289
+#: ../../zonalStatRasterTab.rst:288
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation;"
 msgstr ""
 
 #~ msgid "**Parallel processing is available.**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`Select a statistics` |input_list|: "
+#~ "select a statistic; available options "
+#~ "are ``Sum``, ``Max``, ``Min``, ``Count``, "
+#~ "``Mean``, ``Median``, ``Percentile``, "
+#~ "``StandardDeviation``;"
 #~ msgstr ""
 

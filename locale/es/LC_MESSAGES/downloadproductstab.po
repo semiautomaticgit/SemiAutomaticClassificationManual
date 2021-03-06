@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2019, Luca Congedo
+# Copyright (C) 2012-2020, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-25 23:18+0100\n"
+"POT-Creation-Date: 2021-02-21 01:20+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -64,6 +64,8 @@ msgstr ""
 msgid ""
 ":ref:`Sentinel1_definition` images (GRD) acquired from 2014 to present days;"
 msgstr ""
+": ref: Imágenes `Sentinel1_definition` (GRD) adquiridas desde 2014 hasta la "
+"actualidad;"
 
 #: ../../downloadProductsTab.rst:270
 msgid ""
@@ -103,6 +105,8 @@ msgid ""
 ":ref:`GOES_definition` images (GOES 16 and GOES 17 Full Disk L1b Radiance) "
 "acquired from 2017 to present days;"
 msgstr ""
+": ref: Imágenes `GOES_definition` (GOES 16 y GOES 17 Full Disk L1b Radiance)"
+" adquiridas desde 2017 hasta la actualidad;"
 
 #: ../../downloadProductsTab.rst:276
 msgid ""
@@ -110,12 +114,13 @@ msgid ""
 "Search API "
 "<https://cmr.earthdata.nasa.gov/search/site/search_api_docs.html>`_ "
 "developed by NASA. Landsat images are freely available through the services:"
-" `EarthExplorer <http://earthexplorer.usgs.gov/>`_ , `Google Cloud Storage "
-"Landsat <https://cloud.google.com/storage/docs/public-datasets/landsat>`_ . "
-"The ASTER L1T and MODIS products are retrieved from the online Data Pool, "
-"courtesy of the NASA Land Processes Distributed Active Archive Center (LP "
-"DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux "
-"Falls, South Dakota, https://lpdaac.usgs.gov/data_access/data_pool."
+" `EarthExplorer USGS <http://earthexplorer.usgs.gov/>`_ , `Google Cloud "
+"Storage Landsat <https://cloud.google.com/storage/docs/public-"
+"datasets/landsat>`_ . The ASTER L1T and MODIS products are retrieved from "
+"the online Data Pool, courtesy of the NASA Land Processes Distributed Active"
+" Archive Center (LP DAAC), USGS/Earth Resources Observation and Science "
+"(EROS) Center, Sioux Falls, South Dakota, "
+"https://lpdaac.usgs.gov/data_access/data_pool."
 msgstr ""
 
 #: ../../downloadProductsTab.rst:280
@@ -123,6 +128,8 @@ msgid ""
 "GOES products are downloaded through `Amazon AWS Open Data "
 "<https://registry.opendata.aws/noaa-goes>`_ ."
 msgstr ""
+"Los productos GOES se descargan a través de `Amazon AWS Open Data "
+"<https://registry.opendata.aws/noaa-goes>`_ ."
 
 #: ../../downloadProductsTab.rst:282
 msgid ""
@@ -134,6 +141,13 @@ msgid ""
 "<https://cloud.google.com/storage/docs/public-datasets/sentinel-2>`_ if "
 "available."
 msgstr ""
+"Para Sentinel-1, Sentinel-2 y Sentinel-3, la búsqueda se realiza a través "
+"del `Copernicus Open Access Hub <https://scihub.copernicus.eu/>` _ "
+"(utilizando la API `Data Hub "
+"<https://scihub.copernicus.eu/userguide/5APIsAndBatchScripting>`_). "
+"Sentinel-2 se descargan de `Google Cloud Storage "
+"<https://cloud.google.com/storage/docs/public-datasets/sentinel-2>` _ si "
+"está disponible."
 
 #: ../../downloadProductsTab.rst:285
 msgid ""
@@ -143,6 +157,11 @@ msgid ""
 "requested through the `Copernicus Open Access Hub "
 "<https://scihub.copernicus.eu/>`_ ."
 msgstr ""
+"Tenga en cuenta que los productos Sentinel de más de 12 meses pueden "
+"archivarse en `Archivos a largo plazo "
+"<https://scihub.copernicus.eu/userguide/LongTermArchive>`_ ) y debe "
+"solicitarse a través del `Copernicus Open Access Hub "
+"<https://scihub.copernicus.eu/>`_ ."
 
 #: ../../downloadProductsTab.rst:287
 msgid ""
@@ -170,29 +189,25 @@ msgstr "Iniciar sesión https://ers.cr.usgs.gov"
 msgid ""
 "For Landsat images `USGS EROS` credentials (https://ers.cr.usgs.gov) are "
 "required for downloads from `EarthExplorer "
-"<http://earthexplorer.usgs.gov/>`_ . Login using your `USGS EROS` "
+"<https://earthexplorer.usgs.gov/>`_ . Login using your `USGS EROS` "
 "credentials or register for free at https://ers.cr.usgs.gov/register ."
 msgstr ""
-"Para las imágenes de Landsat, se requieren credenciales `USGS EROS` "
-"(https://ers.cr.usgs.gov) para las descargas desde` EarthExplorer "
-"<http://earthexplorer.usgs.gov/> `_. Inicie sesión con sus credenciales "
-"`USGS EROS` o regístrese gratis en https://ers.cr.usgs.gov/register."
 
 #: ../../downloadProductsTab.rst:308 ../../downloadProductsTab.rst:321
-#: ../../downloadProductsTab.rst:335
+#: ../../downloadProductsTab.rst:337
 msgid ":guilabel:`User` |input_text| |registry_save|: enter the user name;"
 msgstr ""
 ":guilabel:`Usuario` |input_text| |registry_save|: ingresa tu nombre de "
 "usuario;"
 
 #: ../../downloadProductsTab.rst:309 ../../downloadProductsTab.rst:322
-#: ../../downloadProductsTab.rst:336
+#: ../../downloadProductsTab.rst:338
 msgid ":guilabel:`Password` |input_text| |registry_save|: enter the password;"
 msgstr ""
 ":guilabel:`Contraseña` |input_text| |registry_save|: ingresa tu contraseña;"
 
 #: ../../downloadProductsTab.rst:310 ../../downloadProductsTab.rst:323
-#: ../../downloadProductsTab.rst:337
+#: ../../downloadProductsTab.rst:339
 msgid ""
 "|checkbox| :guilabel:`remember`: remember user name and password in QGIS;"
 msgstr ""
@@ -237,6 +252,12 @@ msgstr ""
 
 #: ../../downloadProductsTab.rst:333
 msgid ""
+"For searching Sentinel-2 images it is possible to use a service that does "
+"not require authentication."
+msgstr ""
+
+#: ../../downloadProductsTab.rst:335
+msgid ""
 ":guilabel:`Service` |input_text| |registry_save|: enter the service URL "
 "(default is https://scihub.copernicus.eu/apihub); other mirror services that"
 " share the same infrastructure can be used (such as "
@@ -249,23 +270,34 @@ msgstr ""
 "este https://scihub.copernicus.eu/dhus , https://finhub.nsdc.fmi.fi , "
 "https://data.sentinel.zamg.ac.at);"
 
-#: ../../downloadProductsTab.rst:334
+#: ../../downloadProductsTab.rst:336
 msgid "|reset|: reset the default service;"
 msgstr "|reset|: restablece el servicio predeterminado;"
 
-#: ../../downloadProductsTab.rst:342
+#: ../../downloadProductsTab.rst:340
+msgid ""
+"|checkbox| :guilabel:`Use alternative search for Sentinel-2 (no "
+"authentication required)` |registry_save|: if checked, use the `CREODIAS "
+"Finder API <https://creodias.eu/>`_ for searching (from https://creodias.eu"
+"/eo-data-finder-api-manual the database is accessible free and anonymously, "
+"and open for anonymous access to everyone, no authorization is used); more "
+"information about Copernicus DIAS platforms at https://www.copernicus.eu/en"
+"/access-data/dias ;"
+msgstr ""
+
+#: ../../downloadProductsTab.rst:345
 msgid "Search"
 msgstr "Buscar"
 
-#: ../../downloadProductsTab.rst:348
+#: ../../downloadProductsTab.rst:351
 msgid "|search_tab| :guilabel:`Search`"
 msgstr "|search_tab| :guilabel:`Buscar`"
 
-#: ../../downloadProductsTab.rst:353
+#: ../../downloadProductsTab.rst:356
 msgid "Search parameters"
 msgstr "Parámetros de búsqueda"
 
-#: ../../downloadProductsTab.rst:355
+#: ../../downloadProductsTab.rst:358
 msgid ""
 "Define the search area by entering the coordinates (longitude and latitude) "
 "of an ``Upper Left`` (UL) point and ``Lower Right`` (LR) point and select a "
@@ -278,14 +310,18 @@ msgstr ""
 "son la fecha de adquisición, la cobertura máxima de la nube, el número de "
 "resultados (cuanto menos resultados, más rápida es la consulta)."
 
-#: ../../downloadProductsTab.rst:358
+#: ../../downloadProductsTab.rst:361
 msgid ""
 "The definition of a search area is required before searching the images. For"
 " Sentinel-2 it is possible to avoid the definition of a search by entering a"
 " granule name in the :guilabel:`Advanced search` |input_text|."
 msgstr ""
+"Se requiere la definición de un área de búsqueda antes de buscar las "
+"imágenes. Para Sentinel-2, es posible evitar la definición de una búsqueda "
+"ingresando un nombre de gránulo en la :guilabel:`Advanced search` "
+"|input_text|."
 
-#: ../../downloadProductsTab.rst:361
+#: ../../downloadProductsTab.rst:364
 msgid ""
 ":guilabel:`UL` |input_number| |input_number|: set the UL longitude X (Lon) "
 "and the UL latitude Y (Lat);"
@@ -293,7 +329,7 @@ msgstr ""
 ": guilabel: `UL` | input_number | | input_number |: establece la longitud UL"
 " X (Lon) y la latitud UL Y (Lat);"
 
-#: ../../downloadProductsTab.rst:362
+#: ../../downloadProductsTab.rst:365
 msgid ""
 ":guilabel:`LR` |input_number| |input_number|: set the LR longitude X (Lon) "
 "and the LR latitude Y (Lat);"
@@ -301,14 +337,14 @@ msgstr ""
 ":guilabel:`LR` |input_number| |input_number|: establece la longitud LR X "
 "(Lon) y la latitud LR Y (Lat);"
 
-#: ../../downloadProductsTab.rst:363
+#: ../../downloadProductsTab.rst:366
 msgid ""
 "|radiobutton| :guilabel:`Show`: show or hide the search area in the map;"
 msgstr ""
 "|radiobutton| :guilabel:`Mostrar`: muestra u oculta el área de búsqueda en "
 "el mapa;"
 
-#: ../../downloadProductsTab.rst:364
+#: ../../downloadProductsTab.rst:367
 msgid ""
 "|pointer|: define a search area by left click to set the UL point and right "
 "click to set the LR point; the search area is displayed in the map;"
@@ -317,21 +353,21 @@ msgstr ""
 "establecer el punto SI y haciendo clic derecho para establecer el punto ID; "
 "el área de búsqueda se muestra en el mapa;"
 
-#: ../../downloadProductsTab.rst:365
+#: ../../downloadProductsTab.rst:368
 msgid ":guilabel:`Products` |input_list|: set the search product;"
 msgstr ":guilabel:`Products` |input_list|: establece el producto de búsqueda;"
 
-#: ../../downloadProductsTab.rst:366
+#: ../../downloadProductsTab.rst:369
 msgid ""
 ":guilabel:`Date from` |input_date|: set the starting date of acquisition;"
 msgstr ""
 ":guilabel:`Desde fecha` |input_date|: fijar la fecha inicial de adquisición;"
 
-#: ../../downloadProductsTab.rst:367
+#: ../../downloadProductsTab.rst:370
 msgid ":guilabel:`to` |input_date|: set the ending date of acquisition;"
 msgstr ":guilabel:`hasta` |input_date|: fijar la fecha final de adquisición;"
 
-#: ../../downloadProductsTab.rst:368
+#: ../../downloadProductsTab.rst:371
 msgid ""
 ":guilabel:`Max cloud cover (%)` |input_number|: maximum cloud cover in the "
 "product;"
@@ -339,7 +375,7 @@ msgstr ""
 ": guilabel: `Máxima cobertura de nubes (%)` | input_number |: máxima "
 "cobertura de nubes en el producto;"
 
-#: ../../downloadProductsTab.rst:369
+#: ../../downloadProductsTab.rst:372
 msgid ""
 ":guilabel:`Results` |input_number|: maximum number of products returned by "
 "the search;"
@@ -347,7 +383,7 @@ msgstr ""
 ":guilabel:`Results` |input_number|: número máximo de productos devueltos por"
 " la búsqueda;"
 
-#: ../../downloadProductsTab.rst:370
+#: ../../downloadProductsTab.rst:373
 msgid ""
 ":guilabel:`Advanced search` |input_text|: some services (e.g. Sentinel-2) "
 "allows for entering search parameters; for instance, it is possible to enter"
@@ -355,8 +391,13 @@ msgid ""
 "to get the results of that granule; Sentinel-2 level 2A can be filtered "
 "entering ``S2A_MSIL2A*`` ;"
 msgstr ""
+":guilabel:`Advanced search` |input_text|: algunos servicios (por ejemplo, "
+"Sentinel-2) permiten ingresar parámetros de búsqueda; por ejemplo, es "
+"posible ingresar el nombre de un gránulo (por ejemplo, 33TTG) sin definir un"
+" área de búsqueda para obtener los resultados de ese gránulo; Sentinel-2 "
+"nivel 2A se puede filtrar ingresando `` S2A_MSIL2A * '';"
 
-#: ../../downloadProductsTab.rst:371
+#: ../../downloadProductsTab.rst:374
 msgid ""
 ":guilabel:`Filter` |input_text|: set a filter such as the Product ID (e.g. "
 "``LC81910312015006LGN00``); it is possible to enter multiple Product IDs "
@@ -371,7 +412,7 @@ msgstr ""
 "LC81910312013224LGN00 ''); el filtro se aplica a los productos resultantes "
 "en el área de búsqueda;"
 
-#: ../../downloadProductsTab.rst:372
+#: ../../downloadProductsTab.rst:375
 msgid ""
 ":guilabel:`Find` |search_images|: find the products in the search area; "
 "results are displayed inside the table in :ref:`product_list`; results are "
@@ -381,7 +422,7 @@ msgstr ""
 "búsqueda; los resultados se muestran dentro de la tabla en: ref: "
 "`product_list`; los resultados se agregan a resultados anteriores;"
 
-#: ../../downloadProductsTab.rst:373
+#: ../../downloadProductsTab.rst:376
 msgid ""
 "|osm_add| Add OpenStreetMap to the map: this button allows for the display "
 "of OpenStreetMap tiles (© `OpenStreetMap "
@@ -397,26 +438,34 @@ msgstr ""
 " tiene licencia CC BY-SA (`Política de uso de mosaicos "
 "<http://www.openstreetmap.org/copyright>`_ );"
 
-#: ../../downloadProductsTab.rst:375
+#: ../../downloadProductsTab.rst:378
 msgid ""
 "**TIP**: Search results (and the number thereof) depend on the defined area "
 "extent and the range of dates. In order to get more results, perform "
 "multiple searches defining smaller area extent and narrow acquisition dates "
 "(from and to)."
 msgstr ""
+"** SUGERENCIA **: Los resultados de la búsqueda (y el número de los mismos) "
+"dependen de la extensión del área definida y del rango de fechas. Para "
+"obtener más resultados, realice varias búsquedas definiendo una extensión de"
+" área más pequeña y fechas de adquisición limitadas (desde y hasta)."
 
-#: ../../downloadProductsTab.rst:380
+#: ../../downloadProductsTab.rst:383
 msgid "Product list"
 msgstr "Lista de productos"
 
-#: ../../downloadProductsTab.rst:382
+#: ../../downloadProductsTab.rst:385
 msgid ""
 "The table :guilabel:`Product list` contains the results of the search. Click"
 " on any item (highlight) to display the image preview thereof (not all the "
 "products include image previews). Results are saved with the QGIS project."
 msgstr ""
+"The table :guilabel: `Lista de productos` contiene los resultados de la "
+"búsqueda. Haga clic en cualquier elemento (resaltado) para mostrar la vista "
+"previa de la imagen del mismo (no todos los productos incluyen vistas "
+"previas de imágenes). Los resultados se guardan con el proyecto QGIS."
 
-#: ../../downloadProductsTab.rst:400
+#: ../../downloadProductsTab.rst:403
 msgid ""
 "|input_table| :guilabel:`Product list` |project_save|: found products are "
 "displayed in this table, which includes the following fields;"
@@ -424,29 +473,29 @@ msgstr ""
 "|input_table| :guilabel:`Product list` |project_save|: los productos "
 "encontrados se muestran en esta tabla, que incluye los siguientes campos;"
 
-#: ../../downloadProductsTab.rst:387
+#: ../../downloadProductsTab.rst:390
 msgid ":guilabel:`Product`: the product name;"
 msgstr ":guilabel:`Product`: el nombre del producto;"
 
-#: ../../downloadProductsTab.rst:388
+#: ../../downloadProductsTab.rst:391
 msgid ":guilabel:`ProductID`: the product ID;"
 msgstr ":guilabel:`ProductID`: el ID del producto;"
 
-#: ../../downloadProductsTab.rst:389
+#: ../../downloadProductsTab.rst:392
 msgid ":guilabel:`AcquisitionDate`: date of acquisition of product;"
 msgstr ":guilabel:`AcquisitionDate`: fecha de adquisición del producto;"
 
-#: ../../downloadProductsTab.rst:390
+#: ../../downloadProductsTab.rst:393
 msgid ":guilabel:`CloudCover`: percentage of cloud cover in the product;"
 msgstr ""
 ":guilabel:`CloudCover`: porcentaje de cobertura de nubes en el producto;"
 
-#: ../../downloadProductsTab.rst:391
+#: ../../downloadProductsTab.rst:394
 msgid ""
 ":guilabel:`Zone/Path`: the zone or WRS path depending on the product type;"
 msgstr ":guilabel:`Zone/Path`: la zona o ruta WRS según el tipo de producto;"
 
-#: ../../downloadProductsTab.rst:392
+#: ../../downloadProductsTab.rst:395
 msgid ""
 ":guilabel:`Row/DayNightFlag`: the WRS row or acquisition flag(day or night) "
 "depending on the product type;"
@@ -454,23 +503,23 @@ msgstr ""
 ":guilabel:`Row/DayNightFlag`: la fila WRS o el indicador de adquisición (día"
 " o noche) según el tipo de producto;"
 
-#: ../../downloadProductsTab.rst:393
+#: ../../downloadProductsTab.rst:396
 msgid ":guilabel:`min_lat`: minimum latitude of the product;"
 msgstr ":guilabel:`min_lat`: latitud mínima del producto;"
 
-#: ../../downloadProductsTab.rst:394
+#: ../../downloadProductsTab.rst:397
 msgid ":guilabel:`min_lon`: minimum longitude of the product;"
 msgstr ":guilabel:`min_lon`: longitud mínima del producto;"
 
-#: ../../downloadProductsTab.rst:395
+#: ../../downloadProductsTab.rst:398
 msgid ":guilabel:`max_lat`: maximum latitude of the product;"
 msgstr ":guilabel:`max_lat`: latitud máxima del producto;"
 
-#: ../../downloadProductsTab.rst:396
+#: ../../downloadProductsTab.rst:399
 msgid ":guilabel:`max_lon`: maximum longitude of the product;"
 msgstr ":guilabel:`max_lon`: longitud máxima del producto;"
 
-#: ../../downloadProductsTab.rst:397
+#: ../../downloadProductsTab.rst:400
 msgid ""
 ":guilabel:`Collection/Size`: collection code or size depending on the "
 "product type;"
@@ -478,11 +527,11 @@ msgstr ""
 ":guilabel:`Collection/Size`: código de colección o tamaño dependiendo del "
 "tipo de producto;"
 
-#: ../../downloadProductsTab.rst:398
+#: ../../downloadProductsTab.rst:401
 msgid ":guilabel:`Preview`: URL of the product preview;"
 msgstr ":guilabel:`Preview`: URL de la vista previa del producto;"
 
-#: ../../downloadProductsTab.rst:399
+#: ../../downloadProductsTab.rst:402
 msgid ""
 ":guilabel:`Collection/ID`: collection or image ID depending on the product "
 "type;"
@@ -490,7 +539,7 @@ msgstr ""
 ":guilabel:`Collection/ID`: ID de colección o imagen según el tipo de "
 "producto;"
 
-#: ../../downloadProductsTab.rst:400
+#: ../../downloadProductsTab.rst:403
 msgid ""
 ":guilabel:`Collection/Image`: collection or image ID depending on the "
 "product type;"
@@ -498,38 +547,41 @@ msgstr ""
 ":guilabel:`Collection/Image`: ID de colección o imagen según el tipo de "
 "producto;"
 
-#: ../../downloadProductsTab.rst:402
+#: ../../downloadProductsTab.rst:405
 msgid ""
 "|image_preview|: display preview of highlighted images in the map; preview "
 "is roughly georeferenced on the fly (not all the products include a "
 "preview);"
 msgstr ""
+"|image_preview|: muestra una vista previa de las imágenes resaltadas en el "
+"mapa; la vista previa está georreferenciada al vuelo (no todos los productos"
+" incluyen una vista previa);"
 
-#: ../../downloadProductsTab.rst:403
+#: ../../downloadProductsTab.rst:406
 msgid "|remove|: remove highlighted images from the list;"
 msgstr "|remove|: elimina las imágenes seleccionadas de la lista;"
 
-#: ../../downloadProductsTab.rst:404
+#: ../../downloadProductsTab.rst:407
 msgid "|reset|: remove all images from the list;"
 msgstr "|reset|: elimina todas las imágenes de la lista;"
 
-#: ../../downloadProductsTab.rst:405
+#: ../../downloadProductsTab.rst:408
 msgid "|import|: import the product list from a text file (i.e. ``.txt``);"
 msgstr ""
 "|import|: importar la lista de productos desde un archivo de texto (i.e. "
 "``.txt``);"
 
-#: ../../downloadProductsTab.rst:406
+#: ../../downloadProductsTab.rst:409
 msgid "|export|: export the product list to a text file (i.e. ``.txt``);"
 msgstr ""
 "|export|: exportar la lista de productos a un archivo de texto (i.e. "
 "``.txt``);"
 
-#: ../../downloadProductsTab.rst:411
+#: ../../downloadProductsTab.rst:414
 msgid "Download"
 msgstr "Descargar"
 
-#: ../../downloadProductsTab.rst:413
+#: ../../downloadProductsTab.rst:416
 msgid ""
 "Download the products in the :ref:`product_list`. During the download it is "
 "recommended not to interact with QGIS."
@@ -537,7 +589,7 @@ msgstr ""
 "Descargue los productos en la :ref:`product_list`. Durante la descarga, se "
 "recomienda no interactuar con QGIS."
 
-#: ../../downloadProductsTab.rst:416
+#: ../../downloadProductsTab.rst:419
 msgid ""
 "|checkbox| :guilabel:`Only if preview in Layers`: if checked, download only "
 "those images listed in :ref:`product_list` which are also listed in the QGIS"
@@ -547,7 +599,7 @@ msgstr ""
 " solo las imágenes enumeradas en :ref:`product_list` que también se enumeran"
 " en el panel de capas QGIS;"
 
-#: ../../downloadProductsTab.rst:417
+#: ../../downloadProductsTab.rst:420
 msgid ""
 "|checkbox| :guilabel:`Preprocess images`: if checked, bands are "
 "automatically converted after the download, according to the settings "
@@ -557,7 +609,7 @@ msgstr ""
 "bandas son convertidas automáticamente después de la descarga, usando la "
 "configuración definida en :ref:`landsat_tab`;"
 
-#: ../../downloadProductsTab.rst:418
+#: ../../downloadProductsTab.rst:421
 msgid ""
 "|checkbox| :guilabel:`Load bands in QGIS`: if checked, bands are loaded in "
 "QGIS after the download;"
@@ -565,11 +617,11 @@ msgstr ""
 "|checkbox| :guilabel:`Cargar bandas en QGIS`: si está seleccionado, las "
 "bandas serán cargadas en QGIS después de la descarga;"
 
-#: ../../downloadProductsTab.rst:419
+#: ../../downloadProductsTab.rst:422
 msgid "|export|: export the download links to a text file;"
 msgstr "|export|: exporta los enlaces de descarga a un archivo de texto;"
 
-#: ../../downloadProductsTab.rst:420
+#: ../../downloadProductsTab.rst:423
 msgid ""
 ":guilabel:`RUN` |run|: start the download process of all the products listed"
 " in :ref:`product_list`;"
@@ -577,15 +629,15 @@ msgstr ""
 ":guilabel:`RUN` |run|:iniciar el proceso de descarga de todos los productos "
 "enumerados en :ref:`product_list`;"
 
-#: ../../downloadProductsTab.rst:425
+#: ../../downloadProductsTab.rst:428
 msgid "Download options"
 msgstr "Opciones de Descarga"
 
-#: ../../downloadProductsTab.rst:431
+#: ../../downloadProductsTab.rst:434
 msgid "|download_options_tab| :guilabel:`Download options`"
 msgstr "|download_options_tab| :guilabel:`Opciones de descarga`"
 
-#: ../../downloadProductsTab.rst:433
+#: ../../downloadProductsTab.rst:436
 msgid ""
 "This tab allows for the selection of single bands for Landsat, Sentinel-2, "
 "and Sentinel-3 images. Depending on the download service, single band "
@@ -595,13 +647,13 @@ msgstr ""
 "Landsat, Sentinel-2 y Sentinel-3. Dependiendo del servicio de descarga, la "
 "descarga de una  banda  podría no estar disponible."
 
-#: ../../downloadProductsTab.rst:436
+#: ../../downloadProductsTab.rst:439
 msgid "|checkbox| :guilabel:`Band` ``X``: select bands for download;"
 msgstr ""
 "|checkbox| :guilabel:`Banda` ``X``: selecciona las bandas que deseas "
 "descargar;"
 
-#: ../../downloadProductsTab.rst:437
+#: ../../downloadProductsTab.rst:440
 msgid ""
 "|checkbox| :guilabel:`Ancillary data`: if checked, the metadata files are "
 "selected for download;"
@@ -609,6 +661,42 @@ msgstr ""
 "|checkbox| :guilabel:`Ancillary data`: si está marcado, los archivos de "
 "metadatos se seleccionan para descargar;"
 
-#: ../../downloadProductsTab.rst:438
+#: ../../downloadProductsTab.rst:441
 msgid "|select_all|: select or deselect all bands;"
 msgstr "|select_all|: selecciona todas las bandas o ninguna banda;"
+
+#~ msgid ""
+#~ "For Landsat, ASTER, and MODIS the search is performed through the `CMR "
+#~ "Search API "
+#~ "<https://cmr.earthdata.nasa.gov/search/site/search_api_docs.html>`_ "
+#~ "developed by NASA. Landsat images are freely available through the services:"
+#~ " `EarthExplorer <http://earthexplorer.usgs.gov/>`_ , `Google Cloud Storage "
+#~ "Landsat <https://cloud.google.com/storage/docs/public-datasets/landsat>`_ . "
+#~ "The ASTER L1T and MODIS products are retrieved from the online Data Pool, "
+#~ "courtesy of the NASA Land Processes Distributed Active Archive Center (LP "
+#~ "DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux "
+#~ "Falls, South Dakota, https://lpdaac.usgs.gov/data_access/data_pool."
+#~ msgstr ""
+#~ "Para Landsat, ASTER y MODIS, la búsqueda se realiza a través de la API de "
+#~ "búsqueda CMR "
+#~ "<https://cmr.earthdata.nasa.gov/search/site/search_api_docs.html> `_ "
+#~ "desarrollada por la NASA. Las imágenes de Landsat están disponibles "
+#~ "gratuitamente a través de los servicios: `EarthExplorer "
+#~ "<http://earthexplorer.usgs.gov/>` _, `Google Cloud Storage Landsat  "
+#~ "<https://cloud.google.com/storage/docs/public-datasets/landsat>`_. Los "
+#~ "productos ASTER L1T y MODIS se recuperan del Data Pool en línea, cortesía "
+#~ "del Centro de Archivo Activo Distribuido de Procesos Terrestres de la NASA "
+#~ "(LP DAAC), Centro de Observación y Ciencia de Recursos de la Tierra (EROS) "
+#~ "del USGS, Sioux Falls, Dakota del Sur,  "
+#~ "https://lpdaac.usgs.gov/data_access/data_pool."
+
+#~ msgid ""
+#~ "For Landsat images `USGS EROS` credentials (https://ers.cr.usgs.gov) are "
+#~ "required for downloads from `EarthExplorer "
+#~ "<http://earthexplorer.usgs.gov/>`_ . Login using your `USGS EROS` "
+#~ "credentials or register for free at https://ers.cr.usgs.gov/register ."
+#~ msgstr ""
+#~ "Para las imágenes de Landsat, se requieren credenciales `USGS EROS` "
+#~ "(https://ers.cr.usgs.gov) para las descargas desde` EarthExplorer "
+#~ "<http://earthexplorer.usgs.gov/> `_. Inicie sesión con sus credenciales "
+#~ "`USGS EROS` o regístrese gratis en https://ers.cr.usgs.gov/register."

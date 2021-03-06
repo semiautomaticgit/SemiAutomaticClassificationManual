@@ -27,6 +27,7 @@ The tab |preprocessing| :guilabel:`Preprocessing` provides several tools for dat
 	clipMultipleRastersTab.rst
 	cloudMaskingTab.rst
 	mosaicBandSetsTab.rst
+	neighborPixelsTab.rst
 	reprojectrasterbandsTab.rst
 	splitrasterbandsTab.rst
 	stackrasterbandsTab.rst

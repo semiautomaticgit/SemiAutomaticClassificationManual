@@ -5,16 +5,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-21 01:20+0100\n"
+"POT-Creation-Date: 2021-03-06 20:48+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
-"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,6 +46,8 @@ msgid ""
 "A report .txt is saved along with the classification, containing the class "
 "spectral signature and the spectral distance thereof."
 msgstr ""
+"Se guarda un informe .txt junto con la clasificación, que contiene la firma "
+"espectral de la clase y la distancia espectral de la misma."
 
 #: ../../clusteringTab.rst:275
 msgid "Clustering of band set"

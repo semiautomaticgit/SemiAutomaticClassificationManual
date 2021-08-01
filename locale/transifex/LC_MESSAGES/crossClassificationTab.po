@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 20:48+0100\n"
+"POT-Creation-Date: 2021-08-01 22:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,11 @@ msgstr ""
 msgid "Cross classification"
 msgstr ""
 
-#: ../../crossClassificationTab.rst:265
+#: ../../crossClassificationTab.rst:87
 msgid "|cross_classification| :guilabel:`Cross classification`"
 msgstr ""
 
-#: ../../crossClassificationTab.rst:268
+#: ../../crossClassificationTab.rst:90
 msgid ""
 "This tab allows for the calculation of a cross classification raster and "
 "matrix. Classification is compared to a reference raster or reference "
@@ -36,7 +36,7 @@ msgid ""
 "possible to choose a field describing class values."
 msgstr ""
 
-#: ../../crossClassificationTab.rst:273
+#: ../../crossClassificationTab.rst:95
 msgid ""
 "The output is a ``cross raster`` that is a ``.tif`` file where pixel "
 "values represent the categories of comparison (i.e. combinations "
@@ -46,43 +46,52 @@ msgid ""
 "``.tif`` file."
 msgstr ""
 
-#: ../../crossClassificationTab.rst:279
+#: ../../crossClassificationTab.rst:98
+msgid ""
+"This tool supports ``virtual raster output``; if the output file name "
+"ends with ``.vrt`` then the output is created as virtual raster composed "
+"of as many ``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`; for large rasters this can speed up the "
+"process."
+msgstr ""
+
+#: ../../crossClassificationTab.rst:103
 msgid "Input"
 msgstr ""
 
-#: ../../crossClassificationTab.rst:281
+#: ../../crossClassificationTab.rst:105
 msgid ""
 ":guilabel:`Select the classification` |input_list|: select a "
 "classification raster (already loaded in QGIS);"
 msgstr ""
 
-#: ../../crossClassificationTab.rst:282 ../../crossClassificationTab.rst:285
+#: ../../crossClassificationTab.rst:106 ../../crossClassificationTab.rst:109
 msgid "|reload|: refresh layer list;"
 msgstr ""
 
-#: ../../crossClassificationTab.rst:283
+#: ../../crossClassificationTab.rst:107
 msgid ""
 "|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
 "``NoData`` value will be excluded from the calculation;"
 msgstr ""
 
-#: ../../crossClassificationTab.rst:284
+#: ../../crossClassificationTab.rst:108
 msgid ""
 ":guilabel:`Select the reference vector or raster` |input_list|: select a "
 "raster or a vector (already loaded in QGIS), used as reference layer;"
 msgstr ""
 
-#: ../../crossClassificationTab.rst:286
+#: ../../crossClassificationTab.rst:110
 msgid ""
 ":guilabel:`Vector field` |input_list|: if a vector is selected as "
 "reference, select a vector field containing numeric class values;"
 msgstr ""
 
-#: ../../crossClassificationTab.rst:289
+#: ../../crossClassificationTab.rst:113
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../crossClassificationTab.rst:290
+#: ../../crossClassificationTab.rst:114
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation; the cross matrix is displayed in the tab :guilabel:`Output` "

@@ -288,7 +288,7 @@ We are going to download a :ref:`Sentinel2_definition` image (`Copernicus <http:
 	**TIP** : In case of slow internet connection you can download an image subset from `this archive <https://docs.google.com/uc?id=1cph9rCQ1oiWgRGusgRkjUWwLW3JEwqUK>`_ (about 30 MB, © Copernicus Sentinel data 2020 downloaded from https://scihub.copernicus.eu/), unzip the downloaded file, and skip to :ref:`tutorial_1_conversion`.
 
 Start QGIS and the :guilabel:`SCP`.
-Open the tab :ref:`download_tab` clicking the button |download| in the :ref:`SCP_home`, or in the :ref:`SCP_menu`,
+Open the tab :ref:`download_tab` clicking the button |download| in the :ref:`SCP_home`, or in the :ref:`SCP_menu`.
 
 In the tab :ref:`download_tab` click the button |osm_add| to display the OpenStreetMap tiles (© `OpenStreetMap <http://www.openstreetmap.org/copyright>`_ contributors) in the QGIS map, licensed as CC BY-SA (`Tile Usage Policy <http://www.openstreetmap.org/copyright>`_ ).
 

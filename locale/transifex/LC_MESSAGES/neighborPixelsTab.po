@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 7.8\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 7.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 20:48+0100\n"
+"POT-Creation-Date: 2021-08-01 22:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,21 +74,36 @@ msgstr ""
 
 #: ../../neighborPixelsTab.rst:300
 msgid ""
-":guilabel:`Neighbor distance in pixels` |input_number|: use a square "
-"matrix centred in one pixel considering all the neighbor pixels within "
-"this distance; e.g. a value of 1 results in a 3x3 matrix with weight 1 in"
-" every cell; a value of 2 results in a 5x5 matrix with weight 1 in every "
-"cell, such as:"
+":guilabel:`Neighbor distance in pixels` |input_number| |checkbox| "
+":guilabel:`Circular`: if |checkbox| :guilabel:`Circular` is not checked, "
+"use a square matrix centred in one pixel considering all the neighbor "
+"pixels within this distance; e.g. a value of 1 results in a 3x3 matrix "
+"with weight 1 in every cell; a value of 2 results in a 5x5 matrix with "
+"weight 1 in every cell, such as:"
 msgstr ""
 
 #: ../../neighborPixelsTab.rst:303 ../../neighborPixelsTab.rst:305
 #: ../../neighborPixelsTab.rst:307 ../../neighborPixelsTab.rst:309
-#: ../../neighborPixelsTab.rst:311 ../../neighborPixelsTab.rst:324
-#: ../../neighborPixelsTab.rst:326 ../../neighborPixelsTab.rst:328
+#: ../../neighborPixelsTab.rst:311 ../../neighborPixelsTab.rst:317
+#: ../../neighborPixelsTab.rst:319 ../../neighborPixelsTab.rst:321
+#: ../../neighborPixelsTab.rst:323 ../../neighborPixelsTab.rst:325
+#: ../../neighborPixelsTab.rst:338 ../../neighborPixelsTab.rst:340
+#: ../../neighborPixelsTab.rst:342
 msgid "1"
 msgstr ""
 
 #: ../../neighborPixelsTab.rst:314
+msgid ""
+"if |checkbox| :guilabel:`Circular` is checked, only the cells of the "
+"matrix within the radius of distance have value 1, such as:"
+msgstr ""
+
+#: ../../neighborPixelsTab.rst:317 ../../neighborPixelsTab.rst:319
+#: ../../neighborPixelsTab.rst:323 ../../neighborPixelsTab.rst:325
+msgid "0"
+msgstr ""
+
+#: ../../neighborPixelsTab.rst:328
 msgid ""
 ":guilabel:`Matrix file (optional)` |open_file| |optional|: open a text "
 "file (.txt or .csv) containing a matrix structure; the text file must be "
@@ -98,25 +113,34 @@ msgid ""
 "an example of matrix file::"
 msgstr ""
 
-#: ../../neighborPixelsTab.rst:321
+#: ../../neighborPixelsTab.rst:335
 msgid "Resulting in the following matrix:"
 msgstr ""
 
-#: ../../neighborPixelsTab.rst:324 ../../neighborPixelsTab.rst:328
+#: ../../neighborPixelsTab.rst:338 ../../neighborPixelsTab.rst:342
 msgid "NoData"
 msgstr ""
 
-#: ../../neighborPixelsTab.rst:331
+#: ../../neighborPixelsTab.rst:345
+msgid ""
+"|checkbox| :guilabel:`Create virtual raster output` |optional|: if "
+"checked, output is created as virtual raster ``.vrt`` composed of as many"
+" ``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`; for large rasters this can speed up the "
+"process;"
+msgstr ""
+
+#: ../../neighborPixelsTab.rst:347
 msgid ""
 ":guilabel:`Output name prefix` |input_text|: set the prefix for output "
 "file names (default is ``neighbor``);"
 msgstr ""
 
-#: ../../neighborPixelsTab.rst:335
+#: ../../neighborPixelsTab.rst:351
 msgid "Statistic"
 msgstr ""
 
-#: ../../neighborPixelsTab.rst:337
+#: ../../neighborPixelsTab.rst:353
 msgid ""
 ":guilabel:`Select a statistic` |input_list| |input_text|: select a "
 "statistic; available options are ``Sum``, ``Max``, ``Min``, ``Count``, "
@@ -124,11 +148,11 @@ msgid ""
 "``Percentile`` a value can be entered;"
 msgstr ""
 
-#: ../../neighborPixelsTab.rst:338
+#: ../../neighborPixelsTab.rst:354
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../neighborPixelsTab.rst:339
+#: ../../neighborPixelsTab.rst:355
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation;"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 20:48+0100\n"
+"POT-Creation-Date: 2021-08-01 22:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,11 @@ msgstr ""
 msgid "Spectral distance"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:265
+#: ../../spectralDistanceTab.rst:63
 msgid "|spectral_distance| :guilabel:`Spectral distance`"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:267
+#: ../../spectralDistanceTab.rst:65
 msgid ""
 "This tab allows for calculating the spectral distance between every "
 "corresponding pixel of two :guilabel:`band sets`. The output is a raster "
@@ -35,23 +35,32 @@ msgid ""
 "above the threshold."
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:274
+#: ../../spectralDistanceTab.rst:69
+msgid ""
+"This tool supports ``virtual raster output``; if the output file name "
+"ends with ``.vrt`` then the output is created as virtual raster composed "
+"of as many ``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`; for large rasters this can speed up the "
+"process."
+msgstr ""
+
+#: ../../spectralDistanceTab.rst:74
 msgid "Spectral distance of band sets"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:276
+#: ../../spectralDistanceTab.rst:76
 msgid ""
 ":guilabel:`Select first input band set` |input_number|: select the first "
 "input :ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:277
+#: ../../spectralDistanceTab.rst:77
 msgid ""
 ":guilabel:`Select second input band set` |input_number|: select the "
 "second input :ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:278
+#: ../../spectralDistanceTab.rst:78
 msgid ""
 ":guilabel:`Distance algorithm` |radiobutton| :guilabel:`Minimum Distance`"
 " |radiobutton| :guilabel:`Spectral Angle Mapping`: select "
@@ -59,17 +68,17 @@ msgid ""
 ":ref:`spectra_angle_mapping_algorithm` for spectral distance calculation;"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:279
+#: ../../spectralDistanceTab.rst:79
 msgid ""
 "|checkbox| :guilabel:`Distance threshold` |input_number|: if checked, a "
 "binary raster of values below and above the threshold is created;"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:281
+#: ../../spectralDistanceTab.rst:81
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../spectralDistanceTab.rst:282
+#: ../../spectralDistanceTab.rst:82
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation;"

@@ -68,25 +68,10 @@ Band calc
 .. |open_dir| image:: _static/semiautomaticclassificationplugin_open_dir.png
 	:width: 20pt
 	
-.. |select_all| image:: _static/semiautomaticclassificationplugin_select_all.png
-	:width: 20pt
-	
 .. |move_up| image:: _static/semiautomaticclassificationplugin_move_up.png
 	:width: 20pt
 	
-.. |add_bandset| image:: _static/semiautomaticclassificationplugin_add_bandset_tool.png
-	:width: 20pt
-	
 .. |move_down| image:: _static/semiautomaticclassificationplugin_move_down.png
-	:width: 20pt
-	
-.. |search_images| image:: _static/semiautomaticclassificationplugin_search_images.png
-	:width: 20pt
-
-.. |osm_add| image:: _static/semiautomaticclassificationplugin_osm_add.png
-	:width: 20pt
-
-.. |image_preview| image:: _static/semiautomaticclassificationplugin_download_image_preview.png
 	:width: 20pt
 
 .. |import| image:: _static/semiautomaticclassificationplugin_import.png
@@ -96,150 +81,6 @@ Band calc
 	:width: 20pt
 
 .. |plus| image:: _static/semiautomaticclassificationplugin_plus.png
-	:width: 20pt
-
-.. |order_by_name| image:: _static/semiautomaticclassificationplugin_order_by_name.png
-	:width: 20pt
-
-.. |image_overview| image:: _static/semiautomaticclassificationplugin_download_image_overview.png
-	:width: 20pt
-	
-.. |enter| image:: _static/semiautomaticclassificationplugin_enter.png
-	:width: 20pt
-
-.. |download| image:: _static/semiautomaticclassificationplugin_download_arrow.png
-	:width: 20pt
-	
-.. |login_data| image:: _static/semiautomaticclassificationplugin_download_login.png
-	:width: 20pt
-	
-.. |search_tab| image:: _static/semiautomaticclassificationplugin_download_search.png
-	:width: 20pt
-
-.. |download_options_tab| image:: _static/semiautomaticclassificationplugin_download_options.png
-	:width: 20pt
-
-.. |tools| image:: _static/semiautomaticclassificationplugin_roi_tool.png
-	:width: 20pt
-	
-.. |roi_multiple| image:: _static/semiautomaticclassificationplugin_roi_multiple.png
-	:width: 20pt
-
-.. |import_spectral_library| image:: _static/semiautomaticclassificationplugin_import_spectral_library.png
-	:width: 20pt
-	
-.. |export_spectral_library| image:: _static/semiautomaticclassificationplugin_export_spectral_library.png
-	:width: 20pt
-	
-.. |weight_tool| image:: _static/semiautomaticclassificationplugin_weight_tool.png
-	:width: 20pt
-	
-.. |LCS_threshold_ROI_tool| image:: _static/semiautomaticclassificationplugin_LCS_threshold_ROI_tool.png
-	:width: 20pt
-	
-.. |threshold_tool| image:: _static/semiautomaticclassificationplugin_threshold_tool.png
-	:width: 20pt
-	
-.. |LCS_threshold| image:: _static/semiautomaticclassificationplugin_LCS_threshold_tool.png
-	:width: 20pt
-	
-.. |LCS_threshold_set_tool| image:: _static/semiautomaticclassificationplugin_LCS_threshold_set_tool.png
-	:width: 20pt
-	
-.. |sign_plot| image:: _static/semiautomaticclassificationplugin_sign_tool.png
-	:width: 20pt
-	
-.. |rgb_tool| image:: _static/semiautomaticclassificationplugin_rgb_tool.png
-	:width: 20pt
-	
-.. |preprocessing| image:: _static/semiautomaticclassificationplugin_class_tool.png
-	:width: 20pt
-	
-.. |band_processing| image:: _static/semiautomaticclassificationplugin_band_processing.png
-	:width: 20pt
-	
-.. |band_combination| image:: _static/semiautomaticclassificationplugin_band_combination_tool.png
-	:width: 20pt
-	
-.. |landsat_tool| image:: _static/semiautomaticclassificationplugin_landsat8_tool.png
-	:width: 20pt
-	
-.. |sentinel2_tool| image:: _static/semiautomaticclassificationplugin_sentinel_tool.png
-	:width: 20pt
-	
-.. |sentinel3_tool| image:: _static/semiautomaticclassificationplugin_sentinel3_tool.png
-	:width: 20pt
-	
-.. |aster_tool| image:: _static/semiautomaticclassificationplugin_aster_tool.png
-	:width: 20pt
-	
-.. |modis_tool| image:: _static/semiautomaticclassificationplugin_modis_tool.png
-	:width: 20pt
-	
-.. |split_raster| image:: _static/semiautomaticclassificationplugin_split_raster.png
-	:width: 20pt
-	
-.. |stack_raster| image:: _static/semiautomaticclassificationplugin_stack_raster.png
-	:width: 20pt
-	
-.. |mosaic_tool| image:: _static/semiautomaticclassificationplugin_mosaic_tool.png
-	:width: 20pt
-	
-.. |cloud_masking_tool| image:: _static/semiautomaticclassificationplugin_cloud_masking_tool.png
-	:width: 20pt
-	
-.. |clip_tool| image:: _static/semiautomaticclassificationplugin_clip_tool.png
-	:width: 20pt
-	
-.. |pca_tool| image:: _static/semiautomaticclassificationplugin_pca_tool.png
-	:width: 20pt
-	
-.. |vector_to_raster_tool| image:: _static/semiautomaticclassificationplugin_vector_to_raster_tool.png
-	:width: 20pt
-	
-.. |post_process| image:: _static/semiautomaticclassificationplugin_post_process.png
-	:width: 20pt
-	
-.. |accuracy_tool| image:: _static/semiautomaticclassificationplugin_accuracy_tool.png
-	:width: 20pt
-	
-.. |land_cover_change| image:: _static/semiautomaticclassificationplugin_land_cover_change.png
-	:width: 20pt
-	
-.. |report_tool| image:: _static/semiautomaticclassificationplugin_report_tool.png
-	:width: 20pt
-
-.. |cross_classification| image:: _static/semiautomaticclassificationplugin_cross_classification.png
-	:width: 20pt
-
-.. |spectral_distance| image:: _static/semiautomaticclassificationplugin_spectral_distance.png
-	:width: 20pt
-
-.. |clustering| image:: _static/semiautomaticclassificationplugin_kmeans_tool.png
-	:width: 20pt
-
-.. |class_to_vector_tool| image:: _static/semiautomaticclassificationplugin_class_to_vector_tool.png
-	:width: 20pt
-
-.. |class_signature| image:: _static/semiautomaticclassificationplugin_class_signature_tool.png
-	:width: 20pt
-
-.. |reclassification_tool| image:: _static/semiautomaticclassificationplugin_reclassification_tool.png
-	:width: 20pt
-
-.. |edit_raster| image:: _static/semiautomaticclassificationplugin_edit_raster.png
-	:width: 20pt
-
-.. |undo_edit_raster| image:: _static/semiautomaticclassificationplugin_undo_edit_raster.png
-	:width: 20pt
-
-.. |classification_sieve| image:: _static/semiautomaticclassificationplugin_classification_sieve.png
-	:width: 20pt
-
-.. |classification_erosion| image:: _static/semiautomaticclassificationplugin_classification_erosion.png
-	:width: 20pt
-
-.. |classification_dilation| image:: _static/semiautomaticclassificationplugin_classification_dilation.png
 	:width: 20pt
 
 .. |bandcalc_tool| image:: _static/semiautomaticclassificationplugin_bandcalc_tool.png
@@ -254,9 +95,6 @@ Band calc
 .. |settings_tool| image:: _static/semiautomaticclassificationplugin_settings_tool.png
 	:width: 20pt
 
-.. |close_bandset| image:: _static/close_bandset.jpg
-	:width: 20pt
-
 
 .. figure:: _static/band_calc_tab.jpg
 	:align: center
@@ -267,8 +105,10 @@ Band calc
 The ``Band calc`` allows for the **raster calculation for bands** (i.e. calculation of pixel values) using `NumPy functions <https://numpy.org/doc/stable/reference/routines.math.html>`_ .
 ``Band calc`` can also work with multuple expression lines to perform multiple calculation at a time; several iteration functions are available for :guilabel:`Band sets` allowing to perform multitemporal calculations.
 
+This tool supports ``virtual raster output``; if the output file name ends with ``.vrt`` then the output is created as virtual raster composed of as many ``.tif`` files as the number of CPU threads defined in :ref:`system_processing`; for large rasters this can speed up the process.
+
 Raster bands must be already loaded in QGIS.
-Input rasters must be in the same projection.
+Input rasters can also be in different projection, but the output will have the projection of the reference raster.
 
 In addition, a tool for **decision rules** is included. 
 
@@ -312,6 +152,7 @@ Also, it is possible to define the output name using the symbol ``@`` followed b
 
 * |checkbox| :guilabel:`Input NoData as value`: if checked, input ``NoData`` pixels are replaced by ``NoData`` value and accounted in calculation;
 * |checkbox| :guilabel:`Use value as NoData` |input_number|: if checked, selected value is used as ``NoData`` during calculation;
+* :guilabel:`Calculation data type`: select the data type used during calculation as Float32 (default), Int32, Int16, UInt32, UInt16, Byte; for instance, if Int32 is selected, input float values will be evaluated as integer;
 * Extent: if the following options are unchecked, the output raster extent will include the extents of all input rasters;
 	* |checkbox| :guilabel:`Intersection`: if checked, the extent of output raster equals the intersection of input raster extents (i.e. minimum extent);
 	* |checkbox| :guilabel:`Same as` |input_list|: if checked, the extent of output raster equals the extent of :guilabel:`"Map extent"` (the extent of the map currently displayed) or a selected layer;

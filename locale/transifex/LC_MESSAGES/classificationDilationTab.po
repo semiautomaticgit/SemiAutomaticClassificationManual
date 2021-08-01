@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-01 13:22+0100\n"
+"POT-Creation-Date: 2021-08-01 22:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,32 +19,41 @@ msgstr ""
 "Generated-By: Babel 2.3.4\n"
 
 #: ../../classificationDilationTab.rst:5
-#: ../../classificationDilationTab.rst:272
+#: ../../classificationDilationTab.rst:100
 msgid "Classification dilation"
 msgstr ""
 
-#: ../../classificationDilationTab.rst:264
+#: ../../classificationDilationTab.rst:90
 msgid "|classification_dilation| :guilabel:`Classification dilation`"
 msgstr ""
 
-#: ../../classificationDilationTab.rst:266
+#: ../../classificationDilationTab.rst:92
 msgid ""
 "This tab allows for dilating the border of a class patch, defining the "
 "class values to be dilated and the number of pixels from the border. It "
 "is useful for classification refinement."
 msgstr ""
 
-#: ../../classificationDilationTab.rst:274
+#: ../../classificationDilationTab.rst:95
+msgid ""
+"This tool supports ``virtual raster output``; if the output file name "
+"ends with ``.vrt`` then the output is created as virtual raster composed "
+"of as many ``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`; for large rasters this can speed up the "
+"process."
+msgstr ""
+
+#: ../../classificationDilationTab.rst:102
 msgid ""
 ":guilabel:`Select the classification` |input_list|: select a raster "
 "(already loaded in QGIS);"
 msgstr ""
 
-#: ../../classificationDilationTab.rst:275
+#: ../../classificationDilationTab.rst:103
 msgid "|reload|: refresh layer list;"
 msgstr ""
 
-#: ../../classificationDilationTab.rst:276
+#: ../../classificationDilationTab.rst:104
 msgid ""
 ":guilabel:`Class values` |input_text|: set the class values to be "
 "dilated; class values must be separated by ``,`` and ``-`` can be used to"
@@ -52,35 +61,40 @@ msgid ""
 "4, 5, 8); if the text is red then the expression contains errors;"
 msgstr ""
 
-#: ../../classificationDilationTab.rst:277
+#: ../../classificationDilationTab.rst:105
 msgid ""
 ":guilabel:`Size in pixels` |input_number|: number of pixels to be dilated"
 " from the border;"
 msgstr ""
 
-#: ../../classificationDilationTab.rst:280
+#: ../../classificationDilationTab.rst:106
 msgid ""
-":guilabel:`Pixel connection` |input_list|: select the type of pixel "
-"connection:"
+"|checkbox| :guilabel:`Circular` |optional|: if checked, the dilation will"
+" be circular, similar to a buffer;"
 msgstr ""
 
-#: ../../classificationDilationTab.rst:279
-msgid ""
-":guilabel:`4`: in a 3x3 window, diagonal pixels are not considered "
-"connected;"
-msgstr ""
-
-#: ../../classificationDilationTab.rst:280
-msgid ":guilabel:`8`: in a 3x3 window, diagonal pixels are considered connected;"
-msgstr ""
-
-#: ../../classificationDilationTab.rst:282
+#: ../../classificationDilationTab.rst:109
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../classificationDilationTab.rst:283
+#: ../../classificationDilationTab.rst:110
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation;"
 msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`Pixel connection` |input_list|: select"
+#~ " the type of pixel connection:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`4`: in a 3x3 window, diagonal"
+#~ " pixels are not considered connected;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`8`: in a 3x3 window, diagonal"
+#~ " pixels are considered connected;"
+#~ msgstr ""
 

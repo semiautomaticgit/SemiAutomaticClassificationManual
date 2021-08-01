@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 20:48+0100\n"
+"POT-Creation-Date: 2021-08-01 22:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,58 +18,63 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: ../../classificationToVectorTab.rst:5
-#: ../../classificationToVectorTab.rst:271
+#: ../../classificationToVectorTab.rst:5 ../../classificationToVectorTab.rst:94
 msgid "Classification to vector"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:264
+#: ../../classificationToVectorTab.rst:87
 msgid "|class_to_vector_tool| :guilabel:`Classification to vector`"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:266
+#: ../../classificationToVectorTab.rst:89
 msgid ""
 "This tab allows for the conversion of a classification raster to vector "
-"shapefile."
+"GeoPackage (``.gpkg``) ."
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:273
+#: ../../classificationToVectorTab.rst:96
 msgid ""
 ":guilabel:`Select the classification` |input_list|: select a "
 "classification raster (already loaded in QGIS);"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:274
+#: ../../classificationToVectorTab.rst:97
 msgid "|reload|: refresh layer list;"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:279
+#: ../../classificationToVectorTab.rst:102
 msgid "Symbology"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:284
+#: ../../classificationToVectorTab.rst:107
 msgid ""
 "|checkbox| :guilabel:`Use code from Signature list` |input_list|: if "
 "checked, color and class information are defined from :ref:`ROI_list`:"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:282
+#: ../../classificationToVectorTab.rst:105
 msgid "``MC ID``: use the ID of macroclasses;"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:283
+#: ../../classificationToVectorTab.rst:106
 msgid "``C ID``: use the ID of classes;"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:286
+#: ../../classificationToVectorTab.rst:109
 msgid ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../classificationToVectorTab.rst:287
+#: ../../classificationToVectorTab.rst:110
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "conversion;"
 msgstr ""
+
+#~ msgid ""
+#~ "This tab allows for the conversion "
+#~ "of a classification raster to vector "
+#~ "shapefile."
+#~ msgstr ""
 
 #~ msgid "**Parallel processing is available.**"
 #~ msgstr ""

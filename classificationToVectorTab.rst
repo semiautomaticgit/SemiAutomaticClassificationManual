@@ -68,193 +68,16 @@ Classification to vector
 .. |open_dir| image:: _static/semiautomaticclassificationplugin_open_dir.png
 	:width: 20pt
 	
-.. |select_all| image:: _static/semiautomaticclassificationplugin_select_all.png
-	:width: 20pt
-	
-.. |move_up| image:: _static/semiautomaticclassificationplugin_move_up.png
-	:width: 20pt
-	
-.. |add_bandset| image:: _static/semiautomaticclassificationplugin_add_bandset_tool.png
-	:width: 20pt
-	
-.. |move_down| image:: _static/semiautomaticclassificationplugin_move_down.png
-	:width: 20pt
-	
-.. |search_images| image:: _static/semiautomaticclassificationplugin_search_images.png
-	:width: 20pt
-
-.. |osm_add| image:: _static/semiautomaticclassificationplugin_osm_add.png
-	:width: 20pt
-
-.. |image_preview| image:: _static/semiautomaticclassificationplugin_download_image_preview.png
-	:width: 20pt
-
-.. |import| image:: _static/semiautomaticclassificationplugin_import.png
-	:width: 20pt
-	
-.. |export| image:: _static/semiautomaticclassificationplugin_export.png
-	:width: 20pt
-
-.. |plus| image:: _static/semiautomaticclassificationplugin_plus.png
-	:width: 20pt
-
-.. |order_by_name| image:: _static/semiautomaticclassificationplugin_order_by_name.png
-	:width: 20pt
-
-.. |image_overview| image:: _static/semiautomaticclassificationplugin_download_image_overview.png
-	:width: 20pt
-	
-.. |enter| image:: _static/semiautomaticclassificationplugin_enter.png
-	:width: 20pt
-
-.. |download| image:: _static/semiautomaticclassificationplugin_download_arrow.png
-	:width: 20pt
-	
-.. |login_data| image:: _static/semiautomaticclassificationplugin_download_login.png
-	:width: 20pt
-	
-.. |search_tab| image:: _static/semiautomaticclassificationplugin_download_search.png
-	:width: 20pt
-
-.. |download_options_tab| image:: _static/semiautomaticclassificationplugin_download_options.png
-	:width: 20pt
-
-.. |tools| image:: _static/semiautomaticclassificationplugin_roi_tool.png
-	:width: 20pt
-	
-.. |roi_multiple| image:: _static/semiautomaticclassificationplugin_roi_multiple.png
-	:width: 20pt
-
-.. |import_spectral_library| image:: _static/semiautomaticclassificationplugin_import_spectral_library.png
-	:width: 20pt
-	
-.. |export_spectral_library| image:: _static/semiautomaticclassificationplugin_export_spectral_library.png
-	:width: 20pt
-	
-.. |weight_tool| image:: _static/semiautomaticclassificationplugin_weight_tool.png
-	:width: 20pt
-	
-.. |LCS_threshold_ROI_tool| image:: _static/semiautomaticclassificationplugin_LCS_threshold_ROI_tool.png
-	:width: 20pt
-	
-.. |threshold_tool| image:: _static/semiautomaticclassificationplugin_threshold_tool.png
-	:width: 20pt
-	
-.. |LCS_threshold| image:: _static/semiautomaticclassificationplugin_LCS_threshold_tool.png
-	:width: 20pt
-	
-.. |LCS_threshold_set_tool| image:: _static/semiautomaticclassificationplugin_LCS_threshold_set_tool.png
-	:width: 20pt
-	
-.. |sign_plot| image:: _static/semiautomaticclassificationplugin_sign_tool.png
-	:width: 20pt
-	
-.. |rgb_tool| image:: _static/semiautomaticclassificationplugin_rgb_tool.png
-	:width: 20pt
-	
-.. |preprocessing| image:: _static/semiautomaticclassificationplugin_class_tool.png
-	:width: 20pt
-	
-.. |band_processing| image:: _static/semiautomaticclassificationplugin_band_processing.png
-	:width: 20pt
-	
-.. |band_combination| image:: _static/semiautomaticclassificationplugin_band_combination_tool.png
-	:width: 20pt
-	
-.. |landsat_tool| image:: _static/semiautomaticclassificationplugin_landsat8_tool.png
-	:width: 20pt
-	
-.. |sentinel2_tool| image:: _static/semiautomaticclassificationplugin_sentinel_tool.png
-	:width: 20pt
-	
-.. |sentinel3_tool| image:: _static/semiautomaticclassificationplugin_sentinel3_tool.png
-	:width: 20pt
-	
-.. |aster_tool| image:: _static/semiautomaticclassificationplugin_aster_tool.png
-	:width: 20pt
-	
-.. |modis_tool| image:: _static/semiautomaticclassificationplugin_modis_tool.png
-	:width: 20pt
-	
-.. |split_raster| image:: _static/semiautomaticclassificationplugin_split_raster.png
-	:width: 20pt
-	
-.. |stack_raster| image:: _static/semiautomaticclassificationplugin_stack_raster.png
-	:width: 20pt
-	
-.. |mosaic_tool| image:: _static/semiautomaticclassificationplugin_mosaic_tool.png
-	:width: 20pt
-	
-.. |cloud_masking_tool| image:: _static/semiautomaticclassificationplugin_cloud_masking_tool.png
-	:width: 20pt
-	
-.. |clip_tool| image:: _static/semiautomaticclassificationplugin_clip_tool.png
-	:width: 20pt
-	
-.. |pca_tool| image:: _static/semiautomaticclassificationplugin_pca_tool.png
-	:width: 20pt
-	
 .. |vector_to_raster_tool| image:: _static/semiautomaticclassificationplugin_vector_to_raster_tool.png
 	:width: 20pt
 	
 .. |post_process| image:: _static/semiautomaticclassificationplugin_post_process.png
 	:width: 20pt
 	
-.. |accuracy_tool| image:: _static/semiautomaticclassificationplugin_accuracy_tool.png
-	:width: 20pt
-	
-.. |land_cover_change| image:: _static/semiautomaticclassificationplugin_land_cover_change.png
-	:width: 20pt
-	
-.. |report_tool| image:: _static/semiautomaticclassificationplugin_report_tool.png
-	:width: 20pt
-
-.. |cross_classification| image:: _static/semiautomaticclassificationplugin_cross_classification.png
-	:width: 20pt
-
-.. |spectral_distance| image:: _static/semiautomaticclassificationplugin_spectral_distance.png
-	:width: 20pt
-
-.. |clustering| image:: _static/semiautomaticclassificationplugin_kmeans_tool.png
-	:width: 20pt
-
-.. |class_to_vector_tool| image:: _static/semiautomaticclassificationplugin_class_to_vector_tool.png
-	:width: 20pt
-
-.. |class_signature| image:: _static/semiautomaticclassificationplugin_class_signature_tool.png
-	:width: 20pt
-
-.. |reclassification_tool| image:: _static/semiautomaticclassificationplugin_reclassification_tool.png
-	:width: 20pt
-
-.. |edit_raster| image:: _static/semiautomaticclassificationplugin_edit_raster.png
-	:width: 20pt
-
-.. |undo_edit_raster| image:: _static/semiautomaticclassificationplugin_undo_edit_raster.png
-	:width: 20pt
-
-.. |classification_sieve| image:: _static/semiautomaticclassificationplugin_classification_sieve.png
-	:width: 20pt
-
-.. |classification_erosion| image:: _static/semiautomaticclassificationplugin_classification_erosion.png
-	:width: 20pt
-
-.. |classification_dilation| image:: _static/semiautomaticclassificationplugin_classification_dilation.png
-	:width: 20pt
-
-.. |bandcalc_tool| image:: _static/semiautomaticclassificationplugin_bandcalc_tool.png
-	:width: 20pt
-	
 .. |batch_tool| image:: _static/semiautomaticclassificationplugin_batch.png
 	:width: 20pt
-
-.. |bandset_tool| image:: _static/semiautomaticclassificationplugin_bandset_tool.png
-	:width: 20pt
 	
-.. |settings_tool| image:: _static/semiautomaticclassificationplugin_settings_tool.png
-	:width: 20pt
-
-.. |close_bandset| image:: _static/close_bandset.jpg
+.. |class_to_vector_tool| image:: _static/semiautomaticclassificationplugin_class_to_vector_tool.png
 	:width: 20pt
 
 .. figure:: _static/classification_vector_tab.jpg
@@ -263,7 +86,7 @@ Classification to vector
 	
 	|class_to_vector_tool| :guilabel:`Classification to vector`
 	
-This tab allows for the conversion of a classification raster to vector shapefile.
+This tab allows for the conversion of a classification raster to vector GeoPackage (``.gpkg``) .
 
 .. _classification_to_vector:
 

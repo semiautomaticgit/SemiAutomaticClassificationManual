@@ -7,16 +7,16 @@
 # Translators:
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
 # Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020
-# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-21 01:20+0100\n"
+"POT-Creation-Date: 2021-03-06 20:48+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
-"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -122,6 +122,8 @@ msgid ""
 "(EROS) Center, Sioux Falls, South Dakota, "
 "https://lpdaac.usgs.gov/data_access/data_pool."
 msgstr ""
+"Para Landsat, ASTER y MODIS, la búsqueda se realiza a través de la API de búsqueda CMR <https://cmr.earthdata.nasa.gov/search/site/search_api_docs.html> `_ desarrollada por la NASA. Las imágenes de Landsat están disponibles gratuitamente a través de los servicios: `EarthExplorer USGS <http://earthexplorer.usgs.gov/>` _, `Google Cloud Storage Landsat <https://cloud.google.com/storage/docs/public-datasets / landsat> `_. Los productos ASTER L1T y MODIS se recuperan del Data Pool en línea, cortesía del Centro de Archivo Activo Distribuido de Procesos Terrestres de la NASA (LP DAAC), Centro de Observación y Ciencia de Recursos de la Tierra (EROS) del USGS, Sioux Falls, Dakota del Sur, \n"
+"https: //lpdaac.usgs.gov/data_access/data_pool."
 
 #: ../../downloadProductsTab.rst:280
 msgid ""
@@ -192,6 +194,10 @@ msgid ""
 "<https://earthexplorer.usgs.gov/>`_ . Login using your `USGS EROS` "
 "credentials or register for free at https://ers.cr.usgs.gov/register ."
 msgstr ""
+"Para las imágenes Landsat, se requieren credenciales de `USGS EROS` "
+"(https://ers.cr.usgs.gov) para descargarlas desde` EarthExplorer "
+"<https://earthexplorer.usgs.gov/> `_. Inicie sesión con sus credenciales de "
+"`USGS EROS` o regístrese gratis en https://ers.cr.usgs.gov/register."
 
 #: ../../downloadProductsTab.rst:308 ../../downloadProductsTab.rst:321
 #: ../../downloadProductsTab.rst:337
@@ -255,6 +261,8 @@ msgid ""
 "For searching Sentinel-2 images it is possible to use a service that does "
 "not require authentication."
 msgstr ""
+"Para buscar imágenes de Sentinel-2, es posible utilizar un servicio que no "
+"requiera autenticación."
 
 #: ../../downloadProductsTab.rst:335
 msgid ""
@@ -284,6 +292,8 @@ msgid ""
 "information about Copernicus DIAS platforms at https://www.copernicus.eu/en"
 "/access-data/dias ;"
 msgstr ""
+"|checkbox| :guilabel: `Use una búsqueda alternativa para Sentinel-2 (no se requiere autenticación)`\n"
+"|registry_save|: si está marcado, use el `CREODIAS Finder API <https://creodias.eu/>` _ para buscar (de https://creodias.eu/eo-data-finder-api-manual la base de datos es accesible de forma gratuita y anónima, y está abierta para el acceso anónimo de todos, no se utiliza autorización); más información sobre las plataformas Copernicus DIAS en https://www.copernicus.eu/en/access-data/dias;"
 
 #: ../../downloadProductsTab.rst:345
 msgid "Search"

@@ -375,7 +375,7 @@ Preprocessing
 	
 * :ref:`neighbor_pixels_tab`: neighbor pixels::
 	
-	neighbor_pixels;band_set : 1;matrix_size : 1;matrix_file_path : '';output_name_prefix : 'neighbor';statistic : 'sum';stat_value : 50;output_dir : ''
+	neighbor_pixels;band_set : 1;matrix_size : 1;circular : 0;matrix_file_path : '';output_name_prefix : 'neighbor';statistic : 'sum';stat_value : 50;output_dir : ''
 	
 * :ref:`reproject_raster_bands_tab`: reproject raster bands::
 	
@@ -449,11 +449,11 @@ Post processing
 	
 * :ref:`classification_dilation_tab`: dilation of a classification::
 
-	classification_dilation;input_raster_path : '';class_values : '';size_in_pixels : 1;pixel_connection : 4;output_raster_path : ''
+	classification_dilation;input_raster_path : '';class_values : '';size_in_pixels : 1;circular : 0;output_raster_path : ''
 	
 * :ref:`classification_erosion_tab`: erosion of a classification::
 
-	classification_erosion;input_raster_path : '';class_values : '';size_in_pixels : 1;pixel_connection : 4;output_raster_path : ''
+	classification_erosion;input_raster_path : '';class_values : '';size_in_pixels : 1;circular : 0;output_raster_path : ''
 	
 * :ref:`classification_report_tab`: report of a classification::
 

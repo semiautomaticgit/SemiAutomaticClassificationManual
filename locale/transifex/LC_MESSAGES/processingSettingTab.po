@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 20:48+0100\n"
+"POT-Creation-Date: 2021-08-01 22:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,15 +22,15 @@ msgstr ""
 msgid "Processing"
 msgstr ""
 
-#: ../../processingSettingTab.rst:265
+#: ../../processingSettingTab.rst:42
 msgid ":guilabel:`Processing`"
 msgstr ""
 
-#: ../../processingSettingTab.rst:270
+#: ../../processingSettingTab.rst:47
 msgid "System"
 msgstr ""
 
-#: ../../processingSettingTab.rst:272
+#: ../../processingSettingTab.rst:49
 msgid ""
 ":guilabel:`Available RAM (MB)` |input_number| |registry_save|: set the "
 "available RAM (in MB) that is used during the processes in order to "
@@ -39,7 +39,7 @@ msgid ""
 "set a value lower than 512MB;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:273
+#: ../../processingSettingTab.rst:50
 msgid ""
 ":guilabel:`CPU threads` |input_number| |registry_save|: set the number of"
 " threads available for processing; it is recommended to set a value lower"
@@ -47,21 +47,21 @@ msgid ""
 "available threads set value 3);"
 msgstr ""
 
-#: ../../processingSettingTab.rst:279
+#: ../../processingSettingTab.rst:56
 msgid "http://www.youtube.com/watch?v=KDI3ud9L6UY"
 msgstr ""
 
-#: ../../processingSettingTab.rst:286
+#: ../../processingSettingTab.rst:63
 msgid "Classification process"
 msgstr ""
 
-#: ../../processingSettingTab.rst:288
+#: ../../processingSettingTab.rst:65
 msgid ""
 "|checkbox| :guilabel:`Play sound when finished` |registry_save|: if "
 "checked, play a sound when the classification process is completed;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:289
+#: ../../processingSettingTab.rst:66
 msgid ""
 "|checkbox| :guilabel:`Use virtual rasters for temp files` "
 "|registry_save|: if checked, create virtual rasters for certain temporary"
@@ -69,7 +69,7 @@ msgid ""
 "space usage during calculations;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:290
+#: ../../processingSettingTab.rst:67
 msgid ""
 "|checkbox| :guilabel:`Raster compression` |registry_save|: if checked, a "
 "lossless compression (DEFLATE or PACKBITS) is applied to raster outputs "
@@ -78,18 +78,18 @@ msgid ""
 "compression;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:291
+#: ../../processingSettingTab.rst:68
 msgid ""
 "|checkbox| :guilabel:`Enable writing verification` |registry_save|: if "
 "checked, the output raster is compared to output calculation in order to "
 "avoid writing errors; it can slow the process;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:296
+#: ../../processingSettingTab.rst:73
 msgid "SMTP process notification"
 msgstr ""
 
-#: ../../processingSettingTab.rst:298
+#: ../../processingSettingTab.rst:75
 msgid ""
 ":guilabel:`SMTP server` |input_text| |registry_save|: the SMTP server to "
 "login for sending a notification email when all the :guilabel:`SCP` "
@@ -97,32 +97,32 @@ msgid ""
 " not in case of crash);"
 msgstr ""
 
-#: ../../processingSettingTab.rst:299
+#: ../../processingSettingTab.rst:76
 msgid ":guilabel:`user` |input_text| |registry_save|: the SMTP server user;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:300
+#: ../../processingSettingTab.rst:77
 msgid ""
 ":guilabel:`password` |input_text| |registry_save|: the SMTP server "
 "password;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:301
+#: ../../processingSettingTab.rst:78
 msgid ""
 ":guilabel:`Send email of completed process to` |input_text| "
 "|registry_save|: a list of addresses (separated by comma) to send the "
 "notification email to;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:306
+#: ../../processingSettingTab.rst:83
 msgid "External programs"
 msgstr ""
 
-#: ../../processingSettingTab.rst:308
+#: ../../processingSettingTab.rst:85
 msgid "Some SCP tools require external programs to perform the processing."
 msgstr ""
 
-#: ../../processingSettingTab.rst:310
+#: ../../processingSettingTab.rst:87
 msgid ""
 ":guilabel:`ESA SNAP GPT executable` |input_text| |registry_save| "
 "|optional|: enter the path to the SNAP gpt executable; usually "
@@ -132,7 +132,7 @@ msgid ""
 "download/ ;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:311
+#: ../../processingSettingTab.rst:88
 msgid ""
 ":guilabel:`Python executable path` |input_text| |registry_save| "
 "|optional|: enter the path to the Python 3 executable (e.g. "
@@ -140,7 +140,16 @@ msgid ""
 "multiprocessing;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:312
+#: ../../processingSettingTab.rst:89
+msgid ""
+":guilabel:`Python modules path` |input_text| |registry_save| |optional|: "
+"enter the path to Python modules (e.g. "
+"/Applications/QGIS.app/Contents/MacOS/lib/python3.8/site-packages); "
+"multiple paths can be entered separated by ``;`` ; QGIS should be "
+"restarted;"
+msgstr ""
+
+#: ../../processingSettingTab.rst:90
 msgid ""
 ":guilabel:`GDAL installation directory` |input_text| |registry_save| "
 "|optional|: enter the path to the GDAL directory containing tools such as"
@@ -148,11 +157,11 @@ msgid ""
 "case of issues with GDAL processing;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:317
+#: ../../processingSettingTab.rst:95
 msgid "Temporary directory"
 msgstr ""
 
-#: ../../processingSettingTab.rst:319
+#: ../../processingSettingTab.rst:97
 msgid ""
 "|open_dir| |registry_save|: select a new temporary directory where "
 "temporary files are saved during processing; the path to the current "
@@ -160,7 +169,7 @@ msgid ""
 "directory;"
 msgstr ""
 
-#: ../../processingSettingTab.rst:320
+#: ../../processingSettingTab.rst:98
 msgid "|reset|: reset to default temporary directory;"
 msgstr ""
 

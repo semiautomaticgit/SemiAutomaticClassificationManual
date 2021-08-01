@@ -276,6 +276,8 @@ This allows for estimating the unbiased user's accuracy and producer's accuracy,
 The output is an ``error raster`` that is a ``.tif`` file showing the errors in the map, where pixel values represent the categories of comparison (i.e. combinations identified by the ``ErrorMatrixCode`` in the error matrix) between the classification and reference.
 Also, a text file containing the error matrix (i.e. a ``.csv`` file separated by tab) is created with the same name defined for the ``.tif`` file.
 
+This tool supports ``virtual raster output``; if the output file name ends with ``.vrt`` then the output is created as virtual raster composed of as many ``.tif`` files as the number of CPU threads defined in :ref:`system_processing`; for large rasters this can speed up the process.
+
 .. _error_matrix_input:
 
 Accuracy assessment

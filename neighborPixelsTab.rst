@@ -297,7 +297,7 @@ Neighbor pixels
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * :guilabel:`Select input band set` |input_number|: select the input :ref:`band_set_tab`;
-* :guilabel:`Neighbor distance in pixels` |input_number|: use a square matrix centred in one pixel considering all the neighbor pixels within this distance; e.g. a value of 1 results in a 3x3 matrix with weight 1 in every cell; a value of 2 results in a 5x5 matrix with weight 1 in every cell, such as:
+* :guilabel:`Neighbor distance in pixels` |input_number| |checkbox| :guilabel:`Circular`: if |checkbox| :guilabel:`Circular` is not checked, use a square matrix centred in one pixel considering all the neighbor pixels within this distance; e.g. a value of 1 results in a 3x3 matrix with weight 1 in every cell; a value of 2 results in a 5x5 matrix with weight 1 in every cell, such as:
 	
 	+--------+-----------+----------+-----------+----------+
 	| 1      | 1         |  1       | 1         |  1       |
@@ -309,6 +309,20 @@ Neighbor pixels
 	| 1      | 1         |  1       | 1         |  1       |
 	+--------+-----------+----------+-----------+----------+
 	| 1      | 1         |  1       | 1         |  1       |
+	+--------+-----------+----------+-----------+----------+
+
+	if |checkbox| :guilabel:`Circular` is checked, only the cells of the matrix within the radius of distance have value 1, such as:
+	
+	+--------+-----------+----------+-----------+----------+
+	| 0      | 0         |  1       | 0         |  0       |
+	+--------+-----------+----------+-----------+----------+
+	| 0      | 1         |  1       | 1         |  0       |
+	+--------+-----------+----------+-----------+----------+
+	| 1      | 1         |  1       | 1         |  1       |
+	+--------+-----------+----------+-----------+----------+
+	| 0      | 1         |  1       | 1         |  0       |
+	+--------+-----------+----------+-----------+----------+
+	| 0      | 0         |  1       | 0         |  0       |
 	+--------+-----------+----------+-----------+----------+
 
 * :guilabel:`Matrix file (optional)` |open_file| |optional|: open a text file (.txt or .csv) containing a matrix structure; the text file must be a list of numbers separated by commas, representing the columns, and each line represents a row of the matrix; ``nan`` can be entered for ``NoData`` values that will be excluded from the calculation; following an example of matrix file::
@@ -327,7 +341,9 @@ Resulting in the following matrix:
 	+-------------------+--------------------------+------------------------+
 	| NoData            | 1                        |  NoData                |
 	+-------------------+--------------------------+------------------------+
-	
+
+* |checkbox| :guilabel:`Create virtual raster output` |optional|: if checked, output is created as virtual raster ``.vrt`` composed of as many ``.tif`` files as the number of CPU threads defined in :ref:`system_processing`; for large rasters this can speed up the process;
+
 * :guilabel:`Output name prefix` |input_text|: set the prefix for output file names (default is ``neighbor``);
 
 

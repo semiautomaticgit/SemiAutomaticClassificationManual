@@ -133,6 +133,13 @@ and click ``OK``;
 
 .. image:: _static/qgis_repos_installed.jpg
 
+.. _plugin_installation_4:
+
+I have installation issues on Mac OS. How can I install SCP on Mac OS?
+-------------------------------------------------------------------------------
+
+If you are having issues related to installation of SCP in Mac OS, please read these posts about `installation of QGIS 3.18 <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/permalink/3933580900071412/>`_ and `installation of QGIS 3.16 <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/permalink/3487058531390320/>`_ .
+
 .. _FAQ_pre_processing:
  
 Pre processing
@@ -271,6 +278,55 @@ Several methods were developed for estimating surface temperature.
 The method described in the tutorial for temperature estimation requires only one band.
 Moreover, USGS recommends that users refrain from relying on Landsat 8 Band 11 data in quantitative analysis of the Thermal Infrared Sensor data (see `Changes to Thermal Infrared Sensor (TIRS) data <http://landsat.usgs.gov/calibration_notices.php>`_ by USGS).
 
+.. _FAQ_processing_6:
+
+How can I speed up the processing?
+-----------------------------------------------------------------------------------------
+
+In order to speed up the processing you should set the available RAM and the number of threads available in :ref:`system_processing`.
+:guilabel:`Available RAM (MB)` should be half of the system RAM (e.g. 1024MB if system has 2GB of RAM) or more if the system has a large amount of RAM.
+:guilabel:`CPU threads` should be a value lower than the maximum number of system threads (e.g. if the system has 4 available threads set value 3).
+
+Also, several tools allow for selecting the output format ``.vrt`` avoiding the time required to create a unique ``.tif`` raster (after multiprocess), especially useful for large rasters.
+
+.. _FAQ_processing_7:
+
+Where is the Classification tab in SCP 7?
+-----------------------------------------------------------------------------------------
+
+The Classification tab is now in the processing menu :ref:`classification_tab`.
+
+.. _FAQ_processing_8:
+
+How do I perform accuracy assessment and how to design the number of samples?
+-----------------------------------------------------------------------------------------
+
+Accuracy assessment is described in `this tutorial <https://fromgistors.blogspot.com/2019/09/Accuracy-Assessment-of-Land-Cover-Classification.html>`_ .
+
+Sample design is required to provide an adequate number of samples for each class, as described in "Olofsson, et al., 2014. Good practices for estimating area and assessing accuracy of land change. Remote Sensing of Environment, 148, 42 – 57".
+
+The number of samples (:math:`N`) should be calculated as (Olofsson, et al., 2014):
+
+.. math::
+	N = ( \sum_{i=1}^{c} (W_i - S_i) / S_o)^2
+	
+where:
+
+* :math:`W_i` = mapped area proportion of class i;
+* :math:`S_i` = standard deviation of stratum i;
+* :math:`S_o` = expected standard deviation of overall accuracy;
+* :math:`c` = total number of classes;
+
+To stratify the sample we should conjecture user’s accuracy and standard deviations of strata (Olofsson, et al., 2014).
+One can hypothesize that user’s accuracy is lower and standard deviations :math:`S_i` is higher for classes having low area proportion, but of course these values should be carefully evaluated.
+
+This requires some conjectures about overall accuracy and user’s accuracy of each class.
+We should base these conjectures on previous studies.
+
+As starting values, we could assume :math:`S_o = 0.01` and perform a rough accuracy assessment with random samples, and eventually calculate the :math:`S_i` to perform the sampling design.
+Alternatively, one could start with Si = 0.5 for all the classes.
+Basically the higher is Si, the larger is the number of samples for that class.
+
 .. _FAQ_warnings:
  
 Warnings
@@ -388,8 +444,6 @@ How to contribute to SCP
 -----------------------------------------------------------------------------------------
 
 You can contribute to :guilabel:`SCP` by fixing and adding functionalities (see :ref:`other_5`), or translating the user manual (see :ref:`other_4`).
-
-Also, you can donate to this project at the following link https://fromgistors.blogspot.com/p/donations.html .
 
 .. _other_2:
 

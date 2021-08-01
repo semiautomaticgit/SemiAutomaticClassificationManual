@@ -15,5 +15,6 @@ Before these tutorials, it is recommended to read the :ref:`tutorials`.
 	:maxdepth: 1
 	
 	thematic_tutorial_random_forest.rst
+	thematic_tutorial_image_conversion.rst
 
 For other unofficial tutorials, also in languages other than English, see :ref:`other_3`.

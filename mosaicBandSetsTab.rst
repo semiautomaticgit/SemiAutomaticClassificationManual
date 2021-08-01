@@ -276,6 +276,7 @@ Mosaic of band sets
 
 * :guilabel:`Band set list` |input_text|: list if band sets defined in the :ref:`band_set_tab`; in case of overlapping images, the pixel values of the first band set in the list are assigned. 
 * |checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, set the value of ``NoData`` pixels, ignored during the calculation;
+* |checkbox| :guilabel:`Create virtual raster output` |optional|: if checked, output is created as virtual raster ``.vrt`` composed of as many ``.tif`` files as the number of threads defined in :ref:`system_processing`; for large rasters this can speed up the process;
 * :guilabel:`Output name prefix` |input_text|: set the prefix for output file names (default is ``mosaic``);
 
 	

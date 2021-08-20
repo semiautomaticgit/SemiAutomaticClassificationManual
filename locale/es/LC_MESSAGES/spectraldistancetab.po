@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 20:48+0100\n"
+"POT-Creation-Date: 2021-08-01 22:06+0200\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -27,11 +27,11 @@ msgstr ""
 msgid "Spectral distance"
 msgstr "Distancia espectral"
 
-#: ../../spectralDistanceTab.rst:265
+#: ../../spectralDistanceTab.rst:63
 msgid "|spectral_distance| :guilabel:`Spectral distance`"
 msgstr "|spectral_distance| :guilabel:`Distancia espectral`"
 
-#: ../../spectralDistanceTab.rst:267
+#: ../../spectralDistanceTab.rst:65
 msgid ""
 "This tab allows for calculating the spectral distance between every "
 "corresponding pixel of two :guilabel:`band sets`. The output is a raster "
@@ -45,11 +45,19 @@ msgstr ""
 "definir un umbral para crear un ráster binario (0-1) de valores por debajo y"
 " por encima del umbral."
 
-#: ../../spectralDistanceTab.rst:274
+#: ../../spectralDistanceTab.rst:69
+msgid ""
+"This tool supports ``virtual raster output``; if the output file name ends "
+"with ``.vrt`` then the output is created as virtual raster composed of as "
+"many ``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`; for large rasters this can speed up the process."
+msgstr ""
+
+#: ../../spectralDistanceTab.rst:74
 msgid "Spectral distance of band sets"
 msgstr "Distancia espectral de conjuntos de bandas"
 
-#: ../../spectralDistanceTab.rst:276
+#: ../../spectralDistanceTab.rst:76
 msgid ""
 ":guilabel:`Select first input band set` |input_number|: select the first "
 "input :ref:`band_set_tab`;"
@@ -57,7 +65,7 @@ msgstr ""
 ":guilabel:``Seleccione el primer conjunto de bandas de entrada`` "
 "|input_number|: seleccione la primera entrada :ref:`band_set_tab`;"
 
-#: ../../spectralDistanceTab.rst:277
+#: ../../spectralDistanceTab.rst:77
 msgid ""
 ":guilabel:`Select second input band set` |input_number|: select the second "
 "input :ref:`band_set_tab`;"
@@ -65,7 +73,7 @@ msgstr ""
 ":guilabel:`Seleccione el segundo conjunto de bandas de entrada`  "
 "|input_number|: seleccione la segunda entrada:ref:`band_set_tab`;"
 
-#: ../../spectralDistanceTab.rst:278
+#: ../../spectralDistanceTab.rst:78
 msgid ""
 ":guilabel:`Distance algorithm` |radiobutton| :guilabel:`Minimum Distance` "
 "|radiobutton| :guilabel:`Spectral Angle Mapping`: select "
@@ -77,7 +85,7 @@ msgstr ""
 ":ref:`minimum_distance_algorithm` o * :ref:`spectra_angle_mapping_algorithm`"
 " para cálculo de distancia espectral;"
 
-#: ../../spectralDistanceTab.rst:279
+#: ../../spectralDistanceTab.rst:79
 msgid ""
 "|checkbox| :guilabel:`Distance threshold` |input_number|: if checked, a "
 "binary raster of values below and above the threshold is created;"
@@ -85,13 +93,13 @@ msgstr ""
 "|checkbox| :guilabel: `Umbral de distancia` |input_number|: si está marcado,"
 " se crea un ráster binario de valores por debajo y por encima del umbral;"
 
-#: ../../spectralDistanceTab.rst:281
+#: ../../spectralDistanceTab.rst:81
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 ": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
-#: ../../spectralDistanceTab.rst:282
+#: ../../spectralDistanceTab.rst:82
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation;"

@@ -244,7 +244,11 @@ The purpose of the classification is to identify the following land cover classe
 The study area of this tutorial is Matera (Basilicata, Italy) which is a city in the Southern Italy.
 Matera is the site of a Center of the Italian Space Agency (ASI) specialized in remote sensing, which has several purposes, in particular to acquire, process and store remote sensing data.
 
-Following the video of this tutorial.
+**This tutorial can be used for the verification that the software is functioning correctly**:
+
+	Following the steps described in this tutorial, using the same `input image <https://docs.google.com/uc?id=1cph9rCQ1oiWgRGusgRkjUWwLW3JEwqUK>`_, and `training sample <https://docs.google.com/uc?id=1RQeQnIAhWdD7Wud4ut54hmMo8rxlo-3m>`_, you should get this `classification result <https://docs.google.com/uc?id=1aNVG_w6xBfqik0CDBPrK849zv0O5zDfT>`_ , proving that the code is performing properly.
+
+The video of this tutorial.
 
 .. raw:: html
 

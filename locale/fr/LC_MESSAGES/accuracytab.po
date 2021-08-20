@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 20:48+0100\n"
+"POT-Creation-Date: 2021-08-01 22:06+0200\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: marion previtali <marion@sylgeco.fr>, 2020\n"
 "Language-Team: French (https://www.transifex.com/semi-automatic-classification/teams/53374/fr/)\n"
@@ -86,11 +86,19 @@ msgstr ""
 "tabulation) est créé sous le même nom que celui défini pour le fichier "
 "\"tif\"."
 
-#: ../../accuracyTab.rst:282
+#: ../../accuracyTab.rst:279
+msgid ""
+"This tool supports ``virtual raster output``; if the output file name ends "
+"with ``.vrt`` then the output is created as virtual raster composed of as "
+"many ``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`; for large rasters this can speed up the process."
+msgstr ""
+
+#: ../../accuracyTab.rst:284
 msgid "Accuracy assessment"
 msgstr "Evaluation de la précision"
 
-#: ../../accuracyTab.rst:284
+#: ../../accuracyTab.rst:286
 msgid ""
 ":guilabel:`Select the classification to assess` |input_list|: select a "
 "classification raster (already loaded in QGIS);"
@@ -98,11 +106,11 @@ msgstr ""
 ":guilabel : `sélectionner la classification à évaluer` | iliste_entree | : "
 "sélectionnez une classification raster (déjà chargée dans le QGIS) ;"
 
-#: ../../accuracyTab.rst:285 ../../accuracyTab.rst:287
+#: ../../accuracyTab.rst:287 ../../accuracyTab.rst:289
 msgid "|reload|: refresh layer list;"
 msgstr "| actualiser | : rafraîchir la liste des couches ;"
 
-#: ../../accuracyTab.rst:286
+#: ../../accuracyTab.rst:288
 msgid ""
 ":guilabel:`Select the reference vector or raster` |input_list|: select a "
 "raster or a vector (already loaded in QGIS), used as reference layer (ground"
@@ -112,7 +120,7 @@ msgstr ""
 " sélectionnez un raster ou un vecteur (déjà chargé dans QGIS), utilisé comme"
 " couche de référence (vérité de terrain) pour l'évaluation de la précision ;"
 
-#: ../../accuracyTab.rst:288
+#: ../../accuracyTab.rst:290
 msgid ""
 ":guilabel:`Vector field` |input_list|: if a vector is selected as reference,"
 " select a vector field containing numeric class values;"
@@ -121,7 +129,7 @@ msgstr ""
 "sélectionné comme référence, sélectionnez un champ du vecteur contenant des "
 "valeurs numériques de classe ;"
 
-#: ../../accuracyTab.rst:289
+#: ../../accuracyTab.rst:291
 msgid ""
 "|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
 "pixels having ``NoData`` value are excluded from the calculation;"
@@ -129,14 +137,14 @@ msgstr ""
 "| checkbox | : guilabel :`Utiliser la valeur comme NoData` | nombre_entree |"
 " : si coché, les pixels ayant la valeur \"NoData\" sont exclus du calcul ;"
 
-#: ../../accuracyTab.rst:291
+#: ../../accuracyTab.rst:293
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 ":guilabel: `LOTS`  | outil_lots | : ajoutez cette fonction à la : ref : "
 "`onglet_lots` ;"
 
-#: ../../accuracyTab.rst:292
+#: ../../accuracyTab.rst:294
 msgid ""
 ":guilabel:`RUN` |run|: choose the output destination and start the "
 "calculation; the error matrix is displayed in the tab :guilabel:`Output` and"

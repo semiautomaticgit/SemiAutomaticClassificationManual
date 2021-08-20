@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 20:48+0100\n"
+"POT-Creation-Date: 2021-08-01 22:06+0200\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
 "Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -29,11 +29,11 @@ msgstr ""
 msgid "Sentinel-2"
 msgstr "Sentinel-2"
 
-#: ../../sentinel2Tab.rst:265
+#: ../../sentinel2Tab.rst:90
 msgid "|sentinel2_tool|  :guilabel:`Sentinel-2`"
 msgstr "|sentinel2_tool|  :guilabel:`Sentinel-2`"
 
-#: ../../sentinel2Tab.rst:267
+#: ../../sentinel2Tab.rst:92
 msgid ""
 "This tab allows for the conversion of **Sentinel-2** images Level-1C to the "
 "physical measure of Top Of Atmosphere reflectance (TOA), or the application "
@@ -52,20 +52,17 @@ msgstr ""
 "herramienta también puede convertir imágenes ** Sentinel-2 ** Nivel-2A de DN"
 " a valores de reflectancia."
 
-#: ../../sentinel2Tab.rst:270
+#: ../../sentinel2Tab.rst:95
 msgid ""
 "Once the input is selected, available bands are listed in the metadata "
 "table. Bands with 20m spatial resolution are resampled to 10m resolution "
 "without changing the original pixel value (i.e. one 20m pixel is divided in "
-"four 10m pixels with the same value)."
+"four 10m pixels with the same value). To reduce file size, output files are "
+"saved as data type UInt16 with scale 0.0001, which are interpreted as "
+"Float32 type by GDAL."
 msgstr ""
-"Una vez que se selecciona la entrada, las bandas disponibles se enumeran en "
-"la tabla de metadatos. Las bandas con una resolución espacial de 20 m se "
-"vuelven a muestrear a una resolución de 10 m sin cambiar el valor de píxel "
-"original (es decir, un píxel de 20 m se divide en cuatro píxeles de 10 m con"
-" el mismo valor)."
 
-#: ../../sentinel2Tab.rst:273
+#: ../../sentinel2Tab.rst:99
 msgid ""
 "**WARNING**: For the best spectral precision you should download the "
 "Sentinel-2 Level-2A Products (Surface Reflectance) or use the official SNAP "
@@ -76,11 +73,11 @@ msgstr ""
 "la herramienta oficial SNAP para la corrección atmosférica (ver "
 "http://step.esa.int)."
 
-#: ../../sentinel2Tab.rst:278
+#: ../../sentinel2Tab.rst:104
 msgid "Sentinel-2 conversion"
 msgstr "Conversión de Sentinel-2"
 
-#: ../../sentinel2Tab.rst:280
+#: ../../sentinel2Tab.rst:106
 msgid ""
 ":guilabel:`Directory containing Sentinel-2 bands` |open_dir|: open a "
 "directory containing Sentinel-2 bands; names of Sentinel-2 bands must end "
@@ -93,7 +90,7 @@ msgstr ""
 "metadatos está incluido en este directorio, entonces: ref: "
 "`sentinel2_metadata` se llenan automáticamente;"
 
-#: ../../sentinel2Tab.rst:281
+#: ../../sentinel2Tab.rst:107
 msgid ""
 ":guilabel:`Select metadata file` |open_file| |optional|: select the metadata"
 " file which is a .xml file whose name contains ``MTD_MSIL1C``); this is "
@@ -104,7 +101,7 @@ msgstr ""
 "contiene `` MTD_MSIL1C ''); esto es opcional y generalmente se puede "
 "ignorar;"
 
-#: ../../sentinel2Tab.rst:282
+#: ../../sentinel2Tab.rst:108
 msgid ""
 "|checkbox| :guilabel:`Apply DOS1 atmospheric correction`: if checked, the "
 ":ref:`DOS1_correction` is applied to all the bands;"
@@ -112,7 +109,7 @@ msgstr ""
 "|checkbox| :guilabel:`Aplicar la corrección atmosférica DOS1`: si está "
 "seleccionado, la :ref:`DOS1_correction` es aplicada a todas las bandas;"
 
-#: ../../sentinel2Tab.rst:283
+#: ../../sentinel2Tab.rst:109
 msgid ""
 "|checkbox| :guilabel:`Use value as  NoData` |input_number|: if checked, "
 "pixels having ``NoData`` value are not counted during conversion and the "
@@ -124,7 +121,7 @@ msgstr ""
 " no se cuentan durante la conversión y el cálculo DOS1 de DNmin; es útil "
 "cuando la imagen tiene un borde negro (normalmente el valor del píxel = 0);"
 
-#: ../../sentinel2Tab.rst:284
+#: ../../sentinel2Tab.rst:110
 msgid ""
 "|checkbox| :guilabel:`Preprocess bands 1, 9, 10`: if checked, preprocess "
 "also bands 1, 9, 10 (i.e. 60m bands);"
@@ -133,7 +130,7 @@ msgstr ""
 "está marcado, preprocesar también las bandas 1, 9, 10 (es decir, bandas de "
 "60 m);"
 
-#: ../../sentinel2Tab.rst:285
+#: ../../sentinel2Tab.rst:111
 msgid ""
 "|checkbox| :guilabel:`Create Band set and use Band set tools`: if checked, "
 "bands are added to the active :guilabel:`Band set` after the conversion; "
@@ -144,7 +141,7 @@ msgstr ""
 "conjunto de bandas`: si está marcado, las bandas se agregan al activo: "
 "guilabel:` Conjunto de bandas` después de la conversión;"
 
-#: ../../sentinel2Tab.rst:286
+#: ../../sentinel2Tab.rst:112
 msgid ""
 "|checkbox| :guilabel:`Add bands in a new Band set`: if checked, bands are "
 "added to a new empty :guilabel:`Band set` after the conversion;"
@@ -153,7 +150,7 @@ msgstr ""
 "está marcado, las bandas se agregan a uno nuevo vacío: guilabel:` Grupo de "
 "bandas` después de la conversión;"
 
-#: ../../sentinel2Tab.rst:288
+#: ../../sentinel2Tab.rst:114
 msgid ""
 "**TIP**: in order to convert L2A images you should move all the .jp2 files "
 "inside the same directory and rename the files with the band number in the "
@@ -164,11 +161,11 @@ msgstr ""
 " número de banda al final del nombre (por ejemplo, de nombre_02_10m.jp2 a "
 "nombre_02.jp2)."
 
-#: ../../sentinel2Tab.rst:293
+#: ../../sentinel2Tab.rst:119
 msgid "Metadata"
 msgstr "Metadatos"
 
-#: ../../sentinel2Tab.rst:295
+#: ../../sentinel2Tab.rst:121
 msgid ""
 "All the bands found in the :guilabel:`Directory containing Sentinel-2 bands`"
 " are listed in the table :guilabel:`Metadata`. If the Sentinel-2 metadata "
@@ -186,47 +183,47 @@ msgstr ""
 "página informativa <https://sentinel.esa.int/web/sentinel/user-"
 "guides/sentinel-2-msi/data-formats> `_."
 
-#: ../../sentinel2Tab.rst:299
+#: ../../sentinel2Tab.rst:125
 msgid ":guilabel:`Satellite` |input_text|: satellite name (e.g. Sentinel-2A);"
 msgstr ""
 ":guilabel:`Satélite` |input_text|: nombre del satélite (Ej. Sentinel-2A);"
 
-#: ../../sentinel2Tab.rst:300
+#: ../../sentinel2Tab.rst:126
 msgid ""
 "|remove|: remove highlighted bands from the table :guilabel:`Metadata`;"
 msgstr ""
 "|remove|: elimina las bandas seleccionadas de la tabla "
 ":guilabel:`Metadatos`;"
 
-#: ../../sentinel2Tab.rst:305
+#: ../../sentinel2Tab.rst:131
 msgid ""
 "|input_table| :guilabel:`Metadata`: table containing the following fields;"
 msgstr ""
 "|input_table| :guilabel:`Metadatos`: tabla conteniendo los siguientes "
 "campos;"
 
-#: ../../sentinel2Tab.rst:303
+#: ../../sentinel2Tab.rst:129
 msgid ":guilabel:`Band`: band name;"
 msgstr ":guilabel:`Band`: nombre de banda;"
 
-#: ../../sentinel2Tab.rst:304
+#: ../../sentinel2Tab.rst:130
 msgid ""
 ":guilabel:`Quantification value`: value for conversion to TOA reflectance;"
 msgstr ""
 ":guilabel:`Valor de Cuantificación`: valor para la conversión a reflectancia"
 " TOA;"
 
-#: ../../sentinel2Tab.rst:305
+#: ../../sentinel2Tab.rst:131
 msgid ":guilabel:`Solar irradiance`: solar irradiance of band;"
 msgstr ":guilabel:`Irradiancia solar`: irradiancia solar de la banda;"
 
-#: ../../sentinel2Tab.rst:307
+#: ../../sentinel2Tab.rst:133
 msgid ""
 ":guilabel:`BATCH` |batch_tool|: add this function to the :ref:`batch_tab`;"
 msgstr ""
 ": guilabel: `BATCH` | batch_tool |: agrega esta función a: ref:` batch_tab`;"
 
-#: ../../sentinel2Tab.rst:308
+#: ../../sentinel2Tab.rst:134
 msgid ""
 ":guilabel:`RUN` |run|: select an output directory and start the conversion "
 "process; only bands listed in the table :guilabel:`Metadata` are converted; "
@@ -241,3 +238,15 @@ msgstr ""
 
 #~ msgid "**Parallel processing is available.**"
 #~ msgstr "** El procesamiento en paralelo está disponible. **"
+
+#~ msgid ""
+#~ "Once the input is selected, available bands are listed in the metadata "
+#~ "table. Bands with 20m spatial resolution are resampled to 10m resolution "
+#~ "without changing the original pixel value (i.e. one 20m pixel is divided in "
+#~ "four 10m pixels with the same value)."
+#~ msgstr ""
+#~ "Una vez que se selecciona la entrada, las bandas disponibles se enumeran en "
+#~ "la tabla de metadatos. Las bandas con una resolución espacial de 20 m se "
+#~ "vuelven a muestrear a una resolución de 10 m sin cambiar el valor de píxel "
+#~ "original (es decir, un píxel de 20 m se divide en cuatro píxeles de 10 m con"
+#~ " el mismo valor)."

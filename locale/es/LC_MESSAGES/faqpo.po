@@ -10,15 +10,16 @@
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
 # Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2020
 # Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# Francisco Limon <Wany1954@armyspy.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 20:48+0100\n"
+"POT-Creation-Date: 2021-08-01 22:06+0200\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
-"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Last-Translator: Francisco Limon <Wany1954@armyspy.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -214,16 +215,30 @@ msgstr ""
 "SCP."
 
 #: ../../faq.rst:139
+msgid "I have installation issues on Mac OS. How can I install SCP on Mac OS?"
+msgstr ""
+
+#: ../../faq.rst:141
+msgid ""
+"If you are having issues related to installation of SCP in Mac OS, please "
+"read these posts about `installation of QGIS 3.18 "
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/permalink/3933580900071412/>`_"
+" and `installation of QGIS 3.16 "
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/permalink/3487058531390320/>`_"
+" ."
+msgstr ""
+
+#: ../../faq.rst:146
 msgid "Pre processing"
 msgstr "Pre procesamiento"
 
-#: ../../faq.rst:144
+#: ../../faq.rst:151
 msgid "Which image bands should I use for a semi-automatic classification?"
 msgstr ""
 "¿Qué bandas de la imagen debería utilizar para la clasificación semi-"
 "automática?"
 
-#: ../../faq.rst:146
+#: ../../faq.rst:153
 msgid ""
 "In general, it is preferable to avoid thermal infrared bands. If you are "
 "using Landsat 4, 5 or 7 you should select bands: 1, 2, 3, 4, 5, 7 avoiding "
@@ -243,18 +258,18 @@ msgstr ""
 " a que sus valores están principalmente relacionados a la temperatura de los"
 " objetos."
 
-#: ../../faq.rst:151
+#: ../../faq.rst:158
 msgid ""
 "For Sentinel-2 images you can use bands: 2, 3, 4, 5, 6, 7, 8, 8A, 11, 12."
 msgstr ""
 "Para imágenes Sentinel-2 puedes usar las bandas: 2, 3, 4, 5, 6, 7, 8, 8A, "
 "11, 12."
 
-#: ../../faq.rst:156
+#: ../../faq.rst:163
 msgid "Which Landsat bands can be converted to reflectance by the SCP?"
 msgstr "¿Qué bandas Landsat pueden convertirse a reflectancia con el SCP?"
 
-#: ../../faq.rst:158
+#: ../../faq.rst:165
 msgid ""
 "All Landsat 1,2, and 3 MSS and Landsat 4, 5, 7, and 8 images downloaded from"
 " http://earthexplorer.usgs.gov/ and processed with the Level 1 Product "
@@ -268,13 +283,13 @@ msgstr ""
 "convertidas a reflectancia por SCP; los productos generados por LPGS tienen "
 "un archivo MTL incluido que es requerido para dicha conversión."
 
-#: ../../faq.rst:163
+#: ../../faq.rst:170
 msgid "Can I apply the conversion to Sentinel-2 images download from the web?"
 msgstr ""
 "¿Puedo realizar la conversión de imágenes Sentinel-2 descargadas desde la "
 "web?"
 
-#: ../../faq.rst:165
+#: ../../faq.rst:172
 msgid ""
 "Yes, you can convert also images downloaded from the web (actually the "
 "conversion is recommended). You should move all the bands (.jp2 files) and "
@@ -288,12 +303,12 @@ msgstr ""
 "mismo directorio. Luego selecciona este directorio en "
 ":ref:`sentinel2_conversion`. Las imágenes se convertirán a reflectancia."
 
-#: ../../faq.rst:173
+#: ../../faq.rst:180
 msgid "Can I apply the conversion to Sentinel-2 L2A download from the web?"
 msgstr ""
 "¿Puedo aplicar la conversión a la descarga de Sentinel-2 L2A desde la web?"
 
-#: ../../faq.rst:175
+#: ../../faq.rst:182
 msgid ""
 "Yes, you should move all the .jp2 files inside the same directory and rename"
 " the files with the band number in the ending of the name (e.g. from "
@@ -306,13 +321,13 @@ msgstr ""
 "directorio en: ref: `sentinel2_conversion` . Las imágenes se convierten en "
 "reflectancia."
 
-#: ../../faq.rst:182
+#: ../../faq.rst:189
 msgid "How are converted Sentinel-2 images that have different resolutions?"
 msgstr ""
 "¿Cómo son convertidas las imágenes Sentinel-2 que tienen diferente "
 "resolución?"
 
-#: ../../faq.rst:184
+#: ../../faq.rst:191
 msgid ""
 "During the conversion to reflectance, pixels of 20m bands are split in 4 "
 "pixels of 10m whose values are the same as the original 20m pixel. The "
@@ -324,14 +339,14 @@ msgstr ""
 "original. El propósito de esta operación es permitir el cálculo entre bandas"
 " sin cambiar sus valores originales."
 
-#: ../../faq.rst:190
+#: ../../faq.rst:197
 msgid ""
 "Can I apply the Landsat conversion and DOS correction to clipped bands?"
 msgstr ""
 "¿Se puede aplicar la conversión Landsat y la corrección DOS a bandas "
 "recortadas?"
 
-#: ../../faq.rst:192
+#: ../../faq.rst:199
 msgid ""
 "Yes, you can clip the images before the conversion to reflectance and then "
 "copy the MTL file (contained in the Landsat dataset) inside the directory "
@@ -348,7 +363,7 @@ msgstr ""
 "las bandas resultantes de la conversión (Ej. bandas convertidas a "
 "reflectancia)."
 
-#: ../../faq.rst:198
+#: ../../faq.rst:205
 msgid ""
 "Can I apply the DOS correction to bands with black border (i.e. with NoData "
 "value)?"
@@ -356,7 +371,7 @@ msgstr ""
 "¿Puedo aplicar la corrección DOS a bandas con borde negro (Ej. con el valor "
 "SinDatos)?"
 
-#: ../../faq.rst:200
+#: ../../faq.rst:207
 msgid ""
 "If you want to apply the DOS correction to an entire band which has NoData "
 "values (the black border with value = 0) then you have to check the checkbox"
@@ -370,11 +385,11 @@ msgstr ""
 "se debe a que DOS es una técnica basada en imágenes y los valores NoData "
 "deben excluirse del cálculo."
 
-#: ../../faq.rst:206
+#: ../../faq.rst:213
 msgid "How to remove cloud cover from images?"
 msgstr "¿Cómo quitar la cobertura de nubes a las imágenes?"
 
-#: ../../faq.rst:208
+#: ../../faq.rst:215
 msgid ""
 "DOS1 correction does not remove clouds from the image. However, Landsat 8 "
 "images include Band 9 that identifies clouds (see this `NASA site "
@@ -387,7 +402,7 @@ msgstr ""
 "<https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/>` _). Puede "
 "utilizar esta banda para la creación de una máscara."
 
-#: ../../faq.rst:212
+#: ../../faq.rst:219
 msgid ""
 "Also, see the following `video-tutorial "
 "<https://youtu.be/xm9s97GPs0Y?t=7m00s>`_."
@@ -395,7 +410,7 @@ msgstr ""
 "Tambien, ver el siguiente `video-tutorial "
 "<https://youtu.be/xm9s97GPs0Y?t=7m00s>`_."
 
-#: ../../faq.rst:217
+#: ../../faq.rst:224
 msgid ""
 "After pan-sharpening of Landsat 8 images, why NIR bands still have 30m "
 "resolution?"
@@ -403,7 +418,7 @@ msgstr ""
 "Después del pan-sharpening de imágenes Landsat 8 ¿por qué las bandas NIR "
 "siguen teniendo 30m de resolución?"
 
-#: ../../faq.rst:219
+#: ../../faq.rst:226
 msgid ""
 "Landsat 8 panchromatic band doesn't acquire in the Near Infrared (NIR) "
 "region (see :ref:`Landsat_definition`). Therefore, the pan-sharpening "
@@ -419,16 +434,16 @@ msgstr ""
 " Sin embargo todas las ráster pan-sharpened tienen 15m de resolución que "
 "permiten realizar cálculos ráster."
 
-#: ../../faq.rst:226
+#: ../../faq.rst:233
 msgid "Processing"
 msgstr "Procesamiento"
 
-#: ../../faq.rst:231
+#: ../../faq.rst:238
 msgid "I get classification errors. How can I improve the accuracy?"
 msgstr ""
 "Obtengo errores en la clasificación. ¿Cómo puedo mejorar la precisión?"
 
-#: ../../faq.rst:233
+#: ../../faq.rst:240
 msgid ""
 "Several materials have similar spectral signatures (e.g. soil and built-up, "
 "or forest and other types of dense low vegetation), which can cause "
@@ -455,11 +470,11 @@ msgstr ""
 "clasificar materiales específicos que pueden ser espectralmente similares a "
 "otros."
 
-#: ../../faq.rst:241
+#: ../../faq.rst:248
 msgid "Is it possible to use the same training input for multiple images?"
 msgstr "¿Es posible usar los mismos datos de entrada para otras imágenes?"
 
-#: ../../faq.rst:243
+#: ../../faq.rst:250
 msgid ""
 "Yes, it is possible if all the images have the same number of bands. "
 "However, if images are acquired in different months, land cover changes "
@@ -478,19 +493,19 @@ msgstr ""
 "lo tanto, es recomendable siempre colectar ROIs y firmas espectrales para "
 "cada imagen."
 
-#: ../../faq.rst:252
+#: ../../faq.rst:259
 msgid "What is the difference between classes and macroclasses?"
 msgstr "¿Cual es la diferencia entre clases y macroclases?"
 
-#: ../../faq.rst:254
+#: ../../faq.rst:261
 msgid "Please see :ref:`classes_definition`."
 msgstr "Por favor mira :ref:`classes_definition`."
 
-#: ../../faq.rst:259
+#: ../../faq.rst:266
 msgid "Can I use SCP with images from drones or aerial photographs?"
 msgstr "¿Puedo usar el SCP con imágenes de drones o fotografías aéreas?"
 
-#: ../../faq.rst:261
+#: ../../faq.rst:268
 msgid ""
 "Yes, you can use them if they have at least 4 bands. With less than 4 bands,"
 " semi-automatic classification algorithms are unable to classify the land "
@@ -503,14 +518,14 @@ msgstr ""
 "clasificación, como las clasificaciones orientadas a objetos que no están "
 "implementadas en SCP."
 
-#: ../../faq.rst:268
+#: ../../faq.rst:275
 msgid ""
 "Why using only Landsat 8 band 10 in the estimation of surface temperature?"
 msgstr ""
 "¿Por qué solo usar la banda 10 del Landsat 8 en la estimación de la "
 "temperatura de la superficie?"
 
-#: ../../faq.rst:270
+#: ../../faq.rst:277
 msgid ""
 "Several methods were developed for estimating surface temperature. The "
 "method described in the tutorial for temperature estimation requires only "
@@ -527,11 +542,113 @@ msgstr ""
 " to Thermal Infrared Sensor (TIRS) data "
 "<http://landsat.usgs.gov/calibration_notices.php>`_ by USGS)."
 
-#: ../../faq.rst:277
+#: ../../faq.rst:284
+msgid "How can I speed up the processing?"
+msgstr ""
+
+#: ../../faq.rst:286
+msgid ""
+"In order to speed up the processing you should set the available RAM and the"
+" number of threads available in :ref:`system_processing`. "
+":guilabel:`Available RAM (MB)` should be half of the system RAM (e.g. 1024MB"
+" if system has 2GB of RAM) or more if the system has a large amount of RAM. "
+":guilabel:`CPU threads` should be a value lower than the maximum number of "
+"system threads (e.g. if the system has 4 available threads set value 3)."
+msgstr ""
+
+#: ../../faq.rst:290
+msgid ""
+"Also, several tools allow for selecting the output format ``.vrt`` avoiding "
+"the time required to create a unique ``.tif`` raster (after multiprocess), "
+"especially useful for large rasters."
+msgstr ""
+
+#: ../../faq.rst:295
+msgid "Where is the Classification tab in SCP 7?"
+msgstr ""
+
+#: ../../faq.rst:297
+msgid ""
+"The Classification tab is now in the processing menu "
+":ref:`classification_tab`."
+msgstr ""
+
+#: ../../faq.rst:302
+msgid ""
+"How do I perform accuracy assessment and how to design the number of "
+"samples?"
+msgstr ""
+
+#: ../../faq.rst:304
+msgid ""
+"Accuracy assessment is described in `this tutorial "
+"<https://fromgistors.blogspot.com/2019/09/Accuracy-Assessment-of-Land-Cover-"
+"Classification.html>`_ ."
+msgstr ""
+
+#: ../../faq.rst:306
+msgid ""
+"Sample design is required to provide an adequate number of samples for each "
+"class, as described in \"Olofsson, et al., 2014. Good practices for "
+"estimating area and assessing accuracy of land change. Remote Sensing of "
+"Environment, 148, 42 – 57\"."
+msgstr ""
+
+#: ../../faq.rst:308
+msgid ""
+"The number of samples (:math:`N`) should be calculated as (Olofsson, et al.,"
+" 2014):"
+msgstr ""
+
+#: ../../faq.rst:313
+msgid "where:"
+msgstr "donde:"
+
+#: ../../faq.rst:315
+msgid ":math:`W_i` = mapped area proportion of class i;"
+msgstr ""
+
+#: ../../faq.rst:316
+msgid ":math:`S_i` = standard deviation of stratum i;"
+msgstr ""
+
+#: ../../faq.rst:317
+msgid ":math:`S_o` = expected standard deviation of overall accuracy;"
+msgstr ""
+
+#: ../../faq.rst:318
+msgid ":math:`c` = total number of classes;"
+msgstr ""
+
+#: ../../faq.rst:320
+msgid ""
+"To stratify the sample we should conjecture user’s accuracy and standard "
+"deviations of strata (Olofsson, et al., 2014). One can hypothesize that "
+"user’s accuracy is lower and standard deviations :math:`S_i` is higher for "
+"classes having low area proportion, but of course these values should be "
+"carefully evaluated."
+msgstr ""
+
+#: ../../faq.rst:323
+msgid ""
+"This requires some conjectures about overall accuracy and user’s accuracy of"
+" each class. We should base these conjectures on previous studies."
+msgstr ""
+
+#: ../../faq.rst:326
+msgid ""
+"As starting values, we could assume :math:`S_o = 0.01` and perform a rough "
+"accuracy assessment with random samples, and eventually calculate the "
+":math:`S_i` to perform the sampling design. Alternatively, one could start "
+"with Si = 0.5 for all the classes. Basically the higher is Si, the larger is"
+" the number of samples for that class."
+msgstr ""
+
+#: ../../faq.rst:333
 msgid "Warnings"
 msgstr "Advertencias"
 
-#: ../../faq.rst:281
+#: ../../faq.rst:337
 msgid ""
 "Warning [12]: The following signature will be excluded if using Maximum "
 "Likelihood. Why?"
@@ -539,7 +656,7 @@ msgstr ""
 "Advertencia [12]: La siguiente firma será excluida si se usa Máxima "
 "Probabilidad. ¿Por qué?"
 
-#: ../../faq.rst:283
+#: ../../faq.rst:339
 msgid ""
 "The ROI is too small (or too homogeneous) for the "
 ":ref:`max_likelihood_algorithm` algorithm because that ROI has a singular "
@@ -551,15 +668,15 @@ msgstr ""
 " covarianza singular. Deberías crear ROIs más grandes o no usar el algoritmo"
 " de Máxima Probabilidad en el proceso de clasificación."
 
-#: ../../faq.rst:289
+#: ../../faq.rst:345
 msgid "Errors"
 msgstr "Errores"
 
-#: ../../faq.rst:294
+#: ../../faq.rst:350
 msgid "How can I report an error?"
 msgstr "¿Cómo puedo reportar un error?"
 
-#: ../../faq.rst:296
+#: ../../faq.rst:352
 msgid ""
 "If you found an error of the Semi-Automatic Classification Plugin please "
 "follow these steps in order to collect the required information (log file):"
@@ -567,11 +684,11 @@ msgstr ""
 "Si encuentra un error con el Semi-Automatic Classification Plugin por favor "
 "siga estos pasos para obtener la información necesaria (archivo log):"
 
-#: ../../faq.rst:298
+#: ../../faq.rst:354
 msgid "close QGIS if already open;"
 msgstr "cierra QGIS si está abierto;"
 
-#: ../../faq.rst:299
+#: ../../faq.rst:355
 msgid ""
 "open QGIS, open the Plugin tab :ref:`settings_debug_tab` and check the "
 "checkbox |checkbox| :guilabel:`Records events in a log file` ;"
@@ -580,11 +697,11 @@ msgstr ""
 "marca la casilla de verificación |checkbox| :guilabel:`Guardar eventos en un"
 " archivo log` ;"
 
-#: ../../faq.rst:304
+#: ../../faq.rst:360
 msgid ":guilabel:`Debug`"
 msgstr ":guilabel:`Depurar`"
 
-#: ../../faq.rst:306
+#: ../../faq.rst:362
 msgid ""
 "click the button :guilabel:`Test dependencies` |enter| in the tab "
 ":ref:`settings_debug_tab` ;"
@@ -592,7 +709,7 @@ msgstr ""
 "haga clic en el botón: guilabel: `Probar dependencias` |enter | en la "
 "pestaña: ref: `settings_debug_tab`;"
 
-#: ../../faq.rst:307
+#: ../../faq.rst:363
 msgid ""
 "load the data in QGIS (or open a previously saved QGIS project) and repeat "
 "all the steps that cause the error in the Plugin;"
@@ -600,7 +717,7 @@ msgstr ""
 "carga los datos en QGIS (o abre un proyecto de QGIS grabado con "
 "anterioridad) y repite los pasos que causaron el error en el Complemento;"
 
-#: ../../faq.rst:308
+#: ../../faq.rst:364
 msgid ""
 "if the issue could be related to the image data, please use `this sample "
 "dataset "
@@ -612,7 +729,7 @@ msgstr ""
 "<https://docs.google.com/uc?id=0BysUrKXWIDwBc1llME4yRmpjMGc&export=download>`_"
 " ;"
 
-#: ../../faq.rst:309
+#: ../../faq.rst:365
 msgid ""
 "if an error message appears (like the one in the following image), copy the "
 "whole content of the message in a text file;"
@@ -620,11 +737,11 @@ msgstr ""
 "si un mensaje de error aparece (como el de la siguiente imagen), copia todo "
 "el contenido del mensaje en un archivo de texto;"
 
-#: ../../faq.rst:314
+#: ../../faq.rst:370
 msgid ":guilabel:`Error message`"
 msgstr ":guilabel:`Error message`"
 
-#: ../../faq.rst:316
+#: ../../faq.rst:372
 msgid ""
 "open the tab :ref:`settings_debug_tab` and uncheck the checkbox |checkbox| "
 ":guilabel:`Records events in a log file`, then click the button |export| and"
@@ -637,11 +754,11 @@ msgstr ""
 "** archivo de registro ** (que es un archivo de texto que contiene "
 "información sobre los procesos del complemento);"
 
-#: ../../faq.rst:317
+#: ../../faq.rst:373
 msgid "open the **log file** and copy the whole content of the file;"
 msgstr "abra el **log file** y copie todo el contenido del archivo;"
 
-#: ../../faq.rst:318
+#: ../../faq.rst:374
 msgid ""
 "join the Facebook `group "
 "<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ , "
@@ -653,14 +770,14 @@ msgstr ""
 " una nueva publicación y copie el mensaje de error y el ** archivo de "
 "registro ** (o adjúntelos)."
 
-#: ../../faq.rst:324
+#: ../../faq.rst:380
 msgid ""
 "Error [50] 'Internet error'. Unable to download Sentinel-2 images. Why?"
 msgstr ""
 "Error [50] 'Internet error'. No se puede descargar imágenes Sentinel-2. ¿Por"
 " qué?"
 
-#: ../../faq.rst:326
+#: ../../faq.rst:382
 msgid ""
 "The error message usually includes some information about the issue. First, "
 "check the user name and password. If the account registration was recent, it"
@@ -672,7 +789,7 @@ msgstr ""
 "creación de la cuenta fue reciente, el proceso puede llevar algunos días "
 "hasta que SCP tenga permitida la descarga."
 
-#: ../../faq.rst:330
+#: ../../faq.rst:386
 msgid ""
 "Also, there could be an interruption of the service. For Sentinel-2 images "
 "please check this website https://scihub.copernicus.eu/news/ for messages "
@@ -682,7 +799,7 @@ msgstr ""
 "Sentinel-2 revisa este sitio web https://scihub.copernicus.eu/news/ por "
 "mensajes sobre el estado del servicio."
 
-#: ../../faq.rst:333
+#: ../../faq.rst:389
 msgid ""
 "In case you still get the same error, please follow these steps "
 ":ref:`error_0`."
@@ -690,12 +807,12 @@ msgstr ""
 "En caso de continuar el mismo error, por favor sigue estos pasos "
 ":ref:`error_0`."
 
-#: ../../faq.rst:338
+#: ../../faq.rst:394
 msgid "Error installing the plugin, possible missing dependencies. Why?"
 msgstr ""
 "Error al instalar el plugin, posiblemente faltan dependencias. ¿Por qué?"
 
-#: ../../faq.rst:340
+#: ../../faq.rst:396
 msgid ""
 "The plugin requires the installation of GDAL, NumPy, SciPy and Matplotlib, "
 "which should be installed along with QGIS. If the plugin installation fails,"
@@ -711,15 +828,15 @@ msgstr ""
 "las dependencias requeridas. Nótese que para evitar este error, las "
 "dependencias Python no deberían ser instaladas a través de Anaconda."
 
-#: ../../faq.rst:347
+#: ../../faq.rst:403
 msgid "Various"
 msgstr "Varios"
 
-#: ../../faq.rst:352
+#: ../../faq.rst:408
 msgid "What can I do with the SCP?"
 msgstr "¿Qué puedo hacer con SCP?"
 
-#: ../../faq.rst:354
+#: ../../faq.rst:410
 msgid ""
 ":guilabel:`SCP` allows for the **land cover classification** of remote "
 "sensing images through :ref:`supervised_classification_definition`. You can "
@@ -738,7 +855,7 @@ msgstr ""
 "definiciones lee :ref:`remote_sensing`) que definen las clases de cobertura "
 "terrestre que serán identificadas en la imagen."
 
-#: ../../faq.rst:361
+#: ../../faq.rst:417
 msgid ""
 ":guilabel:`A multispectral image processed to produce a land cover "
 "classification`"
@@ -746,11 +863,11 @@ msgstr ""
 ":guilabel:`Imagen multiespectral procesada para producir una clasificación "
 "de la cobertura del suelo`"
 
-#: ../../faq.rst:363
+#: ../../faq.rst:419
 msgid "``(Landsat image provided by USGS)``"
 msgstr "``(Imagen Landsat proporcionada por USGS)``"
 
-#: ../../faq.rst:365
+#: ../../faq.rst:421
 msgid ""
 ":guilabel:`SCP` can work with **multispectral images** acquired by "
 "satellites, airplanes, or drones. Also, :guilabel:`SCP` allows for the "
@@ -763,7 +880,7 @@ msgstr ""
 "búsqueda y descarga de imágenes gratis (mira :ref:`download_tab`). No puedes"
 " usar con SCP, ortofotos con menos de 4 bandas, datos SAR y LIDAR."
 
-#: ../../faq.rst:369
+#: ../../faq.rst:425
 msgid ""
 "**Input image** in :guilabel:`SCP` is called :ref:`band_set_tab`, which is "
 "used as input for the classification. :guilabel:`SCP` provides several tools"
@@ -775,7 +892,7 @@ msgstr ""
 "de varias herramientas para el :ref:`pre_processing_tab` de imágenes "
 "descargadas, como la conversión a reflectancia y la manipulación de bandas."
 
-#: ../../faq.rst:372
+#: ../../faq.rst:428
 msgid ""
 "**Classification results** can be assessed with the tools "
 ":ref:`accuracy_tab` and :ref:`classification_report_tab`. Also, rasters can "
@@ -791,7 +908,7 @@ msgstr ""
 ":ref:`edit_raster_tab` directamente, :ref:`classification_sieve_tab`, "
 ":ref:`classification_erosion_tab`, y :ref:`classification_dilation_tab`."
 
-#: ../../faq.rst:375
+#: ../../faq.rst:431
 msgid ""
 "The :ref:`spectral_signature_plot` and :ref:`scatter_plot` allow for the "
 "**analysis of spectral signatures and ROIs**. Also, several :ref:`tools_tab`"
@@ -802,7 +919,7 @@ msgstr ""
 "están disponibles para la creación fácil de un ROI y edición de firmas "
 "espectrales."
 
-#: ../../faq.rst:378
+#: ../../faq.rst:434
 msgid ""
 "**Raster calculation** is available through the seamless integration of the "
 "tool :ref:`band_calc_tab` with bands in the :ref:`band_set_tab`, calculating"
@@ -814,7 +931,7 @@ msgstr ""
 "expresiones matemáticas e índices espectrales. También se puede calcular un "
 "ráster de salida basados en :ref:`decision_rules`."
 
-#: ../../faq.rst:381
+#: ../../faq.rst:437
 msgid ""
 "The tool :ref:`batch_tab` allows for the automatic execution of several "
 ":guilabel:`SCP` functions using a scripting interface."
@@ -822,15 +939,15 @@ msgstr ""
 "La herramienta :ref:`batch_tab` permite la ejecución automática de varias "
 "funciones de :guilabel:`SCP` usando una interfaz de script."
 
-#: ../../faq.rst:383
+#: ../../faq.rst:439
 msgid "See the :ref:`tutorials` for more information and examples."
 msgstr "Ver los :ref:`tutorials` para más información y ejemplos."
 
-#: ../../faq.rst:388
+#: ../../faq.rst:444
 msgid "How to contribute to SCP"
 msgstr "Cómo contribuir a SCP"
 
-#: ../../faq.rst:390
+#: ../../faq.rst:446
 msgid ""
 "You can contribute to :guilabel:`SCP` by fixing and adding functionalities "
 "(see :ref:`other_5`), or translating the user manual (see :ref:`other_4`)."
@@ -839,47 +956,39 @@ msgstr ""
 "funcionalidades (mira :ref:`other_5`), o traduciendo el manual de usuario "
 "(mira :ref:`other_4`)."
 
-#: ../../faq.rst:392
-msgid ""
-"Also, you can donate to this project at the following link "
-"https://fromgistors.blogspot.com/p/donations.html ."
-msgstr ""
-"Además. usted puede donar a este proyecto en el siguiente enlace: "
-"https://fromgistors.blogspot.com/p/donations.html ."
-
-#: ../../faq.rst:397
+#: ../../faq.rst:451
 msgid "Free and valuable resources about remote sensing and GIS"
 msgstr "Recursos gratis y valiosos sobre teledetección y SIG"
 
-#: ../../faq.rst:399
+#: ../../faq.rst:453
 msgid "The following links are valuable resources:"
 msgstr "Los siguientes enlaces son recursos valiosos:"
 
-#: ../../faq.rst:401
+#: ../../faq.rst:455
 msgid ""
 "`The Landsat 8 Data Users Handbook by USGS <https://www.usgs.gov/core-"
 "science-systems/nli/landsat/landsat-8-data-users-handbook>`_;"
 msgstr ""
 
-#: ../../faq.rst:402
+#: ../../faq.rst:456
 msgid ""
 "`The Landsat 7 Science Data Users Handbook by NASA <https://www.usgs.gov"
 "/core-science-systems/nli/landsat/landsat-7-data-users-handbook>`_;"
 msgstr ""
 
-#: ../../faq.rst:403
+#: ../../faq.rst:457
 msgid ""
 "`Webinar: Fundamentals of Remote Sensing by NASA "
 "<https://appliedsciences.nasa.gov/join-mission/training/english"
 "/fundamentals-remote-sensing>`_."
 msgstr ""
 
-#: ../../faq.rst:408
+#: ../../faq.rst:462
 msgid "Other tutorials about SCP, also in languages other than English"
 msgstr ""
 "Otros tutoriales sobre SCP, tambien en otros idiomas distintos al inglés"
 
-#: ../../faq.rst:410
+#: ../../faq.rst:464
 msgid ""
 "There are several tutorials about :guilabel:`SCP` on the internet. Following"
 " an incomplete list of these resources (please note that these resources "
@@ -889,7 +998,7 @@ msgstr ""
 "una lista incompleta de esos recursos (por favor nota que esos recursos "
 "podrían usar versiones antiguas de SCP):"
 
-#: ../../faq.rst:413
+#: ../../faq.rst:467
 msgid ""
 "`English: Webinar by NASA ARSET about Land Cover Classification with "
 "Satellite Imagery <https://arset.gsfc.nasa.gov/land/webinars/advanced-land-"
@@ -899,7 +1008,7 @@ msgstr ""
 " de satélite<https://arset.gsfc.nasa.gov/land/webinars/advanced-land-"
 "classification>`_;"
 
-#: ../../faq.rst:414
+#: ../../faq.rst:468
 msgid ""
 "`English: Recommended Practice by UN-SPIDER about Burn Severity Mapping Burn"
 " Severity with QGIS <http://www.un-spider.org/node/10955>`_;"
@@ -907,7 +1016,7 @@ msgstr ""
 "`English: Práctica recomendada por ONU-SPIDER sobre el mapeo de la gravedad "
 "de las quemaduras con QGIS <http://www.un-spider.org/node/10955>`_;"
 
-#: ../../faq.rst:415
+#: ../../faq.rst:469
 msgid ""
 "`French: Télédétection des feux de forêts <https://www.geonov.fr/exemples"
 "/teledetection-feux-de-forets/>`_;"
@@ -915,7 +1024,7 @@ msgstr ""
 "`Francés: Teledetección de incendios forestales "
 "<https://www.geonov.fr/exemples/teledetection-feux-de-forets/>`_;"
 
-#: ../../faq.rst:416
+#: ../../faq.rst:470
 msgid ""
 "`German: 2015 Jakob Erfassung von Landnutzungsveränderungen mit FOSS Image "
 "Processing Tools <https://www.youtube.com/watch?v=vIsHFvLS5_Q>`_;"
@@ -923,19 +1032,19 @@ msgstr ""
 "`Alemán: 2015 Jakob Erfassung von Landnutzungsveränderungen mit FOSS Image "
 "Processing Tools <https://www.youtube.com/watch?v=vIsHFvLS5_Q>`_;"
 
-#: ../../faq.rst:417
+#: ../../faq.rst:471
 msgid ""
 "`Greek: Landsat radiometric correction with QGIS - Ραδιομετρική διόρθωση "
 "δεδομένων <https://www.youtube.com/watch?v=FStnE0jwVx4>`_;"
 msgstr ""
 
-#: ../../faq.rst:418
+#: ../../faq.rst:472
 msgid ""
 "`Greek: Supervised classification of Landsat image and accuracy assessment "
 "with QGIS <https://www.youtube.com/watch?v=f7SkMUWOvTo>`_;"
 msgstr ""
 
-#: ../../faq.rst:419
+#: ../../faq.rst:473
 msgid ""
 "`Indonesian: Koreksi Radiometrik Menggunakan QGIS:Semi Automatic "
 "Classification <https://rosegislabs.com/2017/02/28/koreksi-radiometrik-"
@@ -945,13 +1054,13 @@ msgstr ""
 "Semiautomática<https://rosegislabs.com/2017/02/28/koreksi-radiometrik-"
 "menggunakan-qgissemi-automatic-classification-part-1/>`_;"
 
-#: ../../faq.rst:420
+#: ../../faq.rst:474
 msgid ""
 "`Italian: Geobreak 7 - I dati satellitari Sentinel 2 in QGIS "
 "<https://www.youtube.com/watch?v=qZOu_wAACyU>`_;"
 msgstr ""
 
-#: ../../faq.rst:421
+#: ../../faq.rst:475
 msgid ""
 "`Korean: QGIS Semi-Automatic Classification Plugin "
 "<http://blog.daum.net/geoscience/715>`_;"
@@ -959,7 +1068,7 @@ msgstr ""
 "`Coreano: QGIS Semi-Automatic Classification Plugin "
 "<http://blog.daum.net/geoscience/715>`_;"
 
-#: ../../faq.rst:422
+#: ../../faq.rst:476
 msgid ""
 "`Portuguese: Workshop de Deteção Remota e Processamento Digital de Imagem "
 "com o QGIS e o Semi-Automatic Classification Plugin "
@@ -973,7 +1082,7 @@ msgstr ""
 "-processamento-digital-de-imagem-com-o-qgis-e-o-semiautomatic-"
 "classification-plugin>`_;"
 
-#: ../../faq.rst:423
+#: ../../faq.rst:477
 msgid ""
 "`Portuguese: Avaliação do erro de uma imagem de satélite usando o QGIS e o "
 "SCP <https://www.youtube.com/watch?v=k1yjcJPb1WI>`_;"
@@ -981,13 +1090,13 @@ msgstr ""
 "`Portugués: Avaliação do erro de uma imagem de satélite usando o QGIS e o "
 "SCP <https://www.youtube.com/watch?v=k1yjcJPb1WI>`_;"
 
-#: ../../faq.rst:424
+#: ../../faq.rst:478
 msgid ""
 "`Portuguese: QGIS 3.10: Baixar Bandas Individuais do Sentinel-2 pelo Plugin "
 "SCP <https://www.youtube.com/watch?v=r73HO1TuosM>`_;"
 msgstr ""
 
-#: ../../faq.rst:425
+#: ../../faq.rst:479
 msgid ""
 "`Russian: Опыт классификации космоснимка Sentinel- 2a с помощью Semi-"
 "Automatic Classification Plugin в QGIS <http://gis-lab.info/qa/qgis-sacp-"
@@ -997,20 +1106,20 @@ msgstr ""
 "Classification Plugin в QGIS <http://gis-lab.info/qa/qgis-sacp-"
 "sentinel2a.html>`_;"
 
-#: ../../faq.rst:426
+#: ../../faq.rst:480
 msgid ""
 "`Spanish: Descargar imágenes Landsat, calcular NDVI y NDWI con QGIS "
 "<https://www.youtube.com/watch?v=4vDY8o5uBhs>`_;"
 msgstr ""
 
-#: ../../faq.rst:427
+#: ../../faq.rst:481
 msgid ""
 "`Spanish: Clasificación Supervisada con Imágenes Landsat8 en QGIS \"Pi\" y "
 "Semi-Automatic Classification Plugin "
 "<https://www.youtube.com/watch?v=ZbIsJuHeoJo>`_;"
 msgstr ""
 
-#: ../../faq.rst:428
+#: ../../faq.rst:482
 msgid ""
 "`Spanish: Descarga de imágenes de satélite desde servidores públicos "
 "<https://www.youtube.com/watch?v=OxGbZo6Go5g>`_;"
@@ -1018,7 +1127,7 @@ msgstr ""
 "`Spanish: Descarga de imágenes de satélite desde servidores públicos "
 "<https://www.youtube.com/watch?v=OxGbZo6Go5g>`_;"
 
-#: ../../faq.rst:429
+#: ../../faq.rst:483
 msgid ""
 "`Swedish: Landsat 8 och fjärranalys med QGIS "
 "<https://geosupportsystem.wordpress.com/2015/04/02/landsat-8-och-"
@@ -1028,7 +1137,7 @@ msgstr ""
 "<https://geosupportsystem.wordpress.com/2015/04/02/landsat-8-och-"
 "fjarranalys-med-qgis/>`_;"
 
-#: ../../faq.rst:430
+#: ../../faq.rst:484
 msgid ""
 "`Ukrainian: Основи дешифрування плагіном Semi-Automatic Classification 5.0 "
 "<https://www.youtube.com/watch?v=kwI4RhYr8Rc>`_;"
@@ -1036,7 +1145,7 @@ msgstr ""
 "`Ukrainian: Основи дешифрування плагіном Semi-Automatic Classification 5.0 "
 "<https://www.youtube.com/watch?v=kwI4RhYr8Rc>`_;"
 
-#: ../../faq.rst:431
+#: ../../faq.rst:485
 msgid ""
 "`Ukrainian: Використання Гіс Qgis Для Отримання Та Обробки Космічних Знімків"
 " Євген Василенко <https://www.youtube.com/watch?v=O1nyOqMdIiQ>`_;"
@@ -1044,11 +1153,11 @@ msgstr ""
 "`Ucranio: Використання Гіс Qgis Для Отримання Та Обробки Космічних Знімків "
 "Євген Василенко <https://www.youtube.com/watch?v=O1nyOqMdIiQ>`_;"
 
-#: ../../faq.rst:437
+#: ../../faq.rst:491
 msgid "How can I translate this user manual to another language?"
 msgstr "¿Cómo puedo traducir este manual del usuario a otro lenguaje?"
 
-#: ../../faq.rst:439
+#: ../../faq.rst:493
 msgid ""
 "It is possible to easily translate the user manual to any language, because "
 "it is written in reStructuredText as markup language (using Sphinx). "
@@ -1062,15 +1171,15 @@ msgstr ""
 "manual a tu lenguaje. Las siguientes guías ilustran los pasos principales "
 "para la traducción. La cual puede efectuarse:"
 
-#: ../../faq.rst:443
+#: ../../faq.rst:497
 msgid "using the free online service Transifex;"
 msgstr "usando el servicio en línea gratuito Transifex;"
 
-#: ../../faq.rst:444
+#: ../../faq.rst:498
 msgid "using the gettext .po files."
 msgstr "usando los archivos gettext.po."
 
-#: ../../faq.rst:446
+#: ../../faq.rst:500
 msgid ""
 "Before translating, please `read this document "
 "<http://docs.qgis.org/testing/en/docs/documentation_guidelines/do_translations.html#translate-a-manual>`_"
@@ -1082,12 +1191,12 @@ msgstr ""
 " de la guía de traducción de QGIS, la cual te ayudará a comprender "
 "reStructuredText."
 
-#: ../../faq.rst:448
+#: ../../faq.rst:502
 msgid "**Method 1. Translation using the free online service Transifex**"
 msgstr ""
 "**Método 1. Traducción usando el servicio en línea gratuito Transifex**"
 
-#: ../../faq.rst:450
+#: ../../faq.rst:504
 msgid ""
 "This is probably the easiest way to translate the manual using an online "
 "service."
@@ -1095,11 +1204,11 @@ msgstr ""
 "Esta probablemente es la forma más fácil de traducir el manual usando un "
 "servicio en línea."
 
-#: ../../faq.rst:452
+#: ../../faq.rst:506
 msgid "Join the Semi-automatic Classification Manual project"
 msgstr "únete al proyecto del Manual de Semi-automatic Classification"
 
-#: ../../faq.rst:454
+#: ../../faq.rst:508
 msgid ""
 "Go to the page https://www.transifex.com/semi-automatic-classification/semi-"
 "automatic-classification-plugin-manual and click the button ``Help "
@@ -1111,11 +1220,11 @@ msgstr ""
 "translate``. Puedes suscribirte usando tus cuentas de Google o Facebook, o "
 "registrando una nueva cuenta gratuita."
 
-#: ../../faq.rst:457
+#: ../../faq.rst:511
 msgid "Select your language"
 msgstr "Selecciona tu idioma"
 
-#: ../../faq.rst:459
+#: ../../faq.rst:513
 msgid ""
 "Select your language and click the button ``Join team``. If your language is"
 " not listed, click the button ``Request language``."
@@ -1123,11 +1232,11 @@ msgstr ""
 "Selecciona tu idioma y haz clic en el botón ``Join team``. Si tu idioma no "
 "está en el listado, clic en el botón ``Request language``."
 
-#: ../../faq.rst:462
+#: ../../faq.rst:516
 msgid "Translation"
 msgstr "Traducción"
 
-#: ../../faq.rst:464
+#: ../../faq.rst:518
 msgid ""
 "There are several files to be translated, which refer to the sections of the"
 " SCP documentation. To translate the SCP interface you should select the "
@@ -1137,11 +1246,11 @@ msgstr ""
 "secciones de la documentación de SCP. Para traducir la interfaz de SCP, "
 "debes seleccionar el archivo ``semiautomaticclassificationplugin.ts`` ."
 
-#: ../../faq.rst:467
+#: ../../faq.rst:521
 msgid "**Method 2. Translation using the gettext .po files**"
 msgstr "**Método 2. Traducir usando los archivos gettext.po**"
 
-#: ../../faq.rst:469
+#: ../../faq.rst:523
 msgid ""
 "In order to use this method, you should be familiar with GitHub. This "
 "translation method allows for the translation of the PO files locally."
@@ -1149,11 +1258,11 @@ msgstr ""
 "Para elegir usar este método, deberías estar familiarizado con GitHub. Este "
 "método de traducción permite la traducción de los archivos PO en modo local."
 
-#: ../../faq.rst:471
+#: ../../faq.rst:525
 msgid "Download the translation files"
 msgstr "Descargar los archivos de traducción"
 
-#: ../../faq.rst:473
+#: ../../faq.rst:527
 msgid ""
 "Go to the GitHub project "
 "https://github.com/semiautomaticgit/SemiAutomaticClassificationManual_v4/tree/master/locale"
@@ -1167,11 +1276,11 @@ msgstr ""
 "no está listado), o puedes bifurcar el repositorio. Cada archivo .po es un "
 "archivo de texto que se refiere a una sección del Manual del Usuario."
 
-#: ../../faq.rst:476
+#: ../../faq.rst:530
 msgid "Edit the translation files"
 msgstr "Edita los archivos de traducción"
 
-#: ../../faq.rst:478
+#: ../../faq.rst:532
 msgid ""
 "Now you can edit the .po files. It is convenient to edit those file using "
 "one of the following programs: for instance `Poedit "
@@ -1188,11 +1297,11 @@ msgstr ""
 "<http://www.omegat.org/en/download_selector/ui.php>`_ (basado en Java) para "
 "Windows, Linux y Mac OS X."
 
-#: ../../faq.rst:484
+#: ../../faq.rst:538
 msgid "Where is the source code of SCP?"
 msgstr "¿Dónde está el código fuente de SCP?"
 
-#: ../../faq.rst:486
+#: ../../faq.rst:540
 msgid ""
 "You can find the source code of SPC is at the following link "
 "https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin"
@@ -1239,6 +1348,13 @@ msgstr ""
 #~ "También puede estar relacionado al nombre de usuario que contiene caracteres"
 #~ " especiales. Por favor intenta la instalación creando un nuevo usuario sin "
 #~ "caracteres especiales (Ej. \"usuario\")."
+
+#~ msgid ""
+#~ "Also, you can donate to this project at the following link "
+#~ "https://fromgistors.blogspot.com/p/donations.html ."
+#~ msgstr ""
+#~ "Además. usted puede donar a este proyecto en el siguiente enlace: "
+#~ "https://fromgistors.blogspot.com/p/donations.html ."
 
 #~ msgid ""
 #~ "`The Landsat 8 Data Users Handbook by USGS <https://www.usgs.gov/land-"

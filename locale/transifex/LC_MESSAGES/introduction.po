@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-20 12:41+0200\n"
+"POT-Creation-Date: 2021-08-27 22:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,8 +88,10 @@ msgstr ""
 
 #: ../../introduction.rst:36
 msgid ""
-"*Congedo Luca (2020). Semi-Automatic Classification Plugin "
-"Documentation.* DOI: http://dx.doi.org/10.13140/RG.2.2.25480.65286/1"
+"Congedo, Luca, (2021). Semi-Automatic Classification Plugin: A Python "
+"tool for the download and processing of remote sensing images in QGIS. "
+"Journal of Open Source Software, 6(64), 3172, "
+"https://doi.org/10.21105/joss.03172"
 msgstr ""
 
 #: ../../introduction.rst:40
@@ -156,5 +158,11 @@ msgstr ""
 #~ "preprocessing, the postprocessing, and the "
 #~ "raster calculation (please see "
 #~ ":ref:`other_0`)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Congedo Luca (2020). Semi-Automatic "
+#~ "Classification Plugin Documentation.* DOI: "
+#~ "http://dx.doi.org/10.13140/RG.2.2.25480.65286/1"
 #~ msgstr ""
 

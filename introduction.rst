@@ -33,7 +33,7 @@ For more information and tutorials visit the official site
 
 **How to cite:**
 
-*Congedo Luca (2020). Semi-Automatic Classification Plugin Documentation.* DOI: http://dx.doi.org/10.13140/RG.2.2.25480.65286/1
+Congedo, Luca, (2021). Semi-Automatic Classification Plugin: A Python tool for the download and processing of remote sensing images in QGIS. Journal of Open Source Software, 6(64), 3172, https://doi.org/10.21105/joss.03172
 
 |br|
 

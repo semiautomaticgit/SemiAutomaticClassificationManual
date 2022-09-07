@@ -5,8 +5,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2020
-# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# smile sho <sho@live.cn>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -15,18 +14,18 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-01 13:22+0100\n"
 "PO-Revision-Date: 2020-11-01 11:47+0000\n"
-"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
-"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"Last-Translator: smile sho <sho@live.cn>, 2022\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/semi-automatic-classification/teams/53374/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../tutorials.rst:5
 msgid "Basic Tutorials"
-msgstr "Tutoriales Básicos"
+msgstr "基础教程"
 
 #: ../../tutorials.rst:11
 msgid ""
@@ -36,10 +35,4 @@ msgid ""
 "interface `at this page "
 "<https://docs.qgis.org/testing/en/docs/user_manual/introduction/qgis_gui.html>`_)."
 msgstr ""
-"Los siguientes son tutoriales muy básicos para la clasificación de la "
-"cobertura del suelo utilizando el Complemento de clasificación "
-"semiautomático (: guilabel: `SCP`). Se supone que tiene un conocimiento "
-"básico de QGIS (puede encontrar una guía de la interfaz de QGIS en esta "
-"página "
-"<https://docs.qgis.org/testing/en/docs/user_manual/introduction/qgis_gui.html>"
-" ` _)."
+"以下是使用半自动分类插件（:guilabel:`SCP`）进行土地覆盖分类的基本教程。假设您对QGIS有基本了解（您可以在本页找到QGIS界面指南https://docs.qgis.org/testing/en/docs/user_manual/introduction/qgis_gui.html)."

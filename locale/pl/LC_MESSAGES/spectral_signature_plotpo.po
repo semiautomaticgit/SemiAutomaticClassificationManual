@@ -313,9 +313,9 @@ msgid ""
 "which are useful for assessing ROI separability (see "
 ":ref:`spectral_distance_definition`)."
 msgstr ""
-"Wyświetl odległości widmowe sygnatur (zobacz :ref:`signature_list_plot`), "
-"mogą być użyteczne w uzyskaniu rozróżnialności OT (zobacz "
-":ref:`spectral_distance_definition`)."
+"Wyświetl odległości widmowe sygnatur (zobacz "
+":ref:`signature_list_plot`), mogą być użyteczne w uzyskaniu rozróżnialności "
+"OT (zobacz :ref:`spectral_distance_definition`)."
 
 #: ../../spectral_signature_plot.rst:186
 msgid "The following spectral distances are calculated :"

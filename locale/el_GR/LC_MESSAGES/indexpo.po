@@ -5,7 +5,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# FelipeSodre <felipe.b4rros@gmail.com>, 2020
+# Παναγιώτης Κλουκίνας, 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,15 +14,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-01 13:22+0100\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
-"Last-Translator: FelipeSodre <felipe.b4rros@gmail.com>, 2020\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/semi-automatic-classification/teams/53374/pt_BR/)\n"
+"Last-Translator: Παναγιώτης Κλουκίνας, 2022\n"
+"Language-Team: Greek (Greece) (https://www.transifex.com/semi-automatic-classification/teams/53374/el_GR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../index.rst:4
 msgid "Semi-Automatic Classification Plugin Documentation"
-msgstr "Documentação do Semi-Automatic Classification Plugin"
+msgstr "Τεκμηρίωση του Semi-Automatic Classification Plugin"

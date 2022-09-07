@@ -5,23 +5,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# Marlon Castillo <marloncastillo286@gmail.com>, 2020
+# Marlon Castillo <marloncastillo286@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-01 22:06+0200\n"
+"POT-Creation-Date: 2021-08-27 22:20+0200\n"
 "PO-Revision-Date: 2020-11-01 11:46+0000\n"
-"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2020\n"
+"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../bandCombinationTab.rst:5
 msgid "Band combination"
@@ -48,6 +48,11 @@ msgid ""
 "many ``.tif`` files as the number of CPU threads defined in "
 ":ref:`system_processing`; for large rasters this can speed up the process."
 msgstr ""
+"Esta herramienta admite ''salida ráster virtual''; si el nombre del archivo "
+"de salida termina con ''.vrt'', la salida se crea como ráster virtual "
+"compuesto por varios archivos ''.tif'' como el número de subprocesos de CPU "
+"definidos en :ref:'system_processing'; para rásteres grandes, esto puede "
+"acelerar el proceso."
 
 #: ../../bandCombinationTab.rst:75
 msgid "Combination of band values"

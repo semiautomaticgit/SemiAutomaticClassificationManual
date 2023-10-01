@@ -5,23 +5,17 @@ Basic tools
 ******************************
 
 .. |tools| image:: _static/semiautomaticclassificationplugin_roi_tool.png
-	:width: 20pt
-	
-.. |br| raw:: html
+    :width: 20pt
 
- <br />
 
-The tab |tools| ``Basic tools`` includes several tools for manipulating input data.
+The tab |tools| ``Basic tools`` includes several tools for manipulating input
+data.
 
 .. toctree::
-	:maxdepth: 2
-	:numbered:
-	
-	algorithmBandWeightTab.rst
-	BandSetListTab.rst
-	exportSignaturesTab.rst
-	importSignaturesTab.rst
-	LCSThresholdTab.rst
-	multipleROICreationTab.rst
-	RGBListTab.rst
-	signatureThresholdTab.rst
+    :maxdepth: 2
+
+    export_tab.rst
+    import_tab.rst
+    multiple_ROI_tab.rst
+    RGB_composite_tab.rst
+    signature_threshold_tab.rst

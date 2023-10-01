@@ -12,62 +12,92 @@ Brief Introduction to Remote Sensing
 .. contents::
     :depth: 2
     :local:
-	
+
 .. _basic_definitions:
  
 Basic Definitions
 =================
 
 This chapter provides basic definitions about GIS and remote sensing.
-For other useful resources see :ref:`other_2`.
 
 .. _GIS_definition:
 
 GIS definition
 -------------------------
 
-There are several definitions of **GIS** (Geographic Information Systems), which is not simply a program. In general, GIS are systems that allow for the use of geographic information (data have spatial coordinates). In particular, GIS allow for the view, query, calculation and analysis of spatial data, which are mainly distinguished in raster or vector data structures. Vector is made of objects that can be points, lines or polygons, and each object can have one ore more attribute values; a raster is a grid (or image) where each cell has an attribute value (Fisher and Unwin, 2005).
-Several GIS applications use raster images that are derived from remote sensing.
+There are several definitions of **GIS** (Geographic Information Systems),
+which is not simply a program. In general, GIS are systems that allow for the
+use of geographic information (data have spatial coordinates). In particular,
+GIS allow for the view, query, calculation and analysis of spatial data, which
+are mainly distinguished in raster or vector data structures. Vector is made
+of objects that can be points, lines or polygons, and each object can have one
+or more attribute values; a raster is a grid (or image) where each cell has
+an attribute value (Fisher and Unwin, 2005).
+Several GIS applications use raster images that are derived from remote
+sensing.
 
 .. _Remote_Sensing_definition:
 
 Remote Sensing definition
 -------------------------
 
-A general definition of **Remote Sensing** is "the science and technology by which the characteristics of objects of interest can be identified, measured or analyzed the characteristics without direct contact" (JARS, 1993).
+A general definition of **Remote Sensing** is "the science and technology by
+which the characteristics of objects of interest can be identified, measured
+or analyzed the characteristics without direct contact" (JARS, 1993).
 
-Usually, remote sensing is the measurement of the energy that is emanated from the Earth’s surface. If the source of the measured energy is the sun, then it is called **passive remote sensing**, and the result of this measurement can be a digital image (Richards and Jia, 2006). If the measured energy is not emitted by the Sun but from the sensor platform then it is defined as **active remote sensing**, such as radar sensors which work in the microwave range (Richards and Jia, 2006).
+Usually, remote sensing is the measurement of the energy that is emanated from
+the Earth’s surface. If the source of the measured energy is the sun, then
+it is called **passive remote sensing**, and the result of this measurement
+can be a digital image (Richards and Jia, 2006). If the measured energy is not
+emitted by the Sun but from the sensor platform then it is defined
+as **active remote sensing**, such as radar sensors which work in the
+microwave range (Richards and Jia, 2006).
 
-The **electromagnetic spectrum** is "the system that classifies, according to wavelength, all energy (from short cosmic to long radio) that moves, harmonically, at the constant velocity of light" (NASA, 2013). Passive sensors measure energy from the optical regions of the electromagnetic spectrum: visible, near infrared (i.e. IR), short-wave IR, and thermal IR (see Figure :ref:`figEM`).
+The **electromagnetic spectrum** is "the system that classifies, according
+to wavelength, all energy (from short cosmic to long radio) that moves,
+harmonically, at the constant velocity of light" (NASA, 2013). Passive sensors
+measure energy from the optical regions of the electromagnetic spectrum:
+visible, near infrared (i.e. IR), short-wave IR,
+and thermal IR (see Figure :ref:`figEM`).
 
 .. _figEM:
 
-.. figure:: _static/Electromagnetic-Spectrum.png
-	:align: center
-	
-	:guilabel:`Electromagnetic-Spectrum`
-	
-	``by Victor Blacus (SVG version of File:Electromagnetic-Spectrum.png)``
-	
-	``[CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)]``
-	
-	``via Wikimedia Commons``
-	
-	``http://commons.wikimedia.org/wiki/File%3AElectromagnetic-Spectrum.svg``
-	
+.. figure:: _static/remote_sensing/Electromagnetic-Spectrum.png
+    :align: center
+
+    :guilabel:`Electromagnetic-Spectrum`
+
+    ``by Victor Blacus (SVG version of File:Electromagnetic-Spectrum.png)``
+
+    ``[CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)]``
+
+    ``via Wikimedia Commons``
+
+    ``http://commons.wikimedia.org/wiki/File%3AElectromagnetic-Spectrum.svg``
+
 |br|
 
-The interaction between solar energy and materials depends on the wavelength; solar energy goes from the Sun to the Earth and then to the sensor. Along this path, **solar energy** is (NASA, 2013):
+The interaction between solar energy and materials depends on the wavelength;
+solar energy goes from the Sun to the Earth and then to the sensor.
+Along this path, **solar energy** is (NASA, 2013):
 
-* **Transmitted** - The energy passes through with a change in velocity as determined by the index of refraction for the two media in question.
+* **Transmitted** - The energy passes through with a change in velocity as
+  determined by the index of refraction for the two media in question.
 
-* **Absorbed** - The energy is given up to the object through electron or molecular reactions.
+* **Absorbed** - The energy is given up to the object through electron or
+  molecular reactions.
 
-* **Reflected** - The energy is returned unchanged with the angle of incidence equal to the angle of reflection. Reflectance is the ratio of reflected energy to that incident on a body. The wavelength reflected (not absorbed) determines the color of an object.
+* **Reflected** - The energy is returned unchanged with the angle of incidence
+  equal to the angle of reflection. Reflectance is the ratio of reflected
+  energy to that incident on a body. The wavelength reflected (not absorbed)
+  determines the color of an object.
 
-* **Scattered** - The direction of energy propagation is randomly changed. Rayleigh and Mie scatter are the two most important types of scatter in the atmosphere.
+* **Scattered** - The direction of energy propagation is randomly changed.
+  Rayleigh and Mie scatter are the two most important types of scatter in the
+  atmosphere.
 
-* **Emitted** - Actually, the energy is first absorbed, then re-emitted, usually at longer wavelengths. The object heats up.
+* **Emitted** - Actually, the energy is first absorbed, then re-emitted,
+  usually at longer wavelengths. The object heats up.
 
 
 .. _Sensors_definition:
@@ -75,16 +105,30 @@ The interaction between solar energy and materials depends on the wavelength; so
 Sensors
 -------------------------
 
-**Sensors** can be on board of airplanes or on board of satellites, measuring the electromagnetic radiation at specific ranges (usually called bands). As a result, the measures are quantized and converted into a digital image, where each picture elements (i.e. pixel) has a discrete value in units of Digital Number (DN) (NASA, 2013). The resulting images have different characteristics (resolutions) depending on the sensor.
+**Sensors** can be on board of airplanes or on board of satellites,
+measuring the electromagnetic radiation at specific ranges
+(usually called bands). As a result, the measures are quantized and converted
+into a digital image, where each picture elements (i.e. pixel) has a discrete
+value in units of Digital Number (DN) (NASA, 2013). The resulting images have
+different characteristics (resolutions) depending on the sensor.
 There are several kinds of **resolutions**:
 
-* **Spatial resolution**, usually measured in pixel size, "is the resolving power of an instrument needed for the discrimination of features and is based on detector size, focal length, and sensor altitude" (NASA, 2013); spatial resolution is also referred to as geometric resolution or IFOV;
+* **Spatial resolution**, usually measured in pixel size, "is the resolving
+  power of an instrument needed for the discrimination of features and is based
+  on detector size, focal length, and sensor altitude" (NASA, 2013); spatial
+  resolution is also referred to as geometric resolution or IFOV;
 
-* **Spectral resolution**, is the number and location in the electromagnetic spectrum (defined by two wavelengths) of the spectral bands (NASA, 2013) in multispectral sensors, for each band corresponds an image;
+* **Spectral resolution**, is the number and location in the electromagnetic
+  spectrum (defined by two wavelengths) of the spectral bands (NASA, 2013) in
+  multispectral sensors, for each band corresponds an image;
 
-* **Radiometric resolution**, usually measured in bits (binary digits), is the range of available brightness values, which in the image correspond to the maximum range of DNs; for example an image with 8 bit resolution has 256 levels of brightness (Richards and Jia, 2006);
+* **Radiometric resolution**, usually measured in bits (binary digits), is the
+  range of available brightness values, which in the image correspond to the
+  maximum range of DNs; for example an image with 8 bit resolution has 256
+  levels of brightness (Richards and Jia, 2006);
 
-* For satellites sensors, there is also the **temporal resolution**, which is the time required for revisiting the same area of the Earth (NASA, 2013).
+* For satellites sensors, there is also the **temporal resolution**, which is
+  the time required for revisiting the same area of the Earth (NASA, 2013).
 
 
 .. _radiance_reflectance_definition:
@@ -92,52 +136,66 @@ There are several kinds of **resolutions**:
 Radiance and Reflectance
 -------------------------
 
-Sensors measure the **radiance**, which corresponds to the brightness in a given direction toward the sensor; it useful to define also the **reflectance** as the ratio of reflected versus total power energy.
+Sensors measure the **radiance**, which corresponds to the brightness in a
+given direction toward the sensor; it useful to define also the
+**reflectance** as the ratio of reflected versus total power energy.
 
 .. _spectral_signature_definition:
 
 Spectral Signature
 -------------------------
 
-The **spectral signature** is the reflectance as a function of wavelength  (see Figure :ref:`figSR`); each material has a unique signature, therefore it can be used for material classification (NASA, 2013).
+The **spectral signature** is the reflectance as a function of wavelength
+(see Figure :ref:`figSR`); each material has a unique signature, therefore it
+can be used for material classification (NASA, 2013).
 
 .. _figSR:
 
-.. figure:: _static/Spectral_Reflectance_NASA.jpg
-	:align: center
-	
-	:guilabel:`Spectral Reflectance Curves of Four Different Targets`
-	
-	``(from NASA, 2013)``
-	
+.. figure:: _static/remote_sensing/Spectral_Reflectance_NASA.jpg
+    :align: center
+
+    :guilabel:`Spectral Reflectance Curves of Four Different Targets`
+
+    ``(from NASA, 2013)``
+
 
 .. _Land_cover_definition:
 
 Land Cover
 -------------------------
 
-**Land cover** is the material at the ground, such as soil, vegetation, water, asphalt, etc. (Fisher and Unwin, 2005).
-Depending on the sensor resolutions, the number and kind of land cover classes that can be identified in the image can vary significantly.
+**Land cover** is the material at the ground, such as soil, vegetation, water,
+asphalt, etc. (Fisher and Unwin, 2005).
+Depending on the sensor resolutions, the number and kind of land cover classes
+that can be identified in the image can vary significantly.
 
 .. _multispectral_satellites:
  
 Multispectral satellites
 ==========================
 
-There are several satellites with different characteristics that acquire multispectral images of earth surface.
-The following satellites are particularly useful for land cover monitoring because images are provided for free and can be downloaded directly from :guilabel:`SCP`; data have been acquired for the past few decades and the archive is continously growing with recent images.
+There are several satellites with different characteristics that acquire
+multispectral images of earth surface.
+The following satellites are particularly useful for land cover monitoring
+because images are provided for free and can be downloaded directly
+from :guilabel:`SCP`; data have been acquired for the past few decades and the
+archive is continuously growing with recent images.
 
 .. _Landsat_definition:
 
 Landsat Satellites
 -------------------------
 
-**Landsat** is a set of multispectral satellites developed by the NASA (National Aeronautics and Space Administration of USA), since the early 1970’s.
+**Landsat** is a set of multispectral satellites developed by the NASA
+(National Aeronautics and Space Administration of USA), since the early 1970’s.
 
-Landsat images are very used for environmental research. The resolutions of Landsat 4 and Landsat 5 sensors are reported in the following table (from http://landsat.usgs.gov/band_designations_landsat_satellites.php); also, Landsat temporal resolution is 16 days (NASA, 2013).
+Landsat images are very used for environmental research. The resolutions of
+Landsat 4 and Landsat 5 sensors are reported in the following table
+(from http://landsat.usgs.gov/band_designations_landsat_satellites.php); also,
+Landsat temporal resolution is 16 days (NASA, 2013).
 
-	:guilabel:`Landsat 4 and Landsat 5 Bands`
-	
+    :guilabel:`Landsat 4 and Landsat 5 Bands`
+
 +-------------------------------------+--------------------------+------------------------+
 | Landsat 4, Landsat 5 Bands          | Wavelength [micrometers] |  Resolution [meters]   |
 +=====================================+==========================+========================+
@@ -156,10 +214,12 @@ Landsat images are very used for environmental research. The resolutions of Land
 | Band 7 - SWIR                       | 2.08 - 2.35              |  30                    |
 +-------------------------------------+--------------------------+------------------------+
 
-The resolutions of Landsat 7 sensor are reported in the following table (from http://landsat.usgs.gov/band_designations_landsat_satellites.php); also, Landsat temporal resolution is 16 days (NASA, 2013).
+The resolutions of Landsat 7 sensor are reported in the following table
+(from http://landsat.usgs.gov/band_designations_landsat_satellites.php); also,
+Landsat temporal resolution is 16 days (NASA, 2013).
 
-	:guilabel:`Landsat 7 Bands`
-	
+    :guilabel:`Landsat 7 Bands`
+
 +-------------------------------------+--------------------------+------------------------+
 | Landsat 7 Bands                     | Wavelength [micrometers] |  Resolution [meters]   |
 +=====================================+==========================+========================+
@@ -180,10 +240,12 @@ The resolutions of Landsat 7 sensor are reported in the following table (from ht
 | Band 8 - Panchromatic               | 0.52 - 0.90              |  15                    |
 +-------------------------------------+--------------------------+------------------------+
 
-The resolutions of Landsat 8 sensor are reported in the following table (from http://landsat.usgs.gov/band_designations_landsat_satellites.php); also, Landsat temporal resolution is 16 days (NASA, 2013).
+The resolutions of Landsat 8 sensor are reported in the following table
+(from http://landsat.usgs.gov/band_designations_landsat_satellites.php); also,
+Landsat temporal resolution is 16 days (NASA, 2013).
 
-	:guilabel:`Landsat 8 Bands`
-	
+    :guilabel:`Landsat 8 Bands`
+
 +-------------------------------------+--------------------------+------------------------+
 | Landsat 8 Bands                     | Wavelength [micrometers] |  Resolution [meters]   |
 +=====================================+==========================+========================+
@@ -210,20 +272,28 @@ The resolutions of Landsat 8 sensor are reported in the following table (from ht
 | Band 11 - Thermal Infrared (TIRS) 2 | 11.50 - 12.51            |  100 (resampled to 30) |
 +-------------------------------------+--------------------------+------------------------+
 
-A vast archive of images is freely available from the `U.S. Geological Survey <http://www.usgs.gov/>`_ . For more information about how to freely download Landsat images read `this  <https://fromgistors.blogspot.com/2014/11/landsat-images-overview-of-worldwide.html>`_ .
+A vast archive of images is freely available from the
+`U.S. Geological Survey <http://www.usgs.gov/>`_ . For more information about
+how to freely download Landsat images read
+`this  <https://fromgistors.blogspot.com/2014/11/landsat-images-overview-of-worldwide.html>`_ .
 
-Images are identified with the paths and rows of the WRS (`Worldwide Reference System for Landsat <http://landsat.gsfc.nasa.gov/?p=3231>`_ ).
+Images are identified with the paths and rows of the WRS
+(`Worldwide Reference System for Landsat <http://landsat.gsfc.nasa.gov/?p=3231>`_ ).
 
 .. _Sentinel2_definition:
 
 Sentinel-2 Satellite
 -------------------------
 
-**Sentinel-2** is a multispectral satellite developed by the European Space Agency (ESA) in the frame of `Copernicus <http://copernicus.eu/>`_ land monitoring services.
-Sentinel-2 acquires 13 spectral bands with the spatial resolution of 10m, 20m and 60m depending on the band, as illustrated in the following table (ESA, 2015).
+**Sentinel-2** is a multispectral satellite developed by the European Space
+Agency (ESA) in the frame of `Copernicus <http://copernicus.eu/>`_ land
+monitoring services.
+Sentinel-2 acquires 13 spectral bands with the spatial resolution of 10m, 20m
+and 60m depending on the band, as illustrated in the following table
+(ESA, 2015).
 
-	:guilabel:`Sentinel-2 Bands`
-	
+    :guilabel:`Sentinel-2 Bands`
+
 +-------------------------------------+-------------------------------------+------------------------+
 | Sentinel-2 Bands                    | Central Wavelength  [micrometers]   |  Resolution [meters]   |
 +=====================================+=====================================+========================+
@@ -254,19 +324,24 @@ Sentinel-2 acquires 13 spectral bands with the spatial resolution of 10m, 20m an
 | Band 12 - SWIR                      | 2.190                               |  20                    |
 +-------------------------------------+-------------------------------------+------------------------+
 
-Sentinel-2 images are freely available from the ESA website https://scihub.copernicus.eu.
+Sentinel-2 images are freely available from the ESA website
+https://scihub.copernicus.eu.
 
 .. _Sentinel3_definition:
 
 Sentinel-3 Satellite
 -------------------------
 
-**Sentinel-3** is a satellite developed by the European Space Agency (ESA) in the frame of `Copernicus <http://copernicus.eu/>`_ land monitoring services.
-It carries several instruments, in particular the Ocean and Land Colour Instrument (OLCI) is a push-broom imaging spectrometer acquiring 21 bands in the range 0.4-1.02 μm with a swath width of 1,270km and 300m spatial resolution (ESA, 2013).
+**Sentinel-3** is a satellite developed by the European Space Agency (ESA) in
+the frame of `Copernicus <http://copernicus.eu/>`_ land monitoring services.
+It carries several instruments, in particular the Ocean and Land Colour
+Instrument (OLCI) is a push-broom imaging spectrometer acquiring 21 bands in
+the range 0.4-1.02 μm with a swath width of 1,270km and 300m spatial resolution
+(ESA, 2013).
 The revisit time is about 2 days.
 
-	:guilabel:`Sentinel-3 Bands`
-	
+    :guilabel:`Sentinel-3 Bands`
+
 +-------------------------------------+-------------------------------------+
 | Sentinel-3 Bands                    | Central Wavelength  [micrometers]   |
 +=====================================+=====================================+
@@ -318,13 +393,18 @@ The revisit time is about 2 days.
 ASTER Satellite
 -------------------------
 
-The **ASTER** (Advanced Spaceborne Thermal Emission and Reflection Radiometer) satellite was launched in 1999 by a collaboration between the Japanese Ministry of International Trade and Industry (MITI) and the NASA.
-ASTER has 14 bands whose spatial resolution varies with wavelength: 15m in the visible and near-infrared, 30m in the short wave infrared, and 90m in the thermal infrared (USGS, 2015).
-ASTER bands are illustrated in the following table (due to a sensor failure **SWIR data acquired since April 1, 2008 is not available** ).
+The **ASTER** (Advanced Spaceborne Thermal Emission and Reflection Radiometer)
+satellite was launched in 1999 by a collaboration between the Japanese Ministry
+of International Trade and Industry (MITI) and the NASA.
+ASTER has 14 bands whose spatial resolution varies with wavelength: 15m in the
+visible and near-infrared, 30m in the short wave infrared, and 90m in the
+thermal infrared (USGS, 2015).
+ASTER bands are illustrated in the following table (due to a sensor failure
+**SWIR data acquired since April 1, 2008 is not available** ).
 An additional band 3B (backwardlooking near-infrared) provides stereo coverage.
 
-	:guilabel:`ASTER Bands`
-	
+    :guilabel:`ASTER Bands`
+
 +-------------------------------------+--------------------------+------------------------+
 | ASTER Bands                         | Wavelength [micrometers] |  Resolution [meters]   |
 +=====================================+==========================+========================+
@@ -362,15 +442,21 @@ An additional band 3B (backwardlooking near-infrared) provides stereo coverage.
 MODIS Products
 -------------------------
 
-The **MODIS** (Moderate Resolution Imaging Spectroradiometer) is an instrument operating on the Terra and Aqua satellites launched by NASA in 1999 and 2002 respectively.
-Its temporal resolutions allows for viewing the entire Earth surface every one to two days, with a swath width of 2,330km.
-Its sensors measure 36 spectral bands at three spatial resolutions: 250m, 500m, and 1,000m (see https://lpdaac.usgs.gov/dataset_discovery/modis).
+The **MODIS** (Moderate Resolution Imaging Spectroradiometer) is an instrument
+operating on the Terra and Aqua satellites launched by NASA in 1999 and 2002
+respectively.
+Its temporal resolutions allows for viewing the entire Earth surface every one
+to two days, with a swath width of 2,330km.
+Its sensors measure 36 spectral bands at three spatial resolutions: 250m, 500m,
+and 1,000m (see https://lpdaac.usgs.gov/dataset_discovery/modis).
 
-Several products are available, such as surface reflectance and vegetation indices.
-In this manual we are considering the surface reflectance bands available at 250m and 500m spatial resolution (Vermote, Roger, & Ray, 2015).
+Several products are available, such as surface reflectance and vegetation
+indices.
+In this manual we are considering the surface reflectance bands available at
+250m and 500m spatial resolution (Vermote, Roger, & Ray, 2015).
 
-	:guilabel:`MODIS Bands`
-	
+    :guilabel:`MODIS Bands`
+
 +-------------------------------------+--------------------------+------------------------+
 | MODIS Bands                         | Wavelength [micrometers] |  Resolution [meters]   |
 +=====================================+==========================+========================+
@@ -392,41 +478,51 @@ In this manual we are considering the surface reflectance bands available at 250
 The following products (Version 6, see https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table) are available for download (Vermote, Roger, & Ray, 2015):
 
 * MOD09GQ: daily reflectance at 250m spatial resolution from Terra MODIS;
-
 * MYD09GQ: daily reflectance at 250m spatial resolution from Aqua MODIS;
-
 * MOD09GA: daily reflectance at 500m spatial resolution from Terra MODIS;
-
 * MYD09GA: daily reflectance at 500m spatial resolution from Aqua MODIS;
-
-* MOD09Q1: reflectance at 250m spatial resolution, which is a composite of MOD09GQ (each pixel contains the best possible observation during an 8-day period);
-
-* MYD09Q1: reflectance at 250m spatial resolution, which is a composite of MYD09GQ (each pixel contains the best possible observation during an 8-day period);
-
-* MOD09A1: reflectance at 250m spatial resolution, which is a composite of MOD09GA (each pixel contains the best possible observation during an 8-day period);
-
-* MYD09A1: reflectance at 250m spatial resolution, which is a composite of MYD09GA (each pixel contains the best possible observation during an 8-day period);
+* MOD09Q1: reflectance at 250m spatial resolution, which is a composite of
+  MOD09GQ (each pixel contains the best possible observation during an 8-day
+  period);
+* MYD09Q1: reflectance at 250m spatial resolution, which is a composite of
+  MYD09GQ (each pixel contains the best possible observation during an 8-day
+  period);
+* MOD09A1: reflectance at 250m spatial resolution, which is a composite of
+  MOD09GA (each pixel contains the best possible observation during an 8-day
+  period);
+* MYD09A1: reflectance at 250m spatial resolution, which is a composite of
+  MYD09GA (each pixel contains the best possible observation during an 8-day
+  period);
 
 .. _GOES_definition:
 
 GOES Products
 -------------------------
 
-The **Geostationary Operational Environmental Satellite-R Series** (**GOES-R**) are geostationary satellites developed for weather monitoring by the National Oceanic and Atmospheric Administration (NOAA) and the NASA (NOAA, 2020).
+The **Geostationary Operational Environmental Satellite-R Series** (**GOES-R**)
+are geostationary satellites developed for weather monitoring by the National
+Oceanic and Atmospheric Administration (NOAA) and the NASA (NOAA, 2020).
 
-GOES constellation is composed of **GOES-R** satellite (also known as GOES-16 that replaced GOES-13 on December 2017), and **GOES-S** satellite (also known as GOES-17, operational since February 2019).
+GOES constellation is composed of **GOES-R** satellite (also known as GOES-16
+that replaced GOES-13 on December 2017), and **GOES-S** satellite (also known
+as GOES-17, operational since February 2019).
 Other satellites (GOES-T and GOES-U) are planned to be launched in the future.
 For more information please visit https://www.goes-r.gov/mission/mission.html .
 
-GOES geostationary satellites monitor continuously the same area, a very large portion of Earth surface with three geographic  coverage regions: Full Disk, Continental United States (CONUS), and Mesoscale.
-In particular, Full Disk products have hemispheric coverage of 83° local zenith angle, and images are acquired every 5-15 minutes.
-GOES-16 monitors from 75.2 degrees west longitude, including America, the Atlantic Ocean, and the west coast of Africa.
-GOES-17 monitors from 137.2 degrees west longitude, including the Pacific Ocean.
+GOES geostationary satellites monitor continuously the same area, a very large
+portion of Earth surface with three geographic  coverage regions: Full Disk,
+Continental United States (CONUS), and Mesoscale.
+In particular, Full Disk products have hemispheric coverage of 83°
+local zenith angle, and images are acquired every 5-15 minutes.
+GOES-16 monitors from 75.2 degrees west longitude, including America,
+the Atlantic Ocean, and the west coast of Africa.
+GOES-17 monitors from 137.2 degrees west longitude, including the Pacific
+Ocean.
 
-GOES sensors include several spectral bands; the following table describes the bands downloaded using :guilabel:`SCP`.
+GOES sensors include several spectral bands.
 
-	:guilabel:`GOES Bands`
-	
+    :guilabel:`GOES Bands`
+
 +-------------------------------------+------------------------------------+------------------------+
 | GOES Bands                          | Central Wavelength  [micrometers]  |  Resolution [meters]   |
 +=====================================+====================================+========================+
@@ -449,15 +545,23 @@ GOES sensors include several spectral bands; the following table describes the b
 SAR satellites
 ==========================
 
-**Synthetic Aperture Radar** (SAR) is a technique of active remote sensing that is the sensor platform emits microwaves in order to acquire images of the ground (Richards and Jia, 2006).
-In fact, the sensor platform emits the radiation (at a specific wavelength) and measures the magnitude and the phase of radiation that bounces back from the ground to the sensor.
+**Synthetic Aperture Radar** (SAR) is a technique of active remote sensing
+that is the sensor platform emits microwaves in order to acquire images of
+the ground (Richards and Jia, 2006).
+In fact, the sensor platform emits the radiation (at a specific wavelength)
+and measures the magnitude and the phase of radiation that bounces back from
+the ground to the sensor.
 
-Unlike passive sensors, SAR systems can work day and night and can penetrate clouds allowing for the monitoring of surface also with adverse meteorological conditions; depending on the microwave wavelength, the radiation can penetrate different types of materials allowing for different applications (NASA, 2020).
+Unlike passive sensors, SAR systems can work day and night and can penetrate
+clouds allowing for the monitoring of surface also with adverse meteorological
+conditions; depending on the microwave wavelength, the radiation can penetrate
+different types of materials allowing for different applications (NASA, 2020).
 
-The main SAR systems can be divided according to the wavelength as illustrated in the following table (NASA, 2020):
+The main SAR systems can be divided according to the wavelength as illustrated
+in the following table (NASA, 2020):
 
-	:guilabel:`Main SAR Bands`
-	
+    :guilabel:`Main SAR Bands`
+
 +-------------------------------------+--------------------------+----------------------------------------------------------------------------------------------------------------+
 | Band                                | Wavelength [centimeters] |  Application                                                                                                   |
 +=====================================+==========================+================================================================================================================+
@@ -471,92 +575,90 @@ The main SAR systems can be divided according to the wavelength as illustrated i
 +-------------------------------------+--------------------------+----------------------------------------------------------------------------------------------------------------+
 
 
-Usually, SAR sensors can emit and measure different polarizations (i.e. orientation of the microwaves of the electric field), for instance vertical (i.e. polarization oriented in the vertical direction in antenna coordinates) and horizontal (i.e. polarization oriented in the horizontal direction in antenna coordinates) (ESA, 2020).
+Usually, SAR sensors can emit and measure different polarizations
+(i.e. orientation of the microwaves of the electric field), for
+instance vertical (i.e. polarization oriented in the vertical direction
+in antenna coordinates) and horizontal (i.e. polarization oriented in the
+horizontal direction in antenna coordinates) (ESA, 2020).
 
-SAR systems can acquire in both ascending and descending orbits, however the acquired images are affected by the different acquisition geometries, which should be considered when mixing ascending and descending images.
+SAR systems can acquire in both ascending and descending orbits,
+however the acquired images are affected by the different acquisition
+geometries, which should be considered when mixing ascending and
+descending images.
 
 Acquisitions are called ``swaths`` and usually they are composed of sub-swaths.
-With particular acquisition modes, the resolution of pixels along track (the side parallel to the flight direction) can be different than slant-range (the side perpendicular to the flight direction).
+With particular acquisition modes, the resolution of pixels along track
+(the side parallel to the flight direction) can be different than slant-range
+(the side perpendicular to the flight direction).
 
-SAR phase information is used to perform interferometry (also InSAR) to measure the distance from the sensor to the target (NASA, 2020). 
+SAR phase information is used to perform interferometry (also InSAR) to
+measure the distance from the sensor to the target (NASA, 2020).
 
-For more information, please read the `ESA introduction to SAR <https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Onboard_Data_Processing/Introduction_to_a_SAR_System>`_ and the `NASA definition of SAR <https://earthdata.nasa.gov/learn/what-is-sar>`_ .
+For more information, please read the
+`ESA introduction to SAR <https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Onboard_Data_Processing/Introduction_to_a_SAR_System>`_ and the `NASA definition of SAR <https://earthdata.nasa.gov/learn/what-is-sar>`_ .
 
 .. _Sentinel1_definition:
 
 Sentinel-1 Satellites
 -------------------------
 
-**Sentinel-1** is a `Copernicus mission <https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar>`_ of satellites that operate at C-band to provide SAR imagery at medium resolution (about 10m).
+**Sentinel-1** is a
+`Copernicus mission <https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar>`_
+of satellites that operate at C-band to provide SAR imagery at medium
+resolution (about 10m).
 
-The Sentinel-1 constellation provides high revisit time (about 5 days), a wide swath (250 km), and acquires images in different operational modes.
-The primary operation mode on land is the Interferometric Wide swath (IW), which is data is acquired in three swaths using the Terrain Observation with Progressive Scanning SAR (TOPSAR) imaging technique (ESA, 2020b).
+The Sentinel-1 constellation provides high revisit time (about 5 days),
+a wide swath (250 km), and acquires images in different operational modes.
+The primary operation mode on land is the Interferometric Wide swath (IW),
+which is data is acquired in three swaths using the Terrain Observation with
+Progressive Scanning SAR (TOPSAR) imaging technique (ESA, 2020b).
 
-The Level-1 products systematically delivered by Copernicus are Single Look Complex (SLC, data comprising complex imagery with amplitude and phase) and **Ground Range Detected** (GRD, Level-1 data with multi-looked intensity only).
+The Level-1 products systematically delivered by Copernicus are Single Look
+Complex (SLC, data comprising complex imagery with amplitude and phase) and
+**Ground Range Detected** (GRD, Level-1 data with multi-looked intensity only).
 
-Sentinel-1 supports dual polarization, which are horizontal (H) or vertical (V); VV and VH polarimetric channels are available to classify and analyze land cover such as built-up areas or vegetation.
-
-.. _sentinel1_preprocessing_method:
-
-Sentinel-1 preprocessing
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-:guilabel:`SCP` preprocesses Sentinel-1 GRD images performing basically the same methodology applied for the images included in `Google Earth Engine <https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD>`_ .
-
-The preprocessing comprises the following phases:
-
-* Application of the orbit file;
-
-* Removal of GRD border noise for low intensity and invalid data;
-
-* Removal of thermal noise to reduce discontinuities between sub-swaths;
-
-* Calculation of backscatter intensity using radiometric calibration;
-
-* Orthorectification (terrain correction) using the SRTM 30 meter DEM;
-
-* Conversion of backscatter coefficient to dB.
-
-
-These processes are performed through the SNAP Graph Processing Tool (GPT) and a graph file .xml .
-Therefore, SCP requires ESA SNAP to perform the preprocessing.
-For the installation of ESA SNAP, please visit this page http://step.esa.int/main/download/snap-download/ .
-
-The path to the SNAP gpt executable must be entered in settings :ref:`settings_processing_tab`.
-Usually ``C:/snap/bin/gpt.exe`` for Windows, ``/Applications/snap/bin/gpt`` for Mac, and ``/usr/local/snap/bin/gpt`` for Linux.
-
-It is also possible to use custom graph files and select to project the raster to the same coordinate reference system as a band set (default WGS 84).
+Sentinel-1 supports dual polarization, which are horizontal (H) or vertical
+(V); VV and VH polarimetric channels are available to classify and analyze
+land cover such as built-up areas or vegetation.
 
 
 .. _land_cover_classification_definition:
  
 Land Cover Classification
 =====================================
-	
+
 This chapter provides basic definitions about land cover classifications.
-	
+
 .. _supervised_classification_definition:
 
 Supervised Classification
 -------------------------
 
-A **semi-automatic classification** (also supervised classification) is an image processing technique that allows for the identification of materials in an image, according to their spectral signatures. There are several kinds of classification algorithms, but the general purpose is to produce a thematic map of the land cover.
+A **semi-automatic classification** (also supervised classification) is an
+image processing technique that allows for the identification of materials in
+an image, according to their spectral signatures. There are several kinds of
+classification algorithms, but the general purpose is to produce a thematic map
+of the land cover.
 
-Image processing and GIS spatial analyses require specific software such as the Semi-Automatic Classification Plugin for QGIS.
+Image processing and GIS spatial analyses require specific software such as
+the Semi-Automatic Classification Plugin for QGIS.
 
-.. figure:: _static/multispectral_classification.jpg
-	:align: center
-	
-	:guilabel:`A multispectral image processed to produce a land cover classification`
-	
-	``(Landsat image provided by USGS)``
-	
+.. figure:: _static/remote_sensing/multispectral_classification.jpg
+    :align: center
+
+    :guilabel:`A multispectral image processed to produce a land cover classification`
+
+    ``(Landsat image provided by USGS)``
+
 .. _color_composite_definition:
 
 Color Composite
 -------------------------
 
-Often, a combination is created of three individual monochrome images, in which each is assigned a given color; this is defined **color composite** and is useful for photo interpretation (NASA, 2013). Color composites are usually expressed as:
+Often, a combination is created of three individual monochrome images, in
+which each is assigned a given color; this is defined **color composite** and
+is useful for photo interpretation (NASA, 2013). Color composites are usually
+expressed as:
 
 *"R G B = Br Bg Bb"*
 
@@ -574,44 +676,68 @@ where:
 
 * Bb is the band number associated to the Blue color.
 
-The following Figure :ref:`figCC` shows a color composite "R G B = 4 3 2" of a Landsat 8 image (for Landsat 7 the same color composite is R G B = 3 2 1; for Sentinel-2 is R G B = 4 3 2) and a color composite "R G B = 5 4 3" (for Landsat 7 the same color composite is R G B = 4 3 2; for Sentinel-2 is R G B = 8 4 3). The composite "R G B = 5 4 3" is useful for the interpretation of the image because vegetation pixels appear red (healthy vegetation reflects a large part of the incident light in the near-infrared wavelength, resulting in higher reflectance values for band 5, thus higher values for the associated color red).
+The following Figure :ref:`figCC` shows a color composite "R G B = 4 3 2" of a
+Landsat 8 image (for Landsat 7 the same color composite is R G B = 3 2 1;
+for Sentinel-2 is R G B = 4 3 2) and a color composite "R G B = 5 4 3"
+(for Landsat 7 the same color composite is R G B = 4 3 2; for Sentinel-2 is
+R G B = 8 4 3).
+The composite "R G B = 5 4 3" is useful for the interpretation of the image
+because vegetation pixels appear red (healthy vegetation reflects a large part
+of the incident light in the near-infrared wavelength, resulting in higher
+reflectance values for band 5, thus higher values for the associated color
+red).
 
 .. _figCC:
 
-.. figure:: _static/color_composite.jpg
-	:align: center
-	
-	:guilabel:`Color composite of a Landsat 8 image`
-	
-	``Data available from the U.S. Geological Survey``
+.. figure:: _static/remote_sensing/color_composite.jpg
+    :align: center
+
+    :guilabel:`Color composite of a Landsat 8 image`
+
+    ``Data available from the U.S. Geological Survey``
 
 .. _ROI_definition:
 
 Training Areas
 -------------------------
 
-Usually, supervised classifications require the user to select one or more Regions of Interest (ROIs, also Training Areas) for each land cover class identified in the image.
-**ROIs** are polygons drawn over homogeneous areas of the image that overlay pixels belonging to the same land cover class.
-	
+Usually, supervised classifications require the user to select one or more
+Regions of Interest (ROIs, also Training Areas) for each land cover class
+identified in the image.
+**ROIs** are polygons drawn over homogeneous areas of the image that overlay
+pixels belonging to the same land cover class.
+
 .. _region_growing_algorithm:
 
 Region Growing Algorithm
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Region Growing Algorithm allows to select pixels similar to a seed one, considering the **spectral similarity** (i.e. spectral distance) of adjacent pixels.
-In :guilabel:`SCP` the Region Growing Algorithm is available for the training area creation. 
-The parameter **distance** is related to the similarity of pixel values (the lower the value, the more similar are selected pixels) to the seed one (i.e. selected clicking on a pixel).
-An additional parameter is the **maximum width**, which is the side length of a square, centred at the seed pixel, which inscribes the training area (if all the pixels had the same value, the training area would be this square).
-The **minimum size** is used a constraint (for every single band), selecting at least the pixels that are more similar to the seed one until the number of selected pixels equals the minimum size.
+The Region Growing Algorithm allows to select pixels similar to a seed one,
+considering the **spectral similarity** (i.e. spectral distance) of adjacent
+pixels.
+In :guilabel:`SCP` the Region Growing Algorithm is available for the training
+area creation.
+The parameter **distance** is related to the similarity of pixel values (the
+lower the value, the more similar are selected pixels) to the seed one (i.e.
+selected clicking on a pixel).
+An additional parameter is the **maximum width**, which is the side length of
+a square, centred at the seed pixel, which inscribes the training area (if all
+the pixels had the same value, the training area would be this square).
+The **minimum size** is used a constraint (for every single band), selecting
+at least the pixels that are more similar to the seed one until the number of
+selected pixels equals the minimum size.
 
-In figure :ref:`figRegionGrowing_example` the central pixel is used as seed (image a) for the region growing of one band (image b) with the parameter spectral distance = 0.1; similar pixels are selected to create the training area (image c and image d).
+In figure :ref:`figRegionGrowing_example` the central pixel is used as seed
+(image a) for the region growing of one band (image b) with the parameter
+spectral distance = 0.1; similar pixels are selected to create the training
+area (image c and image d).
 
 .. _figRegionGrowing_example:
 
-.. figure:: _static/region_growing.jpg
-	:align: center
-	
-	:guilabel:`Region growing example`
+.. figure:: _static/remote_sensing/region_growing.jpg
+    :align: center
+
+    :guilabel:`Region growing example`
 
 .. _classes_definition:
 
@@ -619,13 +745,21 @@ Classes and Macroclasses
 -------------------------
 
 Land cover classes are identified with an arbitrary ID code (i.e. Identifier).
-:guilabel:`SCP` allows for the definition of **Macroclass ID** (i.e. MC ID) and **Class ID** (i.e. C ID), which are the identification codes of land cover classes.
-A **Macroclass** is a group of ROIs having different Class ID, which is useful when one needs to classify materials that have different spectral signatures in the same land cover class.
-For instance, one can identify grass (e.g. ``ID class = 1`` and ``Macroclass ID = 1`` ) and trees (e.g. ``ID class = 2`` and ``Macroclass ID = 1`` ) as vegetation class (e.g. ``Macroclass ID = 1`` ).
-Multiple Class IDs can be assigned to the same Macroclass ID, but the same Class ID cannot be assigned to multiple Macroclass IDs, as shown in the following table.
+:guilabel:`SCP` allows for the definition of **Macroclass ID** (i.e. MC ID)
+and **Class ID** (i.e. C ID), which are the identification codes of land cover
+classes.
+A **Macroclass** is a group of ROIs having different Class ID, which is useful
+when one needs to classify materials that have different spectral signatures
+in the same land cover class.
+For instance, one can identify grass (e.g. ``ID class = 1``
+and ``Macroclass ID = 1`` ) and trees (e.g. ``ID class = 2`` and
+``Macroclass ID = 1`` ) as vegetation class (e.g. ``Macroclass ID = 1`` ).
+Multiple Class IDs can be assigned to the same Macroclass ID, but the same
+Class ID cannot be assigned to multiple Macroclass IDs, as shown in the
+following table.
 
-	:guilabel:`Example of Macroclasses`
-	
+    :guilabel:`Example of Macroclasses`
+
 +-----------------------------+--------------------------+------------------------+------------------------+
 | Macroclass name             | Macroclass ID            |  Class name            |  Class ID              |
 +=============================+==========================+========================+========================+
@@ -638,24 +772,31 @@ Multiple Class IDs can be assigned to the same Macroclass ID, but the same Class
 | Built-up                    |  2                       |  Roads                 |  4                     |
 +-----------------------------+--------------------------+------------------------+------------------------+
 
-Therefore, Classes are subsets of a Macroclass as illustrated in Figure :ref:`figMC_example`.
+Therefore, Classes are subsets of a Macroclass as illustrated in Figure
+:ref:`figMC_example`.
 
 .. _figMC_example:
 
-.. figure:: _static/macroclass_example.jpg
-	:align: center
-	
-	:guilabel:`Macroclass example`
-	
-If the use of Macroclass is not required for the study purpose, then the same Macroclass ID can be defined for all the ROIs (e.g. Macroclass ID = 1) and Macroclass values are ignored in the classification process.
-	
+.. figure:: _static/remote_sensing/macroclass_example.jpg
+    :align: center
+
+    :guilabel:`Macroclass example`
+
+If the use of Macroclass is not required for the study purpose, then the same
+Macroclass ID can be defined for all the ROIs (e.g. Macroclass ID = 1) and
+Macroclass values are ignored in the classification process.
+
 .. _classification_algorithm_definition:
 
 Classification Algorithms
 ----------------------------
 
-The **spectral signatures** (spectral characteristics) of reference land cover classes are calculated considering the values of pixels under each ROI having the same Class ID (or Macroclass ID).
-Therefore, the classification algorithm classifies the whole image by comparing the spectral characteristics of each pixel to the spectral characteristics of reference land cover classes.
+The **spectral signatures** (spectral characteristics) of reference land cover
+classes are calculated considering the values of pixels under each ROI having
+the same Class ID (or Macroclass ID).
+Therefore, the classification algorithm classifies the whole image by comparing
+the spectral characteristics of each pixel to the spectral characteristics of
+reference land cover classes.
 :guilabel:`SCP` implements the following classification algorithms.
  
 .. _minimum_distance_algorithm:
@@ -663,50 +804,60 @@ Therefore, the classification algorithm classifies the whole image by comparing 
 Minimum Distance
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Minimum Distance algorithm calculates the Euclidean distance :math:`d(x, y)` between spectral signatures of image pixels and training spectral signatures, according to the following equation:
+Minimum Distance algorithm calculates the Euclidean distance :math:`d(x, y)`
+between spectral signatures of image pixels and training spectral signatures,
+according to the following equation:
 
 .. math::
-	d(x, y) = \sqrt{ \sum_{i=1}^{n} (x_i - y_i)^2}
-	
+    d(x, y) = \sqrt{ \sum_{i=1}^{n} (x_i - y_i)^2}
+
 where:
 
 * :math:`x` = spectral signature vector of an image pixel;
 * :math:`y` = spectral signature vector of a training area;
 * :math:`n` = number of image bands.
-	
-Therefore, the distance is calculated for every pixel in the image, assigning the class of the spectral signature that is closer, according to the following discriminant function (adapted from Richards and Jia, 2006):
+
+Therefore, the distance is calculated for every pixel in the image, assigning
+the class of the spectral signature that is closer, according to the following
+discriminant function (adapted from Richards and Jia, 2006):
 
 .. math::
-	x \in C_k \iff d(x, y_k) < d(x, y_j) \forall k \neq j
-	
+    x \in C_k \iff d(x, y_k) < d(x, y_j) \forall k \neq j
+
 where:
 
 * :math:`C_k` = land cover class :math:`k`;
 * :math:`y_k` = spectral signature of class :math:`k`;
 * :math:`y_j` = spectral signature of class :math:`j`.
 
-It is possible to define a threshold :math:`T_i` in order to exclude pixels below this value from the classification:
+It is possible to define a threshold :math:`T_i` in order to exclude pixels
+below this value from the classification:
 
 .. math::
-	x \in C_k \iff d(x, y_k) < d(x, y_j) \forall k \neq j
-	
-	and
+    x \in C_k \iff d(x, y_k) < d(x, y_j) \forall k \neq j
 
-	d(x, y_k) < T_i
+    and
+
+    d(x, y_k) < T_i
 
 .. _max_likelihood_algorithm:
 
 Maximum Likelihood
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Maximum Likelihood algorithm calculates the probability distributions for the classes, related to Bayes’ theorem, estimating if a pixel belongs to a  land cover class.
-In particular, the probability distributions for the classes are assumed the of form of multivariate normal models (Richards & Jia, 2006).
-In order to use this algorithm, a sufficient number of pixels is required for each training area allowing for the calculation of the covariance matrix.
-The discriminant function, described by Richards and Jia (2006), is calculated for every pixel as:
+Maximum Likelihood algorithm calculates the probability distributions for the
+classes, related to Bayes’ theorem, estimating if a pixel belongs to a land
+cover class.
+In particular, the probability distributions for the classes are assumed the
+of form of multivariate normal models (Richards & Jia, 2006).
+In order to use this algorithm, a sufficient number of pixels is required for
+each training area allowing for the calculation of the covariance matrix.
+The discriminant function, described by Richards and Jia (2006), is calculated
+for every pixel as:
 
 .. math::
-	g_k(x) = \ln p(C_k) - \frac{1}{2} \ln | \Sigma_{k} | - \frac{1}{2} (x - y_k)^t \Sigma_{k}^{-1} (x - y_k) 
-	
+    g_k(x) = \ln p(C_k) - \frac{1}{2} \ln | \Sigma_{k} | - \frac{1}{2} (x - y_k)^t \Sigma_{k}^{-1} (x - y_k)
+
 where:
 
 * :math:`C_k` = land cover class :math:`k`;
@@ -719,37 +870,41 @@ where:
 Therefore:
 
 .. math::
-	x \in C_k \iff g_k(x) > g_j(x) \forall k \neq j
+    x \in C_k \iff g_k(x) > g_j(x) \forall k \neq j
 
 .. _figML_example:
 
-.. figure:: _static/maximum_likelihood.jpg
-	:align: center
-	
-	:guilabel:`Maximum Likelihood example`
-	
-In addition, it is possible to define a threshold to the discriminant function in order to exclude pixels below this value from the classification.
+.. figure:: _static/remote_sensing/maximum_likelihood.jpg
+    :align: center
+
+    :guilabel:`Maximum Likelihood example`
+
+In addition, it is possible to define a threshold to the discriminant
+function in order to exclude pixels below this value from the classification.
 Considering a threshold :math:`T_i` the classification condition becomes:
 
 .. math::
-	x \in C_k \iff g_k(x) > g_j(x) \forall k \neq j
-	
-	and
+    x \in C_k \iff g_k(x) > g_j(x) \forall k \neq j
 
-	g_k(x) > T_i
+    and
 
-Maximum likelihood is one of the most common supervised classifications, however the classification process can be slower than :ref:`minimum_distance_algorithm`.	
+    g_k(x) > T_i
+
+Maximum likelihood is one of the most common supervised classifications,
+however the classification process can be slower than
+:ref:`minimum_distance_algorithm`.
 
 .. _spectra_angle_mapping_algorithm:
 
 Spectral Angle Mapping
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Spectral Angle Mapping calculates the spectral angle between spectral signatures of image pixels and training spectral signatures.
+The Spectral Angle Mapping calculates the spectral angle between spectral
+signatures of image pixels and training spectral signatures.
 The spectral angle :math:`\theta` is defined as (Kruse et al., 1993):
 
 .. math::
-	\theta(x, y) = \cos^{-1} \left( \frac{ \sum_{i=1}^{n} x_i y_i } { \left( \sum_{i=1}^{n} x_i^2 \right)^\frac{1}{2} * \left( \sum_{i=1}^{n} y_i^2 \right)^\frac{1}{2} } \right)
+    \theta(x, y) = \cos^{-1} \left( \frac{ \sum_{i=1}^{n} x_i y_i } { \left( \sum_{i=1}^{n} x_i^2 \right)^\frac{1}{2} * \left( \sum_{i=1}^{n} y_i^2 \right)^\frac{1}{2} } \right)
 
 Where:
 
@@ -760,8 +915,8 @@ Where:
 Therefore a pixel belongs to the class having the lowest angle, that is:
 
 .. math::
-	x \in C_k \iff \theta(x, y_k) < \theta(x, y_j) \forall k \neq j
-	
+    x \in C_k \iff \theta(x, y_k) < \theta(x, y_j) \forall k \neq j
+
 where:
 
 * :math:`C_k` = land cover class :math:`k`;
@@ -770,20 +925,21 @@ where:
 
 .. _figSAM_example:
 
-.. figure:: _static/spectral_angle_mapping.jpg
-	:align: center
-	
-	:guilabel:`Spectral Angle Mapping example`
-	
-In order to exclude pixels below this value from the classification it is possible to define a threshold :math:`T_i`:
+.. figure:: _static/remote_sensing/spectral_angle_mapping.jpg
+    :align: center
+
+    :guilabel:`Spectral Angle Mapping example`
+
+In order to exclude pixels below this value from the classification it is
+possible to define a threshold :math:`T_i`:
 
 .. math::
-	x \in C_k \iff \theta(x, y_k) < \theta(x, y_j) \forall k \neq j
-	
-	and
+    x \in C_k \iff \theta(x, y_k) < \theta(x, y_j) \forall k \neq j
 
-	\theta(x, y_k) < T_i
-	
+    and
+
+    \theta(x, y_k) < T_i
+
 Spectral Angle Mapping is largely used, especially with hyperspectral data.
 
 .. _parallelepiped_classiﬁcation:
@@ -791,84 +947,144 @@ Spectral Angle Mapping is largely used, especially with hyperspectral data.
 Parallelepiped Classification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Parallelepiped classification is an algorithm that considers a range of values for each band, forming a multidimensional parallelepiped that defines a land cover class.
+Parallelepiped classification is an algorithm that considers a range of values
+for each band, forming a multidimensional parallelepiped that defines a land
+cover class.
 A pixel is classified if the values thereof are inside a parallelepiped.
-One of the major drawbacks is that pixels whose signatures lie in the overlapping area of two or more parallelepipeds cannot be classified (Richards and Jia, 2006).
-	
+One of the major drawbacks is that pixels whose signatures lie in the
+overlapping area of two or more parallelepipeds cannot be classified
+(Richards and Jia, 2006).
+
 .. _LCS_algorithm:
 
 Land Cover Signature Classification 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:guilabel:`Land Cover Signature Classification` is available in :guilabel:`SCP` (see :ref:`LCS_classification`).
-This classification allows for the definition of spectral thresholds for each training input signature (a minimum value and a maximum value for each band).
-The thresholds of each training input signature define a spectral region belonging to a certain land cover class.
+This classification allows for the definition of spectral thresholds for each
+training input signature (a minimum value and a maximum value for each band).
+The thresholds of each training input signature define a spectral region
+belonging to a certain land cover class.
 
-Spectral signatures of image pixels are compared to the training spectral signatures; a pixel belongs to ``class X`` if pixel spectral signature is completely contained in the spectral region defined by ``class X``.
-In case of pixels falling inside overlapping regions or outside any spectral region, it is possible to use additional classification algorithms (i.e. :ref:`minimum_distance_algorithm`, :ref:`max_likelihood_algorithm`, :ref:`spectra_angle_mapping_algorithm`) considering the spectral characteristics of the original input signature.
+Spectral signatures of image pixels are compared to the training spectral
+signatures; a pixel belongs to ``class X`` if pixel spectral signature is
+completely contained in the spectral region defined by ``class X``.
+In case of pixels falling inside overlapping regions or outside any spectral
+region, it is possible to use additional classification algorithms
+(i.e. :ref:`minimum_distance_algorithm`, :ref:`max_likelihood_algorithm`,
+:ref:`spectra_angle_mapping_algorithm`) considering the spectral
+characteristics of the original input signature.
 
-In the following image, a scheme illustrates the :guilabel:`Land Cover Signature Classification` for a simple case of two spectral bands :math:`x` and :math:`y`.
-User defined spectral regions define three classes (:math:`g_a`, :math:`g_b`, and :math:`g_c`).
-Point :math:`p_1` belongs to class :math:`g_a` and point :math:`p_2` belongs to class :math:`g_b`.
-However, point :math:`p_3` is inside the spectral regions of both classes :math:`g_b` and :math:`g_c` (overlapping regions); in this case, point :math:`p_3` will be unclassified or classified according to an additional classification algorithm.
-Point :math:`p_4` is outside any spectral region, therefore it will be unclassified or classified according to an additional classification algorithm.
-Given that point :math:`p_4` belongs to class :math:`g_c`, the spectral region thereof could be extended to include point :math:`p_4` .
+In the following image, a scheme illustrates the
+:guilabel:`Land Cover Signature Classification` for a simple case of two
+spectral bands :math:`x` and :math:`y`.
+User defined spectral regions define three classes
+(:math:`g_a`, :math:`g_b`, and :math:`g_c`).
+Point :math:`p_1` belongs to class :math:`g_a` and point :math:`p_2` belongs
+to class :math:`g_b`.
+However, point :math:`p_3` is inside the spectral regions of both classes
+:math:`g_b` and :math:`g_c` (overlapping regions); in this case, point
+:math:`p_3` will be unclassified or classified according to an additional
+classification algorithm.
+Point :math:`p_4` is outside any spectral region, therefore it will be
+unclassified or classified according to an additional classification algorithm.
+Given that point :math:`p_4` belongs to class :math:`g_c`, the spectral
+region thereof could be extended to include point :math:`p_4` .
 
 .. _figLCS:
 
-.. figure:: _static/land_cover_signature_classification.jpg
-	:align: center
-	
-	:guilabel:`Land cover signature classification`
-	
-This is similar to :ref:`parallelepiped_classiﬁcation`, with the exception that spectral regions are defined by user, and can be assigned independently for the upper and lower bounds.
-One can imagine spectral regions as the set of all the spectral signatures of pixels belonging to one class.
+.. figure:: _static/remote_sensing/land_cover_signature_classification.jpg
+    :align: center
 
-In figure :ref:`figLCS_plot` the spectral ranges of three classes (:math:`g_a`, :math:`g_b`, and :math:`g_c`) are displayed; the colored lines inside the ranges (i.e. semi-transparent area) represent the spectral signatures of pixels that defined the upper and lower bounds of the respective ranges.
-Pixel :math:`p_1` (dotted line) belongs to class :math:`g_b` because the spectral signature thereof is completely inside the range of class :math:`g_b` (in the upper limit); pixel :math:`p_2` (dashed line) is unclassified because the spectral signature does not fall completely inside any range; pixel :math:`p_3` (dotted line) belongs to class :math:`g_a`.
+    :guilabel:`Land cover signature classification`
+
+This is similar to :ref:`parallelepiped_classiﬁcation`, with the exception
+that spectral regions are defined by user, and can be assigned independently
+for the upper and lower bounds.
+One can imagine spectral regions as the set of all the spectral signatures
+of pixels belonging to one class.
+
+In figure :ref:`figLCS_plot` the spectral ranges of three classes
+(:math:`g_a`, :math:`g_b`, and :math:`g_c`) are displayed; the colored lines
+inside the ranges (i.e. semi-transparent area) represent the spectral
+signatures of pixels that defined the upper and lower bounds of the respective
+ranges.
+Pixel :math:`p_1` (dotted line) belongs to class :math:`g_b` because the
+spectral signature thereof is completely inside the range of class :math:`g_b`
+(in the upper limit); pixel :math:`p_2` (dashed line) is unclassified because
+the spectral signature does not fall completely inside any range; pixel
+:math:`p_3` (dotted line) belongs to class :math:`g_a`.
 
 .. _figLCS_plot:
 
-.. figure:: _static/land_cover_signature_classification_plot.jpg
-	:align: center
-	
-	:guilabel:`Plot of spectral ranges`
-	
-It is worth noticing that these spectral thresholds can be applied to any spectral signature, regardless of spectral characteristics thereof; this function can be very useful for separating similar spectral signatures that differ only in one band, defining thresholds that include or exclude specific signatures.
-In fact, classes are  correctly separated if the spectral ranges thereof are not overlapping at least in one band.
-Of course, even if spectral regions are overlapping, chances are that no pixel will fall inside the overlapping region and be misclassified; which is the upper (or lower) bound of a range do not imply the existence, in the image, of any spectral signature having the maximum (or minimum) range values for all the bands (for instance pixel :math:`p_1` of figure :ref:`figLCS_plot` could not exist).
+.. figure:: _static/remote_sensing/land_cover_signature_classification_plot.jpg
+    :align: center
 
-One of the main benefit of the :guilabel:`Land Cover Signature Classification` is that it is possible to select pixels and and include the signature thereof in a spectral range; therefore, the classification should be the direct representation of the class expected for every spectral signature.
-This is very suitable for the classification of a single land cover class (defined by specific spectral thresholds), and leave unclassified the rest of the image that is of no interest for the purpose of the classification.
+    :guilabel:`Plot of spectral ranges`
+
+It is worth noticing that these spectral thresholds can be applied to any
+spectral signature, regardless of spectral characteristics thereof; this
+function can be very useful for separating similar spectral signatures that
+differ only in one band, defining thresholds that include or exclude specific
+signatures.
+In fact, classes are  correctly separated if the spectral ranges thereof are
+not overlapping at least in one band.
+Of course, even if spectral regions are overlapping, chances are that no pixel
+will fall inside the overlapping region and be misclassified; which is the
+upper (or lower) bound of a range do not imply the existence, in the image, of
+any spectral signature having the maximum (or minimum) range values for all
+the bands (for instance pixel :math:`p_1` of figure
+:ref:`figLCS_plot` could not exist).
+
+One of the main benefit of the :guilabel:`Land Cover Signature Classification`
+is that it is possible to select pixels and and include the signature thereof
+in a spectral range; therefore, the classification should be the direct
+representation of the class expected for every spectral signature.
+This is very suitable for the classification of a single land cover class
+(defined by specific spectral thresholds), and leave unclassified the rest of
+the image that is of no interest for the purpose of the classification.
 
 .. _algorithm_raster:
 
 Algorithm raster 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-An algorithm raster represents the "distance" (according to the definition of the classification algorithm) of an image pixel to a specific spectral signature.
+An algorithm raster represents the "distance" (according to the definition of
+the classification algorithm) of an image pixel to a specific spectral
+signature.
 
-In general, an algorithm raster is produced for every spectral signature used as training input.
-The value of every pixel is the result of the algorithm calculation for a specific spectral signature.
-Therefore, a pixel belongs to ``class X`` if the value of the algorithm raster corresponding to ``class X`` is the lowest in case of :ref:`minimum_distance_algorithm` or :ref:`spectra_angle_mapping_algorithm` (or highest in case of :ref:`max_likelihood_algorithm`).
+In general, an algorithm raster is produced for every spectral signature
+used as training input.
+The value of every pixel is the result of the algorithm calculation for a
+specific spectral signature.
+Therefore, a pixel belongs to ``class X`` if the value of the algorithm raster
+corresponding to ``class X`` is the lowest in case of
+:ref:`minimum_distance_algorithm` or :ref:`spectra_angle_mapping_algorithm`
+(or highest in case of :ref:`max_likelihood_algorithm`).
 
-Given a classification, a combination of algorithm rasters can be produced, in order to create a raster with the lowest "distances" (i.e. pixels have the value of the algorithm raster corresponding to the class they belong in the classification).
-Therefore, this raster can be useful to identify pixels that require the collection of more similar spectral signatures (see :ref:`classification_preview`).
+Given a classification, a combination of algorithm rasters can be produced,
+in order to create a raster with the lowest "distances" (i.e. pixels have the
+value of the algorithm raster corresponding to the class they belong in the
+classification).
+Therefore, this raster can be useful to identify pixels that require the
+collection of more similar spectral signatures
+(see :ref:`classification_preview`).
  
 .. _machine_learning_definition:
 
 Machine Learning
 -----------------------------------
 
-`Machine Learning <https://en.wikipedia.org/wiki/Machine_learning>`_ is a broad set of classification techniques that aim to build mathematical models based on training data.
+`Machine Learning <https://en.wikipedia.org/wiki/Machine_learning>`_ is a
+broad set of classification techniques that aim to build mathematical models
+based on training data.
  
 In general, Machine Learning algorithms split the data in (ESA, 2019):
 
 * Training Dataset: the sample data used to fit the model;
-
-* Validation Dataset: the sample data used to tune the model parameters to fit on the training dataset;
-
-* Test Dataset: the sample data used to provide an evaluation of the final model;
+* Validation Dataset: the sample data used to tune the model parameters to fit
+  on the training dataset;
+* Test Dataset: the sample data used to provide an evaluation of the final
+  model;
 
 Usually, the training and model evaluation are performed iteratively. 
 
@@ -877,16 +1093,25 @@ Usually, the training and model evaluation are performed iteratively.
 Random Forest
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`Random Forest <https://en.wikipedia.org/wiki/Random_forest>`_ is a particular machine learning technique, based on the iterative and random creation of decision trees (i.e. a set of rules and conditions that define a class).
+`Random Forest <https://en.wikipedia.org/wiki/Random_forest>`_ is a
+particular machine learning technique, based on the iterative and random
+creation of decision trees (i.e. a set of rules and conditions that define a
+class).
 
-First, the input features should be defined, which can be spectral bands or ancillary rasters.
-:ref:`ROI_definition` should be created to define the classes used for training the model.
+First, the input features should be defined, which can be spectral bands or
+ancillary rasters.
+:ref:`ROI_definition` should be created to define the classes used for
+training the model.
 
-Random Forest calculates several random decision trees, based on the following parameters:
+Random Forest calculates several random decision trees, based on the following
+parameters:
 
-* number of training samples: is the number of training data (pixels) randomly used to train the model; it should be set lower than total training input pixels;
-
-* number of trees: is the number of decision trees; the more the number of trees, the more is the model accuracy, but it also increases the calculation time.
+* number of training samples: is the number of training data (pixels) randomly
+  used to train the model; it should be set lower than total training input
+  pixels;
+* number of trees: is the number of decision trees; the more the number of
+  trees, the more is the model accuracy, but it also increases the calculation
+  time.
 
 For instance, a decision tree could be defined as:
 
@@ -898,41 +1123,83 @@ For instance, a decision tree could be defined as:
 
 
 Random Forest creates several decision trees randomly.
-Usually, the `Gini coefficient <https://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity>`_ is calculated to split the trees.
-Therefore, a model based on the decision trees is created and used to classify all the pixels.
+Usually, the
+`Gini coefficient <https://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity>`_
+is calculated to split the trees.
+Therefore, a model based on the decision trees is created and used to classify
+all the pixels.
 
-A pixel is classified according to the majority vote of decision trees, for example a pixel is classified as class 1 if most decision trees evaluated it as class 1.
-Also, a confidence layer is produced, which measures the uncertainty of the model based on training data.
+A pixel is classified according to the majority vote of decision trees,
+for example a pixel is classified as class 1 if most decision trees
+evaluated it as class 1.
+Also, a confidence layer is produced, which measures the uncertainty of
+the model based on training data.
 
-Random Forest can be used to evaluate the importance of input features, according to the contribution thereof to the model.
+Random Forest can be used to evaluate the importance of input features,
+according to the contribution thereof to the model.
 
+
+.. _multi_layer_perceptron_algorithm:
+
+Multi-Layer Perceptron
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Multi-Layer Perceptron <https://en.wikipedia.org/wiki/Multilayer_perceptron>`_
+is a supervised classification algorithm that is based on the definition of
+an artificial neural network.
+A Multi-Layer Perceptron is made of an input layer, one or more hidden layers
+(made of a defined number of neurons that are fully connected by non-linear
+activation functions), and the output layer (also read this
+`documentation <https://scikit-learn.org/stable/modules/neural_networks_supervised.html>`_
+
+Several parameters can be defined as described
+`here <https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html>`_
+
+
+.. _support_vector_machine_definition:
+
+Support Vector Machine
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Support Vector Machine <https://en.wikipedia.org/wiki/Support_vector_machine>`_
+is a supervised classification algorithm that is based on the calculation of
+hyperplanes in order to separate input data values.
+
+Several parameters can be defined as described at this
+`link <https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html>`_
 
 .. _spectral_distance_definition:
 
 Spectral Distance 
 -----------------------------------
  
-It is useful to evaluate the spectral distance (or separability) between training signatures or pixels, in order to assess if different classes that are too similar could cause classification errors.
-The :guilabel:`SCP` implements the following algorithms for assessing similarity of spectral signatures.
+It is useful to evaluate the spectral distance (or separability) between
+training signatures or pixels, in order to assess if different classes that
+are too similar could cause classification errors.
+The :guilabel:`SCP` implements the following algorithms for assessing
+similarity of spectral signatures.
 
 .. _Jeffries_Matusita_distance:
 
 Jeffries-Matusita Distance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Jeffries-Matusita Distance calculates the separability of a pair of probability distributions.
-This can be particularly meaningful for evaluating the results of :ref:`max_likelihood_algorithm` classifications.
+Jeffries-Matusita Distance calculates the separability of a pair of
+probability distributions.
+This can be particularly meaningful for evaluating the results of
+:ref:`max_likelihood_algorithm` classifications.
 
-The Jeffries-Matusita Distance :math:`J_{xy}` is calculated as (Richards and Jia, 2006):
+The Jeffries-Matusita Distance :math:`J_{xy}` is calculated as
+(Richards and Jia, 2006):
 
 .. math::
-	J_{xy} = 2 \left( 1 - e^{-B} \right)
-	
+    J_{xy} = 2 \left( 1 - e^{-B} \right)
+
 where:
 
 .. math::
-	B = \frac{1}{8} (x - y)^t \left( \frac{\Sigma_{x} + \Sigma_{y}}{2} \right)^{-1} (x - y)  + \frac{1}{2} \ln \left(  \frac{ | \frac{ \Sigma_{x} + \Sigma_{y}}{2} | }{ | \Sigma_{x} |^{\frac{1}{2}} | \Sigma_{y} |^{\frac{1}{2}} } \right)
-	
+    B = \frac{1}{8} (x - y)^t \left( \frac{\Sigma_{x} + \Sigma_{y}}{2} \right)^{-1} (x - y)  + \frac{1}{2} \ln \left(  \frac{ | \frac{ \Sigma_{x} + \Sigma_{y}}{2} | }{ | \Sigma_{x} |^{\frac{1}{2}} | \Sigma_{y} |^{\frac{1}{2}} } \right)
+
 where:
 
 * :math:`x` = first spectral signature vector;
@@ -940,18 +1207,20 @@ where:
 * :math:`\Sigma_{x}` = covariance matrix of sample :math:`x`;
 * :math:`\Sigma_{y}` = covariance matrix of sample :math:`y`;
 
-The Jeffries-Matusita Distance is asymptotic to 2 when signatures are completely different, and tends to 0 when signatures are identical.
+The Jeffries-Matusita Distance is asymptotic to 2 when signatures are
+completely different, and tends to 0 when signatures are identical.
 
 .. _spectral_angle:
 
 Spectral Angle
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Spectral Angle is the most appropriate for assessing the :ref:`spectra_angle_mapping_algorithm` algorithm.
+The Spectral Angle is the most appropriate for assessing the
+:ref:`spectra_angle_mapping_algorithm` algorithm.
 The spectral angle :math:`\theta` is defined as (Kruse et al., 1993):
 
 .. math::
-	\theta(x, y) = \cos^{-1} \left( \frac{ \sum_{i=1}^{n} x_i y_i } { \left( \sum_{i=1}^{n} x_i^2 \right)^\frac{1}{2} * \left( \sum_{i=1}^{n} y_i^2 \right)^\frac{1}{2} } \right)
+    \theta(x, y) = \cos^{-1} \left( \frac{ \sum_{i=1}^{n} x_i y_i } { \left( \sum_{i=1}^{n} x_i^2 \right)^\frac{1}{2} * \left( \sum_{i=1}^{n} y_i^2 \right)^\frac{1}{2} } \right)
 
 Where:
 
@@ -959,37 +1228,42 @@ Where:
 * :math:`y` = spectral signature vector of a training area;
 * :math:`n` = number of image bands.
 
-Spectral angle goes from 0 when signatures are identical to 90 when signatures are completely different.
+Spectral angle goes from 0 when signatures are identical to 90 when signatures
+are completely different.
 
 .. _euclidean_distance:
 
 Euclidean Distance
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-	
-The Euclidean Distance is particularly useful for the evaluating the result of :ref:`minimum_distance_algorithm` classifications.
+
+The Euclidean Distance is particularly useful for the evaluating the result of
+:ref:`minimum_distance_algorithm` classifications.
 In fact, the distance is defined as:
 
 .. math::
-	d(x, y) = \sqrt{ \sum_{i=1}^{n} (x_i - y_i)^2}
-	
+    d(x, y) = \sqrt{ \sum_{i=1}^{n} (x_i - y_i)^2}
+
 where:
 
 * :math:`x` = first spectral signature vector;
 * :math:`y` = second spectral signature vector;
 * :math:`n` = number of image bands.
 
-The Euclidean Distance is 0 when signatures are identical and tends to increase according to the spectral distance of signatures.
+The Euclidean Distance is 0 when signatures are identical and tends to
+increase according to the spectral distance of signatures.
 
 .. _Bray_Curtis_similarity:
 
 Bray-Curtis Similarity
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-	
-The Bray-Curtis Similarity is a statistic used for assessing the relationship between two samples (`read this <http://en.wikipedia.org/wiki/Bray%E2%80%93Curtis_dissimilarity>`_).
-It is useful in general for assessing the similarity of spectral signatures, and Bray-Curtis Similarity :math:`S(x, y)` is calculated as:
+
+The Bray-Curtis Similarity is a statistic used for assessing the relationship
+between two samples (`read this <http://en.wikipedia.org/wiki/Bray%E2%80%93Curtis_dissimilarity>`_).
+It is useful in general for assessing the similarity of spectral signatures,
+and Bray-Curtis Similarity :math:`S(x, y)` is calculated as:
 
 .. math::
-	S(x, y) = 100 - \left( \frac{\sum_{i=1}^{n} | (x_i - y_i) |}{\sum_{i=1}^{n} x_i + \sum_{i=1}^{n} y_i} \right) * 100
+    S(x, y) = 100 - \left( \frac{\sum_{i=1}^{n} | (x_i - y_i) |}{\sum_{i=1}^{n} x_i + \sum_{i=1}^{n} y_i} \right) * 100
 
 where:
 
@@ -997,38 +1271,52 @@ where:
 * :math:`y` = second spectral signature vector;
 * :math:`n` = number of image bands.
 
-The Bray-Curtis similarity is calculated as percentage and ranges from 0 when signatures are completely different to 100 when spectral signatures are identical.
-	
+The Bray-Curtis similarity is calculated as percentage and ranges from 0 when
+signatures are completely different to 100 when spectral signatures are
+identical.
+
 .. _classification_result_definition:
 
 Classification Result
 -------------------------
 
-The result of the classification process is a raster (see an example of Landsat classification in Figure :ref:`figLC`), where pixel values correspond to class IDs and each color represent a land cover class.
-	
+The result of the classification process is a raster (see an example of
+Landsat classification in Figure :ref:`figLC`), where pixel values correspond
+to class IDs and each color represent a land cover class.
+
 .. _figLC:
 
-.. figure:: _static/Landsat_classification.jpg
-	:align: center
-	
-	:guilabel:`Landsat classification`
-	
-	``Data available from the U.S. Geological Survey``
-	
-A certain amount of errors can occur in the land cover classification (i.e. pixels assigned to a wrong land cover class), due to spectral similarity of classes, or wrong class definition during the ROI collection.
+.. figure:: _static/remote_sensing/Landsat_classification.jpg
+    :align: center
+
+    :guilabel:`Landsat classification`
+
+    ``Data available from the U.S. Geological Survey``
+
+A certain amount of errors can occur in the land cover classification
+(i.e. pixels assigned to a wrong land cover class), due to spectral similarity
+of classes, or wrong class definition during the ROI collection.
 
 .. _accuracy_assessment_definition:
 
 Accuracy Assessment
 -------------------------
 
-After the classification process, it is useful to assess the accuracy of land cover classification, in order to identify and measure map errors. 
-Usually, **accuracy assessment** is performed with the calculation of an error matrix, which is a table that compares map information with reference data (i.e. ground truth data) for a number of sample areas (Congalton and Green, 2009).
+After the classification process, it is useful to assess the accuracy of
+land cover classification, in order to identify and measure map errors.
+Usually, **accuracy assessment** is performed with the calculation of an
+error matrix, which is a table that compares map information with reference
+data (i.e. ground truth data) for a number of sample areas
+(Congalton and Green, 2009).
 
-The following table is a scheme of error matrix, where k is the number of classes identified in the land cover classification, and n is the total number of collected sample units. The items in the major diagonal (aii) are the number of samples correctly identified, while the other items are classification error.
+The following table is a scheme of error matrix, where k is the number of
+classes identified in the land cover classification, and n is the total number
+of collected sample units. The items in the major diagonal (aii) are
+the number of samples correctly identified, while the other items are
+classification error.
 
-	:guilabel:`Scheme of Error Matrix`
-	
+    :guilabel:`Scheme of Error Matrix`
+
 +-----------------+--------------------------+------------------------+------------------------+------------------------+-----------------+
 |                 |   Ground truth 1         |   Ground truth 2       |  …                     |   Ground truth k       |  Total          |
 +=================+==========================+========================+========================+========================+=================+
@@ -1043,53 +1331,74 @@ The following table is a scheme of error matrix, where k is the number of classe
 | **Total**       |   :math:`a_{+1}`         |   :math:`a_{+2}`       |  …                     |   :math:`a_{+k}`       |   :math:`n`     |
 +-----------------+--------------------------+------------------------+------------------------+------------------------+-----------------+
 
-Therefore, it is possible to calculate the overall accuracy as the ratio between the number of samples that are correctly classified (the sum of the major diagonal), and the total number of sample units n (Congalton and Green, 2009).
+Therefore, it is possible to calculate the overall accuracy as the
+ratio between the number of samples that are correctly classified (the sum of
+the major diagonal), and the total number of sample units n
+(Congalton and Green, 2009).
 
 The overall accuracy (also expressed in percentage) is defined as:
 
 .. math::
-	O =  \sum_{i=1}^{k} a_{ii} / n
+    O =  \sum_{i=1}^{k} a_{ii} / n
 
-The user's accuracy for each class is defined as the ratio (also expressed in percentage) between correct samples and the row total:
-
-.. math::
-	U_i =  a_{ii} / a_{i+}
-
-The commission error :math:`CE_i = 1 - U_i` corresponds to pixels classified as class :math:`i` that actually belong to a different class.
-
-The producer's accuracy for each class is calculated as the ratio (also expressed in percentage) between correct samples and the column total:
+The user's accuracy for each class is defined as the ratio
+(also expressed in percentage) between correct samples and the row total:
 
 .. math::
-	P_i =  a_{ii} / a_{+i}
-	
-The omission error :math:`OE_i = 1 - P_i` corresponds to pixels actually belonging to class :math:`i` that were classified erroneously as a different class.
+    U_i =  a_{ii} / a_{i+}
 
-It is recommended to calculate the area based error matrix (Olofsson et al., 2014) where each element represents the estimated area proportion of each class.
-This allows for estimating the unbiased user's accuracy and producer's accuracy, the unbiased area of classes according to reference data, and the standard error of area estimates.
+The commission error :math:`CE_i = 1 - U_i` corresponds to pixels classified
+as class :math:`i` that actually belong to a different class.
 
-For further information, the following documentation is freely available: `Landsat Data Users Handbook <https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/LSDS-1574_L8_Data_Users_Handbook-v5.0.pdf>`_.
+The producer's accuracy for each class is calculated as the ratio
+(also expressed in percentage) between correct samples and the column total:
+
+.. math::
+    P_i =  a_{ii} / a_{+i}
+
+The omission error :math:`OE_i = 1 - P_i` corresponds to pixels actually
+belonging to class :math:`i` that were classified erroneously as a
+different class.
+
+It is recommended to calculate the area based error matrix
+(Olofsson et al., 2014) where each element represents the estimated area
+proportion of each class.
+This allows for estimating the unbiased user's accuracy and producer's
+accuracy, the unbiased area of classes according to reference data, and the
+standard error of area estimates.
+
+For further information, the following documentation is freely available:
+`Landsat Data Users Handbook <https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/LSDS-1574_L8_Data_Users_Handbook-v5.0.pdf>`_.
 
 .. _image_processing_definition:
  
 Image processing
 =====================================
-	
-Remote sensing images can be processed in various ways in order to obtain classification, indices, or other derived information that can be useful for land cover characterization.
-	
+
+Remote sensing images can be processed in various ways in order to obtain
+classification, indices, or other derived information that can be useful for
+land cover characterization.
+
 .. _principal_component_analysis:
 
 Principal Component Analysis
 -------------------------------
 
-Principal Component Analysis (PCA) is a method for reducing the dimensions of measured variables (bands) to the principal components (JARS, 1993).
+Principal Component Analysis (PCA) is a method for reducing the dimensions of
+measured variables (bands) to the principal components (JARS, 1993).
 
-Th principal component transformation provides a new set of bands (principal components) having the following characteristic: principal components are uncorrelated; each component has variance less than the previous component.
-Therefore, this is an efficient method for extracting information and data compression (Ready and Wintz, 1973).
+Th principal component transformation provides a new set of bands
+(principal components) having the following characteristic: principal
+components are uncorrelated; each component has variance less than the
+previous component.
+Therefore, this is an efficient method for extracting information and data
+compression (Ready and Wintz, 1973).
 
-Given an image with N spectral bands, the principal components are obtained by matrix calculation (Ready and Wintz, 1973; Richards and Jia, 2006):
+Given an image with N spectral bands, the principal components are obtained
+by matrix calculation (Ready and Wintz, 1973; Richards and Jia, 2006):
 
 .. math::
-	Y = D^t X
+    Y = D^t X
 
 where:
 
@@ -1100,50 +1409,63 @@ where:
 And :math:`X` is calculated as:
 
 .. math::
-	X = P - M
-	
+    X = P - M
+
 * :math:`P` = vector of spectral values associated with each pixel
 * :math:`M` = vector of the mean associated with each band
 
 Thus, the mean of :math:`X` associated with each band is 0.
-:math:`D` is formed by the eigenvectors (of the covariance matrix :math:`C_x`) ordered as the eigenvalues from maximum to minimum, in order to have the maximum variance in the first component.
-This way, the principal components are uncorrelated and each component has variance less than the previous component(Ready and Wintz, 1973).
+:math:`D` is formed by the eigenvectors (of the covariance matrix
+:math:`C_x`) ordered as the eigenvalues from maximum to minimum, in order to
+have the maximum variance in the first component.
+This way, the principal components are uncorrelated and each component has
+variance less than the previous component(Ready and Wintz, 1973).
 
 Usually the first two components contain more than the 90% of the variance.
-For example, the first principal components can be displayed in a :ref:`color_composite_definition` for highlighting :ref:`Land_cover_definition` classes, or used as input for :ref:`supervised_classification_definition`.
+For example, the first principal components can be displayed in a
+:ref:`color_composite_definition` for highlighting
+:ref:`Land_cover_definition` classes, or used as input for
+:ref:`supervised_classification_definition`.
 
 .. _pan_sharpening_definition:
 
 Pan-sharpening
 -------------------------
 
-Pan-sharpening is the combination of the spectral information of multispectral bands (MS), which have lower spatial resolution (for Landsat bands, spatial resolution is 30m), with the spatial resolution of a panchromatic band (PAN), which for Landsat 7 and 8 it is 15m.
-The result is a multispectral image with the spatial resolution of the panchromatic band (e.g. 15m).
-In :guilabel:`SCP`, a Brovey Transform is applied, where the pan-sharpened values of each multispectral band are calculated as (Johnson, Tateishi and Hoan, 2012):
+Pan-sharpening is the combination of the spectral information of
+multispectral bands (MS), which have lower spatial resolution
+(for Landsat bands, spatial resolution is 30m), with the spatial
+resolution of a panchromatic band (PAN), which for Landsat 7 and 8 it is 15m.
+The result is a multispectral image with the spatial resolution of the
+panchromatic band (e.g. 15m).
+In :guilabel:`SCP`, a Brovey Transform is applied, where the pan-sharpened
+values of each multispectral band are calculated as
+(Johnson, Tateishi and Hoan, 2012):
 
 .. math::
-	MSpan = MS * PAN / I
+    MSpan = MS * PAN / I
 
 where :math:`I` is Intensity, which is a function of multispectral bands.
 
-The following weights for I are defined, basing on several tests performed using the :guilabel:`SCP`. For Landsat 8, Intensity is calculated as:
+The following weights for I are defined, basing on several tests performed
+using the :guilabel:`SCP`. For Landsat 8, Intensity is calculated as:
 
 .. math::
-	I = (0.42 * Blue + 0.98 * Green + 0.6 *  Red ) / 2
+    I = (0.42 * Blue + 0.98 * Green + 0.6 *  Red ) / 2
 
 For Landsat 7, Intensity is calculated as:
 
 .. math::
-	I = (0.42 * Blue + 0.98 * Green + 0.6 * Red + NIR) / 3
+    I = (0.42 * Blue + 0.98 * Green + 0.6 * Red + NIR) / 3
 
 .. _figPanSharpening:
 
-.. figure:: _static/pan_sharpening_comparison.jpg
-	:align: center
-	
-	:guilabel:`Example of pan-sharpening of a Landsat 8 image. Left, original multispectral bands (30m); right, pan-sharpened bands (15m)`
-	
-	``Data available from the U.S. Geological Survey``
+.. figure:: _static/remote_sensing/pan_sharpening_comparison.jpg
+    :align: center
+
+    :guilabel:`Example of pan-sharpening of a Landsat 8 image. Left, original multispectral bands (30m); right, pan-sharpened bands (15m)`
+
+    ``Data available from the U.S. Geological Survey``
 
 
 .. _spectral_indices_definition:
@@ -1151,73 +1473,107 @@ For Landsat 7, Intensity is calculated as:
 Spectral Indices
 -------------------------
 
-Spectral indices are operations between spectral bands that are useful for extracting information such as vegetation cover (JARS, 1993).
-One of the most popular spectral indices is the **Normalized Difference Vegetation Index** (NDVI), defined as (JARS, 1993):
+Spectral indices are operations between spectral bands that are useful for
+extracting information such as vegetation cover (JARS, 1993).
+One of the most popular spectral indices is the
+**Normalized Difference Vegetation Index** (NDVI), defined as (JARS, 1993):
 
 .. math::
-	NDVI = ( NIR - Red ) / ( NIR + Red )
+    NDVI = ( NIR - Red ) / ( NIR + Red )
 
 NDVI values range from -1 to 1.
-Dense and healthy vegetation show higher values, while non-vegetated areas show low NDVI values.
+Dense and healthy vegetation show higher values, while non-vegetated areas
+show low NDVI values.
 
-Another index is the **Enhanced Vegetation Index** (EVI) which attempts to account for atmospheric effects such as path radiance calculating the difference between the blue and the red bands (Didan,et al., 2015).
+Another index is the **Enhanced Vegetation Index** (EVI) which attempts to
+account for atmospheric effects such as path radiance calculating the
+difference between the blue and the red bands (Didan,et al., 2015).
 EVI is defined as:
 
 .. math::
-	EVI = G ( NIR - Red ) / ( NIR + C_1 Red - C_2 Blue + L)
+    EVI = G ( NIR - Red ) / ( NIR + C_1 Red - C_2 Blue + L)
 
-where: :math:`G` is a scaling factor, :math:`C_1` and :math:`C_2` are coefficients for the atmospheric effects, and :math:`L` is a factor for accounting the differential NIR and Red radiant transfer through the canopy.
-Typical coefficient values are: :math:`G = 2.5`, :math:`L = 1`, :math:`C_1 = 6`, :math:`C_2 = 7.5` (Didan,et al., 2015).
-	
-	
+where: :math:`G` is a scaling factor, :math:`C_1` and :math:`C_2` are
+coefficients for the atmospheric effects, and :math:`L` is a factor for
+accounting the differential NIR and Red radiant transfer through the canopy.
+Typical coefficient values are: :math:`G = 2.5`, :math:`L = 1`,
+:math:`C_1 = 6`, :math:`C_2 = 7.5` (Didan,et al., 2015).
+
+
 .. _clustering_definition:
 
 Clustering
 ----------------------------
 
-Clustering is the grouping of pixels based on spectral similarity (e.g. :ref:`euclidean_distance` or :ref:`spectral_angle`)  calculated for a multispectral image (Richards and Jia, 2006).
+Clustering is the grouping of pixels based on spectral similarity
+(e.g. :ref:`euclidean_distance` or :ref:`spectral_angle`)
+calculated for a multispectral image (Richards and Jia, 2006).
 
-Clustering can be used for unsupervised classification or for the automatic selection of spectral signatures.
-It is worth noticing that, while :ref:`supervised_classification_definition` produces a classification whit the classes identified during the training process, the classes produced by clustering (i.e. clusters) have no definition and consequently the user must assign a land cover label to each class.
+Clustering can be used for unsupervised classification or for the automatic
+selection of spectral signatures.
+It is worth noticing that, while :ref:`supervised_classification_definition`
+produces a classification whit the classes identified during the training
+process, the classes produced by clustering (i.e. clusters) have no definition
+and consequently the user must assign a land cover label to each class.
 
 The main advantage of clustering resides in automation.
-Of course, clusters do not necessarily represent a particular land cover type and additional processing could be required for producing an accurate classification.
+Of course, clusters do not necessarily represent a particular land cover type
+and additional processing could be required for producing an accurate
+classification.
 
-There are several types of clustering, mainly based on iterative methods; the following are the algorithms provided in :guilabel:`SCP`.
+There are several types of clustering, mainly based on iterative methods;
+the following are the algorithms provided in :guilabel:`SCP`.
 
 .. _kmeans_definition:
 
 K-means
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-	
-The K-means method is based on the calculation of the average spectral signature of clusters (Wikipedia, 2017; JARS, 1993).
 
-At first, the user defines the number of clusters expected in the image, which correspond to as many spectral signatures (i.e. seeds).
-Starting spectral signatures can be selected in various ways (e.g. randomly, provided by the user, calculated automatically from image values).
+The K-means method is based on the calculation of the average spectral
+signature of clusters (Wikipedia, 2017; JARS, 1993).
 
-During the first iteration clusters are produced calculating the pixel spectral distance with initial spectral signatures.
-The algorithms  :ref:`euclidean_distance` or :ref:`spectral_angle` can be used for distance calculation.
-Pixels are assigned according to the most similar spectral signature, therefore producing clusters.
+At first, the user defines the number of clusters expected in the image,
+which correspond to as many spectral signatures (i.e. seeds).
+Starting spectral signatures can be selected in various ways (e.g. randomly,
+provided by the user, calculated automatically from image values).
 
-Then, the average spectral signature is calculated for each cluster of pixels, resulting in the spectral signatures that will be used in the following iteration.
+During the first iteration clusters are produced calculating the pixel
+spectral distance with initial spectral signatures.
+The algorithms  :ref:`euclidean_distance` or :ref:`spectral_angle` can be used
+for distance calculation.
+Pixels are assigned according to the most similar spectral signature,
+therefore producing clusters.
 
-This process continues iteratively producing clusters and mean spectral signatures, until one of the following condition is verified:
+Then, the average spectral signature is calculated for each cluster of pixels,
+resulting in the spectral signatures that will be used in the following
+iteration.
 
-* the spectral distance between the spectral signatures produced in this iteration with the corresponding ones produced in the previous iteration is lower than a certain threshold;
+This process continues iteratively producing clusters and mean spectral
+signatures, until one of the following condition is verified:
+
+* the spectral distance between the spectral signatures produced in this
+  iteration with the corresponding ones produced in the previous iteration is
+  lower than a certain threshold;
 * the maximum number of iterations is reached.
 
-After the last iteration, a raster of clusters is produced using the spectral signatures derived from the last iteration.
+After the last iteration, a raster of clusters is produced using the spectral
+signatures derived from the last iteration.
 
 .. _isodata_definition:
 
 ISODATA
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The ISODATA (Iterative Self-Organizing Data Analysis Technique) method is similar to K-means but with the additional steps of merging clusters having similar spectral signatures and splitting clusters having too high variability (i.e. standard deviation) of spectral signatures (Ball & Hall, 1965).
+The ISODATA (Iterative Self-Organizing Data Analysis Technique) method is
+similar to K-means but with the additional steps of merging clusters having
+similar spectral signatures and splitting clusters having too high variability
+(i.e. standard deviation) of spectral signatures (Ball & Hall, 1965).
 Following, the :guilabel:`SCP` implementation of ISODATA is described.
 
-At first, the user defines the number of clusters expected in the image, which correspond to as many spectral signatures (i.e. seeds).
-Starting spectral signatures can be selected in various ways (e.g. randomly, provided by the user, calculated automatically from image values).
+At first, the user defines the number of clusters expected in the image,
+which correspond to as many spectral signatures (i.e. seeds).
+Starting spectral signatures can be selected in various ways (e.g. randomly,
+provided by the user, calculated automatically from image values).
 Initial parameters provided by user are:
 
 * :math:`C` = number of desired clusters
@@ -1225,48 +1581,55 @@ Initial parameters provided by user are:
 * :math:`\sigma_{t}` = maximum standard deviation threshold for splitting
 * :math:`D_{t}` = distance threshold for merging
 
-During the first iteration clusters are produced calculating the :ref:`euclidean_distance` of pixels with initial spectral signatures.
-Pixels are assigned according to the most similar spectral signature, therefore producing clusters.
+During the first iteration clusters are produced calculating the
+:ref:`euclidean_distance` of pixels with initial spectral signatures.
+Pixels are assigned according to the most similar spectral signature,
+therefore producing clusters.
 
 Therefore, the following parameters are calculated:
 
 * :math:`N_{i}` = number of pixels of cluster :math:`i`
 * :math:`S_{i}` = average spectral signature of cluster :math:`i`
-* :math:`AVERAGEDIST_{i}` = average distance of cluster :math:`i` with the seed spectral signature
+* :math:`AVERAGEDIST_{i}` = average distance of cluster :math:`i` with the
+  seed spectral signature
 * :math:`AVERAGEDISTANCE` = overall average distance of all clusters
 * :math:`\sigma_{ij}` = standard deviation of cluster :math:`i` in band :math:`j`
-* :math:`\sigma max_{i}` = maximum standard deviation of cluster :math:`i` (i.e. :math:`max( \sigma_{ij} )`)
+* :math:`\sigma max_{i}` = maximum standard deviation of cluster :math:`i`
+  (i.e. :math:`max( \sigma_{ij} )`)
 * :math:`k_{i}` = band where :math:`\sigma max_{i}` occurred
 * :math:`Sk_{i}` = value of :math:`S_{i}` at band :math:`k_{i}`
 * :math:`P` = number of clusters
 
-Then, for each cluster :math:`i`, if :math:`N_{i}` < :math:`N_{min}` , then the cluster :math:`i` is discarded.
+Then, for each cluster :math:`i`, if :math:`N_{i}` < :math:`N_{min}` , then
+the cluster :math:`i` is discarded.
 
 If :math:`P` <= :math:`C` then try to split clusters.
 For each cluster :math:`i`:
 
 * If :math:`\sigma max_{i}` > :math:`\sigma_{t}` :
 
-	* If ((:math:`AVERAGEDIST_{i}` >  :math:`AVERAGEDISTANCE`) AND (:math:`N_{i}` > (2 * :math:`N_{min}` + 2) )) OR (:math:`C` > 2 * :math:`P`):
+    * If ((:math:`AVERAGEDIST_{i}` >  :math:`AVERAGEDISTANCE`) AND (:math:`N_{i}` > (2 * :math:`N_{min}` + 2) )) OR (:math:`C` > 2 * :math:`P`):
 
-		* create a new spectral signature :math:`S_{p + 1}` = :math:`S_{i}`
-		* in :math:`S_{i}` set the value :math:`Sk_{i}` = :math:`Sk_{i}` + :math:`\sigma max_{i}`
-		* in :math:`S_{p + 1}` set the value :math:`Sk_{p + 1}` = :math:`Sk_{i}` - :math:`\sigma max_{i}`
-		* :math:`P` = :math:`P` + 1
-		* start a new iteration
+        * create a new spectral signature :math:`S_{p + 1}` = :math:`S_{i}`
+        * in :math:`S_{i}` set the value :math:`Sk_{i}` = :math:`Sk_{i}` + :math:`\sigma max_{i}`
+        * in :math:`S_{p + 1}` set the value :math:`Sk_{p + 1}` = :math:`Sk_{i}` - :math:`\sigma max_{i}`
+        * :math:`P` = :math:`P` + 1
+        * start a new iteration
 
 If :math:`P` > (2 * :math:`C`) then try to merge clusters.
 
-* For each combination :math:`xy` of spectrals signatures calculate :math:`D_{xy}` = :ref:`euclidean_distance` of spectral signatures :math:`S_{x}` and :math:`S_{y}` .
+* For each combination :math:`xy` of spectral signatures calculate :math:`D_{xy}` = :ref:`euclidean_distance` of spectral signatures :math:`S_{x}` and :math:`S_{y}` .
 * If the minimum :math:`D_{xy}` is greater than :math:`D_{t}`:
 
-	* `S_{i}` = (:math:`N_{i}` * `S_{i}` + :math:`N_{j}` * `S_{j}`)/(:math:`N_{i}` + :math:`N_{j}`)
-	* discard `S_{j}`
-	* :math:`P` = :math:`P` - 1
-	* start a new iteration
+    * `S_{i}` = (:math:`N_{i}` * `S_{i}` + :math:`N_{j}` * `S_{j}`)/(:math:`N_{i}` + :math:`N_{j}`)
+    * discard `S_{j}`
+    * :math:`P` = :math:`P` - 1
+    * start a new iteration
 
-After the last iteration, a raster of clusters is produced using the spectral signatures derived from the last iteration.
-The number of clusters can vary according to the processes of splitting and merging.
+After the last iteration, a raster of clusters is produced using the
+spectral signatures derived from the last iteration.
+The number of clusters can vary according to the processes of splitting
+and merging.
 
 |br|
 
@@ -1275,71 +1638,105 @@ The number of clusters can vary according to the processes of splitting and merg
 Image conversion to reflectance
 =======================================================================
 
-This chapter provides information about the conversion to reflectance implemented in :guilabel:`SCP`.
+This chapter provides information about the conversion to reflectance
+implemented in :guilabel:`SCP`.
 
 .. _radiance_conversion:
 
 Radiance at the Sensor's Aperture
 ----------------------------------
 
-**Radiance** is the "flux of energy (primarily irradiant or incident energy) per solid angle leaving a unit surface area in a given direction", "Radiance is what is measured at the sensor and is somewhat dependent on reflectance" (NASA, 2011, p. 47).
+**Radiance** is the "flux of energy (primarily irradiant or incident energy)
+per solid angle leaving a unit surface area in a given direction", "Radiance
+is what is measured at the sensor and is somewhat dependent on reflectance"
+(NASA, 2011, p. 47).
 
-Images such as Landsat or Sentinel-2 are composed of several bands and a metadata file which contains information required for the conversion to reflectance.
+Images such as Landsat or Sentinel-2 are composed of several bands and a
+metadata file which contains information required for the conversion to
+reflectance.
 
 Landsat images are provided in radiance, scaled prior to output.
-For Landsat images **Spectral Radiance at the sensor's aperture** (:math:`L_{\lambda}`, measured in [watts/(meter squared * ster * :math:`\mu m`)]) is given by (https://www.usgs.gov/core-science-systems/nli/landsat/using-usgs-landsat-level-1-data-product):
+For Landsat images **Spectral Radiance at the sensor's aperture**
+(:math:`L_{\lambda}`, measured in
+[watts/(meter squared * ster * :math:`\mu m`)]) is given by
+(https://www.usgs.gov/core-science-systems/nli/landsat/using-usgs-landsat-level-1-data-product):
 
 .. math::
 
-	L_{\lambda} = M_{L} * Q_{cal} + A_{L}
+    L_{\lambda} = M_{L} * Q_{cal} + A_{L}
 
 where:
 
-* :math:`M_{L}` = Band-specific multiplicative rescaling factor from Landsat metadata (RADIANCE_MULT_BAND_x, where x is the band number)
-* :math:`A_{L}` = Band-specific additive rescaling factor from Landsat metadata (RADIANCE_ADD_BAND_x, where x is the band number)
+* :math:`M_{L}` = Band-specific multiplicative rescaling factor from Landsat
+  metadata (RADIANCE_MULT_BAND_x, where x is the band number)
+* :math:`A_{L}` = Band-specific additive rescaling factor from Landsat
+  metadata (RADIANCE_ADD_BAND_x, where x is the band number)
 * :math:`Q_{cal}` = Quantized and calibrated standard product pixel values (DN)
 
-Sentinel-2 images (Level-1C) are already provided in :ref:`TOA_conversion`, scaled prior to output (ESA, 2015).
+Sentinel-2 images (Level-1C) are already provided in :ref:`TOA_conversion`,
+scaled prior to output (ESA, 2015).
 
 .. _TOA_conversion:
 
 Top Of Atmosphere (TOA) Reflectance
 -----------------------------------
 
-Images in radiance can be converted to Top Of Atmosphere (TOA) Reflectance (combined surface and atmospheric reflectance) in order to reduce the in between-scene variability through a normalization for solar irradiance.
-This TOA reflectance (:math:`\rho_{p}`), which is the unitless ratio of reflected versus total power energy (NASA, 2011), is calculated by: 
+Images in radiance can be converted to Top Of Atmosphere (TOA) Reflectance
+(combined surface and atmospheric reflectance) in order to reduce the in
+between-scene variability through a normalization for solar irradiance.
+This TOA reflectance (:math:`\rho_{p}`), which is the unitless ratio of
+reflected versus total power energy (NASA, 2011), is calculated by:
 
 .. math::
-	\rho_{p} = (\pi * L_{\lambda} * d^{2} )/ (ESUN_{\lambda} * cos\theta_{s})
+    \rho_{p} = (\pi * L_{\lambda} * d^{2} )/ (ESUN_{\lambda} * cos\theta_{s})
 
 where:
 
-* :math:`L_{\lambda}` = Spectral radiance at the sensor's aperture (at-satellite radiance)
-* :math:`d` = Earth-Sun distance in astronomical units (provided with Landsat 8 metadata file, and an excel file is available from http://landsathandbook.gsfc.nasa.gov/excel_docs/d.xls)
+* :math:`L_{\lambda}` = Spectral radiance at the sensor's aperture
+  (at-satellite radiance)
+* :math:`d` = Earth-Sun distance in astronomical units (provided with
+  Landsat 8 metadata file, and an excel file is available from
+  http://landsathandbook.gsfc.nasa.gov/excel_docs/d.xls )
 * :math:`ESUN_{\lambda}` = Mean solar exo-atmospheric irradiances
-* :math:`\theta_{s}` = Solar zenith angle in degrees, which is equal to :math:`\theta_{s}` = 90° - :math:`\theta_{e}` where :math:`\theta_{e}` is the Sun elevation
+* :math:`\theta_{s}` = Solar zenith angle in degrees, which is equal
+  to :math:`\theta_{s}` = 90° - :math:`\theta_{e}` where :math:`\theta_{e}`
+  is the Sun elevation
 
-It is worth pointing out that Landsat 8 images are provided with band-specific rescaling factors that allow for the direct conversion from DN to TOA reflectance.
+It is worth pointing out that Landsat 8 images are provided with band-specific
+rescaling factors that allow for the direct conversion from DN to TOA
+reflectance.
 
-Sentinel-2 images are already provided in scaled TOA reflectance, which can be converted to TOA reflectance with a simple calculation using the Quantification Value provided in the metadata (see https://sentinel.esa.int/documents/247904/349490/S2_MSI_Product_Specification.pdf).
+Sentinel-2 images are already provided in scaled TOA reflectance, which can be
+converted to TOA reflectance with a simple calculation using the
+Quantification Value provided in the metadata (see
+https://sentinel.esa.int/documents/247904/349490/S2_MSI_Product_Specification.pdf
+).
 
 Sentinel-3 images are already provided in scaled TOA radiance.
-Conversion to reflectance is performed applying the coefficients ``scale_factor`` and ``add_offset`` provided in the metadata of each band.
-The ancillary raster ``tie_geometries.nc`` provides the value of sun zenith angle and the ancillary raster ``instrument_data`` provides information about the solar flux for each band, which are used for the conversion to reflectance with the correction for sun angle.
-In addition, the georeferencing of the bands is performed using the ancillary raster ``geo_coordinates.nc`` which provides coordinates of every pixel.
-	
+Conversion to reflectance is performed applying the coefficients
+``scale_factor`` and ``add_offset`` provided in the metadata of each band.
+The ancillary raster ``tie_geometries.nc`` provides the value of sun zenith
+angle and the ancillary raster ``instrument_data`` provides information about
+the solar flux for each band, which are used for the conversion to reflectance
+with the correction for sun angle.
+In addition, the georeferencing of the bands is performed using the ancillary
+raster ``geo_coordinates.nc`` which provides coordinates of every pixel.
+
 .. _Surface_conversion:
 
 Surface Reflectance
 -----------------------------------
 
-The effects of the atmosphere (i.e. a disturbance on the reflectance that varies with the wavelength) should be considered in order to measure the reflectance at the ground.
+The effects of the atmosphere (i.e. a disturbance on the reflectance that
+varies with the wavelength) should be considered in order to measure the
+reflectance at the ground.
 
-As described by Moran et al. (1992), the **land surface reflectance** (:math:`\rho`) is:
+As described by Moran et al. (1992), the **land surface reflectance**
+(:math:`\rho`) is:
 
 .. math::
 
-	\rho = [\pi * (L_{\lambda} - L_{p}) * d^{2}]/ [T_{v} * ( (ESUN_{\lambda} * cos\theta_{s} * T_{z} ) + E_{down} )]
+    \rho = [\pi * (L_{\lambda} - L_{p}) * d^{2}]/ [T_{v} * ( (ESUN_{\lambda} * cos\theta_{s} * T_{z} ) + E_{down} )]
 
 where:
 
@@ -1348,31 +1745,50 @@ where:
 * :math:`T_{z}` is the atmospheric transmittance in the illumination direction
 * :math:`E_{down}` is the downwelling diffuse irradiance
 
-Therefore, we need several atmospheric measurements in order to calculate :math:`\rho` (physically-based corrections). Alternatively, it is possible to use **image-based techniques** for the calculation of these parameters, without in-situ measurements during image acquisition.
-It is worth mentioning that **Landsat Surface Reflectance High Level Data Products** for Landsat 8 are available (for more information read http://landsat.usgs.gov/CDR_LSR.php). 
+Therefore, we need several atmospheric measurements in order to calculate
+:math:`\rho` (physically-based corrections). Alternatively, it is possible
+to use **image-based techniques** for the calculation of these parameters,
+without in-situ measurements during image acquisition.
+It is worth mentioning that
+**Landsat Surface Reflectance High Level Data Products** for Landsat 8 are
+available (for more information read http://landsat.usgs.gov/CDR_LSR.php).
 
 .. _DOS1_correction:
 
 DOS1 Correction
 -----------------------------------
 
-The **Dark Object Subtraction** (DOS) is a family of image-based atmospheric corrections.
-Chavez (1996) explains that "the basic assumption is that within the image some pixels are in complete shadow and their radiances received at the satellite are due to atmospheric scattering (path radiance). This assumption is combined with the fact that very few targets on the Earth's surface are absolute black, so an assumed one-percent minimum reflectance is better than zero percent”. It is worth pointing out that the accuracy of image-based techniques is generally lower than physically-based corrections, but they are very useful when no atmospheric measurements are available as they can improve the estimation of land surface reflectance.
+The **Dark Object Subtraction** (DOS) is a family of image-based atmospheric
+corrections.
+Chavez (1996) explains that "the basic assumption is that within the image
+some pixels are in complete shadow and their radiances received at the
+satellite are due to atmospheric scattering (path radiance).
+This assumption is combined with the fact that very few targets on the Earth's
+surface are absolute black, so an assumed one-percent minimum reflectance is
+better than zero percent”. It is worth pointing out that the accuracy of
+image-based techniques is generally lower than physically-based corrections,
+but they are very useful when no atmospheric measurements are available as
+they can improve the estimation of land surface reflectance.
 The **path radiance** is given by (Sobrino et al., 2004):
 
 .. math::
-	L_{p} = L_{min} - L_{DO1\%}
+    L_{p} = L_{min} - L_{DO1\%}
 
 where:
 
-* :math:`L_{min}` = "radiance that corresponds to a digital count value for which the sum of all the pixels with digital counts lower or equal to this value is equal to the 0.01% of all the pixels from the image considered” (Sobrino et al., 2004, p. 437), therefore the radiance obtained with that digital count value (:math:`DN_{min}`)
-* :math:`L_{DO1\%}` = radiance of Dark Object, assumed to have a reflectance value of 0.01
+* :math:`L_{min}` = "radiance that corresponds to a digital count value for
+  which the sum of all the pixels with digital counts lower or equal to this
+  value is equal to the 0.01% of all the pixels from the image considered”
+  (Sobrino et al., 2004, p. 437), therefore the radiance obtained with that
+  digital count value (:math:`DN_{min}`)
+* :math:`L_{DO1\%}` = radiance of Dark Object, assumed to have a reflectance
+  value of 0.01
 
 In particular for Landsat images:
 
 .. math::
 
-	L_{min} = M_{L} * DN_{min} + A_{L}
+    L_{min} = M_{L} * DN_{min} + A_{L}
 
 Sentinel-2 images are converted to radiance prior to DOS1 calculation.
 
@@ -1380,16 +1796,18 @@ The **radiance of Dark Object** is given by (Sobrino et al., 2004):
 
 .. math::
 
-	L_{DO1\%} = 0.01 * [(ESUN_{\lambda} * cos\theta_{s} * T_{z} ) + E_{down}] * T_{v} / (\pi * d^{2})
+    L_{DO1\%} = 0.01 * [(ESUN_{\lambda} * cos\theta_{s} * T_{z} ) + E_{down}] * T_{v} / (\pi * d^{2})
 
 Therefore the **path radiance** is:
 
 .. math::
 
-	L_{p} = M_{L} * DN_{min} + A_{L} - 0.01* [(ESUN_{\lambda} * cos\theta_{s} * T_{z} ) + E_{down}] * T_{v} / (\pi * d^{2})
+    L_{p} = M_{L} * DN_{min} + A_{L} - 0.01* [(ESUN_{\lambda} * cos\theta_{s} * T_{z} ) + E_{down}] * T_{v} / (\pi * d^{2})
 
-There are several DOS techniques (e.g. DOS1, DOS2, DOS3, DOS4), based on different assumption about :math:`T_{v}`, :math:`T_{z}` , and :math:`E_{down}` .
-The simplest technique is the **DOS1**, where the following assumptions are made (Moran et al., 1992):
+There are several DOS techniques (e.g. DOS1, DOS2, DOS3, DOS4), based on
+different assumption about :math:`T_{v}`, :math:`T_{z}` , and :math:`E_{down}` .
+The simplest technique is the **DOS1**, where the following assumptions are
+made (Moran et al., 1992):
 
 * :math:`T_{v}` = 1
 * :math:`T_{z}` = 1
@@ -1399,19 +1817,19 @@ Therefore the **path radiance** is:
 
 .. math::
 
-	L_{p} = M_{L} * DN_{min} + A_{L} - 0.01 * ESUN_{\lambda} * cos\theta_{s} / (\pi * d^{2})
+    L_{p} = M_{L} * DN_{min} + A_{L} - 0.01 * ESUN_{\lambda} * cos\theta_{s} / (\pi * d^{2})
 
 And the resulting **land surface reflectance** is given by:
 
 .. math::
 
-	\rho = [\pi * (L_{\lambda} - L_{p}) * d^{2}]/ (ESUN_{\lambda} * cos\theta_{s}) 
+    \rho = [\pi * (L_{\lambda} - L_{p}) * d^{2}]/ (ESUN_{\lambda} * cos\theta_{s})
 
 ESUN [W /(m2 * :math:`\mu m`)] values for Landsat sensors are provided in the following table.
-			
 
-	:guilabel:`ESUN values for Landsat bands`
-	
+
+    :guilabel:`ESUN values for Landsat bands`
+
 +-------+-------------------+-----------------+-----------------+---------------+-----------------+-------------------+
 | Band  |  Landsat 1 MSS*   |  Landsat 2 MSS* | Landsat 3 MSS*  | Landsat 4 TM* |  Landsat 5 TM*  | Landsat 7 ETM+**  |
 +=======+===================+=================+=================+===============+=================+===================+
@@ -1438,18 +1856,20 @@ ESUN [W /(m2 * :math:`\mu m`)] values for Landsat sensors are provided in the fo
 
 |br|
 
-For **Landsat 8**, :math:`ESUN` can be calculated as (from http://grass.osgeo.org/grass65/manuals/i.landsat.toar.html):
+For **Landsat 8**, :math:`ESUN` can be calculated as (from
+http://grass.osgeo.org/grass65/manuals/i.landsat.toar.html ):
 
 .. math::
 
-	ESUN = (\pi * d^{2}) * RADIANCE\_MAXIMUM / REFLECTANCE\_MAXIMUM
+    ESUN = (\pi * d^{2}) * RADIANCE\_MAXIMUM / REFLECTANCE\_MAXIMUM
 
 where RADIANCE_MAXIMUM and REFLECTANCE_MAXIMUM are provided by image metadata.
 
-ESUN [W /(m2 * :math:`\mu m`)] values for **Sentinel-2** sensor (provided in image metadata) are illustrated in the following table.
+ESUN [W /(m2 * :math:`\mu m`)] values for **Sentinel-2** sensor
+(provided in image metadata) are illustrated in the following table.
 
-	:guilabel:`ESUN values for Sentinel-2 bands`
-	
+    :guilabel:`ESUN values for Sentinel-2 bands`
+
 +-------+---------------+
 | Band  |  Sentinel-2   |
 +=======+===============+
@@ -1481,10 +1901,11 @@ ESUN [W /(m2 * :math:`\mu m`)] values for **Sentinel-2** sensor (provided in ima
 +-------+---------------+
 
 
-ESUN [W /(m2 * :math:`\mu m`)] values for **ASTER** sensor are illustrated in the following table (from Finn et al., 2012).
+ESUN [W /(m2 * :math:`\mu m`)] values for **ASTER** sensor are illustrated in
+the following table (from Finn et al., 2012).
 
-	:guilabel:`ESUN values for ASTER bands`
-	
+    :guilabel:`ESUN values for ASTER bands`
+
 +-------+---------------+
 | Band  |  ASTER        |
 +=======+===============+
@@ -1510,16 +1931,18 @@ ESUN [W /(m2 * :math:`\mu m`)] values for **ASTER** sensor are illustrated in th
 
 |br|
 
-An example of comparison of to TOA reflectance, DOS1 corrected reflectance and the Landsat Surface Reflectance High Level Data Products (ground truth) is provided in Figure :ref:`figRefl`.
+An example of comparison of to TOA reflectance, DOS1 corrected reflectance
+and the Landsat Surface Reflectance High Level Data Products (ground truth)
+is provided in Figure :ref:`figRefl`.
 
 .. _figRefl:
 
-.. figure:: _static/reflectance_graph.jpg
-	:align: center
-	
-	:guilabel:`Spectral signatures of a built-up pixel`
+.. figure:: _static/remote_sensing/reflectance_graph.jpg
+    :align: center
 
-	``Comparison of TOA reflectance, DOS1 corrected reflectance and Landsat Surface Reflectance High Level Data Products``
+    :guilabel:`Spectral signatures of a built-up pixel`
+
+    ``Comparison of TOA reflectance, DOS1 corrected reflectance and Landsat Surface Reflectance High Level Data Products``
 
 
 |br|
@@ -1529,30 +1952,37 @@ An example of comparison of to TOA reflectance, DOS1 corrected reflectance and t
 Conversion to Temperature
 =================================================
 
-This chapter provides the basic information about the conversion to **At-Satellite Brightness Temperature** implemented in :guilabel:`SCP` and the estimation of **Land Surface Temperature**.
+This chapter provides the basic information about the conversion to
+**At-Satellite Brightness Temperature** implemented in :guilabel:`SCP` and
+the estimation of **Land Surface Temperature**.
 
 .. _landsat_conversion_to_temperature:
 
 Conversion to At-Satellite Brightness Temperature
 ----------------------------------------------------------------------
 
-For thermal bands, the conversion of DN to At-Satellite Brightness Temperature is given by (from https://www.usgs.gov/core-science-systems/nli/landsat/using-usgs-landsat-level-1-data-product ):
+For thermal bands, the conversion of DN to At-Satellite Brightness
+Temperature is given by (from
+https://www.usgs.gov/core-science-systems/nli/landsat/using-usgs-landsat-level-1-data-product ):
 
 .. math::
 
-	T_{B} = K_{2} / ln[(K_{1} / L_{\lambda}) + 1]
+    T_{B} = K_{2} / ln[(K_{1} / L_{\lambda}) + 1]
 
 where:
 
-* :math:`K_{1}` = Band-specific thermal conversion constant (in watts/meter squared * ster * :math:`\mu m`)
+* :math:`K_{1}` = Band-specific thermal conversion constant (in
+  watts/meter squared * ster * :math:`\mu m`)
 * :math:`K_{2}` = Band-specific thermal conversion constant (in kelvin)
 
-and :math:`L_{\lambda}` is the Spectral Radiance at the sensor's aperture, measured in watts/(meter squared * ster * :math:`\mu m`).
+and :math:`L_{\lambda}` is the Spectral Radiance at the sensor's aperture,
+measured in watts/(meter squared * ster * :math:`\mu m`).
 
-The :math:`K_{1}` and :math:`K_{2}` constants for Landsat sensors are provided in the following table.
+The :math:`K_{1}` and :math:`K_{2}` constants for Landsat sensors are
+provided in the following table.
 
-	:guilabel:`Thermal Conversion Constants for Landsat`
-	
+    :guilabel:`Thermal Conversion Constants for Landsat`
+
 +------------------------+-------------------+-----------------+---------------------+
 | Constant               |  Landsat 4*       |    Landsat 5*   | Landsat 7**         |
 +========================+===================+=================+=====================+
@@ -1567,17 +1997,19 @@ The :math:`K_{1}` and :math:`K_{2}` constants for Landsat sensors are provided i
 
 |br|
 
-For **Landsat 8**, the :math:`K_{1}` and :math:`K_{2}` values are provided in the image metadata file.
+For **Landsat 8**, the :math:`K_{1}` and :math:`K_{2}` values are provided in
+the image metadata file.
 
 |br|
 
-:math:`K_{1}` and :math:`K_{2}` are calculated as (Jimenez-Munoz & Sobrino, 2010): 
+:math:`K_{1}` and :math:`K_{2}` are calculated as
+(Jimenez-Munoz & Sobrino, 2010):
 
 .. math::
-	K_{1} = c_{1} / \lambda^{5}
+    K_{1} = c_{1} / \lambda^{5}
 
 .. math::
-	K_{2} = c_{2} / \lambda
+    K_{2} = c_{2} / \lambda
 
 where (Mohr, Newell, & Taylor, 2015):
 
@@ -1585,10 +2017,11 @@ where (Mohr, Newell, & Taylor, 2015):
 * :math:`c_{2}` = second radiation constant = :math:`1.4388 * 10^{-2}  m  K`
 
 
-Therefore, for ASTER bands :math:`K_{1}` and :math:`K_{2}` are provided in the following table.
+Therefore, for ASTER bands :math:`K_{1}` and :math:`K_{2}` are provided in
+the following table.
 
-	:guilabel:`Thermal Conversion Constants for ASTER`
-	
+    :guilabel:`Thermal Conversion Constants for ASTER`
+
 +----------------------+-------------------------+------------------------+------------------------+------------------------+------------------------+
 | Constant             |  Band 10                |   Band 11              | Band 12                | Band 13                | Band 14                |
 +======================+=========================+========================+========================+========================+========================+
@@ -1604,10 +2037,11 @@ Estimation of Land Surface Temperature
 ------------------------------------------
 
 Several studies have described the estimation of Land Surface Temperature.
-Land Surface Temperature can be calculated from At-Satellite Brightness Temperature :math:`T_{B}` as (Weng et al., 2004):
+Land Surface Temperature can be calculated from At-Satellite Brightness
+Temperature :math:`T_{B}` as (Weng et al., 2004):
 
 .. math::
-	T = T_{B} / [ 1 +  (\lambda * T_{B} / c_{2}) * ln(e) ]
+    T = T_{B} / [ 1 +  (\lambda * T_{B} / c_{2}) * ln(e) ]
 
 where:
 
@@ -1617,13 +2051,18 @@ where:
 * :math:`s` = Boltzmann constant = :math:`1.38 * 10^{-23}` J/K
 * :math:`c` = velocity of light = :math:`2.998 * 10^{8}` m/s
 
-The values of :math:`\lambda` for the thermal bands of Landsat and ASTER satellites can be calculated from the tables in :ref:`Landsat_definition` and :ref:`ASTER_definition`.
+The values of :math:`\lambda` for the thermal bands of Landsat and ASTER
+satellites can be calculated from the tables in :ref:`Landsat_definition`
+and :ref:`ASTER_definition`.
 
-Several studies used NDVI for the estimation of land surface emissivity (Sobrino et al., 2004); other studies used a land cover classification for the definition of the land surface emissivity of each class (Weng et al. 2004).
-For instance, the emissivity (:math:`e`) values of various land cover types are provided in the following table (from Mallick et al., 2012).
+Several studies used NDVI for the estimation of land surface emissivity
+(Sobrino et al., 2004); other studies used a land cover classification for the
+definition of the land surface emissivity of each class (Weng et al. 2004).
+For instance, the emissivity (:math:`e`) values of various land cover types
+are provided in the following table (from Mallick et al., 2012).
 
-	:guilabel:`Emissivity values`
-	
+    :guilabel:`Emissivity values`
+
 +-----------------------------+--------------------------+
 | Land surface                | Emissivity e             |
 +=============================+==========================+
@@ -1643,64 +2082,115 @@ For instance, the emissivity (:math:`e`) values of various land cover types are 
 References
 =======================================================================
 
-* Ball, G. H. & Hall, D. J., 1965. ISODATA. A novel method of data analysis and pattern classification. Menlo Park: Stanford Research Institute.
+* Ball, G. H. & Hall, D. J., 1965. ISODATA. A novel method of data analysis
+  and pattern classification. Menlo Park: Stanford Research Institute.
 
-* Chander, G. & Markham, B., 2003. Revised Landsat-5 TM radiometric calibration procedures and postcalibration dynamic ranges Geoscience and Remote Sensing, IEEE Transactions on, 41, 2674 - 2677
+* Chander, G. & Markham, B., 2003. Revised Landsat-5 TM radiometric calibration
+  procedures and postcalibration dynamic ranges Geoscience and Remote Sensing,
+  IEEE Transactions on, 41, 2674 - 2677
 
-* Chavez, P. S., 1996. Image-Based Atmospheric Corrections - Revisited and Improved Photogrammetric Engineering and Remote Sensing, [Falls Church, Va.] American Society of Photogrammetry, 62, 1025-1036
+* Chavez, P. S., 1996. Image-Based Atmospheric Corrections - Revisited and
+  Improved Photogrammetric Engineering and Remote Sensing, [Falls Church, Va.]
+  American Society of Photogrammetry, 62, 1025-1036
 
-* Congalton, R. and Green, K., 2009. Assessing the Accuracy of Remotely Sensed Data: Principles and Practices. Boca Raton, FL: CRC Press
+* Congalton, R. and Green, K., 2009. Assessing the Accuracy of Remotely Sensed
+  Data: Principles and Practices. Boca Raton, FL: CRC Press
 
-* Didan, K.; Barreto Munoz, A.; Solano, R. & Huete, A., 2015. MODIS Vegetation Index User’s Guide. Collection 6, NASA
+* Didan, K.; Barreto Munoz, A.; Solano, R. & Huete, A., 2015. MODIS Vegetation
+  Index User’s Guide. Collection 6, NASA
 
-* ESA, 2020. Sentinel-1 SAR Definitions. Available at https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/definitions
+* ESA, 2020. Sentinel-1 SAR Definitions. Available at
+  https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/definitions
 
-* ESA, 2020b. Sentinel-1 SAR Definitions. Available at https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/overview
+* ESA, 2020b. Sentinel-1 SAR Definitions. Available at
+  https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/overview
 
-* ESA, 2019. A machine learning glossary. Available at https://blogs.esa.int/philab/2019/03/29/a-machine-learning-glossary/
+* ESA, 2019. A machine learning glossary. Available at
+  https://blogs.esa.int/philab/2019/03/29/a-machine-learning-glossary/
 
-* ESA, 2015. Sentinel-2 User Handbook. Available at https://sentinels.copernicus.eu/documents/247904/685211/Sentinel-2_User_Handbook
+* ESA, 2015. Sentinel-2 User Handbook. Available at
+  https://sentinels.copernicus.eu/documents/247904/685211/Sentinel-2_User_Handbook
 
-* ESA, 2013. Sentinel-3 User Handbook. Available at https://sentinels.copernicus.eu/documents/247904/685236/Sentinel-3_User_Handbook
+* ESA, 2013. Sentinel-3 User Handbook. Available at
+  https://sentinels.copernicus.eu/documents/247904/685236/Sentinel-3_User_Handbook
 
-* Finn, M.P., Reed, M.D, and Yamamoto, K.H., 2012. A Straight Forward Guide for Processing Radiance and Reflectance for EO-1 ALI, Landsat 5 TM, Landsat 7 ETM+, and ASTER. Unpublished Report from USGS/Center of Excellence for Geospatial Information Science, 8 p, http://cegis.usgs.gov/soil_moisture/pdf/A%20Straight%20Forward%20guide%20for%20Processing%20Radiance%20and%20Reflectance_V_24Jul12.pdf
+* Finn, M.P., Reed, M.D, and Yamamoto, K.H., 2012. A Straight Forward Guide
+  for Processing Radiance and Reflectance for EO-1 ALI, Landsat 5 TM,
+  Landsat 7 ETM+, and ASTER. Unpublished Report from USGS/Center of Excellence
+  for Geospatial Information Science, 8 p,
+  http://cegis.usgs.gov/soil_moisture/pdf/A%20Straight%20Forward%20guide%20for%20Processing%20Radiance%20and%20Reflectance_V_24Jul12.pdf
 
-* Fisher, P. F. and Unwin, D. J., eds., 2005. Representing GIS. Chichester, England: John Wiley & Sons
+* Fisher, P. F. and Unwin, D. J., eds., 2005. Representing GIS. Chichester,
+  England: John Wiley & Sons
 
-* JARS, 1993. Remote Sensing Note. Japan Association on Remote Sensing. Available at http://www.jars1974.net/pdf/rsnote_e.html
+* JARS, 1993. Remote Sensing Note. Japan Association on Remote Sensing.
+  Available at http://www.jars1974.net/pdf/rsnote_e.html
 
-* Jimenez-Munoz, J. C. & Sobrino, J. A., 2010. A Single-Channel Algorithm for Land-Surface Temperature Retrieval From ASTER Data IEEE Geoscience and Remote Sensing Letters, 7, 176-179
+* Jimenez-Munoz, J. C. & Sobrino, J. A., 2010. A Single-Channel Algorithm for
+  Land-Surface Temperature Retrieval From ASTER Data IEEE Geoscience and Remote
+  Sensing Letters, 7, 176-179
 
-* Johnson, B. A., Tateishi, R. and Hoan, N. T., 2012. Satellite Image Pansharpening Using a Hybrid Approach for Object-Based Image Analysis ISPRS International Journal of Geo-Information, 1, 228. Available at  http://www.mdpi.com/2220-9964/1/3/228)
+* Johnson, B. A., Tateishi, R. and Hoan, N. T., 2012. Satellite Image
+  Pansharpening Using a Hybrid Approach for Object-Based Image Analysis ISPRS
+  International Journal of Geo-Information, 1, 228. Available at
+  http://www.mdpi.com/2220-9964/1/3/228)
 
-* Kruse, F. A., et al., 1993. The Spectral Image Processing System (SIPS) - Interactive Visualization and Analysis of Imaging spectrometer. Data Remote Sensing of Environment
+* Kruse, F. A., et al., 1993. The Spectral Image Processing System (SIPS) -
+  Interactive Visualization and Analysis of Imaging spectrometer. Data Remote
+  Sensing of Environment
 
-* Mallick, J.; Singh, C. K.; Shashtri, S.; Rahman, A. & Mukherjee, S., 2012. Land surface emissivity retrieval based on moisture index from LANDSAT TM satellite data over heterogeneous surfaces of Delhi city International Journal of Applied Earth Observation and Geoinformation, 19, 348 - 358
+* Mallick, J.; Singh, C. K.; Shashtri, S.; Rahman, A. & Mukherjee, S., 2012.
+  Land surface emissivity retrieval based on moisture index from LANDSAT TM
+  satellite data over heterogeneous surfaces of Delhi city International
+  Journal of Applied Earth Observation and Geoinformation, 19, 348 - 358
 
-* Mohr, P. J.; Newell, D. B. & Taylor, B. N., 2015. CODATA Recommended Values of the Fundamental Physical Constants: 2014 National Institute of Standards and Technology, Committee on Data for Science and Technology
+* Mohr, P. J.; Newell, D. B. & Taylor, B. N., 2015. CODATA Recommended Values
+  of the Fundamental Physical Constants: 2014 National Institute of Standards
+  and Technology, Committee on Data for Science and Technology
 
-* Moran, M.; Jackson, R.; Slater, P. & Teillet, P., 1992. Evaluation of simplified procedures for retrieval of land surface reflectance factors from satellite sensor output Remote Sensing of Environment, 41, 169-184
+* Moran, M.; Jackson, R.; Slater, P. & Teillet, P., 1992. Evaluation of
+  simplified procedures for retrieval of land surface reflectance factors from
+  satellite sensor output Remote Sensing of Environment, 41, 169-184
 
-* NASA, 2020. What is Synthetic Aperture Radar?. Available at https://earthdata.nasa.gov/learn/what-is-sar
+* NASA, 2020. What is Synthetic Aperture Radar?. Available at
+  https://earthdata.nasa.gov/learn/what-is-sar
 
-* NASA, 2013. Landsat 7 Science Data User's Handbook. Available at https://www.usgs.gov/land-resources/nli/landsat/landsat-7-data-users-handbook
+* NASA, 2013. Landsat 7 Science Data User's Handbook. Available at
+  https://www.usgs.gov/land-resources/nli/landsat/landsat-7-data-users-handbook
 
-* NASA, 2011. Landsat 7 Science Data Users Handbook Landsat Project Science Office at NASA's Goddard Space Flight Center in Greenbelt, 186 http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf
+* NASA, 2011. Landsat 7 Science Data Users Handbook Landsat Project Science
+  Office at NASA's Goddard Space Flight Center in Greenbelt, 186
+  http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf
 
-* NOAA, 2020. GOES-R Series. Available at https://www.ncdc.noaa.gov/data-access/satellite-data/goes-r-series-satellites
+* NOAA, 2020. GOES-R Series. Available at
+  https://www.ncdc.noaa.gov/data-access/satellite-data/goes-r-series-satellites
 
-* Olofsson, P.; Foody, G. M.; Herold, M.; Stehman, S. V.; Woodcock, C. E. & Wulder, M. A., 2014. Good practices for estimating area and assessing accuracy of land change. Remote Sensing of Environment, 148, 42 – 57
+* Olofsson, P.; Foody, G. M.; Herold, M.; Stehman, S. V.; Woodcock, C. E. &
+  Wulder, M. A., 2014. Good practices for estimating area and assessing
+  accuracy of land change. Remote Sensing of Environment, 148, 42 – 57
 
-* Ready, P. and Wintz, P., 1973. Information Extraction, SNR Improvement, and Data Compression in Multispectral Imagery. IEEE Transactions on Communications, 21, 1123-1131
+* Ready, P. and Wintz, P., 1973. Information Extraction, SNR Improvement, and
+  Data Compression in Multispectral Imagery. IEEE Transactions on
+  Communications, 21, 1123-1131
 
-* Richards, J. A. and Jia, X., 2006. Remote Sensing Digital Image Analysis: An Introduction. Berlin, Germany: Springer
+* Richards, J. A. and Jia, X., 2006. Remote Sensing Digital Image Analysis:
+  An Introduction. Berlin, Germany: Springer
 
-* Sobrino, J.; Jiménez-Muñoz, J. C. & Paolini, L., 2004. Land surface temperature retrieval from LANDSAT TM 5 Remote Sensing of Environment, Elsevier, 90, 434-440
+* Sobrino, J.; Jiménez-Muñoz, J. C. & Paolini, L., 2004. Land surface
+  temperature retrieval from LANDSAT TM 5 Remote Sensing of Environment,
+  Elsevier, 90, 434-440
 
-* USGS, 2015. Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Level 1 Precision Terrain Corrected Registered At-Sensor Radiance Product (AST_L1T). AST_L1T Product User’s Guide. USGS EROS Data Center.
+* USGS, 2015. Advanced Spaceborne Thermal Emission and Reflection Radiometer
+  (ASTER) Level 1 Precision Terrain Corrected Registered At-Sensor Radiance
+  Product (AST_L1T). AST_L1T Product User’s Guide. USGS EROS Data Center.
 
-* Vermote, E. F.; Roger, J. C. & Ray, J. P., 2015. MODIS Surface Reflectance User’s Guide. Collection 6, NASA
+* Vermote, E. F.; Roger, J. C. & Ray, J. P., 2015. MODIS Surface Reflectance
+  User’s Guide. Collection 6, NASA
 
-* Weng, Q.; Lu, D. & Schubring, J., 2004. Estimation of land surface temperature–vegetation abundance relationship for urban heat island studies. Remote Sensing of Environment, Elsevier Science Inc., Box 882 New York NY 10159 USA, 89, 467-483
+* Weng, Q.; Lu, D. & Schubring, J., 2004. Estimation of land surface
+  temperature–vegetation abundance relationship for urban heat island studies.
+  Remote Sensing of Environment, Elsevier Science Inc., Box 882 New York NY
+  10159 USA, 89, 467-483
 
-* Wikipedia, 2017. k-means clustering. Available at https://en.wikipedia.org/wiki/K-means_clustering
+* Wikipedia, 2017. k-means clustering. Available at
+  https://en.wikipedia.org/wiki/K-means_clustering

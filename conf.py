@@ -21,7 +21,6 @@ gettext_compact = False
 
 # -- Options for HTML output ----------------------------------------------
 
-html_theme = 'sphinx_rtd_theme'
 html_favicon = "_static/favicon.ico"
 html_static_path = ['_static']
 html_domain_indices = False

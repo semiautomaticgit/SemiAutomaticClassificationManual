@@ -55,3 +55,25 @@ Script
 This tab displays the output of the :guilabel:`Script` buttons that are
 available in several tools, which ease the creation of Python scripts
 using `Remotior Sensus <https://remotior-sensus.readthedocs.io/en/latest>`_.
+
+It is possible to edit or copy the Python code and run it in a Python shell.
+New code is appended to the existing one, when using the :guilabel:`Script`
+buttons.
+
+.. _script_tools:
+
+Script
+-------------------
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - Tool symbol and name
+      - Description
+    * - |reset|
+      - clear the content of the script
+    * - :guilabel:`Copy`
+      - copy the content of the script to the clipboard
+    * - :guilabel:`Save to file` |export|
+      - save the script to file ``.py``

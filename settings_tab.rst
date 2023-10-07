@@ -13,6 +13,6 @@ of :guilabel:`SCP`.
 
 .. toctree::
 
-    debug_setting_tab.rst
-    interface_setting_tab.rst
-    processing_setting_tab.rst
+    debug_tab.rst
+    interface_tab.rst
+    processing_settings_tab.rst

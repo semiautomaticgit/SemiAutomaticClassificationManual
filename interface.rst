@@ -10,6 +10,13 @@ The Interface of SCP
 
 The :guilabel:`SCP` interface is composed of several parts that are described
 in detail in the following paragraphs.
+The following video provides a brief introduction to the tools.
+
+.. raw:: html
+
+    <iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/gvSSO5LPw8s?rel=0" width="100%"></iframe>
+
+http://www.youtube.com/watch?v=gvSSO5LPw8s
 
 .. toctree::
     :maxdepth: 2

@@ -1,0 +1,349 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../multiple_roi_creation_tab.rst:5
+msgid "Multiple ROI Creation"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:12
+msgid "registry_save"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:15
+msgid "project_save"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:18
+msgid "optional"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:21
+msgid "input_list"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:24
+msgid "input_text"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:27
+msgid "input_date"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:30
+msgid "input_number"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:33
+msgid "input_table"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:36
+msgid "open_file"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:39
+msgid "new_file"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:42
+msgid "add"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:45
+msgid "reset"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:48
+msgid "checkbox"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:51
+msgid "enter"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:54
+msgid "roi_multiple"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:57
+msgid "remove"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:60
+msgid "import"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:63
+msgid "export"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:66
+msgid "run"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:74
+msgid "|roi_multiple| :guilabel:`Multiple ROI Creation`"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:76
+msgid ""
+"This tab allows for the automatic creation of ROIs, useful for the rapid "
+"classification of multi-temporal images, or for accuracy assessment. "
+"Given a list of point coordinates and ROI options, this tool performs the"
+" region growing of ROIs. Created ROIs are automatically saved to the "
+":ref:`training_input`. The :guilabel:`active band set` in "
+":ref:`band_set_tab` is used for calculations."
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:86
+msgid "Create random points"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:93
+#: ../../multiple_roi_creation_tab.rst:162
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:94
+#: ../../multiple_roi_creation_tab.rst:163
+msgid "Description"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:95
+msgid ":guilabel:`Number of points` |input_number|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:96
+msgid ""
+"set a number of points that will be created when :guilabel:`Create "
+"points` |enter| is clicked"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:98
+msgid "|checkbox| :guilabel:`inside grid` |input_number|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:99
+msgid ""
+"if checked, the :guilabel:`band set` area is divided in cells where the "
+"size thereof is defined in the combobox (image unit, usually meters); "
+"points defined in ``Number of random points`` are created randomly within"
+" each cell"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:103
+msgid "|checkbox| :guilabel:`min distance` |input_number|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:104
+msgid ""
+"if checked, random points have a minimum distance defined in the combobox"
+" (image unit, usually meters); setting a minimum distance can result in "
+"fewer points than the number defined in :guilabel:`Number of points`"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:108
+msgid ":guilabel:`Create points` |enter|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:109
+msgid "create random points inside the :guilabel:`band set` area"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:110
+msgid "|checkbox| :guilabel:`stratified for the values` |input_text|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:111
+msgid ""
+"if checked, create random points inside the values defined in the "
+"expression calculated for the first band of the defined band set; the "
+"expression must include the variable ``raster`` ; multiple expressions "
+"can be entered separated by semicolon ( ; ) but the total number of "
+"stratified points is the same as the defined :guilabel:`Number of points`"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:117
+msgid ":guilabel:`of the first band of band set` |input_number|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:118
+msgid ""
+"defines the :guilabel:`band set` in |checkbox| :guilabel:`stratified for "
+"the values`"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:124
+msgid "Point coordinates and ROI definition"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:126
+msgid ""
+"The table :guilabel:`Point coordinates and ROI definition` contains the "
+"following fields."
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:133
+msgid "X"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:134
+msgid "Y"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:135
+msgid "MC ID"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:136
+msgid "MC Name"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:137
+msgid "C ID"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:138
+msgid "C Name"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:139
+msgid "Min"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:140
+msgid "Max"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:141
+msgid "Dist"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:142
+msgid "Rapid ROI band"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:143
+msgid "point X coordinate (float)"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:144
+msgid "point Y coordinate (float)"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:145
+msgid "ROI Macroclass ID (int)"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:146
+msgid "ROI Macroclass Name (text)"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:147
+msgid "ROI Class ID (int)"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:148
+msgid "ROI Class Name (text)"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:149
+msgid "the minimum area of a ROI (in pixel unit)"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:150
+msgid "the maximum width of a ROI (in pixel unit)"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:151
+msgid ""
+"the interval which defines the maximum spectral distance between the seed"
+" pixel and the surrounding pixels (in radiometry unit)"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:153
+msgid ""
+"if a band number is defined, ROI is created only using the selected band,"
+" similarly to :guilabel:`Rapid ROI band` in :ref:`ROI_list`"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:156
+msgid "The following tools are available."
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:164
+msgid "|add|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:165
+msgid ""
+"add a new row to the table; all the table fields must be filled for the "
+"ROI creation"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:167
+msgid "|remove|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:168
+msgid "delete the highlighted rows from the table"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:169
+msgid "|import|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:170
+msgid ""
+"import a point list from text file or a point shapefile to the table; in "
+"case of text file, every line must contain values separated by tabs of "
+"``X``, ``Y``, ``MC ID``, ``MC Name``, ``Class ID``, ``C Name``, ``Min``, "
+"``Max``, ``Dist``, and optionally the ``Rapid ROI band``; in case of "
+"shapefile, only point coordinates are imported"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:175
+msgid "|export|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:176
+msgid "export the point list to text file"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:177
+msgid "|checkbox| :guilabel:`Calculate sig.`"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:178
+msgid ""
+"if checked, the spectral signature is calculated while the ROI is saved "
+"to :ref:`training_input`"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:180
+msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:181
+msgid ""
+"start the ROI creation process for all the points and save ROIs to the "
+":ref:`training_input`"
+msgstr ""
+

@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../band_sieve_tab.rst:5
+msgid "Sieve"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:11
+msgid "registry_save"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:14
+msgid "project_save"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:17
+msgid "optional"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:20
+msgid "input_list"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:23
+msgid "input_text"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:26
+msgid "input_date"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:29
+msgid "input_number"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:32
+msgid "input_table"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:35
+msgid "open_file"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:38
+msgid "new_file"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:41
+msgid "add"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:44
+msgid "reset"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:47
+msgid "bandset_tool"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:50
+msgid "download"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:53
+msgid "export"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:56
+msgid "tools"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:59
+msgid "preprocessing"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:62
+msgid "band_processing"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:65
+msgid "postprocessing"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:68
+msgid "bandcalc"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:71
+msgid "settings"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:74
+msgid "script_tool"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:77
+msgid "enter"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:80
+msgid "zoom_to_ROI"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:83
+msgid "check"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:86
+msgid "select_all"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:89
+msgid "docks"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:92
+msgid "add_sign_tool"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:95
+msgid "guide"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:98
+msgid "help"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:101
+msgid "reload"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:104
+msgid "checkbox"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:107
+msgid "run"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:110
+msgid "radiobutton"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:113
+msgid "pointer"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:116
+msgid "threshold_tool"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:124
+msgid ":guilabel:`Sieve`"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:127
+msgid ""
+"This tab allows for the replacement of isolated pixel values with the "
+"value of the largest neighbour patch. It is useful for removing small "
+"patches from a classification."
+msgstr ""
+
+#: ../../band_sieve_tab.rst:131
+msgid ""
+"It is possible to chose ``4 pixel connection`` (in a 3x3 window, diagonal"
+" pixels are not considered connected) or ``8 pixel connection`` (in a 3x3"
+" window, diagonal pixels are considered connected)."
+msgstr ""
+
+#: ../../band_sieve_tab.rst:136
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_sieve.html>`_ "
+"."
+msgstr ""
+
+#: ../../band_sieve_tab.rst:142
+msgid "Erosion"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:148
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:149
+msgid "Description"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:150
+msgid ":guilabel:`Select input band set (of classifications)` |input_number|"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:151
+msgid "select the input :ref:`band_set_tab`"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:152
+msgid ":guilabel:`Size threshold` |input_number|"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:153
+msgid "size of threshold in number of pixels"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:154
+msgid "|checkbox| :guilabel:`Pixel connection` |input_list|"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:155
+msgid "select between 4 pixel connection or 8 pixel connection"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:156
+msgid ":guilabel:`Output name`"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:157
+msgid "set the name prefix for output files"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:158
+msgid "|checkbox| :guilabel:`Virtual output` |optional|"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:159
+msgid ""
+"if checked, the output is created as virtual raster composed of as many "
+"``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:162
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:163
+msgid "add this function to the :ref:`script_tab`"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:164
+msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../band_sieve_tab.rst:165
+msgid "run this function"
+msgstr ""
+

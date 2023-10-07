@@ -1,0 +1,488 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../image_conversion_tab.rst:5 ../../image_conversion_tab.rst:159
+msgid "Image conversion"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:12
+msgid "registry_save"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:15
+msgid "project_save"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:18
+msgid "optional"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:21
+msgid "input_list"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:24
+msgid "input_text"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:27
+msgid "input_date"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:30
+msgid "input_number"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:33
+msgid "input_table"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:36
+msgid "open_file"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:39
+msgid "new_file"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:42
+msgid "open_dir"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:45
+msgid "remove"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:48
+msgid "add"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:51
+msgid "reset"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:54
+msgid "bandset_tool"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:57
+msgid "download"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:60
+msgid "sign_plot"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:63
+msgid "tools"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:66
+msgid "preprocessing"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:69
+msgid "band_processing"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:72
+msgid "postprocessing"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:75
+msgid "bandcalc"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:78
+msgid "settings"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:81
+msgid "script_tool"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:84
+msgid "enter"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:87
+msgid "zoom_to_ROI"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:90
+msgid "check"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:93
+msgid "select_all"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:96
+msgid "docks"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:99
+msgid "add_sign_tool"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:102
+msgid "scatter_plot"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:105
+msgid "merge_sign"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:108
+msgid "guide"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:111
+msgid "help"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:114
+msgid "reload"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:117
+msgid "checkbox"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:120
+msgid "run"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:123
+msgid "radiobutton"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:126
+msgid "image_conversion_tool"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:133
+msgid ":guilabel:`Image conversion`"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:135
+msgid ""
+"This tool allows for the conversion of several products to reflectance. "
+"Depending on the processing level of the source product, the conversion "
+"can be to the physical measure of Top Of Atmosphere reflectance (TOA), or"
+" the application of a simple atmospheric correction using the DOS1 method"
+" (Dark Object Subtraction 1), which is an image-based technique (for more"
+" information about conversion to TOA and DOS1 correction, see "
+":ref:`conversion_to_reflectance`). In case the source product is already "
+"provided as surface reflectance level, the rescaling factors are applied "
+"to convert the DN to decimal values."
+msgstr ""
+
+#: ../../image_conversion_tab.rst:145
+msgid "The following products can be processed:"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:147
+msgid "**Sentinel-2** images Level-1C;"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:148
+msgid "**Sentinel-2** images Level-2A;"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:149
+msgid "**Landsat 1, 2, 3 MSS, 4, 5, 7, 8, 9** images Collection 2 Level-2;"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:150
+msgid "**Harmonized Landsat Sentinel-2**."
+msgstr ""
+
+#: ../../image_conversion_tab.rst:153
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.preprocess_products.html>`_"
+" ."
+msgstr ""
+
+#: ../../image_conversion_tab.rst:161
+msgid ""
+"Once the input is selected, available bands are listed in the metadata "
+"table."
+msgstr ""
+
+#: ../../image_conversion_tab.rst:167 ../../image_conversion_tab.rst:255
+#: ../../image_conversion_tab.rst:271
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:168 ../../image_conversion_tab.rst:256
+#: ../../image_conversion_tab.rst:272
+msgid "Description"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:169
+msgid ":guilabel:`Directory containing bands` |open_dir|"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:170
+msgid ""
+"open a directory containing product bands; names of bands must end with "
+"the corresponding number; if the metadata file is included in this "
+"directory then :ref:`image_metadata` is automatically filled"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:174
+msgid ":guilabel:`Select metadata file` |open_file| |optional|"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:175
+msgid ""
+"select the metadata file if not included in the :guilabel:`Directory "
+"containing bands`; for Sentinel-2, the metadata file is a .xml file whose"
+" name contains ``MTD_MSIL1C``."
+msgstr ""
+
+#: ../../image_conversion_tab.rst:178
+msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number|"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:179
+msgid ""
+"if checked, pixels having ``NoData`` value are not counted during "
+"conversion and the DOS1 calculation of DNmin; it is useful when image has"
+" a black border (usually pixel value = 0)"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:182
+msgid "|checkbox| :guilabel:`Apply DOS1 atmospheric correction`"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:183
+msgid "if checked, the :ref:`DOS1_correction` is applied to all the bands"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:184
+msgid "|checkbox| :guilabel:`Create Band set and use Band set tools`"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:185
+msgid ""
+"if checked, bands are added to the active :guilabel:`Band set` after the "
+"conversion; also, the :guilabel:`Band set` is processed according to the "
+"tools checked in the :ref:`band_set_tab`"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:188
+msgid "|radiobutton| :guilabel:`Add bands in a new Band set`"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:189
+msgid ""
+"if checked, bands are added to a new empty :guilabel:`Band set` after the"
+" conversion"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:193
+msgid ""
+"For the best spectral precision one should download Surface Reflectance "
+"products (e.g., for Sentinel-2 the Level-2A Products)."
+msgstr ""
+
+#: ../../image_conversion_tab.rst:198
+msgid ""
+"For Sentinel-2 L2A images downloaded as .zip file, all the .jp2 files "
+"must be moved inside the same directory and renamed according to the band"
+" number in the ending (e.g. from name_02_10m.jp2 to name_02.jp2)."
+msgstr ""
+
+#: ../../image_conversion_tab.rst:206
+msgid "Metadata"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:208
+msgid ""
+":guilabel:`Metadata` are required for the process to identify the "
+"product. If the :guilabel:`Metadata` file is not inside the input "
+"directory, one can define the file path in :guilabel:`Select metadata "
+"file`. In the :guilabel:`Metadata`, all the bands found in are listed."
+msgstr ""
+
+#: ../../image_conversion_tab.rst:213
+msgid "The table :guilabel:`Metadata` contains the following fields."
+msgstr ""
+
+#: ../../image_conversion_tab.rst:219
+msgid "product"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:220
+msgid "spacecraft"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:221
+msgid "processing_level"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:222
+msgid "band_name"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:223
+msgid "product_path"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:224
+msgid "scale"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:225
+msgid "offset"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:226
+msgid "nodata"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:227
+msgid "date"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:228
+msgid "k1"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:229
+msgid "k2"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:230
+msgid "band_number"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:231
+msgid "e_sun"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:232
+msgid "earth_sun_distance"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:233
+msgid "product name (e.g., Sentinel-2)"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:234
+msgid "spacecraft name (e.g., Sentinel-2)"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:235
+msgid "processing level of the product (e.g., Level-2)"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:236
+msgid "name of the band"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:237
+msgid "path of the band"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:238
+msgid "scale of the band"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:239
+msgid "offset of the band"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:240
+msgid "nodata value of the band"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:241
+msgid "date of acquisition of the product"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:242
+msgid "k1 parameter for Landsat thermal conversion"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:243
+msgid "k2 parameter for Landsat thermal conversion"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:244
+msgid "band number"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:245
+msgid "solar irradiance of band"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:246
+msgid "Earth-Sun distance"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:248
+msgid ""
+"It is possible to remove bands from the table, to exclude these bands "
+"from the conversion."
+msgstr ""
+
+#: ../../image_conversion_tab.rst:257
+msgid "|remove|"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:258
+msgid "remove highlighted bands from the table :guilabel:`Metadata`"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:261
+msgid ""
+"Bands having different spatial resolution are not resampled at this "
+"stage. However, when using these bands in a classification process, all "
+"the bands are resampled on the fly to the highest spatial resolution with"
+" nearest neighbor."
+msgstr ""
+
+#: ../../image_conversion_tab.rst:273
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:274
+msgid "add this function to the :ref:`script_tab`"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:275
+msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:276
+msgid "run this function"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:280
+msgid ""
+"To reduce file size, output files are saved as data type UInt16 with "
+"scale 0.0001, which are interpreted as Float32 type by GDAL."
+msgstr ""
+

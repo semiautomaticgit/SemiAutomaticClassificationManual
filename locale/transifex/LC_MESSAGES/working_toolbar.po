@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../working_toolbar.rst:5
+msgid "Working toolbar"
+msgstr ""
+
+#: ../../working_toolbar.rst:8
+msgid "registry_save"
+msgstr ""
+
+#: ../../working_toolbar.rst:11
+msgid "project_save"
+msgstr ""
+
+#: ../../working_toolbar.rst:14
+msgid "optional"
+msgstr ""
+
+#: ../../working_toolbar.rst:17
+msgid "input_list"
+msgstr ""
+
+#: ../../working_toolbar.rst:20
+msgid "input_text"
+msgstr ""
+
+#: ../../working_toolbar.rst:23
+msgid "input_date"
+msgstr ""
+
+#: ../../working_toolbar.rst:26
+msgid "input_number"
+msgstr ""
+
+#: ../../working_toolbar.rst:29
+msgid "input_slider"
+msgstr ""
+
+#: ../../working_toolbar.rst:32
+msgid "input_table"
+msgstr ""
+
+#: ../../working_toolbar.rst:35
+msgid "plugin"
+msgstr ""
+
+#: ../../working_toolbar.rst:38
+msgid "cumulative_stretch"
+msgstr ""
+
+#: ../../working_toolbar.rst:41
+msgid "zoom_to_Image"
+msgstr ""
+
+#: ../../working_toolbar.rst:44
+msgid "zoom_to_ROI"
+msgstr ""
+
+#: ../../working_toolbar.rst:47
+msgid "zoom_to_preview"
+msgstr ""
+
+#: ../../working_toolbar.rst:50
+msgid "std_dev_stretch"
+msgstr ""
+
+#: ../../working_toolbar.rst:53
+msgid "manual_ROI"
+msgstr ""
+
+#: ../../working_toolbar.rst:56
+msgid "roi_single"
+msgstr ""
+
+#: ../../working_toolbar.rst:59
+msgid "roi_redo"
+msgstr ""
+
+#: ../../working_toolbar.rst:62
+msgid "preview"
+msgstr ""
+
+#: ../../working_toolbar.rst:65
+msgid "preview_redo"
+msgstr ""
+
+#: ../../working_toolbar.rst:68
+msgid "kml_add"
+msgstr ""
+
+#: ../../working_toolbar.rst:71
+msgid "radiobutton"
+msgstr ""
+
+#: ../../working_toolbar.rst:78
+msgid ":guilabel:`Working toolbar`"
+msgstr ""
+
+#: ../../working_toolbar.rst:81
+msgid ""
+"The :guilabel:`Working toolbar` allows for creating :guilabel:`temporary "
+"ROIs` and :guilabel:`classification previews`."
+msgstr ""
+
+#: ../../working_toolbar.rst:88
+msgid "The functions are described in detail in the following paragraphs."
+msgstr ""
+
+#: ../../working_toolbar.rst:93
+msgid "Image control"
+msgstr ""
+
+#: ../../working_toolbar.rst:99 ../../working_toolbar.rst:136
+#: ../../working_toolbar.rst:172 ../../working_toolbar.rst:220
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../working_toolbar.rst:100 ../../working_toolbar.rst:137
+#: ../../working_toolbar.rst:173 ../../working_toolbar.rst:221
+msgid "Description"
+msgstr ""
+
+#: ../../working_toolbar.rst:101
+msgid "|plugin|"
+msgstr ""
+
+#: ../../working_toolbar.rst:102
+msgid "show the :ref:`main_interface_window`"
+msgstr ""
+
+#: ../../working_toolbar.rst:103
+msgid "|zoom_to_Image|"
+msgstr ""
+
+#: ../../working_toolbar.rst:104
+msgid ""
+"zoom the map to the extent of the :guilabel:`active band set` in "
+":ref:`band_set_tab`;"
+msgstr ""
+
+#: ../../working_toolbar.rst:106
+msgid "|radiobutton| :guilabel:`RGB=` |input_list| |project_save|"
+msgstr ""
+
+#: ../../working_toolbar.rst:107
+msgid ""
+"use the button to show/hide the :guilabel:`active band set` in "
+":ref:`band_set_tab` in the map; from the list select a "
+":ref:`color_composite_definition` that is applied to the "
+":ref:`band_set_tab`; new color composites can be entered typing the band "
+"numbers separated by ``-`` or ``;`` or ``,`` (e.g. RGB = 4-3-2 or RGB = "
+"4;3;2 or RGB = 4,3,2)"
+msgstr ""
+
+#: ../../working_toolbar.rst:113
+msgid "|cumulative_stretch|"
+msgstr ""
+
+#: ../../working_toolbar.rst:114
+msgid ""
+"display the input image stretching the minimum and maximum values "
+"according to cumulative count of current map extent"
+msgstr ""
+
+#: ../../working_toolbar.rst:116
+msgid "|std_dev_stretch|"
+msgstr ""
+
+#: ../../working_toolbar.rst:117
+msgid ""
+"display the input image stretching the minimum and maximum values "
+"according to standard deviation of current map extent"
+msgstr ""
+
+#: ../../working_toolbar.rst:124
+msgid "Temporary ROI"
+msgstr ""
+
+#: ../../working_toolbar.rst:126
+msgid ""
+"A :guilabel:`temporary ROI` is a temporary polygon displayed in the map, "
+"which can be saved permanently in the :ref:`training_input`. A "
+":guilabel:`temporary ROI` can be drawn manually or using a "
+":ref:`region_growing_algorithm` (i.e. the image is segmented around a "
+"pixel seed including spectrally homogeneous pixels)."
+msgstr ""
+
+#: ../../working_toolbar.rst:138
+msgid "|zoom_to_ROI|"
+msgstr ""
+
+#: ../../working_toolbar.rst:139
+msgid "zoom the map to the extent of :guilabel:`temporary ROI`"
+msgstr ""
+
+#: ../../working_toolbar.rst:140
+msgid "|radiobutton| :guilabel:`ROI`"
+msgstr ""
+
+#: ../../working_toolbar.rst:141
+msgid ""
+"use the button to show/hide the :guilabel:`temporary ROI` and the "
+":guilabel:`Training input` in the map"
+msgstr ""
+
+#: ../../working_toolbar.rst:143
+msgid "|manual_ROI|"
+msgstr ""
+
+#: ../../working_toolbar.rst:144
+msgid ""
+"activate the pointer to create a :guilabel:`temporary ROI` by drawing a "
+"polygon in the map; left click on the map to define the ROI vertices and "
+"right click to define the last vertex closing the polygon; press the "
+"keyboard button ``CTRL`` to add a multipart polygon; press the keyboard "
+"buttons ``CTRL + Z`` for removing the last multipart polygon"
+msgstr ""
+
+#: ../../working_toolbar.rst:149
+msgid "|roi_single|:"
+msgstr ""
+
+#: ../../working_toolbar.rst:150
+msgid ""
+"activate the pointer to create a :guilabel:`temporary ROI` using the "
+"region growing algorithm; left click on the map for creating the ROI; "
+"right click on the map for displaying the spectral signature of a pixel "
+"of the :guilabel:`active band set` in the :ref:`spectral_signature_plot`;"
+" press the keyboard button ``CTRL`` and left click to add a multipart "
+"polygon (new parts are not created if overlapping to other parts); press "
+"the keyboard buttons ``CTRL + Z`` for removing the last multipart "
+"polygon; press the keyboard button ``CTRL`` and right click to plot "
+"spectral signatures of the same pixel for all the :guilabel:`band sets`"
+msgstr ""
+
+#: ../../working_toolbar.rst:159
+msgid "|roi_redo|"
+msgstr ""
+
+#: ../../working_toolbar.rst:160
+msgid ""
+"create a :guilabel:`temporary ROI` using the region growing algorithm at "
+"the same seed pixel as the previous one; it is useful after changing the "
+":guilabel:`region growing parameters`"
+msgstr ""
+
+#: ../../working_toolbar.rst:164
+msgid ""
+":guilabel:`Region growing parameters`: the following parameters are "
+"required for the ROI creation using a region growing algorithm on the "
+":ref:`band_set_tab`:"
+msgstr ""
+
+#: ../../working_toolbar.rst:174
+msgid ":guilabel:`Dist` |input_number| |project_save|"
+msgstr ""
+
+#: ../../working_toolbar.rst:175
+msgid ""
+"set the interval which defines the maximum spectral distance between the "
+"seed pixel and the surrounding pixels (in radiometry unit)"
+msgstr ""
+
+#: ../../working_toolbar.rst:177
+msgid ":guilabel:`Min` |input_number| |project_save|"
+msgstr ""
+
+#: ../../working_toolbar.rst:178
+msgid ""
+"set the minimum area of a ROI (in pixel unit); this setting overrides the"
+" ``Range radius`` until the minimum ROI size is reached; if ``Rapid ROI "
+"on band`` is checked, then ROI will have at least the size defined ``Min "
+"ROI size``; if ``Rapid ROI on band`` is unchecked, then ROI could have a "
+"size smaller than ``Min ROI size``"
+msgstr ""
+
+#: ../../working_toolbar.rst:183
+msgid ":guilabel:`Max` |input_number| |project_save|"
+msgstr ""
+
+#: ../../working_toolbar.rst:184
+msgid ""
+"set the maximum width of a ROI (i.e. the side length of a square, centred"
+" at the seed pixel, which inscribes the ROI) in pixel unit"
+msgstr ""
+
+#: ../../working_toolbar.rst:191
+msgid "Classification preview"
+msgstr ""
+
+#: ../../working_toolbar.rst:193
+msgid ""
+":guilabel:`Classification preview` allows for displaying temporary "
+"classifications (i.e. classification previews). Classification previews "
+"are useful for testing the algorithm in a small area of the "
+":ref:`band_set_tab`, before classifying the entire image which can be "
+"time consuming."
+msgstr ""
+
+#: ../../working_toolbar.rst:199
+msgid ""
+":guilabel:`Classification preview` is performed according to the "
+"parameters defined in :ref:`classification_alg`."
+msgstr ""
+
+#: ../../working_toolbar.rst:203
+msgid "ROIs and previews are performed on the active :ref:`band_set_tab`."
+msgstr ""
+
+#: ../../working_toolbar.rst:206
+msgid ""
+"After the creation of a new preview, old previews are placed in QGIS "
+"Layers inside a layer group named ``Class_temp_group`` and are deleted "
+"when the QGIS session is closed."
+msgstr ""
+
+#: ../../working_toolbar.rst:212
+msgid ""
+"Classification previews are automatically deleted from disk when the QGIS"
+" session is closed; a QGIS message (that can be ignored) could ask for "
+"the path of missing layers when opening a previously saved project."
+msgstr ""
+
+#: ../../working_toolbar.rst:222
+msgid "|zoom_to_preview|"
+msgstr ""
+
+#: ../../working_toolbar.rst:223
+msgid "zoom the map to the extent of the last :ref:`classification_preview`"
+msgstr ""
+
+#: ../../working_toolbar.rst:224
+msgid "|radiobutton| :guilabel:`Preview`"
+msgstr ""
+
+#: ../../working_toolbar.rst:225
+msgid ""
+"use the button to show/hide the last :ref:`classification_preview` in the"
+" map"
+msgstr ""
+
+#: ../../working_toolbar.rst:227
+msgid "|preview|"
+msgstr ""
+
+#: ../../working_toolbar.rst:228
+msgid ""
+"activate the pointer for the creation of a :ref:`classification_preview`;"
+" left click the map to start the classification process and display the "
+"classification preview"
+msgstr ""
+
+#: ../../working_toolbar.rst:231
+msgid "|preview_redo|"
+msgstr ""
+
+#: ../../working_toolbar.rst:232
+msgid ""
+"create a new :ref:`classification_preview` centred at the same pixel as "
+"the previous one"
+msgstr ""
+
+#: ../../working_toolbar.rst:234
+msgid ":guilabel:`T` |input_number|"
+msgstr ""
+
+#: ../../working_toolbar.rst:235
+msgid ""
+"change dynamically the classification preview transparency, which is "
+"useful for comparing  the classification to other layers"
+msgstr ""
+
+#: ../../working_toolbar.rst:237
+msgid ":guilabel:`S` |input_number| |project_save|"
+msgstr ""
+
+#: ../../working_toolbar.rst:238
+msgid ""
+"size of the preview in pixel unit (i.e. the side length of a square, "
+"centred at the clicked pixel)"
+msgstr ""
+
+#: ../../working_toolbar.rst:240
+msgid "|kml_add|"
+msgstr ""
+
+#: ../../working_toolbar.rst:241
+msgid "create a KML file of the QGIS view"
+msgstr ""
+

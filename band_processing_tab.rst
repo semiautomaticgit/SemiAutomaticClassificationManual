@@ -18,9 +18,9 @@ functions that can be applied to the :ref:`band_set_tab`.
     :maxdepth: 2
 
     classification_tab.rst
-    combination_tab.rst
-    dilation_tab.rst
-    erosion_tab.rst
-    sieve_tab.rst
-    neighbor_tab.rst
+    band_combination_tab.rst
+    band_dilation_tab.rst
+    band_erosion_tab.rst
+    band_sieve_tab.rst
+    band_neighbor_tab.rst
     pca_tab.rst

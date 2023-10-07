@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../scatter_plot.rst:5
+msgid "Scatter Plot"
+msgstr ""
+
+#: ../../scatter_plot.rst:7
+msgid "registry_save"
+msgstr ""
+
+#: ../../scatter_plot.rst:10
+msgid "project_save"
+msgstr ""
+
+#: ../../scatter_plot.rst:13
+msgid "optional"
+msgstr ""
+
+#: ../../scatter_plot.rst:16
+msgid "input_list"
+msgstr ""
+
+#: ../../scatter_plot.rst:19
+msgid "input_text"
+msgstr ""
+
+#: ../../scatter_plot.rst:22
+msgid "input_date"
+msgstr ""
+
+#: ../../scatter_plot.rst:25
+msgid "input_number"
+msgstr ""
+
+#: ../../scatter_plot.rst:28
+msgid "input_slider"
+msgstr ""
+
+#: ../../scatter_plot.rst:31
+msgid "input_table"
+msgstr ""
+
+#: ../../scatter_plot.rst:34
+msgid "checkbox"
+msgstr ""
+
+#: ../../scatter_plot.rst:37
+msgid "enter"
+msgstr ""
+
+#: ../../scatter_plot.rst:40
+msgid "remove"
+msgstr ""
+
+#: ../../scatter_plot.rst:43
+msgid "fit_plot"
+msgstr ""
+
+#: ../../scatter_plot.rst:46
+msgid "save_plot_image"
+msgstr ""
+
+#: ../../scatter_plot.rst:49
+msgid "scatter_raster_temp_ROI"
+msgstr ""
+
+#: ../../scatter_plot.rst:52
+msgid "save_plot"
+msgstr ""
+
+#: ../../scatter_plot.rst:56
+msgid ""
+"The window :guilabel:`Scatter plot` displays pixel values for two raster "
+"bands as points in the 2D space. Scatter plots are useful for assessing "
+"ROI separability between two bands."
+msgstr ""
+
+#: ../../scatter_plot.rst:64
+msgid ":guilabel:`Scatter Plot`"
+msgstr ""
+
+#: ../../scatter_plot.rst:66
+msgid "The functions are described in detail in the following paragraphs."
+msgstr ""
+
+#: ../../scatter_plot.rst:71
+msgid "Scatter list"
+msgstr ""
+
+#: ../../scatter_plot.rst:74
+msgid ""
+"The :guilabel:`Scatter list` is a table that includes the spectral "
+"signatures added from the :ref:`SCP_dock`."
+msgstr ""
+
+#: ../../scatter_plot.rst:81
+msgid "S"
+msgstr ""
+
+#: ../../scatter_plot.rst:82
+msgid "MC ID"
+msgstr ""
+
+#: ../../scatter_plot.rst:83
+msgid "MC Name"
+msgstr ""
+
+#: ../../scatter_plot.rst:84
+msgid "C ID"
+msgstr ""
+
+#: ../../scatter_plot.rst:85
+msgid "C Name"
+msgstr ""
+
+#: ../../scatter_plot.rst:86
+msgid "Color"
+msgstr ""
+
+#: ../../scatter_plot.rst:87
+msgid ""
+"checkbox field; if checked, the spectral signature is displayed in the "
+"plot"
+msgstr ""
+
+#: ../../scatter_plot.rst:89
+msgid "signature Macroclass ID"
+msgstr ""
+
+#: ../../scatter_plot.rst:90
+msgid "signature Macroclass Name"
+msgstr ""
+
+#: ../../scatter_plot.rst:91
+msgid "signature Class ID"
+msgstr ""
+
+#: ../../scatter_plot.rst:92
+msgid "signature Class Name"
+msgstr ""
+
+#: ../../scatter_plot.rst:93
+msgid "signature color"
+msgstr ""
+
+#: ../../scatter_plot.rst:95
+msgid "The following tools are available."
+msgstr ""
+
+#: ../../scatter_plot.rst:101 ../../scatter_plot.rst:151
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../scatter_plot.rst:102 ../../scatter_plot.rst:152
+msgid "Description"
+msgstr ""
+
+#: ../../scatter_plot.rst:103
+msgid ":guilabel:`Band X` |input_number|"
+msgstr ""
+
+#: ../../scatter_plot.rst:104
+msgid "X band of the plot"
+msgstr ""
+
+#: ../../scatter_plot.rst:105
+msgid ":guilabel:`Band Y` |input_number|"
+msgstr ""
+
+#: ../../scatter_plot.rst:106
+msgid "Y band of the plot"
+msgstr ""
+
+#: ../../scatter_plot.rst:107 ../../scatter_plot.rst:124
+msgid "|remove|"
+msgstr ""
+
+#: ../../scatter_plot.rst:108 ../../scatter_plot.rst:125
+msgid "remove highlighted signatures from this list"
+msgstr ""
+
+#: ../../scatter_plot.rst:109
+msgid "|save_plot|"
+msgstr ""
+
+#: ../../scatter_plot.rst:110
+msgid "add highlighted spectral signatures to :ref:`ROI_list`"
+msgstr ""
+
+#: ../../scatter_plot.rst:111
+msgid "|checkbox| :guilabel:`Precision` |input_list|"
+msgstr ""
+
+#: ../../scatter_plot.rst:112
+msgid ""
+"use custom precision for calculation (precision should be selected "
+"according significant digits): * 4 = :math:`10^{-4}` * 3 = "
+":math:`10^{-3}` * 2 = :math:`10^{-2}` * 1 = :math:`10^{-1}` * 0 = 1 * -1 "
+"= 10 * -2 = :math:`10^{2}` * -3 = :math:`10^{3}`"
+msgstr ""
+
+#: ../../scatter_plot.rst:122
+msgid ":guilabel:`Calculate` |enter|:"
+msgstr ""
+
+#: ../../scatter_plot.rst:123
+msgid "calculate the scatter plot for the ROIs checked in the list"
+msgstr ""
+
+#: ../../scatter_plot.rst:126
+msgid "|scatter_raster_temp_ROI|"
+msgstr ""
+
+#: ../../scatter_plot.rst:127
+msgid ""
+"add a temporary scatter plot to the list (as ``MC Name = tempScatter``) "
+"and start the plot calculation of the last temporary ROI (see "
+":ref:`working_toolbar`)"
+msgstr ""
+
+#: ../../scatter_plot.rst:132
+msgid ""
+"Using a precision value that is too high can result in slow calculation "
+"or failure."
+msgstr ""
+
+#: ../../scatter_plot.rst:139
+msgid "Plot"
+msgstr ""
+
+#: ../../scatter_plot.rst:141
+msgid ""
+"**Left click** and hold inside the plot to **move** the view of the plot."
+" Use the **mouse wheel** to **zoom in and out** the view of the plot. "
+"**Right click** and hold inside the plot to **zoom in a specific area** "
+"of the plot."
+msgstr ""
+
+#: ../../scatter_plot.rst:153
+msgid ":guilabel:`Colormap` |input_list| |enter|"
+msgstr ""
+
+#: ../../scatter_plot.rst:154
+msgid ""
+"select a colormap that is applied to highlighted scatter plots in the "
+"list when |enter| is clicked; if no scatter plot is highlighted then the "
+"colormap is applied to all the scatter plots"
+msgstr ""
+
+#: ../../scatter_plot.rst:157
+msgid "|fit_plot|"
+msgstr ""
+
+#: ../../scatter_plot.rst:158
+msgid "automatically fit the plot to data"
+msgstr ""
+
+#: ../../scatter_plot.rst:159
+msgid "|save_plot_image|"
+msgstr ""
+
+#: ../../scatter_plot.rst:160
+msgid ""
+"save the plot image to file (available formats are ``.jpg``, ``.png``, "
+"and ``.pdf``)"
+msgstr ""
+
+#: ../../scatter_plot.rst:162
+msgid ":guilabel:`x y`"
+msgstr ""
+
+#: ../../scatter_plot.rst:163
+msgid "display x y coordinates of mouse cursor inside the plot"
+msgstr ""
+
+#: ../../scatter_plot.rst:170
+msgid ":guilabel:`Example Scatter Plot`"
+msgstr ""
+

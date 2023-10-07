@@ -141,3 +141,141 @@ about conversion to TOA and DOS1 correction,
 see :ref:`conversion_to_reflectance`).
 In case the source product is already provided as surface reflectance level,
 the rescaling factors are applied to convert the DN to decimal values.
+
+The following products can be processed:
+
+* **Sentinel-2** images Level-1C;
+* **Sentinel-2** images Level-2A;
+* **Landsat 1, 2, 3 MSS, 4, 5, 7, 8, 9** images Collection 2 Level-2;
+* **Harmonized Landsat Sentinel-2**.
+
+.. tip::
+    Information about APIs of this tool in Remotior Sensus at this
+    `link <https://remotior-sensus.readthedocs.io/en/latest/remotior_sensus.tools.preprocess_products.html>`_ .
+
+.. _image_conversion:
+
+Image conversion
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once the input is selected, available bands are listed in the metadata table.
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - Tool symbol and name
+      - Description
+    * - :guilabel:`Directory containing bands` |open_dir|
+      - open a directory containing product bands; names of bands
+        must end with the corresponding number; if the metadata file is
+        included in this directory then :ref:`image_metadata` is
+        automatically filled
+    * - :guilabel:`Select metadata file` |open_file| |optional|
+      - select the metadata file if not included in the
+        :guilabel:`Directory containing bands`; for Sentinel-2, the metadata
+        file is a .xml file whose name contains ``MTD_MSIL1C``.
+    * - |checkbox| :guilabel:`Use value as  NoData` |input_number|
+      - if checked, pixels having ``NoData`` value are not counted during
+        conversion and the DOS1 calculation of DNmin; it is useful when image
+        has a black border (usually pixel value = 0)
+    * - |checkbox| :guilabel:`Apply DOS1 atmospheric correction`
+      - if checked, the :ref:`DOS1_correction` is applied to all the bands
+    * - |checkbox| :guilabel:`Create Band set and use Band set tools`
+      - if checked, bands are added to the active :guilabel:`Band set` after
+        the conversion; also, the :guilabel:`Band set` is processed according
+        to the tools checked in the :ref:`band_set_tab`
+    * - |radiobutton| :guilabel:`Add bands in a new Band set`
+      - if checked, bands are added to a new empty :guilabel:`Band set` after
+        the conversion
+
+.. tip::
+    For the best spectral precision one should download Surface Reflectance
+    products (e.g., for Sentinel-2 the Level-2A Products).
+
+
+.. warning::
+    For Sentinel-2 L2A images downloaded as .zip file, all the .jp2 files must
+    be moved inside the same directory and renamed according to the band number
+    in the ending (e.g. from name_02_10m.jp2 to name_02.jp2).
+
+
+.. _image_metadata:
+
+Metadata
+^^^^^^^^^^^^^^^^^
+
+:guilabel:`Metadata` are required for the process to identify the product.
+If the :guilabel:`Metadata` file is not inside the input directory, one can
+define the file path in :guilabel:`Select metadata file`.
+In the :guilabel:`Metadata`, all the bands found in are listed.
+
+The table :guilabel:`Metadata` contains the following fields.
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - product
+      - spacecraft
+      - processing_level
+      - band_name
+      - product_path
+      - scale
+      - offset
+      - nodata
+      - date
+      - k1
+      - k2
+      - band_number
+      - e_sun
+      - earth_sun_distance
+    * - product name (e.g., Sentinel-2)
+      - spacecraft name (e.g., Sentinel-2)
+      - processing level of the product (e.g., Level-2)
+      - name of the band
+      - path of the band
+      - scale of the band
+      - offset of the band
+      - nodata value of the band
+      - date of acquisition of the product
+      - k1 parameter for Landsat thermal conversion
+      - k2 parameter for Landsat thermal conversion
+      - band number
+      - solar irradiance of band
+      - Earth-Sun distance
+
+It is possible to remove bands from the table, to exclude these bands from
+the conversion.
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - Tool symbol and name
+      - Description
+    * - |remove|
+      -  remove highlighted bands from the table :guilabel:`Metadata`
+
+
+Bands having different spatial resolution are not resampled at this stage.
+However, when using these bands in a classification process, all the bands
+are resampled on the fly to the highest spatial resolution with nearest
+neighbor.
+
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - Tool symbol and name
+      - Description
+    * - :guilabel:`Script` |script_tool|
+      - add this function to the :ref:`script_tab`
+    * - :guilabel:`RUN` |run|
+      - run this function
+
+
+.. tip::
+    To reduce file size, output files are saved as data type UInt16 with scale
+    0.0001, which are interpreted as Float32 type by GDAL.

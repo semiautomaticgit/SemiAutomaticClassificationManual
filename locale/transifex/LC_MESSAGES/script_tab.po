@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../script_tab.rst:5 ../../script_tab.rst:66
+msgid "Script"
+msgstr ""
+
+#: ../../script_tab.rst:10
+msgid "registry_save"
+msgstr ""
+
+#: ../../script_tab.rst:13
+msgid "project_save"
+msgstr ""
+
+#: ../../script_tab.rst:16
+msgid "optional"
+msgstr ""
+
+#: ../../script_tab.rst:19
+msgid "input_list"
+msgstr ""
+
+#: ../../script_tab.rst:22
+msgid "input_text"
+msgstr ""
+
+#: ../../script_tab.rst:25
+msgid "input_date"
+msgstr ""
+
+#: ../../script_tab.rst:28
+msgid "input_number"
+msgstr ""
+
+#: ../../script_tab.rst:31
+msgid "input_table"
+msgstr ""
+
+#: ../../script_tab.rst:34
+msgid "open_file"
+msgstr ""
+
+#: ../../script_tab.rst:37
+msgid "new_file"
+msgstr ""
+
+#: ../../script_tab.rst:40
+msgid "add"
+msgstr ""
+
+#: ../../script_tab.rst:43
+msgid "reset"
+msgstr ""
+
+#: ../../script_tab.rst:46
+msgid "export"
+msgstr ""
+
+#: ../../script_tab.rst:53
+msgid ":guilabel:`Script`"
+msgstr ""
+
+#: ../../script_tab.rst:55
+msgid ""
+"This tab displays the output of the :guilabel:`Script` buttons that are "
+"available in several tools, which ease the creation of Python scripts "
+"using `Remotior Sensus <https://remotior-"
+"sensus.readthedocs.io/en/latest>`_."
+msgstr ""
+
+#: ../../script_tab.rst:59
+msgid ""
+"It is possible to edit or copy the Python code and run it in a Python "
+"shell. New code is appended to the existing one, when using the "
+":guilabel:`Script` buttons."
+msgstr ""
+
+#: ../../script_tab.rst:72
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../script_tab.rst:73
+msgid "Description"
+msgstr ""
+
+#: ../../script_tab.rst:74
+msgid "|reset|"
+msgstr ""
+
+#: ../../script_tab.rst:75
+msgid "clear the content of the script"
+msgstr ""
+
+#: ../../script_tab.rst:76
+msgid ":guilabel:`Copy`"
+msgstr ""
+
+#: ../../script_tab.rst:77
+msgid "copy the content of the script to the clipboard"
+msgstr ""
+
+#: ../../script_tab.rst:78
+msgid ":guilabel:`Save to file` |export|"
+msgstr ""
+
+#: ../../script_tab.rst:79
+msgid "save the script to file ``.py``"
+msgstr ""
+

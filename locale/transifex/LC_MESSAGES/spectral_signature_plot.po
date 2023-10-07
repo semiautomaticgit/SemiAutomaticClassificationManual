@@ -1,0 +1,343 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../spectral_signature_plot.rst:5
+msgid "Spectral Signature Plot"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:7
+msgid "registry_save"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:10
+msgid "project_save"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:13
+msgid "optional"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:16
+msgid "input_list"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:19
+msgid "input_text"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:22
+msgid "input_date"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:25
+msgid "input_number"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:28
+msgid "input_slider"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:31
+msgid "input_table"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:34
+msgid "checkbox"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:37
+msgid "enter"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:40
+msgid "remove"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:43
+msgid "calculate_spectral_distances"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:46
+msgid "fit_plot"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:49
+msgid "save_plot_image"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:52
+msgid "save_plot"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:56
+msgid ""
+"The window :guilabel:`Spectral Signature Plot` includes several functions"
+" for displaying spectral signature values as a function of wavelength "
+"(defined in the :ref:`band_set_tab`). Signatures can be added to the "
+"``Spectral Signature Plot`` through the :ref:`SCP_dock`."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:62
+msgid ""
+"Overlapping signatures (belonging to different classes or macroclasses) "
+"are highlighted in orange in the table :ref:`signature_list_plot`; the "
+"overlapping check is performed considering :guilabel:`MC ID` or "
+":guilabel:`C ID` according to the setting :guilabel:`Use` |checkbox| "
+":guilabel:`MC ID` |checkbox| :guilabel:`C ID` in "
+":ref:`classification_tab`. Overlapping signatures sharing the same "
+":guilabel:`ID` are not highlighted."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:73
+msgid ":guilabel:`Spectral Signature Plot`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:78
+msgid "Signature list"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:80
+msgid ""
+"The :guilabel:`Signature list` is a table that includes the spectral "
+"signatures added from the :ref:`SCP_dock`."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:87
+msgid "S"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:88
+msgid "MC ID"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:89
+msgid "MC Name"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:90
+msgid "C ID"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:91
+msgid "C Name"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:92
+msgid "Color"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:93
+msgid ""
+"checkbox field; if checked, the spectral signature is displayed in the "
+"plot"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:95
+msgid "signature Macroclass ID"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:96
+msgid "signature Macroclass Name"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:97
+msgid "signature Class ID"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:98
+msgid "signature Class Name"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:99
+msgid ""
+"signature color; also, the combination :guilabel:`MC ID`-:guilabel:`C ID`"
+" is displayed in case of overlap with other signatures"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:103 ../../spectral_signature_plot.rst:131
+msgid "The following tools are available."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:109 ../../spectral_signature_plot.rst:137
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:110 ../../spectral_signature_plot.rst:138
+msgid "Description"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:111
+msgid "|remove|"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:112
+msgid "remove highlighted signatures from this list"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:113
+msgid "|save_plot|"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:114
+msgid "add highlighted spectral signatures to :ref:`ROI_list`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:115
+msgid "|calculate_spectral_distances|"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:116
+msgid ""
+"calculate the spectral distances of spectral signatures displayed in the "
+"plot; distances are reported in the tab :ref:`spectral_distances`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:123
+msgid "Plot"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:125
+msgid ""
+"**Left click** and hold inside the plot to **move** the view of the plot."
+" Use the **mouse wheel** to **zoom in and out** the view of the plot. "
+"**Right click** and hold inside the plot to **zoom in a specific area** "
+"of the plot. Legend inside the plot can be moved using the mouse."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:139
+msgid "|fit_plot|"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:140
+msgid "automatically fit the plot to data"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:141
+msgid "|save_plot_image|"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:142
+msgid ""
+"save the plot image to file (available formats are ``.jpg``, ``.png``, "
+"and ``.pdf``)"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:144
+msgid "|checkbox| :guilabel:`Plot value range`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:145
+msgid ""
+"if checked, plot the value range for each signature with a semi-"
+"transparent area"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:147
+msgid "|checkbox| :guilabel:`Band lines`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:148
+msgid "if checked, display a vertical line for each band (center wavelength)"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:149
+msgid "|checkbox| :guilabel:`Grid`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:150
+msgid "if checked, display a grid"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:151
+msgid ":guilabel:`Max characters` |input_number|"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:152
+msgid "set the maximum length of text in the legend"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:153
+msgid ":guilabel:`x y`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:154
+msgid "display x y coordinates of mouse cursor inside the plot"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:161
+msgid ":guilabel:`Spectral Signature: Example of plot`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:166
+msgid "Signature details"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:168
+msgid ""
+"Display the details about spectral signatures (i.e. Wavelength, Values, "
+"and Standard deviation). In case of signatures calculated from ROIs, the "
+"ROI size (number of pixels) is also displayed."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:177
+msgid ":guilabel:`Spectral Signature: Example of signature details`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:182
+msgid "Spectral distances"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:184
+msgid ""
+"Display spectral distances of signatures (see "
+":ref:`signature_list_plot`), which are useful for assessing ROI "
+"separability (see :ref:`spectral_distance_definition`)."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:195
+msgid "The following spectral distances are calculated :"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:189
+msgid ""
+":ref:`spectral_angle`: range [0 = identical, 90 = different]; useful in "
+"particular for :ref:`spectra_angle_mapping_algorithm` classifications"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:192
+msgid ""
+":ref:`euclidean_distance`: useful in particular for "
+":ref:`minimum_distance_algorithm` classifications"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:194
+msgid ""
+":ref:`Bray_Curtis_similarity`: range [0 = different, 100 = identical]; "
+"useful in general"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:197
+msgid "Values are displayed in red if signatures are particularly similar."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:203
+msgid ":guilabel:`Spectral Signature: Example of spectral distances`"
+msgstr ""
+

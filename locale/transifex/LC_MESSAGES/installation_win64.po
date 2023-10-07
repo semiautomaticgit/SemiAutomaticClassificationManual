@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../installation_win64.rst:5
+msgid "Installation in Windows 64 bit"
+msgstr ""
+
+#: ../../installation_win64.rst:11
+msgid "QGIS download and installation"
+msgstr ""
+
+#: ../../installation_win64.rst:13
+msgid ""
+"Download the latest QGIS version 64 bit from `here "
+"<https://www.qgis.org/en/site/forusers/download.html#windows>`_ ;"
+msgstr ""
+
+#: ../../installation_win64.rst:16
+msgid ""
+"Execute the QGIS installer with administrative rights, accepting the "
+"default configuration."
+msgstr ""
+
+#: ../../installation_win64.rst:19
+msgid "Now, QGIS is installed."
+msgstr ""
+
+#: ../../installation_win64.rst:27
+msgid "Installation of required dependencies"
+msgstr ""
+
+#: ../../installation_win64.rst:29
+msgid ""
+"The Semi-Automatic Classification Plugin requires Remotior Sensus, GDAL, "
+"NumPy and SciPy for most functionalities. Optionally, scikit-learn and "
+"PyTorch are required for machine learning."
+msgstr ""
+
+#: ../../installation_win64.rst:33
+msgid ""
+"Therefore, we need to install the dependencies that are not included in "
+"the QGIS installation."
+msgstr ""
+
+#: ../../installation_win64.rst:37
+msgid "Close QGIS;"
+msgstr ""
+
+#: ../../installation_win64.rst:39
+msgid ""
+"From the Start menu, open OSGeo4W Shell (administrative rights may be "
+"required);"
+msgstr ""
+
+#: ../../installation_win64.rst:43
+msgid "Enter the following command:"
+msgstr ""
+
+#: ../../installation_win64.rst:50
+msgid "Follow the same procedure for updating the dependencies."
+msgstr ""
+
+#: ../../installation_win64.rst:54
+msgid "In case of issues please read :ref:`installation_conda`."
+msgstr ""
+
+#: ../../installation_win64.rst:60
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr ""
+
+#: ../../installation_win64.rst:62
+msgid "Run QGIS;"
+msgstr ""
+
+#: ../../installation_win64.rst:64
+msgid "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr ""
+
+#: ../../installation_win64.rst:68
+msgid ""
+"From the menu ``All``, select the Semi-Automatic Classification Plugin "
+"and click the button ``Install plugin``;"
+msgstr ""
+
+#: ../../installation_win64.rst:74
+msgid ""
+"The SCP should be automatically activated; however, be sure that the "
+"Semi-Automatic Classification Plugin is checked in the menu ``Installed``"
+" (the restart of QGIS could be necessary to complete the SCP "
+"installation);"
+msgstr ""
+
+#: ../../installation_win64.rst:84
+msgid "Configuration of the plugin"
+msgstr ""
+
+#: ../../installation_win64.rst:86
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and a dock and"
+" a toolbar should be added to QGIS. Also, a SCP menu is available in the "
+"Menu Bar of QGIS. It is possible to move the toolbar and the dock "
+"according to your needs, as in the following image."
+msgstr ""
+
+#: ../../installation_win64.rst:95
+msgid "settings_tool"
+msgstr ""
+
+#: ../../installation_win64.rst:98
+msgid ""
+"The configuration of available RAM is recommended in order to reduce the "
+"processing time. From the :ref:`SCP_menu` select |settings_tool| "
+"``Settings > Processing`` ."
+msgstr ""
+
+#: ../../installation_win64.rst:104
+msgid ""
+"In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
+"that should be half of the system RAM. For instance, if your system has "
+"2GB of RAM, set the value to 1024MB."
+msgstr ""
+
+#: ../../installation_win64.rst:114
+msgid "Update of required dependencies"
+msgstr ""
+
+#: ../../installation_win64.rst:116
+msgid ""
+"The dependency Remotior Sensus is frequently updated. The Semi-Automatic "
+"Classification Plugin can check automatically if a new version is "
+"available, and display a message in the :ref:`scp_dock`."
+msgstr ""
+
+#: ../../installation_win64.rst:123
+msgid ""
+"It is recommended to close QGIS and update Remotior Sensus following the "
+"same installation steps described in "
+":ref:`installation_dependencies_win64bit` ."
+msgstr ""
+

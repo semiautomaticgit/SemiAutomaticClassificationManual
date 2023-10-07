@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../rgb_composite_tab.rst:5 ../../rgb_composite_tab.rst:100
+msgid "RGB composite"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:13
+msgid "project_save"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:16
+msgid "optional"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:19
+msgid "checkbox"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:22
+msgid "input_list"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:25
+msgid "input_table"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:28
+msgid "reload"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:31
+msgid "reset"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:34
+msgid "remove"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:37
+msgid "run"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:40
+msgid "open_file"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:43
+msgid "order_by_name"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:46
+msgid "open_dir"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:49
+msgid "select_all"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:52
+msgid "move_up"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:55
+msgid "add_bandset"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:58
+msgid "move_down"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:61
+msgid "import"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:64
+msgid "export"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:67
+msgid "plus"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:70
+msgid "bandset_tool"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:73
+msgid "input_text"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:76
+msgid "input_date"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:79
+msgid "enter"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:82
+msgid "add"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:85
+msgid "rgb_tool"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:92
+msgid "|rgb_tool| :guilabel:`RGB composite`"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:94
+msgid ""
+"This tab allows for managing the RGB :ref:`color_composite_definition` "
+"used in the list :guilabel:`RGB=` of the :ref:`image_control`."
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:103
+msgid ""
+"The table :guilabel:`RGB composite` contains the field :guilabel:`RGB` "
+"that allows for entering an RGB combination."
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:110 ../../rgb_composite_tab.rst:139
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:111 ../../rgb_composite_tab.rst:140
+msgid "Description"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:112
+msgid "|move_up|"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:113
+msgid "move highlighted RGB combination upward"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:114
+msgid "|move_down|"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:115
+msgid "move highlighted RGB combination downward"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:116
+msgid "|order_by_name|"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:117
+msgid "automatically sort RGB combinations by name"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:118
+msgid "|add|"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:119
+msgid "add a row to the table"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:120
+msgid "|remove|"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:121
+msgid "remove highlighted rows from the table"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:122
+msgid "|reset|"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:123
+msgid "clear all RGB combinations from :guilabel:`RGB list`"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:124
+msgid "|export|"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:125
+msgid "export the :guilabel:`RGB list` to a file (i.e. ``.csv``)"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:126
+msgid "|import|"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:127
+msgid "import a previously saved :guilabel:`RGB list` from file (i.e. ``.csv``)"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:133
+msgid "Automatic RGB"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:141
+msgid ":guilabel:`Band combinations` |enter|"
+msgstr ""
+
+#: ../../rgb_composite_tab.rst:142
+msgid ""
+"add the combinations of all bands (i.e. permutation) to the "
+":ref:`RGB_list_table` (e.g. 1-2-3, 1-2-4, ..., 3-2-1)"
+msgstr ""
+

@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../scp_menu.rst:5
+msgid "SCP menu"
+msgstr ""
+
+#: ../../scp_menu.rst:8
+msgid "band_set"
+msgstr ""
+
+#: ../../scp_menu.rst:11
+msgid "download"
+msgstr ""
+
+#: ../../scp_menu.rst:14
+msgid "tools"
+msgstr ""
+
+#: ../../scp_menu.rst:17
+msgid "preprocessing"
+msgstr ""
+
+#: ../../scp_menu.rst:20
+msgid "band_processing"
+msgstr ""
+
+#: ../../scp_menu.rst:23
+msgid "postprocessing"
+msgstr ""
+
+#: ../../scp_menu.rst:26
+msgid "sign_plot"
+msgstr ""
+
+#: ../../scp_menu.rst:29
+msgid "scatter_plot"
+msgstr ""
+
+#: ../../scp_menu.rst:32
+msgid "bandcalc"
+msgstr ""
+
+#: ../../scp_menu.rst:35
+msgid "settings"
+msgstr ""
+
+#: ../../scp_menu.rst:38
+msgid "script_tool"
+msgstr ""
+
+#: ../../scp_menu.rst:41
+msgid "guide"
+msgstr ""
+
+#: ../../scp_menu.rst:44
+msgid "help"
+msgstr ""
+
+#: ../../scp_menu.rst:47
+msgid "docks"
+msgstr ""
+
+#: ../../scp_menu.rst:54
+msgid ":guilabel:`SCP menu`"
+msgstr ""
+
+#: ../../scp_menu.rst:56
+msgid ""
+"The :guilabel:`SCP menu` allows for the selection of the main functions "
+"of the :ref:`main_interface_window`, the :ref:`spectral_signature_plot`, "
+"and the :ref:`scatter_plot`."
+msgstr ""
+
+#: ../../scp_menu.rst:64
+msgid "|band_set|"
+msgstr ""
+
+#: ../../scp_menu.rst:65
+msgid ":ref:`band_set_tab`"
+msgstr ""
+
+#: ../../scp_menu.rst:66
+msgid "|download|"
+msgstr ""
+
+#: ../../scp_menu.rst:67
+msgid ":ref:`download_tab`"
+msgstr ""
+
+#: ../../scp_menu.rst:68
+msgid "|tools|"
+msgstr ""
+
+#: ../../scp_menu.rst:69
+msgid ":ref:`tools_tab`"
+msgstr ""
+
+#: ../../scp_menu.rst:70
+msgid "|preprocessing|"
+msgstr ""
+
+#: ../../scp_menu.rst:71
+msgid ":ref:`pre_processing_tab`"
+msgstr ""
+
+#: ../../scp_menu.rst:72
+msgid "|band_processing|"
+msgstr ""
+
+#: ../../scp_menu.rst:73
+msgid ":ref:`band_processing_tab`"
+msgstr ""
+
+#: ../../scp_menu.rst:74
+msgid "|postprocessing|"
+msgstr ""
+
+#: ../../scp_menu.rst:75
+msgid ":ref:`post_processing_tab`"
+msgstr ""
+
+#: ../../scp_menu.rst:76
+msgid "|bandcalc|"
+msgstr ""
+
+#: ../../scp_menu.rst:77
+msgid ":ref:`band_calc_tab`"
+msgstr ""
+
+#: ../../scp_menu.rst:78
+msgid "|script_tool|"
+msgstr ""
+
+#: ../../scp_menu.rst:79
+msgid ":ref:`script_tab`"
+msgstr ""
+
+#: ../../scp_menu.rst:80
+msgid "|settings|"
+msgstr ""
+
+#: ../../scp_menu.rst:81
+msgid ":ref:`settings_tab`"
+msgstr ""
+
+#: ../../scp_menu.rst:82
+msgid "|sign_plot|"
+msgstr ""
+
+#: ../../scp_menu.rst:83
+msgid ":ref:`spectral_signature_plot`"
+msgstr ""
+
+#: ../../scp_menu.rst:84
+msgid "|scatter_plot|"
+msgstr ""
+
+#: ../../scp_menu.rst:85
+msgid ":ref:`scatter_plot`"
+msgstr ""
+
+#: ../../scp_menu.rst:86
+msgid "|guide|"
+msgstr ""
+
+#: ../../scp_menu.rst:87
+msgid ":guilabel:`User manual`: open the online user manual in a web browser"
+msgstr ""
+
+#: ../../scp_menu.rst:88
+msgid "|help|"
+msgstr ""
+
+#: ../../scp_menu.rst:89
+msgid ""
+":guilabel:`Online help`: open the `Online help "
+"<https://fromgistors.blogspot.com/p/online-help.html>`_ in a web browser;"
+" also, a `Facebook group "
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/>`_ is"
+" available for sharing information and asking for help about SCP"
+msgstr ""
+
+#: ../../scp_menu.rst:93
+msgid ":guilabel:`About`"
+msgstr ""
+
+#: ../../scp_menu.rst:94
+msgid "Information about the plugin"
+msgstr ""
+
+#: ../../scp_menu.rst:95
+msgid "|docks|"
+msgstr ""
+
+#: ../../scp_menu.rst:96
+msgid ""
+":guilabel:`Show plugin`: show all the SCP toolbars and dock if previously"
+" hidden"
+msgstr ""
+

@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../classification_to_vector_tab.rst:5
+#: ../../classification_to_vector_tab.rst:141
+msgid "Classification to vector"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:11
+msgid "registry_save"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:14
+msgid "project_save"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:17
+msgid "optional"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:20
+msgid "input_list"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:23
+msgid "input_text"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:26
+msgid "input_date"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:29
+msgid "input_number"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:32
+msgid "input_table"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:35
+msgid "open_file"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:38
+msgid "new_file"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:41
+msgid "add"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:44
+msgid "reset"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:47
+msgid "bandset_tool"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:50
+msgid "download"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:53
+msgid "export"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:56
+msgid "tools"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:59
+msgid "preprocessing"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:62
+msgid "band_processing"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:65
+msgid "postprocessing"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:68
+msgid "bandcalc"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:71
+msgid "settings"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:74
+msgid "script_tool"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:77
+msgid "enter"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:80
+msgid "zoom_to_ROI"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:83
+msgid "check"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:86
+msgid "select_all"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:89
+msgid "docks"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:92
+msgid "add_sign_tool"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:95
+msgid "guide"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:98
+msgid "help"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:101
+msgid "reload"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:104
+msgid "checkbox"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:107
+msgid "run"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:110
+msgid "radiobutton"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:113
+msgid "pointer"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:116
+msgid "threshold_tool"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:124
+msgid ":guilabel:`Classification to vector`"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:127
+msgid ""
+"This tab allows for the conversion of a classification raster to vector "
+"GeoPackage (``.gpkg``) . Parallel processes are used for the conversion, "
+"resulting in a vector output which is split in as many portions as the "
+"process numbers. The argument dissolve allows for merging these portions,"
+" but it requires additional processing time depending on vector size."
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:135
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_to_vector.html>`_"
+" ."
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:147
+#: ../../classification_to_vector_tab.rst:164
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:148
+#: ../../classification_to_vector_tab.rst:165
+msgid "Description"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:149
+msgid ":guilabel:`Select the classification` |input_list|"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:150
+msgid "select a classification raster (already loaded in QGIS)"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:151
+msgid "|reload|"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:152
+msgid "refresh layer list"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:158
+msgid "Symbology"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:166
+msgid ""
+"|checkbox| :guilabel:`Use code from Signature list` |input_list| "
+"|optional|"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:167
+msgid ""
+"if checked, color and class information are defined from :ref:`ROI_list` "
+"* ``MC ID``: use the ID of macroclasses * ``C ID``: use the ID of classes"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:171
+msgid "|checkbox| :guilabel:`Dissolve output` |optional|"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:172
+msgid "if checked, dissolve adjacent polygons having the same values"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:178
+msgid "Run"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:180
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:181
+msgid "add this function to the :ref:`script_tab`"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:182
+msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../classification_to_vector_tab.rst:183
+msgid "run this function"
+msgstr ""
+

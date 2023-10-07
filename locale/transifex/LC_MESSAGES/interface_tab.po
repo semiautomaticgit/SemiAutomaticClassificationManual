@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../interface_tab.rst:5
+msgid "Interface"
+msgstr ""
+
+#: ../../interface_tab.rst:11
+msgid "registry_save"
+msgstr ""
+
+#: ../../interface_tab.rst:14
+msgid "project_save"
+msgstr ""
+
+#: ../../interface_tab.rst:17
+msgid "optional"
+msgstr ""
+
+#: ../../interface_tab.rst:20
+msgid "input_list"
+msgstr ""
+
+#: ../../interface_tab.rst:23
+msgid "input_text"
+msgstr ""
+
+#: ../../interface_tab.rst:26
+msgid "input_slider"
+msgstr ""
+
+#: ../../interface_tab.rst:29
+msgid "checkbox"
+msgstr ""
+
+#: ../../interface_tab.rst:32
+msgid "reset"
+msgstr ""
+
+#: ../../interface_tab.rst:35
+msgid "export"
+msgstr ""
+
+#: ../../interface_tab.rst:38
+msgid "input_number"
+msgstr ""
+
+#: ../../interface_tab.rst:41
+msgid "enter"
+msgstr ""
+
+#: ../../interface_tab.rst:44
+msgid "open_dir"
+msgstr ""
+
+#: ../../interface_tab.rst:51
+msgid ":guilabel:`Interface`"
+msgstr ""
+
+#: ../../interface_tab.rst:53
+msgid ""
+"This tab includes a few advanced settings of the :guilabel:`SCP` "
+"interface."
+msgstr ""
+
+#: ../../interface_tab.rst:58
+msgid "ROI style"
+msgstr ""
+
+#: ../../interface_tab.rst:60
+msgid ""
+"Change ROI color and transparency for a better visualization of temporary"
+" ROIs on the map."
+msgstr ""
+
+#: ../../interface_tab.rst:67 ../../interface_tab.rst:87
+#: ../../interface_tab.rst:104 ../../interface_tab.rst:123
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../interface_tab.rst:68 ../../interface_tab.rst:88
+#: ../../interface_tab.rst:105 ../../interface_tab.rst:124
+msgid "Description"
+msgstr ""
+
+#: ../../interface_tab.rst:69
+msgid ":guilabel:`ROI color` |registry_save|"
+msgstr ""
+
+#: ../../interface_tab.rst:70
+msgid "button for changing ROI color"
+msgstr ""
+
+#: ../../interface_tab.rst:71
+msgid ":guilabel:`Transparency` |input_slider| |registry_save|"
+msgstr ""
+
+#: ../../interface_tab.rst:72
+msgid "change ROI transparency"
+msgstr ""
+
+#: ../../interface_tab.rst:73 ../../interface_tab.rst:91
+#: ../../interface_tab.rst:108
+msgid "|reset|"
+msgstr ""
+
+#: ../../interface_tab.rst:74
+msgid "reset ROI color and transparency to default"
+msgstr ""
+
+#: ../../interface_tab.rst:79
+msgid "Variable name for expressions"
+msgstr ""
+
+#: ../../interface_tab.rst:81
+msgid ""
+"Set the variable name used in expressions of the "
+":ref:`reclassification_tab`."
+msgstr ""
+
+#: ../../interface_tab.rst:89
+msgid ":guilabel:`Variable name` |input_text| |registry_save|"
+msgstr ""
+
+#: ../../interface_tab.rst:90
+msgid "set variable name (default is ``raster``)"
+msgstr ""
+
+#: ../../interface_tab.rst:92
+msgid "reset variable name to default"
+msgstr ""
+
+#: ../../interface_tab.rst:97
+msgid "Temporary group name"
+msgstr ""
+
+#: ../../interface_tab.rst:106
+msgid ":guilabel:`Group name` |input_text| |registry_save|"
+msgstr ""
+
+#: ../../interface_tab.rst:107
+msgid "set group name (default is ``Class_temp_group``)"
+msgstr ""
+
+#: ../../interface_tab.rst:109
+msgid "reset group name to default"
+msgstr ""
+
+#: ../../interface_tab.rst:110
+msgid ""
+"|checkbox| :guilabel:`Create RGB composite of band set when a project is "
+"loaded` |registry_save|"
+msgstr ""
+
+#: ../../interface_tab.rst:111
+msgid ""
+"if checked, a RGB composite of active band set is added to the map when a"
+" project is loaded"
+msgstr ""
+
+#: ../../interface_tab.rst:117
+msgid "Dock"
+msgstr ""
+
+#: ../../interface_tab.rst:125
+msgid "|checkbox| :guilabel:`Download news on startup` |registry_save|"
+msgstr ""
+
+#: ../../interface_tab.rst:126
+msgid ""
+"if checked, news about the :guilabel:`SCP` and related services are "
+"downloaded on startup and displayed in :guilabel:`Dock`; also, it checks "
+"for updates of `Remotior Sensus <https://remotior-"
+"sensus.readthedocs.io/en/latest>`_"
+msgstr ""
+

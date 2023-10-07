@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../interface.rst:5
+msgid "The Interface of SCP"
+msgstr ""
+
+#: ../../interface.rst:11
+msgid ""
+"The :guilabel:`SCP` interface is composed of several parts that are "
+"described in detail in the following paragraphs. The following video "
+"provides a brief introduction to the tools."
+msgstr ""
+
+#: ../../interface.rst:19
+msgid "http://www.youtube.com/watch?v=gvSSO5LPw8s"
+msgstr ""
+
+#: ../../interface.rst:33
+msgid "registry_save"
+msgstr ""
+
+#: ../../interface.rst:36
+msgid "project_save"
+msgstr ""
+
+#: ../../interface.rst:39
+msgid "optional"
+msgstr ""
+
+#: ../../interface.rst:42
+msgid "input_list"
+msgstr ""
+
+#: ../../interface.rst:45
+msgid "input_text"
+msgstr ""
+
+#: ../../interface.rst:48
+msgid "input_date"
+msgstr ""
+
+#: ../../interface.rst:51
+msgid "input_number"
+msgstr ""
+
+#: ../../interface.rst:54
+msgid "input_slider"
+msgstr ""
+
+#: ../../interface.rst:57
+msgid "input_table"
+msgstr ""
+
+#: ../../interface.rst:61
+msgid "|br|"
+msgstr ""
+
+#: ../../interface.rst:67
+msgid "The functions described in the following paragraphs use these conventions:"
+msgstr ""
+
+#: ../../interface.rst:72
+msgid "|input_date|"
+msgstr ""
+
+#: ../../interface.rst:73
+msgid "Input date"
+msgstr ""
+
+#: ../../interface.rst:74
+msgid "|input_text|"
+msgstr ""
+
+#: ../../interface.rst:75
+msgid "Input text"
+msgstr ""
+
+#: ../../interface.rst:76
+msgid "|input_list|"
+msgstr ""
+
+#: ../../interface.rst:77
+msgid "List"
+msgstr ""
+
+#: ../../interface.rst:78
+msgid "|input_number|"
+msgstr ""
+
+#: ../../interface.rst:79
+msgid "Input number"
+msgstr ""
+
+#: ../../interface.rst:80
+msgid "|optional|"
+msgstr ""
+
+#: ../../interface.rst:81
+msgid "Optional"
+msgstr ""
+
+#: ../../interface.rst:82
+msgid "|project_save|"
+msgstr ""
+
+#: ../../interface.rst:83
+msgid "Configuration stored in the active project of QGIS"
+msgstr ""
+
+#: ../../interface.rst:84
+msgid "|registry_save|"
+msgstr ""
+
+#: ../../interface.rst:85
+msgid "Configuration stored in QGIS registry"
+msgstr ""
+
+#: ../../interface.rst:86
+msgid "|input_slider|"
+msgstr ""
+
+#: ../../interface.rst:87
+msgid "Slider"
+msgstr ""
+
+#: ../../interface.rst:88
+msgid "|input_table|"
+msgstr ""
+
+#: ../../interface.rst:89
+msgid "Table"
+msgstr ""
+

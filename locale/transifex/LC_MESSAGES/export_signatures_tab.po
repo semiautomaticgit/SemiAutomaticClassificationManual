@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../export_signatures_tab.rst:5
+msgid "Export signatures"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:12
+msgid "registry_save"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:15
+msgid "project_save"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:18
+msgid "optional"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:21
+msgid "input_list"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:24
+msgid "input_text"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:27
+msgid "input_date"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:30
+msgid "input_number"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:33
+msgid "input_table"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:36
+msgid "open_file"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:39
+msgid "new_file"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:42
+msgid "open_dir"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:45
+msgid "add"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:48
+msgid "reset"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:51
+msgid "export_spectral_library"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:58
+msgid "|export_spectral_library| :guilabel:`Export signatures`"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:60
+msgid ""
+"This tool allows for exporting the signatures highlighted in the "
+":ref:`ROI_list`."
+msgstr ""
+
+#: ../../export_signatures_tab.rst:66
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:67
+msgid "Description"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:68
+msgid ":guilabel:`Export as SCP file` |new_file|"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:69
+msgid ""
+"create a new .scp file and export highlighted ROIs and spectral "
+"signatures as :guilabel:`SCP` file (.scpx)"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:71
+msgid ":guilabel:`Export as shapefile or geopackage` |new_file|"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:72
+msgid ""
+"export highlighted ROIs (spectral signature data excluded) as a new "
+"shapefile (.shp) or geopackage (.gpkg)"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:74
+msgid ":guilabel:`Export spectral signatures as CSV file` |open_dir|"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:75
+msgid ""
+"open a directory, and export highlighted spectral signatures as "
+"individual CSV files (.csv) separated by semicolon ( ; )"
+msgstr ""
+

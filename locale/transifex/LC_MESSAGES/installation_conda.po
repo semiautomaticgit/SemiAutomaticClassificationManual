@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../installation_conda.rst:5
+msgid "Advanced installation using Conda"
+msgstr ""
+
+#: ../../installation_conda.rst:11
+msgid "QGIS download and installation with the dependencies"
+msgstr ""
+
+#: ../../installation_conda.rst:13
+msgid ""
+"The Semi-Automatic Classification Plugin requires Remotior Sensus, GDAL, "
+"NumPy and SciPy for most functionalities."
+msgstr ""
+
+#: ../../installation_conda.rst:16
+msgid ""
+"QGIS and the dependencies can be installed using a `Conda` environment "
+"(if you don't know `Conda` please read https://conda-forge.org/docs). For"
+" instance, you can use `Miniforge <https://github.com/conda-"
+"forge/miniforge>`_ to create a `Conda` environment."
+msgstr ""
+
+#: ../../installation_conda.rst:23
+msgid ""
+"Once installed conda, open the terminal and run the following commands to"
+" create a new environment:"
+msgstr ""
+
+#: ../../installation_conda.rst:32
+msgid "Now install QGIS and the dependencies (it could take some time):"
+msgstr ""
+
+#: ../../installation_conda.rst:39
+msgid "Now, QGIS is installed. To launch it run in the terminal:"
+msgstr ""
+
+#: ../../installation_conda.rst:54
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr ""
+
+#: ../../installation_conda.rst:56
+msgid "Run QGIS;"
+msgstr ""
+
+#: ../../installation_conda.rst:58
+msgid "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr ""
+
+#: ../../installation_conda.rst:62
+msgid ""
+"From the menu ``All``, select the Semi-Automatic Classification Plugin "
+"and click the button ``Install plugin``;"
+msgstr ""
+
+#: ../../installation_conda.rst:68
+msgid ""
+"The SCP should be automatically activated; however, be sure that the "
+"Semi-Automatic Classification Plugin is checked in the menu ``Installed``"
+" (the restart of QGIS could be necessary to complete the SCP "
+"installation);"
+msgstr ""
+
+#: ../../installation_conda.rst:78
+msgid "Configuration of the plugin"
+msgstr ""
+
+#: ../../installation_conda.rst:80
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and a dock and"
+" a toolbar should be added to QGIS. Also, a SCP menu is available in the "
+"Menu Bar of QGIS. It is possible to move the toolbar and the dock "
+"according to your needs, as in the following image."
+msgstr ""
+
+#: ../../installation_conda.rst:89
+msgid "settings_tool"
+msgstr ""
+
+#: ../../installation_conda.rst:92
+msgid ""
+"The configuration of available RAM is recommended in order to reduce the "
+"processing time. From the :ref:`SCP_menu` select |settings_tool| "
+"``Settings > Processing`` ."
+msgstr ""
+
+#: ../../installation_conda.rst:98
+msgid ""
+"In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
+"that should be half of the system RAM. For instance, if your system has "
+"2GB of RAM, set the value to 1024MB."
+msgstr ""
+
+#: ../../installation_conda.rst:107
+msgid "Update of required dependencies"
+msgstr ""
+
+#: ../../installation_conda.rst:109
+msgid ""
+"The dependency Remotior Sensus is frequently updated. The Semi-Automatic "
+"Classification Plugin can check automatically if a new version is "
+"available, and display a message in the :ref:`scp_dock`."
+msgstr ""
+
+#: ../../installation_conda.rst:117
+msgid ""
+"It is recommended to close QGIS and update Remotior Sensus using "
+"activating the conda environment and running the command:"
+msgstr ""
+

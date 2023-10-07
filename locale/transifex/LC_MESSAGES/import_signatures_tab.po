@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../import_signatures_tab.rst:5
+msgid "Import signatures"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:12
+msgid "registry_save"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:15
+msgid "project_save"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:18
+msgid "optional"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:21
+msgid "input_list"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:24
+msgid "input_text"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:27
+msgid "input_date"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:30
+msgid "input_number"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:33
+msgid "input_table"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:36
+msgid "open_file"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:39
+msgid "new_file"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:42
+msgid "add"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:45
+msgid "reset"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:48
+msgid "checkbox"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:51
+msgid "enter"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:54
+msgid "import_spectral_library"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:58
+msgid ""
+"The tab |import_spectral_library| :guilabel:`Import signatures` allows "
+"for importing spectral signatures from various sources."
+msgstr ""
+
+#: ../../import_signatures_tab.rst:64
+msgid "Import library file"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:70
+msgid ":guilabel:`Import library file`"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:72
+msgid ""
+"This tool allows for importing spectral signatures from various sources: "
+"a previously saved :ref:`training_input` (``.scpx`` file); a USGS "
+"Spectral Library (``.asc`` file); a previously exported ``.csv`` file. In"
+" case of USGS Spectral Library, the library is automatically sampled "
+"according to the image band wavelengths defined in the "
+":ref:`band_set_tab`, and added to the :ref:`ROI_list`;"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:83 ../../import_signatures_tab.rst:106
+#: ../../import_signatures_tab.rst:151
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:84 ../../import_signatures_tab.rst:107
+#: ../../import_signatures_tab.rst:152
+msgid "Description"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:85
+msgid ":guilabel:`Select a file` |open_file|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:86
+msgid "open a file to be imported in the :ref:`training_input`"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:91
+msgid "Import vector"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:97
+msgid ":guilabel:`Import vector`"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:99
+msgid ""
+"This tool allows for importing a vector (shapefile or geopackage), "
+"selecting the corresponding fields of the :ref:`training_input`."
+msgstr ""
+
+#: ../../import_signatures_tab.rst:108
+msgid ":guilabel:`Select a vector` |open_file|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:109
+msgid "open a vector"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:110
+msgid ":guilabel:`MC ID field` |input_list|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:111
+msgid "select the vector field corresponding to MC ID"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:112
+msgid ":guilabel:`MC Name field` |input_list|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:113
+msgid "select the vector field corresponding to MC Name"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:114
+msgid ":guilabel:`C ID field` |input_list|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:115
+msgid "select the vector field corresponding to C ID"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:116
+msgid ":guilabel:`C Name field` |input_list|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:117
+msgid "select the vector field corresponding to C Name"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:118
+msgid "|checkbox| :guilabel:`Calculate sig.`"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:119
+msgid ""
+"if checked, the spectral signature is calculated while the ROI is saved "
+"to :ref:`training_input`"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:121
+msgid ":guilabel:`Import vector` |enter|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:122
+msgid "import all the vector polygons as ROIs in the :ref:`training_input`"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:127
+msgid "Download USGS Spectral Library"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:133
+msgid ":guilabel:`Download USGS Spectral Library`"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:135
+msgid ""
+"The tab :guilabel:`Download USGS Spectral Library` allows for the "
+"download of the `USGS spectral library <http://speclab.cr.usgs.gov"
+"/spectral-lib.html>`_ (Clark, R.N., Swayze, G.A., Wise, R., Livo, E., "
+"Hoefen, T., Kokaly, R., Sutley, S.J., 2007, USGS digital spectral library"
+" splib06a: U.S. Geological Survey, Digital Data Series 231)."
+msgstr ""
+
+#: ../../import_signatures_tab.rst:141
+msgid ""
+"The libraries are grouped in chapters including Minerals, Mixtures, "
+"Coatings, Volatiles, Man-Made, Plants, Vegetation Communities, Mixtures "
+"with Vegetation, and Microorganisms."
+msgstr ""
+
+#: ../../import_signatures_tab.rst:145
+msgid "An internet connection is required."
+msgstr ""
+
+#: ../../import_signatures_tab.rst:153
+msgid ":guilabel:`Select a chapter` |input_list|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:154
+msgid ""
+"select one of the library chapters; after the selection, chapter "
+"libraries are shown in :guilabel:`Select a library`"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:156
+msgid ":guilabel:`Select a library` |input_list|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:157
+msgid ""
+"select one of the libraries; the library description is displayed in the "
+"frame :guilabel:`Library description`"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:159
+msgid ":guilabel:`Import spectral library` |enter|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:160
+msgid ""
+"download the library and add the sampled spectral signature to the "
+":ref:`ROI_list` using the parameters defined for class and macroclass; "
+"the library is automatically sampled according to the image band "
+"wavelengths defined in the :guilabel:`active band set` in "
+":ref:`band_set_tab`, and added to the :ref:`ROI_list`"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:168
+msgid ""
+"Spectral libraries downloaded from the ``USGS Spectral Library`` can be "
+"used with Minimum Distance or Spectral Angle Mapping algorithms, but not "
+"Maximum Likelihood because this algorithm needs the covariance matrix "
+"that is not included in the spectral libraries."
+msgstr ""
+

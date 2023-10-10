@@ -138,7 +138,7 @@ window, diagonal pixels are considered connected).
 
 .. _sieve_input:
 
-Erosion
+Sieve
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::

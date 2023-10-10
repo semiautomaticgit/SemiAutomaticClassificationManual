@@ -405,7 +405,7 @@ these steps in order to collect the required information (log file):
 
 #. close QGIS if already open;
 #. open QGIS, open the Plugin tab :ref:`settings_debug_tab` and check the
-   checkbox |checkbox| :guilabel:`Records events in a log file` ;
+   checkbox |checkbox| :guilabel:`Records detailed events in a log file` ;
 
 .. figure:: _static/interface/settings_debug_tab.png
     :align: center

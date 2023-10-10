@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"POT-Creation-Date: 2023-10-10 23:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../band_sieve_tab.rst:5
+#: ../../band_sieve_tab.rst:5 ../../band_sieve_tab.rst:142
 msgid "Sieve"
 msgstr ""
 
@@ -192,10 +192,6 @@ msgid ""
 "."
 msgstr ""
 
-#: ../../band_sieve_tab.rst:142
-msgid "Erosion"
-msgstr ""
-
 #: ../../band_sieve_tab.rst:148
 msgid "Tool symbol and name"
 msgstr ""
@@ -262,4 +258,7 @@ msgstr ""
 #: ../../band_sieve_tab.rst:165
 msgid "run this function"
 msgstr ""
+
+#~ msgid "Erosion"
+#~ msgstr ""
 

@@ -13,3 +13,5 @@ to QGIS interface
 
 .. toctree::
     :maxdepth: 1
+
+    tutorial_1.rst

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-10 23:38+0200\n"
+"POT-Creation-Date: 2023-10-15 10:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,40 +73,40 @@ msgid ""
 "`/Applications/QGIS.app` to the actual QGIS installation directory):"
 msgstr ""
 
-#: ../../installation_mac.rst:52
+#: ../../installation_mac.rst:60
 msgid ""
 "In case of error messages such as scikit-learn is already installed, you "
 "can just run ``/Applications/QGIS.app/Contents/MacOS/bin/pip3 install "
 "--upgrade remotior-sensus torch``"
 msgstr ""
 
-#: ../../installation_mac.rst:56
+#: ../../installation_mac.rst:64
 msgid "Follow the same procedure for updating the dependencies."
 msgstr ""
 
-#: ../../installation_mac.rst:60
+#: ../../installation_mac.rst:68
 msgid "In case of issues please read :ref:`installation_conda`."
 msgstr ""
 
-#: ../../installation_mac.rst:66
+#: ../../installation_mac.rst:74
 msgid "Semi-Automatic Classification Plugin installation"
 msgstr ""
 
-#: ../../installation_mac.rst:68
+#: ../../installation_mac.rst:76
 msgid "Run QGIS;"
 msgstr ""
 
-#: ../../installation_mac.rst:70
+#: ../../installation_mac.rst:78
 msgid "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr ""
 
-#: ../../installation_mac.rst:74
+#: ../../installation_mac.rst:82
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin "
 "and click the button ``Install plugin``;"
 msgstr ""
 
-#: ../../installation_mac.rst:80
+#: ../../installation_mac.rst:88
 msgid ""
 "The SCP should be automatically activated; however, be sure that the "
 "Semi-Automatic Classification Plugin is checked in the menu ``Installed``"
@@ -114,11 +114,11 @@ msgid ""
 "installation);"
 msgstr ""
 
-#: ../../installation_mac.rst:90
+#: ../../installation_mac.rst:98
 msgid "Configuration of the plugin"
 msgstr ""
 
-#: ../../installation_mac.rst:92
+#: ../../installation_mac.rst:100
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and"
 " a toolbar should be added to QGIS. Also, a SCP menu is available in the "
@@ -126,36 +126,36 @@ msgid ""
 "according to your needs, as in the following image."
 msgstr ""
 
-#: ../../installation_mac.rst:101
+#: ../../installation_mac.rst:109
 msgid "settings_tool"
 msgstr ""
 
-#: ../../installation_mac.rst:104
+#: ../../installation_mac.rst:112
 msgid ""
 "The configuration of available RAM is recommended in order to reduce the "
 "processing time. From the :ref:`SCP_menu` select |settings_tool| "
 "``Settings > Processing`` ."
 msgstr ""
 
-#: ../../installation_mac.rst:110
+#: ../../installation_mac.rst:118
 msgid ""
 "In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
 "that should be half of the system RAM. For instance, if your system has "
 "2GB of RAM, set the value to 1024MB."
 msgstr ""
 
-#: ../../installation_mac.rst:119
+#: ../../installation_mac.rst:127
 msgid "Update of required dependencies"
 msgstr ""
 
-#: ../../installation_mac.rst:121
+#: ../../installation_mac.rst:129
 msgid ""
 "The dependency Remotior Sensus is frequently updated. The Semi-Automatic "
 "Classification Plugin can check automatically if a new version is "
 "available, and display a message in the :ref:`scp_dock`."
 msgstr ""
 
-#: ../../installation_mac.rst:128
+#: ../../installation_mac.rst:136
 msgid ""
 "It is recommended to close QGIS and update Remotior Sensus following the "
 "same installation steps described in :ref:`installation_dependencies_mac`"

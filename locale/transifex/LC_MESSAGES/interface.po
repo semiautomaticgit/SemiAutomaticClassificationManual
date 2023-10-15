@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-07 23:54+0200\n"
+"POT-Creation-Date: 2023-10-15 10:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,123 +29,123 @@ msgid ""
 "provides a brief introduction to the tools."
 msgstr ""
 
-#: ../../interface.rst:19
+#: ../../interface.rst:15
 msgid "http://www.youtube.com/watch?v=gvSSO5LPw8s"
 msgstr ""
 
-#: ../../interface.rst:33
+#: ../../interface.rst:34
 msgid "registry_save"
 msgstr ""
 
-#: ../../interface.rst:36
+#: ../../interface.rst:37
 msgid "project_save"
 msgstr ""
 
-#: ../../interface.rst:39
+#: ../../interface.rst:40
 msgid "optional"
 msgstr ""
 
-#: ../../interface.rst:42
+#: ../../interface.rst:43
 msgid "input_list"
 msgstr ""
 
-#: ../../interface.rst:45
+#: ../../interface.rst:46
 msgid "input_text"
 msgstr ""
 
-#: ../../interface.rst:48
+#: ../../interface.rst:49
 msgid "input_date"
 msgstr ""
 
-#: ../../interface.rst:51
+#: ../../interface.rst:52
 msgid "input_number"
 msgstr ""
 
-#: ../../interface.rst:54
+#: ../../interface.rst:55
 msgid "input_slider"
 msgstr ""
 
-#: ../../interface.rst:57
+#: ../../interface.rst:58
 msgid "input_table"
 msgstr ""
 
-#: ../../interface.rst:61
+#: ../../interface.rst:62
 msgid "|br|"
 msgstr ""
 
-#: ../../interface.rst:67
+#: ../../interface.rst:68
 msgid "The functions described in the following paragraphs use these conventions:"
 msgstr ""
 
-#: ../../interface.rst:72
+#: ../../interface.rst:73
 msgid "|input_date|"
 msgstr ""
 
-#: ../../interface.rst:73
+#: ../../interface.rst:74
 msgid "Input date"
 msgstr ""
 
-#: ../../interface.rst:74
+#: ../../interface.rst:75
 msgid "|input_text|"
 msgstr ""
 
-#: ../../interface.rst:75
+#: ../../interface.rst:76
 msgid "Input text"
 msgstr ""
 
-#: ../../interface.rst:76
+#: ../../interface.rst:77
 msgid "|input_list|"
 msgstr ""
 
-#: ../../interface.rst:77
+#: ../../interface.rst:78
 msgid "List"
 msgstr ""
 
-#: ../../interface.rst:78
+#: ../../interface.rst:79
 msgid "|input_number|"
 msgstr ""
 
-#: ../../interface.rst:79
+#: ../../interface.rst:80
 msgid "Input number"
 msgstr ""
 
-#: ../../interface.rst:80
+#: ../../interface.rst:81
 msgid "|optional|"
 msgstr ""
 
-#: ../../interface.rst:81
+#: ../../interface.rst:82
 msgid "Optional"
 msgstr ""
 
-#: ../../interface.rst:82
+#: ../../interface.rst:83
 msgid "|project_save|"
 msgstr ""
 
-#: ../../interface.rst:83
+#: ../../interface.rst:84
 msgid "Configuration stored in the active project of QGIS"
 msgstr ""
 
-#: ../../interface.rst:84
+#: ../../interface.rst:85
 msgid "|registry_save|"
 msgstr ""
 
-#: ../../interface.rst:85
+#: ../../interface.rst:86
 msgid "Configuration stored in QGIS registry"
 msgstr ""
 
-#: ../../interface.rst:86
+#: ../../interface.rst:87
 msgid "|input_slider|"
 msgstr ""
 
-#: ../../interface.rst:87
+#: ../../interface.rst:88
 msgid "Slider"
 msgstr ""
 
-#: ../../interface.rst:88
+#: ../../interface.rst:89
 msgid "|input_table|"
 msgstr ""
 
-#: ../../interface.rst:89
+#: ../../interface.rst:90
 msgid "Table"
 msgstr ""
 

@@ -48,7 +48,7 @@ the QGIS installation.
     /Applications/QGIS.app/Contents/MacOS/bin/pip3 install --upgrade remotior-sensus scikit-learn torch
 
 
-    or in case you installed QGIS LTR:
+or in case you installed QGIS LTR:
 
 
 .. code-block:: bash

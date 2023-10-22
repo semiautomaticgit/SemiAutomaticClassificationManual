@@ -52,11 +52,11 @@ the Semi-Automatic Classification Plugin (:guilabel:`SCP`).
 It is assumed that you have a basic knowledge of QGIS.
 Following the video of the tutorial.
 
-http://www.youtube.com/watch?v=7SZDCFXjIbA
+https://www.youtube.com/watch?v=7SZDCFXjIbA
 
 .. raw:: html
 
-    <iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/7SZDCFXjIbA?rel=0" width="100%"></iframe>
+    <iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/7SZDCFXjIbA?rel=0" width="100%"></iframe>
 
 
 .. contents::

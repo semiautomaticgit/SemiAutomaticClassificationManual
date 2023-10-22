@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:21+0200\n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,7 +87,7 @@ msgid ""
 msgstr ""
 
 #: ../../tutorial_1.rst:55
-msgid "http://www.youtube.com/watch?v=7SZDCFXjIbA"
+msgid "https://www.youtube.com/watch?v=7SZDCFXjIbA"
 msgstr ""
 
 #: ../../tutorial_1.rst:70

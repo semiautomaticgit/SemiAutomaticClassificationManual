@@ -105,6 +105,16 @@ The :guilabel:`Band set` definition is saved with the QGIS project.
     `link <https://remotior-sensus.readthedocs.io/en/latest/remotior_sensus.core.bandset_catalog.html>`_ .
 
 
+Following a video tutorial about this tool.
+
+http://www.youtube.com/watch?v=DQXfBPke2J4
+
+.. raw:: html
+
+    <iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/DQXfBPke2J4?rel=0" width="100%"></iframe>
+
+
+
 .. _band_set_definition:
 
 Band set definition

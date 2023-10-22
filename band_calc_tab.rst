@@ -546,7 +546,7 @@ Variables
   :guilabel:`Band sets` separated by colon (e.g. ``forbandsets[1:3]``) or a
   list separated by commas (e.g. ``forbandsets[1,2,3]``; ``forbandsets`` must
   be entered in the first line of expressions (not compatible with
-  ``forbsdates`` or ``forbandsinbandset``), for instance::
+  ``forbandsinbandset``), for instance::
 
     forbandsets[1:3]
     "bandset#b1" @#BANDSET#
@@ -571,25 +571,25 @@ expression will iterate the first 3 :guilabel:`Band sets` selecting only the
 
     forbandsets[1,2,3]RT
 
-* :guilabel:`forbsdates`: it allows for the iteration over
-  :guilabel:`Band sets` dates (format yyyy-mm-dd, defined in
-  :ref:`band_set_definition`) between square brackets; ``forbsdates`` must be
-  entered in the first line of expressions (not compatible with ``forbandsets``
-  or ``forbandsinbandset``) such as the following examples:
+
+Also, :guilabel:`forbandsets`: allows for the iteration over
+:guilabel:`Band sets` dates (format yyyy-mm-dd, defined in
+:ref:`band_set_definition`) between square brackets,
+such as the following examples:
 
 Iterating over a range of dates::
 
-    forbsdates[2020-01-01:2020-07-31]
+    forbandsets[2020-01-01:2020-07-31]
     "bandset#b1" @#BANDSET#
 
 Iterating over a list of dates::
 
-    forbsdates[2020-02-01,2020-03-11,2020-04-21]
+    forbandsets[2020-02-01,2020-03-11,2020-04-21]
     "bandset#b1" @#BANDSET#
 
 Iterating over a list of ranges of dates::
 
-    forbsdates[2010-01-01:2010-06-31, 2010-08-01:2010-08-31, 2010-10-01:2010-12-31]
+    forbandsets[2010-01-01:2010-06-31, 2010-08-01:2010-08-31, 2010-10-01:2010-12-31]
     "bandset#b1" @#BANDSET#
 
 During the iteration, the :ref:`input_variables` related to the active
@@ -601,12 +601,12 @@ name of first band in :guilabel:`Band set`; for instance, the following
 expression will iterate the :guilabel:`Band sets` in the range selecting only
 the :guilabel:`Band set` whose name of the first band includes ``RT``::
 
-    forbsdates[2020-01-01:2020-07-31]RT
+    forbandsets[2020-01-01:2020-07-31]RT
 
 * :guilabel:`forbandsinbandset`: it allows for the iteration over bands in a
   :guilabel:`Band set` or a range of :guilabel:`Band sets` between square
   brackets; ``forbandsinbandset`` must be entered in the first line of
-  expressions (not compatible with ``forbandsets`` or ``forbsdates``); the
+  expressions (not compatible with ``forbandsets``); the
   variable #BAND# must be used to refer to the iterated band such as the
   following examples:
 

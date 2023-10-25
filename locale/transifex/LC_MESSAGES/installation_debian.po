@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2023-10-25 22:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,29 +89,35 @@ msgstr ""
 msgid "Follow the same procedure for updating the dependencies."
 msgstr ""
 
-#: ../../installation_debian.rst:69
-msgid "In case of issues please read :ref:`installation_conda`."
+#: ../../installation_debian.rst:70
+msgid ""
+"In case the library Remotior Sensus is not found, an automatic procedure "
+"will try to download it in the plugin directory, allowing for using the "
+"main functions of the Semi-Automatic Classification Plugin; however, this"
+" is not recommended as library Remotior Sensus won't be updated, and "
+"scikit-learn and PyTorch functions will not work. Alternatively, one may "
+"follow :ref:`installation_conda`."
 msgstr ""
 
-#: ../../installation_debian.rst:75
+#: ../../installation_debian.rst:81
 msgid "Semi-Automatic Classification Plugin installation"
 msgstr ""
 
-#: ../../installation_debian.rst:77
+#: ../../installation_debian.rst:83
 msgid "Run QGIS;"
 msgstr ""
 
-#: ../../installation_debian.rst:79
+#: ../../installation_debian.rst:85
 msgid "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr ""
 
-#: ../../installation_debian.rst:83
+#: ../../installation_debian.rst:89
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin "
 "and click the button ``Install plugin``;"
 msgstr ""
 
-#: ../../installation_debian.rst:89
+#: ../../installation_debian.rst:95
 msgid ""
 "The SCP should be automatically activated; however, be sure that the "
 "Semi-Automatic Classification Plugin is checked in the menu ``Installed``"
@@ -119,11 +125,11 @@ msgid ""
 "installation);"
 msgstr ""
 
-#: ../../installation_debian.rst:99
+#: ../../installation_debian.rst:105
 msgid "Configuration of the plugin"
 msgstr ""
 
-#: ../../installation_debian.rst:101
+#: ../../installation_debian.rst:107
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and"
 " a toolbar should be added to QGIS. Also, a SCP menu is available in the "
@@ -131,39 +137,42 @@ msgid ""
 "according to your needs, as in the following image."
 msgstr ""
 
-#: ../../installation_debian.rst:110
+#: ../../installation_debian.rst:116
 msgid "settings_tool"
 msgstr ""
 
-#: ../../installation_debian.rst:113
+#: ../../installation_debian.rst:119
 msgid ""
 "The configuration of available RAM is recommended in order to reduce the "
 "processing time. From the :ref:`SCP_menu` select |settings_tool| "
 "``Settings > Processing`` ."
 msgstr ""
 
-#: ../../installation_debian.rst:119
+#: ../../installation_debian.rst:125
 msgid ""
 "In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
 "that should be half of the system RAM. For instance, if your system has "
 "2GB of RAM, set the value to 1024MB."
 msgstr ""
 
-#: ../../installation_debian.rst:128
+#: ../../installation_debian.rst:134
 msgid "Update of required dependencies"
 msgstr ""
 
-#: ../../installation_debian.rst:130
+#: ../../installation_debian.rst:136
 msgid ""
 "The dependency Remotior Sensus is frequently updated. The Semi-Automatic "
 "Classification Plugin can check automatically if a new version is "
 "available, and display a message in the :ref:`scp_dock`."
 msgstr ""
 
-#: ../../installation_debian.rst:137
+#: ../../installation_debian.rst:143
 msgid ""
 "It is recommended to close QGIS and update Remotior Sensus following the "
 "same installation steps described in "
 ":ref:`installation_dependencies_debian` ."
 msgstr ""
+
+#~ msgid "In case of issues please read :ref:`installation_conda`."
+#~ msgstr ""
 

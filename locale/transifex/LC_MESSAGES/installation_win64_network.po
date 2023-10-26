@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-26 14:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../installation_win64_network.rst:5
+msgid "Network installation in Windows 64 bit"
+msgstr ""
+
+#: ../../installation_win64_network.rst:11
+msgid "QGIS download and installation"
+msgstr ""
+
+#: ../../installation_win64_network.rst:13
+msgid ""
+"Download the latest QGIS version 64 bit using the OSGeo4W network "
+"installer `from here <https://download.osgeo.org/osgeo4w/v2/osgeo4w-"
+"setup.exe>`_ ;"
+msgstr ""
+
+#: ../../installation_win64_network.rst:16
+msgid ""
+"Execute the QGIS installer with administrative rights and select "
+"``Advanced Install``;"
+msgstr ""
+
+#: ../../installation_win64_network.rst:21
+msgid ""
+"Select ``Install from Internet``; proceed selecting the default "
+"installation directory and the preferred network configuration;"
+msgstr ""
+
+#: ../../installation_win64_network.rst:26
+msgid ""
+"The Semi-Automatic Classification Plugin requires Remotior Sensus, GDAL, "
+"NumPy and SciPy for most functionalities. Optionally, scikit-learn and "
+"PyTorch are required for machine learning."
+msgstr ""
+
+#: ../../installation_win64_network.rst:30
+msgid ""
+"In the menu ``Select packages`` select ``All > Desktop > qgis-full-"
+"free``; also select ``All > Libs > python3-remotior-sensus``, ``All > "
+"Libs > python3-scikit-learn`` and ``All > Libs > python3-torch``;"
+msgstr ""
+
+#: ../../installation_win64_network.rst:45
+msgid "Click ``Next`` and accept to install the required dependencies;"
+msgstr ""
+
+#: ../../installation_win64_network.rst:50
+msgid ""
+"The download of the programs will start, and QGIS will be installed along"
+" with the required dependencies."
+msgstr ""
+
+#: ../../installation_win64_network.rst:59
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr ""
+
+#: ../../installation_win64_network.rst:61
+msgid "Run QGIS;"
+msgstr ""
+
+#: ../../installation_win64_network.rst:63
+msgid "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr ""
+
+#: ../../installation_win64_network.rst:67
+msgid ""
+"From the menu ``All``, select the Semi-Automatic Classification Plugin "
+"and click the button ``Install plugin``;"
+msgstr ""
+
+#: ../../installation_win64_network.rst:73
+msgid ""
+"The SCP should be automatically activated; however, be sure that the "
+"Semi-Automatic Classification Plugin is checked in the menu ``Installed``"
+" (the restart of QGIS could be necessary to complete the SCP "
+"installation);"
+msgstr ""
+
+#: ../../installation_win64_network.rst:83
+msgid "Configuration of the plugin"
+msgstr ""
+
+#: ../../installation_win64_network.rst:85
+msgid ""
+"Now, the Semi-Automatic Classification Plugin is installed and a dock and"
+" a toolbar should be added to QGIS. Also, a SCP menu is available in the "
+"Menu Bar of QGIS. It is possible to move the toolbar and the dock "
+"according to your needs, as in the following image."
+msgstr ""
+
+#: ../../installation_win64_network.rst:94
+msgid "settings_tool"
+msgstr ""
+
+#: ../../installation_win64_network.rst:97
+msgid ""
+"The configuration of available RAM is recommended in order to reduce the "
+"processing time. From the :ref:`SCP_menu` select |settings_tool| "
+"``Settings > Processing`` ."
+msgstr ""
+
+#: ../../installation_win64_network.rst:103
+msgid ""
+"In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
+"that should be half of the system RAM. For instance, if your system has "
+"2GB of RAM, set the value to 1024MB."
+msgstr ""
+
+#: ../../installation_win64_network.rst:113
+msgid "Update of required dependencies"
+msgstr ""
+
+#: ../../installation_win64_network.rst:115
+msgid ""
+"The dependency Remotior Sensus is frequently updated. The Semi-Automatic "
+"Classification Plugin can check automatically if a new version is "
+"available, and display a message in the :ref:`scp_dock`."
+msgstr ""
+
+#: ../../installation_win64_network.rst:122
+msgid ""
+"It is recommended to close QGIS and update Remotior Sensus following the "
+"same installation steps described in "
+":ref:`QGIS_network_installation_win64bit`."
+msgstr ""
+
+#: ../../installation_win64_network.rst:125
+msgid ""
+"In case the library Remotior Sensus is outdated, it is possible to open "
+"the OSGeo4W Shell (administrative rights may be required):"
+msgstr ""
+
+#: ../../installation_win64_network.rst:130
+msgid "and run the following command:"
+msgstr ""
+

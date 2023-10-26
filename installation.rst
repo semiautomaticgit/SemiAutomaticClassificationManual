@@ -19,6 +19,7 @@ Plugin for the supported Operating Systems.
 	:maxdepth: 2
 
 	installation_win64.rst
+	installation_win64_network.rst
 	installation_debian.rst
 	installation_mac.rst
 	installation_conda.rst

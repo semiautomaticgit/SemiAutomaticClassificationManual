@@ -148,19 +148,19 @@ msgstr "guide"
 
 #: ../../accuracy_tab.rst:98
 msgid "help"
-msgstr "ayuda"
+msgstr "help"
 
 #: ../../accuracy_tab.rst:101
 msgid "reload"
-msgstr "recargar"
+msgstr "reload"
 
 #: ../../accuracy_tab.rst:104
 msgid "checkbox"
-msgstr "casilla de confirmación"
+msgstr "checkbox"
 
 #: ../../accuracy_tab.rst:107
 msgid "run"
-msgstr "ejecutar"
+msgstr "run"
 
 #: ../../accuracy_tab.rst:110
 msgid "radiobutton"

@@ -164,15 +164,15 @@ msgstr "run"
 
 #: ../../accuracy_tab.rst:110
 msgid "radiobutton"
-msgstr "botón de radio"
+msgstr "radiobutton"
 
 #: ../../accuracy_tab.rst:113
 msgid "pointer"
-msgstr "puntero"
+msgstr "pointer"
 
 #: ../../accuracy_tab.rst:116
 msgid "threshold_tool"
-msgstr "herramienta de umbral"
+msgstr "threshold_tool"
 
 #: ../../accuracy_tab.rst:124
 msgid ":guilabel:`Accuracy`"

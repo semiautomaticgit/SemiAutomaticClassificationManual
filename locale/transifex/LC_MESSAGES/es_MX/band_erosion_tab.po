@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"PO-Revision-Date: 2023-10-24 15:43+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_MX/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../band_erosion_tab.rst:5 ../../band_erosion_tab.rst:138
+msgid "Erosion"
+msgstr "Erosión"
+
+#: ../../band_erosion_tab.rst:11
+msgid "registry_save"
+msgstr "registro_guardar"
+
+#: ../../band_erosion_tab.rst:14
+msgid "project_save"
+msgstr "guardar_proyecto"
+
+#: ../../band_erosion_tab.rst:17
+msgid "optional"
+msgstr "opcional"
+
+#: ../../band_erosion_tab.rst:20
+msgid "input_list"
+msgstr "lista_entrada"
+
+#: ../../band_erosion_tab.rst:23
+msgid "input_text"
+msgstr "texto de entrada"
+
+#: ../../band_erosion_tab.rst:26
+msgid "input_date"
+msgstr "fecha_entrada"
+
+#: ../../band_erosion_tab.rst:29
+msgid "input_number"
+msgstr "número de entrada"
+
+#: ../../band_erosion_tab.rst:32
+msgid "input_table"
+msgstr "tabla_entrada"
+
+#: ../../band_erosion_tab.rst:35
+msgid "open_file"
+msgstr "abrir archivo"
+
+#: ../../band_erosion_tab.rst:38
+msgid "new_file"
+msgstr "nuevo archivo"
+
+#: ../../band_erosion_tab.rst:41
+msgid "add"
+msgstr "agregar"
+
+#: ../../band_erosion_tab.rst:44
+msgid "reset"
+msgstr "reiniciar"
+
+#: ../../band_erosion_tab.rst:47
+msgid "bandset_tool"
+msgstr "Herramienta de conjunto de bandas"
+
+#: ../../band_erosion_tab.rst:50
+msgid "download"
+msgstr "descargar"
+
+#: ../../band_erosion_tab.rst:53
+msgid "export"
+msgstr "exportar"
+
+#: ../../band_erosion_tab.rst:56
+msgid "tools"
+msgstr "herramientas"
+
+#: ../../band_erosion_tab.rst:59
+msgid "preprocessing"
+msgstr "preprocesamiento"
+
+#: ../../band_erosion_tab.rst:62
+msgid "band_processing"
+msgstr "procesamiento_banda"
+
+#: ../../band_erosion_tab.rst:65
+msgid "postprocessing"
+msgstr "postprocesamiento"
+
+#: ../../band_erosion_tab.rst:68
+msgid "bandcalc"
+msgstr "calc de banda"
+
+#: ../../band_erosion_tab.rst:71
+msgid "settings"
+msgstr "ajustes"
+
+#: ../../band_erosion_tab.rst:74
+msgid "script_tool"
+msgstr "herramienta_script"
+
+#: ../../band_erosion_tab.rst:77
+msgid "enter"
+msgstr "ingresar"
+
+#: ../../band_erosion_tab.rst:80
+msgid "zoom_to_ROI"
+msgstr "Hacer zoom al área de interés"
+
+#: ../../band_erosion_tab.rst:83
+msgid "check"
+msgstr "controlar"
+
+#: ../../band_erosion_tab.rst:86
+msgid "select_all"
+msgstr "seleccionar todo"
+
+#: ../../band_erosion_tab.rst:89
+msgid "docks"
+msgstr "paneles"
+
+#: ../../band_erosion_tab.rst:92
+msgid "add_sign_tool"
+msgstr "agregar herramienta de signo"
+
+#: ../../band_erosion_tab.rst:95
+msgid "guide"
+msgstr "guía"
+
+#: ../../band_erosion_tab.rst:98
+msgid "help"
+msgstr "ayuda"
+
+#: ../../band_erosion_tab.rst:101
+msgid "reload"
+msgstr "recargar"
+
+#: ../../band_erosion_tab.rst:104
+msgid "checkbox"
+msgstr "casilla de confirmación"
+
+#: ../../band_erosion_tab.rst:107
+msgid "run"
+msgstr "ejecutar"
+
+#: ../../band_erosion_tab.rst:110
+msgid "radiobutton"
+msgstr "botón de radio"
+
+#: ../../band_erosion_tab.rst:113
+msgid "pointer"
+msgstr "puntero"
+
+#: ../../band_erosion_tab.rst:116
+msgid "threshold_tool"
+msgstr "herramienta de umbral"
+
+#: ../../band_erosion_tab.rst:124
+msgid ":guilabel:`Erosion`"
+msgstr ":guilabel:`Erosión`"
+
+#: ../../band_erosion_tab.rst:127
+msgid ""
+"This tab allows for removing the border of a class patch (erosion), defining"
+" the class values to be eroded and the number of pixels from the border. It "
+"is useful for classification refinement."
+msgstr ""
+"Esta pestaña permite remover el borde de una mancha de Clase (erosión), "
+"definiendo los valores de la Clase que serán erosionados y el número de "
+"pixeles desde el borde. Es útil para el refinamiento de la clasificación."
+
+#: ../../band_erosion_tab.rst:132
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_erosion.html>`_ ."
+msgstr ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_erosion.html>`_ ."
+
+#: ../../band_erosion_tab.rst:144
+msgid "Tool symbol and name"
+msgstr "Símbolo de la herramienta y nombre"
+
+#: ../../band_erosion_tab.rst:145
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../band_erosion_tab.rst:146
+msgid ":guilabel:`Select input band set (of classifications)` |input_number|"
+msgstr ""
+":guilabel:`Seleccionar el conjunto de bandas de entrada (de "
+"clasificaciones)` |input_number|"
+
+#: ../../band_erosion_tab.rst:147
+msgid "select the input :ref:`band_set_tab`"
+msgstr "Selecciona el :ref:`band_set_tab` de entrada"
+
+#: ../../band_erosion_tab.rst:148
+msgid ":guilabel:`Class values` |input_text|"
+msgstr ":guilabel:`Valores de clases` |input_text|"
+
+#: ../../band_erosion_tab.rst:149
+msgid ""
+"set the class values to be dilated; class values must be separated by ``,`` "
+"and ``-`` can be used to define a range of values (e.g. ``1, 3-5, 8`` will "
+"select classes 1, 3, 4, 5, 8); if the text is red then the expression "
+"contains errors"
+msgstr ""
+"define los valores de las clases que se dilatarán;los valores deben estar "
+"separados por  ``,`` y se puede usar ``-`` para definir rangos de valores "
+"(e.g. ``1, 3-5, 8`` seleccionará las clases 1, 3, 4, 5, 8); si el texto es "
+"rojo entonces la expresión contiene errores"
+
+#: ../../band_erosion_tab.rst:153
+msgid ":guilabel:`Size in pixels` |input_number|"
+msgstr ":guilabel:`Tamaño en píxeles` |input_number|"
+
+#: ../../band_erosion_tab.rst:154
+msgid "number of pixels to be dilated from the border"
+msgstr "número de píxeles de la dilatación desde el borde"
+
+#: ../../band_erosion_tab.rst:155
+msgid "|checkbox| :guilabel:`Circular` |optional|"
+msgstr "|checkbox| :guilabel:`Circular` |optional|"
+
+#: ../../band_erosion_tab.rst:156
+msgid "if checked, the erosion will be circular, similar to a buffer"
+msgstr "si está marcado, la erosión será circular, similar a un buffer"
+
+#: ../../band_erosion_tab.rst:157
+msgid ":guilabel:`Output name`"
+msgstr ":guilabel:`Nombre de la salida`"
+
+#: ../../band_erosion_tab.rst:158
+msgid "set the name prefix for output files"
+msgstr "define el prefijo para el nombre de los archivos de salida"
+
+#: ../../band_erosion_tab.rst:159
+msgid "|checkbox| :guilabel:`Virtual output` |optional|"
+msgstr "|checkbox| :guilabel:`Salida virtual` |optional|"
+
+#: ../../band_erosion_tab.rst:160
+msgid ""
+"if checked, the output is created as virtual raster composed of as many "
+"``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`"
+msgstr ""
+"Si está marcado, la salida es generada como un raster virtual con tantos "
+"archivos ``.tif`` como el número de hilos de CPU definidos en "
+":ref:`system_processing`"
+
+#: ../../band_erosion_tab.rst:163
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ":guilabel:`Script` |script_tool|"
+
+#: ../../band_erosion_tab.rst:164
+msgid "add this function to the :ref:`script_tab`"
+msgstr "añadir está función al :ref:`script_tab`"
+
+#: ../../band_erosion_tab.rst:165
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`EJECUTAR` |run|"
+
+#: ../../band_erosion_tab.rst:166
+msgid "run this function"
+msgstr "ejecutar esta función"

@@ -6,6 +6,7 @@
 # 
 # Translators:
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-23 00:33+0200\n"
 "PO-Revision-Date: 2023-10-24 15:44+0000\n"
-"Last-Translator: Marlon Castillo <marloncastillo286@gmail.com>, 2023\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +30,7 @@ msgstr "Procesamiento de banda"
 
 #: ../../band_processing_tab.rst:7
 msgid "band_processing"
-msgstr "procesamiento_banda"
+msgstr "band_processing"
 
 #: ../../band_processing_tab.rst:14
 msgid ""

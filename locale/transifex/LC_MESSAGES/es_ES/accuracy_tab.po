@@ -32,107 +32,107 @@ msgstr "Exactitud"
 
 #: ../../accuracy_tab.rst:11
 msgid "registry_save"
-msgstr "registro_guardar"
+msgstr "registry_save"
 
 #: ../../accuracy_tab.rst:14
 msgid "project_save"
-msgstr "guardar_proyecto"
+msgstr "project_save"
 
 #: ../../accuracy_tab.rst:17
 msgid "optional"
-msgstr "opcional"
+msgstr "optional"
 
 #: ../../accuracy_tab.rst:20
 msgid "input_list"
-msgstr "lista_entrada"
+msgstr "input_list"
 
 #: ../../accuracy_tab.rst:23
 msgid "input_text"
-msgstr "texto de entrada"
+msgstr "input_text"
 
 #: ../../accuracy_tab.rst:26
 msgid "input_date"
-msgstr "fecha_entrada"
+msgstr "input_date"
 
 #: ../../accuracy_tab.rst:29
 msgid "input_number"
-msgstr "número de entrada"
+msgstr "input_number"
 
 #: ../../accuracy_tab.rst:32
 msgid "input_table"
-msgstr "tabla_entrada"
+msgstr "input_table"
 
 #: ../../accuracy_tab.rst:35
 msgid "open_file"
-msgstr "abrir archivo"
+msgstr "open_file"
 
 #: ../../accuracy_tab.rst:38
 msgid "new_file"
-msgstr "nuevo archivo"
+msgstr "new_file"
 
 #: ../../accuracy_tab.rst:41
 msgid "add"
-msgstr "agregar"
+msgstr "add"
 
 #: ../../accuracy_tab.rst:44
 msgid "reset"
-msgstr "reiniciar"
+msgstr "reset"
 
 #: ../../accuracy_tab.rst:47
 msgid "bandset_tool"
-msgstr "Herramienta de conjunto de bandas"
+msgstr "bandset_tool"
 
 #: ../../accuracy_tab.rst:50
 msgid "download"
-msgstr "descargar"
+msgstr "download"
 
 #: ../../accuracy_tab.rst:53
 msgid "export"
-msgstr "exportar"
+msgstr "export"
 
 #: ../../accuracy_tab.rst:56
 msgid "tools"
-msgstr "herramientas"
+msgstr "tools"
 
 #: ../../accuracy_tab.rst:59
 msgid "preprocessing"
-msgstr "preprocesamiento"
+msgstr "preprocessing"
 
 #: ../../accuracy_tab.rst:62
 msgid "band_processing"
-msgstr "procesamiento_banda"
+msgstr "band_processing"
 
 #: ../../accuracy_tab.rst:65
 msgid "postprocessing"
-msgstr "postprocesamiento"
+msgstr "postprocessing"
 
 #: ../../accuracy_tab.rst:68
 msgid "bandcalc"
-msgstr "calc de banda"
+msgstr "bandcalc"
 
 #: ../../accuracy_tab.rst:71
 msgid "settings"
-msgstr "ajustes"
+msgstr "settings"
 
 #: ../../accuracy_tab.rst:74
 msgid "script_tool"
-msgstr "herramienta_script"
+msgstr "script_tool"
 
 #: ../../accuracy_tab.rst:77
 msgid "enter"
-msgstr "ingresar"
+msgstr "enter"
 
 #: ../../accuracy_tab.rst:80
 msgid "zoom_to_ROI"
-msgstr "hacer zoom al área de interés"
+msgstr "zoom_to_ROI"
 
 #: ../../accuracy_tab.rst:83
 msgid "check"
-msgstr "controlar"
+msgstr "check"
 
 #: ../../accuracy_tab.rst:86
 msgid "select_all"
-msgstr "seleccionar todo"
+msgstr "select_all"
 
 #: ../../accuracy_tab.rst:89
 msgid "docks"
@@ -140,39 +140,39 @@ msgstr "docks"
 
 #: ../../accuracy_tab.rst:92
 msgid "add_sign_tool"
-msgstr "agregar herramienta de signo"
+msgstr "add_sign_tool"
 
 #: ../../accuracy_tab.rst:95
 msgid "guide"
-msgstr "guía"
+msgstr "guide"
 
 #: ../../accuracy_tab.rst:98
 msgid "help"
-msgstr "ayuda"
+msgstr "help"
 
 #: ../../accuracy_tab.rst:101
 msgid "reload"
-msgstr "recargar"
+msgstr "reload"
 
 #: ../../accuracy_tab.rst:104
 msgid "checkbox"
-msgstr "casilla de confirmación"
+msgstr "checkbox"
 
 #: ../../accuracy_tab.rst:107
 msgid "run"
-msgstr "ejecutar"
+msgstr "run"
 
 #: ../../accuracy_tab.rst:110
 msgid "radiobutton"
-msgstr "botón de radio"
+msgstr "radiobutton"
 
 #: ../../accuracy_tab.rst:113
 msgid "pointer"
-msgstr "puntero"
+msgstr "pointer"
 
 #: ../../accuracy_tab.rst:116
 msgid "threshold_tool"
-msgstr "herramienta de umbral"
+msgstr "threshold_tool"
 
 #: ../../accuracy_tab.rst:124
 msgid ":guilabel:`Accuracy`"

@@ -52,7 +52,7 @@ msgstr "input_text"
 
 #: ../../accuracy_tab.rst:26
 msgid "input_date"
-msgstr "fecha_entrada"
+msgstr "input_date"
 
 #: ../../accuracy_tab.rst:29
 msgid "input_number"

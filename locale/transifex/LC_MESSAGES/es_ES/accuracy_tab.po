@@ -241,9 +241,9 @@ msgid ""
 msgstr ""
 "Esta herramienta admite como salida un ''ráster virtual''; si el nombre del "
 "archivo de salida termina en ''.vrt'', la salida se crea como un ráster "
-"virtual compuesto por tantos archivos ''.tif'' comol número de hilos de CPU "
-"definidos en :ref:'system_processing'; para rásteres grandes, esto puede "
-"acelerar el proceso."
+"virtual compuesto por tantos archivos ''.tif'' como número de hilos de CPU "
+"estén definidos en :ref:'system_processing'; para rásteres grandes, esto "
+"puede acelerar el proceso."
 
 #: ../../accuracy_tab.rst:157
 msgid ""

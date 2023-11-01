@@ -84,11 +84,11 @@ msgstr "bandset_tool"
 
 #: ../../accuracy_tab.rst:50
 msgid "download"
-msgstr "descargar"
+msgstr "download"
 
 #: ../../accuracy_tab.rst:53
 msgid "export"
-msgstr "exportar"
+msgstr "export"
 
 #: ../../accuracy_tab.rst:56
 msgid "tools"

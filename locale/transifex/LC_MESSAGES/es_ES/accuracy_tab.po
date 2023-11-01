@@ -124,15 +124,15 @@ msgstr "enter"
 
 #: ../../accuracy_tab.rst:80
 msgid "zoom_to_ROI"
-msgstr "hacer zoom al área de interés"
+msgstr "zoom_to_ROI"
 
 #: ../../accuracy_tab.rst:83
 msgid "check"
-msgstr "controlar"
+msgstr "check"
 
 #: ../../accuracy_tab.rst:86
 msgid "select_all"
-msgstr "seleccionar todo"
+msgstr "select_all"
 
 #: ../../accuracy_tab.rst:89
 msgid "docks"

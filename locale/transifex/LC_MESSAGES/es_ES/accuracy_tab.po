@@ -140,11 +140,11 @@ msgstr "docks"
 
 #: ../../accuracy_tab.rst:92
 msgid "add_sign_tool"
-msgstr "agregar herramienta de signo"
+msgstr "add_sign_tool"
 
 #: ../../accuracy_tab.rst:95
 msgid "guide"
-msgstr "guía"
+msgstr "guide"
 
 #: ../../accuracy_tab.rst:98
 msgid "help"

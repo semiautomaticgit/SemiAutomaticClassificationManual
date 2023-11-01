@@ -104,15 +104,15 @@ msgstr "band_processing"
 
 #: ../../accuracy_tab.rst:65
 msgid "postprocessing"
-msgstr "postprocesamiento"
+msgstr "postprocessing"
 
 #: ../../accuracy_tab.rst:68
 msgid "bandcalc"
-msgstr "calc de banda"
+msgstr "bandcalc"
 
 #: ../../accuracy_tab.rst:71
 msgid "settings"
-msgstr "ajustes"
+msgstr "settings"
 
 #: ../../accuracy_tab.rst:74
 msgid "script_tool"

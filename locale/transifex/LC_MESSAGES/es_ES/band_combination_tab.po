@@ -215,7 +215,7 @@ msgid ""
 msgstr ""
 "Información sobre las APIs de esta herramienta de Remotior Sensus en este "
 "`enlace <https://remotior-"
-"sensus.readthedocs.io/en/latest/remotior_sensus.tools.cross_classification.html>`_"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_combination.html>`_"
 " ."
 
 #: ../../band_combination_tab.rst:145

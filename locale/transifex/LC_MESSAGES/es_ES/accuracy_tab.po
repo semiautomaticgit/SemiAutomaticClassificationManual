@@ -72,15 +72,15 @@ msgstr "new_file"
 
 #: ../../accuracy_tab.rst:41
 msgid "add"
-msgstr "agregar"
+msgstr "add"
 
 #: ../../accuracy_tab.rst:44
 msgid "reset"
-msgstr "reiniciar"
+msgstr "reset"
 
 #: ../../accuracy_tab.rst:47
 msgid "bandset_tool"
-msgstr "Herramienta de conjunto de bandas"
+msgstr "bandset_tool"
 
 #: ../../accuracy_tab.rst:50
 msgid "download"

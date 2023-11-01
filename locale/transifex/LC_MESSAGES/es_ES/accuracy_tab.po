@@ -64,11 +64,11 @@ msgstr "input_table"
 
 #: ../../accuracy_tab.rst:35
 msgid "open_file"
-msgstr "abrir archivo"
+msgstr "open_file"
 
 #: ../../accuracy_tab.rst:38
 msgid "new_file"
-msgstr "nuevo archivo"
+msgstr "new_file"
 
 #: ../../accuracy_tab.rst:41
 msgid "add"

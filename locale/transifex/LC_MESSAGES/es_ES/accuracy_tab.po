@@ -92,15 +92,15 @@ msgstr "export"
 
 #: ../../accuracy_tab.rst:56
 msgid "tools"
-msgstr "herramientas"
+msgstr "tools"
 
 #: ../../accuracy_tab.rst:59
 msgid "preprocessing"
-msgstr "preprocesamiento"
+msgstr "preprocessing"
 
 #: ../../accuracy_tab.rst:62
 msgid "band_processing"
-msgstr "procesamiento_banda"
+msgstr "band_processing"
 
 #: ../../accuracy_tab.rst:65
 msgid "postprocessing"

@@ -188,4 +188,4 @@ msgstr "**Traduttori:**"
 
 #: ../../introduction.rst:86
 msgid "Language: Author name"
-msgstr "Italiano: Luca Congedo"
+msgstr "Italiano: Author name"

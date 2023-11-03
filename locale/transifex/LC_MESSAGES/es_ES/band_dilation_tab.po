@@ -230,7 +230,7 @@ msgstr ""
 "define los valores de las clases que se dilatarán;los valores deben estar "
 "separados por  ``,`` y se puede usar ``-`` para definir rangos de valores "
 "(e.g. ``1, 3-5, 8`` seleccionará las clases 1, 3, 4, 5, 8); si el texto es "
-"rojo entonces la expresión contiene errores"
+"de color rojo entonces la expresión contiene errores"
 
 #: ../../band_dilation_tab.rst:153
 msgid ":guilabel:`Size in pixels` |input_number|"

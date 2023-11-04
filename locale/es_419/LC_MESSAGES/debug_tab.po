@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"PO-Revision-Date: 2023-10-24 15:44+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (Latin America) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_419/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../debug_tab.rst:5
+msgid "Debug"
+msgstr "Depurar"
+
+#: ../../debug_tab.rst:11
+msgid "registry_save"
+msgstr "registro_guardar"
+
+#: ../../debug_tab.rst:14
+msgid "project_save"
+msgstr "guardar_proyecto"
+
+#: ../../debug_tab.rst:17
+msgid "optional"
+msgstr "opcional"
+
+#: ../../debug_tab.rst:20
+msgid "input_list"
+msgstr "lista_entrada"
+
+#: ../../debug_tab.rst:23
+msgid "input_text"
+msgstr "texto de entrada"
+
+#: ../../debug_tab.rst:26
+msgid "checkbox"
+msgstr "casilla de confirmación"
+
+#: ../../debug_tab.rst:29
+msgid "reset"
+msgstr "reiniciar"
+
+#: ../../debug_tab.rst:32
+msgid "export"
+msgstr "exportar"
+
+#: ../../debug_tab.rst:35
+msgid "input_number"
+msgstr "número de entrada"
+
+#: ../../debug_tab.rst:38
+msgid "enter"
+msgstr "ingresar"
+
+#: ../../debug_tab.rst:41
+msgid "open_dir"
+msgstr "abrir_dir"
+
+#: ../../debug_tab.rst:48
+msgid ":guilabel:`Debug`"
+msgstr ":guilabel:`Depurar`"
+
+#: ../../debug_tab.rst:50
+msgid ""
+"This tab allows for the debug of :guilabel:`SCP` in case of issues, and the "
+"check of :guilabel:`SCP` dependencies."
+msgstr ""
+
+#: ../../debug_tab.rst:56
+msgid "Log file"
+msgstr "Archivo Log"
+
+#: ../../debug_tab.rst:63 ../../debug_tab.rst:80
+msgid "Tool symbol and name"
+msgstr "Símbolo de la herramienta y nombre"
+
+#: ../../debug_tab.rst:64 ../../debug_tab.rst:81
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../debug_tab.rst:65
+msgid ":guilabel:`Record detailed events in a Log file` |registry_save|"
+msgstr ""
+
+#: ../../debug_tab.rst:66
+msgid "if checked, start recording detailed events in a Log file"
+msgstr ""
+
+#: ../../debug_tab.rst:67
+msgid "|export|"
+msgstr ""
+
+#: ../../debug_tab.rst:68
+msgid "export the Log file to a .txt file"
+msgstr ""
+
+#: ../../debug_tab.rst:73
+msgid "Test"
+msgstr "Prueba"
+
+#: ../../debug_tab.rst:82
+msgid ":guilabel:`Test dependencies` |enter|"
+msgstr ""
+
+#: ../../debug_tab.rst:83
+msgid ""
+"test :guilabel:`SCP` dependencies (NumPy, SciPy, Matplotlib, GDAL, PyTorch, "
+"scikit-learn, Remotior Sensus, Multiprocess, Internet connection)"
+msgstr ""

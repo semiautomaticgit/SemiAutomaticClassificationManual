@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"PO-Revision-Date: 2023-10-24 15:44+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_MX/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../mosaic_bandsets_tab.rst:5 ../../mosaic_bandsets_tab.rst:160
+msgid "Mosaic of band sets"
+msgstr "Mosaico de conjuntos de bandas"
+
+#: ../../mosaic_bandsets_tab.rst:12
+msgid "registry_save"
+msgstr "registro_guardar"
+
+#: ../../mosaic_bandsets_tab.rst:15
+msgid "project_save"
+msgstr "guardar_proyecto"
+
+#: ../../mosaic_bandsets_tab.rst:18
+msgid "optional"
+msgstr "opcional"
+
+#: ../../mosaic_bandsets_tab.rst:21
+msgid "input_list"
+msgstr "lista_entrada"
+
+#: ../../mosaic_bandsets_tab.rst:24
+msgid "input_text"
+msgstr "texto de entrada"
+
+#: ../../mosaic_bandsets_tab.rst:27
+msgid "input_date"
+msgstr "fecha_entrada"
+
+#: ../../mosaic_bandsets_tab.rst:30
+msgid "input_number"
+msgstr "número de entrada"
+
+#: ../../mosaic_bandsets_tab.rst:33
+msgid "input_table"
+msgstr "tabla_entrada"
+
+#: ../../mosaic_bandsets_tab.rst:36
+msgid "open_file"
+msgstr "abrir archivo"
+
+#: ../../mosaic_bandsets_tab.rst:39
+msgid "new_file"
+msgstr "nuevo archivo"
+
+#: ../../mosaic_bandsets_tab.rst:42
+msgid "open_dir"
+msgstr "abrir_dir"
+
+#: ../../mosaic_bandsets_tab.rst:45
+msgid "remove"
+msgstr "quitar"
+
+#: ../../mosaic_bandsets_tab.rst:48
+msgid "add"
+msgstr "agregar"
+
+#: ../../mosaic_bandsets_tab.rst:51
+msgid "reset"
+msgstr "reiniciar"
+
+#: ../../mosaic_bandsets_tab.rst:54
+msgid "bandset_tool"
+msgstr "Herramienta de conjunto de bandas"
+
+#: ../../mosaic_bandsets_tab.rst:57
+msgid "download"
+msgstr "descargar"
+
+#: ../../mosaic_bandsets_tab.rst:60
+msgid "sign_plot"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:63
+msgid "tools"
+msgstr "herramientas"
+
+#: ../../mosaic_bandsets_tab.rst:66
+msgid "preprocessing"
+msgstr "preprocesamiento"
+
+#: ../../mosaic_bandsets_tab.rst:69
+msgid "band_processing"
+msgstr "procesamiento_banda"
+
+#: ../../mosaic_bandsets_tab.rst:72
+msgid "postprocessing"
+msgstr "postprocesamiento"
+
+#: ../../mosaic_bandsets_tab.rst:75
+msgid "bandcalc"
+msgstr "calc de banda"
+
+#: ../../mosaic_bandsets_tab.rst:78
+msgid "settings"
+msgstr "ajustes"
+
+#: ../../mosaic_bandsets_tab.rst:81
+msgid "script_tool"
+msgstr "herramienta_script"
+
+#: ../../mosaic_bandsets_tab.rst:84
+msgid "save_roi"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:87
+msgid "delete_signature"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:90
+msgid "accuracy_tool"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:93
+msgid "enter"
+msgstr "ingresar"
+
+#: ../../mosaic_bandsets_tab.rst:96
+msgid "zoom_to_ROI"
+msgstr "Hacer zoom al área de interés"
+
+#: ../../mosaic_bandsets_tab.rst:99
+msgid "check"
+msgstr "controlar"
+
+#: ../../mosaic_bandsets_tab.rst:102
+msgid "select_all"
+msgstr "seleccionar todo"
+
+#: ../../mosaic_bandsets_tab.rst:105
+msgid "docks"
+msgstr "paneles"
+
+#: ../../mosaic_bandsets_tab.rst:108
+msgid "add_sign_tool"
+msgstr "agregar herramienta de signo"
+
+#: ../../mosaic_bandsets_tab.rst:111
+msgid "scatter_plot"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:114
+msgid "merge_sign"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:117
+msgid "guide"
+msgstr "guía"
+
+#: ../../mosaic_bandsets_tab.rst:120
+msgid "help"
+msgstr "ayuda"
+
+#: ../../mosaic_bandsets_tab.rst:123
+msgid "reload"
+msgstr "recargar"
+
+#: ../../mosaic_bandsets_tab.rst:126
+msgid "checkbox"
+msgstr "casilla de confirmación"
+
+#: ../../mosaic_bandsets_tab.rst:129
+msgid "run"
+msgstr "ejecutar"
+
+#: ../../mosaic_bandsets_tab.rst:132
+msgid "radiobutton"
+msgstr "botón de radio"
+
+#: ../../mosaic_bandsets_tab.rst:135
+msgid "mosaic_tool"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:144
+msgid ":guilabel:`Mosaic band sets`"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:146
+msgid ""
+"This tool allows for the mosaic of band sets, merging the corresponding "
+"bands of two or more band sets defined in the :ref:`band_set_tab`. An output"
+" band is created for every corresponding set of bands in the band sets. "
+"NoData values of one band set are replaced by the values of the other band "
+"sets."
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:154
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.mosaic.html>`_ ."
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:167
+msgid "Tool symbol and name"
+msgstr "Símbolo de la herramienta y nombre"
+
+#: ../../mosaic_bandsets_tab.rst:168
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../mosaic_bandsets_tab.rst:169
+msgid ":guilabel:`Band set list` |input_text|"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:170
+msgid ""
+"list if band sets defined in the :ref:`band_set_tab`; in case of overlapping"
+" images, the pixel values of the first band set in the list are assigned"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:173
+msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number|"
+msgstr ""
+"|checkbox| :guilabel:`Usar el valor como Sin Datos` |input_number| "
+"|optional|"
+
+#: ../../mosaic_bandsets_tab.rst:174
+msgid ""
+"if checked, set the value of ``NoData`` pixels, ignored during the "
+"calculation"
+msgstr ""
+"Si está marcado, configura el valor de los píxeles ``Sin datos``, se "
+"ignorará durante los cálculos"
+
+#: ../../mosaic_bandsets_tab.rst:176
+msgid "|checkbox| :guilabel:`Create virtual raster output` |optional|"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:177
+msgid ""
+"if checked, output is created as virtual raster ``.vrt`` composed of as many"
+" ``.tif`` files as the number of threads defined in "
+":ref:`system_processing`; for large rasters this can speed up the process"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:181
+msgid ":guilabel:`Output name prefix` |input_text|"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:182
+msgid "set the prefix for output file names (default is ``mosaic``)"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:183
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ":guilabel:`Script` |script_tool|"
+
+#: ../../mosaic_bandsets_tab.rst:184
+msgid "add this function to the :ref:`script_tab`"
+msgstr "añadir está función al :ref:`script_tab`"
+
+#: ../../mosaic_bandsets_tab.rst:185
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`EJECUTAR` |run|"
+
+#: ../../mosaic_bandsets_tab.rst:186
+msgid "run this function"
+msgstr "ejecutar esta función"

@@ -1,0 +1,357 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"PO-Revision-Date: 2023-10-24 15:44+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (Spain) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../vector_to_raster_tab.rst:5
+msgid "Vector to raster"
+msgstr "Vectorial a ráster"
+
+#: ../../vector_to_raster_tab.rst:8
+msgid "registry_save"
+msgstr "registro_guardar"
+
+#: ../../vector_to_raster_tab.rst:11
+msgid "project_save"
+msgstr "guardar_proyecto"
+
+#: ../../vector_to_raster_tab.rst:14
+msgid "optional"
+msgstr "opcional"
+
+#: ../../vector_to_raster_tab.rst:17
+msgid "input_list"
+msgstr "lista_entrada"
+
+#: ../../vector_to_raster_tab.rst:20
+msgid "input_text"
+msgstr "texto de entrada"
+
+#: ../../vector_to_raster_tab.rst:23
+msgid "input_date"
+msgstr "fecha_entrada"
+
+#: ../../vector_to_raster_tab.rst:26
+msgid "input_number"
+msgstr "número de entrada"
+
+#: ../../vector_to_raster_tab.rst:29
+msgid "input_table"
+msgstr "tabla_entrada"
+
+#: ../../vector_to_raster_tab.rst:32
+msgid "open_file"
+msgstr "abrir archivo"
+
+#: ../../vector_to_raster_tab.rst:35
+msgid "new_file"
+msgstr "nuevo archivo"
+
+#: ../../vector_to_raster_tab.rst:38
+msgid "open_dir"
+msgstr "abrir_dir"
+
+#: ../../vector_to_raster_tab.rst:41
+msgid "remove"
+msgstr "quitar"
+
+#: ../../vector_to_raster_tab.rst:44
+msgid "add"
+msgstr "agregar"
+
+#: ../../vector_to_raster_tab.rst:47
+msgid "reset"
+msgstr "reiniciar"
+
+#: ../../vector_to_raster_tab.rst:50
+msgid "bandset_tool"
+msgstr "Herramienta de conjunto de bandas"
+
+#: ../../vector_to_raster_tab.rst:53
+msgid "download"
+msgstr "descargar"
+
+#: ../../vector_to_raster_tab.rst:56
+msgid "sign_plot"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:59
+msgid "tools"
+msgstr "herramientas"
+
+#: ../../vector_to_raster_tab.rst:62
+msgid "preprocessing"
+msgstr "preprocesamiento"
+
+#: ../../vector_to_raster_tab.rst:65
+msgid "band_processing"
+msgstr "procesamiento_banda"
+
+#: ../../vector_to_raster_tab.rst:68
+msgid "postprocessing"
+msgstr "postprocesamiento"
+
+#: ../../vector_to_raster_tab.rst:71
+msgid "bandcalc"
+msgstr "calc de banda"
+
+#: ../../vector_to_raster_tab.rst:74
+msgid "settings"
+msgstr "ajustes"
+
+#: ../../vector_to_raster_tab.rst:77
+msgid "script_tool"
+msgstr "herramienta_script"
+
+#: ../../vector_to_raster_tab.rst:80
+msgid "save_roi"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:83
+msgid "delete_signature"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:86
+msgid "accuracy_tool"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:89
+msgid "enter"
+msgstr "ingresar"
+
+#: ../../vector_to_raster_tab.rst:92
+msgid "zoom_to_ROI"
+msgstr "Hacer zoom al área de interés"
+
+#: ../../vector_to_raster_tab.rst:95
+msgid "check"
+msgstr "controlar"
+
+#: ../../vector_to_raster_tab.rst:98
+msgid "select_all"
+msgstr "seleccionar todo"
+
+#: ../../vector_to_raster_tab.rst:101
+msgid "docks"
+msgstr "paneles"
+
+#: ../../vector_to_raster_tab.rst:104
+msgid "add_sign_tool"
+msgstr "agregar herramienta de signo"
+
+#: ../../vector_to_raster_tab.rst:107
+msgid "scatter_plot"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:110
+msgid "merge_sign"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:113
+msgid "guide"
+msgstr "guía"
+
+#: ../../vector_to_raster_tab.rst:116
+msgid "help"
+msgstr "ayuda"
+
+#: ../../vector_to_raster_tab.rst:119
+msgid "reload"
+msgstr "recargar"
+
+#: ../../vector_to_raster_tab.rst:122
+msgid "checkbox"
+msgstr "casilla de confirmación"
+
+#: ../../vector_to_raster_tab.rst:125
+msgid "run"
+msgstr "ejecutar"
+
+#: ../../vector_to_raster_tab.rst:128
+msgid "radiobutton"
+msgstr "botón de radio"
+
+#: ../../vector_to_raster_tab.rst:131
+msgid "vector_to_raster_tool"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:138
+msgid ":guilabel:`Vector to raster`"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:140
+msgid ""
+"This tab allows for the conversion of a vector (polygon) to raster format."
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:143
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.vector_to_raster.html>`_"
+" ."
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:149
+msgid "Convert vector to raster"
+msgstr "Convertir vector a raster"
+
+#: ../../vector_to_raster_tab.rst:155
+msgid "Tool symbol and name"
+msgstr "Símbolo de la herramienta y nombre"
+
+#: ../../vector_to_raster_tab.rst:156
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../vector_to_raster_tab.rst:157
+msgid ":guilabel:`Select the vector` |input_list|"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:158
+msgid "select a vector already loaded in QGIS"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:159 ../../vector_to_raster_tab.rst:170
+msgid "|reload|"
+msgstr "|recarga|"
+
+#: ../../vector_to_raster_tab.rst:160 ../../vector_to_raster_tab.rst:171
+msgid "refresh layer list"
+msgstr "refresca la lista de capas"
+
+#: ../../vector_to_raster_tab.rst:161
+msgid ""
+"|radiobutton| :guilabel:`Use the value field of the vector` |input_list|"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:162
+msgid ""
+"if checked, the selected field is used as attribute for the conversion; "
+"pixels of the output raster have the same values as the vector attribute"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:164
+msgid "|radiobutton| :guilabel:`Use constant value` |input_number|"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:165
+msgid ""
+"if checked, the polygons are converted to raster using the selected constant"
+" value"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:167
+msgid ":guilabel:`Select the reference raster` |input_list|"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:168
+msgid ""
+"select a reference raster; pixels of the output raster have the same size "
+"and alignment as the reference raster"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:172
+msgid ":guilabel:`Pixel size` |input_text|"
+msgstr ":guilabel:`Tamaño de píxel` |input_text|"
+
+#: ../../vector_to_raster_tab.rst:173
+msgid "set the size of pixel of output raster"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:174
+msgid "|checkbox| :guilabel:`Minimum extent`"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:175
+msgid ""
+"if checked, the output raster has the minimum vector extent; otherwise, "
+"output extent is the same as the :guilabel:`Select the reference raster` "
+"|input_list|"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:178
+msgid ":guilabel:`Select the type of conversion` |input_list|"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:186
+msgid "select the type of conversion among:"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:180
+msgid ""
+":guilabel:`pixel_center`: during the conversion, vector is compared to the "
+"reference raster; output raster pixels are attributed to a polygon if pixel "
+"center is within that polygon"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:183
+msgid ""
+":guilabel:`all_touched`: during the conversion, vector is compared to the "
+"reference raster; output raster pixels are attributed to a polygon if pixel "
+"touches that polygon"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:186
+msgid ""
+":guilabel:`area_based`: during the conversion, output raster pixels are "
+"attributed based on area proportion of polygons"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:188
+msgid ":guilabel:`Area precision` |input_text|"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:189
+msgid ""
+"for :guilabel:`area_based` method, the higher the value, the higher is the "
+"precision in the calculation of area proportion (and the time required for "
+"calculation)"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:192
+msgid "|checkbox| :guilabel:`Use value as NoData` |input_number|"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:193
+msgid "if checked, set a value for ``NoData`` pixels"
+msgstr ""
+
+#: ../../vector_to_raster_tab.rst:194
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ":guilabel:`Script` |script_tool|"
+
+#: ../../vector_to_raster_tab.rst:195
+msgid "add this function to the :ref:`script_tab`"
+msgstr "añadir está función al :ref:`script_tab`"
+
+#: ../../vector_to_raster_tab.rst:196
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`EJECUTAR` |run|"
+
+#: ../../vector_to_raster_tab.rst:197
+msgid "run this function"
+msgstr "ejecutar esta función"

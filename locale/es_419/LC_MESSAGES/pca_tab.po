@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
+# Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"PO-Revision-Date: 2023-10-24 15:44+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (Latin America) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_419/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../pca_tab.rst:5 ../../pca_tab.rst:140
+msgid "PCA"
+msgstr "PCA"
+
+#: ../../pca_tab.rst:11
+msgid "registry_save"
+msgstr "registro_guardar"
+
+#: ../../pca_tab.rst:14
+msgid "project_save"
+msgstr "guardar_proyecto"
+
+#: ../../pca_tab.rst:17
+msgid "optional"
+msgstr "opcional"
+
+#: ../../pca_tab.rst:20
+msgid "input_list"
+msgstr "lista_entrada"
+
+#: ../../pca_tab.rst:23
+msgid "input_text"
+msgstr "texto de entrada"
+
+#: ../../pca_tab.rst:26
+msgid "input_date"
+msgstr "fecha_entrada"
+
+#: ../../pca_tab.rst:29
+msgid "input_number"
+msgstr "número de entrada"
+
+#: ../../pca_tab.rst:32
+msgid "input_table"
+msgstr "tabla_entrada"
+
+#: ../../pca_tab.rst:35
+msgid "open_file"
+msgstr "abrir archivo"
+
+#: ../../pca_tab.rst:38
+msgid "new_file"
+msgstr "nuevo archivo"
+
+#: ../../pca_tab.rst:41
+msgid "add"
+msgstr "agregar"
+
+#: ../../pca_tab.rst:44
+msgid "reset"
+msgstr "reiniciar"
+
+#: ../../pca_tab.rst:47
+msgid "bandset_tool"
+msgstr "Herramienta de conjunto de bandas"
+
+#: ../../pca_tab.rst:50
+msgid "download"
+msgstr "descargar"
+
+#: ../../pca_tab.rst:53
+msgid "export"
+msgstr "exportar"
+
+#: ../../pca_tab.rst:56
+msgid "tools"
+msgstr "herramientas"
+
+#: ../../pca_tab.rst:59
+msgid "preprocessing"
+msgstr "preprocesamiento"
+
+#: ../../pca_tab.rst:62
+msgid "band_processing"
+msgstr "procesamiento_banda"
+
+#: ../../pca_tab.rst:65
+msgid "postprocessing"
+msgstr "postprocesamiento"
+
+#: ../../pca_tab.rst:68
+msgid "bandcalc"
+msgstr "calc de banda"
+
+#: ../../pca_tab.rst:71
+msgid "settings"
+msgstr "ajustes"
+
+#: ../../pca_tab.rst:74
+msgid "script_tool"
+msgstr "herramienta_script"
+
+#: ../../pca_tab.rst:77
+msgid "enter"
+msgstr "ingresar"
+
+#: ../../pca_tab.rst:80
+msgid "zoom_to_ROI"
+msgstr "Hacer zoom al área de interés"
+
+#: ../../pca_tab.rst:83
+msgid "check"
+msgstr "controlar"
+
+#: ../../pca_tab.rst:86
+msgid "select_all"
+msgstr "seleccionar todo"
+
+#: ../../pca_tab.rst:89
+msgid "docks"
+msgstr "paneles"
+
+#: ../../pca_tab.rst:92
+msgid "add_sign_tool"
+msgstr "agregar herramienta de signo"
+
+#: ../../pca_tab.rst:95
+msgid "guide"
+msgstr "guía"
+
+#: ../../pca_tab.rst:98
+msgid "help"
+msgstr "ayuda"
+
+#: ../../pca_tab.rst:101
+msgid "reload"
+msgstr "recargar"
+
+#: ../../pca_tab.rst:104
+msgid "checkbox"
+msgstr "casilla de confirmación"
+
+#: ../../pca_tab.rst:107
+msgid "run"
+msgstr "ejecutar"
+
+#: ../../pca_tab.rst:110
+msgid "radiobutton"
+msgstr "botón de radio"
+
+#: ../../pca_tab.rst:113
+msgid "pointer"
+msgstr "puntero"
+
+#: ../../pca_tab.rst:116
+msgid "threshold_tool"
+msgstr "herramienta de umbral"
+
+#: ../../pca_tab.rst:124
+msgid ":guilabel:`PCA`"
+msgstr ""
+
+#: ../../pca_tab.rst:127
+msgid ""
+"This tab allows for the PCA (:ref:`principal_component_analysis`) of bands "
+"loaded in the :guilabel:`Band set`."
+msgstr ""
+"Esta pestaña permite el PCA (:ref:`principal_component_analysis`) de las "
+"bandas cargadas en el :guilabel:`Conjunto de bandas`."
+
+#: ../../pca_tab.rst:130
+msgid ""
+"A report .txt is saved along with the PCA bands, containing the covariance "
+"matrix, correlation matrix, eigen vectors, and eigen values."
+msgstr ""
+"Se guarda un .txt de informe junto con las bandas de PCA, que contiene la "
+"matriz de covarianza, la matriz de correlación, los vectores propios y los "
+"valores propios."
+
+#: ../../pca_tab.rst:134
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_pca.html>`_ ."
+msgstr ""
+
+#: ../../pca_tab.rst:146
+msgid "Tool symbol and name"
+msgstr "Símbolo de la herramienta y nombre"
+
+#: ../../pca_tab.rst:147
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../pca_tab.rst:148
+msgid ":guilabel:`Select input band set` |input_number|"
+msgstr ""
+":guilabel:`Seleccionar el conjunto de bandas de entrada` |input_number|"
+
+#: ../../pca_tab.rst:149
+msgid "select the input :ref:`band_set_tab`"
+msgstr "Selecciona el :ref:`band_set_tab` de entrada"
+
+#: ../../pca_tab.rst:150
+msgid "|checkbox| :guilabel:`Number of components` |input_number| |optional|"
+msgstr ""
+
+#: ../../pca_tab.rst:151
+msgid "set the number of components to be calculated"
+msgstr ""
+
+#: ../../pca_tab.rst:152
+msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number|"
+msgstr ""
+"|checkbox| :guilabel:`Usar el valor como Sin Datos` |input_number| "
+"|optional|"
+
+#: ../../pca_tab.rst:153
+msgid ""
+"if checked, set the value of ``NoData`` pixels, ignored during the "
+"calculation"
+msgstr ""
+"Si está marcado, configura el valor de los píxeles ``Sin datos``, se "
+"ignorará durante los cálculos"
+
+#: ../../pca_tab.rst:155
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ":guilabel:`Script` |script_tool|"
+
+#: ../../pca_tab.rst:156
+msgid "add this function to the :ref:`script_tab`"
+msgstr "añadir está función al :ref:`script_tab`"
+
+#: ../../pca_tab.rst:157
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`EJECUTAR` |run|"
+
+#: ../../pca_tab.rst:158
+msgid "run this function"
+msgstr "ejecutar esta función"
+
+#: ../../pca_tab.rst:160
+msgid ""
+"The ``Output`` tab will display the Principal Components Analysis details "
+"(Covariance matrix, Correlation matrix, Eigenvectors, and Eigenvalues)."
+msgstr ""

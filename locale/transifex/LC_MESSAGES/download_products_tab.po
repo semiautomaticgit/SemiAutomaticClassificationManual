@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2023-11-05 18:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,15 +189,23 @@ msgid ""
 "required depending on the download service."
 msgstr ""
 
-#: ../../download_products_tab.rst:141
+#: ../../download_products_tab.rst:137
+msgid "Following a video tutorial about this tool."
+msgstr ""
+
+#: ../../download_products_tab.rst:139
+msgid "https://www.youtube.com/watch?v=NwL2f5Nrn3U"
+msgstr ""
+
+#: ../../download_products_tab.rst:151
 msgid "Search"
 msgstr ""
 
-#: ../../download_products_tab.rst:144
+#: ../../download_products_tab.rst:154
 msgid "The :guilabel:`Search` tool allows for searching and downloading:"
 msgstr ""
 
-#: ../../download_products_tab.rst:146
+#: ../../download_products_tab.rst:156
 msgid ""
 ":guilabel:`Harmonized Landsat Sentinel-2` by NASA which are surface "
 "reflectance data product (generated with Landsat 8, Landsat 9, and "
@@ -207,23 +215,23 @@ msgid ""
 "sentinel-2>`_);"
 msgstr ""
 
-#: ../../download_products_tab.rst:151
+#: ../../download_products_tab.rst:161
 msgid ""
 "Copernicus :guilabel:`Sentinel-2` images (Level-1C and Level-2A) acquired"
 " from 2015 to present days;"
 msgstr ""
 
-#: ../../download_products_tab.rst:154
+#: ../../download_products_tab.rst:164
 msgid ""
 "The download of :guilabel:`Harmonized Landsat Sentinel-2` requires "
 "credentials defined in :ref:`login_data_tab`."
 msgstr ""
 
-#: ../../download_products_tab.rst:160
+#: ../../download_products_tab.rst:170
 msgid "Search parameters"
 msgstr ""
 
-#: ../../download_products_tab.rst:162
+#: ../../download_products_tab.rst:172
 msgid ""
 "Define the search area by entering the coordinates (longitude and "
 "latitude) of an ``Upper Left`` (UL) point and ``Lower Right`` (LR) point "
@@ -232,109 +240,109 @@ msgid ""
 "results, the faster is the query)."
 msgstr ""
 
-#: ../../download_products_tab.rst:168
+#: ../../download_products_tab.rst:178
 msgid "The definition of a search area is required before searching the images."
 msgstr ""
 
-#: ../../download_products_tab.rst:174 ../../download_products_tab.rst:273
-#: ../../download_products_tab.rst:303 ../../download_products_tab.rst:349
+#: ../../download_products_tab.rst:184 ../../download_products_tab.rst:283
+#: ../../download_products_tab.rst:313 ../../download_products_tab.rst:359
 msgid "Tool symbol and name"
 msgstr ""
 
-#: ../../download_products_tab.rst:175 ../../download_products_tab.rst:274
-#: ../../download_products_tab.rst:304 ../../download_products_tab.rst:350
+#: ../../download_products_tab.rst:185 ../../download_products_tab.rst:284
+#: ../../download_products_tab.rst:314 ../../download_products_tab.rst:360
 msgid "Description"
 msgstr ""
 
-#: ../../download_products_tab.rst:176
+#: ../../download_products_tab.rst:186
 msgid ":guilabel:`UL` |input_number| |input_number|"
 msgstr ""
 
-#: ../../download_products_tab.rst:177
+#: ../../download_products_tab.rst:187
 msgid "set the UL longitude X (Lon) and the UL latitude Y (Lat)"
 msgstr ""
 
-#: ../../download_products_tab.rst:178
+#: ../../download_products_tab.rst:188
 msgid ":guilabel:`LR` |input_number| |input_number|"
 msgstr ""
 
-#: ../../download_products_tab.rst:179
+#: ../../download_products_tab.rst:189
 msgid "set the LR longitude X (Lon) and the LR latitude Y (Lat)"
 msgstr ""
 
-#: ../../download_products_tab.rst:180
+#: ../../download_products_tab.rst:190
 msgid "|radiobutton| :guilabel:`Show`"
 msgstr ""
 
-#: ../../download_products_tab.rst:181
+#: ../../download_products_tab.rst:191
 msgid "show or hide the search area in the map;"
 msgstr ""
 
-#: ../../download_products_tab.rst:182
+#: ../../download_products_tab.rst:192
 msgid "|pointer|"
 msgstr ""
 
-#: ../../download_products_tab.rst:183
+#: ../../download_products_tab.rst:193
 msgid ""
 "define a search area by left click to set the UL point and right click to"
 " set the LR point; the search area is displayed in the map"
 msgstr ""
 
-#: ../../download_products_tab.rst:185
+#: ../../download_products_tab.rst:195
 msgid ":guilabel:`Products` |input_list|"
 msgstr ""
 
-#: ../../download_products_tab.rst:186
+#: ../../download_products_tab.rst:196
 msgid "set the search product"
 msgstr ""
 
-#: ../../download_products_tab.rst:187
+#: ../../download_products_tab.rst:197
 msgid ":guilabel:`Date from` |input_date|"
 msgstr ""
 
-#: ../../download_products_tab.rst:188
+#: ../../download_products_tab.rst:198
 msgid "set the starting date of acquisition"
 msgstr ""
 
-#: ../../download_products_tab.rst:189
+#: ../../download_products_tab.rst:199
 msgid ":guilabel:`to` |input_date|"
 msgstr ""
 
-#: ../../download_products_tab.rst:190
+#: ../../download_products_tab.rst:200
 msgid "set the ending date of acquisition"
 msgstr ""
 
-#: ../../download_products_tab.rst:191
+#: ../../download_products_tab.rst:201
 msgid ":guilabel:`Max cloud cover (%)` |input_number|"
 msgstr ""
 
-#: ../../download_products_tab.rst:192
+#: ../../download_products_tab.rst:202
 msgid "maximum cloud cover in the product"
 msgstr ""
 
-#: ../../download_products_tab.rst:193
+#: ../../download_products_tab.rst:203
 msgid ":guilabel:`Results` |input_number|"
 msgstr ""
 
-#: ../../download_products_tab.rst:194
+#: ../../download_products_tab.rst:204
 msgid "maximum number of products returned by the search"
 msgstr ""
 
-#: ../../download_products_tab.rst:195
+#: ../../download_products_tab.rst:205
 msgid ":guilabel:`Advanced search` |input_text|"
 msgstr ""
 
-#: ../../download_products_tab.rst:196
+#: ../../download_products_tab.rst:206
 msgid ""
 "some services (e.g. Sentinel-2) allows for entering search parameters; "
 "for instance, it is possible to enter the name of a granule (e.g. 33TTG)"
 msgstr ""
 
-#: ../../download_products_tab.rst:198
+#: ../../download_products_tab.rst:208
 msgid ":guilabel:`Filter` |input_text|"
 msgstr ""
 
-#: ../../download_products_tab.rst:199
+#: ../../download_products_tab.rst:209
 msgid ""
 "set a filter such as the Product ID (e.g. ``LC81910312015006LGN00``); it "
 "is possible to enter multiple Product IDs separated by comma or semicolon"
@@ -342,21 +350,21 @@ msgid ""
 "applied to resulting products in the search area"
 msgstr ""
 
-#: ../../download_products_tab.rst:203
+#: ../../download_products_tab.rst:213
 msgid ":guilabel:`Find` |search_images|"
 msgstr ""
 
-#: ../../download_products_tab.rst:204
+#: ../../download_products_tab.rst:214
 msgid ""
 "find the products in the search area; results are displayed inside the "
 "table in :ref:`product_list`; results are added to previous results"
 msgstr ""
 
-#: ../../download_products_tab.rst:206
+#: ../../download_products_tab.rst:216
 msgid "|osm_add| Add OpenStreetMap to the map"
 msgstr ""
 
-#: ../../download_products_tab.rst:207
+#: ../../download_products_tab.rst:217
 msgid ""
 "this button allows for the display of OpenStreetMap tiles ( © "
 "`OpenStreetMap <http://www.openstreetmap.org/copyright>`_ contributors) "
@@ -365,7 +373,7 @@ msgid ""
 "<http://www.openstreetmap.org/copyright>`_ )"
 msgstr ""
 
-#: ../../download_products_tab.rst:214
+#: ../../download_products_tab.rst:224
 msgid ""
 "Search results (and the number thereof) depend on the defined area extent"
 " and the range of dates. In order to get more results, perform multiple "
@@ -373,11 +381,11 @@ msgid ""
 "and to)."
 msgstr ""
 
-#: ../../download_products_tab.rst:222
+#: ../../download_products_tab.rst:232
 msgid "Product list"
 msgstr ""
 
-#: ../../download_products_tab.rst:224
+#: ../../download_products_tab.rst:234
 msgid ""
 "The table :guilabel:`Product list` contains the results of the search. "
 "Click on any item (highlight the item) to display the image preview "
@@ -385,300 +393,300 @@ msgid ""
 " are saved with the QGIS project."
 msgstr ""
 
-#: ../../download_products_tab.rst:229
+#: ../../download_products_tab.rst:239
 msgid "The table includes the following fields."
 msgstr ""
 
-#: ../../download_products_tab.rst:235
+#: ../../download_products_tab.rst:245
 msgid "product"
 msgstr ""
 
-#: ../../download_products_tab.rst:236
+#: ../../download_products_tab.rst:246
 msgid "image"
 msgstr ""
 
-#: ../../download_products_tab.rst:237
+#: ../../download_products_tab.rst:247
 msgid "product_id"
 msgstr ""
 
-#: ../../download_products_tab.rst:238
+#: ../../download_products_tab.rst:248
 msgid "acquisition_date"
 msgstr ""
 
-#: ../../download_products_tab.rst:239
+#: ../../download_products_tab.rst:249
 msgid "cloud_cover"
 msgstr ""
 
-#: ../../download_products_tab.rst:240
+#: ../../download_products_tab.rst:250
 msgid "zone_path"
 msgstr ""
 
-#: ../../download_products_tab.rst:241
+#: ../../download_products_tab.rst:251
 msgid "row"
 msgstr ""
 
-#: ../../download_products_tab.rst:242
+#: ../../download_products_tab.rst:252
 msgid "min_lat"
 msgstr ""
 
-#: ../../download_products_tab.rst:243
+#: ../../download_products_tab.rst:253
 msgid "min_lon"
 msgstr ""
 
-#: ../../download_products_tab.rst:244
+#: ../../download_products_tab.rst:254
 msgid "max_lat"
 msgstr ""
 
-#: ../../download_products_tab.rst:245
+#: ../../download_products_tab.rst:255
 msgid "max_lon"
 msgstr ""
 
-#: ../../download_products_tab.rst:246
+#: ../../download_products_tab.rst:256
 msgid "collection"
 msgstr ""
 
-#: ../../download_products_tab.rst:247
+#: ../../download_products_tab.rst:257
 msgid "size"
 msgstr ""
 
-#: ../../download_products_tab.rst:248
+#: ../../download_products_tab.rst:258
 msgid "preview"
 msgstr ""
 
-#: ../../download_products_tab.rst:249
+#: ../../download_products_tab.rst:259
 msgid "uid"
 msgstr ""
 
-#: ../../download_products_tab.rst:250
+#: ../../download_products_tab.rst:260
 msgid "the product name (e.g., Sentinel-2)"
 msgstr ""
 
-#: ../../download_products_tab.rst:251
+#: ../../download_products_tab.rst:261
 msgid "the image name"
 msgstr ""
 
-#: ../../download_products_tab.rst:252
+#: ../../download_products_tab.rst:262
 msgid "the ID of the product"
 msgstr ""
 
-#: ../../download_products_tab.rst:253
+#: ../../download_products_tab.rst:263
 msgid "the acquisition date of the product"
 msgstr ""
 
-#: ../../download_products_tab.rst:254
+#: ../../download_products_tab.rst:264
 msgid "percentage of cloud cover in the product"
 msgstr ""
 
-#: ../../download_products_tab.rst:255
+#: ../../download_products_tab.rst:265
 msgid "the zone or WRS path depending on the product type"
 msgstr ""
 
-#: ../../download_products_tab.rst:256
+#: ../../download_products_tab.rst:266
 msgid "the WRS row"
 msgstr ""
 
-#: ../../download_products_tab.rst:257
+#: ../../download_products_tab.rst:267
 msgid "minimum latitude of the product"
 msgstr ""
 
-#: ../../download_products_tab.rst:258
+#: ../../download_products_tab.rst:268
 msgid "minimum longitude of the product"
 msgstr ""
 
-#: ../../download_products_tab.rst:259
+#: ../../download_products_tab.rst:269
 msgid "maximum latitude of the product"
 msgstr ""
 
-#: ../../download_products_tab.rst:260
+#: ../../download_products_tab.rst:270
 msgid "maximum longitude of the product"
 msgstr ""
 
-#: ../../download_products_tab.rst:261
+#: ../../download_products_tab.rst:271
 msgid "collection code"
 msgstr ""
 
-#: ../../download_products_tab.rst:262
+#: ../../download_products_tab.rst:272
 msgid "product size"
 msgstr ""
 
-#: ../../download_products_tab.rst:263
+#: ../../download_products_tab.rst:273
 msgid "URL of the product preview"
 msgstr ""
 
-#: ../../download_products_tab.rst:264
+#: ../../download_products_tab.rst:274
 msgid "identifier of the item"
 msgstr ""
 
-#: ../../download_products_tab.rst:267
+#: ../../download_products_tab.rst:277
 msgid "The following tools are available."
 msgstr ""
 
-#: ../../download_products_tab.rst:275
+#: ../../download_products_tab.rst:285
 msgid "|image_preview|"
 msgstr ""
 
-#: ../../download_products_tab.rst:276
+#: ../../download_products_tab.rst:286
 msgid ""
 "display preview of highlighted images in the map; preview is roughly "
 "georeferenced on the fly (not all the products include a preview)"
 msgstr ""
 
-#: ../../download_products_tab.rst:278
+#: ../../download_products_tab.rst:288
 msgid "|remove|"
 msgstr ""
 
-#: ../../download_products_tab.rst:279
+#: ../../download_products_tab.rst:289
 msgid "remove highlighted images from the list"
 msgstr ""
 
-#: ../../download_products_tab.rst:280
+#: ../../download_products_tab.rst:290
 msgid "|reset|"
 msgstr ""
 
-#: ../../download_products_tab.rst:281
+#: ../../download_products_tab.rst:291
 msgid "remove all images from the list"
 msgstr ""
 
-#: ../../download_products_tab.rst:282
+#: ../../download_products_tab.rst:292
 msgid "|import|"
 msgstr ""
 
-#: ../../download_products_tab.rst:283
+#: ../../download_products_tab.rst:293
 msgid "import the product list from an XML file"
 msgstr ""
 
-#: ../../download_products_tab.rst:284 ../../download_products_tab.rst:318
+#: ../../download_products_tab.rst:294 ../../download_products_tab.rst:328
 msgid "|export|"
 msgstr ""
 
-#: ../../download_products_tab.rst:285
+#: ../../download_products_tab.rst:295
 msgid "export the product list to an XML file"
 msgstr ""
 
-#: ../../download_products_tab.rst:291
+#: ../../download_products_tab.rst:301
 msgid "Download"
 msgstr ""
 
-#: ../../download_products_tab.rst:293
+#: ../../download_products_tab.rst:303
 msgid ""
 "Download the products in the :ref:`product_list`. During the download it "
 "is recommended not to interact with QGIS."
 msgstr ""
 
-#: ../../download_products_tab.rst:296
+#: ../../download_products_tab.rst:306
 msgid ""
 "Depending on the download service, it is possible to select single bands "
 "for download."
 msgstr ""
 
-#: ../../download_products_tab.rst:305
+#: ../../download_products_tab.rst:315
 msgid "|checkbox| :guilabel:`Band` ``X``"
 msgstr ""
 
-#: ../../download_products_tab.rst:306
+#: ../../download_products_tab.rst:316
 msgid "select bands for download"
 msgstr ""
 
-#: ../../download_products_tab.rst:307
+#: ../../download_products_tab.rst:317
 msgid "|checkbox| :guilabel:`Ancillary data`"
 msgstr ""
 
-#: ../../download_products_tab.rst:308
+#: ../../download_products_tab.rst:318
 msgid "if checked, the metadata files are selected for download"
 msgstr ""
 
-#: ../../download_products_tab.rst:309
+#: ../../download_products_tab.rst:319
 msgid "|select_all|"
 msgstr ""
 
-#: ../../download_products_tab.rst:310
+#: ../../download_products_tab.rst:320
 msgid "select or deselect all bands"
 msgstr ""
 
-#: ../../download_products_tab.rst:311
+#: ../../download_products_tab.rst:321
 msgid "|checkbox| :guilabel:`Only if preview in Layers`"
 msgstr ""
 
-#: ../../download_products_tab.rst:312
+#: ../../download_products_tab.rst:322
 msgid ""
 "if checked, download only those images listed in :ref:`product_list` "
 "which are also listed in the QGIS layer panel"
 msgstr ""
 
-#: ../../download_products_tab.rst:314
+#: ../../download_products_tab.rst:324
 msgid "|checkbox| :guilabel:`Preprocess images`"
 msgstr ""
 
-#: ../../download_products_tab.rst:315
+#: ../../download_products_tab.rst:325
 msgid "if checked, bands are automatically converted after the download"
 msgstr ""
 
-#: ../../download_products_tab.rst:316
+#: ../../download_products_tab.rst:326
 msgid "|checkbox| :guilabel:`Load bands in QGIS`"
 msgstr ""
 
-#: ../../download_products_tab.rst:317
+#: ../../download_products_tab.rst:327
 msgid "if checked, bands are loaded in QGIS after the download"
 msgstr ""
 
-#: ../../download_products_tab.rst:319
+#: ../../download_products_tab.rst:329
 msgid "export the download links to a text file (.csv)"
 msgstr ""
 
-#: ../../download_products_tab.rst:320
+#: ../../download_products_tab.rst:330
 msgid ":guilabel:`RUN` |run|"
 msgstr ""
 
-#: ../../download_products_tab.rst:321
+#: ../../download_products_tab.rst:331
 msgid ""
 "start the download process of all the products listed in "
 ":ref:`product_list`"
 msgstr ""
 
-#: ../../download_products_tab.rst:327
+#: ../../download_products_tab.rst:337
 msgid "Login data"
 msgstr ""
 
-#: ../../download_products_tab.rst:333
+#: ../../download_products_tab.rst:343
 msgid "|login_data| :guilabel:`Login data`"
 msgstr ""
 
-#: ../../download_products_tab.rst:339
+#: ../../download_products_tab.rst:349
 msgid "Login Harmonized Landsat Sentinel-2"
 msgstr ""
 
-#: ../../download_products_tab.rst:341
+#: ../../download_products_tab.rst:351
 msgid ""
 "The download of Harmonized Landsat Sentinel-2 requires to login using "
 "`EOSDIS Earthdata` credentials (https://urs.earthdata.nasa.gov) One can "
 "register for free at https://urs.earthdata.nasa.gov/users/new ."
 msgstr ""
 
-#: ../../download_products_tab.rst:351
+#: ../../download_products_tab.rst:361
 msgid ":guilabel:`User` |input_text| |registry_save|"
 msgstr ""
 
-#: ../../download_products_tab.rst:352
+#: ../../download_products_tab.rst:362
 msgid "enter the user name"
 msgstr ""
 
-#: ../../download_products_tab.rst:353
+#: ../../download_products_tab.rst:363
 msgid ":guilabel:`Password` |input_text| |registry_save|"
 msgstr ""
 
-#: ../../download_products_tab.rst:354
+#: ../../download_products_tab.rst:364
 msgid "enter the password"
 msgstr ""
 
-#: ../../download_products_tab.rst:355
+#: ../../download_products_tab.rst:365
 msgid "|checkbox| :guilabel:`remember`"
 msgstr ""
 
-#: ../../download_products_tab.rst:356
+#: ../../download_products_tab.rst:366
 msgid "if checked, remember user name and password locally in QGIS"
 msgstr ""
 
-#: ../../download_products_tab.rst:360
+#: ../../download_products_tab.rst:370
 msgid ""
 "If |checkbox| :guilabel:`remember` is checked, the password is stored "
 "unencrypted in QGIS registry."

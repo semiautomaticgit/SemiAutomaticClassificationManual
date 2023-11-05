@@ -134,6 +134,16 @@ Also, automatic conversion to reflectance of downloaded bands is available.
 An internet connection is required and free registration could be required
 depending on the download service.
 
+Following a video tutorial about this tool.
+
+https://www.youtube.com/watch?v=NwL2f5Nrn3U
+
+.. raw:: html
+
+    <iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/NwL2f5Nrn3U?rel=0" width="100%"></iframe>
+
+
+
 
 .. _search_tab:
 

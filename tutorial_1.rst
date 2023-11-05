@@ -1,7 +1,7 @@
 .. _basic_tutorial_1:
 
 ***************************************************************
-Tutorial 1
+Tutorial 1: Basic Land Cover Classification
 ***************************************************************
 
 .. |checkbox| image:: _static/checkbox.png

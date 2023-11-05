@@ -146,12 +146,12 @@ Erosion
     * - :guilabel:`Select input band set (of classifications)` |input_number|
       - select the input :ref:`band_set_tab`
     * - :guilabel:`Class values` |input_text|
-      - set the class values to be dilated; class values must be separated by
+      - set the class values to be eroded; class values must be separated by
         ``,`` and ``-`` can be used to define a range of values (e.g.
         ``1, 3-5, 8`` will select classes 1, 3, 4, 5, 8); if the text is red
         then the expression contains errors
     * - :guilabel:`Size in pixels` |input_number|
-      - number of pixels to be dilated from the border
+      - number of pixels to be eroded from the border
     * - |checkbox| :guilabel:`Circular` |optional|
       - if checked, the erosion will be circular, similar to a buffer
     * - :guilabel:`Output name`

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2023-11-05 18:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../tutorial_1.rst:5
-msgid "Tutorial 1"
+#: ../../tutorial_1.rst:5 ../../tutorial_1.rst:70
+msgid "Tutorial 1: Basic Land Cover Classification"
 msgstr ""
 
 #: ../../tutorial_1.rst:7
@@ -88,10 +88,6 @@ msgstr ""
 
 #: ../../tutorial_1.rst:55
 msgid "https://www.youtube.com/watch?v=7SZDCFXjIbA"
-msgstr ""
-
-#: ../../tutorial_1.rst:70
-msgid "Tutorial 1: Basic Land Cover Classification"
 msgstr ""
 
 #: ../../tutorial_1.rst:72
@@ -707,4 +703,7 @@ msgid ""
 "preprocessing of bands, the classification algorithms, and the "
 "postprocessing of classifications."
 msgstr ""
+
+#~ msgid "Tutorial 1"
+#~ msgstr ""
 

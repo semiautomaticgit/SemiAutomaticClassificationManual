@@ -1,7 +1,7 @@
 .. _basic_tutorial_2:
 
 *****************************************************************
-Tutorial 2: Managing input bands using, the Band set tab
+Tutorial 2: Managing input bands, the Band set tab
 *****************************************************************
 
 The following is a basic tutorial about the :ref:`band_set_tab` tab,

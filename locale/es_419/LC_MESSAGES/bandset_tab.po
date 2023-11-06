@@ -451,7 +451,7 @@ msgstr ":math:`\\mu m`: micrómetros"
 
 #: ../../bandset_tab.rst:238
 msgid ":guilabel:`nm`: nanometres"
-msgstr ""
+msgstr ":guilabel:`nm`: nanómetros"
 
 #: ../../bandset_tab.rst:239
 msgid ":guilabel:`Date` |input_date|"

@@ -349,11 +349,11 @@ msgstr "|reset|"
 
 #: ../../bandset_tab.rst:179
 msgid "clear all bands from :guilabel:`active band set`"
-msgstr ""
+msgstr "elimina todas las bandas del :guilabel:`conjunto de bandas activo`"
 
 #: ../../bandset_tab.rst:180
 msgid "|import|"
-msgstr ""
+msgstr "|import|"
 
 #: ../../bandset_tab.rst:181
 msgid "import a previously saved :guilabel:`active band set` from file"

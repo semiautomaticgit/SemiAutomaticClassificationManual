@@ -908,7 +908,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:485
 msgid ":guilabel:`std`: standard deviation; for instance::"
-msgstr ""
+msgstr ":guilabel:`std`: desviación estándar; por ejemplo::"
 
 #: ../../band_calc_tab.rst:489
 msgid ":guilabel:`sum`: sum; for instance::"

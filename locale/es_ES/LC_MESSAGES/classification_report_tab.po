@@ -182,9 +182,9 @@ msgid ""
 "This tab allows for the calculation of class statistics such as number of "
 "pixels, percentage and area (area unit is defined from the image itself)."
 msgstr ""
-"Esta pestaña permite el cálculo de estadísticas de las Clases como el número"
-" de pixeles, porcentaje y área (las unidades de área son definidas por la "
-"misma imagen)."
+"Esta pestaña permite el cálculo de estadísticas de las clases tales como el "
+"número de pixeles, porcentaje y área (las unidades de área depende del "
+"sistema de referencia de la imagen)."
 
 #: ../../classification_report_tab.rst:131
 msgid ""

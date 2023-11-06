@@ -140,11 +140,11 @@ msgstr "docks"
 
 #: ../../classification_report_tab.rst:92
 msgid "add_sign_tool"
-msgstr "agregar herramienta de signo"
+msgstr "add_sign_tool"
 
 #: ../../classification_report_tab.rst:95
 msgid "guide"
-msgstr "guía"
+msgstr "guide"
 
 #: ../../classification_report_tab.rst:98
 msgid "help"

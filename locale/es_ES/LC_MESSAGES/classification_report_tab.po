@@ -100,11 +100,11 @@ msgstr "preprocessing"
 
 #: ../../classification_report_tab.rst:62
 msgid "band_processing"
-msgstr "procesamiento_banda"
+msgstr "band_processing"
 
 #: ../../classification_report_tab.rst:65
 msgid "postprocessing"
-msgstr "postprocesamiento"
+msgstr "postprocessing"
 
 #: ../../classification_report_tab.rst:68
 msgid "bandcalc"

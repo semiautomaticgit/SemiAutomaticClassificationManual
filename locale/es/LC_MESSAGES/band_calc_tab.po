@@ -888,7 +888,7 @@ msgstr ":guilabel:`min`: mínimo, por ejemplo::"
 
 #: ../../band_calc_tab.rst:471
 msgid ":guilabel:`mean`: mean; for instance::"
-msgstr ""
+msgstr ":guilabel:`media`: media; por ejemplo::"
 
 #: ../../band_calc_tab.rst:475
 msgid ":guilabel:`median`: median; for instance::"

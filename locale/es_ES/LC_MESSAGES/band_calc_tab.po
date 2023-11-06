@@ -564,7 +564,7 @@ msgid ""
 msgstr ""
 ":guilabel:`bandset#b` `BAND_NUMBER`: bandas en el :guilabel:`Band set` "
 "activo pueden ser referenciadas directamente; el siguiente ejemplo se "
-"refiere la banda 1 del :guilabel:`Conjunto de bandas` activo:"
+"refiere la banda 1 del :guilabel:`Conjunto de bandas` activo::"
 
 #: ../../band_calc_tab.rst:285
 msgid ""
@@ -572,6 +572,10 @@ msgid ""
 ":guilabel:`Band set` can be referenced directly; the following example "
 "refers to band 1 of the :guilabel:`Band set` 1::"
 msgstr ""
+":guilabel:`bandset` `BANDSET_NUMBER` ``b`` `BAND_NUMBER`: bandas en el  "
+":guilabel:`Conjunto de bandas` pueden ser referenciadas directamente; el "
+"siguiente ejemplo hace referencia a la banda 1 del :guilabel:`Conjunto de "
+"bandas` 1::"
 
 #: ../../band_calc_tab.rst:291
 msgid ""

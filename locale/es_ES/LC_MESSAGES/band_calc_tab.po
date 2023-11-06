@@ -832,6 +832,8 @@ msgid ""
 ":guilabel:`where`: conditional expression according to the syntax ``where( "
 "condition , value if true, value if false)`` for example::"
 msgstr ""
+":guilabel:`where`: expresión condicional con la siguiente sintaxis, ``where("
+" condición , valor si se cumple, valor si no se cumple)`` por ejemplo::"
 
 #: ../../band_calc_tab.rst:434
 msgid ""

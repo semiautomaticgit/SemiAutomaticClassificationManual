@@ -358,14 +358,16 @@ msgstr "|import|"
 #: ../../bandset_tab.rst:181
 msgid "import a previously saved :guilabel:`active band set` from file"
 msgstr ""
+"importa un :guilabel:`conjunto de bandas` previamente guardado desde un "
+"archivo"
 
 #: ../../bandset_tab.rst:182
 msgid "|export|"
-msgstr ""
+msgstr "|export|"
 
 #: ../../bandset_tab.rst:183
 msgid "export the :guilabel:`active band set` to a file"
-msgstr ""
+msgstr "exporta el :guilabel:`conjunto de bandas activo` a un archivo"
 
 #: ../../bandset_tab.rst:186
 msgid ""

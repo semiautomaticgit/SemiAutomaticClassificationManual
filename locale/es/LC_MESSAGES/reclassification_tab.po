@@ -230,7 +230,7 @@ msgstr "Descripción"
 
 #: ../../reclassification_tab.rst:153
 msgid ":guilabel:`Select the classification` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Selecciona la clasificación` |input_list|"
 
 #: ../../reclassification_tab.rst:154
 msgid "select a classification raster (already loaded in QGIS)"

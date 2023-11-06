@@ -725,7 +725,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:367
 msgid "The directory will be created if it does not exist."
-msgstr ""
+msgstr "El directorio será creado si no existe."
 
 #: ../../band_calc_tab.rst:369
 msgid ""

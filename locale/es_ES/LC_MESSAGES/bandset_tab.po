@@ -497,11 +497,11 @@ msgstr "|add_bandset|"
 
 #: ../../bandset_tab.rst:267
 msgid "add a new empty :guilabel:`band set`"
-msgstr ""
+msgstr "añade un nuevo :guilabel:`conjunto de bandas` vacío"
 
 #: ../../bandset_tab.rst:269
 msgid "remove highlighted :guilabel:`band sets`"
-msgstr ""
+msgstr "elimina los :guilabel:`conjuntos de bandas` seleccionados"
 
 #: ../../bandset_tab.rst:270
 msgid "|order_by_date|"

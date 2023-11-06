@@ -159,15 +159,15 @@ msgstr "checkbox"
 
 #: ../../classification_report_tab.rst:107
 msgid "run"
-msgstr "ejecutar"
+msgstr "run"
 
 #: ../../classification_report_tab.rst:110
 msgid "radiobutton"
-msgstr "botón de radio"
+msgstr "radiobutton"
 
 #: ../../classification_report_tab.rst:113
 msgid "pointer"
-msgstr "puntero"
+msgstr "pointer"
 
 #: ../../classification_report_tab.rst:116
 msgid "threshold_tool"

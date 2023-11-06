@@ -911,11 +911,11 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:489
 msgid ":guilabel:`sum`: sum; for instance::"
-msgstr ""
+msgstr ":guilabel:`sum`: suma; por ejemplo:"
 
 #: ../../band_calc_tab.rst:497
 msgid "Operations"
-msgstr ""
+msgstr "Operaciones"
 
 #: ../../band_calc_tab.rst:499
 msgid ":guilabel:`sin`: sine; for instance::"
@@ -955,13 +955,15 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:516
 msgid "Indices"
-msgstr ""
+msgstr "Índices"
 
 #: ../../band_calc_tab.rst:518
 msgid ""
 ":guilabel:`NDVI`: if selected, the NDVI calculation is entered in the "
 ":guilabel:`Expression`::"
 msgstr ""
+":guilabel:`NDVI`: si se selecciona, la fórmula del NDVI es introducida en la"
+" :guilabel:`Expression`::"
 
 #: ../../band_calc_tab.rst:523
 msgid ""

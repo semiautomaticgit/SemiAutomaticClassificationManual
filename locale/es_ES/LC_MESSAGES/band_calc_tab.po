@@ -602,6 +602,10 @@ msgid ""
 "set`, which is equivalent to ``[bandset#b1, bandset#b2, ..., bandset#bX]``; "
 "to be used in expressions that accept band lists such as the maximum value::"
 msgstr ""
+":guilabel:`bandset#b*`: lista de todas las bandas de un :guilabel:`Conjunto "
+"de bandas` activo, que es equivalente a ``[bandset#b1, bandset#b2, ..., "
+"bandset#bX]``; y se pueden usar en expresiones que aceptan listas de bandas "
+"tales como el valor máximo::"
 
 #: ../../band_calc_tab.rst:306
 msgid ""

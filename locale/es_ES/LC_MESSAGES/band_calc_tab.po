@@ -971,6 +971,8 @@ msgid ""
 ":guilabel:`EVI`: if selected, the EVI calculation is entered in the "
 ":guilabel:`Expression`::"
 msgstr ""
+":guilabel:`EVI`: si se selecciona, la fórmula del EVI es introducida en la "
+":guilabel:`Expression`::"
 
 #: ../../band_calc_tab.rst:528
 msgid ""

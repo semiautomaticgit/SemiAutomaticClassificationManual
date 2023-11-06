@@ -213,7 +213,7 @@ msgstr ""
 
 #: ../../rgb_composite_tab.rst:126
 msgid "|import|"
-msgstr ""
+msgstr "|import|"
 
 #: ../../rgb_composite_tab.rst:127
 msgid ""

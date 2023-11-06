@@ -1066,6 +1066,8 @@ msgid ""
 "During the iteration, the :ref:`input_variables` related to the active "
 ":guilabel:`Band set` are replaced by the iterator."
 msgstr ""
+"Durante la iteración, las :ref:`input_variables`  relacionadas con el "
+":guilabel:`Conjunto de bandas` activo son reemplazadas por el iterador. "
 
 #: ../../band_calc_tab.rst:598
 msgid ""

@@ -704,7 +704,7 @@ msgid ""
 "If the output name is defined in the expression, an output directory will be"
 " selected after clicking the button :guilabel:`RUN`."
 msgstr ""
-"Si el nombre del resultado está definido en la expresión, habrá que "
+"Si el nombre de la salida está definido en la expresión, habrá que "
 "seleccionar el directorio de salida después de hacer click en el botón "
 ":guilabel:`EJECUTAR`."
 
@@ -721,8 +721,8 @@ msgid ""
 "It is possible to set the **output path** directly by defining the output "
 "name with this structure ``@path@name``, such as::"
 msgstr ""
-"es posible definir la **ruta de salida** en el nombre del resultado usando "
-"la siguiente estructura ``@path@name`` en una expresión, tal como::"
+"es posible definir la **ruta de salida** en el nombre de la salida usando la"
+" siguiente estructura ``@path@name`` en una expresión, tal como::"
 
 #: ../../band_calc_tab.rst:367
 msgid "The directory will be created if it does not exist."
@@ -763,7 +763,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:391
 msgid "Also, variables for output name are available:"
-msgstr ""
+msgstr "También, hay disponibles variables para el nombre de la salida"
 
 #: ../../band_calc_tab.rst:393 ../../band_calc_tab.rst:626
 msgid ""

@@ -565,7 +565,7 @@ msgstr ""
 
 #: ../../bandset_tab.rst:300
 msgid "stack bands in a single multiband raster"
-msgstr ""
+msgstr "apilar bandas en un ráster multibanda"
 
 #: ../../bandset_tab.rst:301
 msgid "|checkbox| :guilabel:`Build band overview`"

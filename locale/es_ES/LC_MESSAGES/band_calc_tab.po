@@ -695,6 +695,9 @@ msgid ""
 "**Output names** can be defined in the expression line entering the symbol "
 "``@`` followed by the name, such as the following example::"
 msgstr ""
+"Los **nombres de las variables de salida** pueden definirse en la línea de "
+"la expresión con el símbolo ``@`` seguido del nombre, como en el siguiente "
+"ejemplo::"
 
 #: ../../band_calc_tab.rst:354
 msgid ""

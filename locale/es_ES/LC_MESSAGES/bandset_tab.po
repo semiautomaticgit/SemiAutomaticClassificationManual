@@ -482,6 +482,8 @@ msgid ""
 "A :guilabel:`Filter` can be used to display :guilabel:`band sets` in the "
 "table matching a name."
 msgstr ""
+"Se puede usar un :guilabel:`Filtro` para mostrar :guilabel:`conjuntos de "
+"bandas` en la tabla que coincidan con el texto del filtro."
 
 #: ../../bandset_tab.rst:258
 msgid "The following tools are available for managing :guilabel:`band sets`."

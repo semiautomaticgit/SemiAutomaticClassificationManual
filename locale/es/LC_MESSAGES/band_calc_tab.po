@@ -703,6 +703,9 @@ msgid ""
 "If the output name is defined in the expression, an output directory will be"
 " selected after clicking the button :guilabel:`RUN`."
 msgstr ""
+"Si el nombre del resultado está definido en la expresión, habrá que "
+"seleccionar el directorio de salida después de hacer click en el botón "
+":guilabel:`EJECUTAR`."
 
 #: ../../band_calc_tab.rst:358
 msgid ""

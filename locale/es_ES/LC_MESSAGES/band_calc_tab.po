@@ -849,27 +849,27 @@ msgstr "Se pueden definir condiciones anidadas de la siguiente manera:"
 
 #: ../../band_calc_tab.rst:447
 msgid "Logical"
-msgstr ""
+msgstr "Operadores lógicos"
 
 #: ../../band_calc_tab.rst:449
 msgid ":guilabel:`AND`: AND;"
-msgstr ""
+msgstr ":guilabel:`AND`: AND;"
 
 #: ../../band_calc_tab.rst:450
 msgid ":guilabel:`OR`: OR;"
-msgstr ""
+msgstr ":guilabel:`OR`: OR;"
 
 #: ../../band_calc_tab.rst:451
 msgid ":guilabel:`XOR`: XOR;"
-msgstr ""
+msgstr ":guilabel:`XOR`: XOR;"
 
 #: ../../band_calc_tab.rst:452
 msgid ":guilabel:`NOT`: NOT;"
-msgstr ""
+msgstr ":guilabel:`NOT`: NOT;"
 
 #: ../../band_calc_tab.rst:458
 msgid "Statistics"
-msgstr ""
+msgstr "Estadísticas"
 
 #: ../../band_calc_tab.rst:460
 msgid ""

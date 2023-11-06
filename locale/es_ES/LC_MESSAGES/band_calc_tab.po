@@ -984,7 +984,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:537
 msgid "Variables"
-msgstr ""
+msgstr "Variables"
 
 #: ../../band_calc_tab.rst:539
 msgid ""

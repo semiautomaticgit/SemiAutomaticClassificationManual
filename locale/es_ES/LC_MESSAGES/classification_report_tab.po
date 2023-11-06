@@ -171,7 +171,7 @@ msgstr "pointer"
 
 #: ../../classification_report_tab.rst:116
 msgid "threshold_tool"
-msgstr "herramienta de umbral"
+msgstr "threshold_tool"
 
 #: ../../classification_report_tab.rst:124
 msgid ":guilabel:`Classification report`"

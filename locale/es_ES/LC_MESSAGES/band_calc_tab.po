@@ -713,6 +713,8 @@ msgid ""
 "It is recommended to avoid the use of characters # and @ in the output "
 "raster name."
 msgstr ""
+"Se recomienda no usar los caracteres # y @ en el nombre del ráster de "
+"salida."
 
 #: ../../band_calc_tab.rst:362
 msgid ""

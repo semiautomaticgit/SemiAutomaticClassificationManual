@@ -564,7 +564,7 @@ msgid ""
 msgstr ""
 ":guilabel:`bandset#b` `BAND_NUMBER`: bandas en el :guilabel:`Band set` "
 "activo pueden ser referenciadas directamente; el siguiente ejemplo se "
-"refiere la banda uno del :guilabel:`Conjunto de bandas` activo:"
+"refiere la banda 1 del :guilabel:`Conjunto de bandas` activo:"
 
 #: ../../band_calc_tab.rst:285
 msgid ""

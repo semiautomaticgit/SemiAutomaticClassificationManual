@@ -590,4 +590,4 @@ msgstr "|run|"
 
 #: ../../bandset_tab.rst:306
 msgid "execute selected tools"
-msgstr ""
+msgstr "ejecutar las herramientas seleccionadas"

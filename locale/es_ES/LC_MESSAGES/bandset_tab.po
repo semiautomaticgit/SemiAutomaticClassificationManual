@@ -483,7 +483,7 @@ msgid ""
 "table matching a name."
 msgstr ""
 "Se puede usar un :guilabel:`Filtro` para mostrar :guilabel:`conjuntos de "
-"bandas` en la tabla que coincidan con el texto del filtro."
+"bandas` de la tabla que coincidan con el texto del filtro."
 
 #: ../../bandset_tab.rst:258
 msgid "The following tools are available for managing :guilabel:`band sets`."

@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../rgb_composite_tab.rst:114
 msgid "|move_down|"
-msgstr ""
+msgstr "|move_down|"
 
 #: ../../rgb_composite_tab.rst:115
 msgid "move highlighted RGB combination downward"
@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../rgb_composite_tab.rst:116
 msgid "|order_by_name|"
-msgstr ""
+msgstr "|order_by_name|"
 
 #: ../../rgb_composite_tab.rst:117
 msgid "automatically sort RGB combinations by name"
@@ -189,7 +189,7 @@ msgstr ""
 
 #: ../../rgb_composite_tab.rst:120
 msgid "|remove|"
-msgstr ""
+msgstr "|remove|"
 
 #: ../../rgb_composite_tab.rst:121
 msgid "remove highlighted rows from the table"

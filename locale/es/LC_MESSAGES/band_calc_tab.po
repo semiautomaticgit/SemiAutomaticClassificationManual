@@ -1,0 +1,995 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"PO-Revision-Date: 2023-10-24 15:43+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (https://app.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../band_calc_tab.rst:5
+msgid "Band calc"
+msgstr "Calculadora de Bandas"
+
+#: ../../band_calc_tab.rst:10
+msgid "registry_save"
+msgstr "registro_guardar"
+
+#: ../../band_calc_tab.rst:13
+msgid "project_save"
+msgstr "guardar_proyecto"
+
+#: ../../band_calc_tab.rst:16
+msgid "optional"
+msgstr "opcional"
+
+#: ../../band_calc_tab.rst:19
+msgid "input_list"
+msgstr "lista_entrada"
+
+#: ../../band_calc_tab.rst:22
+msgid "input_text"
+msgstr "texto de entrada"
+
+#: ../../band_calc_tab.rst:25
+msgid "input_date"
+msgstr "fecha_entrada"
+
+#: ../../band_calc_tab.rst:28
+msgid "input_number"
+msgstr "número de entrada"
+
+#: ../../band_calc_tab.rst:31
+msgid "input_slider"
+msgstr "deslizante_entrada"
+
+#: ../../band_calc_tab.rst:34
+msgid "input_table"
+msgstr "tabla_entrada"
+
+#: ../../band_calc_tab.rst:37
+msgid "add"
+msgstr "agregar"
+
+#: ../../band_calc_tab.rst:40
+msgid "checkbox"
+msgstr "casilla de confirmación"
+
+#: ../../band_calc_tab.rst:43
+msgid "pointer"
+msgstr "puntero"
+
+#: ../../band_calc_tab.rst:46
+msgid "radiobutton"
+msgstr "botón de radio"
+
+#: ../../band_calc_tab.rst:49
+msgid "reload"
+msgstr "recargar"
+
+#: ../../band_calc_tab.rst:52
+msgid "reset"
+msgstr "reiniciar"
+
+#: ../../band_calc_tab.rst:55
+msgid "remove"
+msgstr "quitar"
+
+#: ../../band_calc_tab.rst:58
+msgid "run"
+msgstr "ejecutar"
+
+#: ../../band_calc_tab.rst:61
+msgid "open_file"
+msgstr "abrir archivo"
+
+#: ../../band_calc_tab.rst:64
+msgid "new_file"
+msgstr "nuevo archivo"
+
+#: ../../band_calc_tab.rst:67
+msgid "open_dir"
+msgstr "abrir_dir"
+
+#: ../../band_calc_tab.rst:70
+msgid "move_up"
+msgstr "mover_arriba"
+
+#: ../../band_calc_tab.rst:73
+msgid "move_down"
+msgstr "mover_abajo"
+
+#: ../../band_calc_tab.rst:76
+msgid "import"
+msgstr "importar"
+
+#: ../../band_calc_tab.rst:79
+msgid "export"
+msgstr "exportar"
+
+#: ../../band_calc_tab.rst:82
+msgid "plus"
+msgstr "plus"
+
+#: ../../band_calc_tab.rst:85
+msgid "bandcalc_tool"
+msgstr "herramienta_calcband"
+
+#: ../../band_calc_tab.rst:88
+msgid "bandset_tool"
+msgstr "Herramienta de conjunto de bandas"
+
+#: ../../band_calc_tab.rst:91
+msgid "settings_tool"
+msgstr "herramienta_configuracion"
+
+#: ../../band_calc_tab.rst:99
+msgid ":guilabel:`Band calc`"
+msgstr ":guilabel:`Calculadora de Bandas`"
+
+#: ../../band_calc_tab.rst:101
+msgid ""
+"The ``Band calc`` allows for the **raster calculation for bands** (i.e. "
+"calculation of pixel values) using `NumPy functions "
+"<https://numpy.org/doc/stable/reference/routines.math.html>`_. ``Band calc``"
+" can also work with multiple expression lines to perform multiple "
+"calculation at a time; several iteration functions are available for "
+":guilabel:`Band sets` allowing for performing multi-temporal calculations."
+msgstr ""
+"La ``Calculadora de Bandas`` permite hacer **cálculos raster con bandas** "
+"(i.e. cálculos con los valores de los píxeles) usando `funciones de NumPy "
+"<https://numpy.org/doc/stable/reference/routines.math.html>`_. ``Calculadora"
+" de Bandas`` puede trabajar con expresiones con varias líneas de expresiones"
+" para realizar multiples cálculos de una sola vez; varias funciones para "
+"iteraciones están disponibles para guilabel:`Conjuntos de bandas` lo que "
+"permite realizar cálculos multi-temporales."
+
+#: ../../band_calc_tab.rst:108
+msgid ""
+"This tool supports ``virtual raster output``; if the output file name ends "
+"with ``.vrt`` then the output is created as virtual raster composed of as "
+"many ``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`; for large rasters this can speed up the process."
+msgstr ""
+"Esta herramienta admite ''salida ráster virtual''; si el nombre del archivo "
+"de salida termina con ''.vrt'', la salida se crea como ráster virtual "
+"compuesto por varios archivos ''.tif'' como el número de subprocesos de CPU "
+"definidos en :ref:'system_processing'; para rásteres grandes, esto puede "
+"acelerar el proceso."
+
+#: ../../band_calc_tab.rst:113
+msgid ""
+"Raster bands must be already loaded in QGIS. Input rasters can also be in "
+"different projection, but the output will have the projection of the "
+"reference raster."
+msgstr ""
+"Las bandas ráster tienen que estar ya cargadas en QGIS. Los rásters de "
+"entrada pueden estar en proyecciones diferentes, pero la salida tendrá la "
+"proyección del ráster de referencia."
+
+#: ../../band_calc_tab.rst:118
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_calc.html>`_ ."
+msgstr ""
+"Información sobre las APIs de esta herramienta de Remotior Sensus en este "
+"`enlace<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_calc.html>`_ ."
+
+#: ../../band_calc_tab.rst:125
+msgid "Band list"
+msgstr "Lista de Bandas"
+
+#: ../../band_calc_tab.rst:131 ../../band_calc_tab.rst:183
+#: ../../band_calc_tab.rst:236
+msgid "Tool symbol and name"
+msgstr "Símbolo de la herramienta y nombre"
+
+#: ../../band_calc_tab.rst:132 ../../band_calc_tab.rst:184
+#: ../../band_calc_tab.rst:237
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../band_calc_tab.rst:133
+msgid "|input_table| :guilabel:`Band list`"
+msgstr "|input_table| :guilabel:`Lista de bandas`"
+
+#: ../../band_calc_tab.rst:134
+msgid ""
+"table containing a list of single band rasters (already loaded in QGIS) and "
+":ref:`input_variables` defined from :guilabel:`Band set`"
+msgstr ""
+"tabla que contiene una lista de rásteres mono banda (ya cargados en QGIS) y "
+":ref:`input_variables` definidas desde el :guilabel:`Conjunto de bandas`"
+
+#: ../../band_calc_tab.rst:136
+msgid ":guilabel:`Filter` |input_text|"
+msgstr ":guilabel:`Filtro` |input_text|"
+
+#: ../../band_calc_tab.rst:137
+msgid "filter the variable list"
+msgstr "filtra la lista de variables"
+
+#: ../../band_calc_tab.rst:138
+msgid "|reload|"
+msgstr "|recarga|"
+
+#: ../../band_calc_tab.rst:139
+msgid "refresh band list"
+msgstr "actualiza la lista de bandas"
+
+#: ../../band_calc_tab.rst:144
+msgid "Expression"
+msgstr "Expresión"
+
+#: ../../band_calc_tab.rst:146
+msgid ""
+"Enter a mathematical expression for raster bands. In particular, NumPy "
+"functions can be used with the prefix `np.` (e.g. ``np.log10(raster1)`` ). "
+"For a list of NumPy functions see `the NumPy page "
+"<https://numpy.org/doc/stable/reference/routines.math.html>`_ ."
+msgstr ""
+"Introduzca una expresión matemática para bandas ráster. En particular, las "
+"funciones NumPy se pueden utilizar con el prefijo 'np.' (por ejemplo, "
+"''np.log10(raster1)''). Para obtener una lista de las funciones de NumPy, "
+"consulte 'la página de NumPy  "
+"<https://numpy.org/doc/stable/reference/routines.math.html>`_ ."
+
+#: ../../band_calc_tab.rst:152
+msgid ""
+"The expression can work with :guilabel:`Variable` between ``\"``. Double "
+"click on any item in the :ref:`band_list2` for adding the name thereof to "
+"the expression."
+msgstr ""
+"La expresión puede funcionar con  :guilabel:`Variable` entre ``\"``.  Haz "
+"doble click en cualquier elemento de la :ref:`band_list2` para añadir el "
+"nombre de la misma a la expresión."
+
+#: ../../band_calc_tab.rst:156
+msgid ""
+"If text color in the :guilabel:`Expression` is green, then the syntax is "
+"correct; if text color is red, then the syntax is incorrect and it is not "
+"possible to execute the calculation."
+msgstr ""
+"Si el color del texto en :guilabel:'Expression' es verde, entonces la "
+"sintaxis es correcta; si el color del texto es rojo, la sintaxis es "
+"incorrecta y no es posible ejecutar el cálculo."
+
+#: ../../band_calc_tab.rst:160
+msgid ""
+"It is possible to enter multiple expressions separated by newlines such as "
+"the following example::"
+msgstr ""
+"Es posible introducir varias expresiones separadas por nuevas líneas como el"
+" siguiente ejemplo::"
+
+#: ../../band_calc_tab.rst:166
+msgid ""
+"The above example calculates two new rasters in the output directory with "
+"the suffix ``_1`` (e.g. ``calc_raster_1`` ) for the first expression and "
+"``_2`` (e.g. ``calc_raster_2`` ) for the second expression. Also, it is "
+"possible to define the output name using the symbol ``@`` followed by the "
+"name, such as the following example::"
+msgstr ""
+"El ejemplo anterior calcula dos nuevos rásteres en el directorio de salida "
+"con el sufijo ''_1'' (por ejemplo, ''calc_raster_1'') para la primera "
+"expresión y ''_2'' (por ejemplo, ''calc_raster_2'') para la segunda "
+"expresión. Además, es posible definir el nombre de salida utilizando el "
+"símbolo ''@'' seguido del nombre, como el siguiente ejemplo:"
+
+#: ../../band_calc_tab.rst:176
+msgid ""
+":ref:`input_variables` and :ref:`output_variables` can be used in the "
+"expression."
+msgstr ""
+":ref:`input_variables` y :ref:`output_variables` pueden ser usadas en la "
+"expresión."
+
+#: ../../band_calc_tab.rst:185
+msgid "|checkbox| :guilabel:`Input NoData as value` |optional|"
+msgstr "|checkbox| :guilabel:`Valor Sin Datos de entrada` |optional|"
+
+#: ../../band_calc_tab.rst:186
+msgid ""
+"if checked, input ``NoData`` pixels are replaced by ``NoData`` value and "
+"accounted in calculation"
+msgstr ""
+"si está marcado, el valor ``Sin datos`` de la entrada será reemplazado por "
+"el valor definido `Sin datos`` y será tenido en cuenta en los cálculos"
+
+#: ../../band_calc_tab.rst:188
+msgid "|checkbox| :guilabel:`Use value as NoData` |input_number| |optional|"
+msgstr ""
+"|checkbox| :guilabel:`Usar el valor como valor Sin Datos` |input_number| "
+"|optional|"
+
+#: ../../band_calc_tab.rst:189
+msgid "if checked, selected value is used as ``NoData`` during calculation"
+msgstr ""
+"si está marcado el valor será usado como ``Sin datos`` durante los cálculos"
+
+#: ../../band_calc_tab.rst:190
+msgid ":guilabel:`Calculation data type`"
+msgstr ":guilabel:`Tipo de datos de los cálculos`"
+
+#: ../../band_calc_tab.rst:191
+msgid ""
+"select the data type used during calculation as Float32 (default), Int32, "
+"Int16, UInt32, UInt16, Byte; for instance, if Int32 is selected, input float"
+" values will be evaluated as integer"
+msgstr ""
+"selecciona el tipo de datos a usar durante los cálculos como Float32 "
+"(default), Int32, Int16, UInt32, UInt16, Byte; por ejemplo, si seleccionas "
+"Int32, los valores flotantes de la entrada serán evaluados como enteros"
+
+#: ../../band_calc_tab.rst:194
+msgid "|input_table| :guilabel:`Functions`"
+msgstr "|input_table| :guilabel:`Funciones`"
+
+#: ../../band_calc_tab.rst:195
+msgid ""
+"list of :ref:`band_calc_function` names (double click to copy one in the "
+"expression) such as mathematical, conditional, logical, statistics, indices,"
+" and custom"
+msgstr ""
+"lista con los nombres de las :ref:`band_calc_function` (haz doble click para"
+" copiar una en la expresión) tales como matemáticas, condicionales, lógicas,"
+" estadísticas, indices, y personalizadas"
+
+#: ../../band_calc_tab.rst:198
+msgid "|open_file|"
+msgstr "|open_file|"
+
+#: ../../band_calc_tab.rst:199
+msgid ""
+"open a text file (.txt) containing custom expressions to be listed in "
+":guilabel:`Functions`"
+msgstr ""
+"abre un archivo de texto (.txt) que contenga expresiones personalizadas para"
+" que sean listadas en :guilabel:`Funciones`"
+
+#: ../../band_calc_tab.rst:202
+msgid ""
+"A text file can be loaded for adding expressions to the "
+":guilabel:`Functions`. The text must contain an expression for each line; "
+"each line must be in the form ``expression_name; expression`` (separated by "
+"``;``) where the ``expression_name`` is the expression name that is "
+"displayed in the :guilabel:`Functions`. Opening an empty text file will "
+"remove custom expressions from the :guilabel:`Functions`. Following an "
+"example of text content::"
+msgstr ""
+"Se puede cargar un archivo de texto para añadir las expresiones a la lista "
+"de :guilabel:`Funciones`. El archivo debe contener expresiones, cada una "
+"escrita en una línea, con el siguiente formato ``nombre_expresion; "
+"expresión`` (separado por ``;``) donde ``nombre_expresion`` es el nombre que"
+" se mostrará en la lista de :guilabel:`Funciones`. Abrir un archivo de texto"
+" vacío quitará las expresión de la lista de :guilabel:`Funciones`. A "
+"continuación se muestra un ejemplo de texto:"
+
+#: ../../band_calc_tab.rst:219
+msgid "Output raster"
+msgstr "Ráster de salida"
+
+#: ../../band_calc_tab.rst:221
+msgid ""
+"The output raster is a .tif file, with the same spatial resolution and "
+"projection of input rasters; if input rasters have different spatial "
+"resolutions, then the highest resolution (i.e. minimum pixel size) is used "
+"for output raster."
+msgstr ""
+"El ráster de salida es un archivo .tif, con la misma resolución espacial y "
+"proyección que el ráster de entrada; si los ráster de entrada tienen "
+"diferente resolución espacial, se usará la mayor resolución (i.e. menor "
+"tamaño de pixel) para el ráster de salida."
+
+#: ../../band_calc_tab.rst:227
+msgid ""
+"If multiple lines are entered in Expression or output name are defined in "
+"line, a directory selection instead of a file selection is prompted for "
+"output."
+msgstr ""
+"si se introducen varias líneas en una expresión o varios nombres de salida "
+"son definidos en línea, se mostrará un diálogo de selección de directorio en"
+" lugar de uno para archivos"
+
+#: ../../band_calc_tab.rst:238
+msgid ":guilabel:`Output data type` |input_list|"
+msgstr ":guilabel:`Tipo de dato de salida` |input_list|"
+
+#: ../../band_calc_tab.rst:239
+msgid ""
+"select the output data type as Float32 (default), Int32, Int16, UInt32, "
+"UInt16, Byte; it can be different from :guilabel:`Calculation data type`"
+msgstr ""
+"selecciona el tipo de dato de salida como Float32 (por defecto), Int32, "
+"Int16, UInt32, UInt16, Byte;  puede ser diferente del :guilabel:`Tipo de "
+"datos de los cálculos`"
+
+#: ../../band_calc_tab.rst:242
+msgid ":guilabel:`Output NoData value` |input_number|"
+msgstr ":guilabel:`Valor sin datos de la salida` |input_number|"
+
+#: ../../band_calc_tab.rst:243
+msgid "set the value of ``NoData`` pixels in output raster"
+msgstr "define el valor  de los píxeles `Sin datos`` en el ráster de salida"
+
+#: ../../band_calc_tab.rst:244
+msgid ":guilabel:`NoData mask` |input_list|"
+msgstr ":guilabel:`Máscara Sin Datos` |input_list|"
+
+#: ../../band_calc_tab.rst:245
+msgid ""
+"manage NoData at pixel level; if True, then output is NoData if any input is"
+" NoData; if False, then output is NoData if all the inputs are NoData; if "
+"None, then NoData is not applied to output"
+msgstr ""
+"gestiona los valores Sin Datos a nivel pixel, si es True, entonces el "
+"resultado es Sin datos si alguna entrada es Sin Datos.; si es False, "
+"entonces el resultado es Sin Datos si todas las entradas son Sin Datos; si "
+"es None, entonces los valores Sin Datos no son aplicados a la salida"
+
+#: ../../band_calc_tab.rst:248
+msgid "|checkbox| :guilabel:`Set scale` |input_number| |optional|"
+msgstr "|checkbox| :guilabel:`Definir escala` |input_number| |optional|"
+
+#: ../../band_calc_tab.rst:249
+msgid ""
+"if checked, set a scale in output raster (and output values are divided by "
+"scale)"
+msgstr ""
+"si está marcado, define un escalado en el ráster de salida (y los valores de"
+" salida será divididos por la escala)."
+
+#: ../../band_calc_tab.rst:251
+msgid "|checkbox| :guilabel:`Set offset` |input_number| |optional|"
+msgstr "|checkbox| :guilabel:`Definir compensación` |input_number| |optional|"
+
+#: ../../band_calc_tab.rst:252
+msgid ""
+"if checked, set an offset in output raster (and offset is subtracted to "
+"output values)"
+msgstr ""
+"si está marcado, define una compensación (offset) en el ráster de salida (y "
+"la compensación es restada a los valores de salida)."
+
+#: ../../band_calc_tab.rst:254
+msgid ""
+":guilabel:`Extent` |input_list| :guilabel:`UL X` :guilabel:`UL Y` "
+":guilabel:`LR X` :guilabel:`LR Y`"
+msgstr ""
+":guilabel:`Extensión` |input_list| :guilabel:`UL X` :guilabel:`UL Y` "
+":guilabel:`LR X` :guilabel:`LR Y`"
+
+#: ../../band_calc_tab.rst:259
+msgid "set the extent of the output raster among:"
+msgstr "define la extensión del ráster de salida entre:"
+
+#: ../../band_calc_tab.rst:256
+msgid ":guilabel:`'Union'`: the extent union of input rasters"
+msgstr ":guilabel:`'Unión'`: la extensión de los rásteres de entrada unidos"
+
+#: ../../band_calc_tab.rst:257
+msgid ":guilabel:`'Map extent'`: the extent of the map currently displayed"
+msgstr ""
+":guilabel:`'Extensión del mapa'`: extensión del mapa que se está siendo "
+"mostrado actualmente"
+
+#: ../../band_calc_tab.rst:258
+msgid ""
+":guilabel:`'Intersection'`: the extent intersection of input raster extents "
+"(i.e. minimum extent)"
+msgstr ""
+":guilabel:`'Intersección'`: la extensión de la intersección de los rásteres "
+"de entrada (i.e. extensión mínina)"
+
+#: ../../band_calc_tab.rst:259
+msgid ""
+":guilabel:`'Custom'`: coordinates defined in :guilabel:`UL X` :guilabel:`UL "
+"Y` :guilabel:`LR X` :guilabel:`LR Y`"
+msgstr ""
+":guilabel:`'Personalizada'`: coordenadas definidas en  :guilabel:`X SI` "
+":guilabel:`Y SI` :guilabel:`X ID` :guilabel:`Y ID`"
+
+#: ../../band_calc_tab.rst:260
+msgid ":guilabel:`Layer name`: the extent of the selected layer"
+msgstr ":guilabel:`Nombre de la capa`: extensión de la capa seleccionada"
+
+#: ../../band_calc_tab.rst:261
+msgid ":guilabel:`Align` |input_list|"
+msgstr ":guilabel:`Alinear` |input_list|"
+
+#: ../../band_calc_tab.rst:262
+msgid ""
+"align the output raster to a specific :guilabel:`Layer name` or "
+":guilabel:`'Default'` for automatic alignment to input rasters"
+msgstr ""
+"alinear el ráster de salida a :guilabel:`Nombre de capa` or  :guilabel:`'Por"
+" defecto'` para alinear automáticamente a los rásteres de entrada."
+
+#: ../../band_calc_tab.rst:264
+msgid ":guilabel:`Pixel size` |input_text|"
+msgstr ":guilabel:`Tamaño de píxel` |input_text|"
+
+#: ../../band_calc_tab.rst:265
+msgid "set pixel size"
+msgstr "define el tamaño de píxel"
+
+#: ../../band_calc_tab.rst:266
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`EJECUTAR` |run|"
+
+#: ../../band_calc_tab.rst:267
+msgid ""
+"run this function; it is disabled if the expression syntax is not correct"
+msgstr ""
+"ejecutar esta función; está desactivado si la sintaxis de la expresión no es"
+" correcta"
+
+#: ../../band_calc_tab.rst:274
+msgid "Input variables"
+msgstr "Variables de entrada"
+
+#: ../../band_calc_tab.rst:276
+msgid ""
+"The following variables related to the :ref:`band_set_tab` are available "
+"(please note that the character ``\"`` is always required):"
+msgstr ""
+"La siguientes variables relacionadas al :ref:`band_set_tab` están "
+"disponibles (nótese que siempre se requiere el carácter ``\"``)"
+
+#: ../../band_calc_tab.rst:279
+msgid ""
+":guilabel:`bandset#b` `BAND_NUMBER`: bands in the active :guilabel:`Band "
+"set` can be referenced directly; the following example refers to band 1 of "
+"the active :guilabel:`Band set`::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:285
+msgid ""
+":guilabel:`bandset` `BANDSET_NUMBER` ``b`` `BAND_NUMBER`: bands in the "
+":guilabel:`Band set` can be referenced directly; the following example "
+"refers to band 1 of the :guilabel:`Band set` 1::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:291
+msgid ""
+":guilabel:`bandset{` `BANDSET_NUMBER_LIST` ``}b`` `BAND_NUMBER`: list of all"
+" the bands X of all the :guilabel:`Band sets` matching a list between curly "
+"brackets (e.g. {1,2,3}) or range of :guilabel:`Band sets` separated by colon"
+" (e.g. {1:3}) or a list of ranges of :guilabel:`Band sets` (e.g. {1:3, "
+"5:8}), which is equivalent to ``[bandset1bX, bandset2bX, ..., bandsetNbX]``;"
+" this variable can be used in expressions that accept band lists such as the"
+" sum::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:300
+msgid ""
+":guilabel:`bandset#b*`: list of all the bands of active :guilabel:`Band "
+"set`, which is equivalent to ``[bandset#b1, bandset#b2, ..., bandset#bX]``; "
+"to be used in expressions that accept band lists such as the maximum value::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:306
+msgid ""
+":guilabel:`bandset` `BANDSET_NUMBER` ``b*``: list of all the bands of "
+":guilabel:`Band set` N, which is equivalent to ``[bandsetNb1, bandsetNb2, "
+"..., bandsetNbX]``; to be used in expressions that accept band lists such as"
+" the minimum value::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:313
+msgid ""
+":guilabel:`bandset*b` `BAND_NUMBER`: list of all the bands X of all the "
+":guilabel:`Band sets`, which is equivalent to ``[bandset1bX, bandset2bX, "
+"..., bandsetNbX]``; to be used in expressions that accept band lists such as"
+" the mean value::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:320
+msgid ""
+":guilabel:`bandset{` `DATE` ``}b`` `BAND_NUMBER`: list of all the bands X of"
+" all the :guilabel:`Band sets` matching a list of dates (format yyyy-mm-dd) "
+"between curly brackets (e.g. {2019-01-01,2019-07-31}) or range of dates "
+"separated by colon (e.g. {2019-01-01:2019-07-31}) or a list of ranges of "
+"dates (e.g. {2019-01-01:2019-01-31, 2019-04-01:2019-07-31}), which is "
+"equivalent to ``[bandset2bX, bandset5bX, ..., bandsetNbX]``; :guilabel:`Band"
+" sets` dates are defined in :ref:`band_set_definition`; this variable can be"
+" used in expressions that accept band lists such as the median value::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:332
+msgid ""
+":guilabel:`\"#BLUE#\"`: the band with the center wavelength closest to 0.475"
+" :math:`\\mu m`;"
+msgstr ""
+":guilabel:`\"#BLUE#\"`: la banda con el centro de longitud de onda cercano a"
+" 0.475 :math:`\\mu m`;"
+
+#: ../../band_calc_tab.rst:334
+msgid ""
+":guilabel:`\"#GREEN#\"`: the band with the center wavelength closest to 0.56"
+" :math:`\\mu m`;"
+msgstr ""
+
+#: ../../band_calc_tab.rst:336
+msgid ""
+":guilabel:`\"#RED#\"`: the band with the center wavelength closest to 0.65 "
+":math:`\\mu m`;"
+msgstr ""
+":guilabel:`\"#RED#\"`: la banda con el centro de longitud de onda cercano a "
+"0.65 :math:`\\mu m`;"
+
+#: ../../band_calc_tab.rst:338
+msgid ""
+":guilabel:`\"#NIR#\"`: the band with the center wavelength closest to 0.85 "
+":math:`\\mu m`; for example::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:347
+msgid "Output variables"
+msgstr ""
+
+#: ../../band_calc_tab.rst:349
+msgid ""
+"**Output names** can be defined in the expression line entering the symbol "
+"``@`` followed by the name, such as the following example::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:354
+msgid ""
+"If the output name is defined in the expression, an output directory will be"
+" selected after clicking the button :guilabel:`RUN`."
+msgstr ""
+
+#: ../../band_calc_tab.rst:358
+msgid ""
+"It is recommended to avoid the use of characters # and @ in the output "
+"raster name."
+msgstr ""
+
+#: ../../band_calc_tab.rst:362
+msgid ""
+"It is possible to set the **output path** directly by defining the output "
+"name with this structure ``@path@name``, such as::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:367
+msgid "The directory will be created if it does not exist."
+msgstr ""
+
+#: ../../band_calc_tab.rst:369
+msgid ""
+"It is possible to create a **temporary output** (saved in the temporary "
+"directory) with ``@temp@`` followed by output name, such as::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:374
+msgid ""
+"The **output name** of calculation can be used **as input variable** for the"
+" following calculations; for example::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:381
+msgid ""
+"It is possible to **add the calculation result to a Band set** using the "
+"symbol ``%`` followed by the :guilabel:`Band set` number such as::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:386
+msgid ""
+"It is possible to **add the calculation result to the active Band set** "
+"using the symbol ``%`` followed by the symbol ``#`` such as::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:391
+msgid "Also, variables for output name are available:"
+msgstr ""
+
+#: ../../band_calc_tab.rst:393 ../../band_calc_tab.rst:626
+msgid ""
+":guilabel:`#BANDSET#`: the name of the first band in the "
+":ref:`band_set_tab`;"
+msgstr ""
+":guilabel:`#BANDSET#`: el nombre de la primera banda en "
+"el:ref:`band_set_tab`;"
+
+#: ../../band_calc_tab.rst:394 ../../band_calc_tab.rst:627
+msgid ""
+":guilabel:`#DATE#`: the current date and time (e.g. 20161110_113846527764);"
+msgstr ""
+":guilabel:`#DATE#`: la fecha y hora actuales(e.g. 20161110_113846527764);"
+
+#: ../../band_calc_tab.rst:396
+msgid ""
+"Using the symbol ``@`` followed by the variable #BANDSET# can save the "
+"raster calculation inside the **directory containing the first band** of the"
+" active band set, such as::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:402
+msgid ""
+"If the output name is defined with the extension ``.vrt``, the output will "
+"be a **virtual raster** referencing the single ``.tif`` files calculated by "
+"parallel processing. For instance, the following expression will calculate "
+"the raster with parallel processing and the output will be a ``.vrt``::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:410
+msgid ""
+"Virtual file is useful to reduce calculation time of parallel processing by "
+"avoiding the writing of the entire output raster."
+msgstr ""
+
+#: ../../band_calc_tab.rst:414
+msgid ""
+"A ``.vrt`` virtual file is a text file containing the reference to existing "
+"``.tif`` files. Moving the ``.vrt`` virtual file or the ``.tif`` files in "
+"different directories can make the virtual file unusable."
+msgstr ""
+
+#: ../../band_calc_tab.rst:422
+msgid "Functions"
+msgstr "Funciones"
+
+#: ../../band_calc_tab.rst:427
+msgid "Conditional"
+msgstr ""
+
+#: ../../band_calc_tab.rst:429
+msgid ""
+":guilabel:`where`: conditional expression according to the syntax ``where( "
+"condition , value if true, value if false)`` for example::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:434
+msgid ""
+"Parenthesis are required for multiple conditions for instance to select "
+"pixel values between 1 and 3::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:440
+msgid "Nested conditions can be defined such as::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:447
+msgid "Logical"
+msgstr ""
+
+#: ../../band_calc_tab.rst:449
+msgid ":guilabel:`AND`: AND;"
+msgstr ""
+
+#: ../../band_calc_tab.rst:450
+msgid ":guilabel:`OR`: OR;"
+msgstr ""
+
+#: ../../band_calc_tab.rst:451
+msgid ":guilabel:`XOR`: XOR;"
+msgstr ""
+
+#: ../../band_calc_tab.rst:452
+msgid ":guilabel:`NOT`: NOT;"
+msgstr ""
+
+#: ../../band_calc_tab.rst:458
+msgid "Statistics"
+msgstr ""
+
+#: ../../band_calc_tab.rst:460
+msgid ""
+"A band list between square brackets or :ref:`input_variables` are required "
+"arguments."
+msgstr ""
+
+#: ../../band_calc_tab.rst:463
+msgid ":guilabel:`max`: maximum; for instance::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:467
+msgid ":guilabel:`min`: minimum; for instance::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:471
+msgid ":guilabel:`mean`: mean; for instance::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:475
+msgid ":guilabel:`median`: median; for instance::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:479
+msgid ""
+":guilabel:`percentile`: percentile calculation; the expression must have "
+"this structure ``percentile([band_list], percentile_value)``; for instance, "
+"the following expression calculates the 10th percentile of active band set::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:485
+msgid ":guilabel:`std`: standard deviation; for instance::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:489
+msgid ":guilabel:`sum`: sum; for instance::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:497
+msgid "Operations"
+msgstr ""
+
+#: ../../band_calc_tab.rst:499
+msgid ":guilabel:`sin`: sine; for instance::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:503
+msgid ":guilabel:`cos`: cosine;"
+msgstr ":guilabel:`cos`: coseno;"
+
+#: ../../band_calc_tab.rst:504
+msgid ":guilabel:`tan`: tangent;"
+msgstr ":guilabel:`tan`: tangente;"
+
+#: ../../band_calc_tab.rst:505
+msgid ":guilabel:`asin`: inverse sine;"
+msgstr ":guilabel:`asin`: seno inverso;"
+
+#: ../../band_calc_tab.rst:506
+msgid ":guilabel:`acos`: inverse cosine;"
+msgstr ":guilabel:`acos`: coseno inverso;"
+
+#: ../../band_calc_tab.rst:507
+msgid ":guilabel:`atan`: inverse tangent;"
+msgstr ":guilabel:`atan`: tangente inversa;"
+
+#: ../../band_calc_tab.rst:508
+msgid ":guilabel:`exp`: natural exponential;"
+msgstr ":guilabel:`exp`: exponencial natural;"
+
+#: ../../band_calc_tab.rst:509
+msgid ":guilabel:`ln`: natural logarithm;"
+msgstr ":guilabel:`ln`: logaritmo natural;"
+
+#: ../../band_calc_tab.rst:510
+msgid ":guilabel:`log`: base 10 logarithm;"
+msgstr ""
+
+#: ../../band_calc_tab.rst:516
+msgid "Indices"
+msgstr ""
+
+#: ../../band_calc_tab.rst:518
+msgid ""
+":guilabel:`NDVI`: if selected, the NDVI calculation is entered in the "
+":guilabel:`Expression`::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:523
+msgid ""
+":guilabel:`EVI`: if selected, the EVI calculation is entered in the "
+":guilabel:`Expression`::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:528
+msgid ""
+":guilabel:`NBR`: if selected, the NBR calculation is entered in the "
+":guilabel:`Expression`::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:537
+msgid "Variables"
+msgstr ""
+
+#: ../../band_calc_tab.rst:539
+msgid ""
+":guilabel:`nodata`: NoData value of raster (e.g. ``nodata(\"raster1\")``); "
+"it can be used as value in the expression::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:544
+msgid ""
+":guilabel:`forbandsets`: it allows for the iteration over :guilabel:`Band "
+"sets` defined between square brackets; a range of :guilabel:`Band sets` "
+"separated by colon (e.g. ``forbandsets[1:3]``) or a list separated by commas"
+" (e.g. ``forbandsets[1,2,3]``; ``forbandsets`` must be entered in the first "
+"line of expressions (not compatible with ``forbandsinbandset``), for "
+"instance::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:554
+msgid ""
+"During the iteration, the :ref:`input_variables` related to the active "
+":guilabel:`Band set` are replaced by the iterator, therefore the "
+"expression::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:560
+msgid "is equivalent to::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:566
+msgid ""
+"It is possible to enter a string (or a list of strings separated by comma "
+"``,``) after the square bracket ``]`` to filter :guilabel:`Band sets` by the"
+" name of first band in :guilabel:`Band set`; for instance, the following "
+"expression will iterate the first 3 :guilabel:`Band sets` selecting only the"
+" :guilabel:`Band set` whose name of the first band includes ``RT``::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:575
+msgid ""
+"Also, :guilabel:`forbandsets`: allows for the iteration over :guilabel:`Band"
+" sets` dates (format yyyy-mm-dd, defined in :ref:`band_set_definition`) "
+"between square brackets, such as the following examples:"
+msgstr ""
+
+#: ../../band_calc_tab.rst:580
+msgid "Iterating over a range of dates::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:585
+msgid "Iterating over a list of dates::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:590
+msgid "Iterating over a list of ranges of dates::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:595
+msgid ""
+"During the iteration, the :ref:`input_variables` related to the active "
+":guilabel:`Band set` are replaced by the iterator."
+msgstr ""
+
+#: ../../band_calc_tab.rst:598
+msgid ""
+"It is possible to enter a string (or a list of strings separated by comma "
+"``,``) after the square bracket ``]`` to filter :guilabel:`Band sets` by the"
+" name of first band in :guilabel:`Band set`; for instance, the following "
+"expression will iterate the :guilabel:`Band sets` in the range selecting "
+"only the :guilabel:`Band set` whose name of the first band includes ``RT``::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:606
+msgid ""
+":guilabel:`forbandsinbandset`: it allows for the iteration over bands in a "
+":guilabel:`Band set` or a range of :guilabel:`Band sets` between square "
+"brackets; ``forbandsinbandset`` must be entered in the first line of "
+"expressions (not compatible with ``forbandsets``); the variable #BAND# must "
+"be used to refer to the iterated band such as the following examples:"
+msgstr ""
+
+#: ../../band_calc_tab.rst:613
+msgid ""
+"Iterating over the bands of the first :guilabel:`Band set` (note the ``\"`` "
+"in the expression)::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:619
+msgid "Iterating over all the bands of :guilabel:`Band sets` from 1 to 3::"
+msgstr ""
+
+#: ../../band_calc_tab.rst:624
+msgid ":guilabel:`#BAND#`:"
+msgstr ""
+
+#: ../../band_calc_tab.rst:628
+msgid ":guilabel:`@`: character @;"
+msgstr ""

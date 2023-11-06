@@ -345,27 +345,29 @@ msgstr ""
 
 #: ../../bandset_tab.rst:178
 msgid "|reset|"
-msgstr ""
+msgstr "|reset|"
 
 #: ../../bandset_tab.rst:179
 msgid "clear all bands from :guilabel:`active band set`"
-msgstr ""
+msgstr "elimina todas las bandas del :guilabel:`conjunto de bandas activo`"
 
 #: ../../bandset_tab.rst:180
 msgid "|import|"
-msgstr ""
+msgstr "|import|"
 
 #: ../../bandset_tab.rst:181
 msgid "import a previously saved :guilabel:`active band set` from file"
 msgstr ""
+"importa un :guilabel:`conjunto de bandas` previamente guardado desde un "
+"archivo"
 
 #: ../../bandset_tab.rst:182
 msgid "|export|"
-msgstr ""
+msgstr "|export|"
 
 #: ../../bandset_tab.rst:183
 msgid "export the :guilabel:`active band set` to a file"
-msgstr ""
+msgstr "exporta el :guilabel:`conjunto de bandas activo` a un archivo"
 
 #: ../../bandset_tab.rst:186
 msgid ""

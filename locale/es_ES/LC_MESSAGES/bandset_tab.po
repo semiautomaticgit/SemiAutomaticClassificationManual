@@ -513,15 +513,15 @@ msgstr "ordena los :guilabel:`conjuntos de bandas` por fecha"
 
 #: ../../bandset_tab.rst:273
 msgid "move highlighted :guilabel:`band sets` upward"
-msgstr ""
+msgstr "mueve los :guilabel:`conjuntos de bandas` seleccionados hacia arriba"
 
 #: ../../bandset_tab.rst:275
 msgid "move highlighted :guilabel:`band sets` downward"
-msgstr ""
+msgstr "mueve los :guilabel:`conjuntos de bandas` seleccionados hacia abajo"
 
 #: ../../bandset_tab.rst:276
 msgid "|rgb_tool|"
-msgstr ""
+msgstr "|rgb_tool|"
 
 #: ../../bandset_tab.rst:277
 msgid ""

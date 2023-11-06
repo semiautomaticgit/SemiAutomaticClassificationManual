@@ -80,15 +80,15 @@ msgstr "reset"
 
 #: ../../classification_report_tab.rst:47
 msgid "bandset_tool"
-msgstr "Herramienta de conjunto de bandas"
+msgstr "bandset_tool"
 
 #: ../../classification_report_tab.rst:50
 msgid "download"
-msgstr "descargar"
+msgstr "download"
 
 #: ../../classification_report_tab.rst:53
 msgid "export"
-msgstr "exportar"
+msgstr "export"
 
 #: ../../classification_report_tab.rst:56
 msgid "tools"

@@ -900,6 +900,10 @@ msgid ""
 "this structure ``percentile([band_list], percentile_value)``; for instance, "
 "the following expression calculates the 10th percentile of active band set::"
 msgstr ""
+":guilabel:`percentil`: cálculo de percentiles; la expresión tiene que tener "
+"la siguiente estructura ``percentile([band_list], percentile_value)``; por "
+"ejemplo, la siguiente expresión calcula el percentil 10 de un conjunto de "
+"bandas activo::"
 
 #: ../../band_calc_tab.rst:485
 msgid ":guilabel:`std`: standard deviation; for instance::"

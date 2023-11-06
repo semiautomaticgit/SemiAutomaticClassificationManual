@@ -189,7 +189,7 @@ msgstr ""
 
 #: ../../rgb_composite_tab.rst:120
 msgid "|remove|"
-msgstr ""
+msgstr "|remove|"
 
 #: ../../rgb_composite_tab.rst:121
 msgid "remove highlighted rows from the table"

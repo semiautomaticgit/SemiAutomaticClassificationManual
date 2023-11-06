@@ -805,6 +805,8 @@ msgid ""
 "Virtual file is useful to reduce calculation time of parallel processing by "
 "avoiding the writing of the entire output raster."
 msgstr ""
+"Los archivos virtuales son útiles para reducir el tiempo de procesamiento en"
+" paralelo evitando tener que escribir el ráster de salida completo."
 
 #: ../../band_calc_tab.rst:414
 msgid ""

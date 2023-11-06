@@ -845,7 +845,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:440
 msgid "Nested conditions can be defined such as::"
-msgstr ""
+msgstr "Se pueden definir condiciones anidadas de la siguiente manera:"
 
 #: ../../band_calc_tab.rst:447
 msgid "Logical"

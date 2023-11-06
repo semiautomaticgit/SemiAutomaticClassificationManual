@@ -8,7 +8,6 @@
 # Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
-# Daniel Florez <dafflorezc@correo.udistrital.edu.co>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
 #, fuzzy
@@ -390,10 +389,10 @@ msgid ""
 "of bands is not defined, the band number is used and some :guilabel:`SCP` "
 "tools will be disabled."
 msgstr ""
-"El :guilabel:`Center wavelength` de las bandas debe ser definidos para poder"
-" usar varias funciones de :guilabel:`SCP`. Si el :guilabel:`Center "
-"wavelength` no está definido, el numero de la banda es usado y algunos "
-"herramientas del :guilabel:`SCP` estarán desactivadas."
+"La :guilabel:`Longitud de onda central` de las bandas deben ser definidas "
+"para poder usar varias funciones de :guilabel:`SCP`. Si la "
+":guilabel:`Longitud de onda central` no está definida, el numero de banda es"
+" usado y algunoas herramientas de :guilabel:`SCP` estarán deshabilitadas."
 
 #: ../../bandset_tab.rst:201
 msgid "Band quick settings"

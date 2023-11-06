@@ -762,7 +762,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:391
 msgid "Also, variables for output name are available:"
-msgstr ""
+msgstr "También, hay disponibles variables para el nombre de la salida"
 
 #: ../../band_calc_tab.rst:393 ../../band_calc_tab.rst:626
 msgid ""

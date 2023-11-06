@@ -28,19 +28,19 @@ msgstr ""
 #: ../../classification_report_tab.rst:5
 #: ../../classification_report_tab.rst:137
 msgid "Classification report"
-msgstr "Classification report"
+msgstr "Reporte de la clasificación"
 
 #: ../../classification_report_tab.rst:11
 msgid "registry_save"
-msgstr "registro_guardar"
+msgstr "registry_save"
 
 #: ../../classification_report_tab.rst:14
 msgid "project_save"
-msgstr "guardar_proyecto"
+msgstr "project_save"
 
 #: ../../classification_report_tab.rst:17
 msgid "optional"
-msgstr "opcional"
+msgstr "optional"
 
 #: ../../classification_report_tab.rst:20
 msgid "input_list"

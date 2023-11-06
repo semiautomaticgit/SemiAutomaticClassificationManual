@@ -397,7 +397,7 @@ msgstr ""
 
 #: ../../bandset_tab.rst:201
 msgid "Band quick settings"
-msgstr ""
+msgstr "Configuración rápida de banda"
 
 #: ../../bandset_tab.rst:203
 msgid ""
@@ -407,7 +407,7 @@ msgstr ""
 
 #: ../../bandset_tab.rst:212
 msgid ":guilabel:`Wavelength` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Longitud de onda` |input_list|"
 
 #: ../../bandset_tab.rst:213
 msgid ""

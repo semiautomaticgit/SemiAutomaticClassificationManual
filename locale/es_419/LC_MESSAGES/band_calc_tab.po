@@ -919,7 +919,7 @@ msgstr "Operaciones"
 
 #: ../../band_calc_tab.rst:499
 msgid ":guilabel:`sin`: sine; for instance::"
-msgstr ""
+msgstr ":guilabel:`sin`: seno; por ejemplo::"
 
 #: ../../band_calc_tab.rst:503
 msgid ":guilabel:`cos`: cosine;"
@@ -951,7 +951,7 @@ msgstr ":guilabel:`ln`: logaritmo natural;"
 
 #: ../../band_calc_tab.rst:510
 msgid ":guilabel:`log`: base 10 logarithm;"
-msgstr ""
+msgstr ":guilabel:`log`: logaritmo base 10;"
 
 #: ../../band_calc_tab.rst:516
 msgid "Indices"
@@ -970,12 +970,16 @@ msgid ""
 ":guilabel:`EVI`: if selected, the EVI calculation is entered in the "
 ":guilabel:`Expression`::"
 msgstr ""
+":guilabel:`EVI`: si se selecciona, la fórmula del EVI es introducida en la "
+":guilabel:`Expression`::"
 
 #: ../../band_calc_tab.rst:528
 msgid ""
 ":guilabel:`NBR`: if selected, the NBR calculation is entered in the "
 ":guilabel:`Expression`::"
 msgstr ""
+":guilabel:`NBR`: si se selecciona, la fórmula del NBR es introducida en la "
+":guilabel:`Expresión`::"
 
 #: ../../band_calc_tab.rst:537
 msgid "Variables"

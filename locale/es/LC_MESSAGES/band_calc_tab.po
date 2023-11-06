@@ -1002,6 +1002,12 @@ msgid ""
 "line of expressions (not compatible with ``forbandsinbandset``), for "
 "instance::"
 msgstr ""
+":guilabel:`forbandsets`: permite iterar sobre :guilabel:`Conjunto de bandas`"
+" definidios entre corchetes; un rango de :guilabel:`Conjuntos de bandas` "
+"separados por dos puntos (e.g. ``forbandsets[1:3]``) o una lista separada "
+"por comas (e.g. ``forbandsets[1,2,3]``; ``forbandsets`` debe ser introucida "
+"en la primera linea de una expresión (no es compatible con "
+"``forbandsinbandset``), por ejemplo::"
 
 #: ../../band_calc_tab.rst:554
 msgid ""

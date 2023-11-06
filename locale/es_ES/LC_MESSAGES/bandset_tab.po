@@ -585,7 +585,7 @@ msgstr "ejecutar la expresión definida en :ref:`band_calc_tab`"
 
 #: ../../bandset_tab.rst:305
 msgid "|run|"
-msgstr ""
+msgstr "|run|"
 
 #: ../../bandset_tab.rst:306
 msgid "execute selected tools"

@@ -581,7 +581,7 @@ msgstr "|checkbox| :guilabel:`Expresión de la calculadora de bandas`"
 
 #: ../../bandset_tab.rst:304
 msgid "execute the expression defined in :ref:`band_calc_tab`"
-msgstr ""
+msgstr "ejecutar la expresión definida en :ref:`band_calc_tab`"
 
 #: ../../bandset_tab.rst:305
 msgid "|run|"

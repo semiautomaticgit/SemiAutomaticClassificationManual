@@ -824,7 +824,7 @@ msgstr "Funciones"
 
 #: ../../band_calc_tab.rst:427
 msgid "Conditional"
-msgstr ""
+msgstr "Condicionales"
 
 #: ../../band_calc_tab.rst:429
 msgid ""

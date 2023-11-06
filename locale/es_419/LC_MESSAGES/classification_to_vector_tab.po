@@ -208,7 +208,7 @@ msgstr "Descripción"
 
 #: ../../classification_to_vector_tab.rst:149
 msgid ":guilabel:`Select the classification` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Selecciona la clasificación` |input_list|"
 
 #: ../../classification_to_vector_tab.rst:150
 msgid "select a classification raster (already loaded in QGIS)"

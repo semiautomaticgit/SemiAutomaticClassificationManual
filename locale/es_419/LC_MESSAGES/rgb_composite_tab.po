@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../../rgb_composite_tab.rst:122
 msgid "|reset|"
-msgstr ""
+msgstr "|reset|"
 
 #: ../../rgb_composite_tab.rst:123
 msgid "clear all RGB combinations from :guilabel:`RGB list`"

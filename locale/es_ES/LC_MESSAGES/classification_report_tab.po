@@ -92,11 +92,11 @@ msgstr "export"
 
 #: ../../classification_report_tab.rst:56
 msgid "tools"
-msgstr "herramientas"
+msgstr "tools"
 
 #: ../../classification_report_tab.rst:59
 msgid "preprocessing"
-msgstr "preprocesamiento"
+msgstr "preprocessing"
 
 #: ../../classification_report_tab.rst:62
 msgid "band_processing"

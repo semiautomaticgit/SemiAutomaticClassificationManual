@@ -529,6 +529,8 @@ msgid ""
 "display the RGB color composite of selected :guilabel:`band sets` (a virtual"
 " raster is added in QGIS)"
 msgstr ""
+"muestra la composición de color RGB de los :guilabel:`conjuntos de bandas` "
+"seleccionados (se añade un ráster virtual a QGIS)"
 
 #: ../../bandset_tab.rst:283
 msgid "Band set tools"

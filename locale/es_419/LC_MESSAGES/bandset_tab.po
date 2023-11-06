@@ -404,6 +404,8 @@ msgid ""
 "These tools allow for quickly set attributes of the :guilabel:`active band "
 "set`."
 msgstr ""
+"Estas herramientas permiten configurar rápidamente los atributos de un "
+":guilabel:`conjunto de bandas activo`."
 
 #: ../../bandset_tab.rst:212
 msgid ":guilabel:`Wavelength` |input_list|"

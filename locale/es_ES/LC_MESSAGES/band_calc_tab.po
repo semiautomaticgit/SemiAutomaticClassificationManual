@@ -1093,6 +1093,12 @@ msgid ""
 "expressions (not compatible with ``forbandsets``); the variable #BAND# must "
 "be used to refer to the iterated band such as the following examples:"
 msgstr ""
+":guilabel:`forbandsinbandset`: permite iterar sobre bandas en un "
+":guilabel:`Conjunto de bandas` o un rango de :guilabel:`Conjunto de bandas` "
+"entre corchetes; ``forbandsinbandset`` debe ser usando en la primera línea "
+"de una expresión (no es compatible con ``forbandsets``); la variable #BANDA#"
+" tiene que ser utilizada para referir a la banda que va a ser iterada como "
+"en los siguientes ejemplos:"
 
 #: ../../band_calc_tab.rst:613
 msgid ""

@@ -177,7 +177,7 @@ msgstr "herramienta de umbral"
 
 #: ../../classification_report_tab.rst:124
 msgid ":guilabel:`Classification report`"
-msgstr ""
+msgstr ":guilabel:`Reporte de clasificación`"
 
 #: ../../classification_report_tab.rst:127
 msgid ""

@@ -569,7 +569,7 @@ msgstr "apilar bandas en un ráster multibanda"
 
 #: ../../bandset_tab.rst:301
 msgid "|checkbox| :guilabel:`Build band overview`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Crear pirámides de banda`"
 
 #: ../../bandset_tab.rst:302
 msgid "build band overview of :guilabel:`Active band set`"

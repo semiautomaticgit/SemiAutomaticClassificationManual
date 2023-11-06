@@ -840,7 +840,7 @@ msgid ""
 "Parenthesis are required for multiple conditions for instance to select "
 "pixel values between 1 and 3::"
 msgstr ""
-"Se requieren paréntesis para varias condiciones, por ejemplo para "
+"Se requieren paréntesis para usar varias condiciones, por ejemplo para "
 "seleccionar valores de píxel entre 1 y 3:"
 
 #: ../../band_calc_tab.rst:440

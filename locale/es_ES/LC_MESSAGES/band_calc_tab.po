@@ -1078,6 +1078,12 @@ msgid ""
 "expression will iterate the :guilabel:`Band sets` in the range selecting "
 "only the :guilabel:`Band set` whose name of the first band includes ``RT``::"
 msgstr ""
+"Es posible introducir una cadena de texto (o una lista de cadenas de texto "
+"separa por comas ``,``) después del corchete ``]`` para filtrar un "
+":guilabel:`Conjunto de bandas` con el nombre de la primera banda del "
+":guilabel:`Conjunto de bandas`; por ejemplo, la siguiente expresión iterará "
+"sobre los :guilabel:`Conjunto de bandas` en el rango seleccionando solo "
+"aquellos cuyo nombre de la primera banda incluya ``RT``::"
 
 #: ../../band_calc_tab.rst:606
 msgid ""

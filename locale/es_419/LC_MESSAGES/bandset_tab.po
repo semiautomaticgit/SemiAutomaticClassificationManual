@@ -489,6 +489,8 @@ msgstr ""
 #: ../../bandset_tab.rst:258
 msgid "The following tools are available for managing :guilabel:`band sets`."
 msgstr ""
+"La siguientes herramientas están disponibles para gestionar "
+":guilabel:`conjuntos de bandas`."
 
 #: ../../bandset_tab.rst:266
 msgid "|add_bandset|"

@@ -912,7 +912,7 @@ msgstr ":guilabel:`std`: desviación estándar; por ejemplo::"
 
 #: ../../band_calc_tab.rst:489
 msgid ":guilabel:`sum`: sum; for instance::"
-msgstr ":guilabel:`suma`: suma; por ejemplo:"
+msgstr ":guilabel:`sum`: suma; por ejemplo:"
 
 #: ../../band_calc_tab.rst:497
 msgid "Operations"

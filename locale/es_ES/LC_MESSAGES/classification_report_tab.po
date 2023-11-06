@@ -6,7 +6,6 @@
 # 
 # Translators:
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
-# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
@@ -29,7 +28,7 @@ msgstr ""
 #: ../../classification_report_tab.rst:5
 #: ../../classification_report_tab.rst:137
 msgid "Classification report"
-msgstr "Reporte de la clasificación"
+msgstr "Classification report"
 
 #: ../../classification_report_tab.rst:11
 msgid "registry_save"

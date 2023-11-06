@@ -6,7 +6,6 @@
 # 
 # Translators:
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
-# Marlon Castillo <marloncastillo286@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
 #, fuzzy
@@ -148,15 +147,15 @@ msgstr "guide"
 
 #: ../../classification_report_tab.rst:98
 msgid "help"
-msgstr "ayuda"
+msgstr "help"
 
 #: ../../classification_report_tab.rst:101
 msgid "reload"
-msgstr "recargar"
+msgstr "reload"
 
 #: ../../classification_report_tab.rst:104
 msgid "checkbox"
-msgstr "casilla de confirmación"
+msgstr "checkbox"
 
 #: ../../classification_report_tab.rst:107
 msgid "run"

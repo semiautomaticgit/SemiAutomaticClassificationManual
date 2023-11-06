@@ -582,12 +582,12 @@ msgstr "|checkbox| :guilabel:`Expresión de la calculadora de campos`"
 
 #: ../../bandset_tab.rst:304
 msgid "execute the expression defined in :ref:`band_calc_tab`"
-msgstr ""
+msgstr "ejecutar la expresión definida en :ref:`band_calc_tab`"
 
 #: ../../bandset_tab.rst:305
 msgid "|run|"
-msgstr ""
+msgstr "|run|"
 
 #: ../../bandset_tab.rst:306
 msgid "execute selected tools"
-msgstr ""
+msgstr "ejecutar las herramientas seleccionadas"

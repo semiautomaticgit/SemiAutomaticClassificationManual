@@ -542,6 +542,11 @@ msgid ""
 "corresponding check box. This can also be useful to automate the processing "
 "during image conversion."
 msgstr ""
+"Las :guilabel:`Herramientas para conjunto de bandas` son herramientas que "
+"puede ejecutarse directamente en un :guilabel:`conjunto de bandas activo`. "
+"Se pueden seleccionar varias herramientas marcando la casilla de selección."
+"  Esto también puede ser útil para automatizar el procesamiento durante la "
+"conversión de imágenes."
 
 #: ../../bandset_tab.rst:297
 msgid "|checkbox| :guilabel:`Create virtual raster of band set`"

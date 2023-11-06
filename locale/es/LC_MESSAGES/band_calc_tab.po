@@ -748,6 +748,9 @@ msgid ""
 "It is possible to **add the calculation result to a Band set** using the "
 "symbol ``%`` followed by the :guilabel:`Band set` number such as::"
 msgstr ""
+"es posible **añadir el resultado de un cálculo a un conjunto de bandas** "
+"usando el símbolo  ``%`` seguido del número del :guilabel:`Conjunto de "
+"bandas` tal como:"
 
 #: ../../band_calc_tab.rst:386
 msgid ""

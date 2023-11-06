@@ -876,6 +876,8 @@ msgid ""
 "A band list between square brackets or :ref:`input_variables` are required "
 "arguments."
 msgstr ""
+"Requiere una lista de bandas entre paréntesis cuadrados or "
+":ref:`input_variables` como argumentos."
 
 #: ../../band_calc_tab.rst:463
 msgid ":guilabel:`max`: maximum; for instance::"

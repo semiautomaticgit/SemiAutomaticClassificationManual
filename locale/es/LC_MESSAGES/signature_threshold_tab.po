@@ -88,7 +88,7 @@ msgstr "mover_arriba"
 
 #: ../../signature_threshold_tab.rst:54
 msgid "add_bandset"
-msgstr ""
+msgstr "add_bandset"
 
 #: ../../signature_threshold_tab.rst:57
 msgid "move_down"
@@ -128,7 +128,7 @@ msgstr "agregar"
 
 #: ../../signature_threshold_tab.rst:84
 msgid "rgb_tool"
-msgstr ""
+msgstr "rgb_tool"
 
 #: ../../signature_threshold_tab.rst:87
 msgid "input_number"

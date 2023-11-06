@@ -200,7 +200,7 @@ msgstr ""
 
 #: ../../classification_report_tab.rst:143
 msgid "Tool symbol and name"
-msgstr "Símbolo de la herramienta y nombre"
+msgstr "Símbolo y nombre de la herramienta "
 
 #: ../../classification_report_tab.rst:144
 msgid "Description"

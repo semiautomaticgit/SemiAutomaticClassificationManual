@@ -757,6 +757,8 @@ msgid ""
 "It is possible to **add the calculation result to the active Band set** "
 "using the symbol ``%`` followed by the symbol ``#`` such as::"
 msgstr ""
+"es posible **añadir el resultado de un cálculo a un conjunto de bandas "
+"activo** usando el símbolo ``%`` seguido del símbolo``#`` tal como:"
 
 #: ../../band_calc_tab.rst:391
 msgid "Also, variables for output name are available:"

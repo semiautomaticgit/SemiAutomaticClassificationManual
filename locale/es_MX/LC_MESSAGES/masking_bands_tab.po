@@ -239,7 +239,7 @@ msgstr ""
 
 #: ../../masking_bands_tab.rst:168
 msgid ":guilabel:`Select the classification` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Selecciona la clasificación` |input_list|"
 
 #: ../../masking_bands_tab.rst:169
 msgid ""

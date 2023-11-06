@@ -502,11 +502,11 @@ msgstr "añade un nuevo :guilabel:`conjunto de bandas` vacío"
 
 #: ../../bandset_tab.rst:269
 msgid "remove highlighted :guilabel:`band sets`"
-msgstr ""
+msgstr "elimina los :guilabel:`conjuntos de bandas` seleccionados"
 
 #: ../../bandset_tab.rst:270
 msgid "|order_by_date|"
-msgstr ""
+msgstr "|order_by_date|"
 
 #: ../../bandset_tab.rst:271
 msgid "sort :guilabel:`band sets` by date"

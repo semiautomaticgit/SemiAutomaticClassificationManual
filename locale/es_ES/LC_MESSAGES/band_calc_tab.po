@@ -785,6 +785,9 @@ msgid ""
 "raster calculation inside the **directory containing the first band** of the"
 " active band set, such as::"
 msgstr ""
+"Usando el símbolo ``@``  seguido por la variable #BANDSET# permite guardar "
+"el resultado ráster dentro del **directorio que contenga la primera banda** "
+"del conjunto de bandas activas, tal como::"
 
 #: ../../band_calc_tab.rst:402
 msgid ""

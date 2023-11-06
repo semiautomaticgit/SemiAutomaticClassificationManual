@@ -1045,6 +1045,10 @@ msgid ""
 " sets` dates (format yyyy-mm-dd, defined in :ref:`band_set_definition`) "
 "between square brackets, such as the following examples:"
 msgstr ""
+"También, :guilabel:`forbandsets`: permite iterar sobre las fechas de los "
+":guilabel:`Conjuntos de bandas`  (formato yyyy-mm-dd, defined in "
+":ref:`band_set_definition`) between square brackets, such as the following "
+"examples:"
 
 #: ../../band_calc_tab.rst:580
 msgid "Iterating over a range of dates::"

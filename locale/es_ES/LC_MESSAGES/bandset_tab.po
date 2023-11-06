@@ -577,7 +577,7 @@ msgstr "Crear pirámides para el :guilabel:`conjunto de bandas activo`"
 
 #: ../../bandset_tab.rst:303
 msgid "|checkbox| :guilabel:`Band calc expression`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Expresión de la calculadora de bandas`"
 
 #: ../../bandset_tab.rst:304
 msgid "execute the expression defined in :ref:`band_calc_tab`"

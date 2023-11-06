@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../../rgb_composite_tab.rst:122
 msgid "|reset|"
-msgstr ""
+msgstr "|reset|"
 
 #: ../../rgb_composite_tab.rst:123
 msgid "clear all RGB combinations from :guilabel:`RGB list`"
@@ -205,7 +205,7 @@ msgstr ""
 
 #: ../../rgb_composite_tab.rst:124
 msgid "|export|"
-msgstr ""
+msgstr "|export|"
 
 #: ../../rgb_composite_tab.rst:125
 msgid "export the :guilabel:`RGB list` to a file (i.e. ``.csv``)"
@@ -213,7 +213,7 @@ msgstr ""
 
 #: ../../rgb_composite_tab.rst:126
 msgid "|import|"
-msgstr ""
+msgstr "|import|"
 
 #: ../../rgb_composite_tab.rst:127
 msgid ""

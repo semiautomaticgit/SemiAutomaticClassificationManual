@@ -688,7 +688,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:347
 msgid "Output variables"
-msgstr ""
+msgstr "Variables de salida"
 
 #: ../../band_calc_tab.rst:349
 msgid ""

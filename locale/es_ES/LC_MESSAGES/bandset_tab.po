@@ -442,7 +442,7 @@ msgstr "selecciona la unidad de longitud de onda entre:"
 
 #: ../../bandset_tab.rst:236
 msgid ":guilabel:`Band number`: no unit, only band number"
-msgstr ""
+msgstr ":guilabel:`Número de banda`: sin unidades, solo el número de banda"
 
 #: ../../bandset_tab.rst:237
 msgid ":math:`\\mu m`: micrometres"

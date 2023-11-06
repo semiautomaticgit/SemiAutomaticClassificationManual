@@ -614,6 +614,10 @@ msgid ""
 "..., bandsetNbX]``; to be used in expressions that accept band lists such as"
 " the minimum value::"
 msgstr ""
+":guilabel:`bandset` `BANDSET_NUMBER` ``b*``: lista de todas las bandas de un"
+" :guilabel:`Conjunto de bandas` N, que es equivalente a ``[bandsetNb1, "
+"bandsetNb2, ..., bandsetNbX]``; y puede ser usando en expresiones que "
+"acepten listas de bandas tales como el valor mínimo::"
 
 #: ../../band_calc_tab.rst:313
 msgid ""

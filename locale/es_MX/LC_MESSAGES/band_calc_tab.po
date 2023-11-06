@@ -666,6 +666,8 @@ msgid ""
 ":guilabel:`\"#GREEN#\"`: the band with the center wavelength closest to 0.56"
 " :math:`\\mu m`;"
 msgstr ""
+":guilabel:`\"#VERDE#\"`: la banda con el centro de longitud de onda cercano "
+"a 0.56 :math:`\\mu m`;"
 
 #: ../../band_calc_tab.rst:336
 msgid ""

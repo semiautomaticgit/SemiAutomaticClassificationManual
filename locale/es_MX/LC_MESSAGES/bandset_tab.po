@@ -1,0 +1,563 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
+# Daniel Florez <dafflorezc@correo.udistrital.edu.co>, 2023
+# Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"PO-Revision-Date: 2023-10-24 15:43+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_MX/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../bandset_tab.rst:5
+msgid "Band set"
+msgstr "Conjunto de Bandas"
+
+#: ../../bandset_tab.rst:11
+msgid "project_save"
+msgstr "guardar_proyecto"
+
+#: ../../bandset_tab.rst:14
+msgid "optional"
+msgstr "opcional"
+
+#: ../../bandset_tab.rst:17
+msgid "checkbox"
+msgstr "casilla de confirmación"
+
+#: ../../bandset_tab.rst:20
+msgid "input_list"
+msgstr "lista_entrada"
+
+#: ../../bandset_tab.rst:23
+msgid "input_table"
+msgstr "tabla_entrada"
+
+#: ../../bandset_tab.rst:26
+msgid "reload"
+msgstr "recargar"
+
+#: ../../bandset_tab.rst:29
+msgid "reset"
+msgstr "reiniciar"
+
+#: ../../bandset_tab.rst:32
+msgid "remove"
+msgstr "quitar"
+
+#: ../../bandset_tab.rst:35
+msgid "run"
+msgstr "ejecutar"
+
+#: ../../bandset_tab.rst:38
+msgid "open_file"
+msgstr "abrir archivo"
+
+#: ../../bandset_tab.rst:41
+msgid "order_by_name"
+msgstr "order_by_name"
+
+#: ../../bandset_tab.rst:44
+msgid "open_dir"
+msgstr "abrir_dir"
+
+#: ../../bandset_tab.rst:47
+msgid "select_all"
+msgstr "seleccionar todo"
+
+#: ../../bandset_tab.rst:50
+msgid "move_up"
+msgstr "mover_arriba"
+
+#: ../../bandset_tab.rst:53
+msgid "add_bandset"
+msgstr "add_bandset"
+
+#: ../../bandset_tab.rst:56
+msgid "move_down"
+msgstr "mover_abajo"
+
+#: ../../bandset_tab.rst:59
+msgid "import"
+msgstr "importar"
+
+#: ../../bandset_tab.rst:62
+msgid "export"
+msgstr "exportar"
+
+#: ../../bandset_tab.rst:65
+msgid "plus"
+msgstr "plus"
+
+#: ../../bandset_tab.rst:68
+msgid "bandset_tool"
+msgstr "Herramienta de conjunto de bandas"
+
+#: ../../bandset_tab.rst:71
+msgid "input_text"
+msgstr "texto de entrada"
+
+#: ../../bandset_tab.rst:74
+msgid "input_date"
+msgstr "fecha_entrada"
+
+#: ../../bandset_tab.rst:77
+msgid "rgb_tool"
+msgstr "rgb_tool"
+
+#: ../../bandset_tab.rst:80
+msgid "order_by_date"
+msgstr "order_by_date"
+
+#: ../../bandset_tab.rst:88
+msgid "|bandset_tool| :guilabel:`Band set`"
+msgstr "|bandset_tool| :guilabel:`Conjunto de Bandas`"
+
+#: ../../bandset_tab.rst:90
+msgid ""
+"Image input in :guilabel:`SCP` is named :guilabel:`band set`. This tab "
+"allows for the definition of one or multiple :guilabel:`band sets` to be "
+"used as input for classification and other tools."
+msgstr ""
+"Las imágenes de entrada en :guilabel:`SCP` se llaman :guilabel:`conjunto de "
+"bandas`. Esta pestaña permite la definición de uno o varios "
+":guilabel:`cojuntos de bandas` para ser usados como datos de entrada para "
+"clasificación y otras herramientas."
+
+#: ../../bandset_tab.rst:94
+msgid ""
+":guilabel:`Band sets` are identified by numbers. The :guilabel:`active band "
+"set` (i.e. the one selected in :ref:`band_set_definition`) is used as input "
+"for several tools in :ref:`SCP_dock` and the :ref:`working_toolbar`. Other "
+":guilabel:`SCP` tools allow for the selection of :guilabel:`band set` "
+"numbers."
+msgstr ""
+"Los :guilabel:`conjuntos de bandas` se identifican mediante números. El "
+":guilabel:`conjunto de bandas activo` (i.e. el seleccionado en "
+":ref:`band_set_definition`) se usa como datos de entrada en varias "
+"herramientas de :ref:`SCP_dock`  y la :ref:`working_toolbar`. Otras "
+"herramientas de :guilabel:`SCP` permiten seleccionar los números de los "
+":guilabel:`conjuntos de bandas`."
+
+#: ../../bandset_tab.rst:101
+msgid "The :guilabel:`Band set` definition is saved with the QGIS project."
+msgstr ""
+"La definición del :guilabel:`Conjunto de Bandas` es guardada con el proyecto"
+" de QGIS."
+
+#: ../../bandset_tab.rst:104
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.core.bandset_catalog.html>`_"
+" ."
+msgstr ""
+"Información sobre las APIs de esta herramienta de Remotior Sensus en este "
+"`enlace<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.core.bandset_catalog.html>`_"
+" ."
+
+#: ../../bandset_tab.rst:108
+msgid "Following a video tutorial about this tool."
+msgstr "Siguiendo un tutorial sobre esta herramienta."
+
+#: ../../bandset_tab.rst:110
+msgid "https://www.youtube.com/watch?v=DQXfBPke2J4"
+msgstr "https://www.youtube.com/watch?v=DQXfBPke2J4"
+
+#: ../../bandset_tab.rst:121
+msgid "Band set definition"
+msgstr "Definición del Conjunto de bandas"
+
+#: ../../bandset_tab.rst:124
+msgid ""
+"A :guilabel:`band set` is basically a list of bands defined as the following"
+" table."
+msgstr ""
+"Un :guilabel:`conjunto de bandas` es básicamente una lista de bandas "
+"definida como la tabla a continuación."
+
+#: ../../bandset_tab.rst:132
+msgid "Band name"
+msgstr "Nombre de banda"
+
+#: ../../bandset_tab.rst:133
+msgid "Center wavelength"
+msgstr "Centro de longitud de onda"
+
+#: ../../bandset_tab.rst:134
+msgid "Multiplicative Factor"
+msgstr "Factor Multiplicativo"
+
+#: ../../bandset_tab.rst:135
+msgid "Additive Factor"
+msgstr "Factor Aditivo"
+
+#: ../../bandset_tab.rst:136
+msgid "Wavelength unit"
+msgstr "Unidad de longitud de onda"
+
+#: ../../bandset_tab.rst:137
+msgid "Path"
+msgstr "Path"
+
+#: ../../bandset_tab.rst:138
+msgid "Date"
+msgstr "Fecha"
+
+#: ../../bandset_tab.rst:139
+msgid "name of the band (it cannot be edited)"
+msgstr "nombre de la banda (no puede ser editado)"
+
+#: ../../bandset_tab.rst:140
+msgid "center of the wavelength of the band"
+msgstr "longitud de onda central de la banda"
+
+#: ../../bandset_tab.rst:141
+msgid "multiplicative rescaling factor"
+msgstr "factor multiplicativo de reescalado"
+
+#: ../../bandset_tab.rst:142
+msgid "additive rescaling factor"
+msgstr "factor aditivo de reescalado"
+
+#: ../../bandset_tab.rst:143
+msgid "wavelength unit"
+msgstr "unidad de longitud de onda"
+
+#: ../../bandset_tab.rst:144
+msgid "relative path of the raster"
+msgstr "ruta relativa del ráster"
+
+#: ../../bandset_tab.rst:145
+msgid "image acquisition date"
+msgstr "fecha de adquisición de la imagen"
+
+#: ../../bandset_tab.rst:148
+msgid ""
+"It is possible to add to the :guilabel:`active band set` one or more bands "
+"already loaded in QGIS, or select files that are not loaded. A "
+":guilabel:`Date` can be assigned to a :guilabel:`band set` which can be "
+"later used in other tools to select :guilabel:`band sets` by date. Also, a "
+":guilabel:`Root directory` for band paths can be defined, which can be "
+"useful to create projects with relative paths."
+msgstr ""
+"Es posible añadir a un :guilabel:`conjunto de bandas activo` una o más "
+"bandas que ya estén cargadas en QGIS; o seleccionar archivos que no están "
+"cargados. Se puede añadir una :guilabel:`Fecha` a un :guilabel:`conjunto de "
+"bandas` y esta puede luego usarse en otras herramientas para seleccionar "
+":guilabel:`conjuntos de bandas` por fecha. También, se puede definir un "
+":guilabel:`directorio Raíz` para las rutas de las bandas, lo cual es útil "
+"para crear proyectos con rutas relativas."
+
+#: ../../bandset_tab.rst:155
+msgid "The following tools are available."
+msgstr "Las siguientes herramientas están disponibles"
+
+#: ../../bandset_tab.rst:161 ../../bandset_tab.rst:210
+#: ../../bandset_tab.rst:264 ../../bandset_tab.rst:295
+msgid "Tool symbol and name"
+msgstr "Símbolo de la herramienta y nombre"
+
+#: ../../bandset_tab.rst:162 ../../bandset_tab.rst:211
+#: ../../bandset_tab.rst:265 ../../bandset_tab.rst:296
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../bandset_tab.rst:163 ../../bandset_tab.rst:231
+msgid "|open_file|"
+msgstr "|open_file|"
+
+#: ../../bandset_tab.rst:164
+msgid ""
+"open file explorer and add raster files (preferably single band raster) to "
+"the :guilabel:`active band set`"
+msgstr ""
+"abre el explorador de archivos y añade archivos ráster (preferiblemente "
+"rásteres con una sola banda) al :guilabel:`conjunto de bandas activo`"
+
+#: ../../bandset_tab.rst:166
+msgid "|plus|"
+msgstr "|plus|"
+
+#: ../../bandset_tab.rst:167
+msgid ""
+"open a window to select rasters already loaded in QGIS and add them to the "
+":guilabel:`active band set`"
+msgstr ""
+"abre una ventana para seleccionar rásteres que ya estén cargados en QGIS y "
+"los añade a el :guilabel:`conjunto de bandas activo`"
+
+#: ../../bandset_tab.rst:169 ../../bandset_tab.rst:272
+msgid "|move_up|"
+msgstr "|move_up|"
+
+#: ../../bandset_tab.rst:170
+msgid "move highlighted bands upward"
+msgstr "mueve las bandas seleccionadas hacia arriba"
+
+#: ../../bandset_tab.rst:171 ../../bandset_tab.rst:274
+msgid "|move_down|"
+msgstr "|move_down|"
+
+#: ../../bandset_tab.rst:172
+msgid "move highlighted bands downward"
+msgstr "mueve las bandas seleccionadas hacia abajo"
+
+#: ../../bandset_tab.rst:173
+msgid "|order_by_name|"
+msgstr "|order_by_name|"
+
+#: ../../bandset_tab.rst:174
+msgid ""
+"sort automatically bands by name, giving priority to the ending numbers of "
+"name"
+msgstr ""
+"ordena las bandas automáticamente según el nombre, dando prioridad a los "
+"números al final del nombre"
+
+#: ../../bandset_tab.rst:176 ../../bandset_tab.rst:268
+msgid "|remove|"
+msgstr "|remove|"
+
+#: ../../bandset_tab.rst:177
+msgid "remove highlighted bands from the :guilabel:`active band set`"
+msgstr ""
+"elimina las bandas seleccionadas del :guilabel:`conjunto de bandas activo`"
+
+#: ../../bandset_tab.rst:178
+msgid "|reset|"
+msgstr "|reset|"
+
+#: ../../bandset_tab.rst:179
+msgid "clear all bands from :guilabel:`active band set`"
+msgstr "elimina todas las bandas del :guilabel:`conjunto de bandas activo`"
+
+#: ../../bandset_tab.rst:180
+msgid "|import|"
+msgstr "|import|"
+
+#: ../../bandset_tab.rst:181
+msgid "import a previously saved :guilabel:`active band set` from file"
+msgstr ""
+
+#: ../../bandset_tab.rst:182
+msgid "|export|"
+msgstr ""
+
+#: ../../bandset_tab.rst:183
+msgid "export the :guilabel:`active band set` to a file"
+msgstr ""
+
+#: ../../bandset_tab.rst:186
+msgid ""
+"It is possible to define a multiplicative rescaling factor and additive "
+"rescaling factor for each band (for instance using the values in Landsat "
+"metadata), which are used on the fly (i.e. ``pixel value = original pixel "
+"value * multiplicative rescaling factor + additive rescaling factor``) "
+"during the processing."
+msgstr ""
+"Es posible definir un factor de reescalado multiplicativo y un factor de "
+"reescalado aditivo para cada banda (por ejemplo, usando los valores en los "
+"metadatos de Landsat), que se usan sobre la marcha (es decir, `` valor de "
+"píxel = valor de píxel original * factor de reescalado multiplicativo +   "
+"factor reescalado aditivo '') durante el procesamiento."
+
+#: ../../bandset_tab.rst:192
+msgid ""
+"The :guilabel:`Center wavelength` of bands should be defined in order to use"
+" several functions of :guilabel:`SCP`. If the :guilabel:`Center wavelength` "
+"of bands is not defined, the band number is used and some :guilabel:`SCP` "
+"tools will be disabled."
+msgstr ""
+"El :guilabel:`Center wavelength` de las bandas debe ser definidos para poder"
+" usar varias funciones de :guilabel:`SCP`. Si el :guilabel:`Center "
+"wavelength` no está definido, el numero de la banda es usado y algunos "
+"herramientas del :guilabel:`SCP` estarán desactivadas."
+
+#: ../../bandset_tab.rst:201
+msgid "Band quick settings"
+msgstr ""
+
+#: ../../bandset_tab.rst:203
+msgid ""
+"These tools allow for quickly set attributes of the :guilabel:`active band "
+"set`."
+msgstr ""
+
+#: ../../bandset_tab.rst:212
+msgid ":guilabel:`Wavelength` |input_list|"
+msgstr ""
+
+#: ../../bandset_tab.rst:213
+msgid ""
+"rapid definition of band center wavelength for the following satellite "
+"sensors: * Band order * ASTER * GeoEye-1 * GOES * Landsat 8 OLI * Landsat 7 "
+"ETM+ * Landsat 4-5 TM * Landsat 1, 2, and 3 MSS * MODIS * Pleiades * "
+"QuickBird * RapidEye * Sentinel-2 * Sentinel-3 * SPOT 4, 5, and 6 * "
+"WorldView-2 and WorldView-3"
+msgstr ""
+
+#: ../../bandset_tab.rst:232
+msgid ""
+"open a csv file of wavelength values (center wavelength separated by comma "
+"or new line)"
+msgstr ""
+
+#: ../../bandset_tab.rst:234
+msgid ":guilabel:`Wavelength unit` |input_list|"
+msgstr ""
+
+#: ../../bandset_tab.rst:237
+msgid "select the wavelength unit among:"
+msgstr ""
+
+#: ../../bandset_tab.rst:236
+msgid ":guilabel:`Band number`: no unit, only band number"
+msgstr ""
+
+#: ../../bandset_tab.rst:237
+msgid ":math:`\\mu m`: micrometres"
+msgstr ""
+
+#: ../../bandset_tab.rst:238
+msgid ":guilabel:`nm`: nanometres"
+msgstr ""
+
+#: ../../bandset_tab.rst:239
+msgid ":guilabel:`Date` |input_date|"
+msgstr ""
+
+#: ../../bandset_tab.rst:240
+msgid "set the date of acquisition"
+msgstr ""
+
+#: ../../bandset_tab.rst:246
+msgid "Band set table"
+msgstr ""
+
+#: ../../bandset_tab.rst:248
+msgid ""
+"The table on the left side is the :guilabel:`Band set table`. It includes "
+"the list of all the defined :guilabel:`band sets` (the names of the first "
+"bands are displayed), which can be selected with a left click. Double click "
+"on a table item can be used to define the :guilabel:`Active band set`."
+msgstr ""
+
+#: ../../bandset_tab.rst:255
+msgid ""
+"A :guilabel:`Filter` can be used to display :guilabel:`band sets` in the "
+"table matching a name."
+msgstr ""
+
+#: ../../bandset_tab.rst:258
+msgid "The following tools are available for managing :guilabel:`band sets`."
+msgstr ""
+
+#: ../../bandset_tab.rst:266
+msgid "|add_bandset|"
+msgstr ""
+
+#: ../../bandset_tab.rst:267
+msgid "add a new empty :guilabel:`band set`"
+msgstr ""
+
+#: ../../bandset_tab.rst:269
+msgid "remove highlighted :guilabel:`band sets`"
+msgstr ""
+
+#: ../../bandset_tab.rst:270
+msgid "|order_by_date|"
+msgstr ""
+
+#: ../../bandset_tab.rst:271
+msgid "sort :guilabel:`band sets` by date"
+msgstr ""
+
+#: ../../bandset_tab.rst:273
+msgid "move highlighted :guilabel:`band sets` upward"
+msgstr ""
+
+#: ../../bandset_tab.rst:275
+msgid "move highlighted :guilabel:`band sets` downward"
+msgstr ""
+
+#: ../../bandset_tab.rst:276
+msgid "|rgb_tool|"
+msgstr ""
+
+#: ../../bandset_tab.rst:277
+msgid ""
+"display the RGB color composite of selected :guilabel:`band sets` (a virtual"
+" raster is added in QGIS)"
+msgstr ""
+
+#: ../../bandset_tab.rst:283
+msgid "Band set tools"
+msgstr "Herramientas para Conjunto de bandas"
+
+#: ../../bandset_tab.rst:286
+msgid ""
+":guilabel:`Band set tools` are tools that can be executed directly on "
+":guilabel:`Active band set`. Multiple tools can be selected by the "
+"corresponding check box. This can also be useful to automate the processing "
+"during image conversion."
+msgstr ""
+
+#: ../../bandset_tab.rst:297
+msgid "|checkbox| :guilabel:`Create virtual raster of band set`"
+msgstr ""
+
+#: ../../bandset_tab.rst:298
+msgid "create a multiband virtual raster of :guilabel:`Active band set`"
+msgstr ""
+
+#: ../../bandset_tab.rst:299
+msgid "|checkbox| :guilabel:`Create raster of band set (stack bands)`"
+msgstr ""
+
+#: ../../bandset_tab.rst:300
+msgid "stack bands in a single multiband raster"
+msgstr ""
+
+#: ../../bandset_tab.rst:301
+msgid "|checkbox| :guilabel:`Build band overview`"
+msgstr ""
+
+#: ../../bandset_tab.rst:302
+msgid "build band overview of :guilabel:`Active band set`"
+msgstr ""
+
+#: ../../bandset_tab.rst:303
+msgid "|checkbox| :guilabel:`Band calc expression`"
+msgstr ""
+
+#: ../../bandset_tab.rst:304
+msgid "execute the expression defined in :ref:`band_calc_tab`"
+msgstr ""
+
+#: ../../bandset_tab.rst:305
+msgid "|run|"
+msgstr ""
+
+#: ../../bandset_tab.rst:306
+msgid "execute selected tools"
+msgstr ""

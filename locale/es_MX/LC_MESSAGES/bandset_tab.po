@@ -556,6 +556,7 @@ msgstr "|checkbox| :guilabel:`Crear un ráster virtual del conjunto de bandas`"
 #: ../../bandset_tab.rst:298
 msgid "create a multiband virtual raster of :guilabel:`Active band set`"
 msgstr ""
+"crear un ráster multibanda virtual del :guilabel:`conjunto de bandas activo`"
 
 #: ../../bandset_tab.rst:299
 msgid "|checkbox| :guilabel:`Create raster of band set (stack bands)`"

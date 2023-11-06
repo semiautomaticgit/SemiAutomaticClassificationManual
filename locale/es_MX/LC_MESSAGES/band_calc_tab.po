@@ -990,6 +990,8 @@ msgid ""
 ":guilabel:`nodata`: NoData value of raster (e.g. ``nodata(\"raster1\")``); "
 "it can be used as value in the expression::"
 msgstr ""
+":guilabel:`nodata`: Valor Sin datos del ráster (e.g. "
+"``nodata(\"raster1\")``); puede ser usado como un valor en la expresión::"
 
 #: ../../band_calc_tab.rst:544
 msgid ""

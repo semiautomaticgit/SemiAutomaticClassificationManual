@@ -844,7 +844,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:440
 msgid "Nested conditions can be defined such as::"
-msgstr ""
+msgstr "Se pueden definir condiciones anidadas de la siguiente manera:"
 
 #: ../../band_calc_tab.rst:447
 msgid "Logical"
@@ -852,11 +852,11 @@ msgstr "Operadores lógicos"
 
 #: ../../band_calc_tab.rst:449
 msgid ":guilabel:`AND`: AND;"
-msgstr ""
+msgstr ":guilabel:`AND`: AND;"
 
 #: ../../band_calc_tab.rst:450
 msgid ":guilabel:`OR`: OR;"
-msgstr ""
+msgstr ":guilabel:`OR`: OR;"
 
 #: ../../band_calc_tab.rst:451
 msgid ":guilabel:`XOR`: XOR;"
@@ -864,7 +864,7 @@ msgstr ":guilabel:`XOR`: XOR;"
 
 #: ../../band_calc_tab.rst:452
 msgid ":guilabel:`NOT`: NOT;"
-msgstr ""
+msgstr ":guilabel:`NOT`: NOT;"
 
 #: ../../band_calc_tab.rst:458
 msgid "Statistics"
@@ -880,7 +880,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:463
 msgid ":guilabel:`max`: maximum; for instance::"
-msgstr ""
+msgstr ":guilabel:`max`: máximo, por ejemplo::"
 
 #: ../../band_calc_tab.rst:467
 msgid ":guilabel:`min`: minimum; for instance::"
@@ -892,7 +892,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:475
 msgid ":guilabel:`median`: median; for instance::"
-msgstr ""
+msgstr ":guilabel:`mediana`: mediana; por ejemplo::"
 
 #: ../../band_calc_tab.rst:479
 msgid ""

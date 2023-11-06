@@ -397,17 +397,19 @@ msgstr ""
 
 #: ../../bandset_tab.rst:201
 msgid "Band quick settings"
-msgstr ""
+msgstr "Configuración rápida de banda"
 
 #: ../../bandset_tab.rst:203
 msgid ""
 "These tools allow for quickly set attributes of the :guilabel:`active band "
 "set`."
 msgstr ""
+"Estas herramientas permiten configurar rápidamente los atributos de un "
+":guilabel:`conjunto de bandas activo`."
 
 #: ../../bandset_tab.rst:212
 msgid ":guilabel:`Wavelength` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Longitud de onda` |input_list|"
 
 #: ../../bandset_tab.rst:213
 msgid ""

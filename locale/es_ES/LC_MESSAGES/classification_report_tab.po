@@ -208,7 +208,7 @@ msgstr "Descripción"
 
 #: ../../classification_report_tab.rst:147
 msgid ":guilabel:`Select the classification` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Selecciona la clasificación` |input_list|"
 
 #: ../../classification_report_tab.rst:148
 msgid "select a classification raster (already loaded in QGIS)"
@@ -220,7 +220,7 @@ msgstr "|recarga|"
 
 #: ../../classification_report_tab.rst:150
 msgid "refresh layer list"
-msgstr "refresca la lista de capas"
+msgstr "actualiza la lista de capas"
 
 #: ../../classification_report_tab.rst:151
 msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number| |optional|"

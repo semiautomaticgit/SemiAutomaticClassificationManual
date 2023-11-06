@@ -907,7 +907,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:485
 msgid ":guilabel:`std`: standard deviation; for instance::"
-msgstr ""
+msgstr ":guilabel:`std`: desviación estándar; por ejemplo::"
 
 #: ../../band_calc_tab.rst:489
 msgid ":guilabel:`sum`: sum; for instance::"
@@ -983,13 +983,15 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:537
 msgid "Variables"
-msgstr ""
+msgstr "Variables"
 
 #: ../../band_calc_tab.rst:539
 msgid ""
 ":guilabel:`nodata`: NoData value of raster (e.g. ``nodata(\"raster1\")``); "
 "it can be used as value in the expression::"
 msgstr ""
+":guilabel:`nodata`: Valor Sin datos del ráster (e.g. "
+"``nodata(\"raster1\")``); puede ser usado como un valor en la expresión::"
 
 #: ../../band_calc_tab.rst:544
 msgid ""

@@ -916,7 +916,7 @@ msgstr ":guilabel:`suma`: suma; por ejemplo:"
 
 #: ../../band_calc_tab.rst:497
 msgid "Operations"
-msgstr ""
+msgstr "Operaciones"
 
 #: ../../band_calc_tab.rst:499
 msgid ":guilabel:`sin`: sine; for instance::"

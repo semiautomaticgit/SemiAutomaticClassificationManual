@@ -795,6 +795,9 @@ msgid ""
 "parallel processing. For instance, the following expression will calculate "
 "the raster with parallel processing and the output will be a ``.vrt``::"
 msgstr ""
+"Si el nombre de la salida es definido con la extensión ``.vrt``, la salida "
+"será un **raster virtual** que hará referencia a los diferentes archivos "
+"``.tif`` calculados  usando procesamiento paralelo."
 
 #: ../../band_calc_tab.rst:410
 msgid ""

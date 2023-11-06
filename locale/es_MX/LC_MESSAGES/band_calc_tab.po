@@ -1055,11 +1055,11 @@ msgstr "Iterando sobre un rango de fechas::"
 
 #: ../../band_calc_tab.rst:585
 msgid "Iterating over a list of dates::"
-msgstr ""
+msgstr "Iterando sobre una lista de fechas::"
 
 #: ../../band_calc_tab.rst:590
 msgid "Iterating over a list of ranges of dates::"
-msgstr ""
+msgstr "Iterando sobre una lista de rangos de fechas::"
 
 #: ../../band_calc_tab.rst:595
 msgid ""

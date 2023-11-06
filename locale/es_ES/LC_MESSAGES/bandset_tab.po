@@ -396,7 +396,7 @@ msgstr ""
 
 #: ../../bandset_tab.rst:201
 msgid "Band quick settings"
-msgstr ""
+msgstr "Configuración rápida de banda"
 
 #: ../../bandset_tab.rst:203
 msgid ""

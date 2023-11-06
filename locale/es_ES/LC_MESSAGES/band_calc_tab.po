@@ -741,6 +741,8 @@ msgid ""
 "The **output name** of calculation can be used **as input variable** for the"
 " following calculations; for example::"
 msgstr ""
+"El  **nombre del resultado** del cálculo puede ser usado **como una variable"
+" de entrada** para los siguientes cálculos; por ejemplo::"
 
 #: ../../band_calc_tab.rst:381
 msgid ""

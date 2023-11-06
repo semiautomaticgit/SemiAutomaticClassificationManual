@@ -659,7 +659,7 @@ msgid ""
 ":guilabel:`\"#BLUE#\"`: the band with the center wavelength closest to 0.475"
 " :math:`\\mu m`;"
 msgstr ""
-":guilabel:`\"#BLUE#\"`: la banda con el centro de longitud de onda cercano a"
+":guilabel:`\"#AZUL#\"`: la banda con el centro de longitud de onda cercano a"
 " 0.475 :math:`\\mu m`;"
 
 #: ../../band_calc_tab.rst:334

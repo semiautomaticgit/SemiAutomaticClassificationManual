@@ -56,15 +56,15 @@ msgstr "input_date"
 
 #: ../../classification_report_tab.rst:29
 msgid "input_number"
-msgstr "número de entrada"
+msgstr "input_number"
 
 #: ../../classification_report_tab.rst:32
 msgid "input_table"
-msgstr "tabla_entrada"
+msgstr "input_table"
 
 #: ../../classification_report_tab.rst:35
 msgid "open_file"
-msgstr "abrir archivo"
+msgstr "open_file"
 
 #: ../../classification_report_tab.rst:38
 msgid "new_file"

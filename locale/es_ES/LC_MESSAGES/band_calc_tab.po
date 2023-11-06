@@ -956,13 +956,15 @@ msgstr ":guilabel:`log`: logaritmo base 10;"
 
 #: ../../band_calc_tab.rst:516
 msgid "Indices"
-msgstr ""
+msgstr "Índices"
 
 #: ../../band_calc_tab.rst:518
 msgid ""
 ":guilabel:`NDVI`: if selected, the NDVI calculation is entered in the "
 ":guilabel:`Expression`::"
 msgstr ""
+":guilabel:`NDVI`: si se selecciona, la fórmula del NDVI es introducida en la"
+" :guilabel:`Expression`::"
 
 #: ../../band_calc_tab.rst:523
 msgid ""

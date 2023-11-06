@@ -893,7 +893,7 @@ msgstr ":guilabel:`media`: media; por ejemplo::"
 
 #: ../../band_calc_tab.rst:475
 msgid ":guilabel:`median`: median; for instance::"
-msgstr ""
+msgstr ":guilabel:`mediana`: mediana; por ejemplo::"
 
 #: ../../band_calc_tab.rst:479
 msgid ""

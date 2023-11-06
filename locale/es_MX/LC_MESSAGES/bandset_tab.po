@@ -459,11 +459,11 @@ msgstr ":guilabel:`Fecha` |input_date|"
 
 #: ../../bandset_tab.rst:240
 msgid "set the date of acquisition"
-msgstr ""
+msgstr "define la fecha de adquisición"
 
 #: ../../bandset_tab.rst:246
 msgid "Band set table"
-msgstr ""
+msgstr "Tabla del conjunto de bandas"
 
 #: ../../bandset_tab.rst:248
 msgid ""

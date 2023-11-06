@@ -952,7 +952,7 @@ msgstr ":guilabel:`ln`: logaritmo natural;"
 
 #: ../../band_calc_tab.rst:510
 msgid ":guilabel:`log`: base 10 logarithm;"
-msgstr ""
+msgstr ":guilabel:`log`: logaritmo base 10;"
 
 #: ../../band_calc_tab.rst:516
 msgid "Indices"

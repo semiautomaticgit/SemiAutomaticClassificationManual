@@ -733,6 +733,8 @@ msgid ""
 "It is possible to create a **temporary output** (saved in the temporary "
 "directory) with ``@temp@`` followed by output name, such as::"
 msgstr ""
+"es posible crear un **resultado temporal** (que se guardará en el directorio"
+" temporal) con ``@temp@`` seguido por el nombre de salida, tal como::"
 
 #: ../../band_calc_tab.rst:374
 msgid ""

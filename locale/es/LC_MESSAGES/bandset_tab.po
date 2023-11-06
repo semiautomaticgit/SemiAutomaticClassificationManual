@@ -430,10 +430,12 @@ msgid ""
 "open a csv file of wavelength values (center wavelength separated by comma "
 "or new line)"
 msgstr ""
+"abre un archivo csv con valores de longitudes de onda (valores centrales de "
+"longitud de onda separados por comas o saltos de línea)"
 
 #: ../../bandset_tab.rst:234
 msgid ":guilabel:`Wavelength unit` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Unidad de longitud de onda` |input_list|"
 
 #: ../../bandset_tab.rst:237
 msgid "select the wavelength unit among:"

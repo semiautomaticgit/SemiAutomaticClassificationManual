@@ -683,6 +683,8 @@ msgid ""
 ":guilabel:`\"#NIR#\"`: the band with the center wavelength closest to 0.85 "
 ":math:`\\mu m`; for example::"
 msgstr ""
+":guilabel:`\"#IRC#\"`: la banda con el centro de longitud de onda cercano a "
+"0.85 :math:`\\mu m`;"
 
 #: ../../band_calc_tab.rst:347
 msgid "Output variables"

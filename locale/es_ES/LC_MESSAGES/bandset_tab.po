@@ -392,7 +392,7 @@ msgstr ""
 "La :guilabel:`Longitud de onda central` de las bandas deben ser definidas "
 "para poder usar varias funciones de :guilabel:`SCP`. Si la "
 ":guilabel:`Longitud de onda central` no está definida, el numero de banda es"
-" usado y algunoas herramientas de :guilabel:`SCP` estarán deshabilitadas."
+" usado y algunas herramientas de :guilabel:`SCP` estarán deshabilitadas."
 
 #: ../../bandset_tab.rst:201
 msgid "Band quick settings"

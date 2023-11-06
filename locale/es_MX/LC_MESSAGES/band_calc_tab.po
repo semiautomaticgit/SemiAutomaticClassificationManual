@@ -1015,10 +1015,13 @@ msgid ""
 ":guilabel:`Band set` are replaced by the iterator, therefore the "
 "expression::"
 msgstr ""
+"Durante la iteración, las :ref:`input_variables` relacionadas con el "
+":guilabel:`Conjunto de bandas` activo son reemplazadas por el iterador, y "
+"por tanto la expresión::"
 
 #: ../../band_calc_tab.rst:560
 msgid "is equivalent to::"
-msgstr ""
+msgstr "es equivalente a::"
 
 #: ../../band_calc_tab.rst:566
 msgid ""

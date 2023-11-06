@@ -1115,8 +1115,8 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:624
 msgid ":guilabel:`#BAND#`:"
-msgstr ""
+msgstr ":guilabel:`#BANDA#`:"
 
 #: ../../band_calc_tab.rst:628
 msgid ":guilabel:`@`: character @;"
-msgstr ""
+msgstr ":guilabel:`@`: carácter @;"

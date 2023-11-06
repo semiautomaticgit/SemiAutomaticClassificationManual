@@ -1021,7 +1021,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:560
 msgid "is equivalent to::"
-msgstr ""
+msgstr "es equivalente a::"
 
 #: ../../band_calc_tab.rst:566
 msgid ""

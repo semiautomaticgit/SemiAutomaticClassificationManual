@@ -419,6 +419,11 @@ msgid ""
 "QuickBird * RapidEye * Sentinel-2 * Sentinel-3 * SPOT 4, 5, and 6 * "
 "WorldView-2 and WorldView-3"
 msgstr ""
+"configuración rápida de la longitud de onda central de los siguientes "
+"sensores y satélites: * Orden de bandas * ASTER * GeoEye-1 * GOES * Landsat "
+"8 OLI * Landsat 7 ETM+ * Landsat 4-5 TM * Landsat 1, 2, and 3 MSS * MODIS * "
+"Pleiades * QuickBird * RapidEye * Sentinel-2 * Sentinel-3 * SPOT 4, 5, and 6"
+" * WorldView-2 and WorldView-3"
 
 #: ../../bandset_tab.rst:232
 msgid ""

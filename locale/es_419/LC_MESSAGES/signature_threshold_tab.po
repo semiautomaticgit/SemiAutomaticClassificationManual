@@ -72,7 +72,7 @@ msgstr "abrir archivo"
 
 #: ../../signature_threshold_tab.rst:42
 msgid "order_by_name"
-msgstr ""
+msgstr "order_by_name"
 
 #: ../../signature_threshold_tab.rst:45
 msgid "open_dir"

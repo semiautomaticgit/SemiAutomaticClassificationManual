@@ -447,7 +447,7 @@ msgstr ":guilabel:`Número de banda`: sin unidades, solo el número de banda"
 
 #: ../../bandset_tab.rst:237
 msgid ":math:`\\mu m`: micrometres"
-msgstr ""
+msgstr ":math:`\\mu m`: micrómetros"
 
 #: ../../bandset_tab.rst:238
 msgid ":guilabel:`nm`: nanometres"

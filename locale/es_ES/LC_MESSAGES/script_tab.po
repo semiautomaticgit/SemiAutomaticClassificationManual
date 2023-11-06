@@ -109,7 +109,7 @@ msgstr "Descripción"
 
 #: ../../script_tab.rst:74
 msgid "|reset|"
-msgstr ""
+msgstr "|reset|"
 
 #: ../../script_tab.rst:75
 msgid "clear the content of the script"

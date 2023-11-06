@@ -626,6 +626,10 @@ msgid ""
 "..., bandsetNbX]``; to be used in expressions that accept band lists such as"
 " the mean value::"
 msgstr ""
+":guilabel:`bandset*b` `BAND_NUMBER`: list of all the bands X of all the "
+":guilabel:`Band sets`, which is equivalent to ``[bandset1bX, bandset2bX, "
+"..., bandsetNbX]``; to be used in expressions that accept band lists such as"
+" the mean value::"
 
 #: ../../band_calc_tab.rst:320
 msgid ""

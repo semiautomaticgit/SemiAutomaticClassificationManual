@@ -44,15 +44,15 @@ msgstr "optional"
 
 #: ../../classification_report_tab.rst:20
 msgid "input_list"
-msgstr "lista_entrada"
+msgstr "input_list"
 
 #: ../../classification_report_tab.rst:23
 msgid "input_text"
-msgstr "texto de entrada"
+msgstr "input_text"
 
 #: ../../classification_report_tab.rst:26
 msgid "input_date"
-msgstr "fecha_entrada"
+msgstr "input_date"
 
 #: ../../classification_report_tab.rst:29
 msgid "input_number"

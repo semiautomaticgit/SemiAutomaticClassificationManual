@@ -831,16 +831,20 @@ msgid ""
 ":guilabel:`where`: conditional expression according to the syntax ``where( "
 "condition , value if true, value if false)`` for example::"
 msgstr ""
+":guilabel:`where`: expresión condicional con la siguiente sintaxis, ``where("
+" condición , valor si se cumple, valor si no se cumple)`` por ejemplo::"
 
 #: ../../band_calc_tab.rst:434
 msgid ""
 "Parenthesis are required for multiple conditions for instance to select "
 "pixel values between 1 and 3::"
 msgstr ""
+"Se requieren paréntesis para usar varias condiciones, por ejemplo para "
+"seleccionar valores de píxel entre 1 y 3:"
 
 #: ../../band_calc_tab.rst:440
 msgid "Nested conditions can be defined such as::"
-msgstr ""
+msgstr "Se pueden definir condiciones anidadas de la siguiente manera:"
 
 #: ../../band_calc_tab.rst:447
 msgid "Logical"
@@ -848,7 +852,7 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:449
 msgid ":guilabel:`AND`: AND;"
-msgstr ""
+msgstr ":guilabel:`AND`: AND;"
 
 #: ../../band_calc_tab.rst:450
 msgid ":guilabel:`OR`: OR;"
@@ -860,17 +864,19 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:452
 msgid ":guilabel:`NOT`: NOT;"
-msgstr ""
+msgstr ":guilabel:`NOT`: NOT;"
 
 #: ../../band_calc_tab.rst:458
 msgid "Statistics"
-msgstr ""
+msgstr "Estadísticas"
 
 #: ../../band_calc_tab.rst:460
 msgid ""
 "A band list between square brackets or :ref:`input_variables` are required "
 "arguments."
 msgstr ""
+"Requiere una lista de bandas entre corchetes or :ref:`input_variables` como "
+"argumentos."
 
 #: ../../band_calc_tab.rst:463
 msgid ":guilabel:`max`: maximum; for instance::"

@@ -345,7 +345,7 @@ msgstr ""
 
 #: ../../bandset_tab.rst:178
 msgid "|reset|"
-msgstr ""
+msgstr "|reset|"
 
 #: ../../bandset_tab.rst:179
 msgid "clear all bands from :guilabel:`active band set`"

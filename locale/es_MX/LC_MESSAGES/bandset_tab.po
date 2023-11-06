@@ -472,6 +472,11 @@ msgid ""
 "bands are displayed), which can be selected with a left click. Double click "
 "on a table item can be used to define the :guilabel:`Active band set`."
 msgstr ""
+"La tabla en el lado izquierdo es la :guilabel:`tabla del conjunto de "
+"bandas`. Incluye la lista de todos los :guilabel:`conjuntos de datos` "
+"definidos (se muestra los nombres de las primeras bandas), que puede ser "
+"seleccionados con click izquierdo. Con doble click  sobre un elemento de la "
+"tabla podemos definir el :guilabel:`conjunto de bandas activo`."
 
 #: ../../bandset_tab.rst:255
 msgid ""

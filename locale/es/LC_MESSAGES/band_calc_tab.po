@@ -1104,10 +1104,14 @@ msgid ""
 "Iterating over the bands of the first :guilabel:`Band set` (note the ``\"`` "
 "in the expression)::"
 msgstr ""
+"Iterando sobre las bandas en el primer :guilabel:`Conjunto de bandas` "
+"(nótese el carácter ``\"`` en la expresión)::"
 
 #: ../../band_calc_tab.rst:619
 msgid "Iterating over all the bands of :guilabel:`Band sets` from 1 to 3::"
 msgstr ""
+"Iterando sobre todas las bandas en los :guilabel:`Conjuntos de bandas` del 1"
+" al 3::"
 
 #: ../../band_calc_tab.rst:624
 msgid ":guilabel:`#BAND#`:"

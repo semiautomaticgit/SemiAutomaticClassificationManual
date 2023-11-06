@@ -68,15 +68,15 @@ msgstr "open_file"
 
 #: ../../classification_report_tab.rst:38
 msgid "new_file"
-msgstr "nuevo archivo"
+msgstr "new_file"
 
 #: ../../classification_report_tab.rst:41
 msgid "add"
-msgstr "agregar"
+msgstr "add"
 
 #: ../../classification_report_tab.rst:44
 msgid "reset"
-msgstr "reiniciar"
+msgstr "reset"
 
 #: ../../classification_report_tab.rst:47
 msgid "bandset_tool"

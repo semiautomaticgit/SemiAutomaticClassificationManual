@@ -907,19 +907,19 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:485
 msgid ":guilabel:`std`: standard deviation; for instance::"
-msgstr ""
+msgstr ":guilabel:`std`: desviación estándar; por ejemplo::"
 
 #: ../../band_calc_tab.rst:489
 msgid ":guilabel:`sum`: sum; for instance::"
-msgstr ""
+msgstr ":guilabel:`suma`: suma; por ejemplo:"
 
 #: ../../band_calc_tab.rst:497
 msgid "Operations"
-msgstr ""
+msgstr "Operaciones"
 
 #: ../../band_calc_tab.rst:499
 msgid ":guilabel:`sin`: sine; for instance::"
-msgstr ""
+msgstr ":guilabel:`sin`: seno; por ejemplo::"
 
 #: ../../band_calc_tab.rst:503
 msgid ":guilabel:`cos`: cosine;"
@@ -951,33 +951,39 @@ msgstr ":guilabel:`ln`: logaritmo natural;"
 
 #: ../../band_calc_tab.rst:510
 msgid ":guilabel:`log`: base 10 logarithm;"
-msgstr ""
+msgstr ":guilabel:`log`: logaritmo base 10;"
 
 #: ../../band_calc_tab.rst:516
 msgid "Indices"
-msgstr ""
+msgstr "Índices"
 
 #: ../../band_calc_tab.rst:518
 msgid ""
 ":guilabel:`NDVI`: if selected, the NDVI calculation is entered in the "
 ":guilabel:`Expression`::"
 msgstr ""
+":guilabel:`NDVI`: si se selecciona, la fórmula del NDVI es introducida en la"
+" :guilabel:`Expression`::"
 
 #: ../../band_calc_tab.rst:523
 msgid ""
 ":guilabel:`EVI`: if selected, the EVI calculation is entered in the "
 ":guilabel:`Expression`::"
 msgstr ""
+":guilabel:`EVI`: si se selecciona, la fórmula del EVI es introducida en la "
+":guilabel:`Expression`::"
 
 #: ../../band_calc_tab.rst:528
 msgid ""
 ":guilabel:`NBR`: if selected, the NBR calculation is entered in the "
 ":guilabel:`Expression`::"
 msgstr ""
+":guilabel:`NBR`: si se selecciona, la fórmula del NBR es introducida en la "
+":guilabel:`Expresión`::"
 
 #: ../../band_calc_tab.rst:537
 msgid "Variables"
-msgstr ""
+msgstr "Variables"
 
 #: ../../band_calc_tab.rst:539
 msgid ""

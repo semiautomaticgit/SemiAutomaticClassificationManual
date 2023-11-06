@@ -920,7 +920,7 @@ msgstr "Operaciones"
 
 #: ../../band_calc_tab.rst:499
 msgid ":guilabel:`sin`: sine; for instance::"
-msgstr ""
+msgstr ":guilabel:`sin`: seno; por ejemplo::"
 
 #: ../../band_calc_tab.rst:503
 msgid ":guilabel:`cos`: cosine;"

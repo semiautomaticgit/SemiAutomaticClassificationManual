@@ -195,6 +195,10 @@ msgid ""
 "sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_report.html>`_ "
 "."
 msgstr ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_report.html>`_ "
+"."
 
 #: ../../classification_report_tab.rst:143
 msgid "Tool symbol and name"

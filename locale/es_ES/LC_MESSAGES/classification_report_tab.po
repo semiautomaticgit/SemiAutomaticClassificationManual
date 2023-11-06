@@ -120,15 +120,15 @@ msgstr "script_tool"
 
 #: ../../classification_report_tab.rst:77
 msgid "enter"
-msgstr "ingresar"
+msgstr "enter"
 
 #: ../../classification_report_tab.rst:80
 msgid "zoom_to_ROI"
-msgstr "Hacer zoom al área de interés"
+msgstr "zoom_to_ROI"
 
 #: ../../classification_report_tab.rst:83
 msgid "check"
-msgstr "controlar"
+msgstr "check"
 
 #: ../../classification_report_tab.rst:86
 msgid "select_all"

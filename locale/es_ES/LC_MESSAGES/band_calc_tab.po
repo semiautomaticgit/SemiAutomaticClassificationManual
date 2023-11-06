@@ -881,11 +881,11 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:463
 msgid ":guilabel:`max`: maximum; for instance::"
-msgstr ":guilabel:`max`: máximo, por ejemplo:"
+msgstr ":guilabel:`max`: máximo, por ejemplo::"
 
 #: ../../band_calc_tab.rst:467
 msgid ":guilabel:`min`: minimum; for instance::"
-msgstr ""
+msgstr ":guilabel:`min`: mínimo, por ejemplo::"
 
 #: ../../band_calc_tab.rst:471
 msgid ":guilabel:`mean`: mean; for instance::"

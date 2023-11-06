@@ -561,10 +561,12 @@ msgstr ""
 #: ../../bandset_tab.rst:299
 msgid "|checkbox| :guilabel:`Create raster of band set (stack bands)`"
 msgstr ""
+"|checkbox| :guilabel:`Crear un ráster a partir de un conjunto de bandas "
+"(apilar bandas)`"
 
 #: ../../bandset_tab.rst:300
 msgid "stack bands in a single multiband raster"
-msgstr ""
+msgstr "apilar bandas en un ráster multibanda"
 
 #: ../../bandset_tab.rst:301
 msgid "|checkbox| :guilabel:`Build band overview`"

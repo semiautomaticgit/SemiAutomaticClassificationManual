@@ -813,6 +813,10 @@ msgid ""
 "``.tif`` files. Moving the ``.vrt`` virtual file or the ``.tif`` files in "
 "different directories can make the virtual file unusable."
 msgstr ""
+"Un archivo``.vrt`` es un archivo de texto que contiene las referencias a a "
+"archivos `.tif`` ya existentes. Si movemos el archivo ``.vrt``  a un "
+"directorio diferente dejará de funcionar, porque no encontrará los `.tif`` "
+"originales."
 
 #: ../../band_calc_tab.rst:422
 msgid "Functions"

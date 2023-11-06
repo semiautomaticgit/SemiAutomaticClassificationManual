@@ -6,8 +6,6 @@
 # 
 # Translators:
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
-# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
-# Marlon Castillo <marloncastillo286@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
 #, fuzzy
@@ -33,160 +31,160 @@ msgstr "Reporte de la clasificación"
 
 #: ../../classification_report_tab.rst:11
 msgid "registry_save"
-msgstr "registro_guardar"
+msgstr "registry_save"
 
 #: ../../classification_report_tab.rst:14
 msgid "project_save"
-msgstr "guardar_proyecto"
+msgstr "project_save"
 
 #: ../../classification_report_tab.rst:17
 msgid "optional"
-msgstr "opcional"
+msgstr "optional"
 
 #: ../../classification_report_tab.rst:20
 msgid "input_list"
-msgstr "lista_entrada"
+msgstr "input_list"
 
 #: ../../classification_report_tab.rst:23
 msgid "input_text"
-msgstr "texto de entrada"
+msgstr "input_text"
 
 #: ../../classification_report_tab.rst:26
 msgid "input_date"
-msgstr "fecha_entrada"
+msgstr "input_date"
 
 #: ../../classification_report_tab.rst:29
 msgid "input_number"
-msgstr "número de entrada"
+msgstr "input_number"
 
 #: ../../classification_report_tab.rst:32
 msgid "input_table"
-msgstr "tabla_entrada"
+msgstr "input_table"
 
 #: ../../classification_report_tab.rst:35
 msgid "open_file"
-msgstr "abrir archivo"
+msgstr "open_file"
 
 #: ../../classification_report_tab.rst:38
 msgid "new_file"
-msgstr "nuevo archivo"
+msgstr "new_file"
 
 #: ../../classification_report_tab.rst:41
 msgid "add"
-msgstr "agregar"
+msgstr "add"
 
 #: ../../classification_report_tab.rst:44
 msgid "reset"
-msgstr "reiniciar"
+msgstr "reset"
 
 #: ../../classification_report_tab.rst:47
 msgid "bandset_tool"
-msgstr "Herramienta de conjunto de bandas"
+msgstr "bandset_tool"
 
 #: ../../classification_report_tab.rst:50
 msgid "download"
-msgstr "descargar"
+msgstr "download"
 
 #: ../../classification_report_tab.rst:53
 msgid "export"
-msgstr "exportar"
+msgstr "export"
 
 #: ../../classification_report_tab.rst:56
 msgid "tools"
-msgstr "herramientas"
+msgstr "tools"
 
 #: ../../classification_report_tab.rst:59
 msgid "preprocessing"
-msgstr "preprocesamiento"
+msgstr "preprocessing"
 
 #: ../../classification_report_tab.rst:62
 msgid "band_processing"
-msgstr "procesamiento_banda"
+msgstr "band_processing"
 
 #: ../../classification_report_tab.rst:65
 msgid "postprocessing"
-msgstr "postprocesamiento"
+msgstr "postprocessing"
 
 #: ../../classification_report_tab.rst:68
 msgid "bandcalc"
-msgstr "calc de banda"
+msgstr "bandcalc"
 
 #: ../../classification_report_tab.rst:71
 msgid "settings"
-msgstr "ajustes"
+msgstr "settings"
 
 #: ../../classification_report_tab.rst:74
 msgid "script_tool"
-msgstr "herramienta_script"
+msgstr "script_tool"
 
 #: ../../classification_report_tab.rst:77
 msgid "enter"
-msgstr "ingresar"
+msgstr "enter"
 
 #: ../../classification_report_tab.rst:80
 msgid "zoom_to_ROI"
-msgstr "Hacer zoom al área de interés"
+msgstr "zoom_to_ROI"
 
 #: ../../classification_report_tab.rst:83
 msgid "check"
-msgstr "controlar"
+msgstr "check"
 
 #: ../../classification_report_tab.rst:86
 msgid "select_all"
-msgstr "seleccionar todo"
+msgstr "select_all"
 
 #: ../../classification_report_tab.rst:89
 msgid "docks"
-msgstr "paneles"
+msgstr "docks"
 
 #: ../../classification_report_tab.rst:92
 msgid "add_sign_tool"
-msgstr "agregar herramienta de signo"
+msgstr "add_sign_tool"
 
 #: ../../classification_report_tab.rst:95
 msgid "guide"
-msgstr "guía"
+msgstr "guide"
 
 #: ../../classification_report_tab.rst:98
 msgid "help"
-msgstr "ayuda"
+msgstr "help"
 
 #: ../../classification_report_tab.rst:101
 msgid "reload"
-msgstr "recargar"
+msgstr "reload"
 
 #: ../../classification_report_tab.rst:104
 msgid "checkbox"
-msgstr "casilla de confirmación"
+msgstr "checkbox"
 
 #: ../../classification_report_tab.rst:107
 msgid "run"
-msgstr "ejecutar"
+msgstr "run"
 
 #: ../../classification_report_tab.rst:110
 msgid "radiobutton"
-msgstr "botón de radio"
+msgstr "radiobutton"
 
 #: ../../classification_report_tab.rst:113
 msgid "pointer"
-msgstr "puntero"
+msgstr "pointer"
 
 #: ../../classification_report_tab.rst:116
 msgid "threshold_tool"
-msgstr "herramienta de umbral"
+msgstr "threshold_tool"
 
 #: ../../classification_report_tab.rst:124
 msgid ":guilabel:`Classification report`"
-msgstr ""
+msgstr ":guilabel:`Reporte de clasificación`"
 
 #: ../../classification_report_tab.rst:127
 msgid ""
 "This tab allows for the calculation of class statistics such as number of "
 "pixels, percentage and area (area unit is defined from the image itself)."
 msgstr ""
-"Esta pestaña permite el cálculo de estadísticas de las Clases como el número"
-" de pixeles, porcentaje y área (las unidades de área son definidas por la "
-"misma imagen)."
+"Esta pestaña permite el cálculo de estadísticas de las clases tales como el "
+"número de pixeles, porcentaje y área (las unidades de área depende del "
+"sistema de referencia de la imagen)."
 
 #: ../../classification_report_tab.rst:131
 msgid ""
@@ -195,10 +193,14 @@ msgid ""
 "sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_report.html>`_ "
 "."
 msgstr ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_report.html>`_ "
+"."
 
 #: ../../classification_report_tab.rst:143
 msgid "Tool symbol and name"
-msgstr "Símbolo de la herramienta y nombre"
+msgstr "Símbolo y nombre de la herramienta "
 
 #: ../../classification_report_tab.rst:144
 msgid "Description"
@@ -206,7 +208,7 @@ msgstr "Descripción"
 
 #: ../../classification_report_tab.rst:147
 msgid ":guilabel:`Select the classification` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Selecciona la clasificación` |input_list|"
 
 #: ../../classification_report_tab.rst:148
 msgid "select a classification raster (already loaded in QGIS)"
@@ -218,7 +220,7 @@ msgstr "|recarga|"
 
 #: ../../classification_report_tab.rst:150
 msgid "refresh layer list"
-msgstr "refresca la lista de capas"
+msgstr "actualiza la lista de capas"
 
 #: ../../classification_report_tab.rst:151
 msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number| |optional|"
@@ -252,4 +254,4 @@ msgstr "ejecutar esta función"
 
 #: ../../classification_report_tab.rst:159
 msgid "The tab ``Output`` will display the report."
-msgstr ""
+msgstr "La pestaña ``Salida`` mostrará el reporte"

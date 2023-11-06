@@ -238,7 +238,7 @@ msgstr "Descripción"
 
 #: ../../cross_classification_tab.rst:161
 msgid ":guilabel:`Select the classification` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Selecciona la clasificación` |input_list|"
 
 #: ../../cross_classification_tab.rst:162
 msgid "select a classification raster (already loaded in QGIS)"

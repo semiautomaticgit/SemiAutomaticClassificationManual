@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../debug_tab.rst:67
 msgid "|export|"
-msgstr ""
+msgstr "|export|"
 
 #: ../../debug_tab.rst:68
 msgid "export the Log file to a .txt file"

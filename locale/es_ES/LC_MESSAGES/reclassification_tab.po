@@ -230,7 +230,7 @@ msgstr "Descripción"
 
 #: ../../reclassification_tab.rst:153
 msgid ":guilabel:`Select the classification` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Selecciona la clasificación` |input_list|"
 
 #: ../../reclassification_tab.rst:154
 msgid "select a classification raster (already loaded in QGIS)"
@@ -288,7 +288,7 @@ msgstr ""
 
 #: ../../reclassification_tab.rst:181
 msgid "|remove|"
-msgstr ""
+msgstr "|remove|"
 
 #: ../../reclassification_tab.rst:182
 msgid "remove highlighted rows from the table"
@@ -296,7 +296,7 @@ msgstr ""
 
 #: ../../reclassification_tab.rst:183
 msgid "|import|"
-msgstr ""
+msgstr "|import|"
 
 #: ../../reclassification_tab.rst:184
 msgid ""
@@ -308,7 +308,7 @@ msgstr ""
 
 #: ../../reclassification_tab.rst:190
 msgid "|export|"
-msgstr ""
+msgstr "|export|"
 
 #: ../../reclassification_tab.rst:191
 msgid ""

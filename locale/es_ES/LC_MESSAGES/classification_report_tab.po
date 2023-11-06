@@ -254,4 +254,4 @@ msgstr "ejecutar esta función"
 
 #: ../../classification_report_tab.rst:159
 msgid "The tab ``Output`` will display the report."
-msgstr ""
+msgstr "La pestaña ``Salida`` mostrará el reporte"

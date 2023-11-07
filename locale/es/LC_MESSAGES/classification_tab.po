@@ -490,6 +490,9 @@ msgid ""
 "neurons in a hidden layer (e.g.: 200, 100 for two hidden layers of 200 and "
 "100 neurons respectively)"
 msgstr ""
+"lista de valores separados por comas, en la que cada valor define el número "
+"de neuronas en una capa oculta (e.g.: 200, 100 for two hidden layers of 200 "
+"and 100 neurons respectively)"
 
 #: ../../classification_tab.rst:284
 msgid ":guilabel:`Max iter` |input_number|"

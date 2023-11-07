@@ -534,7 +534,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:293
 msgid ":guilabel:`Batch size` |input_text|"
-msgstr ":guilabel:`Tamaño del Lote (Batch)` |input_text|"
+msgstr ":guilabel:`Tamaño de Lotes (Batch size)` |input_text|"
 
 #: ../../classification_tab.rst:294
 msgid ""

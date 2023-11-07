@@ -456,7 +456,7 @@ msgstr "Usa el algoritmo de :ref:`multi_layer_perceptron_algorithm`."
 
 #: ../../classification_tab.rst:274
 msgid ":guilabel:`Use framework` |radiobutton| :guilabel:`scikit-learn`"
-msgstr ":guilabel:`Usa el framework` |radiobutton| :guilabel:`scikit-learn`"
+msgstr ":guilabel:`Usar el framework` |radiobutton| :guilabel:`scikit-learn`"
 
 #: ../../classification_tab.rst:275
 msgid ""
@@ -469,7 +469,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:277
 msgid ":guilabel:`Use framework` |radiobutton| :guilabel:`PyTorch`"
-msgstr ":guilabel:`Usa el framework` |radiobutton| :guilabel:`PyTorch`"
+msgstr ":guilabel:`Usar el framework` |radiobutton| :guilabel:`PyTorch`"
 
 #: ../../classification_tab.rst:278
 msgid ""

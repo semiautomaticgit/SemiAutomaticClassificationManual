@@ -572,6 +572,8 @@ msgstr ""
 #: ../../classification_tab.rst:412
 msgid "if checked, find the best estimator iteratively with a number of steps"
 msgstr ""
+"si está marcado, eneuntra el mejor estimador iterativamente usando un número"
+" de pasos"
 
 #: ../../classification_tab.rst:308
 msgid "Random Forest"

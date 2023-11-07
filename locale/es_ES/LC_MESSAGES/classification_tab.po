@@ -476,6 +476,8 @@ msgid ""
 "if checked, use PyTorch framework (read `about this <https://remotior-"
 "sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_classification.html>`_)"
 msgstr ""
+"si está marcado, se usa el framework PyTorch (lee `estos <https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_classification.html>`_)"
 
 #: ../../classification_tab.rst:280
 msgid ":guilabel:`Hidden layer sizes` |input_number|"

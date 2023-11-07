@@ -530,10 +530,12 @@ msgid ""
 "set the proportion of data to be used as training and the remaining part as "
 "test"
 msgstr ""
+"define la proporción de los datos que serán utilizados para entrenamiento, "
+"el resto será el conjunto de datos para prueba"
 
 #: ../../classification_tab.rst:293
 msgid ":guilabel:`Batch size` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Tamaño del Batch` |input_text|"
 
 #: ../../classification_tab.rst:294
 msgid ""

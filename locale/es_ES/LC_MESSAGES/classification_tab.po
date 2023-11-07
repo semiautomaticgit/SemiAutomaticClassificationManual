@@ -522,7 +522,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:290
 msgid ":guilabel:`Training proportion` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Proporción de entrenamiento` |input_number|"
 
 #: ../../classification_tab.rst:291
 msgid ""

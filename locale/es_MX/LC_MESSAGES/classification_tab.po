@@ -581,11 +581,11 @@ msgstr "Bosque Aleatorio"
 
 #: ../../classification_tab.rst:314
 msgid ":guilabel:`Random Forest`"
-msgstr ""
+msgstr ":guilabel:`Bosque aleatorio"
 
 #: ../../classification_tab.rst:316
 msgid "Use the :ref:`random_forest_definition` algorithm."
-msgstr ""
+msgstr "Usar el algoritmo :ref:`random_forest_definition` "
 
 #: ../../classification_tab.rst:324
 msgid ":guilabel:`Number of trees` |input_number|"
@@ -593,7 +593,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:325
 msgid "set the number of trees"
-msgstr ""
+msgstr "define el número de árboles"
 
 #: ../../classification_tab.rst:326
 msgid ":guilabel:`Minimum number to split` |input_number|"

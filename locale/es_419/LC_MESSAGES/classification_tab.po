@@ -453,11 +453,12 @@ msgstr ":guilabel:`Perceptron Multi-capa`"
 
 #: ../../classification_tab.rst:266
 msgid "Use the :ref:`multi_layer_perceptron_algorithm` algorithm."
-msgstr ""
+msgstr "Usa el algoritmo de :ref:`multi_layer_perceptron_algorithm`."
 
 #: ../../classification_tab.rst:274
 msgid ":guilabel:`Use framework` |radiobutton| :guilabel:`scikit-learn`"
 msgstr ""
+":guilabel:`Usa el framework de` |radiobutton| :guilabel:`scikit-learn`"
 
 #: ../../classification_tab.rst:275
 msgid ""

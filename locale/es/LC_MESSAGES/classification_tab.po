@@ -504,11 +504,11 @@ msgstr "define el número máximo de iteraciones"
 
 #: ../../classification_tab.rst:286
 msgid ":guilabel:`Activation` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Activación` |input_text|"
 
 #: ../../classification_tab.rst:287
 msgid "set the activation function (default: relu)"
-msgstr ""
+msgstr "define la función de activación (por defecto: relu)"
 
 #: ../../classification_tab.rst:288
 msgid ":guilabel:`Alpha` |input_number|"

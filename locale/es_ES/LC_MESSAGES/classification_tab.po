@@ -581,7 +581,7 @@ msgstr "Árboles Aleatorios"
 
 #: ../../classification_tab.rst:314
 msgid ":guilabel:`Random Forest`"
-msgstr ""
+msgstr ":guilabel:`Árboles aleatorios`"
 
 #: ../../classification_tab.rst:316
 msgid "Use the :ref:`random_forest_definition` algorithm."

@@ -567,6 +567,7 @@ msgstr "si está marcado, se llevará acabo una validación cruzada"
 #: ../../classification_tab.rst:411
 msgid "|checkbox| :guilabel:`Find best estimator with steps` |optional|"
 msgstr ""
+"|checkbox| :guilabel:`Encontrar el mejor estimador en pasos` |optional|"
 
 #: ../../classification_tab.rst:301 ../../classification_tab.rst:341
 #: ../../classification_tab.rst:412
@@ -581,19 +582,19 @@ msgstr "Bosque Aleatorio"
 
 #: ../../classification_tab.rst:314
 msgid ":guilabel:`Random Forest`"
-msgstr ""
+msgstr ":guilabel:`Bosque aleatorio"
 
 #: ../../classification_tab.rst:316
 msgid "Use the :ref:`random_forest_definition` algorithm."
-msgstr ""
+msgstr "Usar el algoritmo :ref:`random_forest_definition` "
 
 #: ../../classification_tab.rst:324
 msgid ":guilabel:`Number of trees` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Número de árboles` |input_number|"
 
 #: ../../classification_tab.rst:325
 msgid "set the number of trees"
-msgstr ""
+msgstr "define el número de árboles"
 
 #: ../../classification_tab.rst:326
 msgid ":guilabel:`Minimum number to split` |input_number|"

@@ -482,7 +482,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:280
 msgid ":guilabel:`Hidden layer sizes` |input_number|"
-msgstr ":guilabel:`Tamaño de capas ocultas` |input_number|"
+msgstr ":guilabel:`Tamaño de las capas ocultas` |input_number|"
 
 #: ../../classification_tab.rst:281
 msgid ""

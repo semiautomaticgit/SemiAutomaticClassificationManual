@@ -500,7 +500,7 @@ msgstr ":guilabel:`Iter. Max.` |input_number|"
 
 #: ../../classification_tab.rst:285
 msgid "set the maximum number of iterations"
-msgstr ""
+msgstr "define el número máximo de iteraciones"
 
 #: ../../classification_tab.rst:286
 msgid ":guilabel:`Activation` |input_text|"

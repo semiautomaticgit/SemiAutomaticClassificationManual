@@ -448,7 +448,7 @@ msgstr "Perceptron Mutli-capa"
 
 #: ../../classification_tab.rst:264
 msgid ":guilabel:`Multi-layer Perceptron`"
-msgstr ""
+msgstr ":guilabel:`Perceptron Multi-capa`"
 
 #: ../../classification_tab.rst:266
 msgid "Use the :ref:`multi_layer_perceptron_algorithm` algorithm."

@@ -541,6 +541,8 @@ msgid ""
 "set the number of samples per batch for optimizer; if auto, the batch is the"
 " minimum value between 200 and the number of samples"
 msgstr ""
+"define el número de muestra por lote para el optimizador, si se deja por "
+"defecto, el tamaño será el mínimo entre 200 o el número de muestras"
 
 #: ../../classification_tab.rst:296
 msgid ":guilabel:`Learning rate init` |input_number|"

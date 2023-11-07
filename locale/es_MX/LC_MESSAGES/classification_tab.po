@@ -560,7 +560,7 @@ msgstr "|checkbox| :guilabel:`Validación cruzada` |optional|"
 #: ../../classification_tab.rst:299 ../../classification_tab.rst:336
 #: ../../classification_tab.rst:407
 msgid "if checked, perform cross validation"
-msgstr ""
+msgstr "si está marcado, se llevará acabo una validación cruzada"
 
 #: ../../classification_tab.rst:300 ../../classification_tab.rst:340
 #: ../../classification_tab.rst:411

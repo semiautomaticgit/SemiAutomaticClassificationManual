@@ -430,7 +430,7 @@ msgstr ":guilabel:`Distancia Mínima`"
 
 #: ../../classification_tab.rst:231
 msgid "Use the :ref:`minimum_distance_algorithm` algorithm."
-msgstr ""
+msgstr "Usa el algoritmo de :ref:`minimum_distance_algorithm`."
 
 #: ../../classification_tab.rst:240
 msgid ""

@@ -463,7 +463,7 @@ msgid ""
 "if checked, use scikit-learn framework (read `this <https://remotior-"
 "sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_classification.html>`_)"
 msgstr ""
-"si está marcado, usar el framework de scikit-learn (lee `esto "
+"si está marcado, se usará el framework scikit-learn (lee `esto "
 "<https://remotior-"
 "sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_classification.html>`_)"
 

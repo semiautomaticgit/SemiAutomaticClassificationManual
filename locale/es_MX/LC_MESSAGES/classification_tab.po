@@ -517,20 +517,24 @@ msgstr ":guilabel:`Alpha` |input_number|"
 #: ../../classification_tab.rst:289
 msgid "set the weight decay (also L2 regularization term) for Adam optimizer"
 msgstr ""
+"define el decaimiento de pesos (también el término de regularización L2) "
+"para el optimizador Adam"
 
 #: ../../classification_tab.rst:290
 msgid ":guilabel:`Training proportion` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Proporción de entrenamiento` |input_number|"
 
 #: ../../classification_tab.rst:291
 msgid ""
 "set the proportion of data to be used as training and the remaining part as "
 "test"
 msgstr ""
+"define la proporción de los datos que serán utilizados para entrenamiento, "
+"el resto será el conjunto de datos para prueba"
 
 #: ../../classification_tab.rst:293
 msgid ":guilabel:`Batch size` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Tamaño del Batch` |input_text|"
 
 #: ../../classification_tab.rst:294
 msgid ""

@@ -438,14 +438,17 @@ msgid ""
 "(applied to all the spectral signatures); pixels are unclassified if "
 "distance is greater than threshold value"
 msgstr ""
+"si está marcado, permite la definición de un umbral de clasificación "
+"(aplicado a todas las firmas espectrales), los píxeles no serán clasificados"
+" si la distancia es mayor al valor umbra"
 
 #: ../../classification_tab.rst:258
 msgid "Multi-layer Perceptron"
-msgstr ""
+msgstr "Perceptron Mutli-capa"
 
 #: ../../classification_tab.rst:264
 msgid ":guilabel:`Multi-layer Perceptron`"
-msgstr ""
+msgstr ":guilabel:`Perceptron Multi-capa`"
 
 #: ../../classification_tab.rst:266
 msgid "Use the :ref:`multi_layer_perceptron_algorithm` algorithm."

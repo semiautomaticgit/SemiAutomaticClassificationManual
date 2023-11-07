@@ -1,0 +1,714 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
+# Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"PO-Revision-Date: 2023-10-24 15:43+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (Spain) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../classification_tab.rst:5
+msgid "Classification"
+msgstr "Clasificación"
+
+#: ../../classification_tab.rst:11
+msgid "registry_save"
+msgstr "registry_save"
+
+#: ../../classification_tab.rst:14
+msgid "project_save"
+msgstr "project_save"
+
+#: ../../classification_tab.rst:17
+msgid "optional"
+msgstr "optional"
+
+#: ../../classification_tab.rst:20
+msgid "input_list"
+msgstr "input_list"
+
+#: ../../classification_tab.rst:23
+msgid "input_text"
+msgstr "input_text"
+
+#: ../../classification_tab.rst:26
+msgid "input_date"
+msgstr "input_date"
+
+#: ../../classification_tab.rst:29
+msgid "input_number"
+msgstr "input_number"
+
+#: ../../classification_tab.rst:32
+msgid "input_table"
+msgstr "input_table"
+
+#: ../../classification_tab.rst:35
+msgid "open_file"
+msgstr "open_file"
+
+#: ../../classification_tab.rst:38
+msgid "new_file"
+msgstr "new_file"
+
+#: ../../classification_tab.rst:41
+msgid "add"
+msgstr "add"
+
+#: ../../classification_tab.rst:44
+msgid "reset"
+msgstr "reset"
+
+#: ../../classification_tab.rst:47
+msgid "bandset_tool"
+msgstr "bandset_tool"
+
+#: ../../classification_tab.rst:50
+msgid "download"
+msgstr "download"
+
+#: ../../classification_tab.rst:53
+msgid "export"
+msgstr "export"
+
+#: ../../classification_tab.rst:56
+msgid "tools"
+msgstr "tools"
+
+#: ../../classification_tab.rst:59
+msgid "preprocessing"
+msgstr "preprocessing"
+
+#: ../../classification_tab.rst:62
+msgid "band_processing"
+msgstr "band_processing"
+
+#: ../../classification_tab.rst:65
+msgid "postprocessing"
+msgstr "postprocessing"
+
+#: ../../classification_tab.rst:68
+msgid "bandcalc"
+msgstr "bandcalc"
+
+#: ../../classification_tab.rst:71
+msgid "settings"
+msgstr "settings"
+
+#: ../../classification_tab.rst:74
+msgid "script_tool"
+msgstr "script_tool"
+
+#: ../../classification_tab.rst:77
+msgid "enter"
+msgstr "enter"
+
+#: ../../classification_tab.rst:80
+msgid "zoom_to_ROI"
+msgstr "zoom_to_ROI"
+
+#: ../../classification_tab.rst:83
+msgid "check"
+msgstr "check"
+
+#: ../../classification_tab.rst:86
+msgid "select_all"
+msgstr "select_all"
+
+#: ../../classification_tab.rst:89
+msgid "docks"
+msgstr "docks"
+
+#: ../../classification_tab.rst:92
+msgid "add_sign_tool"
+msgstr "add_sign_tool"
+
+#: ../../classification_tab.rst:95
+msgid "guide"
+msgstr "guide"
+
+#: ../../classification_tab.rst:98
+msgid "help"
+msgstr "help"
+
+#: ../../classification_tab.rst:101
+msgid "reload"
+msgstr "reload"
+
+#: ../../classification_tab.rst:104
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../classification_tab.rst:107
+msgid "run"
+msgstr "run"
+
+#: ../../classification_tab.rst:110
+msgid "radiobutton"
+msgstr "radiobutton"
+
+#: ../../classification_tab.rst:113
+msgid "pointer"
+msgstr "pointer"
+
+#: ../../classification_tab.rst:116
+msgid "threshold_tool"
+msgstr "threshold_tool"
+
+#: ../../classification_tab.rst:124
+msgid ":guilabel:`Classification`"
+msgstr ":guilabel:`Clasificación`"
+
+#: ../../classification_tab.rst:126
+msgid ""
+"This tab allows for the classification of the :ref:`band_set_tab` using the "
+"spectral signatures checked in :ref:`ROI_list`. Several classification "
+"options are set in this tab which affect the classification process also "
+"during the :ref:`classification_preview`."
+msgstr ""
+"Esta pestaña permite la clasificación de: ref: `band_set_tab` usando las "
+"firmas espectrales registradas en las: ref:` ROI_list`. Varias opciones de "
+"clasificación se definen en esta pestaña y afectan el proceso de "
+"clasificación también durante la: ref: `class_preview`."
+
+#: ../../classification_tab.rst:131
+msgid "This tool allows for the selection of one the following algorithms:"
+msgstr ""
+"Esta herramienta permite seleccionar de uno de los siguientes algoritmos"
+
+#: ../../classification_tab.rst:133
+msgid ":ref:`maximum_likelihood`"
+msgstr ":ref:`maximum_likelihood`"
+
+#: ../../classification_tab.rst:134
+msgid ":ref:`minimum_distance`"
+msgstr ":ref:`minimum_distance`"
+
+#: ../../classification_tab.rst:135
+msgid ":ref:`multi_layer_perceptron`"
+msgstr ":ref:`multi_layer_perceptron`"
+
+#: ../../classification_tab.rst:136
+msgid ":ref:`random_forest`"
+msgstr ":ref:`random_forest`"
+
+#: ../../classification_tab.rst:137
+msgid ":ref:`spectral_angle_mapping`"
+msgstr ":ref:`spectral_angle_mapping`"
+
+#: ../../classification_tab.rst:138
+msgid ":ref:`support_vector_machine`"
+msgstr ":ref:`support_vector_machine`"
+
+#: ../../classification_tab.rst:141
+msgid "Also, it is possible to save and load a trained classifier."
+msgstr ""
+"También es posible guardar y cargar un clasificador previamente entrenado."
+
+#: ../../classification_tab.rst:144
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_classification.html>`_"
+" ."
+msgstr ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_classification.html>`_"
+" ."
+
+#: ../../classification_tab.rst:150
+msgid "Input"
+msgstr "Entrada"
+
+#: ../../classification_tab.rst:156 ../../classification_tab.rst:201
+#: ../../classification_tab.rst:237 ../../classification_tab.rst:272
+#: ../../classification_tab.rst:322 ../../classification_tab.rst:362
+#: ../../classification_tab.rst:398 ../../classification_tab.rst:433
+msgid "Tool symbol and name"
+msgstr "Símbolo y nombre de la herramienta "
+
+#: ../../classification_tab.rst:157 ../../classification_tab.rst:202
+#: ../../classification_tab.rst:238 ../../classification_tab.rst:273
+#: ../../classification_tab.rst:323 ../../classification_tab.rst:363
+#: ../../classification_tab.rst:399 ../../classification_tab.rst:434
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../classification_tab.rst:158
+msgid ":guilabel:`Select input band set` |input_number|"
+msgstr ""
+":guilabel:`Seleccionar el conjunto de bandas de entrada` |input_number|"
+
+#: ../../classification_tab.rst:159
+msgid "select the input :ref:`band_set_tab` to be classified"
+msgstr "selecciona el :ref:`band_set_tab` a clasificar"
+
+#: ../../classification_tab.rst:160
+msgid "|checkbox| :guilabel:`Use input normalization` |optional|"
+msgstr "|checkbox| :guilabel:`Normalizar los datos de entrada` |optional|"
+
+#: ../../classification_tab.rst:161
+msgid "if checked, normalize the input based on the selected method"
+msgstr ""
+"si está marcado, normaliza los datos de entrada usando uno de los métodos "
+"seleccionados"
+
+#: ../../classification_tab.rst:162
+msgid "|radiobutton| :guilabel:`Z-score`"
+msgstr "|radiobutton| :guilabel:`Z-score`"
+
+#: ../../classification_tab.rst:163
+msgid ""
+"if checked with |checkbox| :guilabel:`Use input normalized`, Z-score "
+"normalization of input is performed"
+msgstr ""
+"si está marcado con |checkbox| :guilabel:`Usar entrada normalizada`,se "
+"realizará la normalización de los datos de entrada usando Z-score."
+
+#: ../../classification_tab.rst:165
+msgid "|radiobutton| :guilabel:`Linear scaling`"
+msgstr "|radiobutton| :guilabel:`Escalado lineal`"
+
+#: ../../classification_tab.rst:166
+msgid ""
+"if checked with |checkbox| :guilabel:`Use input normalized`, Linear scaling "
+"normalization of input is performed"
+msgstr ""
+"si está marcado con |checkbox| :guilabel:`Usar entrada normalizada`,se "
+"realizará la normalización de los datos de entrada usando reescalado lineal."
+
+#: ../../classification_tab.rst:168
+msgid ":guilabel:`Use training` |radiobutton| :guilabel:`Macroclass ID`"
+msgstr ""
+":guilabel:`Usar entrenamiento con` |radiobutton| :guilabel:`ID de "
+"Macroclase`"
+
+#: ../../classification_tab.rst:169
+msgid "if checked, the classification is performed using"
+msgstr "si está marcado la clasificación se realizará usando"
+
+#: ../../classification_tab.rst:170
+msgid ""
+":guilabel:`Use training` |radiobutton| :guilabel:`Class ID` the Macroclass "
+"ID (code `MC ID` of the signature)"
+msgstr ""
+":guilabel:`usar entrenamiento con` |radiobutton| :guilabel:`ID de Clase` la "
+"ID de  Macroclase (código `MC ID` de la firma)"
+
+#: ../../classification_tab.rst:172
+msgid ""
+"if checked, the classification is performed using the Class ID (code `C ID` "
+"of the signature)"
+msgstr ""
+"si está marcado, la clasificación se realizará usando el ID de Clase (código"
+" `C ID` de la firma)"
+
+#: ../../classification_tab.rst:179
+msgid "Algorithm"
+msgstr "Algoritmo"
+
+#: ../../classification_tab.rst:181
+msgid ""
+"This tool allows for the selection of the classification algorithm. The "
+"algorithm tab includes the available parameters."
+msgstr ""
+"Esta herramienta permite seleccionar del algoritmo de clasificación. La "
+"pestaña de algoritmo incluye los parámetros disponibles."
+
+#: ../../classification_tab.rst:187
+msgid "Maximum Likelihood"
+msgstr "Máxima Probabilidad"
+
+#: ../../classification_tab.rst:193
+msgid ":guilabel:`Maximum Likelihood`"
+msgstr ":guilabel:`Máxima Probabilidad`"
+
+#: ../../classification_tab.rst:195
+msgid "Use the :ref:`max_likelihood_algorithm` algorithm."
+msgstr "Usar el algoritmo de :ref:`max_likelihood_algorithm`."
+
+#: ../../classification_tab.rst:203 ../../classification_tab.rst:239
+#: ../../classification_tab.rst:364
+msgid ":guilabel:`Use single threshold` |input_number| |optional|"
+msgstr ":guilabel:`Usar un único umbral` |input_number| |optional|"
+
+#: ../../classification_tab.rst:204
+msgid ""
+"if checked, it allows for the definition of a classification threshold "
+"(applied to all the spectral signatures); pixels are unclassified if "
+"probability is less than threshold  value (max 100)"
+msgstr ""
+"si está marcado, permite definir el umbral de clasificación (aplicado a "
+"todas las firmas espectrales), los píxeles quedaran sin clasificar si la "
+"probabilidad es mejor que valor umbral (max. 100)"
+
+#: ../../classification_tab.rst:207 ../../classification_tab.rst:243
+#: ../../classification_tab.rst:368
+msgid ":guilabel:`Signature threshold` |input_number| |optional|"
+msgstr ":guilabel:`Umbral de firmas` |input_number| |optional|"
+
+#: ../../classification_tab.rst:208 ../../classification_tab.rst:244
+#: ../../classification_tab.rst:369
+msgid "if checked, thresholds :ref:`Signature_threshold_tab` are evaluated"
+msgstr ""
+"si está marcado, los umbrales :ref:`Signature_threshold_tab` son evaluados"
+
+#: ../../classification_tab.rst:209 ../../classification_tab.rst:245
+#: ../../classification_tab.rst:370
+msgid "|threshold_tool|"
+msgstr "|threshold_tool|"
+
+#: ../../classification_tab.rst:210 ../../classification_tab.rst:246
+#: ../../classification_tab.rst:371
+msgid ""
+"open the :ref:`Signature_threshold_tab` for the definition of signature "
+"thresholds"
+msgstr ""
+"abre la :ref:`Signature_threshold_tab` para definir los umbrales para las "
+"firmas"
+
+#: ../../classification_tab.rst:212 ../../classification_tab.rst:248
+#: ../../classification_tab.rst:373
+msgid "|checkbox| :guilabel:`Save signature raster` |optional|"
+msgstr "|checkbox| :guilabel:`Guarda el ráster de firmas` |optional|"
+
+#: ../../classification_tab.rst:213 ../../classification_tab.rst:249
+#: ../../classification_tab.rst:374
+msgid ""
+"if checked, in addition to the classification raster, for each spectral "
+"signature a raster is saved in the same output directory, which represents "
+"the distance between pixel and signature"
+msgstr ""
+"si está marcado, además del ráster de la clasificación, se generara un "
+"ráster para cada firma espectral en el mismo directorio de salida, el cual "
+"representa la distancia entre los valores espectrales de un pixel y la "
+"firma."
+
+#: ../../classification_tab.rst:216 ../../classification_tab.rst:252
+#: ../../classification_tab.rst:302 ../../classification_tab.rst:342
+#: ../../classification_tab.rst:377 ../../classification_tab.rst:413
+msgid ""
+"|checkbox| :guilabel:`Calculate classification confidence raster` |optional|"
+msgstr ""
+"|checkbox| :guilabel:`Calcular ráster de confiabilidad de la clasificación` "
+"|optional|"
+
+#: ../../classification_tab.rst:217 ../../classification_tab.rst:253
+#: ../../classification_tab.rst:303 ../../classification_tab.rst:343
+#: ../../classification_tab.rst:378 ../../classification_tab.rst:414
+msgid "if checked, calculate classification confidence raster"
+msgstr ""
+"si está marcado, se calculará el ráster de confiabilidad de la clasificación"
+
+#: ../../classification_tab.rst:223
+msgid "Minimum Distance"
+msgstr "Distancia mínima"
+
+#: ../../classification_tab.rst:229
+msgid ":guilabel:`Minimum Distance`"
+msgstr ":guilabel:`Distancia Mínima`"
+
+#: ../../classification_tab.rst:231
+msgid "Use the :ref:`minimum_distance_algorithm` algorithm."
+msgstr ""
+
+#: ../../classification_tab.rst:240
+msgid ""
+"if checked, it allows for the definition of a classification threshold "
+"(applied to all the spectral signatures); pixels are unclassified if "
+"distance is greater than threshold value"
+msgstr ""
+
+#: ../../classification_tab.rst:258
+msgid "Multi-layer Perceptron"
+msgstr ""
+
+#: ../../classification_tab.rst:264
+msgid ":guilabel:`Multi-layer Perceptron`"
+msgstr ""
+
+#: ../../classification_tab.rst:266
+msgid "Use the :ref:`multi_layer_perceptron_algorithm` algorithm."
+msgstr ""
+
+#: ../../classification_tab.rst:274
+msgid ":guilabel:`Use framework` |radiobutton| :guilabel:`scikit-learn`"
+msgstr ""
+
+#: ../../classification_tab.rst:275
+msgid ""
+"if checked, use scikit-learn framework (read `this <https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_classification.html>`_)"
+msgstr ""
+
+#: ../../classification_tab.rst:277
+msgid ":guilabel:`Use framework` |radiobutton| :guilabel:`PyTorch`"
+msgstr ""
+
+#: ../../classification_tab.rst:278
+msgid ""
+"if checked, use PyTorch framework (read `about this <https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_classification.html>`_)"
+msgstr ""
+
+#: ../../classification_tab.rst:280
+msgid ":guilabel:`Hidden layer sizes` |input_number|"
+msgstr ""
+
+#: ../../classification_tab.rst:281
+msgid ""
+"list of values separated by comma, where each value defines the number of "
+"neurons in a hidden layer (e.g.: 200, 100 for two hidden layers of 200 and "
+"100 neurons respectively)"
+msgstr ""
+
+#: ../../classification_tab.rst:284
+msgid ":guilabel:`Max iter` |input_number|"
+msgstr ""
+
+#: ../../classification_tab.rst:285
+msgid "set the maximum number of iterations"
+msgstr ""
+
+#: ../../classification_tab.rst:286
+msgid ":guilabel:`Activation` |input_text|"
+msgstr ""
+
+#: ../../classification_tab.rst:287
+msgid "set the activation function (default: relu)"
+msgstr ""
+
+#: ../../classification_tab.rst:288
+msgid ":guilabel:`Alpha` |input_number|"
+msgstr ""
+
+#: ../../classification_tab.rst:289
+msgid "set the weight decay (also L2 regularization term) for Adam optimizer"
+msgstr ""
+
+#: ../../classification_tab.rst:290
+msgid ":guilabel:`Training proportion` |input_number|"
+msgstr ""
+
+#: ../../classification_tab.rst:291
+msgid ""
+"set the proportion of data to be used as training and the remaining part as "
+"test"
+msgstr ""
+
+#: ../../classification_tab.rst:293
+msgid ":guilabel:`Batch size` |input_text|"
+msgstr ""
+
+#: ../../classification_tab.rst:294
+msgid ""
+"set the number of samples per batch for optimizer; if auto, the batch is the"
+" minimum value between 200 and the number of samples"
+msgstr ""
+
+#: ../../classification_tab.rst:296
+msgid ":guilabel:`Learning rate init` |input_number|"
+msgstr ""
+
+#: ../../classification_tab.rst:297
+msgid "set initial learning rate"
+msgstr ""
+
+#: ../../classification_tab.rst:298 ../../classification_tab.rst:335
+#: ../../classification_tab.rst:406
+msgid "|checkbox| :guilabel:`Cross validation` |optional|"
+msgstr ""
+
+#: ../../classification_tab.rst:299 ../../classification_tab.rst:336
+#: ../../classification_tab.rst:407
+msgid "if checked, perform cross validation"
+msgstr ""
+
+#: ../../classification_tab.rst:300 ../../classification_tab.rst:340
+#: ../../classification_tab.rst:411
+msgid "|checkbox| :guilabel:`Find best estimator with steps` |optional|"
+msgstr ""
+
+#: ../../classification_tab.rst:301 ../../classification_tab.rst:341
+#: ../../classification_tab.rst:412
+msgid "if checked, find the best estimator iteratively with a number of steps"
+msgstr ""
+
+#: ../../classification_tab.rst:308
+msgid "Random Forest"
+msgstr "Bosque Aleatorio"
+
+#: ../../classification_tab.rst:314
+msgid ":guilabel:`Random Forest`"
+msgstr ""
+
+#: ../../classification_tab.rst:316
+msgid "Use the :ref:`random_forest_definition` algorithm."
+msgstr ""
+
+#: ../../classification_tab.rst:324
+msgid ":guilabel:`Number of trees` |input_number|"
+msgstr ""
+
+#: ../../classification_tab.rst:325
+msgid "set the number of trees"
+msgstr ""
+
+#: ../../classification_tab.rst:326
+msgid ":guilabel:`Minimum number to split` |input_number|"
+msgstr ""
+
+#: ../../classification_tab.rst:327
+msgid "set the minimum number of samples required to split an internal node"
+msgstr ""
+
+#: ../../classification_tab.rst:328
+msgid ":guilabel:`Max features` |input_number| |optional|"
+msgstr ""
+
+#: ../../classification_tab.rst:329
+msgid ""
+"for node splitting, if empty all features are considered; if sqrt the square"
+" root of all the features, if integer number the number of features; if "
+"float number a fraction of all the features"
+msgstr ""
+
+#: ../../classification_tab.rst:332
+msgid "|checkbox| :guilabel:`One-Vs-Rest` |optional|"
+msgstr ""
+
+#: ../../classification_tab.rst:333
+msgid ""
+"if checked, perform One-Vs-Rest classification (read `more <https://scikit-"
+"learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_)"
+msgstr ""
+
+#: ../../classification_tab.rst:337 ../../classification_tab.rst:408
+msgid "|checkbox| :guilabel:`Balanced class weight` |optional|"
+msgstr ""
+
+#: ../../classification_tab.rst:338 ../../classification_tab.rst:409
+msgid ""
+"if checked, balanced weight is computed inversely proportional to class "
+"frequency"
+msgstr ""
+
+#: ../../classification_tab.rst:348
+msgid "Spectral Angle Mapping"
+msgstr "Mapeo del Angulo Espectral"
+
+#: ../../classification_tab.rst:354
+msgid ":guilabel:`Spectral Angle Mapping`"
+msgstr ""
+
+#: ../../classification_tab.rst:356
+msgid "Use the :ref:`spectra_angle_mapping_algorithm` algorithm."
+msgstr ""
+
+#: ../../classification_tab.rst:365
+msgid ""
+"if checked, it allows for the definition of a classification threshold "
+"(applied to all the spectral signatures); pixels are unclassified if "
+"spectral angle distance is greater than threshold value (max 90)"
+msgstr ""
+
+#: ../../classification_tab.rst:384
+msgid "Support Vector Machine"
+msgstr ""
+
+#: ../../classification_tab.rst:390
+msgid ":guilabel:`Support Vector Machine`"
+msgstr ""
+
+#: ../../classification_tab.rst:392
+msgid "Use the :ref:`support_vector_machine_definition` algorithm."
+msgstr ""
+
+#: ../../classification_tab.rst:400
+msgid ":guilabel:`Regularization parameter C` |input_number|"
+msgstr ""
+
+#: ../../classification_tab.rst:401
+msgid "set the regularization parameter C"
+msgstr ""
+
+#: ../../classification_tab.rst:402
+msgid ":guilabel:`Kernel` |input_text|"
+msgstr ""
+
+#: ../../classification_tab.rst:403
+msgid "set the kernel (default: rbf)"
+msgstr ""
+
+#: ../../classification_tab.rst:404
+msgid ":guilabel:`Gamma` |input_text|"
+msgstr ""
+
+#: ../../classification_tab.rst:405
+msgid "set the kernel coefficient gamma (default: scale)"
+msgstr ""
+
+#: ../../classification_tab.rst:419
+msgid "Run"
+msgstr "Ejecutar"
+
+#: ../../classification_tab.rst:421
+msgid ""
+"It is possible to run the classification, or save and load a trained "
+"classifier."
+msgstr ""
+
+#: ../../classification_tab.rst:424
+msgid ""
+"Classification raster is a file ``.tif`` (a QGIS style file ``.qml`` is "
+"saved along with the classification); also other outputs can be optionally "
+"calculated. Outputs are loaded in QGIS after the calculation."
+msgstr ""
+"El ráster de clasificación es un archivo `` .tif '' (un archivo de estilo "
+"QGIS `` .qml '' se guarda junto con la clasificación); también se pueden "
+"calcular opcionalmente otras salidas. Las salidas se cargan en QGIS después "
+"del cálculo."
+
+#: ../../classification_tab.rst:435
+msgid ":guilabel:`Load classifier` |open_file|"
+msgstr ""
+
+#: ../../classification_tab.rst:436
+msgid "open an already save classifier file (.rsmo)"
+msgstr ""
+
+#: ../../classification_tab.rst:437
+msgid ":guilabel:`Save classifier` |export|"
+msgstr ""
+
+#: ../../classification_tab.rst:438
+msgid "save the classifier to file (.rsmo), in order to be loaded later"
+msgstr ""
+
+#: ../../classification_tab.rst:439
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`EJECUTAR` |run|"
+
+#: ../../classification_tab.rst:440
+msgid "run this function"
+msgstr "ejecutar esta función"

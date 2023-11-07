@@ -566,7 +566,7 @@ msgstr "si está marcado, se llevará acabo una validación cruzada"
 #: ../../classification_tab.rst:411
 msgid "|checkbox| :guilabel:`Find best estimator with steps` |optional|"
 msgstr ""
-"|checkbox| :guilabel:`Encontran el mejor estimador con pasos` |optional|"
+"|checkbox| :guilabel:`Encontrar el mejor estimador en pasos` |optional|"
 
 #: ../../classification_tab.rst:301 ../../classification_tab.rst:341
 #: ../../classification_tab.rst:412

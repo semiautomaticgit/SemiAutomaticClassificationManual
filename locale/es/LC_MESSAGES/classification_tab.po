@@ -512,7 +512,7 @@ msgstr "define la función de activación (por defecto: relu)"
 
 #: ../../classification_tab.rst:288
 msgid ":guilabel:`Alpha` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Alpha` |input_number|"
 
 #: ../../classification_tab.rst:289
 msgid "set the weight decay (also L2 regularization term) for Adam optimizer"

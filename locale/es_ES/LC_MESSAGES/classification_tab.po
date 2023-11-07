@@ -470,7 +470,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:277
 msgid ":guilabel:`Use framework` |radiobutton| :guilabel:`PyTorch`"
-msgstr ""
+msgstr ":guilabel:`Usa el framework` |radiobutton| :guilabel:`PyTorch`"
 
 #: ../../classification_tab.rst:278
 msgid ""

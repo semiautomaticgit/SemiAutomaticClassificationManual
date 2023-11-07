@@ -518,10 +518,12 @@ msgstr ":guilabel:`Alpha` |input_number|"
 #: ../../classification_tab.rst:289
 msgid "set the weight decay (also L2 regularization term) for Adam optimizer"
 msgstr ""
+"define el decaimiento de pesos (también el término de regularización L2) "
+"para el optimizador Adam"
 
 #: ../../classification_tab.rst:290
 msgid ":guilabel:`Training proportion` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Proporción de entrenamiento` |input_number|"
 
 #: ../../classification_tab.rst:291
 msgid ""

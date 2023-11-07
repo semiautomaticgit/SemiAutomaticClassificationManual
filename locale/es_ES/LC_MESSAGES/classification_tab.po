@@ -577,7 +577,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:308
 msgid "Random Forest"
-msgstr "Bosque Aleatorio"
+msgstr "Árboles Aleatorios"
 
 #: ../../classification_tab.rst:314
 msgid ":guilabel:`Random Forest`"

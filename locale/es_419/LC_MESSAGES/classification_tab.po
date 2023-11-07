@@ -547,7 +547,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:296
 msgid ":guilabel:`Learning rate init` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Tasa de aprendizaje inicial` |input_number|"
 
 #: ../../classification_tab.rst:297
 msgid "set initial learning rate"

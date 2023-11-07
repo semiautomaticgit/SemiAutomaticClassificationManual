@@ -566,11 +566,14 @@ msgstr "si está marcado, se llevará acabo una validación cruzada"
 #: ../../classification_tab.rst:411
 msgid "|checkbox| :guilabel:`Find best estimator with steps` |optional|"
 msgstr ""
+"|checkbox| :guilabel:`Encontrar el mejor estimador en pasos` |optional|"
 
 #: ../../classification_tab.rst:301 ../../classification_tab.rst:341
 #: ../../classification_tab.rst:412
 msgid "if checked, find the best estimator iteratively with a number of steps"
 msgstr ""
+"si está marcado, eneuntra el mejor estimador iterativamente usando un número"
+" de pasos"
 
 #: ../../classification_tab.rst:308
 msgid "Random Forest"

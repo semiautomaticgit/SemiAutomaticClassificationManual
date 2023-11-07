@@ -496,7 +496,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:284
 msgid ":guilabel:`Max iter` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Iter. Max.` |input_number|"
 
 #: ../../classification_tab.rst:285
 msgid "set the maximum number of iterations"

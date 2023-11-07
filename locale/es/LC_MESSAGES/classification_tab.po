@@ -550,12 +550,12 @@ msgstr ":guilabel:`Tasa de aprendizaje inicial` |input_number|"
 
 #: ../../classification_tab.rst:297
 msgid "set initial learning rate"
-msgstr ""
+msgstr "define la tasa de aprendizaje inicial"
 
 #: ../../classification_tab.rst:298 ../../classification_tab.rst:335
 #: ../../classification_tab.rst:406
 msgid "|checkbox| :guilabel:`Cross validation` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Validación cruzada` |optional|"
 
 #: ../../classification_tab.rst:299 ../../classification_tab.rst:336
 #: ../../classification_tab.rst:407

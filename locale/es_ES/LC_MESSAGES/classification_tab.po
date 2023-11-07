@@ -585,7 +585,7 @@ msgstr ":guilabel:`Bosque aleatorio"
 
 #: ../../classification_tab.rst:316
 msgid "Use the :ref:`random_forest_definition` algorithm."
-msgstr ""
+msgstr "Usar el algoritmo :ref:`random_forest_definition` "
 
 #: ../../classification_tab.rst:324
 msgid ":guilabel:`Number of trees` |input_number|"

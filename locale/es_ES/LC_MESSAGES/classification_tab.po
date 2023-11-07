@@ -589,7 +589,7 @@ msgstr "Usar el algoritmo :ref:`random_forest_definition` "
 
 #: ../../classification_tab.rst:324
 msgid ":guilabel:`Number of trees` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Número de árboles` |input_number|"
 
 #: ../../classification_tab.rst:325
 msgid "set the number of trees"

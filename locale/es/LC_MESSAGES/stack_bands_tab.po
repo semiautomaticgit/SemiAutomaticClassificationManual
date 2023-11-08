@@ -96,7 +96,7 @@ msgstr "descargar"
 
 #: ../../stack_bands_tab.rst:59
 msgid "sign_plot"
-msgstr ""
+msgstr "sign_plot"
 
 #: ../../stack_bands_tab.rst:62
 msgid "tools"
@@ -128,15 +128,15 @@ msgstr "herramienta_script"
 
 #: ../../stack_bands_tab.rst:83
 msgid "save_roi"
-msgstr ""
+msgstr "save_roi"
 
 #: ../../stack_bands_tab.rst:86
 msgid "delete_signature"
-msgstr ""
+msgstr "delete_signature"
 
 #: ../../stack_bands_tab.rst:89
 msgid "accuracy_tool"
-msgstr ""
+msgstr "accuracy_tool"
 
 #: ../../stack_bands_tab.rst:92
 msgid "enter"
@@ -164,11 +164,11 @@ msgstr "agregar herramienta de signo"
 
 #: ../../stack_bands_tab.rst:110
 msgid "scatter_plot"
-msgstr ""
+msgstr "scatter_plot"
 
 #: ../../stack_bands_tab.rst:113
 msgid "merge_sign"
-msgstr ""
+msgstr "merge_sign"
 
 #: ../../stack_bands_tab.rst:116
 msgid "guide"

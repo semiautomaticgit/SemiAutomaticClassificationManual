@@ -369,14 +369,16 @@ msgid ""
 "if checked, use a :ref:`temporary_ROI` for clipping; UL and LR coordinates "
 "are ignored"
 msgstr ""
+"si está marcado, usar una :ref:`temporary_ROI` para recortar; las "
+"coordenadas SI e ID serán ignoradas"
 
 #: ../../clip_raster_bands_tab.rst:209
 msgid "|reload|"
-msgstr "|recarga|"
+msgstr "|reload|"
 
 #: ../../clip_raster_bands_tab.rst:210
 msgid "refresh layer list"
-msgstr "refresca la lista de capas"
+msgstr "actualizar la lista de capas"
 
 #: ../../clip_raster_bands_tab.rst:211
 msgid ":guilabel:`Script` |script_tool|"

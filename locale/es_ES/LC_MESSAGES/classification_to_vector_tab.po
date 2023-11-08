@@ -228,7 +228,7 @@ msgstr "|reload|"
 
 #: ../../classification_to_vector_tab.rst:152
 msgid "refresh layer list"
-msgstr "refresca la lista de capas"
+msgstr "actualiza la lista de capas"
 
 #: ../../classification_to_vector_tab.rst:158
 msgid "Symbology"

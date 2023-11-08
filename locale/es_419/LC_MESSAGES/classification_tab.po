@@ -736,7 +736,7 @@ msgstr "abrir un archivo de clasificador previamente guardado (.rsmo)"
 
 #: ../../classification_tab.rst:437
 msgid ":guilabel:`Save classifier` |export|"
-msgstr ""
+msgstr ":guilabel:`Guardar clasificador` |export|"
 
 #: ../../classification_tab.rst:438
 msgid "save the classifier to file (.rsmo), in order to be loaded later"

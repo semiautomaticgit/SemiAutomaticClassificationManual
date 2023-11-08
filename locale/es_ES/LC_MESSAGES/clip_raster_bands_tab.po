@@ -329,6 +329,9 @@ msgid ""
 "UL point and right click to set the LR point; the area is displayed in the "
 "map"
 msgstr ""
+"define el área de recorte dibujándola en el mapa; click izquierdo para "
+"definir la esquina SI y click derecho para definir la esquina ID; el área se"
+" muestra en el mapa"
 
 #: ../../clip_raster_bands_tab.rst:199
 msgid "|radiobutton| :guilabel:`Use vector for clipping` |input_list|"

@@ -6,7 +6,6 @@
 # 
 # Translators:
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
-# Marlon Castillo <marloncastillo286@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
 #, fuzzy
@@ -152,15 +151,15 @@ msgstr "help"
 
 #: ../../classification_to_vector_tab.rst:101
 msgid "reload"
-msgstr "recargar"
+msgstr "reload"
 
 #: ../../classification_to_vector_tab.rst:104
 msgid "checkbox"
-msgstr "casilla de confirmación"
+msgstr "checkbox"
 
 #: ../../classification_to_vector_tab.rst:107
 msgid "run"
-msgstr "ejecutar"
+msgstr "run"
 
 #: ../../classification_to_vector_tab.rst:110
 msgid "radiobutton"

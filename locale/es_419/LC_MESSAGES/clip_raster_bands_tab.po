@@ -348,6 +348,8 @@ msgstr ""
 #: ../../clip_raster_bands_tab.rst:202
 msgid "|checkbox| :guilabel:`Use vector field for output name` |input_list|"
 msgstr ""
+"|checkbox| :guilabel:`Usar un campo del vector para el nombre de salida` "
+"|input_list|"
 
 #: ../../clip_raster_bands_tab.rst:203
 msgid ""
@@ -355,16 +357,20 @@ msgid ""
 "each vector polygon and the corresponding field value is added to the output"
 " name"
 msgstr ""
+"si está marcado, se selecciona un campo del vector para iterar sobre cada "
+"polígono y el valor del campo correspondiente es añadido al nombre de salida"
 
 #: ../../clip_raster_bands_tab.rst:206
 msgid "|radiobutton| :guilabel:`Use temporary ROI for clipping`"
-msgstr ""
+msgstr "|radiobutton| :guilabel:`Usar una RDI temporal para recortar`"
 
 #: ../../clip_raster_bands_tab.rst:207
 msgid ""
 "if checked, use a :ref:`temporary_ROI` for clipping; UL and LR coordinates "
 "are ignored"
 msgstr ""
+"si está marcado, usar el vector seleccionado (ya cargado en QGIS) para "
+"recortar; las coordenadas SI e ID serán ignoradas"
 
 #: ../../clip_raster_bands_tab.rst:209
 msgid "|reload|"

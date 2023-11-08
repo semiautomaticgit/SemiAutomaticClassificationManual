@@ -628,10 +628,13 @@ msgid ""
 "if checked, perform One-Vs-Rest classification (read `more <https://scikit-"
 "learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_)"
 msgstr ""
+"si está marcado, realizar una clasificación Uno-Vs-Resto (leer `mas "
+"<https://scikit-"
+"learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_)"
 
 #: ../../classification_tab.rst:337 ../../classification_tab.rst:408
 msgid "|checkbox| :guilabel:`Balanced class weight` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Balanceo de pesos de clases` |optional|"
 
 #: ../../classification_tab.rst:338 ../../classification_tab.rst:409
 msgid ""

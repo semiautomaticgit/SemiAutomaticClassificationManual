@@ -64,15 +64,15 @@ msgstr "input_table"
 
 #: ../../classification_to_vector_tab.rst:35
 msgid "open_file"
-msgstr "abrir archivo"
+msgstr "open_file"
 
 #: ../../classification_to_vector_tab.rst:38
 msgid "new_file"
-msgstr "nuevo archivo"
+msgstr "new_file"
 
 #: ../../classification_to_vector_tab.rst:41
 msgid "add"
-msgstr "agregar"
+msgstr "add"
 
 #: ../../classification_to_vector_tab.rst:44
 msgid "reset"

@@ -646,7 +646,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:348
 msgid "Spectral Angle Mapping"
-msgstr "Mapeo del Angulo Espectral"
+msgstr "Mapeo de Angulo Espectral"
 
 #: ../../classification_tab.rst:354
 msgid ":guilabel:`Spectral Angle Mapping`"

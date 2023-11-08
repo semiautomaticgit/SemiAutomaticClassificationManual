@@ -700,7 +700,7 @@ msgstr ":guilabel:`Gamma` |input_text|"
 
 #: ../../classification_tab.rst:405
 msgid "set the kernel coefficient gamma (default: scale)"
-msgstr ""
+msgstr "define el coeficiente gamma del kernel (por defecto: escala)"
 
 #: ../../classification_tab.rst:419
 msgid "Run"

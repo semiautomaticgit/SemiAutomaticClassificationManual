@@ -692,11 +692,11 @@ msgstr ":guilabel:`Kernel` |input_text|"
 
 #: ../../classification_tab.rst:403
 msgid "set the kernel (default: rbf)"
-msgstr ""
+msgstr "define el kernel (por defecto: rbf)"
 
 #: ../../classification_tab.rst:404
 msgid ":guilabel:`Gamma` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Gamma` |input_text|"
 
 #: ../../classification_tab.rst:405
 msgid "set the kernel coefficient gamma (default: scale)"

@@ -680,11 +680,11 @@ msgstr "Usa el algoritmo de :ref:`support_vector_machine_definition`."
 
 #: ../../classification_tab.rst:400
 msgid ":guilabel:`Regularization parameter C` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Parámetro de Regularización C` |input_number|"
 
 #: ../../classification_tab.rst:401
 msgid "set the regularization parameter C"
-msgstr ""
+msgstr "define el parámetro de regularización C"
 
 #: ../../classification_tab.rst:402
 msgid ":guilabel:`Kernel` |input_text|"

@@ -218,11 +218,11 @@ msgstr ""
 
 #: ../../clip_raster_bands_tab.rst:151
 msgid "Clip band set"
-msgstr "Cortar conjunto de bandas"
+msgstr "Recortar conjunto de bandas"
 
 #: ../../clip_raster_bands_tab.rst:157 ../../clip_raster_bands_tab.rst:181
 msgid "Tool symbol and name"
-msgstr "Símbolo de la herramienta y nombre"
+msgstr "Símbolo y nombre de la herramienta"
 
 #: ../../clip_raster_bands_tab.rst:158 ../../clip_raster_bands_tab.rst:182
 msgid "Description"

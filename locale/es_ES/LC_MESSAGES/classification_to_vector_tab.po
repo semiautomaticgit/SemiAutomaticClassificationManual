@@ -163,11 +163,11 @@ msgstr "run"
 
 #: ../../classification_to_vector_tab.rst:110
 msgid "radiobutton"
-msgstr "botón de radio"
+msgstr "radiobutton"
 
 #: ../../classification_to_vector_tab.rst:113
 msgid "pointer"
-msgstr "puntero"
+msgstr "pointer"
 
 #: ../../classification_to_vector_tab.rst:116
 msgid "threshold_tool"

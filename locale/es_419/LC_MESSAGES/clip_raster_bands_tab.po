@@ -289,39 +289,39 @@ msgstr "define las coordenada X de la esquina SI"
 
 #: ../../clip_raster_bands_tab.rst:187
 msgid ":guilabel:`UL Y` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Y SI` |input_number|"
 
 #: ../../clip_raster_bands_tab.rst:188
 msgid "set the UL Y coordinate"
-msgstr ""
+msgstr "define la coordenadaY de la esquina SI"
 
 #: ../../clip_raster_bands_tab.rst:189
 msgid ":guilabel:`LR X` |input_number|"
-msgstr ""
+msgstr ":guilabel:`X ID` |input_number|"
 
 #: ../../clip_raster_bands_tab.rst:190
 msgid "set the LR X coordinate"
-msgstr ""
+msgstr "define la coordenada X de la esquina ID"
 
 #: ../../clip_raster_bands_tab.rst:191
 msgid ":guilabel:`LR Y` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Y ID` |input_number|"
 
 #: ../../clip_raster_bands_tab.rst:192
 msgid "set the LR Y coordinate"
-msgstr ""
+msgstr "define la coordenada Y de la esquina ID"
 
 #: ../../clip_raster_bands_tab.rst:193
 msgid "|radiobutton| :guilabel:`Show`"
-msgstr ""
+msgstr "|radiobutton| :guilabel:`Mostrar`"
 
 #: ../../clip_raster_bands_tab.rst:194
 msgid "show or hide the clip area drawn in the map"
-msgstr ""
+msgstr "mostrar o ocultar el área de recorte en el mapa"
 
 #: ../../clip_raster_bands_tab.rst:195
 msgid "|pointer|"
-msgstr ""
+msgstr "|pointer|"
 
 #: ../../clip_raster_bands_tab.rst:196
 msgid ""
@@ -329,16 +329,21 @@ msgid ""
 "UL point and right click to set the LR point; the area is displayed in the "
 "map"
 msgstr ""
+"define el área de recorte dibujándola en el mapa; click izquierdo para "
+"definir la esquina SI y click derecho para definir la esquina ID; el área se"
+" muestra en el mapa"
 
 #: ../../clip_raster_bands_tab.rst:199
 msgid "|radiobutton| :guilabel:`Use vector for clipping` |input_list|"
-msgstr ""
+msgstr "|radiobutton| :guilabel:`Usar un vector para recortar` |input_list|"
 
 #: ../../clip_raster_bands_tab.rst:200
 msgid ""
 "if checked, use the selected vector (already loaded in QGIS) for clipping; "
 "UL and LR coordinates are ignored"
 msgstr ""
+"si está marcada, usar el vector seleccionado (ya cargado en QGIS) para "
+"recortar; las coordenadas SI e ID serán ignoradas"
 
 #: ../../clip_raster_bands_tab.rst:202
 msgid "|checkbox| :guilabel:`Use vector field for output name` |input_list|"

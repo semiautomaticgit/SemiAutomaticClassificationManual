@@ -621,13 +621,16 @@ msgstr ""
 
 #: ../../classification_tab.rst:332
 msgid "|checkbox| :guilabel:`One-Vs-Rest` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Uno-Vs-Resto` |optional|"
 
 #: ../../classification_tab.rst:333
 msgid ""
 "if checked, perform One-Vs-Rest classification (read `more <https://scikit-"
 "learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_)"
 msgstr ""
+"si está marcado, realizar una clasificación Uno-Vs-Resto (leer `mas "
+"<https://scikit-"
+"learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_)"
 
 #: ../../classification_tab.rst:337 ../../classification_tab.rst:408
 msgid "|checkbox| :guilabel:`Balanced class weight` |optional|"

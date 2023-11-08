@@ -176,7 +176,7 @@ msgstr "herramienta de umbral"
 
 #: ../../cross_classification_tab.rst:124
 msgid ":guilabel:`Cross classification`"
-msgstr ""
+msgstr ":guilabel:`Clasificación cruzada`"
 
 #: ../../cross_classification_tab.rst:126
 msgid ""

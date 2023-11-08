@@ -293,7 +293,7 @@ msgstr ":guilabel:`Y SI` |input_number|"
 
 #: ../../clip_raster_bands_tab.rst:188
 msgid "set the UL Y coordinate"
-msgstr "define la coordenadaY de la esquina SI"
+msgstr "define la coordenada Y de la esquina SI"
 
 #: ../../clip_raster_bands_tab.rst:189
 msgid ":guilabel:`LR X` |input_number|"
@@ -301,19 +301,19 @@ msgstr ":guilabel:`X ID` |input_number|"
 
 #: ../../clip_raster_bands_tab.rst:190
 msgid "set the LR X coordinate"
-msgstr ""
+msgstr "define la coordenada X de la esquina ID"
 
 #: ../../clip_raster_bands_tab.rst:191
 msgid ":guilabel:`LR Y` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Y ID` |input_number|"
 
 #: ../../clip_raster_bands_tab.rst:192
 msgid "set the LR Y coordinate"
-msgstr ""
+msgstr "define la coordenada Y de la esquina ID"
 
 #: ../../clip_raster_bands_tab.rst:193
 msgid "|radiobutton| :guilabel:`Show`"
-msgstr ""
+msgstr "|radiobutton| :guilabel:`Mostrar`"
 
 #: ../../clip_raster_bands_tab.rst:194
 msgid "show or hide the clip area drawn in the map"

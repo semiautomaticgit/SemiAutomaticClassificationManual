@@ -246,14 +246,16 @@ msgid ""
 "if checked, set the value for ``NoData`` pixels (e.g. pixels outside the "
 "clipped area)"
 msgstr ""
+"si está marcado, define el valor para los píxeles `Sin datos` (e.g. píxeles "
+"fuera del area recortada)"
 
 #: ../../clip_raster_bands_tab.rst:164
 msgid ":guilabel:`Output name prefix` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Prefijo del nombre del archivo de salida` |input_text|"
 
 #: ../../clip_raster_bands_tab.rst:165
 msgid "set the prefix for output file names (default is ``clip``)"
-msgstr ""
+msgstr "define el prefijo de los archivos de salida (por defecto es ``clip``)"
 
 #: ../../clip_raster_bands_tab.rst:171
 msgid "Clip coordinates"

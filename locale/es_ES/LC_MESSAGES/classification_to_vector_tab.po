@@ -252,7 +252,7 @@ msgstr ""
 
 #: ../../classification_to_vector_tab.rst:171
 msgid "|checkbox| :guilabel:`Dissolve output` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Disolver el resultado` |optional|"
 
 #: ../../classification_to_vector_tab.rst:172
 msgid "if checked, dissolve adjacent polygons having the same values"

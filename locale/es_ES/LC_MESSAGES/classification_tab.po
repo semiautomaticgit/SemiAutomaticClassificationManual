@@ -672,11 +672,11 @@ msgstr "Máquinas de Soporte de Vectores"
 
 #: ../../classification_tab.rst:390
 msgid ":guilabel:`Support Vector Machine`"
-msgstr ""
+msgstr ":guilabel:`Máquinas de Soporte de Vectores`"
 
 #: ../../classification_tab.rst:392
 msgid "Use the :ref:`support_vector_machine_definition` algorithm."
-msgstr ""
+msgstr "Usa el algoritmo de :ref:`support_vector_machine_definition`."
 
 #: ../../classification_tab.rst:400
 msgid ":guilabel:`Regularization parameter C` |input_number|"

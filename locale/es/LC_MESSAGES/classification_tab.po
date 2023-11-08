@@ -662,6 +662,9 @@ msgid ""
 "(applied to all the spectral signatures); pixels are unclassified if "
 "spectral angle distance is greater than threshold value (max 90)"
 msgstr ""
+"si está marcado, permite definir el umbral para la clasificación (aplicado a"
+" las firmas espectrales); los píxeles no son clasificados si la distancia "
+"angular espectral es superior al umbra (máx. 90)"
 
 #: ../../classification_tab.rst:384
 msgid "Support Vector Machine"

@@ -127,15 +127,15 @@ msgstr "herramienta_script"
 
 #: ../../reproject_bands_tab.rst:83
 msgid "save_roi"
-msgstr ""
+msgstr "save_roi"
 
 #: ../../reproject_bands_tab.rst:86
 msgid "delete_signature"
-msgstr ""
+msgstr "delete_signature"
 
 #: ../../reproject_bands_tab.rst:89
 msgid "accuracy_tool"
-msgstr ""
+msgstr "accuracy_tool"
 
 #: ../../reproject_bands_tab.rst:92
 msgid "enter"
@@ -163,11 +163,11 @@ msgstr "agregar herramienta de signo"
 
 #: ../../reproject_bands_tab.rst:110
 msgid "scatter_plot"
-msgstr ""
+msgstr "scatter_plot"
 
 #: ../../reproject_bands_tab.rst:113
 msgid "merge_sign"
-msgstr ""
+msgstr "merge_sign"
 
 #: ../../reproject_bands_tab.rst:116
 msgid "guide"
@@ -326,7 +326,7 @@ msgstr ""
 
 #: ../../reproject_bands_tab.rst:191
 msgid ":guilabel:`Output name prefix` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Prefijo del nombre del archivo de salida` |input_text|"
 
 #: ../../reproject_bands_tab.rst:192
 msgid "set the prefix for output file names (default is ``reproj``)"

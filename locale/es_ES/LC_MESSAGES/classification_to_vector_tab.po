@@ -76,43 +76,43 @@ msgstr "add"
 
 #: ../../classification_to_vector_tab.rst:44
 msgid "reset"
-msgstr "reiniciar"
+msgstr "reset"
 
 #: ../../classification_to_vector_tab.rst:47
 msgid "bandset_tool"
-msgstr "Herramienta de conjunto de bandas"
+msgstr "bandset_tool"
 
 #: ../../classification_to_vector_tab.rst:50
 msgid "download"
-msgstr "descargar"
+msgstr "download"
 
 #: ../../classification_to_vector_tab.rst:53
 msgid "export"
-msgstr "exportar"
+msgstr "export"
 
 #: ../../classification_to_vector_tab.rst:56
 msgid "tools"
-msgstr "herramientas"
+msgstr "tools"
 
 #: ../../classification_to_vector_tab.rst:59
 msgid "preprocessing"
-msgstr "preprocesamiento"
+msgstr "preprocessing"
 
 #: ../../classification_to_vector_tab.rst:62
 msgid "band_processing"
-msgstr "procesamiento_banda"
+msgstr "band_processing"
 
 #: ../../classification_to_vector_tab.rst:65
 msgid "postprocessing"
-msgstr "postprocesamiento"
+msgstr "postprocessing"
 
 #: ../../classification_to_vector_tab.rst:68
 msgid "bandcalc"
-msgstr "calc de banda"
+msgstr "bandcalc"
 
 #: ../../classification_to_vector_tab.rst:71
 msgid "settings"
-msgstr "ajustes"
+msgstr "settings"
 
 #: ../../classification_to_vector_tab.rst:74
 msgid "script_tool"

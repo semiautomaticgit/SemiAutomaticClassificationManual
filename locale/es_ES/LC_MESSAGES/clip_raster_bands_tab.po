@@ -342,10 +342,14 @@ msgid ""
 "if checked, use the selected vector (already loaded in QGIS) for clipping; "
 "UL and LR coordinates are ignored"
 msgstr ""
+"si está marcada, usar el vector seleccionado (ya cargado en QGIS) para "
+"recortar; las coordenadas SI e ID serán ignoradas"
 
 #: ../../clip_raster_bands_tab.rst:202
 msgid "|checkbox| :guilabel:`Use vector field for output name` |input_list|"
 msgstr ""
+"|checkbox| :guilabel:`Usar un campo del vector para el nombre de salida` "
+"|input_list|"
 
 #: ../../clip_raster_bands_tab.rst:203
 msgid ""

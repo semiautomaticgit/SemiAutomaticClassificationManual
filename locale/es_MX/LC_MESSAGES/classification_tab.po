@@ -606,7 +606,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:328
 msgid ":guilabel:`Max features` |input_number| |optional|"
-msgstr ""
+msgstr ":guilabel:`Objetos máximos` |input_number| |optional|"
 
 #: ../../classification_tab.rst:329
 msgid ""

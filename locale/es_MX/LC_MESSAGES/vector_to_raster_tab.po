@@ -334,7 +334,7 @@ msgstr ""
 
 #: ../../vector_to_raster_tab.rst:192
 msgid "|checkbox| :guilabel:`Use value as NoData` |input_number|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Usar el valor como Sin Datos` |input_number|"
 
 #: ../../vector_to_raster_tab.rst:193
 msgid "if checked, set a value for ``NoData`` pixels"

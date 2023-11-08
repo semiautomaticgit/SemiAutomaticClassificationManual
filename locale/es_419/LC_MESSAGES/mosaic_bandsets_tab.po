@@ -262,7 +262,7 @@ msgstr ""
 
 #: ../../mosaic_bandsets_tab.rst:181
 msgid ":guilabel:`Output name prefix` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Prefijo del nombre del archivo de salida` |input_text|"
 
 #: ../../mosaic_bandsets_tab.rst:182
 msgid "set the prefix for output file names (default is ``mosaic``)"

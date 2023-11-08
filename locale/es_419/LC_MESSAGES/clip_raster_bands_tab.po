@@ -1,0 +1,384 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"PO-Revision-Date: 2023-10-24 15:44+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (Latin America) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_419/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../clip_raster_bands_tab.rst:5
+msgid "Clip raster bands"
+msgstr "Recortar bandas ráster"
+
+#: ../../clip_raster_bands_tab.rst:12
+msgid "registry_save"
+msgstr "registro_guardar"
+
+#: ../../clip_raster_bands_tab.rst:15
+msgid "project_save"
+msgstr "guardar_proyecto"
+
+#: ../../clip_raster_bands_tab.rst:18
+msgid "optional"
+msgstr "opcional"
+
+#: ../../clip_raster_bands_tab.rst:21
+msgid "input_list"
+msgstr "lista_entrada"
+
+#: ../../clip_raster_bands_tab.rst:24
+msgid "input_text"
+msgstr "texto de entrada"
+
+#: ../../clip_raster_bands_tab.rst:27
+msgid "input_date"
+msgstr "fecha_entrada"
+
+#: ../../clip_raster_bands_tab.rst:30
+msgid "input_number"
+msgstr "número de entrada"
+
+#: ../../clip_raster_bands_tab.rst:33
+msgid "input_table"
+msgstr "tabla_entrada"
+
+#: ../../clip_raster_bands_tab.rst:36
+msgid "open_file"
+msgstr "abrir archivo"
+
+#: ../../clip_raster_bands_tab.rst:39
+msgid "new_file"
+msgstr "nuevo archivo"
+
+#: ../../clip_raster_bands_tab.rst:42
+msgid "add"
+msgstr "agregar"
+
+#: ../../clip_raster_bands_tab.rst:45
+msgid "reset"
+msgstr "reiniciar"
+
+#: ../../clip_raster_bands_tab.rst:48
+msgid "bandset_tool"
+msgstr "Herramienta de conjunto de bandas"
+
+#: ../../clip_raster_bands_tab.rst:51
+msgid "download"
+msgstr "descargar"
+
+#: ../../clip_raster_bands_tab.rst:54
+msgid "sign_plot"
+msgstr "sign_plot"
+
+#: ../../clip_raster_bands_tab.rst:57
+msgid "tools"
+msgstr "herramientas"
+
+#: ../../clip_raster_bands_tab.rst:60
+msgid "preprocessing"
+msgstr "preprocesamiento"
+
+#: ../../clip_raster_bands_tab.rst:63
+msgid "band_processing"
+msgstr "procesamiento_banda"
+
+#: ../../clip_raster_bands_tab.rst:66
+msgid "postprocessing"
+msgstr "postprocesamiento"
+
+#: ../../clip_raster_bands_tab.rst:69
+msgid "bandcalc"
+msgstr "calc de banda"
+
+#: ../../clip_raster_bands_tab.rst:72
+msgid "settings"
+msgstr "ajustes"
+
+#: ../../clip_raster_bands_tab.rst:75
+msgid "script_tool"
+msgstr "herramienta_script"
+
+#: ../../clip_raster_bands_tab.rst:78
+msgid "save_roi"
+msgstr "save_roi"
+
+#: ../../clip_raster_bands_tab.rst:81
+msgid "delete_signature"
+msgstr "delete_signature"
+
+#: ../../clip_raster_bands_tab.rst:84
+msgid "accuracy_tool"
+msgstr "accuracy_tool"
+
+#: ../../clip_raster_bands_tab.rst:87
+msgid "enter"
+msgstr "ingresar"
+
+#: ../../clip_raster_bands_tab.rst:90
+msgid "zoom_to_ROI"
+msgstr "Hacer zoom al área de interés"
+
+#: ../../clip_raster_bands_tab.rst:93
+msgid "check"
+msgstr "controlar"
+
+#: ../../clip_raster_bands_tab.rst:96
+msgid "select_all"
+msgstr "seleccionar todo"
+
+#: ../../clip_raster_bands_tab.rst:99
+msgid "docks"
+msgstr "paneles"
+
+#: ../../clip_raster_bands_tab.rst:102
+msgid "add_sign_tool"
+msgstr "agregar herramienta de signo"
+
+#: ../../clip_raster_bands_tab.rst:105
+msgid "scatter_plot"
+msgstr "scatter_plot"
+
+#: ../../clip_raster_bands_tab.rst:108
+msgid "merge_sign"
+msgstr "merge_sign"
+
+#: ../../clip_raster_bands_tab.rst:111
+msgid "guide"
+msgstr "guía"
+
+#: ../../clip_raster_bands_tab.rst:114
+msgid "help"
+msgstr "ayuda"
+
+#: ../../clip_raster_bands_tab.rst:117
+msgid "reload"
+msgstr "recargar"
+
+#: ../../clip_raster_bands_tab.rst:120
+msgid "checkbox"
+msgstr "casilla de confirmación"
+
+#: ../../clip_raster_bands_tab.rst:123
+msgid "run"
+msgstr "ejecutar"
+
+#: ../../clip_raster_bands_tab.rst:126
+msgid "radiobutton"
+msgstr "botón de radio"
+
+#: ../../clip_raster_bands_tab.rst:129
+msgid "pointer"
+msgstr "puntero"
+
+#: ../../clip_raster_bands_tab.rst:132
+msgid "clip_tool"
+msgstr "clip_tool"
+
+#: ../../clip_raster_bands_tab.rst:139
+msgid ":guilabel:`Clip multiple rasters`"
+msgstr ":guilabel:`Recortar varios rásteres`"
+
+#: ../../clip_raster_bands_tab.rst:141
+msgid ""
+"This tab allows for cutting several image bands at once, using a rectangle "
+"defined with point coordinates or a boundary defined with a vector."
+msgstr ""
+"Esta pestaña permite cortar varias bandas de la  imagen a la vez, utilizando"
+" un rectángulo definido con coordenadas de puntos o un límite definido con "
+"un vector."
+
+#: ../../clip_raster_bands_tab.rst:145
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_clip.html>`_ ."
+msgstr ""
+"Información sobre las APIs de esta herramienta de Remotior Sensus en este "
+"`enlace <https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_clip.html>`_ ."
+
+#: ../../clip_raster_bands_tab.rst:151
+msgid "Clip band set"
+msgstr "Cortar conjunto de bandas"
+
+#: ../../clip_raster_bands_tab.rst:157 ../../clip_raster_bands_tab.rst:181
+msgid "Tool symbol and name"
+msgstr "Símbolo de la herramienta y nombre"
+
+#: ../../clip_raster_bands_tab.rst:158 ../../clip_raster_bands_tab.rst:182
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../clip_raster_bands_tab.rst:159
+msgid ":guilabel:`Select input band set` |input_number|"
+msgstr ""
+":guilabel:`Seleccionar el conjunto de bandas de entrada` |input_number|"
+
+#: ../../clip_raster_bands_tab.rst:160
+msgid "select the input :ref:`band_set_tab` to be clipped"
+msgstr "selecciona el :ref:`band_set_tab` a recortar"
+
+#: ../../clip_raster_bands_tab.rst:161
+msgid "|checkbox| :guilabel:`Use value as NoData` |input_number|"
+msgstr "|checkbox| :guilabel:`Usar el valor como Sin Datos` |input_number|"
+
+#: ../../clip_raster_bands_tab.rst:162
+msgid ""
+"if checked, set the value for ``NoData`` pixels (e.g. pixels outside the "
+"clipped area)"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:164
+msgid ":guilabel:`Output name prefix` |input_text|"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:165
+msgid "set the prefix for output file names (default is ``clip``)"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:171
+msgid "Clip coordinates"
+msgstr "Coordenadas de corte"
+
+#: ../../clip_raster_bands_tab.rst:173
+msgid ""
+"Set the Upper Left (UL) and Lower Right (LR) point coordinates of the "
+"rectangle used for clipping; it is possible to enter the coordinates "
+"manually. Alternatively use a vector."
+msgstr ""
+"Establezca las coordenadas de los puntos superior izquierdo (SI) e inferior "
+"derecho (ID) del rectángulo utilizado para el recorte; Es posible ingresar "
+"las coordenadas manualmente. Alternativamente, use un vector."
+
+#: ../../clip_raster_bands_tab.rst:183
+msgid "|radiobutton| :guilabel:`Use coordinates for clipping`"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:184
+msgid "if checked, use defined coordinates for clipping bands"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:185
+msgid ":guilabel:`UL X` |input_number|"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:186
+msgid "set the UL X coordinate"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:187
+msgid ":guilabel:`UL Y` |input_number|"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:188
+msgid "set the UL Y coordinate"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:189
+msgid ":guilabel:`LR X` |input_number|"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:190
+msgid "set the LR X coordinate"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:191
+msgid ":guilabel:`LR Y` |input_number|"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:192
+msgid "set the LR Y coordinate"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:193
+msgid "|radiobutton| :guilabel:`Show`"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:194
+msgid "show or hide the clip area drawn in the map"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:195
+msgid "|pointer|"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:196
+msgid ""
+"define a clip area by drawing a rectangle in the map; left click to set the "
+"UL point and right click to set the LR point; the area is displayed in the "
+"map"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:199
+msgid "|radiobutton| :guilabel:`Use vector for clipping` |input_list|"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:200
+msgid ""
+"if checked, use the selected vector (already loaded in QGIS) for clipping; "
+"UL and LR coordinates are ignored"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:202
+msgid "|checkbox| :guilabel:`Use vector field for output name` |input_list|"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:203
+msgid ""
+"if checked, a vector field is selected for clipping while iterating through "
+"each vector polygon and the corresponding field value is added to the output"
+" name"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:206
+msgid "|radiobutton| :guilabel:`Use temporary ROI for clipping`"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:207
+msgid ""
+"if checked, use a :ref:`temporary_ROI` for clipping; UL and LR coordinates "
+"are ignored"
+msgstr ""
+
+#: ../../clip_raster_bands_tab.rst:209
+msgid "|reload|"
+msgstr "|recarga|"
+
+#: ../../clip_raster_bands_tab.rst:210
+msgid "refresh layer list"
+msgstr "refresca la lista de capas"
+
+#: ../../clip_raster_bands_tab.rst:211
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ":guilabel:`Script` |script_tool|"
+
+#: ../../clip_raster_bands_tab.rst:212
+msgid "add this function to the :ref:`script_tab`"
+msgstr "añadir está función al :ref:`script_tab`"
+
+#: ../../clip_raster_bands_tab.rst:213
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`EJECUTAR` |run|"
+
+#: ../../clip_raster_bands_tab.rst:214
+msgid "run this function"
+msgstr "ejecutar esta función"

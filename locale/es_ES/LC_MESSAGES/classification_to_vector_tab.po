@@ -5,7 +5,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 # 
 # Translators:
-# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
@@ -29,19 +28,19 @@ msgstr ""
 #: ../../classification_to_vector_tab.rst:5
 #: ../../classification_to_vector_tab.rst:141
 msgid "Classification to vector"
-msgstr "Clasificación a vectorial"
+msgstr "Clasificación a vector"
 
 #: ../../classification_to_vector_tab.rst:11
 msgid "registry_save"
-msgstr "registro_guardar"
+msgstr "registry_save"
 
 #: ../../classification_to_vector_tab.rst:14
 msgid "project_save"
-msgstr "guardar_proyecto"
+msgstr "project_save"
 
 #: ../../classification_to_vector_tab.rst:17
 msgid "optional"
-msgstr "opcional"
+msgstr "optional"
 
 #: ../../classification_to_vector_tab.rst:20
 msgid "input_list"

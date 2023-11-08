@@ -177,7 +177,7 @@ msgstr "herramienta de umbral"
 
 #: ../../classification_to_vector_tab.rst:124
 msgid ":guilabel:`Classification to vector`"
-msgstr ""
+msgstr ":guilabel:`Classification to vector`"
 
 #: ../../classification_to_vector_tab.rst:127
 msgid ""

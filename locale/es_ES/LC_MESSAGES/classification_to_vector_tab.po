@@ -238,6 +238,8 @@ msgstr "Simbología"
 msgid ""
 "|checkbox| :guilabel:`Use code from Signature list` |input_list| |optional|"
 msgstr ""
+"|checkbox| :guilabel:`Usa el código de la lista de Firmas` |input_list| "
+"|optional|"
 
 #: ../../classification_to_vector_tab.rst:167
 msgid ""

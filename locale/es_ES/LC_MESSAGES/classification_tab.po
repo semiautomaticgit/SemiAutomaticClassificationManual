@@ -602,6 +602,7 @@ msgstr ":guilabel:`Minimum number to split` |input_number|"
 #: ../../classification_tab.rst:327
 msgid "set the minimum number of samples required to split an internal node"
 msgstr ""
+"define el número mínimo de muestras requerido para dividir un nodo interno"
 
 #: ../../classification_tab.rst:328
 msgid ":guilabel:`Max features` |input_number| |optional|"

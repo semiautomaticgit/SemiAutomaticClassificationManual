@@ -740,6 +740,8 @@ msgstr ":guilabel:`Guardar clasificador` |export|"
 #: ../../classification_tab.rst:438
 msgid "save the classifier to file (.rsmo), in order to be loaded later"
 msgstr ""
+"guardar el clasificador en un archivo (.rsmo), para que luego pueda ser "
+"cargado"
 
 #: ../../classification_tab.rst:439
 msgid ":guilabel:`RUN` |run|"

@@ -654,7 +654,7 @@ msgstr ":guilabel:`Mapeo de Ángulo Espectral`"
 
 #: ../../classification_tab.rst:356
 msgid "Use the :ref:`spectra_angle_mapping_algorithm` algorithm."
-msgstr ""
+msgstr "Usa el algoritmo de :ref:`spectra_angle_mapping_algorithm`."
 
 #: ../../classification_tab.rst:365
 msgid ""

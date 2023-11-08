@@ -235,29 +235,31 @@ msgstr ""
 
 #: ../../clip_raster_bands_tab.rst:160
 msgid "select the input :ref:`band_set_tab` to be clipped"
-msgstr ""
+msgstr "selecciona el :ref:`band_set_tab` a recortar"
 
 #: ../../clip_raster_bands_tab.rst:161
 msgid "|checkbox| :guilabel:`Use value as NoData` |input_number|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Usar el valor como Sin Datos` |input_number|"
 
 #: ../../clip_raster_bands_tab.rst:162
 msgid ""
 "if checked, set the value for ``NoData`` pixels (e.g. pixels outside the "
 "clipped area)"
 msgstr ""
+"si está marcado, define el valor para los píxeles `Sin datos` (e.g. píxeles "
+"fuera del area recortada)"
 
 #: ../../clip_raster_bands_tab.rst:164
 msgid ":guilabel:`Output name prefix` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Prefijo del nombre del archivo de salida` |input_text|"
 
 #: ../../clip_raster_bands_tab.rst:165
 msgid "set the prefix for output file names (default is ``clip``)"
-msgstr ""
+msgstr "define el prefijo de los archivos de salida (por defecto es ``clip``)"
 
 #: ../../clip_raster_bands_tab.rst:171
 msgid "Clip coordinates"
-msgstr "Coordenadas de corte"
+msgstr "Coordenadas de recorte"
 
 #: ../../clip_raster_bands_tab.rst:173
 msgid ""
@@ -265,17 +267,17 @@ msgid ""
 "rectangle used for clipping; it is possible to enter the coordinates "
 "manually. Alternatively use a vector."
 msgstr ""
-"Establezca las coordenadas de los puntos superior izquierdo (SI) e inferior "
+"Define las coordenadas de los puntos superior izquierdo (SI) e inferior "
 "derecho (ID) del rectángulo utilizado para el recorte; Es posible ingresar "
-"las coordenadas manualmente. Alternativamente, use un vector."
+"las coordenadas manualmente. Como alternativa, usa un vector."
 
 #: ../../clip_raster_bands_tab.rst:183
 msgid "|radiobutton| :guilabel:`Use coordinates for clipping`"
-msgstr ""
+msgstr "|radiobutton| :guilabel:`Usar coordenadas para el recorte`"
 
 #: ../../clip_raster_bands_tab.rst:184
 msgid "if checked, use defined coordinates for clipping bands"
-msgstr ""
+msgstr "si está marcado, se usaran las coordenadas para recortar las bandas"
 
 #: ../../clip_raster_bands_tab.rst:185
 msgid ":guilabel:`UL X` |input_number|"

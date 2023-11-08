@@ -728,11 +728,11 @@ msgstr ""
 
 #: ../../classification_tab.rst:435
 msgid ":guilabel:`Load classifier` |open_file|"
-msgstr ""
+msgstr ":guilabel:`Cargar clasificador` |open_file|"
 
 #: ../../classification_tab.rst:436
 msgid "open an already save classifier file (.rsmo)"
-msgstr ""
+msgstr "abrir un archivo de clasificador previamente guardado (.rsmo)"
 
 #: ../../classification_tab.rst:437
 msgid ":guilabel:`Save classifier` |export|"

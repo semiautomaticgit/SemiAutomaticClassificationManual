@@ -711,6 +711,8 @@ msgid ""
 "It is possible to run the classification, or save and load a trained "
 "classifier."
 msgstr ""
+"Es posible correr la clasificación, o guardar y cargar un clasificador "
+"entrenado"
 
 #: ../../classification_tab.rst:424
 msgid ""

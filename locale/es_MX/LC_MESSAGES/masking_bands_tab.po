@@ -95,7 +95,7 @@ msgstr "descargar"
 
 #: ../../masking_bands_tab.rst:60
 msgid "sign_plot"
-msgstr ""
+msgstr "sign_plot"
 
 #: ../../masking_bands_tab.rst:63
 msgid "tools"
@@ -127,15 +127,15 @@ msgstr "herramienta_script"
 
 #: ../../masking_bands_tab.rst:84
 msgid "save_roi"
-msgstr ""
+msgstr "save_roi"
 
 #: ../../masking_bands_tab.rst:87
 msgid "delete_signature"
-msgstr ""
+msgstr "delete_signature"
 
 #: ../../masking_bands_tab.rst:90
 msgid "accuracy_tool"
-msgstr ""
+msgstr "accuracy_tool"
 
 #: ../../masking_bands_tab.rst:93
 msgid "enter"
@@ -163,11 +163,11 @@ msgstr "agregar herramienta de signo"
 
 #: ../../masking_bands_tab.rst:111
 msgid "scatter_plot"
-msgstr ""
+msgstr "scatter_plot"
 
 #: ../../masking_bands_tab.rst:114
 msgid "merge_sign"
-msgstr ""
+msgstr "merge_sign"
 
 #: ../../masking_bands_tab.rst:117
 msgid "guide"

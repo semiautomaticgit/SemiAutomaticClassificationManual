@@ -201,6 +201,10 @@ msgid ""
 "sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_to_vector.html>`_"
 " ."
 msgstr ""
+"Información sobre las APIs de esta herramienta de Remotior Sensus en este "
+"`enlace <https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_to_vector.html>`_"
+" ."
 
 #: ../../classification_to_vector_tab.rst:147
 #: ../../classification_to_vector_tab.rst:164

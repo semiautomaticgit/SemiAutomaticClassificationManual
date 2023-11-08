@@ -357,10 +357,12 @@ msgid ""
 "each vector polygon and the corresponding field value is added to the output"
 " name"
 msgstr ""
+"si está marcado, se selecciona un campo del vector para iterar sobre cada "
+"polígono y el valor del campo correspondiente es añadido al nombre de salida"
 
 #: ../../clip_raster_bands_tab.rst:206
 msgid "|radiobutton| :guilabel:`Use temporary ROI for clipping`"
-msgstr ""
+msgstr "|radiobutton| :guilabel:`Usar una RDI temporal para recortar`"
 
 #: ../../clip_raster_bands_tab.rst:207
 msgid ""

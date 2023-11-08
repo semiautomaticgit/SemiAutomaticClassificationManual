@@ -598,7 +598,7 @@ msgstr "define el número de árboles"
 
 #: ../../classification_tab.rst:326
 msgid ":guilabel:`Minimum number to split` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Minimum number to split` |input_number|"
 
 #: ../../classification_tab.rst:327
 msgid "set the minimum number of samples required to split an internal node"

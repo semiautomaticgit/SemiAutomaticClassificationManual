@@ -634,7 +634,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:337 ../../classification_tab.rst:408
 msgid "|checkbox| :guilabel:`Balanced class weight` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Balanceo de pesos de clases` |optional|"
 
 #: ../../classification_tab.rst:338 ../../classification_tab.rst:409
 msgid ""

@@ -335,7 +335,7 @@ msgstr ""
 
 #: ../../clip_raster_bands_tab.rst:199
 msgid "|radiobutton| :guilabel:`Use vector for clipping` |input_list|"
-msgstr ""
+msgstr "|radiobutton| :guilabel:`Usar un vector para recortar` |input_list|"
 
 #: ../../clip_raster_bands_tab.rst:200
 msgid ""

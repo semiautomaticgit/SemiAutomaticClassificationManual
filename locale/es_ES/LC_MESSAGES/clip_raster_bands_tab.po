@@ -317,11 +317,11 @@ msgstr "|radiobutton| :guilabel:`Mostrar`"
 
 #: ../../clip_raster_bands_tab.rst:194
 msgid "show or hide the clip area drawn in the map"
-msgstr ""
+msgstr "mostrar o ocultar el área de recorte en el mapa"
 
 #: ../../clip_raster_bands_tab.rst:195
 msgid "|pointer|"
-msgstr ""
+msgstr "|pointer|"
 
 #: ../../clip_raster_bands_tab.rst:196
 msgid ""

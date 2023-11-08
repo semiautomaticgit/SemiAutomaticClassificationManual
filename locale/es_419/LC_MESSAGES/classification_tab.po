@@ -615,10 +615,14 @@ msgid ""
 " root of all the features, if integer number the number of features; if "
 "float number a fraction of all the features"
 msgstr ""
+"para la división de nodos, si está vacío se consideran todos los objetos; si"
+" es sqrt la raíz cuadrada de de todos los objetos, si es integer el número "
+"entero de objetos; si es un número decimal la fracción correspondiente de "
+"objetos"
 
 #: ../../classification_tab.rst:332
 msgid "|checkbox| :guilabel:`One-Vs-Rest` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Uno-Vs-Resto` |optional|"
 
 #: ../../classification_tab.rst:333
 msgid ""

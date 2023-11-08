@@ -642,6 +642,8 @@ msgid ""
 "if checked, balanced weight is computed inversely proportional to class "
 "frequency"
 msgstr ""
+"si está marcado, se calcula un peso balanceado siendo inversamente "
+"proporcional a la frecuencia de las clases"
 
 #: ../../classification_tab.rst:348
 msgid "Spectral Angle Mapping"

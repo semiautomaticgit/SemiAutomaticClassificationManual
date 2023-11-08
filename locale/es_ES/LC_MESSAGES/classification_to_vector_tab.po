@@ -144,11 +144,11 @@ msgstr "add_sign_tool"
 
 #: ../../classification_to_vector_tab.rst:95
 msgid "guide"
-msgstr "guía"
+msgstr "guide"
 
 #: ../../classification_to_vector_tab.rst:98
 msgid "help"
-msgstr "ayuda"
+msgstr "help"
 
 #: ../../classification_to_vector_tab.rst:101
 msgid "reload"

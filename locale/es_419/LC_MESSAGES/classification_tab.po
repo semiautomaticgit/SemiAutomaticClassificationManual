@@ -669,7 +669,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:384
 msgid "Support Vector Machine"
-msgstr ""
+msgstr "Máquinas de Soporte de Vectores"
 
 #: ../../classification_tab.rst:390
 msgid ":guilabel:`Support Vector Machine`"

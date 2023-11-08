@@ -259,6 +259,8 @@ msgstr "|checkbox| :guilabel:`Disolver el resultado` |optional|"
 #: ../../classification_to_vector_tab.rst:172
 msgid "if checked, dissolve adjacent polygons having the same values"
 msgstr ""
+"si está marcado, se disolverán los polígonos adyacentes que tengan los "
+"mismos valores"
 
 #: ../../classification_to_vector_tab.rst:178
 msgid "Run"

@@ -116,19 +116,19 @@ msgstr "settings"
 
 #: ../../classification_to_vector_tab.rst:74
 msgid "script_tool"
-msgstr "herramienta_script"
+msgstr "script_tool"
 
 #: ../../classification_to_vector_tab.rst:77
 msgid "enter"
-msgstr "ingresar"
+msgstr "enter"
 
 #: ../../classification_to_vector_tab.rst:80
 msgid "zoom_to_ROI"
-msgstr "Hacer zoom al área de interés"
+msgstr "zoom_to_ROI"
 
 #: ../../classification_to_vector_tab.rst:83
 msgid "check"
-msgstr "controlar"
+msgstr "check"
 
 #: ../../classification_to_vector_tab.rst:86
 msgid "select_all"

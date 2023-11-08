@@ -689,7 +689,7 @@ msgstr "define el parámetro de regularización C"
 
 #: ../../classification_tab.rst:402
 msgid ":guilabel:`Kernel` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Kernel` |input_text|"
 
 #: ../../classification_tab.rst:403
 msgid "set the kernel (default: rbf)"

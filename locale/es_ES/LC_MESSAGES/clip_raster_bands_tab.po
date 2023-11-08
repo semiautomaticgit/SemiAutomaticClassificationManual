@@ -131,71 +131,71 @@ msgstr "accuracy_tool"
 
 #: ../../clip_raster_bands_tab.rst:87
 msgid "enter"
-msgstr "ingresar"
+msgstr "enter"
 
 #: ../../clip_raster_bands_tab.rst:90
 msgid "zoom_to_ROI"
-msgstr "Hacer zoom al área de interés"
+msgstr "zoom_to_ROI"
 
 #: ../../clip_raster_bands_tab.rst:93
 msgid "check"
-msgstr "controlar"
+msgstr "check"
 
 #: ../../clip_raster_bands_tab.rst:96
 msgid "select_all"
-msgstr "seleccionar todo"
+msgstr "select_all"
 
 #: ../../clip_raster_bands_tab.rst:99
 msgid "docks"
-msgstr "paneles"
+msgstr "docks"
 
 #: ../../clip_raster_bands_tab.rst:102
 msgid "add_sign_tool"
-msgstr "agregar herramienta de signo"
+msgstr "add_sign_tool"
 
 #: ../../clip_raster_bands_tab.rst:105
 msgid "scatter_plot"
-msgstr ""
+msgstr "scatter_plot"
 
 #: ../../clip_raster_bands_tab.rst:108
 msgid "merge_sign"
-msgstr ""
+msgstr "merge_sign"
 
 #: ../../clip_raster_bands_tab.rst:111
 msgid "guide"
-msgstr "guía"
+msgstr "guide"
 
 #: ../../clip_raster_bands_tab.rst:114
 msgid "help"
-msgstr "ayuda"
+msgstr "help"
 
 #: ../../clip_raster_bands_tab.rst:117
 msgid "reload"
-msgstr "recargar"
+msgstr "reload"
 
 #: ../../clip_raster_bands_tab.rst:120
 msgid "checkbox"
-msgstr "casilla de confirmación"
+msgstr "checkbox"
 
 #: ../../clip_raster_bands_tab.rst:123
 msgid "run"
-msgstr "ejecutar"
+msgstr "run"
 
 #: ../../clip_raster_bands_tab.rst:126
 msgid "radiobutton"
-msgstr "botón de radio"
+msgstr "radiobutton"
 
 #: ../../clip_raster_bands_tab.rst:129
 msgid "pointer"
-msgstr "puntero"
+msgstr "pointer"
 
 #: ../../clip_raster_bands_tab.rst:132
 msgid "clip_tool"
-msgstr ""
+msgstr "clip_tool"
 
 #: ../../clip_raster_bands_tab.rst:139
 msgid ":guilabel:`Clip multiple rasters`"
-msgstr ""
+msgstr ":guilabel:`Recortar varios rásteres`"
 
 #: ../../clip_raster_bands_tab.rst:141
 msgid ""

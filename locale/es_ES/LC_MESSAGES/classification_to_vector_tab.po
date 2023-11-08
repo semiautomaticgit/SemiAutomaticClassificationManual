@@ -207,7 +207,7 @@ msgstr ""
 #: ../../classification_to_vector_tab.rst:147
 #: ../../classification_to_vector_tab.rst:164
 msgid "Tool symbol and name"
-msgstr "Símbolo de la herramienta y nombre"
+msgstr "Símbolo y nombre de la herramienta"
 
 #: ../../classification_to_vector_tab.rst:148
 #: ../../classification_to_vector_tab.rst:165
@@ -220,11 +220,11 @@ msgstr ":guilabel:`Selecciona la clasificación` |input_list|"
 
 #: ../../classification_to_vector_tab.rst:150
 msgid "select a classification raster (already loaded in QGIS)"
-msgstr "selecciona un raster de clasificación (ya cargado en QGIS)"
+msgstr "selecciona un ráster de clasificación (ya cargado en QGIS)"
 
 #: ../../classification_to_vector_tab.rst:151
 msgid "|reload|"
-msgstr "|recarga|"
+msgstr "|reload|"
 
 #: ../../classification_to_vector_tab.rst:152
 msgid "refresh layer list"

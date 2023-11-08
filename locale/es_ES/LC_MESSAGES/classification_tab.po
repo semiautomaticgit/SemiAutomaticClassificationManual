@@ -621,7 +621,7 @@ msgstr ""
 
 #: ../../classification_tab.rst:332
 msgid "|checkbox| :guilabel:`One-Vs-Rest` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Uno-Vs-Resto` |optional|"
 
 #: ../../classification_tab.rst:333
 msgid ""

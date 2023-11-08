@@ -212,6 +212,9 @@ msgid ""
 "<https://remotior-"
 "sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_clip.html>`_ ."
 msgstr ""
+"Información sobre las APIs de esta herramienta de Remotior Sensus en este "
+"`enlace <https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_clip.html>`_ ."
 
 #: ../../clip_raster_bands_tab.rst:151
 msgid "Clip band set"

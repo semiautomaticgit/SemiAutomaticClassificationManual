@@ -177,7 +177,7 @@ msgstr "herramienta de umbral"
 
 #: ../../classification_to_vector_tab.rst:124
 msgid ":guilabel:`Classification to vector`"
-msgstr ""
+msgstr ":guilabel:`Classification to vector`"
 
 #: ../../classification_to_vector_tab.rst:127
 msgid ""
@@ -187,6 +187,12 @@ msgid ""
 "process numbers. The argument dissolve allows for merging these portions, "
 "but it requires additional processing time depending on vector size."
 msgstr ""
+"Esta pestaña permite transformar el ráster de una clasificación a vector, en"
+" formato GeoPackage (``.gpkg``) . Se utiliza procesamiento en paralelo para "
+"la conversión, el vector resultante está dividido en tantas partes como "
+"número de procesos.  El parámetro, disolver permite unir estas partes, pero "
+"requiere tiempo adicional de procesamiento dependiendo del tamaño del "
+"vector."
 
 #: ../../classification_to_vector_tab.rst:135
 msgid ""

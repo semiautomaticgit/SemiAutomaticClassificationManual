@@ -326,7 +326,7 @@ msgstr ""
 
 #: ../../reproject_bands_tab.rst:191
 msgid ":guilabel:`Output name prefix` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Prefijo del nombre del archivo de salida` |input_text|"
 
 #: ../../reproject_bands_tab.rst:192
 msgid "set the prefix for output file names (default is ``reproj``)"

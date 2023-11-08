@@ -273,19 +273,19 @@ msgstr ""
 
 #: ../../clip_raster_bands_tab.rst:183
 msgid "|radiobutton| :guilabel:`Use coordinates for clipping`"
-msgstr ""
+msgstr "|radiobutton| :guilabel:`Usar coordenadas para el recorte`"
 
 #: ../../clip_raster_bands_tab.rst:184
 msgid "if checked, use defined coordinates for clipping bands"
-msgstr ""
+msgstr "si está marcado, se usaran las coordenadas para recortar las bandas"
 
 #: ../../clip_raster_bands_tab.rst:185
 msgid ":guilabel:`UL X` |input_number|"
-msgstr ""
+msgstr ":guilabel:`X SI` |input_number|"
 
 #: ../../clip_raster_bands_tab.rst:186
 msgid "set the UL X coordinate"
-msgstr ""
+msgstr "define las coordenada X de la esquina SI"
 
 #: ../../clip_raster_bands_tab.rst:187
 msgid ":guilabel:`UL Y` |input_number|"

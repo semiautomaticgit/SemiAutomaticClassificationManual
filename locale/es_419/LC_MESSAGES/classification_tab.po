@@ -598,15 +598,16 @@ msgstr "define el número de árboles"
 
 #: ../../classification_tab.rst:326
 msgid ":guilabel:`Minimum number to split` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Minimum number to split` |input_number|"
 
 #: ../../classification_tab.rst:327
 msgid "set the minimum number of samples required to split an internal node"
 msgstr ""
+"define el número mínimo de muestras requerido para dividir un nodo interno"
 
 #: ../../classification_tab.rst:328
 msgid ":guilabel:`Max features` |input_number| |optional|"
-msgstr ""
+msgstr ":guilabel:`Objetos máximos` |input_number| |optional|"
 
 #: ../../classification_tab.rst:329
 msgid ""
@@ -614,26 +615,35 @@ msgid ""
 " root of all the features, if integer number the number of features; if "
 "float number a fraction of all the features"
 msgstr ""
+"para la división de nodos, si está vacío se consideran todos los objetos; si"
+" es sqrt la raíz cuadrada de de todos los objetos, si es integer el número "
+"entero de objetos; si es un número decimal la fracción correspondiente de "
+"objetos"
 
 #: ../../classification_tab.rst:332
 msgid "|checkbox| :guilabel:`One-Vs-Rest` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Uno-Vs-Resto` |optional|"
 
 #: ../../classification_tab.rst:333
 msgid ""
 "if checked, perform One-Vs-Rest classification (read `more <https://scikit-"
 "learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_)"
 msgstr ""
+"si está marcado, realizar una clasificación Uno-Vs-Resto (leer `mas "
+"<https://scikit-"
+"learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_)"
 
 #: ../../classification_tab.rst:337 ../../classification_tab.rst:408
 msgid "|checkbox| :guilabel:`Balanced class weight` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Balanceo de pesos de clases` |optional|"
 
 #: ../../classification_tab.rst:338 ../../classification_tab.rst:409
 msgid ""
 "if checked, balanced weight is computed inversely proportional to class "
 "frequency"
 msgstr ""
+"si está marcado, se calcula un peso balanceado siendo inversamente "
+"proporcional a la frecuencia de las clases"
 
 #: ../../classification_tab.rst:348
 msgid "Spectral Angle Mapping"
@@ -641,11 +651,11 @@ msgstr "Mapeo del Angulo Espectral"
 
 #: ../../classification_tab.rst:354
 msgid ":guilabel:`Spectral Angle Mapping`"
-msgstr ""
+msgstr ":guilabel:`Mapeo de Angulo Espectral`"
 
 #: ../../classification_tab.rst:356
 msgid "Use the :ref:`spectra_angle_mapping_algorithm` algorithm."
-msgstr ""
+msgstr "Usa el algoritmo de :ref:`spectra_angle_mapping_algorithm`."
 
 #: ../../classification_tab.rst:365
 msgid ""
@@ -653,42 +663,45 @@ msgid ""
 "(applied to all the spectral signatures); pixels are unclassified if "
 "spectral angle distance is greater than threshold value (max 90)"
 msgstr ""
+"si está marcado, permite definir el umbral para la clasificación (aplicado a"
+" las firmas espectrales); los píxeles no son clasificados si la distancia "
+"angular espectral es superior al umbra (máx. 90)"
 
 #: ../../classification_tab.rst:384
 msgid "Support Vector Machine"
-msgstr ""
+msgstr "Máquinas de Soporte de Vectores"
 
 #: ../../classification_tab.rst:390
 msgid ":guilabel:`Support Vector Machine`"
-msgstr ""
+msgstr ":guilabel:`Máquinas de Soporte de Vectores`"
 
 #: ../../classification_tab.rst:392
 msgid "Use the :ref:`support_vector_machine_definition` algorithm."
-msgstr ""
+msgstr "Usa el algoritmo de :ref:`support_vector_machine_definition`."
 
 #: ../../classification_tab.rst:400
 msgid ":guilabel:`Regularization parameter C` |input_number|"
-msgstr ""
+msgstr ":guilabel:`Parámetro de Regularización C` |input_number|"
 
 #: ../../classification_tab.rst:401
 msgid "set the regularization parameter C"
-msgstr ""
+msgstr "define el parámetro de regularización C"
 
 #: ../../classification_tab.rst:402
 msgid ":guilabel:`Kernel` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Kernel` |input_text|"
 
 #: ../../classification_tab.rst:403
 msgid "set the kernel (default: rbf)"
-msgstr ""
+msgstr "define el kernel (por defecto: rbf)"
 
 #: ../../classification_tab.rst:404
 msgid ":guilabel:`Gamma` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Gamma` |input_text|"
 
 #: ../../classification_tab.rst:405
 msgid "set the kernel coefficient gamma (default: scale)"
-msgstr ""
+msgstr "define el coeficiente gamma del kernel (por defecto: escala)"
 
 #: ../../classification_tab.rst:419
 msgid "Run"
@@ -699,6 +712,8 @@ msgid ""
 "It is possible to run the classification, or save and load a trained "
 "classifier."
 msgstr ""
+"Es posible correr la clasificación, o guardar y cargar un clasificador "
+"entrenado"
 
 #: ../../classification_tab.rst:424
 msgid ""
@@ -713,19 +728,21 @@ msgstr ""
 
 #: ../../classification_tab.rst:435
 msgid ":guilabel:`Load classifier` |open_file|"
-msgstr ""
+msgstr ":guilabel:`Cargar clasificador` |open_file|"
 
 #: ../../classification_tab.rst:436
 msgid "open an already save classifier file (.rsmo)"
-msgstr ""
+msgstr "abrir un archivo de clasificador previamente guardado (.rsmo)"
 
 #: ../../classification_tab.rst:437
 msgid ":guilabel:`Save classifier` |export|"
-msgstr ""
+msgstr ":guilabel:`Guardar clasificador` |export|"
 
 #: ../../classification_tab.rst:438
 msgid "save the classifier to file (.rsmo), in order to be loaded later"
 msgstr ""
+"guardar el clasificador en un archivo (.rsmo), para que luego pueda ser "
+"cargado"
 
 #: ../../classification_tab.rst:439
 msgid ":guilabel:`RUN` |run|"

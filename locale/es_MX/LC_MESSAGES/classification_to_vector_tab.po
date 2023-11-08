@@ -177,7 +177,7 @@ msgstr "herramienta de umbral"
 
 #: ../../classification_to_vector_tab.rst:124
 msgid ":guilabel:`Classification to vector`"
-msgstr ""
+msgstr ":guilabel:`Classification to vector`"
 
 #: ../../classification_to_vector_tab.rst:127
 msgid ""
@@ -187,6 +187,12 @@ msgid ""
 "process numbers. The argument dissolve allows for merging these portions, "
 "but it requires additional processing time depending on vector size."
 msgstr ""
+"Esta pestaña permite transformar el ráster de una clasificación a vector, en"
+" formato GeoPackage (``.gpkg``) . Se utiliza procesamiento en paralelo para "
+"la conversión, el vector resultante está dividido en tantas partes como "
+"número de procesos.  El parámetro, disolver permite unir estas partes, pero "
+"requiere tiempo adicional de procesamiento dependiendo del tamaño del "
+"vector."
 
 #: ../../classification_to_vector_tab.rst:135
 msgid ""
@@ -195,6 +201,10 @@ msgid ""
 "sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_to_vector.html>`_"
 " ."
 msgstr ""
+"Información sobre las APIs de esta herramienta de Remotior Sensus en este "
+"`enlace <https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_to_vector.html>`_"
+" ."
 
 #: ../../classification_to_vector_tab.rst:147
 #: ../../classification_to_vector_tab.rst:164
@@ -230,20 +240,27 @@ msgstr "Simbología"
 msgid ""
 "|checkbox| :guilabel:`Use code from Signature list` |input_list| |optional|"
 msgstr ""
+"|checkbox| :guilabel:`Usa el código de la lista de Firmas` |input_list| "
+"|optional|"
 
 #: ../../classification_to_vector_tab.rst:167
 msgid ""
 "if checked, color and class information are defined from :ref:`ROI_list` * "
 "``MC ID``: use the ID of macroclasses * ``C ID``: use the ID of classes"
 msgstr ""
+"si está marcado, la información y el color de la clase se definen a partir "
+"de la :ref:`ROI_list` * ``MC ID``: usar el ID de las macroclases * ``C ID``:"
+" usar el ID de las clases"
 
 #: ../../classification_to_vector_tab.rst:171
 msgid "|checkbox| :guilabel:`Dissolve output` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Disolver el resultado` |optional|"
 
 #: ../../classification_to_vector_tab.rst:172
 msgid "if checked, dissolve adjacent polygons having the same values"
 msgstr ""
+"si está marcado, se disolverán los polígonos adyacentes que tengan los "
+"mismos valores"
 
 #: ../../classification_to_vector_tab.rst:178
 msgid "Run"

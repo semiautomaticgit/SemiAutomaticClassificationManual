@@ -132,15 +132,15 @@ msgstr "check"
 
 #: ../../classification_to_vector_tab.rst:86
 msgid "select_all"
-msgstr "seleccionar todo"
+msgstr "select_all"
 
 #: ../../classification_to_vector_tab.rst:89
 msgid "docks"
-msgstr "paneles"
+msgstr "docks"
 
 #: ../../classification_to_vector_tab.rst:92
 msgid "add_sign_tool"
-msgstr "agregar herramienta de signo"
+msgstr "add_sign_tool"
 
 #: ../../classification_to_vector_tab.rst:95
 msgid "guide"

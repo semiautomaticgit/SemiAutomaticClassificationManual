@@ -454,19 +454,19 @@ msgstr ""
 
 #: ../../download_products_tab.rst:239
 msgid "The table includes the following fields."
-msgstr ""
+msgstr "La tabla incluye los siguientes campos."
 
 #: ../../download_products_tab.rst:245
 msgid "product"
-msgstr ""
+msgstr "producto"
 
 #: ../../download_products_tab.rst:246
 msgid "image"
-msgstr ""
+msgstr "imagen"
 
 #: ../../download_products_tab.rst:247
 msgid "product_id"
-msgstr ""
+msgstr "product_id"
 
 #: ../../download_products_tab.rst:248
 msgid "acquisition_date"
@@ -478,11 +478,11 @@ msgstr ""
 
 #: ../../download_products_tab.rst:250
 msgid "zone_path"
-msgstr ""
+msgstr "zone_path"
 
 #: ../../download_products_tab.rst:251
 msgid "row"
-msgstr ""
+msgstr "row"
 
 #: ../../download_products_tab.rst:252
 msgid "min_lat"

@@ -490,35 +490,35 @@ msgstr "min_lat"
 
 #: ../../download_products_tab.rst:253
 msgid "min_lon"
-msgstr "lon_min"
+msgstr "min_lon"
 
 #: ../../download_products_tab.rst:254
 msgid "max_lat"
-msgstr "lat_max"
+msgstr "max_lat"
 
 #: ../../download_products_tab.rst:255
 msgid "max_lon"
-msgstr "lon_max"
+msgstr "max_lon"
 
 #: ../../download_products_tab.rst:256
 msgid "collection"
-msgstr "colección"
+msgstr "collection"
 
 #: ../../download_products_tab.rst:257
 msgid "size"
-msgstr ""
+msgstr "size"
 
 #: ../../download_products_tab.rst:258
 msgid "preview"
-msgstr ""
+msgstr "preview"
 
 #: ../../download_products_tab.rst:259
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: ../../download_products_tab.rst:260
 msgid "the product name (e.g., Sentinel-2)"
-msgstr ""
+msgstr "el nombre del producto (e.g., Sentinel-2)"
 
 #: ../../download_products_tab.rst:261
 msgid "the image name"

@@ -462,7 +462,7 @@ msgstr "producto"
 
 #: ../../download_products_tab.rst:246
 msgid "image"
-msgstr ""
+msgstr "imagen"
 
 #: ../../download_products_tab.rst:247
 msgid "product_id"

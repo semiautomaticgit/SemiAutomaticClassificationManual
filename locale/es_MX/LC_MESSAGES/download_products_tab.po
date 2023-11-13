@@ -570,11 +570,11 @@ msgstr "tamaño del producto"
 
 #: ../../download_products_tab.rst:273
 msgid "URL of the product preview"
-msgstr ""
+msgstr "URL de la previsualización del producto"
 
 #: ../../download_products_tab.rst:274
 msgid "identifier of the item"
-msgstr ""
+msgstr "identificador del elemento"
 
 #: ../../download_products_tab.rst:277
 msgid "The following tools are available."
@@ -582,7 +582,7 @@ msgstr "Las siguientes herramientas están disponibles"
 
 #: ../../download_products_tab.rst:285
 msgid "|image_preview|"
-msgstr ""
+msgstr "|image_preview|"
 
 #: ../../download_products_tab.rst:286
 msgid ""

@@ -446,38 +446,43 @@ msgid ""
 "all the products include image previews). Resulting products are saved with "
 "the QGIS project."
 msgstr ""
+"La tabla :guilabel:`Lista de productos` contiene los resultados de la "
+"búsqueda. Haz click en cualquier elemento (resalta el elemento) para mostrar"
+" la previsualización de la imagen (no todos los productos incluyen "
+"previsualización). Los productos resultantes se guardarán en el proyecto de "
+"QGIS."
 
 #: ../../download_products_tab.rst:239
 msgid "The table includes the following fields."
-msgstr ""
+msgstr "La tabla incluye los siguientes campos."
 
 #: ../../download_products_tab.rst:245
 msgid "product"
-msgstr ""
+msgstr "producto"
 
 #: ../../download_products_tab.rst:246
 msgid "image"
-msgstr ""
+msgstr "imagen"
 
 #: ../../download_products_tab.rst:247
 msgid "product_id"
-msgstr ""
+msgstr "product_id"
 
 #: ../../download_products_tab.rst:248
 msgid "acquisition_date"
-msgstr ""
+msgstr "acquisition_date"
 
 #: ../../download_products_tab.rst:249
 msgid "cloud_cover"
-msgstr ""
+msgstr "cloud_cover"
 
 #: ../../download_products_tab.rst:250
 msgid "zone_path"
-msgstr ""
+msgstr "zone_path"
 
 #: ../../download_products_tab.rst:251
 msgid "row"
-msgstr ""
+msgstr "row"
 
 #: ../../download_products_tab.rst:252
 msgid "min_lat"
@@ -501,35 +506,35 @@ msgstr "colección"
 
 #: ../../download_products_tab.rst:257
 msgid "size"
-msgstr ""
+msgstr "size"
 
 #: ../../download_products_tab.rst:258
 msgid "preview"
-msgstr ""
+msgstr "preview"
 
 #: ../../download_products_tab.rst:259
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: ../../download_products_tab.rst:260
 msgid "the product name (e.g., Sentinel-2)"
-msgstr ""
+msgstr "el nombre del producto (e.g., Sentinel-2)"
 
 #: ../../download_products_tab.rst:261
 msgid "the image name"
-msgstr ""
+msgstr "el nombre de la imagen"
 
 #: ../../download_products_tab.rst:262
 msgid "the ID of the product"
-msgstr ""
+msgstr "el ID del producto"
 
 #: ../../download_products_tab.rst:263
 msgid "the acquisition date of the product"
-msgstr ""
+msgstr "la fecha de adquisición del producto"
 
 #: ../../download_products_tab.rst:264
 msgid "percentage of cloud cover in the product"
-msgstr ""
+msgstr "porcentaje de la cubierta de nubes en el producto"
 
 #: ../../download_products_tab.rst:265
 msgid "the zone or WRS path depending on the product type"

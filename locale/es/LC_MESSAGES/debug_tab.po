@@ -122,10 +122,12 @@ msgstr "Prueba"
 
 #: ../../debug_tab.rst:82
 msgid ":guilabel:`Test dependencies` |enter|"
-msgstr ""
+msgstr ":guilabel:`Probar dependencias` |enter|"
 
 #: ../../debug_tab.rst:83
 msgid ""
 "test :guilabel:`SCP` dependencies (NumPy, SciPy, Matplotlib, GDAL, PyTorch, "
 "scikit-learn, Remotior Sensus, Multiprocess, Internet connection)"
 msgstr ""
+"test :guilabel:Dependencias de `SCP` (NumPy, SciPy, Matplotlib, GDAL, "
+"PyTorch, scikit-learn, Remotior Sensus, Multiprocess, conexión a internet)"

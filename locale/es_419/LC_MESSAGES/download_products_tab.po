@@ -655,7 +655,7 @@ msgstr "seleccionar bandas para descargar"
 
 #: ../../download_products_tab.rst:317
 msgid "|checkbox| :guilabel:`Ancillary data`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Datos auxiliares`"
 
 #: ../../download_products_tab.rst:318
 msgid "if checked, the metadata files are selected for download"

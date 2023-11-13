@@ -446,6 +446,11 @@ msgid ""
 "all the products include image previews). Resulting products are saved with "
 "the QGIS project."
 msgstr ""
+"La tabla :guilabel:`Lista de productos` contiene los resultados de la "
+"búsqueda. Haz click en cualquier elemento (resalta el elemento) para mostrar"
+" la previsualización de la imagen (no todos los productos incluyen "
+"previsualización). Los productos resultantes se guardarán en el proyecto de "
+"QGIS."
 
 #: ../../download_products_tab.rst:239
 msgid "The table includes the following fields."

@@ -6,8 +6,8 @@
 # 
 # Translators:
 # Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
-# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
 #, fuzzy
@@ -190,7 +190,7 @@ msgstr ""
 "Esta pestaña permite el cálculo de un ráster de clasificación cruzada y una "
 "matriz. La clasificación se compara con un ráster de referencia o un vector "
 "de referencia (que se convierte automáticamente en ráster). Esto es útil "
-"para calcular el área para cada combinación entre clases de referencia y "
+"para calcular el área para cada combinación de clases de referencia y "
 "valores de clasificación. Si se selecciona un vector como referencia, es "
 "posible elegir un campo que describa los valores de clase."
 

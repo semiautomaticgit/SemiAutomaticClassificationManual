@@ -454,7 +454,7 @@ msgstr ""
 
 #: ../../download_products_tab.rst:239
 msgid "The table includes the following fields."
-msgstr ""
+msgstr "La tabla incluye los siguientes campos."
 
 #: ../../download_products_tab.rst:245
 msgid "product"

@@ -711,6 +711,8 @@ msgstr ":guilabel:`EJECUTAR` |run|"
 msgid ""
 "start the download process of all the products listed in :ref:`product_list`"
 msgstr ""
+"iniciar la descarga de todos los productos que están en la "
+":ref:`product_list`"
 
 #: ../../download_products_tab.rst:337
 msgid "Login data"
@@ -722,7 +724,7 @@ msgstr "| login_data | : guilabel: `Datos de inicio de sesión`"
 
 #: ../../download_products_tab.rst:349
 msgid "Login Harmonized Landsat Sentinel-2"
-msgstr ""
+msgstr "Login Harmonized Landsat Sentinel-2"
 
 #: ../../download_products_tab.rst:351
 msgid ""

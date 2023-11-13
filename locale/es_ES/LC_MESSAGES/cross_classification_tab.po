@@ -282,6 +282,8 @@ msgid ""
 "select a raster or a vector (already loaded in QGIS), used as reference "
 "layer"
 msgstr ""
+"seleccionar un ráster o vector (ya cargado en QGIS), para usarlo como capa "
+"de referencia"
 
 #: ../../cross_classification_tab.rst:173
 msgid ":guilabel:`Vector field` |input_list| |optional|"

@@ -300,11 +300,13 @@ msgstr ""
 
 #: ../../cross_classification_tab.rst:176
 msgid "|checkbox| :guilabel:`Calculate linear regression` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Calcular regresión lineal` |optional|"
 
 #: ../../cross_classification_tab.rst:177
 msgid "if checked, calculate linear regression between the two input layers"
 msgstr ""
+"si está marcado, se calculará la regresión lineal entre las dos capas de "
+"entrada"
 
 #: ../../cross_classification_tab.rst:178
 msgid ":guilabel:`Script` |script_tool|"

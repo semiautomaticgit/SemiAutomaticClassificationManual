@@ -688,6 +688,8 @@ msgstr "|checkbox| :guilabel:`Preprocesar imágenes`"
 #: ../../download_products_tab.rst:325
 msgid "if checked, bands are automatically converted after the download"
 msgstr ""
+"si está marcado, las bandas será automáticamente convertidas después de la "
+"descarga"
 
 #: ../../download_products_tab.rst:326
 msgid "|checkbox| :guilabel:`Load bands in QGIS`"

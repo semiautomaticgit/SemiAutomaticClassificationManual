@@ -247,12 +247,12 @@ msgstr ":guilabel:`Selecciona la clasificación` |input_list|"
 
 #: ../../cross_classification_tab.rst:162
 msgid "select a classification raster (already loaded in QGIS)"
-msgstr "selecciona un raster de clasificación (ya cargado en QGIS)"
+msgstr "selecciona un ráster de clasificación (ya cargado en QGIS)"
 
 #: ../../cross_classification_tab.rst:163
 #: ../../cross_classification_tab.rst:171
 msgid "|reload|"
-msgstr "|recarga|"
+msgstr "|reload|"
 
 #: ../../cross_classification_tab.rst:164
 #: ../../cross_classification_tab.rst:172

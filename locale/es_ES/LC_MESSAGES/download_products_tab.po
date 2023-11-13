@@ -599,7 +599,7 @@ msgstr "|remove|"
 
 #: ../../download_products_tab.rst:289
 msgid "remove highlighted images from the list"
-msgstr ""
+msgstr "quitar las imágenes seleccionadas de la lista"
 
 #: ../../download_products_tab.rst:290
 msgid "|reset|"
@@ -607,7 +607,7 @@ msgstr "|reset|"
 
 #: ../../download_products_tab.rst:291
 msgid "remove all images from the list"
-msgstr ""
+msgstr "quitar todas las imágenes de la lista"
 
 #: ../../download_products_tab.rst:292
 msgid "|import|"
@@ -615,7 +615,7 @@ msgstr "|import|"
 
 #: ../../download_products_tab.rst:293
 msgid "import the product list from an XML file"
-msgstr ""
+msgstr "importar la lista de productos desde un archivo XML"
 
 #: ../../download_products_tab.rst:294 ../../download_products_tab.rst:328
 msgid "|export|"
@@ -623,7 +623,7 @@ msgstr "|export|"
 
 #: ../../download_products_tab.rst:295
 msgid "export the product list to an XML file"
-msgstr ""
+msgstr "exportar la lista de productos a un archivo XML"
 
 #: ../../download_products_tab.rst:301
 msgid "Download"
@@ -634,7 +634,7 @@ msgid ""
 "Download the products in the :ref:`product_list`. During the download it is "
 "recommended not to interact with QGIS."
 msgstr ""
-"Descargue los productos en la :ref:`product_list`. Durante la descarga, se "
+"Descarga los productos en la :ref:`product_list`. Durante la descarga, se "
 "recomienda no interactuar con QGIS."
 
 #: ../../download_products_tab.rst:306
@@ -642,60 +642,66 @@ msgid ""
 "Depending on the download service, it is possible to select single bands for"
 " download."
 msgstr ""
+"Dependiendo del servicio de descarga, es posible seleccionar bandas a "
+"descargar"
 
 #: ../../download_products_tab.rst:315
 msgid "|checkbox| :guilabel:`Band` ``X``"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Banda` ``X``"
 
 #: ../../download_products_tab.rst:316
 msgid "select bands for download"
-msgstr ""
+msgstr "seleccionar bandas para descargar"
 
 #: ../../download_products_tab.rst:317
 msgid "|checkbox| :guilabel:`Ancillary data`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Datos auxiliares`"
 
 #: ../../download_products_tab.rst:318
 msgid "if checked, the metadata files are selected for download"
-msgstr ""
+msgstr "si está marcado, se descargaran los archivos de metadatos"
 
 #: ../../download_products_tab.rst:319
 msgid "|select_all|"
-msgstr ""
+msgstr "|select_all|"
 
 #: ../../download_products_tab.rst:320
 msgid "select or deselect all bands"
-msgstr ""
+msgstr "selecciona o deselecciona todas las bandas "
 
 #: ../../download_products_tab.rst:321
 msgid "|checkbox| :guilabel:`Only if preview in Layers`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Solo si la previsualización está en Capas`"
 
 #: ../../download_products_tab.rst:322
 msgid ""
 "if checked, download only those images listed in :ref:`product_list` which "
 "are also listed in the QGIS layer panel"
 msgstr ""
+"si está marcado, descarga solo las imágenes en la :ref:`product_list` que ya"
+" está en el panel de capas de QGIS"
 
 #: ../../download_products_tab.rst:324
 msgid "|checkbox| :guilabel:`Preprocess images`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Preprocesar imágenes`"
 
 #: ../../download_products_tab.rst:325
 msgid "if checked, bands are automatically converted after the download"
 msgstr ""
+"si está marcado, las bandas será automáticamente convertidas después de la "
+"descarga"
 
 #: ../../download_products_tab.rst:326
 msgid "|checkbox| :guilabel:`Load bands in QGIS`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Cargar bandas en QGIS`"
 
 #: ../../download_products_tab.rst:327
 msgid "if checked, bands are loaded in QGIS after the download"
-msgstr ""
+msgstr "si está marcado, las bandas se cargan en QGIS después de la descarga"
 
 #: ../../download_products_tab.rst:329
 msgid "export the download links to a text file (.csv)"
-msgstr ""
+msgstr "exportar los enlaces de descarga a un archivo de texto (.csv)"
 
 #: ../../download_products_tab.rst:330
 msgid ":guilabel:`RUN` |run|"
@@ -705,6 +711,8 @@ msgstr ":guilabel:`EJECUTAR` |run|"
 msgid ""
 "start the download process of all the products listed in :ref:`product_list`"
 msgstr ""
+"iniciar la descarga de todos los productos que están en la "
+":ref:`product_list`"
 
 #: ../../download_products_tab.rst:337
 msgid "Login data"
@@ -716,7 +724,7 @@ msgstr "| login_data | : guilabel: `Datos de inicio de sesión`"
 
 #: ../../download_products_tab.rst:349
 msgid "Login Harmonized Landsat Sentinel-2"
-msgstr ""
+msgstr "Login Harmonized Landsat Sentinel-2"
 
 #: ../../download_products_tab.rst:351
 msgid ""
@@ -724,33 +732,39 @@ msgid ""
 "`EOSDIS Earthdata` credentials (https://urs.earthdata.nasa.gov) One can "
 "register for free at https://urs.earthdata.nasa.gov/users/new ."
 msgstr ""
+"La descarga de Landsat Sentinel-2 Armonizado requiere registrarse en `EOSDIS"
+" Earthdata` (https://urs.earthdata.nasa.gov) Puedes registrarte de forma "
+"grauita en https://urs.earthdata.nasa.gov/users/new ."
 
 #: ../../download_products_tab.rst:361
 msgid ":guilabel:`User` |input_text| |registry_save|"
-msgstr ""
+msgstr ":guilabel:`Usuario` |input_text| |registry_save|"
 
 #: ../../download_products_tab.rst:362
 msgid "enter the user name"
-msgstr ""
+msgstr "introduce el nombre de usuario"
 
 #: ../../download_products_tab.rst:363
 msgid ":guilabel:`Password` |input_text| |registry_save|"
-msgstr ""
+msgstr ":guilabel:`Contraseña` |input_text| |registry_save|"
 
 #: ../../download_products_tab.rst:364
 msgid "enter the password"
-msgstr ""
+msgstr "introduce la contraseña"
 
 #: ../../download_products_tab.rst:365
 msgid "|checkbox| :guilabel:`remember`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`recordar`"
 
 #: ../../download_products_tab.rst:366
 msgid "if checked, remember user name and password locally in QGIS"
 msgstr ""
+"si está marcado, se recordará el nombre de usuario y contraseña en QGIS"
 
 #: ../../download_products_tab.rst:370
 msgid ""
 "If |checkbox| :guilabel:`remember` is checked, the password is stored "
 "unencrypted in QGIS registry."
 msgstr ""
+"si|checkbox| :guilabel:`recordar` está marcado, la contraseña será "
+"almacenada sin encriptación en el registro de QGIS."

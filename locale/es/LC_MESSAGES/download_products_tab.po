@@ -678,6 +678,8 @@ msgid ""
 "if checked, download only those images listed in :ref:`product_list` which "
 "are also listed in the QGIS layer panel"
 msgstr ""
+"si está marcado, descarga solo las imágenes en la :ref:`product_list` que ya"
+" está en el panel de capas de QGIS"
 
 #: ../../download_products_tab.rst:324
 msgid "|checkbox| :guilabel:`Preprocess images`"

@@ -257,7 +257,7 @@ msgstr "|reload|"
 #: ../../cross_classification_tab.rst:164
 #: ../../cross_classification_tab.rst:172
 msgid "refresh layer list"
-msgstr "refresca la lista de capas"
+msgstr "actualiza la lista de capas"
 
 #: ../../cross_classification_tab.rst:165
 msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number| |optional|"

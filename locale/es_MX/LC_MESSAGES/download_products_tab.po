@@ -759,6 +759,7 @@ msgstr "|checkbox| :guilabel:`recordar`"
 #: ../../download_products_tab.rst:366
 msgid "if checked, remember user name and password locally in QGIS"
 msgstr ""
+"si está marcado, se recordará el nombre de usuario y contraseña en QGIS"
 
 #: ../../download_products_tab.rst:370
 msgid ""

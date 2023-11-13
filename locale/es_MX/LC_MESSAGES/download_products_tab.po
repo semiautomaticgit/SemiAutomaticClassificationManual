@@ -430,6 +430,10 @@ msgid ""
 "searches defining smaller area extent and narrow acquisition dates (from and"
 " to)."
 msgstr ""
+"Los resultados de búsqueda (y por tanto el número de resultados) dependen "
+"del tamaño del área de búsqueda y el rango de fechas. Para obtener más "
+"resultados, realiza varias búsquedas con un área más pequeña o un rango de "
+"fechas de adquisición más corto (desde y hasta)."
 
 #: ../../download_products_tab.rst:232
 msgid "Product list"

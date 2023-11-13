@@ -589,6 +589,9 @@ msgid ""
 "display preview of highlighted images in the map; preview is roughly "
 "georeferenced on the fly (not all the products include a preview)"
 msgstr ""
+"mostrar en el mapa la previsualización de las imágenes seleccionadas; la "
+"georreferenciación de la previsualización es aproximada y se realiza al "
+"vuelo (no todos los productos incluyen previsualización)"
 
 #: ../../download_products_tab.rst:288
 msgid "|remove|"

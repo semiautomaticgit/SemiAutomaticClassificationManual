@@ -738,7 +738,7 @@ msgstr ""
 
 #: ../../download_products_tab.rst:361
 msgid ":guilabel:`User` |input_text| |registry_save|"
-msgstr ""
+msgstr ":guilabel:`Usuario` |input_text| |registry_save|"
 
 #: ../../download_products_tab.rst:362
 msgid "enter the user name"

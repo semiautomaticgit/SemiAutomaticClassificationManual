@@ -647,11 +647,11 @@ msgstr ""
 
 #: ../../download_products_tab.rst:315
 msgid "|checkbox| :guilabel:`Band` ``X``"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Banda` ``X``"
 
 #: ../../download_products_tab.rst:316
 msgid "select bands for download"
-msgstr ""
+msgstr "seleccionar bandas para descargar"
 
 #: ../../download_products_tab.rst:317
 msgid "|checkbox| :guilabel:`Ancillary data`"

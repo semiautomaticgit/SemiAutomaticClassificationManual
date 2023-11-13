@@ -607,7 +607,7 @@ msgstr "|reset|"
 
 #: ../../download_products_tab.rst:291
 msgid "remove all images from the list"
-msgstr ""
+msgstr "quitar todas las imágenes de la lista"
 
 #: ../../download_products_tab.rst:292
 msgid "|import|"

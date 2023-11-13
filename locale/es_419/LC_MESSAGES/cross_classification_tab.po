@@ -202,6 +202,12 @@ msgid ""
 "file containing the cross matrix (i.e. a ``.csv`` file) is created with the "
 "same name defined for the ``.tif`` file."
 msgstr ""
+"El resultado es un ``ráster de cruces`` que es un archivo ``.tif`` donde los"
+" valores de los píxeles representan las categorías de comparación (i.e. "
+"combinaciones identificadas por el ``CrossMatrixCode``) entre la "
+"clasificación y la referencia. Tambien, se crea un archivo de texto que "
+"contiene la matriz de cruces (i.e. un archivo ``.csv``) con el mismo nombre "
+"definido para el archivo ``.tif``."
 
 #: ../../cross_classification_tab.rst:141
 msgid ""
@@ -277,6 +283,8 @@ msgid ""
 "select a raster or a vector (already loaded in QGIS), used as reference "
 "layer"
 msgstr ""
+"seleccionar un ráster o vector (ya cargado en QGIS), para usarlo como capa "
+"de referencia"
 
 #: ../../cross_classification_tab.rst:173
 msgid ":guilabel:`Vector field` |input_list| |optional|"
@@ -292,11 +300,13 @@ msgstr ""
 
 #: ../../cross_classification_tab.rst:176
 msgid "|checkbox| :guilabel:`Calculate linear regression` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Calcular regresión lineal` |optional|"
 
 #: ../../cross_classification_tab.rst:177
 msgid "if checked, calculate linear regression between the two input layers"
 msgstr ""
+"si está marcado, se calculará la regresión lineal entre las dos capas de "
+"entrada"
 
 #: ../../cross_classification_tab.rst:178
 msgid ":guilabel:`Script` |script_tool|"

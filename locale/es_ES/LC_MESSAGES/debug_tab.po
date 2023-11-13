@@ -47,23 +47,23 @@ msgstr "input_list"
 
 #: ../../debug_tab.rst:23
 msgid "input_text"
-msgstr "texto de entrada"
+msgstr "input_text"
 
 #: ../../debug_tab.rst:26
 msgid "checkbox"
-msgstr "casilla de confirmación"
+msgstr "checkbox"
 
 #: ../../debug_tab.rst:29
 msgid "reset"
-msgstr "reiniciar"
+msgstr "reset"
 
 #: ../../debug_tab.rst:32
 msgid "export"
-msgstr "exportar"
+msgstr "export"
 
 #: ../../debug_tab.rst:35
 msgid "input_number"
-msgstr "número de entrada"
+msgstr "input_number"
 
 #: ../../debug_tab.rst:38
 msgid "enter"

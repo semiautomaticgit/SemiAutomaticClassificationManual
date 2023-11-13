@@ -39,11 +39,11 @@ msgstr "project_save"
 
 #: ../../debug_tab.rst:17
 msgid "optional"
-msgstr "opcional"
+msgstr "optional"
 
 #: ../../debug_tab.rst:20
 msgid "input_list"
-msgstr "lista_entrada"
+msgstr "input_list"
 
 #: ../../debug_tab.rst:23
 msgid "input_text"

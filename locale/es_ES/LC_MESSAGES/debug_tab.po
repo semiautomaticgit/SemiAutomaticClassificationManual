@@ -82,7 +82,7 @@ msgid ""
 "check of :guilabel:`SCP` dependencies."
 msgstr ""
 "Esta pestaña permite depurar :guilabel:`SCP` en el caso de que haya "
-"problemas, y comprobar las dependencias de :guilabel:`SCP`"
+"problemas, y verificar las dependencias de :guilabel:`SCP`"
 
 #: ../../debug_tab.rst:56
 msgid "Log file"

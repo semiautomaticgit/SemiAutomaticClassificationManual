@@ -202,6 +202,12 @@ msgid ""
 "file containing the cross matrix (i.e. a ``.csv`` file) is created with the "
 "same name defined for the ``.tif`` file."
 msgstr ""
+"El resultado es un ``ráster de cruces`` que es un archivo ``.tif`` donde los"
+" valores de los píxeles representan las categorías de comparación (i.e. "
+"combinaciones identificadas por el ``CrossMatrixCode``) entre la "
+"clasificación y la referencia. Tambien, se crea un archivo de texto que "
+"contiene la matriz de cruces (i.e. un archivo ``.csv``) con el mismo nombre "
+"definido para el archivo ``.tif``."
 
 #: ../../cross_classification_tab.rst:141
 msgid ""

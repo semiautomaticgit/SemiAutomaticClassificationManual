@@ -683,7 +683,7 @@ msgstr ""
 
 #: ../../download_products_tab.rst:324
 msgid "|checkbox| :guilabel:`Preprocess images`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Preprocesar imágenes`"
 
 #: ../../download_products_tab.rst:325
 msgid "if checked, bands are automatically converted after the download"

@@ -470,11 +470,11 @@ msgstr "product_id"
 
 #: ../../download_products_tab.rst:248
 msgid "acquisition_date"
-msgstr ""
+msgstr "acquisition_date"
 
 #: ../../download_products_tab.rst:249
 msgid "cloud_cover"
-msgstr ""
+msgstr "cloud_cover"
 
 #: ../../download_products_tab.rst:250
 msgid "zone_path"
@@ -506,23 +506,23 @@ msgstr "colección"
 
 #: ../../download_products_tab.rst:257
 msgid "size"
-msgstr ""
+msgstr "size"
 
 #: ../../download_products_tab.rst:258
 msgid "preview"
-msgstr ""
+msgstr "preview"
 
 #: ../../download_products_tab.rst:259
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: ../../download_products_tab.rst:260
 msgid "the product name (e.g., Sentinel-2)"
-msgstr ""
+msgstr "el nombre del producto (e.g., Sentinel-2)"
 
 #: ../../download_products_tab.rst:261
 msgid "the image name"
-msgstr ""
+msgstr "el nombre de la imagen"
 
 #: ../../download_products_tab.rst:262
 msgid "the ID of the product"

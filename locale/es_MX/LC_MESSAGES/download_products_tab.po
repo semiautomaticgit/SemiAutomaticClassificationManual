@@ -642,6 +642,8 @@ msgid ""
 "Depending on the download service, it is possible to select single bands for"
 " download."
 msgstr ""
+"Dependiendo del servicio de descarga, es posible seleccionar bandas a "
+"descargar"
 
 #: ../../download_products_tab.rst:315
 msgid "|checkbox| :guilabel:`Band` ``X``"

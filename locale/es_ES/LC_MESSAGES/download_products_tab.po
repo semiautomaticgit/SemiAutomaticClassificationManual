@@ -599,7 +599,7 @@ msgstr "|remove|"
 
 #: ../../download_products_tab.rst:289
 msgid "remove highlighted images from the list"
-msgstr ""
+msgstr "quitar las imágenes seleccionadas de la lista"
 
 #: ../../download_products_tab.rst:290
 msgid "|reset|"

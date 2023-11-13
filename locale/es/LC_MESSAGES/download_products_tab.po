@@ -599,7 +599,7 @@ msgstr "|remove|"
 
 #: ../../download_products_tab.rst:289
 msgid "remove highlighted images from the list"
-msgstr ""
+msgstr "quitar las imágenes seleccionadas de la lista"
 
 #: ../../download_products_tab.rst:290
 msgid "|reset|"
@@ -607,7 +607,7 @@ msgstr "|reset|"
 
 #: ../../download_products_tab.rst:291
 msgid "remove all images from the list"
-msgstr ""
+msgstr "quitar todas las imágenes de la lista"
 
 #: ../../download_products_tab.rst:292
 msgid "|import|"
@@ -615,7 +615,7 @@ msgstr "|import|"
 
 #: ../../download_products_tab.rst:293
 msgid "import the product list from an XML file"
-msgstr ""
+msgstr "importar la lista de productos desde un archivo XML"
 
 #: ../../download_products_tab.rst:294 ../../download_products_tab.rst:328
 msgid "|export|"

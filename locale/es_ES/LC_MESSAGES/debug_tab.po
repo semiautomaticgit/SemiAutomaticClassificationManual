@@ -5,7 +5,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 # 
 # Translators:
-# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
@@ -28,15 +27,15 @@ msgstr ""
 
 #: ../../debug_tab.rst:5
 msgid "Debug"
-msgstr "Depurar"
+msgstr "Depuración"
 
 #: ../../debug_tab.rst:11
 msgid "registry_save"
-msgstr "registro_guardar"
+msgstr "registry_save"
 
 #: ../../debug_tab.rst:14
 msgid "project_save"
-msgstr "guardar_proyecto"
+msgstr "project_save"
 
 #: ../../debug_tab.rst:17
 msgid "optional"

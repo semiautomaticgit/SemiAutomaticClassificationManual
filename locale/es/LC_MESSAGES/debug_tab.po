@@ -106,6 +106,7 @@ msgstr ""
 #: ../../debug_tab.rst:66
 msgid "if checked, start recording detailed events in a Log file"
 msgstr ""
+"si está marcado, se grabaran eventos detallados en un archivo de registro."
 
 #: ../../debug_tab.rst:67
 msgid "|export|"

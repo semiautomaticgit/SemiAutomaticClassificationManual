@@ -526,15 +526,15 @@ msgstr "el nombre de la imagen"
 
 #: ../../download_products_tab.rst:262
 msgid "the ID of the product"
-msgstr ""
+msgstr "el ID del producto"
 
 #: ../../download_products_tab.rst:263
 msgid "the acquisition date of the product"
-msgstr ""
+msgstr "la fecha de adquisición del producto"
 
 #: ../../download_products_tab.rst:264
 msgid "percentage of cloud cover in the product"
-msgstr ""
+msgstr "porcentaje de la cubierta de nubes en el producto"
 
 #: ../../download_products_tab.rst:265
 msgid "the zone or WRS path depending on the product type"

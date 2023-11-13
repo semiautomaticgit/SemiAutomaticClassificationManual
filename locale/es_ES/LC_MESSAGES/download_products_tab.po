@@ -667,7 +667,7 @@ msgstr "|select_all|"
 
 #: ../../download_products_tab.rst:320
 msgid "select or deselect all bands"
-msgstr ""
+msgstr "selecciona o deselecciona todas las bandas "
 
 #: ../../download_products_tab.rst:321
 msgid "|checkbox| :guilabel:`Only if preview in Layers`"

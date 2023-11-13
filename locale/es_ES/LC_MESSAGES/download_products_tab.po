@@ -562,7 +562,7 @@ msgstr "longitud máxima del producto"
 
 #: ../../download_products_tab.rst:271
 msgid "collection code"
-msgstr ""
+msgstr "código de la colección"
 
 #: ../../download_products_tab.rst:272
 msgid "product size"

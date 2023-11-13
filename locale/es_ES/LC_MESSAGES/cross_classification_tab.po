@@ -235,7 +235,7 @@ msgstr ""
 
 #: ../../cross_classification_tab.rst:159
 msgid "Tool symbol and name"
-msgstr "Símbolo de la herramienta y nombre"
+msgstr "Símbolo y nombre de la herramienta"
 
 #: ../../cross_classification_tab.rst:160
 msgid "Description"

@@ -458,15 +458,15 @@ msgstr "La tabla incluye los siguientes campos."
 
 #: ../../download_products_tab.rst:245
 msgid "product"
-msgstr "producto"
+msgstr "product"
 
 #: ../../download_products_tab.rst:246
 msgid "image"
-msgstr "imagen"
+msgstr "image"
 
 #: ../../download_products_tab.rst:247
 msgid "product_id"
-msgstr ""
+msgstr "product_id"
 
 #: ../../download_products_tab.rst:248
 msgid "acquisition_date"

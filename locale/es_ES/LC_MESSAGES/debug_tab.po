@@ -99,6 +99,7 @@ msgstr "Descripción"
 #: ../../debug_tab.rst:65
 msgid ":guilabel:`Record detailed events in a Log file` |registry_save|"
 msgstr ""
+":guilabel:`Registrar eventos en un archivo de registro` |registry_save|"
 
 #: ../../debug_tab.rst:66
 msgid "if checked, start recording detailed events in a Log file"

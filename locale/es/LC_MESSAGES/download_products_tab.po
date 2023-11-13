@@ -542,7 +542,7 @@ msgstr "la zona o el path WRS dependiendo del tipo de producto"
 
 #: ../../download_products_tab.rst:266
 msgid "the WRS row"
-msgstr ""
+msgstr "el row WRS"
 
 #: ../../download_products_tab.rst:267
 msgid "minimum latitude of the product"

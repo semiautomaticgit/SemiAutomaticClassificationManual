@@ -678,18 +678,22 @@ msgid ""
 "if checked, download only those images listed in :ref:`product_list` which "
 "are also listed in the QGIS layer panel"
 msgstr ""
+"si está marcado, descarga solo las imágenes en la :ref:`product_list` que ya"
+" está en el panel de capas de QGIS"
 
 #: ../../download_products_tab.rst:324
 msgid "|checkbox| :guilabel:`Preprocess images`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Preprocesar imágenes`"
 
 #: ../../download_products_tab.rst:325
 msgid "if checked, bands are automatically converted after the download"
 msgstr ""
+"si está marcado, las bandas será automáticamente convertidas después de la "
+"descarga"
 
 #: ../../download_products_tab.rst:326
 msgid "|checkbox| :guilabel:`Load bands in QGIS`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Cargar bandas en QGIS`"
 
 #: ../../download_products_tab.rst:327
 msgid "if checked, bands are loaded in QGIS after the download"

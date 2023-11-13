@@ -112,7 +112,7 @@ msgstr "|export|"
 
 #: ../../debug_tab.rst:68
 msgid "export the Log file to a .txt file"
-msgstr ""
+msgstr "exportar el registro a un archivo .txt"
 
 #: ../../debug_tab.rst:73
 msgid "Test"
@@ -120,7 +120,7 @@ msgstr "Prueba"
 
 #: ../../debug_tab.rst:82
 msgid ":guilabel:`Test dependencies` |enter|"
-msgstr ""
+msgstr ":guilabel:`Probar dependencias` |enter|"
 
 #: ../../debug_tab.rst:83
 msgid ""

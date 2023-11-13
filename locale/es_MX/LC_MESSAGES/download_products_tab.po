@@ -659,15 +659,15 @@ msgstr "|checkbox| :guilabel:`Datos auxiliares`"
 
 #: ../../download_products_tab.rst:318
 msgid "if checked, the metadata files are selected for download"
-msgstr ""
+msgstr "si está marcado, se descargaran los archivos de metadatos"
 
 #: ../../download_products_tab.rst:319
 msgid "|select_all|"
-msgstr ""
+msgstr "|select_all|"
 
 #: ../../download_products_tab.rst:320
 msgid "select or deselect all bands"
-msgstr ""
+msgstr "selecciona o deselecciona todas las bandas "
 
 #: ../../download_products_tab.rst:321
 msgid "|checkbox| :guilabel:`Only if preview in Layers`"

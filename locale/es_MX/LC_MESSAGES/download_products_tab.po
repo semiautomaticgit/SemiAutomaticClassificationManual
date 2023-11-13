@@ -701,7 +701,7 @@ msgstr "si está marcado, las bandas se cargan en QGIS después de la descarga"
 
 #: ../../download_products_tab.rst:329
 msgid "export the download links to a text file (.csv)"
-msgstr ""
+msgstr "exportar los enlaces de descarga a un archivo de texto (.csv)"
 
 #: ../../download_products_tab.rst:330
 msgid ":guilabel:`RUN` |run|"

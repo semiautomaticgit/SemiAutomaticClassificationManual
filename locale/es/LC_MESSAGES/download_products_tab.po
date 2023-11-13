@@ -748,11 +748,11 @@ msgstr ":guilabel:`Contraseña` |input_text| |registry_save|"
 
 #: ../../download_products_tab.rst:364
 msgid "enter the password"
-msgstr ""
+msgstr "introduce la contraseña"
 
 #: ../../download_products_tab.rst:365
 msgid "|checkbox| :guilabel:`remember`"
-msgstr ""
+msgstr "|checkbox| :guilabel:`recordar`"
 
 #: ../../download_products_tab.rst:366
 msgid "if checked, remember user name and password locally in QGIS"

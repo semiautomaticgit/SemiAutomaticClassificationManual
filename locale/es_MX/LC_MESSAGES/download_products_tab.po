@@ -623,7 +623,7 @@ msgstr "|export|"
 
 #: ../../download_products_tab.rst:295
 msgid "export the product list to an XML file"
-msgstr ""
+msgstr "exportar la lista de productos a un archivo XML"
 
 #: ../../download_products_tab.rst:301
 msgid "Download"

@@ -542,23 +542,23 @@ msgstr "la zona o el path WRS dependiendo del tipo de producto"
 
 #: ../../download_products_tab.rst:266
 msgid "the WRS row"
-msgstr ""
+msgstr "el row WRS"
 
 #: ../../download_products_tab.rst:267
 msgid "minimum latitude of the product"
-msgstr ""
+msgstr "latitud mínima del producto"
 
 #: ../../download_products_tab.rst:268
 msgid "minimum longitude of the product"
-msgstr ""
+msgstr "longitud mínima del producto"
 
 #: ../../download_products_tab.rst:269
 msgid "maximum latitude of the product"
-msgstr ""
+msgstr "latitud máxima del producto"
 
 #: ../../download_products_tab.rst:270
 msgid "maximum longitude of the product"
-msgstr ""
+msgstr "longitud máxima del producto"
 
 #: ../../download_products_tab.rst:271
 msgid "collection code"

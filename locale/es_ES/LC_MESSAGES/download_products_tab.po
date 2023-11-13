@@ -407,7 +407,7 @@ msgstr ""
 
 #: ../../download_products_tab.rst:216
 msgid "|osm_add| Add OpenStreetMap to the map"
-msgstr ""
+msgstr "|osm_add| Añadir OpenStreetMap al mapa"
 
 #: ../../download_products_tab.rst:217
 msgid ""

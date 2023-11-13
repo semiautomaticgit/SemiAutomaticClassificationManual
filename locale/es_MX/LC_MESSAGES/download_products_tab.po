@@ -697,7 +697,7 @@ msgstr "|checkbox| :guilabel:`Cargar bandas en QGIS`"
 
 #: ../../download_products_tab.rst:327
 msgid "if checked, bands are loaded in QGIS after the download"
-msgstr ""
+msgstr "si está marcado, las bandas se cargan en QGIS después de la descarga"
 
 #: ../../download_products_tab.rst:329
 msgid "export the download links to a text file (.csv)"

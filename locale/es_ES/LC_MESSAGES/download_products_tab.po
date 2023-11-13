@@ -615,7 +615,7 @@ msgstr "|import|"
 
 #: ../../download_products_tab.rst:293
 msgid "import the product list from an XML file"
-msgstr ""
+msgstr "importar la lista de productos desde un archivo XML"
 
 #: ../../download_products_tab.rst:294 ../../download_products_tab.rst:328
 msgid "|export|"
@@ -623,7 +623,7 @@ msgstr "|export|"
 
 #: ../../download_products_tab.rst:295
 msgid "export the product list to an XML file"
-msgstr ""
+msgstr "exportar la lista de productos a un archivo XML"
 
 #: ../../download_products_tab.rst:301
 msgid "Download"
@@ -634,7 +634,7 @@ msgid ""
 "Download the products in the :ref:`product_list`. During the download it is "
 "recommended not to interact with QGIS."
 msgstr ""
-"Descargue los productos en la :ref:`product_list`. Durante la descarga, se "
+"Descarga los productos en la :ref:`product_list`. Durante la descarga, se "
 "recomienda no interactuar con QGIS."
 
 #: ../../download_products_tab.rst:306

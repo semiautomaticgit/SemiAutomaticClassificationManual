@@ -86,7 +86,7 @@ msgstr ""
 
 #: ../../debug_tab.rst:56
 msgid "Log file"
-msgstr "Archivo Log"
+msgstr "Archivo de Registro"
 
 #: ../../debug_tab.rst:63 ../../debug_tab.rst:80
 msgid "Tool symbol and name"

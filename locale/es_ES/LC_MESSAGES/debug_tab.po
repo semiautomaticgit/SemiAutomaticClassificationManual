@@ -90,7 +90,7 @@ msgstr "Archivo de Registro"
 
 #: ../../debug_tab.rst:63 ../../debug_tab.rst:80
 msgid "Tool symbol and name"
-msgstr "Símbolo de la herramienta y nombre"
+msgstr "Símbolo  y nombre de la herramienta"
 
 #: ../../debug_tab.rst:64 ../../debug_tab.rst:81
 msgid "Description"

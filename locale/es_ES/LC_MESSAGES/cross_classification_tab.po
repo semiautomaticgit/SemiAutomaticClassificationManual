@@ -295,11 +295,11 @@ msgid ""
 "numeric class values"
 msgstr ""
 "si has seleccionado un vector como referencia, selecciona un campo del "
-"vector que contenga valores numéricos de las clases"
+"vector que contenga los valores numéricos de las clases"
 
 #: ../../cross_classification_tab.rst:176
 msgid "|checkbox| :guilabel:`Calculate linear regression` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Calcular regresión lineal` |optional|"
 
 #: ../../cross_classification_tab.rst:177
 msgid "if checked, calculate linear regression between the two input layers"

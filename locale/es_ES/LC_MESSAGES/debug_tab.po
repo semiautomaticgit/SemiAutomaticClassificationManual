@@ -6,7 +6,6 @@
 # 
 # Translators:
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
-# Marlon Castillo <marloncastillo286@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
 #, fuzzy
@@ -67,15 +66,15 @@ msgstr "input_number"
 
 #: ../../debug_tab.rst:38
 msgid "enter"
-msgstr "ingresar"
+msgstr "enter"
 
 #: ../../debug_tab.rst:41
 msgid "open_dir"
-msgstr "abrir_dir"
+msgstr "open_dir"
 
 #: ../../debug_tab.rst:48
 msgid ":guilabel:`Debug`"
-msgstr ":guilabel:`Depurar`"
+msgstr ":guilabel:`Depuración`"
 
 #: ../../debug_tab.rst:50
 msgid ""

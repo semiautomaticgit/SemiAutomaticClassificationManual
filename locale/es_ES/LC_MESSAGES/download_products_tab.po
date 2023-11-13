@@ -478,15 +478,15 @@ msgstr "cloud_cover"
 
 #: ../../download_products_tab.rst:250
 msgid "zone_path"
-msgstr ""
+msgstr "zone_path"
 
 #: ../../download_products_tab.rst:251
 msgid "row"
-msgstr ""
+msgstr "row"
 
 #: ../../download_products_tab.rst:252
 msgid "min_lat"
-msgstr "lat_min"
+msgstr "min_lat"
 
 #: ../../download_products_tab.rst:253
 msgid "min_lon"

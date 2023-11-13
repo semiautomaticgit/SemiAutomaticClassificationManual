@@ -732,6 +732,9 @@ msgid ""
 "`EOSDIS Earthdata` credentials (https://urs.earthdata.nasa.gov) One can "
 "register for free at https://urs.earthdata.nasa.gov/users/new ."
 msgstr ""
+"La descarga de Landsat Sentinel-2 Armonizado requiere registrarse en `EOSDIS"
+" Earthdata` (https://urs.earthdata.nasa.gov) Puedes registrarte de forma "
+"grauita en https://urs.earthdata.nasa.gov/users/new ."
 
 #: ../../download_products_tab.rst:361
 msgid ":guilabel:`User` |input_text| |registry_save|"

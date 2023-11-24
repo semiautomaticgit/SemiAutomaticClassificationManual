@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Febriani Ayuningsih, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"PO-Revision-Date: 2023-10-24 15:44+0000\n"
+"Last-Translator: Febriani Ayuningsih, 2023\n"
+"Language-Team: Indonesian (https://app.transifex.com/semi-automatic-classification/teams/53374/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../pca_tab.rst:5 ../../pca_tab.rst:140
+msgid "PCA"
+msgstr ""
+
+#: ../../pca_tab.rst:11
+msgid "registry_save"
+msgstr ""
+
+#: ../../pca_tab.rst:14
+msgid "project_save"
+msgstr ""
+
+#: ../../pca_tab.rst:17
+msgid "optional"
+msgstr "Pilihan"
+
+#: ../../pca_tab.rst:20
+msgid "input_list"
+msgstr "Daftar input"
+
+#: ../../pca_tab.rst:23
+msgid "input_text"
+msgstr "Masukkan teks"
+
+#: ../../pca_tab.rst:26
+msgid "input_date"
+msgstr "Masukkan tanggal"
+
+#: ../../pca_tab.rst:29
+msgid "input_number"
+msgstr "Masukkan Angka"
+
+#: ../../pca_tab.rst:32
+msgid "input_table"
+msgstr "Masukkan tabel"
+
+#: ../../pca_tab.rst:35
+msgid "open_file"
+msgstr "Buka"
+
+#: ../../pca_tab.rst:38
+msgid "new_file"
+msgstr "Baru"
+
+#: ../../pca_tab.rst:41
+msgid "add"
+msgstr "Tambah"
+
+#: ../../pca_tab.rst:44
+msgid "reset"
+msgstr "Atur Ulang"
+
+#: ../../pca_tab.rst:47
+msgid "bandset_tool"
+msgstr ""
+
+#: ../../pca_tab.rst:50
+msgid "download"
+msgstr "Unduh"
+
+#: ../../pca_tab.rst:53
+msgid "export"
+msgstr "Ekspor"
+
+#: ../../pca_tab.rst:56
+msgid "tools"
+msgstr "Alat"
+
+#: ../../pca_tab.rst:59
+msgid "preprocessing"
+msgstr ""
+
+#: ../../pca_tab.rst:62
+msgid "band_processing"
+msgstr ""
+
+#: ../../pca_tab.rst:65
+msgid "postprocessing"
+msgstr ""
+
+#: ../../pca_tab.rst:68
+msgid "bandcalc"
+msgstr ""
+
+#: ../../pca_tab.rst:71
+msgid "settings"
+msgstr "Pengaturan"
+
+#: ../../pca_tab.rst:74
+msgid "script_tool"
+msgstr ""
+
+#: ../../pca_tab.rst:77
+msgid "enter"
+msgstr "Masuk"
+
+#: ../../pca_tab.rst:80
+msgid "zoom_to_ROI"
+msgstr "Perbesar_ke_ROI"
+
+#: ../../pca_tab.rst:83
+msgid "check"
+msgstr "Cek"
+
+#: ../../pca_tab.rst:86
+msgid "select_all"
+msgstr "pilih semua"
+
+#: ../../pca_tab.rst:89
+msgid "docks"
+msgstr ""
+
+#: ../../pca_tab.rst:92
+msgid "add_sign_tool"
+msgstr "tambah sarana tanda tangan"
+
+#: ../../pca_tab.rst:95
+msgid "guide"
+msgstr "Petunjuk"
+
+#: ../../pca_tab.rst:98
+msgid "help"
+msgstr "Bantuan"
+
+#: ../../pca_tab.rst:101
+msgid "reload"
+msgstr "muat ulang"
+
+#: ../../pca_tab.rst:104
+msgid "checkbox"
+msgstr "kotak centang"
+
+#: ../../pca_tab.rst:107
+msgid "run"
+msgstr "jalankan"
+
+#: ../../pca_tab.rst:110
+msgid "radiobutton"
+msgstr "tombol radio"
+
+#: ../../pca_tab.rst:113
+msgid "pointer"
+msgstr "penunjuk"
+
+#: ../../pca_tab.rst:116
+msgid "threshold_tool"
+msgstr "alat ambang batas"
+
+#: ../../pca_tab.rst:124
+msgid ":guilabel:`PCA`"
+msgstr ""
+
+#: ../../pca_tab.rst:127
+msgid ""
+"This tab allows for the PCA (:ref:`principal_component_analysis`) of bands "
+"loaded in the :guilabel:`Band set`."
+msgstr ""
+
+#: ../../pca_tab.rst:130
+msgid ""
+"A report .txt is saved along with the PCA bands, containing the covariance "
+"matrix, correlation matrix, eigen vectors, and eigen values."
+msgstr ""
+
+#: ../../pca_tab.rst:134
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_pca.html>`_ ."
+msgstr ""
+
+#: ../../pca_tab.rst:146
+msgid "Tool symbol and name"
+msgstr "Nama dan simbol alat"
+
+#: ../../pca_tab.rst:147
+msgid "Description"
+msgstr "Deskripsi"
+
+#: ../../pca_tab.rst:148
+msgid ":guilabel:`Select input band set` |input_number|"
+msgstr ""
+
+#: ../../pca_tab.rst:149
+msgid "select the input :ref:`band_set_tab`"
+msgstr "pilih masukan :ref:`band_set_tab`"
+
+#: ../../pca_tab.rst:150
+msgid "|checkbox| :guilabel:`Number of components` |input_number| |optional|"
+msgstr ""
+
+#: ../../pca_tab.rst:151
+msgid "set the number of components to be calculated"
+msgstr ""
+
+#: ../../pca_tab.rst:152
+msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number|"
+msgstr ""
+
+#: ../../pca_tab.rst:153
+msgid ""
+"if checked, set the value of ``NoData`` pixels, ignored during the "
+"calculation"
+msgstr ""
+
+#: ../../pca_tab.rst:155
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ""
+
+#: ../../pca_tab.rst:156
+msgid "add this function to the :ref:`script_tab`"
+msgstr "tambahkan fungsi ini ke :ref:'script_tab'"
+
+#: ../../pca_tab.rst:157
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`JALANKAN` |run|"
+
+#: ../../pca_tab.rst:158
+msgid "run this function"
+msgstr "jalankan fungsi ini"
+
+#: ../../pca_tab.rst:160
+msgid ""
+"The ``Output`` tab will display the Principal Components Analysis details "
+"(Covariance matrix, Correlation matrix, Eigenvectors, and Eigenvalues)."
+msgstr ""

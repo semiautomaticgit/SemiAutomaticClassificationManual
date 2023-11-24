@@ -7,6 +7,7 @@
 # Translators:
 # iqnaul <iqnaulhaq@gmail.com>, 2023
 # arthur koto <atthetruth@gmail.com>, 2023
+# Febriani Ayuningsih, 2023
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-23 00:33+0200\n"
 "PO-Revision-Date: 2023-10-24 15:43+0000\n"
-"Last-Translator: arthur koto <atthetruth@gmail.com>, 2023\n"
+"Last-Translator: Febriani Ayuningsih, 2023\n"
 "Language-Team: Indonesian (Indonesia) (https://app.transifex.com/semi-automatic-classification/teams/53374/id_ID/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,15 +31,15 @@ msgstr "Beberapa Pertanyaan yang sering ditanyakan"
 
 #: ../../faq.rst:7
 msgid "export"
-msgstr ""
+msgstr "Ekspor"
 
 #: ../../faq.rst:10
 msgid "enter"
-msgstr ""
+msgstr "Masuk"
 
 #: ../../faq.rst:13
 msgid "checkbox"
-msgstr ""
+msgstr "kotak centang"
 
 #: ../../faq.rst:17
 msgid ""

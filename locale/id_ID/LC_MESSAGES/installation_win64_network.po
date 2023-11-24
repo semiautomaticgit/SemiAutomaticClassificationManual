@@ -73,6 +73,9 @@ msgid ""
 "also select ``All > Libs > python3-remotior-sensus``, ``All > Libs > "
 "python3-scikit-learn`` and ``All > Libs > python3-torch``;"
 msgstr ""
+"Dalam menu ``Select packages`` pilih ``All > Desktop > qgis-full-"
+"free``;Pilih juga ``All> Libs > python3-remotior-sensus``, ``All > Libs > "
+"python3-scikit-learn`` and ``All > Libs > python3-torch``;"
 
 #: ../../installation_win64_network.rst:45
 msgid "Click ``Next`` and accept to install the required dependencies;"

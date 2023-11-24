@@ -246,7 +246,7 @@ msgstr "jika dicentang, erosinya akan berbentuk melingkar seperti buffer"
 
 #: ../../band_erosion_tab.rst:157
 msgid ":guilabel:`Output name`"
-msgstr ""
+msgstr ":guilabel:`Nama keluaran`"
 
 #: ../../band_erosion_tab.rst:158
 msgid "set the name prefix for output files"

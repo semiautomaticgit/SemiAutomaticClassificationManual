@@ -250,7 +250,7 @@ msgstr ":guilabel:`Nama keluaran`"
 
 #: ../../band_erosion_tab.rst:158
 msgid "set the name prefix for output files"
-msgstr ""
+msgstr "tentukan awalan nama untuk file keluaran"
 
 #: ../../band_erosion_tab.rst:159
 msgid "|checkbox| :guilabel:`Virtual output` |optional|"

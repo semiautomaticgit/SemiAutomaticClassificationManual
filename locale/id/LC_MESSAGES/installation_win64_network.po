@@ -166,6 +166,9 @@ msgid ""
 "Classification Plugin can check automatically if a new version is available,"
 " and display a message in the :ref:`scp_dock`."
 msgstr ""
+"Remotior Sensus sering diperbarui. Semi-Automatic Classification Plugin "
+"dapat melakukan pengecekan otomatis jika versi terbaru telah tersedia, dan "
+"menampilkan pesan pada :ref:`scp_dock`."
 
 #: ../../installation_win64_network.rst:122
 msgid ""

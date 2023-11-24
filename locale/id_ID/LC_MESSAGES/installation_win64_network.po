@@ -130,8 +130,8 @@ msgid ""
 msgstr ""
 "Sekarang, plugin Semi-Automatic Classification telah terinstall dan toolbar "
 "dan dok telah ditambahkan di QGIS. Menu SCP juga telah tersedia di Menu Bar "
-"QGIS. Sangat mungkin mengubah :ref:`toolbar_tools` dan dok menurut kehendak "
-"anda, seperti gambar berikut ini."
+"QGIS. Sangat mungkin memindahkan toolbar dan dok menurut kehendak anda, "
+"seperti gambar berikut ini."
 
 #: ../../installation_win64_network.rst:94
 msgid "settings_tool"

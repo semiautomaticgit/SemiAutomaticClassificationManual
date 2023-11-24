@@ -207,6 +207,7 @@ msgstr "Deskripsi"
 #: ../../band_erosion_tab.rst:146
 msgid ":guilabel:`Select input band set (of classifications)` |input_number|"
 msgstr ""
+":guilabel:`Pilih sekumpulan band masukan (klasifikasi)` |input_number|"
 
 #: ../../band_erosion_tab.rst:147
 msgid "select the input :ref:`band_set_tab`"

@@ -176,6 +176,9 @@ msgid ""
 "same installation steps described in "
 ":ref:`QGIS_network_installation_win64bit`."
 msgstr ""
+"Direkomendasikan untuk menutup QGIS dan memperbarui Remotior Sensus "
+"mengikuti langkah instalasi yang dijelaskan pada  "
+"ref:`QGIS_network_installation_win64bit`."
 
 #: ../../installation_win64_network.rst:125
 msgid ""

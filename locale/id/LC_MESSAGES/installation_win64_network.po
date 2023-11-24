@@ -135,7 +135,7 @@ msgstr ""
 
 #: ../../installation_win64_network.rst:94
 msgid "settings_tool"
-msgstr ""
+msgstr "alat_pengaturan"
 
 #: ../../installation_win64_network.rst:97
 msgid ""

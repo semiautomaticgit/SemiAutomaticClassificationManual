@@ -35,11 +35,11 @@ msgstr "Ekspor"
 
 #: ../../faq.rst:10
 msgid "enter"
-msgstr ""
+msgstr "Masuk"
 
 #: ../../faq.rst:13
 msgid "checkbox"
-msgstr ""
+msgstr "kotak centang"
 
 #: ../../faq.rst:17
 msgid ""

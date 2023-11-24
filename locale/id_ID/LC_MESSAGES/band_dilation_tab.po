@@ -169,7 +169,7 @@ msgstr "penunjuk"
 
 #: ../../band_dilation_tab.rst:116
 msgid "threshold_tool"
-msgstr ""
+msgstr "alat ambang batas"
 
 #: ../../band_dilation_tab.rst:124
 msgid ":guilabel:`Dilation`"

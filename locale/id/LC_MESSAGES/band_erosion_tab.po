@@ -276,7 +276,7 @@ msgstr "tambahkan fungsi ini ke :ref:'script_tab'"
 
 #: ../../band_erosion_tab.rst:165
 msgid ":guilabel:`RUN` |run|"
-msgstr ""
+msgstr ":guilabel:`JALANKAN` |run|"
 
 #: ../../band_erosion_tab.rst:166
 msgid "run this function"

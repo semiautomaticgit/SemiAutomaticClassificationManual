@@ -128,6 +128,10 @@ msgid ""
 "Bar of QGIS. It is possible to move the toolbar and the dock according to "
 "your needs, as in the following image."
 msgstr ""
+"Sekarang, plugin Semi-Automatic Classification telah terinstall dan toolbar "
+"dan dok telah ditambahkan di QGIS. Menu SCP juga telah tersedia di Menu Bar "
+"QGIS. Sangat mungkin mengubah :ref:`toolbar_tools` dan dok menurut kehendak "
+"anda, seperti gambar berikut ini."
 
 #: ../../installation_win64_network.rst:94
 msgid "settings_tool"

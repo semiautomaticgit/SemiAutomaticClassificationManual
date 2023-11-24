@@ -185,7 +185,9 @@ msgid ""
 "In case the library Remotior Sensus is outdated, it is possible to open the "
 "OSGeo4W Shell (administrative rights may be required):"
 msgstr ""
+"Jika library Remotior Sensus kadaluarsa, maka memungkinkan untuk membuka "
+"OSGeo4W Shell (mungkin membutuhkan hak administrative): "
 
 #: ../../installation_win64_network.rst:130
 msgid "and run the following command:"
-msgstr ""
+msgstr "dan jalankan perintah berikut:"

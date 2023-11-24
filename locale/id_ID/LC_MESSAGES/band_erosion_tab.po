@@ -238,7 +238,7 @@ msgstr "jumlah pixel yang akan ditambahkan dari batas"
 
 #: ../../band_erosion_tab.rst:155
 msgid "|checkbox| :guilabel:`Circular` |optional|"
-msgstr ""
+msgstr "|checkbox| :guilabel:`Melingkar` |optional|"
 
 #: ../../band_erosion_tab.rst:156
 msgid "if checked, the erosion will be circular, similar to a buffer"

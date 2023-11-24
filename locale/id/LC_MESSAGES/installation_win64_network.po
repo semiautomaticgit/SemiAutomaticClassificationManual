@@ -158,7 +158,7 @@ msgstr ""
 
 #: ../../installation_win64_network.rst:113
 msgid "Update of required dependencies"
-msgstr ""
+msgstr "Pembaharuan tambahan kebutuhan"
 
 #: ../../installation_win64_network.rst:115
 msgid ""

@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../band_erosion_tab.rst:124
 msgid ":guilabel:`Erosion`"
-msgstr ""
+msgstr ":guilabel:`Erosi`"
 
 #: ../../band_erosion_tab.rst:127
 msgid ""

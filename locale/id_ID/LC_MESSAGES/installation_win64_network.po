@@ -83,6 +83,8 @@ msgid ""
 "The download of the programs will start, and QGIS will be installed along "
 "with the required dependencies."
 msgstr ""
+"proses pengunduhan akan dimulai dan QGIS akan diinstal dengan tambahan yang "
+"dibutuhkan."
 
 #: ../../installation_win64_network.rst:59
 msgid "Semi-Automatic Classification Plugin installation"

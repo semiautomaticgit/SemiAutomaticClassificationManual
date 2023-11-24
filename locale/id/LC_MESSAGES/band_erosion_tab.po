@@ -117,11 +117,11 @@ msgstr ""
 
 #: ../../band_erosion_tab.rst:77
 msgid "enter"
-msgstr ""
+msgstr "Masuk"
 
 #: ../../band_erosion_tab.rst:80
 msgid "zoom_to_ROI"
-msgstr ""
+msgstr "Perbesar_ke_ROI"
 
 #: ../../band_erosion_tab.rst:83
 msgid "check"

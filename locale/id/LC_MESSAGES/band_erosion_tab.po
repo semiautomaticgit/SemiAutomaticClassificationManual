@@ -214,7 +214,7 @@ msgstr ""
 
 #: ../../band_erosion_tab.rst:148
 msgid ":guilabel:`Class values` |input_text|"
-msgstr ""
+msgstr ":guilabel:`Nilai kelas` |input_text|"
 
 #: ../../band_erosion_tab.rst:149
 msgid ""

@@ -161,7 +161,7 @@ msgstr "jalankan"
 
 #: ../../band_erosion_tab.rst:110
 msgid "radiobutton"
-msgstr ""
+msgstr "tombol radio"
 
 #: ../../band_erosion_tab.rst:113
 msgid "pointer"

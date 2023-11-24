@@ -153,7 +153,7 @@ msgstr "muat ulang"
 
 #: ../../band_erosion_tab.rst:104
 msgid "checkbox"
-msgstr ""
+msgstr "kotak centang"
 
 #: ../../band_erosion_tab.rst:107
 msgid "run"

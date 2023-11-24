@@ -210,7 +210,7 @@ msgstr ""
 
 #: ../../band_erosion_tab.rst:147
 msgid "select the input :ref:`band_set_tab`"
-msgstr ""
+msgstr "pilih masukan :ref:`band_set_tab`"
 
 #: ../../band_erosion_tab.rst:148
 msgid ":guilabel:`Class values` |input_text|"

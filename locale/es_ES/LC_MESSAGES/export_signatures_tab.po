@@ -93,7 +93,7 @@ msgid ""
 "This tool allows for exporting the signatures highlighted in the "
 ":ref:`ROI_list`."
 msgstr ""
-"Esta herramienta permite exportar las firmas seleccionadas en el "
+"Esta herramienta permite exportar las firmas seleccionadas en la "
 ":ref:`ROI_list`."
 
 #: ../../export_signatures_tab.rst:66

@@ -174,7 +174,7 @@ msgstr "Clic en ``Configuración`` luego clic en el botón ``Añadir``;"
 
 #: ../../faq.rst:82 ../../faq.rst:132
 msgid "Inside the ``Repository details`` enter:"
-msgstr "Dentro del cuadro ``Detalles del repositorio`` ingresa:"
+msgstr "Dentro del cuadro ``Detalles del repositorio`` escribe:"
 
 #: ../../faq.rst:84 ../../faq.rst:134
 msgid "Name::"

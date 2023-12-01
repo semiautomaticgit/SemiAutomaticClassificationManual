@@ -6,7 +6,6 @@
 # 
 # Translators:
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
-# Marlon Castillo <marloncastillo286@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
 #, fuzzy
@@ -79,11 +78,11 @@ msgstr "add"
 
 #: ../../export_signatures_tab.rst:48
 msgid "reset"
-msgstr "reiniciar"
+msgstr "reset"
 
 #: ../../export_signatures_tab.rst:51
 msgid "export_spectral_library"
-msgstr ""
+msgstr "export_spectral_library"
 
 #: ../../export_signatures_tab.rst:58
 msgid "|export_spectral_library| :guilabel:`Export signatures`"

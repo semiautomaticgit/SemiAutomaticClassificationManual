@@ -59,11 +59,11 @@ msgstr "input_number"
 
 #: ../../export_signatures_tab.rst:33
 msgid "input_table"
-msgstr "tabla_entrada"
+msgstr "input_table"
 
 #: ../../export_signatures_tab.rst:36
 msgid "open_file"
-msgstr "abrir archivo"
+msgstr "open_file"
 
 #: ../../export_signatures_tab.rst:39
 msgid "new_file"

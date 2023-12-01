@@ -230,9 +230,7 @@ msgstr "Pre procesamiento"
 
 #: ../../faq.rst:169
 msgid "Which image bands should I use for a semi-automatic classification?"
-msgstr ""
-"¿Qué bandas de la imagen debería utilizar para la clasificación semi-"
-"automática?"
+msgstr "¿Qué bandas debería utilizar para una clasificación semi-automática?"
 
 #: ../../faq.rst:171
 msgid ""

@@ -295,10 +295,17 @@ msgid ""
 "directory. Then select this directory in :ref:`image_conversion`. Images are"
 " converted to reflectance."
 msgstr ""
+"Si, también se pueden convertir las imágenes descargadas desde la web (de "
+"hecho, se recomienda la conversión). Deberás mover todas las bandas "
+"(archivos .jp2), y si está disponible el archivo .xml cuyo nombre contiene "
+"``MDT_SAFL1C``, al mismo directorio. Luego selecciona este directorio "
+":ref:`image_conversion` y las imágenes serán convertidas a reflectancia."
 
 #: ../../faq.rst:208
 msgid "Can I apply the conversion to Sentinel-2 L2A downloaded from the web?"
 msgstr ""
+"¿Puedo aplicar la conversión a productos Sentinel-2 L2A descargados de la "
+"web?"
 
 #: ../../faq.rst:210
 msgid ""

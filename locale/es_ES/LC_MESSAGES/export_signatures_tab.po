@@ -106,7 +106,7 @@ msgstr "Descripción"
 
 #: ../../export_signatures_tab.rst:68
 msgid ":guilabel:`Export as SCP file` |new_file|"
-msgstr ""
+msgstr ":guilabel:`Exportar como un archivo SCP` |new_file|"
 
 #: ../../export_signatures_tab.rst:69
 msgid ""

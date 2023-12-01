@@ -8,8 +8,8 @@
 # Francisco Limon <Wany1954@armyspy.com>, 2023
 # Santiago Behr <behr.santiago@inta.gob.ar>, 2023
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
-# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
 #, fuzzy
@@ -34,22 +34,22 @@ msgstr "Preguntas Frecuentes"
 
 #: ../../faq.rst:7
 msgid "export"
-msgstr "exportar"
+msgstr "export"
 
 #: ../../faq.rst:10
 msgid "enter"
-msgstr "ingresar"
+msgstr "enter"
 
 #: ../../faq.rst:13
 msgid "checkbox"
-msgstr "casilla de confirmación"
+msgstr "checkbox"
 
 #: ../../faq.rst:17
 msgid ""
 "If you have comments or questions please join the `Facebook group "
 "<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ ."
 msgstr ""
-"Si tiene comentarios o preguntas, por favor únase al grupo de Facebook "
+"Si tiene comentarios o preguntas, por favor únete al grupo de Facebook "
 "<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>"
 
 #: ../../faq.rst:20

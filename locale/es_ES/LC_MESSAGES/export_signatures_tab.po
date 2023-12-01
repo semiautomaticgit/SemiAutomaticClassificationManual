@@ -6,7 +6,6 @@
 # 
 # Translators:
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
-# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
@@ -28,7 +27,7 @@ msgstr ""
 
 #: ../../export_signatures_tab.rst:5
 msgid "Export signatures"
-msgstr "Exportar firmas"
+msgstr "Export signatures"
 
 #: ../../export_signatures_tab.rst:12
 msgid "registry_save"

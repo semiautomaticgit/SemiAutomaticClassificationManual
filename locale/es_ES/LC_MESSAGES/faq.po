@@ -509,6 +509,9 @@ msgid ""
 "the time required to create a unique ``.tif`` raster (after multiprocess), "
 "especially useful for large rasters."
 msgstr ""
+"También, varias herramientas permiten usar como formato de salida ``.vrt`` "
+"lo que disminuye el tiempo nevesario para crear un ráster ``.tif`` (después "
+"del multiproceso), lo cual es especialmente útil para rásteres grandes."
 
 #: ../../faq.rst:339
 msgid ""

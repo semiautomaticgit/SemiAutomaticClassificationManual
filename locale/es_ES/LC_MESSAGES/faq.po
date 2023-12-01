@@ -159,7 +159,7 @@ msgstr "Para configurar el repositorio de SCP sigue estos pasos:"
 
 #: ../../faq.rst:72 ../../faq.rst:122
 msgid "Run QGIS;"
-msgstr "Ejecuta QGIS;"
+msgstr "Inicia QGIS;"
 
 #: ../../faq.rst:74 ../../faq.rst:124
 msgid ""

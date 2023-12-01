@@ -84,7 +84,7 @@ msgstr "reiniciar"
 
 #: ../../export_signatures_tab.rst:51
 msgid "export_spectral_library"
-msgstr ""
+msgstr "export_spectral_library"
 
 #: ../../export_signatures_tab.rst:58
 msgid "|export_spectral_library| :guilabel:`Export signatures`"
@@ -108,7 +108,7 @@ msgstr "Descripción"
 
 #: ../../export_signatures_tab.rst:68
 msgid ":guilabel:`Export as SCP file` |new_file|"
-msgstr ""
+msgstr ":guilabel:`Exportar como un archivo SCP` |new_file|"
 
 #: ../../export_signatures_tab.rst:69
 msgid ""

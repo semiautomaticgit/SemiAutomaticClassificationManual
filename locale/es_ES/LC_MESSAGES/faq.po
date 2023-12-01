@@ -561,7 +561,7 @@ msgstr "donde:"
 
 #: ../../faq.rst:357
 msgid ":math:`W_i` = mapped area proportion of class i;"
-msgstr ""
+msgstr ":math:`W_i` = proporción del área clasificada como clase i;"
 
 #: ../../faq.rst:358
 msgid ":math:`S_i` = standard deviation of stratum i;"

@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../export_signatures_tab.rst:5
 msgid "Export signatures"
-msgstr "Export signatures"
+msgstr "Exportar firmas"
 
 #: ../../export_signatures_tab.rst:12
 msgid "registry_save"

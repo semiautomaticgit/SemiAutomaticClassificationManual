@@ -517,7 +517,7 @@ msgstr ""
 msgid ""
 "How do I perform accuracy assessment and how to design the number of "
 "samples?"
-msgstr ""
+msgstr "¿Cómo evalúo la exactitud y como diseño el número de muestras?"
 
 #: ../../faq.rst:341
 msgid ""

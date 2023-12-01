@@ -67,15 +67,15 @@ msgstr "open_file"
 
 #: ../../export_signatures_tab.rst:39
 msgid "new_file"
-msgstr "nuevo archivo"
+msgstr "new_file"
 
 #: ../../export_signatures_tab.rst:42
 msgid "open_dir"
-msgstr "abrir_dir"
+msgstr "open_dir"
 
 #: ../../export_signatures_tab.rst:45
 msgid "add"
-msgstr "agregar"
+msgstr "add"
 
 #: ../../export_signatures_tab.rst:48
 msgid "reset"

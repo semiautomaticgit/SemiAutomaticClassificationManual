@@ -429,8 +429,8 @@ msgstr ""
 " en la cobertura del suelo (especialmente el estado de la vegetación) "
 "afectarán la firma espectral (Ej. el mismo pixel tiene diferente firma "
 "espectral en diferentes períodos). Los efectos atmosféricos pueden afectar a"
-" las imágenes de modo diferente. Eso puede reducir la precisión en la "
-"clasificación. Por lo tanto, es recomendable siempre colectar ROIs y firmas "
+" las imágenes de modo diferente. Eso puede reducir la exactitud de la "
+"clasificación. Por lo tanto, es recomendable siempre generar ROIs y firmas "
 "espectrales para cada imagen."
 
 #: ../../faq.rst:291

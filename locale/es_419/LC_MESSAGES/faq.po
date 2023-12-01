@@ -284,6 +284,8 @@ msgstr ""
 msgid ""
 "Can I apply the conversion to Sentinel-2 images downloaded from the web?"
 msgstr ""
+"¿Se puede aplicar la conversión a imágenes Sentinel-2 descargadas desde la "
+"web?"
 
 #: ../../faq.rst:198
 msgid ""

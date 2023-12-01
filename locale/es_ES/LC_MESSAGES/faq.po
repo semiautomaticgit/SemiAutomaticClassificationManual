@@ -565,7 +565,7 @@ msgstr ":math:`W_i` = proporción del área clasificada como clase i;"
 
 #: ../../faq.rst:358
 msgid ":math:`S_i` = standard deviation of stratum i;"
-msgstr ""
+msgstr ":math:`S_i` = desviación estándar del estrato i;"
 
 #: ../../faq.rst:359
 msgid ":math:`S_o` = expected standard deviation of overall accuracy;"

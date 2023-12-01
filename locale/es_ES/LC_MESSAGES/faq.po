@@ -462,7 +462,7 @@ msgstr ""
 msgid ""
 "Why using only Landsat 8 band 10 in the estimation of surface temperature?"
 msgstr ""
-"¿Por qué solo usar la banda 10 del Landsat 8 en la estimación de la "
+"¿Por qué usar solo la banda 10 de Landsat 8 en la estimación de la "
 "temperatura de la superficie?"
 
 #: ../../faq.rst:311

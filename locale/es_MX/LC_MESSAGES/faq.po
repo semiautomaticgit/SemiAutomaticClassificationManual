@@ -214,7 +214,7 @@ msgstr ""
 
 #: ../../faq.rst:114
 msgid "Can I use the previous version 7 of SCP?"
-msgstr ""
+msgstr "¿Puedo usar la versión anterior, 7, de SCP?"
 
 #: ../../faq.rst:116
 msgid ""
@@ -222,6 +222,8 @@ msgid ""
 "repository. Also, this version can be installed along with the SCP version "
 "8."
 msgstr ""
+"Es posible instalar la versión 7 de SCP usando el repositorio oficial. "
+"Además está versión puede instalarse junto a la versión 8 de SCP."
 
 #: ../../faq.rst:164
 msgid "Pre processing"
@@ -282,6 +284,8 @@ msgstr ""
 msgid ""
 "Can I apply the conversion to Sentinel-2 images downloaded from the web?"
 msgstr ""
+"¿Se puede aplicar la conversión a imágenes Sentinel-2 descargadas desde la "
+"web?"
 
 #: ../../faq.rst:198
 msgid ""
@@ -291,10 +295,17 @@ msgid ""
 "directory. Then select this directory in :ref:`image_conversion`. Images are"
 " converted to reflectance."
 msgstr ""
+"Si, también se pueden convertir las imágenes descargadas desde la web (de "
+"hecho, se recomienda la conversión). Deberás mover todas las bandas "
+"(archivos .jp2), y si está disponible el archivo .xml cuyo nombre contiene "
+"``MDT_SAFL1C``, al mismo directorio. Luego selecciona este directorio "
+":ref:`image_conversion` y las imágenes serán convertidas a reflectancia."
 
 #: ../../faq.rst:208
 msgid "Can I apply the conversion to Sentinel-2 L2A downloaded from the web?"
 msgstr ""
+"¿Puedo aplicar la conversión a productos Sentinel-2 L2A descargados de la "
+"web?"
 
 #: ../../faq.rst:210
 msgid ""
@@ -303,6 +314,10 @@ msgid ""
 "name_02_10m.jp2 to name_02.jp2) Then select this directory in "
 ":ref:`image_conversion`. Images are converted to reflectance."
 msgstr ""
+"Si, deberás mover todo los archivos .jp2 y renombrar los archivos que tengan"
+" el número de banda al final del nombre (e.g. de nombre_02_10m.jp2 a "
+"nombre_02.jp2). Luego selecciona el directorio en :ref:`image_conversion` y "
+"las imágenes serán convertidas a reflectancia."
 
 #: ../../faq.rst:220
 msgid ""
@@ -389,6 +404,17 @@ msgid ""
 " variability thereof (only pixels very similar to the input signatures will "
 "be classified)."
 msgstr ""
+"Varios materiales tiene firmas espectrales similares (e.g. el suelo y las "
+"construcciones, or bosques y otros tipos de matorral denso), que pueden "
+"generar errores de clasificación si las ROIs, y por tanto las firmas "
+"espectrales, no está correctamente definidas. Para mejorar los resultados, "
+"puedes intentar generando más ROIs sobre estas zonas, para mejorar el "
+"entrenamiento de los algoritmos en estas coberturas similares, también "
+"puedes visualizar las firmas espectrales de estás zonas en el "
+":ref:`spectral_signature_plot` para evaluar su similitud. También puede usar"
+" el :ref:`Signature_threshold_tab` con estas firmas para reducir la "
+"variabilidad de las mismas (solo píxeles muy similares a las firmas de "
+"entrada serán clasificados)."
 
 #: ../../faq.rst:277
 msgid "Is it possible to use the same training input for multiple images?"
@@ -464,7 +490,7 @@ msgstr ""
 
 #: ../../faq.rst:322
 msgid "How can I speed up the processing?"
-msgstr ""
+msgstr "¿Cómo puedo acelerar el procesamiento?"
 
 #: ../../faq.rst:324
 msgid ""
@@ -476,6 +502,13 @@ msgid ""
 "a value lower than the maximum number of system threads (e.g. if the system "
 "has 4 available threads set value 3)."
 msgstr ""
+"Para mejorar la velocidad de procesamiento deberás configurar la RAM y los "
+"hilos disponibles en :ref:`system_processing`. :guilabel:`RAM Disponible "
+"(MB)`.  Debería ser la mitad de la RAM total del sistema (e.g. 1024MB si es "
+"sistema tiene 2GB de RAM) o más si el sistema tiene un gran cantidad de RAM "
+"(e.g. 10240MB si el sistema tiene 16GB de RAM). :guilabel:`Hilos CPU` deberá"
+" ser un valor menor al valor de hilos máximo del sistema (e.g. si el sistema"
+" tiene 4 hilos utiliza el valor 3)."
 
 #: ../../faq.rst:332
 msgid ""
@@ -483,12 +516,15 @@ msgid ""
 "the time required to create a unique ``.tif`` raster (after multiprocess), "
 "especially useful for large rasters."
 msgstr ""
+"También, varias herramientas permiten usar como formato de salida ``.vrt`` "
+"lo que disminuye el tiempo nevesario para crear un ráster ``.tif`` (después "
+"del multiproceso), lo cual es especialmente útil para rásteres grandes."
 
 #: ../../faq.rst:339
 msgid ""
 "How do I perform accuracy assessment and how to design the number of "
 "samples?"
-msgstr ""
+msgstr "¿Cómo evalúo la exactitud y como diseño el número de muestras?"
 
 #: ../../faq.rst:341
 msgid ""
@@ -496,6 +532,9 @@ msgid ""
 "<https://fromgistors.blogspot.com/2019/09/Accuracy-Assessment-of-Land-Cover-"
 "Classification.html>`_ ."
 msgstr ""
+"La evaluación de la exactitud está descrita en `este tutorial "
+"<https://fromgistors.blogspot.com/2019/09/Accuracy-Assessment-of-Land-Cover-"
+"Classification.html>`_ ."
 
 #: ../../faq.rst:344
 msgid ""
@@ -504,18 +543,24 @@ msgid ""
 "estimating area and assessing accuracy of land change. Remote Sensing of "
 "Environment, 148, 42 – 57\"."
 msgstr ""
+"El diseño de muestreo es necesario para proporcionar un número adecuado de muestras para cada clase, como se describe en \"Olofsson, et al., 2014. Good practices for estimating area and assessing accuracy of land change. Remote Sensing of Environment, 148, 42 – 57\".\n"
+" "
 
 #: ../../faq.rst:349
 msgid ""
 "The number of samples (:math:`N`) should be calculated as (Olofsson, et al.,"
 " 2014):"
 msgstr ""
+"El número de muestras (:math:`N`) deberá calcularse usando (Olofsson, et "
+"al., 2014):"
 
 #: ../../faq.rst:352
 msgid ""
 "N = ( \\sum_{i=1}^{c} (W_i - S_i) / S_o)^2\n"
 "\n"
 msgstr ""
+"N = ( \\sum_{i=1}^{c} (W_i - S_i) / S_o)^2\n"
+"\n"
 
 #: ../../faq.rst:355
 msgid "where:"
@@ -523,19 +568,19 @@ msgstr "donde:"
 
 #: ../../faq.rst:357
 msgid ":math:`W_i` = mapped area proportion of class i;"
-msgstr ""
+msgstr ":math:`W_i` = proporción del área clasificada como clase i;"
 
 #: ../../faq.rst:358
 msgid ":math:`S_i` = standard deviation of stratum i;"
-msgstr ""
+msgstr ":math:`S_i` = desviación estándar del estrato i;"
 
 #: ../../faq.rst:359
 msgid ":math:`S_o` = expected standard deviation of overall accuracy;"
-msgstr ""
+msgstr ":math:`S_o` = desviación estándar esperada de la exactitud general ;"
 
 #: ../../faq.rst:360
 msgid ":math:`c` = total number of classes;"
-msgstr ""
+msgstr ":math:`c` = número total de clases"
 
 #: ../../faq.rst:362
 msgid ""

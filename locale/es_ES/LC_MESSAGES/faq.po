@@ -6,10 +6,9 @@
 # 
 # Translators:
 # Francisco Limon <Wany1954@armyspy.com>, 2023
-# Santiago Behr <behr.santiago@inta.gob.ar>, 2023
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
-# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
 # Raúl Nanclares <raulnanclares@gmail.com>, 2023
 # 
 #, fuzzy
@@ -34,22 +33,22 @@ msgstr "Preguntas Frecuentes"
 
 #: ../../faq.rst:7
 msgid "export"
-msgstr "exportar"
+msgstr "export"
 
 #: ../../faq.rst:10
 msgid "enter"
-msgstr "ingresar"
+msgstr "enter"
 
 #: ../../faq.rst:13
 msgid "checkbox"
-msgstr "casilla de confirmación"
+msgstr "checkbox"
 
 #: ../../faq.rst:17
 msgid ""
 "If you have comments or questions please join the `Facebook group "
 "<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ ."
 msgstr ""
-"Si tiene comentarios o preguntas, por favor únase al grupo de Facebook "
+"Si tiene comentarios o preguntas, por favor únete al grupo de Facebook "
 "<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>"
 
 #: ../../faq.rst:20
@@ -68,7 +67,7 @@ msgstr "Instalación del Complemento"
 
 #: ../../faq.rst:36
 msgid "How to install the plugin manually?"
-msgstr "¿Cómo instalar el complemento manualmente?"
+msgstr "¿Cómo se instala el complemento manualmente?"
 
 #: ../../faq.rst:38
 msgid ""
@@ -76,9 +75,9 @@ msgid ""
 "connection is not available, or the installation is required on multiple "
 "computers), following a few steps:"
 msgstr ""
-"El SCP puede instalarse manualmente (puede ser útil cuando no esté "
-"disponible una conexión a internet o se desea instalar en varias "
-"computadoras) siguiendo estos pasos:"
+"SCP puede instalarse manualmente (puede ser útil cuando no esté disponible "
+"una conexión a internet o se desea instalar en varias computadoras) "
+"siguiendo estos pasos:"
 
 #: ../../faq.rst:42
 msgid ""
@@ -86,7 +85,7 @@ msgid ""
 "https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin/archive/master.zip"
 " ;"
 msgstr ""
-"Descarga el archivo zip de SCP desde "
+"Descarga el archivo zip de SCP de "
 "https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin/archive/master.zip"
 " ;"
 
@@ -96,7 +95,7 @@ msgid ""
 "and folders such as ``ui``) in a new folder named "
 "``SemiAutomaticClassificationPlugin`` (without ``-master``);"
 msgstr ""
-"extraer el contenido del archivo (varios archivos como ``COPYING.txt`` y "
+"extrae el contenido del archivo (algunos archivos como ``COPYING.txt`` y "
 "carpetas como ``ui``) en una nueva carpeta llamada "
 "``SemiAutomaticClassificationPlugin`` (sin el ``-master``);"
 
@@ -108,12 +107,11 @@ msgid ""
 "``/home/username/.local/share/QGIS/QGIS3/profiles/default/python/plugins``) "
 "and delete the folder ``SemiAutomaticClassificationPlugin`` if present;"
 msgstr ""
-"abra el directorio de `` complementos '' de QGIS (en Windows generalmente ``"
-" C: \\ Users \\ username \\ AppData \\ Roaming \\ QGIS \\ QGIS3 \\ profiles "
-"\\ default \\ python \\ plugins '', en Linux y Mac generalmente `` / home / "
-"username / .local / share / QGIS / QGIS3 / profiles / default / python / "
-"plugins '') y elimine la carpeta `` SemiAutomaticClassificationPlugin '' si "
-"existe;"
+"abre el directorio de ``plugins`` de QGIS (en Windows generalmente "
+"``C:\\Users\\username\\AppData\\Roaming\\QGIS\\QGIS3\\profiles\\default\\python\\plugins``,"
+" en Linux y Mac generalmente "
+"``/home/username/.local/share/QGIS/QGIS3/profiles/default/python/plugins``) "
+"y elimine la carpeta ``SemiAutomaticClassificationPlugin`` si existe;"
 
 #: ../../faq.rst:51
 msgid ""
@@ -129,12 +127,12 @@ msgid ""
 "sure that ``Semi-Automatic Classification Plugin`` is checked."
 msgstr ""
 "el complemento debería estar instalado; inicia QGIS, abre el Administrador "
-"de complementos y asegúrate  que está seleccionado ``Semi-Automatic "
-"Classification Plugin``."
+"de complementos y asegúrate  que está marcado``Semi-Automatic Classification"
+" Plugin``."
 
 #: ../../faq.rst:59
 msgid "How to install the plugin from the official SCP repository?"
-msgstr "¿Cómo instalar el complemento desde el repositorio oficial de SCP?"
+msgstr "¿Cómo se instala el complemento desde el repositorio oficial de SCP?"
 
 #: ../../faq.rst:61
 msgid ""
@@ -149,10 +147,10 @@ msgstr ""
 "Es posible instalar el SCP usando el repositorio oficial. Este repositorio "
 "permite la instalación de la última versión del SCP (``master``), en algunos"
 " casos incluso antes de que esté disponible en el repositorio oficial de "
-"QGIS. Por esto, puede ser útil si necesitas una corrección o una nueva "
-"función que todavía no está disponible en el repositorio de QGIS. Además, la"
-" versión ``master``en el repositorio de SCP puede ser instalada junto a la "
-"versión disponible en el repositorio de QGIS."
+"QGIS. Por esto, puede ser útil si necesitas arreglar algún fallo o usar una "
+"nueva función que todavía no está disponible en el repositorio de QGIS. "
+"Además, la versión ``master``en el repositorio de SCP puede ser instalada "
+"junto a la versión disponible en el repositorio de QGIS."
 
 #: ../../faq.rst:70 ../../faq.rst:120
 msgid "In order to install the SCP repository follow these steps:"
@@ -160,7 +158,7 @@ msgstr "Para configurar el repositorio de SCP sigue estos pasos:"
 
 #: ../../faq.rst:72 ../../faq.rst:122
 msgid "Run QGIS;"
-msgstr "Ejecuta QGIS;"
+msgstr "Inicia QGIS;"
 
 #: ../../faq.rst:74 ../../faq.rst:124
 msgid ""
@@ -175,7 +173,7 @@ msgstr "Clic en ``Configuración`` luego clic en el botón ``Añadir``;"
 
 #: ../../faq.rst:82 ../../faq.rst:132
 msgid "Inside the ``Repository details`` enter:"
-msgstr "Dentro del cuadro ``Detalles del repositorio`` ingresa:"
+msgstr "Dentro del cuadro ``Detalles del repositorio`` escribe:"
 
 #: ../../faq.rst:84 ../../faq.rst:134
 msgid "Name::"
@@ -208,13 +206,13 @@ msgid ""
 msgstr ""
 "Desde el menú ``Todos``, selecciona el ``Semi-Automatic Classification "
 "Plugin - master`` y da clic en el botón ``Instalar complemento``; la última "
-"versión de SCP se activará automáticamente (ignora los errores, reiniciar "
-"QGIS es necesario para completar la instalación de SCP); es posible "
-"desactivar el otro SCP instalado en el repositorio de QGIS;"
+"versión de SCP se activará automáticamente (ignora los errores, puede que "
+"sea necesario reiniciar QGIS para completar la instalación de SCP); se puede"
+" desactivar el otro SCP instalado en el repositorio de QGIS;"
 
 #: ../../faq.rst:114
 msgid "Can I use the previous version 7 of SCP?"
-msgstr ""
+msgstr "¿Puedo usar la versión anterior, 7, de SCP?"
 
 #: ../../faq.rst:116
 msgid ""
@@ -222,6 +220,8 @@ msgid ""
 "repository. Also, this version can be installed along with the SCP version "
 "8."
 msgstr ""
+"Es posible instalar la versión 7 de SCP usando el repositorio oficial. "
+"Además está versión puede instalarse junto a la versión 8 de SCP."
 
 #: ../../faq.rst:164
 msgid "Pre processing"
@@ -229,9 +229,7 @@ msgstr "Pre procesamiento"
 
 #: ../../faq.rst:169
 msgid "Which image bands should I use for a semi-automatic classification?"
-msgstr ""
-"¿Qué bandas de la imagen debería utilizar para la clasificación semi-"
-"automática?"
+msgstr "¿Qué bandas debería utilizar para una clasificación semi-automática?"
 
 #: ../../faq.rst:171
 msgid ""
@@ -243,15 +241,15 @@ msgid ""
 "Landsat thermal infrared band is excluded from classifications because "
 "values are mainly related to object temperature."
 msgstr ""
-"En general, es preferible evitar las bandas del infrarojo térmico. Si está "
-"usando Landsat 4, 5 o 7 debería seleccionar las bandas: 1, 2, 3, 4, 5, 7 "
-"evitando usar la banda 6 que es la del infrarojo térmico; para Landsat 8 "
-"debería elegir las bandas: 2, 3, 4, 5, 6, 7. Generalmente se evita utilizar "
-"la banda 1 de Landsat 8 debido a que ésta es muy similar a la banda azul, y "
-"es principalmente utilizada para el estudio de aerosoles costeros. Las "
-"bandas termales de Landsat también se excluyen de las clasificaciones debido"
-" a que sus valores están principalmente relacionados a la temperatura de los"
-" objetos."
+"En general, es preferible evitar las bandas del infrarojo térmico. Si estás "
+"usando Landsat 4, 5 o 7 deberías seleccionar las bandas: 1, 2, 3, 4, 5, 7 "
+"evitando usar la banda 6 que es la del infrarrojo térmico; para Landsat 8 "
+"deberías elegir las bandas: 2, 3, 4, 5, 6, 7. Generalmente se evita utilizar"
+" la banda 1 de Landsat 8 debido a que es muy similar a la banda azul, y es "
+"principalmente utilizada para el estudio de aerosoles costeros. Las bandas "
+"termales de Landsat también se excluyen de las clasificaciones debido a que "
+"sus valores están principalmente relacionados a la temperatura de los "
+"objetos."
 
 #: ../../faq.rst:180
 msgid ""
@@ -275,13 +273,15 @@ msgstr ""
 "Todas las imágenes Landsat MSS 1, 2 y 3; TM 4 y 5; ETM 7 y OLI 8 descargadas"
 " desde http://earthexplorer.usgs.gov/ y procesadas con el nivel 1 del "
 "Sistema de Generación de Producto (LPGS) pueden ser automáticamente "
-"convertidas a reflectancia por SCP; los productos generados por LPGS tienen "
-"un archivo MTL incluido que es requerido para dicha conversión."
+"convertidas a reflectancia por SCP; los productos generados por LPGS "
+"incluyen un archivo MTL que es requerido para la conversión."
 
 #: ../../faq.rst:196
 msgid ""
 "Can I apply the conversion to Sentinel-2 images downloaded from the web?"
 msgstr ""
+"¿Se puede aplicar la conversión a imágenes Sentinel-2 descargadas desde la "
+"web?"
 
 #: ../../faq.rst:198
 msgid ""
@@ -291,10 +291,17 @@ msgid ""
 "directory. Then select this directory in :ref:`image_conversion`. Images are"
 " converted to reflectance."
 msgstr ""
+"Si, también se pueden convertir las imágenes descargadas desde la web (de "
+"hecho, se recomienda la conversión). Deberás mover todas las bandas "
+"(archivos .jp2), y si está disponible el archivo .xml cuyo nombre contiene "
+"``MDT_SAFL1C``, al mismo directorio. Luego selecciona este directorio "
+":ref:`image_conversion` y las imágenes serán convertidas a reflectancia."
 
 #: ../../faq.rst:208
 msgid "Can I apply the conversion to Sentinel-2 L2A downloaded from the web?"
 msgstr ""
+"¿Puedo aplicar la conversión a productos Sentinel-2 L2A descargados de la "
+"web?"
 
 #: ../../faq.rst:210
 msgid ""
@@ -303,6 +310,10 @@ msgid ""
 "name_02_10m.jp2 to name_02.jp2) Then select this directory in "
 ":ref:`image_conversion`. Images are converted to reflectance."
 msgstr ""
+"Si, deberás mover todo los archivos .jp2 y renombrar los archivos que tengan"
+" el número de banda al final del nombre (e.g. de nombre_02_10m.jp2 a "
+"nombre_02.jp2). Luego selecciona el directorio en :ref:`image_conversion` y "
+"las imágenes serán convertidas a reflectancia."
 
 #: ../../faq.rst:220
 msgid ""
@@ -320,13 +331,12 @@ msgid ""
 "entire image) and then clip the conversion output (i.e. bands converted to "
 "reflectance)."
 msgstr ""
-"Sí, se puede recortar las imágenes antes de la conversión a reflectancia, "
+"Sí, se puede recortar las imágenes antes de la conversión a reflectancia y "
 "después copiar el archivo MTL (incluido en el conjunto de datos Landsat) "
-"dentro del directorio que tiene las bandas recortadas. Si desea aplicar la "
-"corrección DOS (la cual es una técnica basada en imagen) deberá convertir "
-"las bandas Landsat originales (la imagen completa) y luego recién recortar "
-"las bandas resultantes de la conversión (Ej. bandas convertidas a "
-"reflectancia)."
+"dentro del directorio que tiene las bandas recortadas. Si deseas aplicar la "
+"corrección DOS (la cual es una técnica basada en imagen) deberás convertir "
+"las bandas Landsat originales (la imagen completa) y después recortar las "
+"bandas resultantes de la conversión (Ej. bandas convertidas a reflectancia)."
 
 #: ../../faq.rst:232
 msgid ""
@@ -344,15 +354,15 @@ msgid ""
 "image based technique, and NoData values must be excluded from the "
 "calculation."
 msgstr ""
-"Si desea aplicar la corrección de DOS a una banda completa que tiene valores"
-" NoData (el borde negro con valor = 0), debe marcar la casilla de "
-"verificación `` Usar valor como NoData '' y establecer el valor en 0. Esto "
-"se debe a que DOS es una técnica basada en imágenes y los valores NoData "
-"deben excluirse del cálculo."
+"Si quieres aplicar la corrección DOS a una banda completa que tiene valores "
+"NoData (el borde negro con valor = 0), debe marcar la casilla de "
+"verificación `` Usar valor como NoData '' y definir el valor como 0. Esto se"
+" debe a que DOS es una técnica basada en imagen y los valores NoData deben "
+"excluirse del cálculo."
 
 #: ../../faq.rst:243
 msgid "How to remove cloud cover from images?"
-msgstr "¿Cómo quitar la cobertura de nubes a las imágenes?"
+msgstr "¿Cómo puedo quitar las nubes a las imágenes?"
 
 #: ../../faq.rst:245
 msgid ""
@@ -362,10 +372,10 @@ msgid ""
 "this band for the creation of a mask."
 msgstr ""
 "La corrección DOS1 no elimina las nubes de la imagen. Sin embargo, las "
-"imágenes de Landsat 8 incluyen la Banda 9 que identifica las nubes (consulte"
+"imágenes de Landsat 8 incluyen la Banda 9 que identifica las nubes (consulta"
 " este `sitio de la NASA "
-"<https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/>` _). Puede "
-"utilizar esta banda para la creación de una máscara."
+"<https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/>` _). Puedes "
+"utilizar esta banda para crear máscaras de nubes."
 
 #: ../../faq.rst:254
 msgid "Processing"
@@ -373,8 +383,7 @@ msgstr "Procesamiento"
 
 #: ../../faq.rst:259
 msgid "I get classification errors. How can I improve the accuracy?"
-msgstr ""
-"Obtengo errores en la clasificación. ¿Cómo puedo mejorar la precisión?"
+msgstr "Tengo errores en la clasificación. ¿Cómo puedo mejorar la exactitud?"
 
 #: ../../faq.rst:261
 msgid ""
@@ -389,6 +398,17 @@ msgid ""
 " variability thereof (only pixels very similar to the input signatures will "
 "be classified)."
 msgstr ""
+"Varios materiales tiene firmas espectrales similares (e.g. el suelo y las "
+"construcciones, or bosques y otros tipos de matorral denso), que pueden "
+"generar errores de clasificación si las ROIs, y por tanto las firmas "
+"espectrales, no está correctamente definidas. Para mejorar los resultados, "
+"puedes intentar generando más ROIs sobre estas zonas, para mejorar el "
+"entrenamiento de los algoritmos en estas coberturas similares, también "
+"puedes visualizar las firmas espectrales de estás zonas en el "
+":ref:`spectral_signature_plot` para evaluar su similitud. También puede usar"
+" el :ref:`Signature_threshold_tab` con estas firmas para reducir la "
+"variabilidad de las mismas (solo píxeles muy similares a las firmas de "
+"entrada serán clasificados)."
 
 #: ../../faq.rst:277
 msgid "Is it possible to use the same training input for multiple images?"
@@ -405,13 +425,13 @@ msgid ""
 " the ROIs and spectral signatures for every image."
 msgstr ""
 "Sí, es posible si todas las imágenes tienen el mismo número de bandas. Sin "
-"embargo, si las imágenes son adquiridas en diferentes meses, los cambios en "
-"la cobertura del suelo (especialmente el estado de la vegetación) afectarán "
-"la firma espectral (Ej. el mismo pixel tiene diferente firma espectral en "
-"diferentes períodos). Los efectos atmosféricos pueden afectar las imágenes "
-"de modo diferente. Eso puede reducir la precisión en la clasificación. Por "
-"lo tanto, es recomendable siempre colectar ROIs y firmas espectrales para "
-"cada imagen."
+"embargo, si las imágenes fueron adquiridas en meses diferentes , los cambios"
+" en la cobertura del suelo (especialmente el estado de la vegetación) "
+"afectarán la firma espectral (Ej. el mismo pixel tiene diferente firma "
+"espectral en diferentes períodos). Los efectos atmosféricos pueden afectar a"
+" las imágenes de modo diferente. Eso puede reducir la exactitud de la "
+"clasificación. Por lo tanto, es recomendable siempre generar ROIs y firmas "
+"espectrales para cada imagen."
 
 #: ../../faq.rst:291
 msgid "What is the difference between classes and macroclasses?"
@@ -432,8 +452,8 @@ msgid ""
 "cover correctly. Alternative classification methods exist, such as object "
 "oriented classification, which is not implemented in SCP."
 msgstr ""
-"Sí, puedes usarlo si tienen por lo menos 4 bandas. Con menos de 4 bandas, "
-"los algoritmos semi-automatic classification son incapaces de clasificar la "
+"Sí, puedes usarlas si tienen al menos 4 bandas. Con menos de 4 bandas, los "
+"algoritmos de clasificación semi-automática no son capaces de clasificar la "
 "cobertura  del suelo correctamente. Existen métodos alternativos de "
 "clasificación, como las clasificaciones orientadas a objetos que no están "
 "implementadas en SCP."
@@ -442,7 +462,7 @@ msgstr ""
 msgid ""
 "Why using only Landsat 8 band 10 in the estimation of surface temperature?"
 msgstr ""
-"¿Por qué solo usar la banda 10 del Landsat 8 en la estimación de la "
+"¿Por qué usar solo la banda 10 de Landsat 8 en la estimación de la "
 "temperatura de la superficie?"
 
 #: ../../faq.rst:311
@@ -456,15 +476,14 @@ msgid ""
 msgstr ""
 "Muchos métodos han sido desarrollados para estimar la temperatura de la "
 "superficie. El método descrito en el tutorial para la estimación de "
-"temperatura requiere solo una banda. Por otro lado, USGS recomienda a los "
-"usuarios abstenerse de confiar en los datos de la Banda 11 de Landsat 8 en "
-"análisis cuantitativos de datos del Sensor Infrarrojo Térmico (mira `Changes"
-" to Thermal Infrared Sensor (TIRS) data "
-"<http://landsat.usgs.gov/calibration_notices.php>`_ by USGS)."
+"temperatura requiere solo una banda. Por otro lado, el USGS, recomienda a "
+"los usuarios no confiar en los datos de la Banda 11 de Landsat 8 en análisis"
+" cuantitativos (lee `Changes to Thermal Infrared Sensor (TIRS) data "
+"<http://landsat.usgs.gov/calibration_notices.php>`_ del USGS)."
 
 #: ../../faq.rst:322
 msgid "How can I speed up the processing?"
-msgstr ""
+msgstr "¿Cómo puedo acelerar el procesamiento?"
 
 #: ../../faq.rst:324
 msgid ""
@@ -476,6 +495,13 @@ msgid ""
 "a value lower than the maximum number of system threads (e.g. if the system "
 "has 4 available threads set value 3)."
 msgstr ""
+"Para mejorar la velocidad de procesamiento deberás configurar la RAM y los "
+"hilos disponibles en :ref:`system_processing`. :guilabel:`RAM Disponible "
+"(MB)`.  Debería ser la mitad de la RAM total del sistema (e.g. 1024MB si es "
+"sistema tiene 2GB de RAM) o más si el sistema tiene un gran cantidad de RAM "
+"(e.g. 10240MB si el sistema tiene 16GB de RAM). :guilabel:`Hilos CPU` deberá"
+" ser un valor menor al valor de hilos máximo del sistema (e.g. si el sistema"
+" tiene 4 hilos utiliza el valor 3)."
 
 #: ../../faq.rst:332
 msgid ""
@@ -483,12 +509,15 @@ msgid ""
 "the time required to create a unique ``.tif`` raster (after multiprocess), "
 "especially useful for large rasters."
 msgstr ""
+"También, varias herramientas permiten usar como formato de salida ``.vrt`` "
+"lo que disminuye el tiempo nevesario para crear un ráster ``.tif`` (después "
+"del multiproceso), lo cual es especialmente útil para rásteres grandes."
 
 #: ../../faq.rst:339
 msgid ""
 "How do I perform accuracy assessment and how to design the number of "
 "samples?"
-msgstr ""
+msgstr "¿Cómo evalúo la exactitud y como diseño el número de muestras?"
 
 #: ../../faq.rst:341
 msgid ""
@@ -496,6 +525,9 @@ msgid ""
 "<https://fromgistors.blogspot.com/2019/09/Accuracy-Assessment-of-Land-Cover-"
 "Classification.html>`_ ."
 msgstr ""
+"La evaluación de la exactitud está descrita en `este tutorial "
+"<https://fromgistors.blogspot.com/2019/09/Accuracy-Assessment-of-Land-Cover-"
+"Classification.html>`_ ."
 
 #: ../../faq.rst:344
 msgid ""
@@ -504,18 +536,24 @@ msgid ""
 "estimating area and assessing accuracy of land change. Remote Sensing of "
 "Environment, 148, 42 – 57\"."
 msgstr ""
+"El diseño de muestreo es necesario para proporcionar un número adecuado de muestras para cada clase, como se describe en \"Olofsson, et al., 2014. Good practices for estimating area and assessing accuracy of land change. Remote Sensing of Environment, 148, 42 – 57\".\n"
+" "
 
 #: ../../faq.rst:349
 msgid ""
 "The number of samples (:math:`N`) should be calculated as (Olofsson, et al.,"
 " 2014):"
 msgstr ""
+"El número de muestras (:math:`N`) deberá calcularse usando (Olofsson, et "
+"al., 2014):"
 
 #: ../../faq.rst:352
 msgid ""
 "N = ( \\sum_{i=1}^{c} (W_i - S_i) / S_o)^2\n"
 "\n"
 msgstr ""
+"N = ( \\sum_{i=1}^{c} (W_i - S_i) / S_o)^2\n"
+"\n"
 
 #: ../../faq.rst:355
 msgid "where:"
@@ -523,19 +561,19 @@ msgstr "donde:"
 
 #: ../../faq.rst:357
 msgid ":math:`W_i` = mapped area proportion of class i;"
-msgstr ""
+msgstr ":math:`W_i` = proporción del área clasificada como clase i;"
 
 #: ../../faq.rst:358
 msgid ":math:`S_i` = standard deviation of stratum i;"
-msgstr ""
+msgstr ":math:`S_i` = desviación estándar del estrato i;"
 
 #: ../../faq.rst:359
 msgid ":math:`S_o` = expected standard deviation of overall accuracy;"
-msgstr ""
+msgstr ":math:`S_o` = desviación estándar esperada de la exactitud general ;"
 
 #: ../../faq.rst:360
 msgid ":math:`c` = total number of classes;"
-msgstr ""
+msgstr ":math:`c` = número total de clases"
 
 #: ../../faq.rst:362
 msgid ""

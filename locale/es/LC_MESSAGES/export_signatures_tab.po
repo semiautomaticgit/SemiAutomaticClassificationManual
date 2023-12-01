@@ -84,7 +84,7 @@ msgstr "reiniciar"
 
 #: ../../export_signatures_tab.rst:51
 msgid "export_spectral_library"
-msgstr ""
+msgstr "export_spectral_library"
 
 #: ../../export_signatures_tab.rst:58
 msgid "|export_spectral_library| :guilabel:`Export signatures`"
@@ -108,30 +108,37 @@ msgstr "Descripción"
 
 #: ../../export_signatures_tab.rst:68
 msgid ":guilabel:`Export as SCP file` |new_file|"
-msgstr ""
+msgstr ":guilabel:`Exportar como un archivo SCP` |new_file|"
 
 #: ../../export_signatures_tab.rst:69
 msgid ""
 "create a new .scp file and export highlighted ROIs and spectral signatures "
 "as :guilabel:`SCP` file (.scpx)"
 msgstr ""
+"crea un archivo .scp nuevo y exportar las ROIs seleccionadas y las firmas "
+"espectrales como un archivo :guilabel:`SCP` (.scpx)"
 
 #: ../../export_signatures_tab.rst:71
 msgid ":guilabel:`Export as shapefile or geopackage` |new_file|"
-msgstr ""
+msgstr ":guilabel:`Exportar a shapefile o geopackage` |new_file|"
 
 #: ../../export_signatures_tab.rst:72
 msgid ""
 "export highlighted ROIs (spectral signature data excluded) as a new "
 "shapefile (.shp) or geopackage (.gpkg)"
 msgstr ""
+"exportar las ROIs seleccionadas (sin los datos de las firmas espectrales) a "
+"shapefile (.shp) o geopackage (.gpkg)"
 
 #: ../../export_signatures_tab.rst:74
 msgid ":guilabel:`Export spectral signatures as CSV file` |open_dir|"
 msgstr ""
+":guilabel:`Exportar las firmas espectrales a un achivo CSV` |open_dir|"
 
 #: ../../export_signatures_tab.rst:75
 msgid ""
 "open a directory, and export highlighted spectral signatures as individual "
 "CSV files (.csv) separated by semicolon ( ; )"
 msgstr ""
+"abre un directorio, y exportar las firmas espectrales seleccionadas a "
+"archivos CSV individuales (.csv) separa por punto y coma ( ; )"

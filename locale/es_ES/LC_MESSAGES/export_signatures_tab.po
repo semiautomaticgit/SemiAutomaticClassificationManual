@@ -31,15 +31,15 @@ msgstr "Exportar firmas"
 
 #: ../../export_signatures_tab.rst:12
 msgid "registry_save"
-msgstr "registro_guardar"
+msgstr "registry_save"
 
 #: ../../export_signatures_tab.rst:15
 msgid "project_save"
-msgstr "guardar_proyecto"
+msgstr "project_save"
 
 #: ../../export_signatures_tab.rst:18
 msgid "optional"
-msgstr "opcional"
+msgstr "optional"
 
 #: ../../export_signatures_tab.rst:21
 msgid "input_list"

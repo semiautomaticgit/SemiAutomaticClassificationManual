@@ -43,19 +43,19 @@ msgstr "optional"
 
 #: ../../export_signatures_tab.rst:21
 msgid "input_list"
-msgstr "lista_entrada"
+msgstr "input_list"
 
 #: ../../export_signatures_tab.rst:24
 msgid "input_text"
-msgstr "texto de entrada"
+msgstr "input_text"
 
 #: ../../export_signatures_tab.rst:27
 msgid "input_date"
-msgstr "fecha_entrada"
+msgstr "input_date"
 
 #: ../../export_signatures_tab.rst:30
 msgid "input_number"
-msgstr "número de entrada"
+msgstr "input_number"
 
 #: ../../export_signatures_tab.rst:33
 msgid "input_table"

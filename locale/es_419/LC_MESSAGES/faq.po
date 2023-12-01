@@ -214,7 +214,7 @@ msgstr ""
 
 #: ../../faq.rst:114
 msgid "Can I use the previous version 7 of SCP?"
-msgstr ""
+msgstr "¿Puedo usar la versión anterior, 7, de SCP?"
 
 #: ../../faq.rst:116
 msgid ""

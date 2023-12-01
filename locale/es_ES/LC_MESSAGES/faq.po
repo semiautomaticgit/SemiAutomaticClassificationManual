@@ -477,9 +477,9 @@ msgstr ""
 "Muchos métodos han sido desarrollados para estimar la temperatura de la "
 "superficie. El método descrito en el tutorial para la estimación de "
 "temperatura requiere solo una banda. Por otro lado, el USGS recomienda a los"
-" usuarios abstenerse de confiar en los datos de la Banda 11 de Landsat 8 en "
-"análisis cuantitativos de datos del Sensor Infrarrojo Térmico (mira `Changes"
-" to Thermal Infrared Sensor (TIRS) data "
+" usuarios no confiar en los datos de la Banda 11 de Landsat 8 en análisis "
+"cuantitativos de datos del Sensor Infrarrojo Térmico (mira `Changes to "
+"Thermal Infrared Sensor (TIRS) data "
 "<http://landsat.usgs.gov/calibration_notices.php>`_ del USGS)."
 
 #: ../../faq.rst:322

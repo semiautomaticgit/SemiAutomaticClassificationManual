@@ -68,7 +68,7 @@ msgstr "Instalación del Complemento"
 
 #: ../../faq.rst:36
 msgid "How to install the plugin manually?"
-msgstr "¿Cómo instalar el complemento manualmente?"
+msgstr "¿Cómo se instala el complemento manualmente?"
 
 #: ../../faq.rst:38
 msgid ""

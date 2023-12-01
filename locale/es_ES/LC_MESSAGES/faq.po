@@ -569,7 +569,7 @@ msgstr ":math:`S_i` = desviación estándar del estrato i;"
 
 #: ../../faq.rst:359
 msgid ":math:`S_o` = expected standard deviation of overall accuracy;"
-msgstr ""
+msgstr ":math:`S_o` = desviación estándar esperada de la exactitud general ;"
 
 #: ../../faq.rst:360
 msgid ":math:`c` = total number of classes;"

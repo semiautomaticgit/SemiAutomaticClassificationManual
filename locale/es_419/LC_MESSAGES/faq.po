@@ -516,6 +516,9 @@ msgid ""
 "the time required to create a unique ``.tif`` raster (after multiprocess), "
 "especially useful for large rasters."
 msgstr ""
+"También, varias herramientas permiten usar como formato de salida ``.vrt`` "
+"lo que disminuye el tiempo nevesario para crear un ráster ``.tif`` (después "
+"del multiproceso), lo cual es especialmente útil para rásteres grandes."
 
 #: ../../faq.rst:339
 msgid ""
@@ -540,18 +543,24 @@ msgid ""
 "estimating area and assessing accuracy of land change. Remote Sensing of "
 "Environment, 148, 42 – 57\"."
 msgstr ""
+"El diseño de muestreo es necesario para proporcionar un número adecuado de muestras para cada clase, como se describe en \"Olofsson, et al., 2014. Good practices for estimating area and assessing accuracy of land change. Remote Sensing of Environment, 148, 42 – 57\".\n"
+" "
 
 #: ../../faq.rst:349
 msgid ""
 "The number of samples (:math:`N`) should be calculated as (Olofsson, et al.,"
 " 2014):"
 msgstr ""
+"El número de muestras (:math:`N`) deberá calcularse usando (Olofsson, et "
+"al., 2014):"
 
 #: ../../faq.rst:352
 msgid ""
 "N = ( \\sum_{i=1}^{c} (W_i - S_i) / S_o)^2\n"
 "\n"
 msgstr ""
+"N = ( \\sum_{i=1}^{c} (W_i - S_i) / S_o)^2\n"
+"\n"
 
 #: ../../faq.rst:355
 msgid "where:"
@@ -559,19 +568,19 @@ msgstr "donde:"
 
 #: ../../faq.rst:357
 msgid ":math:`W_i` = mapped area proportion of class i;"
-msgstr ""
+msgstr ":math:`W_i` = proporción del área clasificada como clase i;"
 
 #: ../../faq.rst:358
 msgid ":math:`S_i` = standard deviation of stratum i;"
-msgstr ""
+msgstr ":math:`S_i` = desviación estándar del estrato i;"
 
 #: ../../faq.rst:359
 msgid ":math:`S_o` = expected standard deviation of overall accuracy;"
-msgstr ""
+msgstr ":math:`S_o` = desviación estándar esperada de la exactitud general ;"
 
 #: ../../faq.rst:360
 msgid ":math:`c` = total number of classes;"
-msgstr ""
+msgstr ":math:`c` = número total de clases"
 
 #: ../../faq.rst:362
 msgid ""

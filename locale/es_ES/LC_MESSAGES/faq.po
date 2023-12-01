@@ -128,8 +128,8 @@ msgid ""
 "sure that ``Semi-Automatic Classification Plugin`` is checked."
 msgstr ""
 "el complemento debería estar instalado; inicia QGIS, abre el Administrador "
-"de complementos y asegúrate  que está seleccionado ``Semi-Automatic "
-"Classification Plugin``."
+"de complementos y asegúrate  que está marcado``Semi-Automatic Classification"
+" Plugin``."
 
 #: ../../faq.rst:59
 msgid "How to install the plugin from the official SCP repository?"

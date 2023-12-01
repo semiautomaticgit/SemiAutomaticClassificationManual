@@ -573,7 +573,7 @@ msgstr ":math:`S_o` = desviación estándar esperada de la exactitud general ;"
 
 #: ../../faq.rst:360
 msgid ":math:`c` = total number of classes;"
-msgstr ""
+msgstr ":math:`c` = número total de clases"
 
 #: ../../faq.rst:362
 msgid ""

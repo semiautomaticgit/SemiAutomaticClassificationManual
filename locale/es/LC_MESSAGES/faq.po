@@ -551,12 +551,16 @@ msgid ""
 "The number of samples (:math:`N`) should be calculated as (Olofsson, et al.,"
 " 2014):"
 msgstr ""
+"El número de muestras (:math:`N`) deberá calcularse usando (Olofsson, et "
+"al., 2014):"
 
 #: ../../faq.rst:352
 msgid ""
 "N = ( \\sum_{i=1}^{c} (W_i - S_i) / S_o)^2\n"
 "\n"
 msgstr ""
+"N = ( \\sum_{i=1}^{c} (W_i - S_i) / S_o)^2\n"
+"\n"
 
 #: ../../faq.rst:355
 msgid "where:"
@@ -568,7 +572,7 @@ msgstr ""
 
 #: ../../faq.rst:358
 msgid ":math:`S_i` = standard deviation of stratum i;"
-msgstr ""
+msgstr ":math:`S_i` = desviación estándar del estrato i;"
 
 #: ../../faq.rst:359
 msgid ":math:`S_o` = expected standard deviation of overall accuracy;"
@@ -576,7 +580,7 @@ msgstr ""
 
 #: ../../faq.rst:360
 msgid ":math:`c` = total number of classes;"
-msgstr ""
+msgstr ":math:`c` = número total de clases"
 
 #: ../../faq.rst:362
 msgid ""

@@ -356,9 +356,9 @@ msgid ""
 msgstr ""
 "Si quieres aplicar la corrección DOS a una banda completa que tiene valores "
 "NoData (el borde negro con valor = 0), debe marcar la casilla de "
-"verificación `` Usar valor como NoData '' y establecer el valor en 0. Esto "
-"se debe a que DOS es una técnica basada en imágenes y los valores NoData "
-"deben excluirse del cálculo."
+"verificación `` Usar valor como NoData '' y definir el valor como 0. Esto se"
+" debe a que DOS es una técnica basada en imagen y los valores NoData deben "
+"excluirse del cálculo."
 
 #: ../../faq.rst:243
 msgid "How to remove cloud cover from images?"

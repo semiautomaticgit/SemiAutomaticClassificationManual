@@ -525,6 +525,9 @@ msgid ""
 "<https://fromgistors.blogspot.com/2019/09/Accuracy-Assessment-of-Land-Cover-"
 "Classification.html>`_ ."
 msgstr ""
+"La evaluación de la exactitud está descrita en `este tutorial "
+"<https://fromgistors.blogspot.com/2019/09/Accuracy-Assessment-of-Land-Cover-"
+"Classification.html>`_ ."
 
 #: ../../faq.rst:344
 msgid ""

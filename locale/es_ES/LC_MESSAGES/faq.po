@@ -310,6 +310,10 @@ msgid ""
 "name_02_10m.jp2 to name_02.jp2) Then select this directory in "
 ":ref:`image_conversion`. Images are converted to reflectance."
 msgstr ""
+"Si, deberás mover todo los archivos .jp2 y renombrar los archivos que tengan"
+" el número de banda al final del nombre (e.g. de nombre_02_10m.jp2 a "
+"nombre_02.jp2). Luego selecciona el directorio en :ref:`image_conversion` y "
+"las imágenes serán convertidas a reflectancia."
 
 #: ../../faq.rst:220
 msgid ""

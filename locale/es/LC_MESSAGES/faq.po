@@ -502,6 +502,13 @@ msgid ""
 "a value lower than the maximum number of system threads (e.g. if the system "
 "has 4 available threads set value 3)."
 msgstr ""
+"Para mejorar la velocidad de procesamiento deberás configurar la RAM y los "
+"hilos disponibles en :ref:`system_processing`. :guilabel:`RAM Disponible "
+"(MB)`.  Debería ser la mitad de la RAM total del sistema (e.g. 1024MB si es "
+"sistema tiene 2GB de RAM) o más si el sistema tiene un gran cantidad de RAM "
+"(e.g. 10240MB si el sistema tiene 16GB de RAM). :guilabel:`Hilos CPU` deberá"
+" ser un valor menor al valor de hilos máximo del sistema (e.g. si el sistema"
+" tiene 4 hilos utiliza el valor 3)."
 
 #: ../../faq.rst:332
 msgid ""

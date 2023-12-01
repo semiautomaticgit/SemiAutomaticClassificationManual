@@ -86,7 +86,7 @@ msgid ""
 "https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin/archive/master.zip"
 " ;"
 msgstr ""
-"Descarga el archivo zip de SCP desde "
+"Descarga el archivo zip de SCP de "
 "https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin/archive/master.zip"
 " ;"
 

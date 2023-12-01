@@ -127,10 +127,13 @@ msgid ""
 "export highlighted ROIs (spectral signature data excluded) as a new "
 "shapefile (.shp) or geopackage (.gpkg)"
 msgstr ""
+"exportar las ROIs seleccionadas (sin los datos de las firmas espectrales) a "
+"shapefile (.shp) o geopackage (.gpkg)"
 
 #: ../../export_signatures_tab.rst:74
 msgid ":guilabel:`Export spectral signatures as CSV file` |open_dir|"
 msgstr ""
+":guilabel:`Exportar las firmas espectrales a un achivo CSV` |open_dir|"
 
 #: ../../export_signatures_tab.rst:75
 msgid ""

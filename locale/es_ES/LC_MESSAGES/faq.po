@@ -374,8 +374,8 @@ msgstr ""
 "La corrección DOS1 no elimina las nubes de la imagen. Sin embargo, las "
 "imágenes de Landsat 8 incluyen la Banda 9 que identifica las nubes (consulta"
 " este `sitio de la NASA "
-"<https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/>` _). Puede "
-"utilizar esta banda para la creación de una máscara."
+"<https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-bands/>` _). Puedes "
+"utilizar esta banda para crear máscaras de nubes."
 
 #: ../../faq.rst:254
 msgid "Processing"

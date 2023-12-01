@@ -6,7 +6,6 @@
 # 
 # Translators:
 # Francisco Limon <Wany1954@armyspy.com>, 2023
-# Santiago Behr <behr.santiago@inta.gob.ar>, 2023
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
 # Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
@@ -274,8 +273,8 @@ msgstr ""
 "Todas las imágenes Landsat MSS 1, 2 y 3; TM 4 y 5; ETM 7 y OLI 8 descargadas"
 " desde http://earthexplorer.usgs.gov/ y procesadas con el nivel 1 del "
 "Sistema de Generación de Producto (LPGS) pueden ser automáticamente "
-"convertidas a reflectancia por SCP; los productos generados por LPGS tienen "
-"un archivo MTL incluido que es requerido para dicha conversión."
+"convertidas a reflectancia por SCP; los productos generados por LPGS "
+"incluyen un archivo MTL que es requerido para la conversión."
 
 #: ../../faq.rst:196
 msgid ""

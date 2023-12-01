@@ -76,9 +76,9 @@ msgid ""
 "connection is not available, or the installation is required on multiple "
 "computers), following a few steps:"
 msgstr ""
-"El SCP puede instalarse manualmente (puede ser útil cuando no esté "
-"disponible una conexión a internet o se desea instalar en varias "
-"computadoras) siguiendo estos pasos:"
+"SCP puede instalarse manualmente (puede ser útil cuando no esté disponible "
+"una conexión a internet o se desea instalar en varias computadoras) "
+"siguiendo estos pasos:"
 
 #: ../../faq.rst:42
 msgid ""

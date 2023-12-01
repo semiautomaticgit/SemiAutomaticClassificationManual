@@ -300,6 +300,8 @@ msgstr ""
 #: ../../faq.rst:208
 msgid "Can I apply the conversion to Sentinel-2 L2A downloaded from the web?"
 msgstr ""
+"¿Puedo aplicar la conversión a productos Sentinel-2 L2A descargados de la "
+"web?"
 
 #: ../../faq.rst:210
 msgid ""

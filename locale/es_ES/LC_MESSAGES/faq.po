@@ -544,12 +544,16 @@ msgid ""
 "The number of samples (:math:`N`) should be calculated as (Olofsson, et al.,"
 " 2014):"
 msgstr ""
+"El número de muestras (:math:`N`) deberá calcularse usando (Olofsson, et "
+"al., 2014):"
 
 #: ../../faq.rst:352
 msgid ""
 "N = ( \\sum_{i=1}^{c} (W_i - S_i) / S_o)^2\n"
 "\n"
 msgstr ""
+"N = ( \\sum_{i=1}^{c} (W_i - S_i) / S_o)^2\n"
+"\n"
 
 #: ../../faq.rst:355
 msgid "where:"

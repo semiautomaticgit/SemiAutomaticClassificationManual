@@ -362,7 +362,7 @@ msgstr ""
 
 #: ../../faq.rst:243
 msgid "How to remove cloud cover from images?"
-msgstr "¿Cómo quitar la cobertura de nubes a las imágenes?"
+msgstr "¿Cómo puedo quitar la cobertura de nubes a las imágenes?"
 
 #: ../../faq.rst:245
 msgid ""

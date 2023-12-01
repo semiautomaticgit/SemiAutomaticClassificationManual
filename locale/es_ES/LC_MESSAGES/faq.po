@@ -133,7 +133,7 @@ msgstr ""
 
 #: ../../faq.rst:59
 msgid "How to install the plugin from the official SCP repository?"
-msgstr "¿Cómo instalar el complemento desde el repositorio oficial de SCP?"
+msgstr "¿Cómo se instala el complemento desde el repositorio oficial de SCP?"
 
 #: ../../faq.rst:61
 msgid ""

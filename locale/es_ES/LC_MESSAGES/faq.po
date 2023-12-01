@@ -96,7 +96,7 @@ msgid ""
 "and folders such as ``ui``) in a new folder named "
 "``SemiAutomaticClassificationPlugin`` (without ``-master``);"
 msgstr ""
-"extraer el contenido del archivo (varios archivos como ``COPYING.txt`` y "
+"extrae el contenido del archivo (algunos archivos como ``COPYING.txt`` y "
 "carpetas como ``ui``) en una nueva carpeta llamada "
 "``SemiAutomaticClassificationPlugin`` (sin el ``-master``);"
 

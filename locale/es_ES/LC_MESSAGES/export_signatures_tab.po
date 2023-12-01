@@ -98,7 +98,7 @@ msgstr ""
 
 #: ../../export_signatures_tab.rst:66
 msgid "Tool symbol and name"
-msgstr "Símbolo de la herramienta y nombre"
+msgstr "Símbolo y nombre de la herramienta"
 
 #: ../../export_signatures_tab.rst:67
 msgid "Description"

@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../export_signatures_tab.rst:71
 msgid ":guilabel:`Export as shapefile or geopackage` |new_file|"
-msgstr ""
+msgstr ":guilabel:`Exportar a shapefile o geopackage` |new_file|"
 
 #: ../../export_signatures_tab.rst:72
 msgid ""

@@ -222,6 +222,8 @@ msgid ""
 "repository. Also, this version can be installed along with the SCP version "
 "8."
 msgstr ""
+"Es posible instalar la versión 7 de SCP usando el repositorio oficial. "
+"Además está versión puede instalarse junto a la versión 8 de SCP."
 
 #: ../../faq.rst:164
 msgid "Pre processing"

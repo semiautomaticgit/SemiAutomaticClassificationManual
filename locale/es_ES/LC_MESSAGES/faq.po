@@ -383,8 +383,7 @@ msgstr "Procesamiento"
 
 #: ../../faq.rst:259
 msgid "I get classification errors. How can I improve the accuracy?"
-msgstr ""
-"Obtengo errores en la clasificación. ¿Cómo puedo mejorar la precisión?"
+msgstr "Tengo errores en la clasificación. ¿Cómo puedo mejorar la exactitud?"
 
 #: ../../faq.rst:261
 msgid ""

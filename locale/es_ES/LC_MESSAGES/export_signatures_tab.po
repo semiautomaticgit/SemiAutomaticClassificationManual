@@ -131,6 +131,7 @@ msgstr ""
 #: ../../export_signatures_tab.rst:74
 msgid ":guilabel:`Export spectral signatures as CSV file` |open_dir|"
 msgstr ""
+":guilabel:`Exportar las firmas espectrales a un achivo CSV` |open_dir|"
 
 #: ../../export_signatures_tab.rst:75
 msgid ""

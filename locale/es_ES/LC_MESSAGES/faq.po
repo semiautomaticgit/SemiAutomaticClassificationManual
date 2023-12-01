@@ -207,9 +207,9 @@ msgid ""
 msgstr ""
 "Desde el menú ``Todos``, selecciona el ``Semi-Automatic Classification "
 "Plugin - master`` y da clic en el botón ``Instalar complemento``; la última "
-"versión de SCP se activará automáticamente (ignora los errores, reiniciar "
-"QGIS es necesario para completar la instalación de SCP); es posible "
-"desactivar el otro SCP instalado en el repositorio de QGIS;"
+"versión de SCP se activará automáticamente (ignora los errores, puede que "
+"sea necesario reiniciar QGIS para completar la instalación de SCP); se puede"
+" desactivar el otro SCP instalado en el repositorio de QGIS;"
 
 #: ../../faq.rst:114
 msgid "Can I use the previous version 7 of SCP?"

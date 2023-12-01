@@ -113,6 +113,8 @@ msgid ""
 "create a new .scp file and export highlighted ROIs and spectral signatures "
 "as :guilabel:`SCP` file (.scpx)"
 msgstr ""
+"crea un archivo .scp nuevo y exportar las ROIs seleccionadas y las firmas "
+"espectrales como un archivo :guilabel:`SCP` (.scpx)"
 
 #: ../../export_signatures_tab.rst:71
 msgid ":guilabel:`Export as shapefile or geopackage` |new_file|"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 18:03+0100\n"
+"POT-Creation-Date: 2023-12-08 17:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -246,11 +246,13 @@ msgstr ""
 
 #: ../../download_products_tab.rst:184 ../../download_products_tab.rst:283
 #: ../../download_products_tab.rst:313 ../../download_products_tab.rst:359
+#: ../../download_products_tab.rst:387
 msgid "Tool symbol and name"
 msgstr ""
 
 #: ../../download_products_tab.rst:185 ../../download_products_tab.rst:284
 #: ../../download_products_tab.rst:314 ../../download_products_tab.rst:360
+#: ../../download_products_tab.rst:388
 msgid "Description"
 msgstr ""
 
@@ -662,33 +664,44 @@ msgid ""
 "register for free at https://urs.earthdata.nasa.gov/users/new ."
 msgstr ""
 
-#: ../../download_products_tab.rst:361
+#: ../../download_products_tab.rst:361 ../../download_products_tab.rst:389
 msgid ":guilabel:`User` |input_text| |registry_save|"
 msgstr ""
 
-#: ../../download_products_tab.rst:362
+#: ../../download_products_tab.rst:362 ../../download_products_tab.rst:390
 msgid "enter the user name"
 msgstr ""
 
-#: ../../download_products_tab.rst:363
+#: ../../download_products_tab.rst:363 ../../download_products_tab.rst:391
 msgid ":guilabel:`Password` |input_text| |registry_save|"
 msgstr ""
 
-#: ../../download_products_tab.rst:364
+#: ../../download_products_tab.rst:364 ../../download_products_tab.rst:392
 msgid "enter the password"
 msgstr ""
 
-#: ../../download_products_tab.rst:365
+#: ../../download_products_tab.rst:365 ../../download_products_tab.rst:393
 msgid "|checkbox| :guilabel:`remember`"
 msgstr ""
 
-#: ../../download_products_tab.rst:366
+#: ../../download_products_tab.rst:366 ../../download_products_tab.rst:394
 msgid "if checked, remember user name and password locally in QGIS"
 msgstr ""
 
-#: ../../download_products_tab.rst:370
+#: ../../download_products_tab.rst:370 ../../download_products_tab.rst:398
 msgid ""
 "If |checkbox| :guilabel:`remember` is checked, the password is stored "
 "unencrypted in QGIS registry."
+msgstr ""
+
+#: ../../download_products_tab.rst:376
+msgid "Login Copernicus Data Space Ecosystem"
+msgstr ""
+
+#: ../../download_products_tab.rst:378
+msgid ""
+"The download of Sentinel-2 is available also using `Copernicus Data Space"
+" Ecosystem` credentials (https://dataspace.copernicus.eu). One can "
+"register for free at https://dataspace.copernicus.eu ."
 msgstr ""
 

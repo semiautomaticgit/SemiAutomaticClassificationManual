@@ -369,3 +369,31 @@ One can register for free at https://urs.earthdata.nasa.gov/users/new .
 .. warning::
     If |checkbox| :guilabel:`remember` is checked, the password is stored
     unencrypted in QGIS registry.
+
+.. _login_copernicus:
+
+Login Copernicus Data Space Ecosystem
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The download of Sentinel-2 is available also using
+`Copernicus Data Space Ecosystem` credentials
+(https://dataspace.copernicus.eu).
+One can register for free at https://dataspace.copernicus.eu .
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - Tool symbol and name
+      - Description
+    * - :guilabel:`User` |input_text| |registry_save|
+      - enter the user name
+    * - :guilabel:`Password` |input_text| |registry_save|
+      - enter the password
+    * - |checkbox| :guilabel:`remember`
+      - if checked, remember user name and password locally in QGIS
+
+
+.. warning::
+    If |checkbox| :guilabel:`remember` is checked, the password is stored
+    unencrypted in QGIS registry.

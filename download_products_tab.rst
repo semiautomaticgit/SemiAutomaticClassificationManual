@@ -153,13 +153,39 @@ Search
 
 The :guilabel:`Search` tool allows for searching and downloading:
 
-* :guilabel:`Harmonized Landsat Sentinel-2` by NASA which are surface
-  reflectance data product (generated with Landsat 8, Landsat 9, and Sentinel-2
-  data acquired from 2013 to present days) with observations every two to three
-  days at 30m spatial resolution (more information about the
-  `project <https://www.earthdata.nasa.gov/esds/harmonized-landsat-sentinel-2>`_);
-* Copernicus :guilabel:`Sentinel-2` images (Level-1C and Level-2A) acquired
-  from 2015 to present days;
+* :guilabel:`Sentinel-2`:
+  `Copernicus Sentinel-2 <https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-2>`_
+  images (Level-1C and Level-2A) acquired from 2015 to present days;
+* :guilabel:`Landsat_MPC`:
+  `Landsat Collection <https://planetarycomputer.microsoft.com/dataset/group/landsat>`_
+  images acquired from August 1982 to present days, such as Landsat 5, 7, 8, 9
+  (data retrieved from Microsoft Planetary Computer);
+* :guilabel:`Sentinel-2_MPC`:
+  `Copernicus Sentinel-2 Level-2A <https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a>`_
+  acquired from 2015 to present days (data retrieved from Microsoft Planetary
+  Computer);
+* :guilabel:`Landsat_HLS`: Landsat from Harmonized Landsat Sentinel-2 by
+  NASA which are surface reflectance data product (generated with Landsat 8,
+  Landsat 9, and Sentinel-2 data acquired from 2013 to present days) with
+  observations every two to three days at 30m spatial resolution (more
+  information about the `project <https://hls.gsfc.nasa.gov/>`_);
+* :guilabel:`Sentinel-2_HLS`: Sentinel-2 from Harmonized Landsat Sentinel-2 by
+  NASA which are surface reflectance data product (generated with Landsat 8,
+  Landsat 9, and Sentinel-2 data acquired from 2013 to present days) with
+  observations every two to three days at 30m spatial resolution (more
+  information about the `project <https://hls.gsfc.nasa.gov/>`_);
+* :guilabel:`MODIS_09Q1_MPC`:
+  `MODIS Surface Reflectance 8-Day (250m) <https://planetarycomputer.microsoft.com/dataset/modis-09Q1-061>`_
+  (data retrieved from Microsoft Planetary Computer);
+* :guilabel:`MODIS_11A2_MPC`:
+  `MODIS Land Surface Temperature 8-Day <https://planetarycomputer.microsoft.com/dataset/modis-11A2-061>`_
+  (data retrieved from Microsoft Planetary Computer);
+* :guilabel:`ASTER_MPC`:
+  `ASTER L1T <https://planetarycomputer.microsoft.com/dataset/aster-l1t>`_
+  (data retrieved from Microsoft Planetary Computer);
+* :guilabel:`Copernicus_DEM_30_MPC`:
+  `Copernicus DEM GLO-30 <https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30>`_
+  (data retrieved from Microsoft Planetary Computer);
 
 The download of :guilabel:`Harmonized Landsat Sentinel-2` requires
 credentials defined in :ref:`login_data_tab`.
@@ -257,6 +283,7 @@ The table includes the following fields.
       - size
       - preview
       - uid
+      - ref_url
     * - the product name (e.g., Sentinel-2)
       - the image name
       - the ID of the product
@@ -272,6 +299,7 @@ The table includes the following fields.
       - product size
       - URL of the product preview
       - identifier of the item
+      - reference URL
 
 
 The following tools are available.

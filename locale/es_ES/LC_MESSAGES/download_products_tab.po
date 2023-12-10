@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-08 17:39+0100\n"
+"POT-Creation-Date: 2023-12-10 14:32+0100\n"
 "PO-Revision-Date: 2023-10-24 15:43+0000\n"
 "Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_ES/)\n"
@@ -225,29 +225,75 @@ msgstr "La herramienta de :guilabel:`Búsqueda` permite buscar y descarga."
 
 #: ../../download_products_tab.rst:156
 msgid ""
-":guilabel:`Harmonized Landsat Sentinel-2` by NASA which are surface "
-"reflectance data product (generated with Landsat 8, Landsat 9, and "
-"Sentinel-2 data acquired from 2013 to present days) with observations every "
-"two to three days at 30m spatial resolution (more information about the "
-"`project <https://www.earthdata.nasa.gov/esds/harmonized-landsat-"
-"sentinel-2>`_);"
+":guilabel:`Sentinel-2`: `Copernicus Sentinel-2 "
+"<https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-"
+"data/sentinel-2>`_ images (Level-1C and Level-2A) acquired from 2015 to "
+"present days;"
 msgstr ""
-":guilabel:`Landsat Sentinel-2 Armonizado` de NASA que es un producto de "
-"reflectividad a nivel de suelo (generado con datos de Landsat 8, Landsat 9, "
-"y Sentinel-2 data adquiridos desde 2013 hasta la actualidad) con "
-"observaciones cada 2 o 3 días con un tamaño de píxel de 30m (más información"
-" del `proyecto <https://www.earthdata.nasa.gov/esds/harmonized-landsat-"
-"sentinel-2>`_);"
 
-#: ../../download_products_tab.rst:161
+#: ../../download_products_tab.rst:159
 msgid ""
-"Copernicus :guilabel:`Sentinel-2` images (Level-1C and Level-2A) acquired "
-"from 2015 to present days;"
+":guilabel:`Landsat_MPC`: `Landsat Collection "
+"<https://planetarycomputer.microsoft.com/dataset/group/landsat>`_ images "
+"acquired from August 1982 to present days, such as Landsat 5, 7, 8, 9 (data "
+"retrieved from Microsoft Planetary Computer);"
 msgstr ""
-"Imágenes :guilabel:`Sentinel-2` del programa Copernicus (Nivel-1C y "
-"Nivel-2A) adquiridas desde 2015 hasta la actualidad;"
 
-#: ../../download_products_tab.rst:164
+#: ../../download_products_tab.rst:163
+msgid ""
+":guilabel:`Sentinel-2_MPC`: `Copernicus Sentinel-2 Level-2A "
+"<https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a>`_ acquired "
+"from 2015 to present days (data retrieved from Microsoft Planetary "
+"Computer);"
+msgstr ""
+
+#: ../../download_products_tab.rst:167
+msgid ""
+":guilabel:`Landsat_HLS`: Landsat from Harmonized Landsat Sentinel-2 by NASA "
+"which are surface reflectance data product (generated with Landsat 8, "
+"Landsat 9, and Sentinel-2 data acquired from 2013 to present days) with "
+"observations every two to three days at 30m spatial resolution (more "
+"information about the `project <https://hls.gsfc.nasa.gov/>`_);"
+msgstr ""
+
+#: ../../download_products_tab.rst:172
+msgid ""
+":guilabel:`Sentinel-2_HLS`: Sentinel-2 from Harmonized Landsat Sentinel-2 by"
+" NASA which are surface reflectance data product (generated with Landsat 8, "
+"Landsat 9, and Sentinel-2 data acquired from 2013 to present days) with "
+"observations every two to three days at 30m spatial resolution (more "
+"information about the `project <https://hls.gsfc.nasa.gov/>`_);"
+msgstr ""
+
+#: ../../download_products_tab.rst:177
+msgid ""
+":guilabel:`MODIS_09Q1_MPC`: `MODIS Surface Reflectance 8-Day (250m) "
+"<https://planetarycomputer.microsoft.com/dataset/modis-09Q1-061>`_ (data "
+"retrieved from Microsoft Planetary Computer);"
+msgstr ""
+
+#: ../../download_products_tab.rst:180
+msgid ""
+":guilabel:`MODIS_11A2_MPC`: `MODIS Land Surface Temperature 8-Day "
+"<https://planetarycomputer.microsoft.com/dataset/modis-11A2-061>`_ (data "
+"retrieved from Microsoft Planetary Computer);"
+msgstr ""
+
+#: ../../download_products_tab.rst:183
+msgid ""
+":guilabel:`ASTER_MPC`: `ASTER L1T "
+"<https://planetarycomputer.microsoft.com/dataset/aster-l1t>`_ (data "
+"retrieved from Microsoft Planetary Computer);"
+msgstr ""
+
+#: ../../download_products_tab.rst:186
+msgid ""
+":guilabel:`Copernicus_DEM_30_MPC`: `Copernicus DEM GLO-30 "
+"<https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30>`_ (data "
+"retrieved from Microsoft Planetary Computer);"
+msgstr ""
+
+#: ../../download_products_tab.rst:190
 msgid ""
 "The download of :guilabel:`Harmonized Landsat Sentinel-2` requires "
 "credentials defined in :ref:`login_data_tab`."
@@ -255,11 +301,11 @@ msgstr ""
 "La descarga :guilabel:`Landsat Sentinel-2 Armonizado` requiere credenciales "
 "que deben definirse en :ref:`login_data_tab`."
 
-#: ../../download_products_tab.rst:170
+#: ../../download_products_tab.rst:196
 msgid "Search parameters"
 msgstr "Parámetros de búsqueda"
 
-#: ../../download_products_tab.rst:172
+#: ../../download_products_tab.rst:198
 msgid ""
 "Define the search area by entering the coordinates (longitude and latitude) "
 "of an ``Upper Left`` (UL) point and ``Lower Right`` (LR) point and select a "
@@ -272,52 +318,52 @@ msgstr ""
 "adquisición, cobertura máxima de nubes, número de resultados (cuanto menos "
 "sean los resultados más rápida será la consulta)."
 
-#: ../../download_products_tab.rst:178
+#: ../../download_products_tab.rst:204
 msgid ""
 "The definition of a search area is required before searching the images."
 msgstr "Antes de buscar imágenes es necesario definir el área de búsqueda."
 
-#: ../../download_products_tab.rst:184 ../../download_products_tab.rst:283
-#: ../../download_products_tab.rst:313 ../../download_products_tab.rst:359
-#: ../../download_products_tab.rst:387
+#: ../../download_products_tab.rst:210 ../../download_products_tab.rst:311
+#: ../../download_products_tab.rst:341 ../../download_products_tab.rst:387
+#: ../../download_products_tab.rst:415
 msgid "Tool symbol and name"
 msgstr "Símbolo y nombre de la herramienta"
 
-#: ../../download_products_tab.rst:185 ../../download_products_tab.rst:284
-#: ../../download_products_tab.rst:314 ../../download_products_tab.rst:360
-#: ../../download_products_tab.rst:388
+#: ../../download_products_tab.rst:211 ../../download_products_tab.rst:312
+#: ../../download_products_tab.rst:342 ../../download_products_tab.rst:388
+#: ../../download_products_tab.rst:416
 msgid "Description"
 msgstr "Descripción"
 
-#: ../../download_products_tab.rst:186
+#: ../../download_products_tab.rst:212
 msgid ":guilabel:`UL` |input_number| |input_number|"
 msgstr ":guilabel:`SI` |input_number| |input_number|"
 
-#: ../../download_products_tab.rst:187
+#: ../../download_products_tab.rst:213
 msgid "set the UL longitude X (Lon) and the UL latitude Y (Lat)"
 msgstr "define la longitud X (Long)  y la latitud Y (Lat) de la esquina SI"
 
-#: ../../download_products_tab.rst:188
+#: ../../download_products_tab.rst:214
 msgid ":guilabel:`LR` |input_number| |input_number|"
 msgstr ":guilabel:`SI` |input_number| |input_number|"
 
-#: ../../download_products_tab.rst:189
+#: ../../download_products_tab.rst:215
 msgid "set the LR longitude X (Lon) and the LR latitude Y (Lat)"
 msgstr "define la longitud X (Long) y la latitud Y (Lat) de la esquina ID"
 
-#: ../../download_products_tab.rst:190
+#: ../../download_products_tab.rst:216
 msgid "|radiobutton| :guilabel:`Show`"
 msgstr "|radiobutton| :guilabel:`Mostrar`"
 
-#: ../../download_products_tab.rst:191
+#: ../../download_products_tab.rst:217
 msgid "show or hide the search area in the map;"
 msgstr "mostrar o ocultar el área de búsqueda en el mapa"
 
-#: ../../download_products_tab.rst:192
+#: ../../download_products_tab.rst:218
 msgid "|pointer|"
 msgstr "|pointer|"
 
-#: ../../download_products_tab.rst:193
+#: ../../download_products_tab.rst:219
 msgid ""
 "define a search area by left click to set the UL point and right click to "
 "set the LR point; the search area is displayed in the map"
@@ -325,51 +371,51 @@ msgstr ""
 "define el área de búsqueda haciendo click izquierdo para la esquina SI y "
 "click derecho para la esquina ID; el área de búsqueda se mostrará en el mapa"
 
-#: ../../download_products_tab.rst:195
+#: ../../download_products_tab.rst:221
 msgid ":guilabel:`Products` |input_list|"
 msgstr ":guilabel:`Productos` |input_list|"
 
-#: ../../download_products_tab.rst:196
+#: ../../download_products_tab.rst:222
 msgid "set the search product"
 msgstr "define el producto para la búsqueda"
 
-#: ../../download_products_tab.rst:197
+#: ../../download_products_tab.rst:223
 msgid ":guilabel:`Date from` |input_date|"
 msgstr ":guilabel:`Fecha desde` |input_date|"
 
-#: ../../download_products_tab.rst:198
+#: ../../download_products_tab.rst:224
 msgid "set the starting date of acquisition"
 msgstr "define la fecha de adquisición de inicio"
 
-#: ../../download_products_tab.rst:199
+#: ../../download_products_tab.rst:225
 msgid ":guilabel:`to` |input_date|"
 msgstr ":guilabel:`hasta` |input_date|"
 
-#: ../../download_products_tab.rst:200
+#: ../../download_products_tab.rst:226
 msgid "set the ending date of acquisition"
 msgstr "define la fecha de adquisición final "
 
-#: ../../download_products_tab.rst:201
+#: ../../download_products_tab.rst:227
 msgid ":guilabel:`Max cloud cover (%)` |input_number|"
 msgstr ":guilabel:`Cobertura de nubes máxima (%)` |input_number|"
 
-#: ../../download_products_tab.rst:202
+#: ../../download_products_tab.rst:228
 msgid "maximum cloud cover in the product"
 msgstr "cobertura de nubes máxima del producto"
 
-#: ../../download_products_tab.rst:203
+#: ../../download_products_tab.rst:229
 msgid ":guilabel:`Results` |input_number|"
 msgstr ":guilabel:`Resultados` |input_number|"
 
-#: ../../download_products_tab.rst:204
+#: ../../download_products_tab.rst:230
 msgid "maximum number of products returned by the search"
 msgstr "máximo número de imágenes regresado por la  búsqueda"
 
-#: ../../download_products_tab.rst:205
+#: ../../download_products_tab.rst:231
 msgid ":guilabel:`Advanced search` |input_text|"
 msgstr ":guilabel:`Búsqueda avanzada` |input_text|"
 
-#: ../../download_products_tab.rst:206
+#: ../../download_products_tab.rst:232
 msgid ""
 "some services (e.g. Sentinel-2) allows for entering search parameters; for "
 "instance, it is possible to enter the name of a granule (e.g. 33TTG)"
@@ -377,11 +423,11 @@ msgstr ""
 "algunos servicios (e.g. Sentinel-2) permiten usar otros parámetros de "
 "búsqueda; por ejemplo, el nombre del gránulo (e.g. 33TTG)"
 
-#: ../../download_products_tab.rst:208
+#: ../../download_products_tab.rst:234
 msgid ":guilabel:`Filter` |input_text|"
 msgstr ":guilabel:`Filtro` |input_text|"
 
-#: ../../download_products_tab.rst:209
+#: ../../download_products_tab.rst:235
 msgid ""
 "set a filter such as the Product ID (e.g. ``LC81910312015006LGN00``); it is "
 "possible to enter multiple Product IDs separated by comma or semicolon (e.g."
@@ -394,11 +440,11 @@ msgstr ""
 "LC81910312013224LGN00`` ); el filtro será aplicado a los resultados en el "
 "área de búsqueda"
 
-#: ../../download_products_tab.rst:213
+#: ../../download_products_tab.rst:239
 msgid ":guilabel:`Find` |search_images|"
 msgstr ":guilabel:`Encontrar` |search_images|"
 
-#: ../../download_products_tab.rst:214
+#: ../../download_products_tab.rst:240
 msgid ""
 "find the products in the search area; results are displayed inside the table"
 " in :ref:`product_list`; results are added to previous results"
@@ -407,11 +453,11 @@ msgstr ""
 "en la tabla en :ref:`product_list`; los resultados se añaden a resultados "
 "previos"
 
-#: ../../download_products_tab.rst:216
+#: ../../download_products_tab.rst:242
 msgid "|osm_add| Add OpenStreetMap to the map"
 msgstr "|osm_add| Añadir OpenStreetMap al mapa"
 
-#: ../../download_products_tab.rst:217
+#: ../../download_products_tab.rst:243
 msgid ""
 "this button allows for the display of OpenStreetMap tiles ( © `OpenStreetMap"
 " <http://www.openstreetmap.org/copyright>`_ contributors) in the QGIS map as"
@@ -425,7 +471,7 @@ msgstr ""
 "cartografía está licenciada bajo CC BY-SA (`Política de Uso de Teselas "
 "<http://www.openstreetmap.org/copyright>`_ )"
 
-#: ../../download_products_tab.rst:224
+#: ../../download_products_tab.rst:250
 msgid ""
 "Search results (and the number thereof) depend on the defined area extent "
 "and the range of dates. In order to get more results, perform multiple "
@@ -437,11 +483,11 @@ msgstr ""
 "resultados, realiza varias búsquedas con un área más pequeña o un rango de "
 "fechas de adquisición más corto (desde y hasta)."
 
-#: ../../download_products_tab.rst:232
+#: ../../download_products_tab.rst:258
 msgid "Product list"
 msgstr "Lista de productos"
 
-#: ../../download_products_tab.rst:234
+#: ../../download_products_tab.rst:260
 msgid ""
 "The table :guilabel:`Product list` contains the results of the search. Click"
 " on any item (highlight the item) to display the image preview thereof (not "
@@ -454,139 +500,147 @@ msgstr ""
 "previsualización). Los productos resultantes se guardarán en el proyecto de "
 "QGIS."
 
-#: ../../download_products_tab.rst:239
+#: ../../download_products_tab.rst:265
 msgid "The table includes the following fields."
 msgstr "La tabla incluye los siguientes campos."
 
-#: ../../download_products_tab.rst:245
+#: ../../download_products_tab.rst:271
 msgid "product"
 msgstr "product"
 
-#: ../../download_products_tab.rst:246
+#: ../../download_products_tab.rst:272
 msgid "image"
 msgstr "image"
 
-#: ../../download_products_tab.rst:247
+#: ../../download_products_tab.rst:273
 msgid "product_id"
 msgstr "product_id"
 
-#: ../../download_products_tab.rst:248
+#: ../../download_products_tab.rst:274
 msgid "acquisition_date"
 msgstr "acquisition_date"
 
-#: ../../download_products_tab.rst:249
+#: ../../download_products_tab.rst:275
 msgid "cloud_cover"
 msgstr "cloud_cover"
 
-#: ../../download_products_tab.rst:250
+#: ../../download_products_tab.rst:276
 msgid "zone_path"
 msgstr "zone_path"
 
-#: ../../download_products_tab.rst:251
+#: ../../download_products_tab.rst:277
 msgid "row"
 msgstr "row"
 
-#: ../../download_products_tab.rst:252
+#: ../../download_products_tab.rst:278
 msgid "min_lat"
 msgstr "min_lat"
 
-#: ../../download_products_tab.rst:253
+#: ../../download_products_tab.rst:279
 msgid "min_lon"
 msgstr "min_lon"
 
-#: ../../download_products_tab.rst:254
+#: ../../download_products_tab.rst:280
 msgid "max_lat"
 msgstr "max_lat"
 
-#: ../../download_products_tab.rst:255
+#: ../../download_products_tab.rst:281
 msgid "max_lon"
 msgstr "max_lon"
 
-#: ../../download_products_tab.rst:256
+#: ../../download_products_tab.rst:282
 msgid "collection"
 msgstr "collection"
 
-#: ../../download_products_tab.rst:257
+#: ../../download_products_tab.rst:283
 msgid "size"
 msgstr "size"
 
-#: ../../download_products_tab.rst:258
+#: ../../download_products_tab.rst:284
 msgid "preview"
 msgstr "preview"
 
-#: ../../download_products_tab.rst:259
+#: ../../download_products_tab.rst:285
 msgid "uid"
 msgstr "uid"
 
-#: ../../download_products_tab.rst:260
+#: ../../download_products_tab.rst:286
+msgid "ref_url"
+msgstr ""
+
+#: ../../download_products_tab.rst:287
 msgid "the product name (e.g., Sentinel-2)"
 msgstr "el nombre del producto (e.g., Sentinel-2)"
 
-#: ../../download_products_tab.rst:261
+#: ../../download_products_tab.rst:288
 msgid "the image name"
 msgstr "el nombre de la imagen"
 
-#: ../../download_products_tab.rst:262
+#: ../../download_products_tab.rst:289
 msgid "the ID of the product"
 msgstr "el ID del producto"
 
-#: ../../download_products_tab.rst:263
+#: ../../download_products_tab.rst:290
 msgid "the acquisition date of the product"
 msgstr "la fecha de adquisición del producto"
 
-#: ../../download_products_tab.rst:264
+#: ../../download_products_tab.rst:291
 msgid "percentage of cloud cover in the product"
 msgstr "porcentaje de la cubierta de nubes en el producto"
 
-#: ../../download_products_tab.rst:265
+#: ../../download_products_tab.rst:292
 msgid "the zone or WRS path depending on the product type"
 msgstr "la zona o el path WRS dependiendo del tipo de producto"
 
-#: ../../download_products_tab.rst:266
+#: ../../download_products_tab.rst:293
 msgid "the WRS row"
 msgstr "el row WRS"
 
-#: ../../download_products_tab.rst:267
+#: ../../download_products_tab.rst:294
 msgid "minimum latitude of the product"
 msgstr "latitud mínima del producto"
 
-#: ../../download_products_tab.rst:268
+#: ../../download_products_tab.rst:295
 msgid "minimum longitude of the product"
 msgstr "longitud mínima del producto"
 
-#: ../../download_products_tab.rst:269
+#: ../../download_products_tab.rst:296
 msgid "maximum latitude of the product"
 msgstr "latitud máxima del producto"
 
-#: ../../download_products_tab.rst:270
+#: ../../download_products_tab.rst:297
 msgid "maximum longitude of the product"
 msgstr "longitud máxima del producto"
 
-#: ../../download_products_tab.rst:271
+#: ../../download_products_tab.rst:298
 msgid "collection code"
 msgstr "código de colección"
 
-#: ../../download_products_tab.rst:272
+#: ../../download_products_tab.rst:299
 msgid "product size"
 msgstr "tamaño del producto"
 
-#: ../../download_products_tab.rst:273
+#: ../../download_products_tab.rst:300
 msgid "URL of the product preview"
 msgstr "URL de la previsualización del producto"
 
-#: ../../download_products_tab.rst:274
+#: ../../download_products_tab.rst:301
 msgid "identifier of the item"
 msgstr "identificador del elemento"
 
-#: ../../download_products_tab.rst:277
+#: ../../download_products_tab.rst:302
+msgid "reference URL"
+msgstr ""
+
+#: ../../download_products_tab.rst:305
 msgid "The following tools are available."
 msgstr "Las siguientes herramientas están disponibles"
 
-#: ../../download_products_tab.rst:285
+#: ../../download_products_tab.rst:313
 msgid "|image_preview|"
 msgstr "|image_preview|"
 
-#: ../../download_products_tab.rst:286
+#: ../../download_products_tab.rst:314
 msgid ""
 "display preview of highlighted images in the map; preview is roughly "
 "georeferenced on the fly (not all the products include a preview)"
@@ -595,43 +649,43 @@ msgstr ""
 "georreferenciación de la previsualización es aproximada y se realiza al "
 "vuelo (no todos los productos incluyen previsualización)"
 
-#: ../../download_products_tab.rst:288
+#: ../../download_products_tab.rst:316
 msgid "|remove|"
 msgstr "|remove|"
 
-#: ../../download_products_tab.rst:289
+#: ../../download_products_tab.rst:317
 msgid "remove highlighted images from the list"
 msgstr "quitar las imágenes seleccionadas de la lista"
 
-#: ../../download_products_tab.rst:290
+#: ../../download_products_tab.rst:318
 msgid "|reset|"
 msgstr "|reset|"
 
-#: ../../download_products_tab.rst:291
+#: ../../download_products_tab.rst:319
 msgid "remove all images from the list"
 msgstr "quitar todas las imágenes de la lista"
 
-#: ../../download_products_tab.rst:292
+#: ../../download_products_tab.rst:320
 msgid "|import|"
 msgstr "|import|"
 
-#: ../../download_products_tab.rst:293
+#: ../../download_products_tab.rst:321
 msgid "import the product list from an XML file"
 msgstr "importar la lista de productos desde un archivo XML"
 
-#: ../../download_products_tab.rst:294 ../../download_products_tab.rst:328
+#: ../../download_products_tab.rst:322 ../../download_products_tab.rst:356
 msgid "|export|"
 msgstr "|export|"
 
-#: ../../download_products_tab.rst:295
+#: ../../download_products_tab.rst:323
 msgid "export the product list to an XML file"
 msgstr "exportar la lista de productos a un archivo XML"
 
-#: ../../download_products_tab.rst:301
+#: ../../download_products_tab.rst:329
 msgid "Download"
 msgstr "Descargar"
 
-#: ../../download_products_tab.rst:303
+#: ../../download_products_tab.rst:331
 msgid ""
 "Download the products in the :ref:`product_list`. During the download it is "
 "recommended not to interact with QGIS."
@@ -639,7 +693,7 @@ msgstr ""
 "Descarga los productos en la :ref:`product_list`. Durante la descarga, se "
 "recomienda no interactuar con QGIS."
 
-#: ../../download_products_tab.rst:306
+#: ../../download_products_tab.rst:334
 msgid ""
 "Depending on the download service, it is possible to select single bands for"
 " download."
@@ -647,35 +701,35 @@ msgstr ""
 "Dependiendo del servicio de descarga, es posible seleccionar bandas a "
 "descargar"
 
-#: ../../download_products_tab.rst:315
+#: ../../download_products_tab.rst:343
 msgid "|checkbox| :guilabel:`Band` ``X``"
 msgstr "|checkbox| :guilabel:`Banda` ``X``"
 
-#: ../../download_products_tab.rst:316
+#: ../../download_products_tab.rst:344
 msgid "select bands for download"
 msgstr "seleccionar bandas para descargar"
 
-#: ../../download_products_tab.rst:317
+#: ../../download_products_tab.rst:345
 msgid "|checkbox| :guilabel:`Ancillary data`"
 msgstr "|checkbox| :guilabel:`Datos auxiliares`"
 
-#: ../../download_products_tab.rst:318
+#: ../../download_products_tab.rst:346
 msgid "if checked, the metadata files are selected for download"
 msgstr "si está marcado, se descargaran los archivos de metadatos"
 
-#: ../../download_products_tab.rst:319
+#: ../../download_products_tab.rst:347
 msgid "|select_all|"
 msgstr "|select_all|"
 
-#: ../../download_products_tab.rst:320
+#: ../../download_products_tab.rst:348
 msgid "select or deselect all bands"
 msgstr "selecciona o deselecciona todas las bandas "
 
-#: ../../download_products_tab.rst:321
+#: ../../download_products_tab.rst:349
 msgid "|checkbox| :guilabel:`Only if preview in Layers`"
 msgstr "|checkbox| :guilabel:`Solo si la previsualización está en Capas`"
 
-#: ../../download_products_tab.rst:322
+#: ../../download_products_tab.rst:350
 msgid ""
 "if checked, download only those images listed in :ref:`product_list` which "
 "are also listed in the QGIS layer panel"
@@ -683,52 +737,52 @@ msgstr ""
 "si está marcado, descarga solo las imágenes en la :ref:`product_list` que ya"
 " está en el panel de capas de QGIS"
 
-#: ../../download_products_tab.rst:324
+#: ../../download_products_tab.rst:352
 msgid "|checkbox| :guilabel:`Preprocess images`"
 msgstr "|checkbox| :guilabel:`Preprocesar imágenes`"
 
-#: ../../download_products_tab.rst:325
+#: ../../download_products_tab.rst:353
 msgid "if checked, bands are automatically converted after the download"
 msgstr ""
 "si está marcado, las bandas será automáticamente convertidas después de la "
 "descarga"
 
-#: ../../download_products_tab.rst:326
+#: ../../download_products_tab.rst:354
 msgid "|checkbox| :guilabel:`Load bands in QGIS`"
 msgstr "|checkbox| :guilabel:`Cargar bandas en QGIS`"
 
-#: ../../download_products_tab.rst:327
+#: ../../download_products_tab.rst:355
 msgid "if checked, bands are loaded in QGIS after the download"
 msgstr "si está marcado, las bandas se cargan en QGIS después de la descarga"
 
-#: ../../download_products_tab.rst:329
+#: ../../download_products_tab.rst:357
 msgid "export the download links to a text file (.csv)"
 msgstr "exportar los enlaces de descarga a un archivo de texto (.csv)"
 
-#: ../../download_products_tab.rst:330
+#: ../../download_products_tab.rst:358
 msgid ":guilabel:`RUN` |run|"
 msgstr ":guilabel:`EJECUTAR` |run|"
 
-#: ../../download_products_tab.rst:331
+#: ../../download_products_tab.rst:359
 msgid ""
 "start the download process of all the products listed in :ref:`product_list`"
 msgstr ""
 "iniciar la descarga de todos los productos que están en la "
 ":ref:`product_list`"
 
-#: ../../download_products_tab.rst:337
+#: ../../download_products_tab.rst:365
 msgid "Login data"
 msgstr "Datos de inicio de sesión"
 
-#: ../../download_products_tab.rst:343
+#: ../../download_products_tab.rst:371
 msgid "|login_data| :guilabel:`Login data`"
 msgstr "| login_data | : guilabel: `Datos de inicio de sesión`"
 
-#: ../../download_products_tab.rst:349
+#: ../../download_products_tab.rst:377
 msgid "Login Harmonized Landsat Sentinel-2"
 msgstr "Login Harmonized Landsat Sentinel-2"
 
-#: ../../download_products_tab.rst:351
+#: ../../download_products_tab.rst:379
 msgid ""
 "The download of Harmonized Landsat Sentinel-2 requires to login using "
 "`EOSDIS Earthdata` credentials (https://urs.earthdata.nasa.gov) One can "
@@ -738,32 +792,32 @@ msgstr ""
 " Earthdata` (https://urs.earthdata.nasa.gov) Puedes registrarte de forma "
 "grauita en https://urs.earthdata.nasa.gov/users/new ."
 
-#: ../../download_products_tab.rst:361 ../../download_products_tab.rst:389
+#: ../../download_products_tab.rst:389 ../../download_products_tab.rst:417
 msgid ":guilabel:`User` |input_text| |registry_save|"
 msgstr ":guilabel:`Usuario` |input_text| |registry_save|"
 
-#: ../../download_products_tab.rst:362 ../../download_products_tab.rst:390
+#: ../../download_products_tab.rst:390 ../../download_products_tab.rst:418
 msgid "enter the user name"
 msgstr "introduce el nombre de usuario"
 
-#: ../../download_products_tab.rst:363 ../../download_products_tab.rst:391
+#: ../../download_products_tab.rst:391 ../../download_products_tab.rst:419
 msgid ":guilabel:`Password` |input_text| |registry_save|"
 msgstr ":guilabel:`Contraseña` |input_text| |registry_save|"
 
-#: ../../download_products_tab.rst:364 ../../download_products_tab.rst:392
+#: ../../download_products_tab.rst:392 ../../download_products_tab.rst:420
 msgid "enter the password"
 msgstr "introduce la contraseña"
 
-#: ../../download_products_tab.rst:365 ../../download_products_tab.rst:393
+#: ../../download_products_tab.rst:393 ../../download_products_tab.rst:421
 msgid "|checkbox| :guilabel:`remember`"
 msgstr "|checkbox| :guilabel:`recordar`"
 
-#: ../../download_products_tab.rst:366 ../../download_products_tab.rst:394
+#: ../../download_products_tab.rst:394 ../../download_products_tab.rst:422
 msgid "if checked, remember user name and password locally in QGIS"
 msgstr ""
 "si está marcado, se recordará el nombre de usuario y contraseña en QGIS"
 
-#: ../../download_products_tab.rst:370 ../../download_products_tab.rst:398
+#: ../../download_products_tab.rst:398 ../../download_products_tab.rst:426
 msgid ""
 "If |checkbox| :guilabel:`remember` is checked, the password is stored "
 "unencrypted in QGIS registry."
@@ -771,13 +825,35 @@ msgstr ""
 "si|checkbox| :guilabel:`recordar` está marcado, la contraseña será "
 "almacenada sin encriptación en el registro de QGIS."
 
-#: ../../download_products_tab.rst:376
+#: ../../download_products_tab.rst:404
 msgid "Login Copernicus Data Space Ecosystem"
 msgstr ""
 
-#: ../../download_products_tab.rst:378
+#: ../../download_products_tab.rst:406
 msgid ""
 "The download of Sentinel-2 is available also using `Copernicus Data Space "
 "Ecosystem` credentials (https://dataspace.copernicus.eu). One can register "
 "for free at https://dataspace.copernicus.eu ."
 msgstr ""
+
+#~ msgid ""
+#~ ":guilabel:`Harmonized Landsat Sentinel-2` by NASA which are surface "
+#~ "reflectance data product (generated with Landsat 8, Landsat 9, and "
+#~ "Sentinel-2 data acquired from 2013 to present days) with observations every "
+#~ "two to three days at 30m spatial resolution (more information about the "
+#~ "`project <https://www.earthdata.nasa.gov/esds/harmonized-landsat-"
+#~ "sentinel-2>`_);"
+#~ msgstr ""
+#~ ":guilabel:`Landsat Sentinel-2 Armonizado` de NASA que es un producto de "
+#~ "reflectividad a nivel de suelo (generado con datos de Landsat 8, Landsat 9, "
+#~ "y Sentinel-2 data adquiridos desde 2013 hasta la actualidad) con "
+#~ "observaciones cada 2 o 3 días con un tamaño de píxel de 30m (más información"
+#~ " del `proyecto <https://www.earthdata.nasa.gov/esds/harmonized-landsat-"
+#~ "sentinel-2>`_);"
+
+#~ msgid ""
+#~ "Copernicus :guilabel:`Sentinel-2` images (Level-1C and Level-2A) acquired "
+#~ "from 2015 to present days;"
+#~ msgstr ""
+#~ "Imágenes :guilabel:`Sentinel-2` del programa Copernicus (Nivel-1C y "
+#~ "Nivel-2A) adquiridas desde 2015 hasta la actualidad;"

@@ -325,6 +325,9 @@ msgid ""
 "<https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30>`_ (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`Copernicus_DEM_30_MPC`: `Copernicus DEM GLO-30 "
+"<https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30>`_  (datos "
+"obtenidos de la Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:190
 msgid ""

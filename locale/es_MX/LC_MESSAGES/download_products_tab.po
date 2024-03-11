@@ -305,6 +305,9 @@ msgid ""
 "<https://planetarycomputer.microsoft.com/dataset/modis-11A2-061>`_ (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`MODIS_11A2_MPC`: `MODIS Temperatura de Superficie Terrestre "
+"8-Días <https://planetarycomputer.microsoft.com/dataset/modis-11A2-061>`_ "
+"(datos obtenidos de la Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:183
 msgid ""
@@ -312,6 +315,9 @@ msgid ""
 "<https://planetarycomputer.microsoft.com/dataset/aster-l1t>`_ (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`ASTER_MPC`: `ASTER L1T "
+"<https://planetarycomputer.microsoft.com/dataset/aster-l1t>`_ (datos "
+"obtenidos de la Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:186
 msgid ""
@@ -319,6 +325,9 @@ msgid ""
 "<https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30>`_ (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`Copernicus_DEM_30_MPC`: `Copernicus DEM GLO-30 "
+"<https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30>`_  (datos "
+"obtenidos de la Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:190
 msgid ""

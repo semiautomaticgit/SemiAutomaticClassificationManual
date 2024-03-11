@@ -305,6 +305,9 @@ msgid ""
 "<https://planetarycomputer.microsoft.com/dataset/modis-11A2-061>`_ (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`MODIS_11A2_MPC`: `MODIS Temperatura de Superficie Terrestre "
+"8-Días <https://planetarycomputer.microsoft.com/dataset/modis-11A2-061>`_ "
+"(datos obtenidos de la Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:183
 msgid ""

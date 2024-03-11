@@ -282,6 +282,12 @@ msgid ""
 "observations every two to three days at 30m spatial resolution (more "
 "information about the `project <https://hls.gsfc.nasa.gov/>`_);"
 msgstr ""
+":guilabel:`Sentinel-2_HLS`: Sentinel-2 del producto Harmonized Landsat "
+"Sentinel-2 de la NASA que es un producto con valores de reflectancia de "
+"superficie (generados con datos Landsat 8, Landsat 9, y Sentinel-2 "
+"adquiridos desde 2013 hasta la actualidad) con observaciones cada 2 o 3 días"
+" a 30 metros de tamaño de pixel (más información acerca del `proyecto "
+"<https://hls.gsfc.nasa.gov/>`_);"
 
 #: ../../download_products_tab.rst:177
 msgid ""

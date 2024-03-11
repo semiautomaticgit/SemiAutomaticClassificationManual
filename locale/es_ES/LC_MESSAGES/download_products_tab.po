@@ -232,7 +232,7 @@ msgid ""
 msgstr ""
 ":guilabel:`Sentinel-2`: `Imágenes Copernicus Sentinel-2 "
 "<https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-"
-"data/sentinel-2>`_ (Nivel-1C y Nivel-2A) adquiridas desde 2015 hasta la la "
+"data/sentinel-2>`_ (Nivel-1C y Nivel-2A) adquiridas desde 2015 hasta la "
 "actualidad;"
 
 #: ../../download_products_tab.rst:159

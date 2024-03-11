@@ -242,6 +242,10 @@ msgid ""
 "acquired from August 1982 to present days, such as Landsat 5, 7, 8, 9 (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`Landsat_MPC`: `Imágenes de la Colección Landsat "
+"<https://planetarycomputer.microsoft.com/dataset/group/landsat>`_ images "
+"acquired desde Agosto de 1982 hasta la actualidad, de los satélites Landsat "
+"5, 7, 8, 9 (datos obtenidos de la Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:163
 msgid ""

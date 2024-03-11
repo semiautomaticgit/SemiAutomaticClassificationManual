@@ -295,6 +295,9 @@ msgid ""
 "<https://planetarycomputer.microsoft.com/dataset/modis-09Q1-061>`_ (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`MODIS_09Q1_MPC`: `MODIS Reflectancia de Superficie 8-Días (250m) "
+"<https://planetarycomputer.microsoft.com/dataset/modis-09Q1-061>`_ (data "
+"retrieved from Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:180
 msgid ""

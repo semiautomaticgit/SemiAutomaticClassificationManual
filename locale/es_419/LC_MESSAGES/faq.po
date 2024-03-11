@@ -610,6 +610,12 @@ msgid ""
 "with Si = 0.5 for all the classes. Basically the higher is Si, the larger is"
 " the number of samples for that class."
 msgstr ""
+"Como valores iniciales, podríamos asumir :math:`S_o = 0.01` y realizar una "
+"evaluación de la exactitud a groso modo con muestras aleatorias, y "
+"eventualmente calcular la  :math:`S_i` para realizar el diseño del muestreo."
+" Alternativamente, uno podría empezar com Si = 0.5 para todas las clases. "
+"Básicamente, cuanto más grande es Si, mayor es el número de muestras para "
+"esa clase."
 
 #: ../../faq.rst:381
 msgid "Warnings"

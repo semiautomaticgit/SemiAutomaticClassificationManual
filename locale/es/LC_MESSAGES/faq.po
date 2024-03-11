@@ -823,6 +823,9 @@ msgid ""
 "tool :ref:`band_calc_tab` with bands in the :ref:`band_set_tab`, calculating"
 " mathematical expressions and spectral indices."
 msgstr ""
+"**Cálculos rástes** está disponibles a través de la integración de la "
+"herramienta :ref:`band_calc_tab` con bandas en un :ref:`band_set_tab`, para "
+"el cálculo de expresiones matemáticas e índices espectrales."
 
 #: ../../faq.rst:482
 msgid "See the :ref:`tutorials` for more information and examples."

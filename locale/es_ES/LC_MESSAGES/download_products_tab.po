@@ -334,8 +334,8 @@ msgid ""
 "The download of :guilabel:`Harmonized Landsat Sentinel-2` requires "
 "credentials defined in :ref:`login_data_tab`."
 msgstr ""
-"La descarga :guilabel:`Landsat Sentinel-2 Armonizado` requiere credenciales "
-"que deben definirse en :ref:`login_data_tab`."
+"La descarga :guilabel:`Harmonized Landsat Sentinel-2 ` requiere credenciales"
+" que deben definirse en :ref:`login_data_tab`."
 
 #: ../../download_products_tab.rst:196
 msgid "Search parameters"

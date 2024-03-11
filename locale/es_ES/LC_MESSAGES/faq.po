@@ -591,6 +591,9 @@ msgid ""
 "This requires some conjectures about overall accuracy and user’s accuracy of"
 " each class. We should base these conjectures on previous studies."
 msgstr ""
+"Esto requieren realizar algunas conjeturas sobre la exactitud general y la "
+"precisión del usuario de cada una de las clases. Debemos basar estas "
+"conjeturas en estudios previos."
 
 #: ../../faq.rst:372
 msgid ""

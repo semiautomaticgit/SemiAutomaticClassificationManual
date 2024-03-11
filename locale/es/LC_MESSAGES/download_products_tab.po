@@ -254,6 +254,10 @@ msgid ""
 "from 2015 to present days (data retrieved from Microsoft Planetary "
 "Computer);"
 msgstr ""
+":guilabel:`Sentinel-2_MPC`: `Copernicus Sentinel-2 Nivel-2A "
+"<https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a>`_ "
+"adquiridos desde 2015 hasta la actualidad (datos obtenidos de la Microsoft "
+"Planetary Computer);"
 
 #: ../../download_products_tab.rst:167
 msgid ""

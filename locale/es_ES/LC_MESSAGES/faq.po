@@ -660,7 +660,8 @@ msgid ""
 "checkbox |checkbox| :guilabel:`Records detailed events in a log file` ;"
 msgstr ""
 "Abre QGIS, abre la pestaña de Complementos :ref:`settings_debug_tab` y marca"
-" la casilla |checkbox| :guilabel:`Record detailed events in a log file` ;"
+" la casilla |checkbox| :guilabel:`Grabar eventos detallados en un archivo de"
+" registro` ;"
 
 #: ../../faq.rst:413
 msgid ":guilabel:`Debug`"

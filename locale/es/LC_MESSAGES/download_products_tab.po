@@ -315,6 +315,9 @@ msgid ""
 "<https://planetarycomputer.microsoft.com/dataset/aster-l1t>`_ (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`ASTER_MPC`: `ASTER L1T "
+"<https://planetarycomputer.microsoft.com/dataset/aster-l1t>`_ (datos "
+"obtenidos de la Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:186
 msgid ""

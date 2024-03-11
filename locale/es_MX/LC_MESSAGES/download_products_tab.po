@@ -602,7 +602,7 @@ msgstr "uid"
 
 #: ../../download_products_tab.rst:286
 msgid "ref_url"
-msgstr ""
+msgstr "ref_url"
 
 #: ../../download_products_tab.rst:287
 msgid "the product name (e.g., Sentinel-2)"
@@ -666,7 +666,7 @@ msgstr "identificador del elemento"
 
 #: ../../download_products_tab.rst:302
 msgid "reference URL"
-msgstr ""
+msgstr "URL de referencia"
 
 #: ../../download_products_tab.rst:305
 msgid "The following tools are available."
@@ -863,7 +863,7 @@ msgstr ""
 
 #: ../../download_products_tab.rst:404
 msgid "Login Copernicus Data Space Ecosystem"
-msgstr ""
+msgstr "Login Copernicus Data Space Ecosystem"
 
 #: ../../download_products_tab.rst:406
 msgid ""

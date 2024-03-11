@@ -863,7 +863,7 @@ msgstr ""
 
 #: ../../download_products_tab.rst:404
 msgid "Login Copernicus Data Space Ecosystem"
-msgstr ""
+msgstr "Login Copernicus Data Space Ecosystem"
 
 #: ../../download_products_tab.rst:406
 msgid ""

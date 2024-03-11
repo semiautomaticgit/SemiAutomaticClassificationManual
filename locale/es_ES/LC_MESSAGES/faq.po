@@ -782,6 +782,11 @@ msgid ""
 "direct search and download of free images (see :ref:`download_tab`). You "
 "cannot use orthophotos with less than 4 bands and LIDAR data with SCP."
 msgstr ""
+":guilabel:`SCP` puede trabajar con ** imágenes multiespectrales** adquiridas"
+" por satélites, aviones o drones. :guilabel:`SCP` también permite "
+"directamente buscar y descargar imágenes gratuitas (ver "
+":ref:`download_tab`). No se pueden usar ortofotos con menos de 4 bandas o "
+"datos LIDAR en SCP."
 
 #: ../../faq.rst:467
 msgid ""

@@ -7,7 +7,7 @@
 # Translators:
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
-# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-10 14:32+0100\n"
 "PO-Revision-Date: 2023-10-24 15:43+0000\n"
-"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -230,6 +230,10 @@ msgid ""
 "data/sentinel-2>`_ images (Level-1C and Level-2A) acquired from 2015 to "
 "present days;"
 msgstr ""
+":guilabel:`Sentinel-2`: `Ímágenes Copernicus Sentinel-2 "
+"<https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-"
+"data/sentinel-2>`_ (Nivel-1C y Nivel-2A) adquiridas desde 2015 hasta la la "
+"actualidad;"
 
 #: ../../download_products_tab.rst:159
 msgid ""
@@ -238,6 +242,10 @@ msgid ""
 "acquired from August 1982 to present days, such as Landsat 5, 7, 8, 9 (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`Landsat_MPC`: `Imágenes de la Colección Landsat "
+"<https://planetarycomputer.microsoft.com/dataset/group/landsat>`_ images "
+"acquired desde Agosto de 1982 hasta la actualidad, de los satélites Landsat "
+"5, 7, 8, 9 (datos obtenidos de la Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:163
 msgid ""
@@ -246,6 +254,10 @@ msgid ""
 "from 2015 to present days (data retrieved from Microsoft Planetary "
 "Computer);"
 msgstr ""
+":guilabel:`Sentinel-2_MPC`: `Copernicus Sentinel-2 Nivel-2A "
+"<https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a>`_ "
+"adquiridos desde 2015 hasta la actualidad (datos obtenidos de la Microsoft "
+"Planetary Computer);"
 
 #: ../../download_products_tab.rst:167
 msgid ""
@@ -255,6 +267,12 @@ msgid ""
 "observations every two to three days at 30m spatial resolution (more "
 "information about the `project <https://hls.gsfc.nasa.gov/>`_);"
 msgstr ""
+":guilabel:`Landsat_HLS`: Landsat del producto Harmonized Landsat Sentinel-2 "
+"de la NASA que es un producto con valores de reflectancia de superficie "
+"(generados con datos Landsat 8, Landsat 9, y Sentinel-2 adquiridos desde "
+"2013 hasta la actualidad) con observaciones cada 2 o 3 días a 30 metros de "
+"tamaño de pixel (más información acerca del `proyecto "
+"<https://hls.gsfc.nasa.gov/>`_);"
 
 #: ../../download_products_tab.rst:172
 msgid ""
@@ -264,6 +282,12 @@ msgid ""
 "observations every two to three days at 30m spatial resolution (more "
 "information about the `project <https://hls.gsfc.nasa.gov/>`_);"
 msgstr ""
+":guilabel:`Sentinel-2_HLS`: Sentinel-2 del producto Harmonized Landsat "
+"Sentinel-2 de la NASA que es un producto con valores de reflectancia de "
+"superficie (generados con datos Landsat 8, Landsat 9, y Sentinel-2 "
+"adquiridos desde 2013 hasta la actualidad) con observaciones cada 2 o 3 días"
+" a 30 metros de tamaño de pixel (más información acerca del `proyecto "
+"<https://hls.gsfc.nasa.gov/>`_);"
 
 #: ../../download_products_tab.rst:177
 msgid ""
@@ -271,6 +295,9 @@ msgid ""
 "<https://planetarycomputer.microsoft.com/dataset/modis-09Q1-061>`_ (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`MODIS_09Q1_MPC`: `MODIS Reflectancia de Superficie 8-Días (250m) "
+"<https://planetarycomputer.microsoft.com/dataset/modis-09Q1-061>`_ (data "
+"retrieved from Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:180
 msgid ""
@@ -278,6 +305,9 @@ msgid ""
 "<https://planetarycomputer.microsoft.com/dataset/modis-11A2-061>`_ (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`MODIS_11A2_MPC`: `MODIS Temperatura de Superficie Terrestre "
+"8-Días <https://planetarycomputer.microsoft.com/dataset/modis-11A2-061>`_ "
+"(datos obtenidos de la Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:183
 msgid ""
@@ -285,6 +315,9 @@ msgid ""
 "<https://planetarycomputer.microsoft.com/dataset/aster-l1t>`_ (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`ASTER_MPC`: `ASTER L1T "
+"<https://planetarycomputer.microsoft.com/dataset/aster-l1t>`_ (datos "
+"obtenidos de la Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:186
 msgid ""
@@ -292,6 +325,9 @@ msgid ""
 "<https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30>`_ (data "
 "retrieved from Microsoft Planetary Computer);"
 msgstr ""
+":guilabel:`Copernicus_DEM_30_MPC`: `Copernicus DEM GLO-30 "
+"<https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30>`_  (datos "
+"obtenidos de la Microsoft Planetary Computer);"
 
 #: ../../download_products_tab.rst:190
 msgid ""
@@ -566,7 +602,7 @@ msgstr "uid"
 
 #: ../../download_products_tab.rst:286
 msgid "ref_url"
-msgstr ""
+msgstr "ref_url"
 
 #: ../../download_products_tab.rst:287
 msgid "the product name (e.g., Sentinel-2)"
@@ -630,7 +666,7 @@ msgstr "identificador del elemento"
 
 #: ../../download_products_tab.rst:302
 msgid "reference URL"
-msgstr ""
+msgstr "URL de referencia"
 
 #: ../../download_products_tab.rst:305
 msgid "The following tools are available."
@@ -827,7 +863,7 @@ msgstr ""
 
 #: ../../download_products_tab.rst:404
 msgid "Login Copernicus Data Space Ecosystem"
-msgstr ""
+msgstr "Login Copernicus Data Space Ecosystem"
 
 #: ../../download_products_tab.rst:406
 msgid ""
@@ -835,6 +871,10 @@ msgid ""
 "Ecosystem` credentials (https://dataspace.copernicus.eu). One can register "
 "for free at https://dataspace.copernicus.eu ."
 msgstr ""
+"La descarga de Sentinel-2 también está disponible usando credenciales del "
+"`Copernicus Data Space Ecosystem`  (https://dataspace.copernicus.eu). Se "
+"puede realizar el registro de forma gratuita en "
+"https://dataspace.copernicus.eu ."
 
 #~ msgid ""
 #~ ":guilabel:`Harmonized Landsat Sentinel-2` by NASA which are surface "

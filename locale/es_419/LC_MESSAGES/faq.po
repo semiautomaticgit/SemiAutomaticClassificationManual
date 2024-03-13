@@ -10,7 +10,7 @@
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
 # Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
 # Marlon Castillo <marloncastillo286@gmail.com>, 2023
-# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-23 00:33+0200\n"
 "PO-Revision-Date: 2023-10-24 15:43+0000\n"
-"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2024\n"
 "Language-Team: Spanish (Latin America) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_419/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -590,12 +590,17 @@ msgid ""
 "classes having low area proportion, but of course these values should be "
 "carefully evaluated."
 msgstr ""
+"Para estratificar la muestra debemos conjeturar la precisión del usuario y "
+"la desviación estándar de los estratos  (Olofsson, et al., 2014)."
 
 #: ../../faq.rst:368
 msgid ""
 "This requires some conjectures about overall accuracy and user’s accuracy of"
 " each class. We should base these conjectures on previous studies."
 msgstr ""
+"Esto requieren realizar algunas conjeturas sobre la exactitud general y la "
+"precisión del usuario de cada una de las clases. Debemos basar estas "
+"conjeturas en estudios previos."
 
 #: ../../faq.rst:372
 msgid ""
@@ -605,6 +610,12 @@ msgid ""
 "with Si = 0.5 for all the classes. Basically the higher is Si, the larger is"
 " the number of samples for that class."
 msgstr ""
+"Como valores iniciales, podríamos asumir :math:`S_o = 0.01` y realizar una "
+"evaluación de la exactitud a groso modo con muestras aleatorias, y "
+"eventualmente calcular la  :math:`S_i` para realizar el diseño del muestreo."
+" Alternativamente, uno podría empezar com Si = 0.5 para todas las clases. "
+"Básicamente, cuanto más grande es Si, mayor es el número de muestras para "
+"esa clase."
 
 #: ../../faq.rst:381
 msgid "Warnings"
@@ -655,6 +666,8 @@ msgid ""
 "open QGIS, open the Plugin tab :ref:`settings_debug_tab` and check the "
 "checkbox |checkbox| :guilabel:`Records detailed events in a log file` ;"
 msgstr ""
+"Abre QGIS, abre la pestaña de Complementos :ref:`settings_debug_tab` y marca"
+" la casilla  |checkbox| :guilabel:`Record detailed events in a log file` ;"
 
 #: ../../faq.rst:413
 msgid ":guilabel:`Debug`"
@@ -775,6 +788,11 @@ msgid ""
 "direct search and download of free images (see :ref:`download_tab`). You "
 "cannot use orthophotos with less than 4 bands and LIDAR data with SCP."
 msgstr ""
+":guilabel:`SCP` puede trabajar con ** imágenes multiespectrales** adquiridas"
+" por satélites, aviones o drones. :guilabel:`SCP` también permite "
+"directamente buscar y descargar imágenes gratuitas (ver "
+":ref:`download_tab`). No se pueden usar ortofotos con menos de 4 bandas o "
+"datos LIDAR en SCP."
 
 #: ../../faq.rst:467
 msgid ""
@@ -805,6 +823,9 @@ msgid ""
 "tool :ref:`band_calc_tab` with bands in the :ref:`band_set_tab`, calculating"
 " mathematical expressions and spectral indices."
 msgstr ""
+"**Cálculos rástes** está disponibles a través de la integración de la "
+"herramienta :ref:`band_calc_tab` con bandas en un :ref:`band_set_tab`, para "
+"el cálculo de expresiones matemáticas e índices espectrales."
 
 #: ../../faq.rst:482
 msgid "See the :ref:`tutorials` for more information and examples."
@@ -976,3 +997,5 @@ msgid ""
 "The source code of SPC is available at the following link "
 "https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin"
 msgstr ""
+"El código fuente de SCP está disponible en "
+"https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin"

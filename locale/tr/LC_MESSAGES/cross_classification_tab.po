@@ -220,11 +220,11 @@ msgstr ""
 
 #: ../../cross_classification_tab.rst:159
 msgid "Tool symbol and name"
-msgstr ""
+msgstr "Alet sembolü ve adı"
 
 #: ../../cross_classification_tab.rst:160
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #: ../../cross_classification_tab.rst:161
 msgid ":guilabel:`Select the classification` |input_list|"

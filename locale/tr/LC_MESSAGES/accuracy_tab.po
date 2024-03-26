@@ -274,13 +274,15 @@ msgstr "katman listesini yenile"
 
 #: ../../accuracy_tab.rst:175
 msgid ":guilabel:`Select the reference vector or raster` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Referans vektörünü veya rasterini seçin` |input_list|"
 
 #: ../../accuracy_tab.rst:176
 msgid ""
 "select a raster or a vector (already loaded in QGIS), used as reference "
 "layer (ground truth) for the accuracy assessment"
 msgstr ""
+"doğruluk değerlendirmesi için referans katmanı (zemin gerçeği) olarak "
+"kullanılan bir raster veya vektör (QGIS'te zaten yüklü) seçin"
 
 #: ../../accuracy_tab.rst:180
 msgid ":guilabel:`Vector field` |input_list| |optional|"

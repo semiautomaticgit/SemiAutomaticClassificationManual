@@ -249,16 +249,16 @@ msgstr ""
 
 #: ../../band_sieve_tab.rst:162
 msgid ":guilabel:`Script` |script_tool|"
-msgstr ""
+msgstr ":guilabel:`Script` |script_tool|"
 
 #: ../../band_sieve_tab.rst:163
 msgid "add this function to the :ref:`script_tab`"
-msgstr ""
+msgstr "bu işlevi :ref:`script_tab` dosyasına ekleyin"
 
 #: ../../band_sieve_tab.rst:164
 msgid ":guilabel:`RUN` |run|"
-msgstr ""
+msgstr ":guilabel:`RUN` |run|"
 
 #: ../../band_sieve_tab.rst:165
 msgid "run this function"
-msgstr ""
+msgstr "bu işlevi çalıştırın"

@@ -134,11 +134,11 @@ msgstr "tümünü seç"
 
 #: ../../classification_to_vector_tab.rst:89
 msgid "docks"
-msgstr ""
+msgstr "iskele"
 
 #: ../../classification_to_vector_tab.rst:92
 msgid "add_sign_tool"
-msgstr ""
+msgstr "add_sign_tool"
 
 #: ../../classification_to_vector_tab.rst:95
 msgid "guide"
@@ -248,16 +248,16 @@ msgstr ""
 
 #: ../../classification_to_vector_tab.rst:180
 msgid ":guilabel:`Script` |script_tool|"
-msgstr ""
+msgstr ":guilabel:`Script` |script_tool|"
 
 #: ../../classification_to_vector_tab.rst:181
 msgid "add this function to the :ref:`script_tab`"
-msgstr ""
+msgstr "bu işlevi :ref:`script_tab` dosyasına ekleyin"
 
 #: ../../classification_to_vector_tab.rst:182
 msgid ":guilabel:`RUN` |run|"
-msgstr ""
+msgstr ":guilabel:`RUN` |run|"
 
 #: ../../classification_to_vector_tab.rst:183
 msgid "run this function"
-msgstr ""
+msgstr "bu işlevi çalıştırın"

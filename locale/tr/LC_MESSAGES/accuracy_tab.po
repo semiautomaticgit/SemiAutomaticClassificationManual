@@ -243,6 +243,10 @@ msgid ""
 "sensus.readthedocs.io/en/latest/remotior_sensus.tools.cross_classification.html>`_"
 " ."
 msgstr ""
+"Remotior Sensus'taki bu aracın API'leri hakkında bilgi bu `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.cross_classification.html>`_"
+" adresinde."
 
 #: ../../accuracy_tab.rst:169
 msgid "Tool symbol and name"

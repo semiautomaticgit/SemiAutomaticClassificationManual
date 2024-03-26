@@ -233,15 +233,15 @@ msgstr ":guilabel:`Script` |script_tool|"
 
 #: ../../classification_report_tab.rst:155
 msgid "add this function to the :ref:`script_tab`"
-msgstr ""
+msgstr "bu işlevi :ref:`script_tab` dosyasına ekleyin"
 
 #: ../../classification_report_tab.rst:156
 msgid ":guilabel:`RUN` |run|"
-msgstr ""
+msgstr ":guilabel:`RUN` |run|"
 
 #: ../../classification_report_tab.rst:157
 msgid "run this function"
-msgstr ""
+msgstr "bu işlevi çalıştırın"
 
 #: ../../classification_report_tab.rst:159
 msgid "The tab ``Output`` will display the report."

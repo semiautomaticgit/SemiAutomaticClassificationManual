@@ -192,6 +192,10 @@ msgid ""
 "many ``.tif`` files as the number of CPU threads defined in "
 ":ref:`system_processing`; for large rasters this can speed up the process."
 msgstr ""
+"Bu araç ``sanal raster çıktısını`` destekler; çıktı dosyası adı ``.vrt`` ile"
+" bitiyorsa, çıktı :ref:`system_processing` içinde tanımlanan CPU iş "
+"parçacığı sayısı kadar ``.tif`` dosyasından oluşan sanal raster olarak "
+"oluşturulur; büyük rasterler için bu işlemi hızlandırabilir."
 
 #: ../../band_combination_tab.rst:139
 msgid ""

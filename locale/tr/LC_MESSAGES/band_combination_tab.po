@@ -165,7 +165,7 @@ msgstr "radyo buton"
 
 #: ../../band_combination_tab.rst:113
 msgid "pointer"
-msgstr ""
+msgstr "işaretçi"
 
 #: ../../band_combination_tab.rst:116
 msgid "threshold_tool"

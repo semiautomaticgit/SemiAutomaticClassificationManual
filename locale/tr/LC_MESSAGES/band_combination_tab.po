@@ -211,11 +211,11 @@ msgstr ""
 
 #: ../../band_combination_tab.rst:151
 msgid "Tool symbol and name"
-msgstr ""
+msgstr "Alet sembolü ve adı"
 
 #: ../../band_combination_tab.rst:152
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #: ../../band_combination_tab.rst:153
 msgid ":guilabel:`Select input band set (of classifications)` |input_number|"

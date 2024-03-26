@@ -242,7 +242,7 @@ msgstr "|yeniden yükle|"
 #: ../../cross_classification_tab.rst:164
 #: ../../cross_classification_tab.rst:172
 msgid "refresh layer list"
-msgstr ""
+msgstr "katman listesini yenile"
 
 #: ../../cross_classification_tab.rst:165
 msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number| |optional|"
@@ -256,7 +256,7 @@ msgstr ""
 
 #: ../../cross_classification_tab.rst:168
 msgid ":guilabel:`Select the reference vector or raster` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Referans vektörünü veya rasterini seçin` |input_list|"
 
 #: ../../cross_classification_tab.rst:169
 msgid ""
@@ -266,13 +266,15 @@ msgstr ""
 
 #: ../../cross_classification_tab.rst:173
 msgid ":guilabel:`Vector field` |input_list| |optional|"
-msgstr ""
+msgstr ":guilabel:`Vektör alanı` |input_list| |optional|"
 
 #: ../../cross_classification_tab.rst:174
 msgid ""
 "if a vector is selected as reference, select a vector field containing "
 "numeric class values"
 msgstr ""
+"referans olarak bir vektör seçilirse, sayısal sınıf değerlerini içeren bir "
+"vektör alanı seçin"
 
 #: ../../cross_classification_tab.rst:176
 msgid "|checkbox| :guilabel:`Calculate linear regression` |optional|"

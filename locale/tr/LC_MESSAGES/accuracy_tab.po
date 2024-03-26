@@ -306,6 +306,8 @@ msgid ""
 "if checked, set the value of ``NoData`` pixels, ignored during the "
 "calculation"
 msgstr ""
+"işaretliyse, hesaplama sırasında yok sayılan ``Veri Yok`` piksellerinin "
+"değerini ayarlar"
 
 #: ../../accuracy_tab.rst:186
 msgid ":guilabel:`Script` |script_tool|"

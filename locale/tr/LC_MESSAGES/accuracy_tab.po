@@ -254,15 +254,15 @@ msgstr "Alet sembolü ve adı"
 
 #: ../../accuracy_tab.rst:170
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #: ../../accuracy_tab.rst:171
 msgid ":guilabel:`Select the classification to assess` |input_list|"
-msgstr ""
+msgstr ":guilabel:`Değerlendirilecek sınıflandırmayı seçin` |input_list|"
 
 #: ../../accuracy_tab.rst:172
 msgid "select a classification raster (already loaded in QGIS)"
-msgstr ""
+msgstr "bir sınıflandırma rasterı seçin (QGIS'te zaten yüklü)"
 
 #: ../../accuracy_tab.rst:173 ../../accuracy_tab.rst:178
 msgid "|reload|"

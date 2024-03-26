@@ -133,11 +133,11 @@ msgstr "tümünü seç"
 
 #: ../../accuracy_tab.rst:89
 msgid "docks"
-msgstr ""
+msgstr "iskele"
 
 #: ../../accuracy_tab.rst:92
 msgid "add_sign_tool"
-msgstr ""
+msgstr "add_sign_tool"
 
 #: ../../accuracy_tab.rst:95
 msgid "guide"
@@ -157,7 +157,7 @@ msgstr "onay kutusu"
 
 #: ../../accuracy_tab.rst:107
 msgid "run"
-msgstr "yürüt"
+msgstr "çalıştır"
 
 #: ../../accuracy_tab.rst:110
 msgid "radiobutton"
@@ -173,13 +173,15 @@ msgstr "eşik_aracı"
 
 #: ../../accuracy_tab.rst:124
 msgid ":guilabel:`Accuracy`"
-msgstr ""
+msgstr ":guilabel:`Doğruluk`"
 
 #: ../../accuracy_tab.rst:127
 msgid ""
 "This tab allows for the validation of a classification (read "
 ":ref:`accuracy_assessment_definition` )."
 msgstr ""
+"Bu sekme bir sınıflandırmanın doğrulanmasını sağlar (read "
+":ref:`accuracy_assessment_definition`)."
 
 #: ../../accuracy_tab.rst:130
 msgid ""
@@ -315,12 +317,12 @@ msgstr ":guilabel:`Script` |script_tool|"
 
 #: ../../accuracy_tab.rst:187
 msgid "add this function to the :ref:`script_tab`"
-msgstr ""
+msgstr "bu işlevi :ref:`script_tab` dosyasına ekleyin"
 
 #: ../../accuracy_tab.rst:188
 msgid ":guilabel:`RUN` |run|"
-msgstr ""
+msgstr ":guilabel:`RUN` |run|"
 
 #: ../../accuracy_tab.rst:189
 msgid "run this function"
-msgstr ""
+msgstr "bu işlevi çalıştırın"

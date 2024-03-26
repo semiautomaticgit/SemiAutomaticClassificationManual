@@ -311,7 +311,7 @@ msgstr ""
 
 #: ../../accuracy_tab.rst:186
 msgid ":guilabel:`Script` |script_tool|"
-msgstr ""
+msgstr ":guilabel:`Script` |script_tool|"
 
 #: ../../accuracy_tab.rst:187
 msgid "add this function to the :ref:`script_tab`"

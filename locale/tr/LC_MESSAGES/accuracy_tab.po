@@ -286,17 +286,20 @@ msgstr ""
 
 #: ../../accuracy_tab.rst:180
 msgid ":guilabel:`Vector field` |input_list| |optional|"
-msgstr ""
+msgstr ":guilabel:`Vektör alanı` |input_list| |optional|"
 
 #: ../../accuracy_tab.rst:181
 msgid ""
 "if a vector is selected as reference, select a vector field containing "
 "numeric class values"
 msgstr ""
+"referans olarak bir vektör seçilirse, sayısal sınıf değerlerini içeren bir "
+"vektör alanı seçin"
 
 #: ../../accuracy_tab.rst:183
 msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number| |optional|"
 msgstr ""
+"|checkbox| :guilabel:`Değeri NoData olarak kullan` |input_number| |optional|"
 
 #: ../../accuracy_tab.rst:184
 msgid ""

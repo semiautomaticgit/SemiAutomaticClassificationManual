@@ -134,11 +134,11 @@ msgstr "tümünü seç"
 
 #: ../../classification_report_tab.rst:89
 msgid "docks"
-msgstr ""
+msgstr "iskele"
 
 #: ../../classification_report_tab.rst:92
 msgid "add_sign_tool"
-msgstr ""
+msgstr "add_sign_tool"
 
 #: ../../classification_report_tab.rst:95
 msgid "guide"

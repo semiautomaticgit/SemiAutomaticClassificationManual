@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../split_bands_tab.rst:44
 msgid "remove"
-msgstr ""
+msgstr "kaldır"
 
 #: ../../split_bands_tab.rst:47
 msgid "add"

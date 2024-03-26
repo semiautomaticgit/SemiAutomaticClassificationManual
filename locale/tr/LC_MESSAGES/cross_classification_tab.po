@@ -133,7 +133,7 @@ msgstr "tümünü seç"
 
 #: ../../cross_classification_tab.rst:89
 msgid "docks"
-msgstr ""
+msgstr "iskele"
 
 #: ../../cross_classification_tab.rst:92
 msgid "add_sign_tool"

@@ -153,7 +153,7 @@ msgstr "tümünü seç"
 
 #: ../../stack_bands_tab.rst:104
 msgid "docks"
-msgstr ""
+msgstr "iskele"
 
 #: ../../stack_bands_tab.rst:107
 msgid "add_sign_tool"

@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../stack_bands_tab.rst:44
 msgid "remove"
-msgstr ""
+msgstr "kaldır"
 
 #: ../../stack_bands_tab.rst:47
 msgid "add"

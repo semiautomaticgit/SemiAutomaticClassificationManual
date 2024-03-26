@@ -133,11 +133,11 @@ msgstr "tümünü seç"
 
 #: ../../pca_tab.rst:89
 msgid "docks"
-msgstr ""
+msgstr "iskele"
 
 #: ../../pca_tab.rst:92
 msgid "add_sign_tool"
-msgstr ""
+msgstr "add_sign_tool"
 
 #: ../../pca_tab.rst:95
 msgid "guide"
@@ -196,11 +196,11 @@ msgstr ""
 
 #: ../../pca_tab.rst:146
 msgid "Tool symbol and name"
-msgstr ""
+msgstr "Alet sembolü ve adı"
 
 #: ../../pca_tab.rst:147
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #: ../../pca_tab.rst:148
 msgid ":guilabel:`Select input band set` |input_number|"
@@ -227,22 +227,24 @@ msgid ""
 "if checked, set the value of ``NoData`` pixels, ignored during the "
 "calculation"
 msgstr ""
+"işaretliyse, hesaplama sırasında yok sayılan ``Veri Yok`` piksellerinin "
+"değerini ayarlar"
 
 #: ../../pca_tab.rst:155
 msgid ":guilabel:`Script` |script_tool|"
-msgstr ""
+msgstr ":guilabel:`Script` |script_tool|"
 
 #: ../../pca_tab.rst:156
 msgid "add this function to the :ref:`script_tab`"
-msgstr ""
+msgstr "bu işlevi :ref:`script_tab` dosyasına ekleyin"
 
 #: ../../pca_tab.rst:157
 msgid ":guilabel:`RUN` |run|"
-msgstr ""
+msgstr ":guilabel:`RUN` |run|"
 
 #: ../../pca_tab.rst:158
 msgid "run this function"
-msgstr ""
+msgstr "bu işlevi çalıştırın"
 
 #: ../../pca_tab.rst:160
 msgid ""

@@ -204,15 +204,15 @@ msgstr ""
 
 #: ../../classification_report_tab.rst:148
 msgid "select a classification raster (already loaded in QGIS)"
-msgstr ""
+msgstr "bir sınıflandırma rasterı seçin (QGIS'te zaten yüklü)"
 
 #: ../../classification_report_tab.rst:149
 msgid "|reload|"
-msgstr ""
+msgstr "|yeniden yükle|"
 
 #: ../../classification_report_tab.rst:150
 msgid "refresh layer list"
-msgstr ""
+msgstr "katman listesini yenile"
 
 #: ../../classification_report_tab.rst:151
 msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number| |optional|"

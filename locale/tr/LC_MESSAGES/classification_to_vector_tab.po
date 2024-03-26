@@ -209,15 +209,15 @@ msgstr ""
 
 #: ../../classification_to_vector_tab.rst:150
 msgid "select a classification raster (already loaded in QGIS)"
-msgstr ""
+msgstr "bir sınıflandırma rasterı seçin (QGIS'te zaten yüklü)"
 
 #: ../../classification_to_vector_tab.rst:151
 msgid "|reload|"
-msgstr ""
+msgstr "|yeniden yükle|"
 
 #: ../../classification_to_vector_tab.rst:152
 msgid "refresh layer list"
-msgstr ""
+msgstr "katman listesini yenile"
 
 #: ../../classification_to_vector_tab.rst:158
 msgid "Symbology"

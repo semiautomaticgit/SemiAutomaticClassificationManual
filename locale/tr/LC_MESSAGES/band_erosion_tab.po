@@ -133,11 +133,11 @@ msgstr "tümünü seç"
 
 #: ../../band_erosion_tab.rst:89
 msgid "docks"
-msgstr ""
+msgstr "iskele"
 
 #: ../../band_erosion_tab.rst:92
 msgid "add_sign_tool"
-msgstr ""
+msgstr "add_sign_tool"
 
 #: ../../band_erosion_tab.rst:95
 msgid "guide"

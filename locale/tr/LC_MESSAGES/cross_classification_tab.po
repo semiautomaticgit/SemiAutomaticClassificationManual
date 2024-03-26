@@ -232,12 +232,12 @@ msgstr ""
 
 #: ../../cross_classification_tab.rst:162
 msgid "select a classification raster (already loaded in QGIS)"
-msgstr ""
+msgstr "bir sınıflandırma rasterı seçin (QGIS'te zaten yüklü)"
 
 #: ../../cross_classification_tab.rst:163
 #: ../../cross_classification_tab.rst:171
 msgid "|reload|"
-msgstr ""
+msgstr "|yeniden yükle|"
 
 #: ../../cross_classification_tab.rst:164
 #: ../../cross_classification_tab.rst:172

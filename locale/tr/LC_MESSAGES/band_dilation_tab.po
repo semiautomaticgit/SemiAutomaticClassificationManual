@@ -133,11 +133,11 @@ msgstr "tümünü seç"
 
 #: ../../band_dilation_tab.rst:89
 msgid "docks"
-msgstr ""
+msgstr "iskele"
 
 #: ../../band_dilation_tab.rst:92
 msgid "add_sign_tool"
-msgstr ""
+msgstr "add_sign_tool"
 
 #: ../../band_dilation_tab.rst:95
 msgid "guide"
@@ -255,16 +255,16 @@ msgstr ""
 
 #: ../../band_dilation_tab.rst:163
 msgid ":guilabel:`Script` |script_tool|"
-msgstr ""
+msgstr ":guilabel:`Script` |script_tool|"
 
 #: ../../band_dilation_tab.rst:164
 msgid "add this function to the :ref:`script_tab`"
-msgstr ""
+msgstr "bu işlevi :ref:`script_tab` dosyasına ekleyin"
 
 #: ../../band_dilation_tab.rst:165
 msgid ":guilabel:`RUN` |run|"
-msgstr ""
+msgstr ":guilabel:`RUN` |run|"
 
 #: ../../band_dilation_tab.rst:166
 msgid "run this function"
-msgstr ""
+msgstr "bu işlevi çalıştırın"

@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../mosaic_bandsets_tab.rst:45
 msgid "remove"
-msgstr ""
+msgstr "kaldır"
 
 #: ../../mosaic_bandsets_tab.rst:48
 msgid "add"

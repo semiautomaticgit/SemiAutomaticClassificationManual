@@ -201,6 +201,12 @@ msgid ""
 "unbiased area of classes according to reference data, and the standard error"
 " of area estimates."
 msgstr ""
+"Genel doğruluk, kullanıcı doğruluğu, üretici doğruluğu ve Kappa şapkası gibi"
+" çeşitli istatistikler hesaplanır. Özellikle bu istatistikler, her bir "
+"elemanın her bir sınıfın tahmini alan oranını temsil ettiği alan tabanlı "
+"hata matrisine göre hesaplanır. Bu, tarafsız kullanıcı doğruluğu ve üretici "
+"doğruluğunun, referans verilere göre sınıfların tarafsız alanının ve alan "
+"tahminlerinin standart hatasının tahmin edilmesini sağlar."
 
 #: ../../accuracy_tab.rst:144
 msgid ""

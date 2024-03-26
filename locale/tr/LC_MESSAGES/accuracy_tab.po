@@ -250,7 +250,7 @@ msgstr ""
 
 #: ../../accuracy_tab.rst:169
 msgid "Tool symbol and name"
-msgstr ""
+msgstr "Alet sembolü ve adı"
 
 #: ../../accuracy_tab.rst:170
 msgid "Description"

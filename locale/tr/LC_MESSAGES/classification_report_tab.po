@@ -170,7 +170,7 @@ msgstr "işaretçi"
 
 #: ../../classification_report_tab.rst:116
 msgid "threshold_tool"
-msgstr ""
+msgstr "eşik_aracı"
 
 #: ../../classification_report_tab.rst:124
 msgid ":guilabel:`Classification report`"

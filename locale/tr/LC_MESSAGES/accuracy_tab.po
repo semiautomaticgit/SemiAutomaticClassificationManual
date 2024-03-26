@@ -217,6 +217,12 @@ msgid ""
 "error matrix (i.e. a ``.csv`` file separated by tab) is created with the "
 "same name defined for the ``.tif`` file."
 msgstr ""
+"Çıktı, piksel değerlerinin sınıflandırma ve referans arasındaki "
+"karşılaştırma kategorilerini (yani hata matrisindeki ``ErrorMatrixCode`` ile"
+" tanımlanan kombinasyonlar) temsil ettiği, haritadaki hataları gösteren bir "
+"``.tif`` dosyası olan bir ``error raster``dır. Ayrıca, hata matrisini içeren"
+" bir metin dosyası (yani tab ile ayrılmış bir ``.csv`` dosyası) ``.tif`` "
+"dosyası için tanımlanan aynı adla oluşturulur."
 
 #: ../../accuracy_tab.rst:151
 msgid ""

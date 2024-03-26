@@ -137,7 +137,7 @@ msgstr ""
 
 #: ../../cross_classification_tab.rst:92
 msgid "add_sign_tool"
-msgstr ""
+msgstr "add_sign_tool"
 
 #: ../../cross_classification_tab.rst:95
 msgid "guide"
@@ -301,4 +301,4 @@ msgstr ":guilabel:`RUN` |run|"
 
 #: ../../cross_classification_tab.rst:181
 msgid "run this function"
-msgstr ""
+msgstr "bu işlevi çalıştırın"

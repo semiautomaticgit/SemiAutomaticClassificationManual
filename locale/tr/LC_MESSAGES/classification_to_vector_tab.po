@@ -196,12 +196,12 @@ msgstr ""
 #: ../../classification_to_vector_tab.rst:147
 #: ../../classification_to_vector_tab.rst:164
 msgid "Tool symbol and name"
-msgstr ""
+msgstr "Alet sembolü ve adı"
 
 #: ../../classification_to_vector_tab.rst:148
 #: ../../classification_to_vector_tab.rst:165
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #: ../../classification_to_vector_tab.rst:149
 msgid ":guilabel:`Select the classification` |input_list|"

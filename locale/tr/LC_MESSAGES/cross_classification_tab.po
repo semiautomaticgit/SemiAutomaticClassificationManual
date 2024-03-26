@@ -247,12 +247,15 @@ msgstr "katman listesini yenile"
 #: ../../cross_classification_tab.rst:165
 msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number| |optional|"
 msgstr ""
+"|checkbox| :guilabel:`Değeri NoData olarak kullan` |input_number| |optional|"
 
 #: ../../cross_classification_tab.rst:166
 msgid ""
 "if checked, set the value of ``NoData`` pixels, ignored during the "
 "calculation"
 msgstr ""
+"işaretliyse, hesaplama sırasında yok sayılan ``Veri Yok`` piksellerinin "
+"değerini ayarlar"
 
 #: ../../cross_classification_tab.rst:168
 msgid ":guilabel:`Select the reference vector or raster` |input_list|"
@@ -286,11 +289,11 @@ msgstr ""
 
 #: ../../cross_classification_tab.rst:178
 msgid ":guilabel:`Script` |script_tool|"
-msgstr ""
+msgstr ":guilabel:`Script` |script_tool|"
 
 #: ../../cross_classification_tab.rst:179
 msgid "add this function to the :ref:`script_tab`"
-msgstr ""
+msgstr "bu işlevi :ref:`script_tab` dosyasına ekleyin"
 
 #: ../../cross_classification_tab.rst:180
 msgid ":guilabel:`RUN` |run|"

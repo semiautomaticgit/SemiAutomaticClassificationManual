@@ -192,11 +192,11 @@ msgstr ""
 
 #: ../../classification_report_tab.rst:143
 msgid "Tool symbol and name"
-msgstr ""
+msgstr "Alet sembolü ve adı"
 
 #: ../../classification_report_tab.rst:144
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #: ../../classification_report_tab.rst:147
 msgid ":guilabel:`Select the classification` |input_list|"

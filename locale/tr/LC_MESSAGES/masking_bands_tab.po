@@ -69,7 +69,7 @@ msgstr "yeni_dosya"
 
 #: ../../masking_bands_tab.rst:42
 msgid "open_dir"
-msgstr ""
+msgstr "klasör_aç"
 
 #: ../../masking_bands_tab.rst:45
 msgid "remove"

@@ -69,7 +69,7 @@ msgstr "yeni_dosya"
 
 #: ../../mosaic_bandsets_tab.rst:42
 msgid "open_dir"
-msgstr ""
+msgstr "klasör_aç"
 
 #: ../../mosaic_bandsets_tab.rst:45
 msgid "remove"

@@ -69,7 +69,7 @@ msgstr "yeni_dosya"
 
 #: ../../stack_bands_tab.rst:41
 msgid "open_dir"
-msgstr ""
+msgstr "klasör_aç"
 
 #: ../../stack_bands_tab.rst:44
 msgid "remove"

@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2023, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Buğrahan Yurdalan, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"PO-Revision-Date: 2023-10-24 15:44+0000\n"
+"Last-Translator: Buğrahan Yurdalan, 2024\n"
+"Language-Team: Turkish (https://app.transifex.com/semi-automatic-classification/teams/53374/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../band_dilation_tab.rst:5 ../../band_dilation_tab.rst:138
+msgid "Dilation"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:11
+msgid "registry_save"
+msgstr "kayıt_kaydet"
+
+#: ../../band_dilation_tab.rst:14
+msgid "project_save"
+msgstr "proje_kaydetme"
+
+#: ../../band_dilation_tab.rst:17
+msgid "optional"
+msgstr "isteğe bağlı"
+
+#: ../../band_dilation_tab.rst:20
+msgid "input_list"
+msgstr "girdi_liste"
+
+#: ../../band_dilation_tab.rst:23
+msgid "input_text"
+msgstr "girdi_metni"
+
+#: ../../band_dilation_tab.rst:26
+msgid "input_date"
+msgstr "tarih_giriş"
+
+#: ../../band_dilation_tab.rst:29
+msgid "input_number"
+msgstr "numara_giriş"
+
+#: ../../band_dilation_tab.rst:32
+msgid "input_table"
+msgstr "tablo_giriş"
+
+#: ../../band_dilation_tab.rst:35
+msgid "open_file"
+msgstr "dosyayı_aç"
+
+#: ../../band_dilation_tab.rst:38
+msgid "new_file"
+msgstr "yeni_dosya"
+
+#: ../../band_dilation_tab.rst:41
+msgid "add"
+msgstr "ekle"
+
+#: ../../band_dilation_tab.rst:44
+msgid "reset"
+msgstr "Sıfırla"
+
+#: ../../band_dilation_tab.rst:47
+msgid "bandset_tool"
+msgstr "bandset_araçları"
+
+#: ../../band_dilation_tab.rst:50
+msgid "download"
+msgstr "indir"
+
+#: ../../band_dilation_tab.rst:53
+msgid "export"
+msgstr "dışa aktar"
+
+#: ../../band_dilation_tab.rst:56
+msgid "tools"
+msgstr "araçlar"
+
+#: ../../band_dilation_tab.rst:59
+msgid "preprocessing"
+msgstr "ön işleme"
+
+#: ../../band_dilation_tab.rst:62
+msgid "band_processing"
+msgstr "bant_işleme"
+
+#: ../../band_dilation_tab.rst:65
+msgid "postprocessing"
+msgstr "son_işlem"
+
+#: ../../band_dilation_tab.rst:68
+msgid "bandcalc"
+msgstr "bant hesaplama"
+
+#: ../../band_dilation_tab.rst:71
+msgid "settings"
+msgstr "ayarlar"
+
+#: ../../band_dilation_tab.rst:74
+msgid "script_tool"
+msgstr "komut dosyası araçları"
+
+#: ../../band_dilation_tab.rst:77
+msgid "enter"
+msgstr "giriş"
+
+#: ../../band_dilation_tab.rst:80
+msgid "zoom_to_ROI"
+msgstr "ROI ye yaklaş"
+
+#: ../../band_dilation_tab.rst:83
+msgid "check"
+msgstr "tik"
+
+#: ../../band_dilation_tab.rst:86
+msgid "select_all"
+msgstr "tümünü seç"
+
+#: ../../band_dilation_tab.rst:89
+msgid "docks"
+msgstr "iskele"
+
+#: ../../band_dilation_tab.rst:92
+msgid "add_sign_tool"
+msgstr "add_sign_tool"
+
+#: ../../band_dilation_tab.rst:95
+msgid "guide"
+msgstr "rehber"
+
+#: ../../band_dilation_tab.rst:98
+msgid "help"
+msgstr "yardım"
+
+#: ../../band_dilation_tab.rst:101
+msgid "reload"
+msgstr "yeniden yükle"
+
+#: ../../band_dilation_tab.rst:104
+msgid "checkbox"
+msgstr "onay kutusu"
+
+#: ../../band_dilation_tab.rst:107
+msgid "run"
+msgstr "yürüt"
+
+#: ../../band_dilation_tab.rst:110
+msgid "radiobutton"
+msgstr "radyo buton"
+
+#: ../../band_dilation_tab.rst:113
+msgid "pointer"
+msgstr "işaretçi"
+
+#: ../../band_dilation_tab.rst:116
+msgid "threshold_tool"
+msgstr "eşik_aracı"
+
+#: ../../band_dilation_tab.rst:124
+msgid ":guilabel:`Dilation`"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:127
+msgid ""
+"This tab allows for dilating the border of a class patch, defining the class"
+" values to be dilated and the number of pixels from the border. It is useful"
+" for classification refinement."
+msgstr ""
+
+#: ../../band_dilation_tab.rst:132
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_dilation.html>`_ "
+"."
+msgstr ""
+
+#: ../../band_dilation_tab.rst:144
+msgid "Tool symbol and name"
+msgstr "Alet sembolü ve adı"
+
+#: ../../band_dilation_tab.rst:145
+msgid "Description"
+msgstr "Açıklama"
+
+#: ../../band_dilation_tab.rst:146
+msgid ":guilabel:`Select input band set (of classifications)` |input_number|"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:147
+msgid "select the input :ref:`band_set_tab`"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:148
+msgid ":guilabel:`Class values` |input_text|"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:149
+msgid ""
+"set the class values to be dilated; class values must be separated by ``,`` "
+"and ``-`` can be used to define a range of values (e.g. ``1, 3-5, 8`` will "
+"select classes 1, 3, 4, 5, 8); if the text is red then the expression "
+"contains errors"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:153
+msgid ":guilabel:`Size in pixels` |input_number|"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:154
+msgid "number of pixels to be dilated from the border"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:155
+msgid "|checkbox| :guilabel:`Circular` |optional|"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:156
+msgid "if checked, the dilation will be circular, similar to a buffer"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:157
+msgid ":guilabel:`Output name`"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:158
+msgid "set the name prefix for output files"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:159
+msgid "|checkbox| :guilabel:`Virtual output` |optional|"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:160
+msgid ""
+"if checked, the output is created as virtual raster composed of as many "
+"``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`"
+msgstr ""
+
+#: ../../band_dilation_tab.rst:163
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ":guilabel:`Script` |script_tool|"
+
+#: ../../band_dilation_tab.rst:164
+msgid "add this function to the :ref:`script_tab`"
+msgstr "bu işlevi :ref:`script_tab` dosyasına ekleyin"
+
+#: ../../band_dilation_tab.rst:165
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`RUN` |run|"
+
+#: ../../band_dilation_tab.rst:166
+msgid "run this function"
+msgstr "bu işlevi çalıştırın"

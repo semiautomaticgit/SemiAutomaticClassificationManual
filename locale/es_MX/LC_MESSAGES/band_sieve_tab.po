@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2024, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"PO-Revision-Date: 2023-10-24 15:44+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_MX/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../band_sieve_tab.rst:5 ../../band_sieve_tab.rst:142
+msgid "Sieve"
+msgstr "Cribado"
+
+#: ../../band_sieve_tab.rst:124
+msgid ":guilabel:`Sieve`"
+msgstr ":guilabel:`Sieve`"
+
+#: ../../band_sieve_tab.rst:127
+msgid ""
+"This tab allows for the replacement of isolated pixel values with the value "
+"of the largest neighbour patch. It is useful for removing small patches from"
+" a classification."
+msgstr ""
+"Esta herramienta permite reemplazar el valor de un pixel aislado por el "
+"valor del parche vecino más grande. Es útil para eliminar pequeños parches "
+"de una clasificación."
+
+#: ../../band_sieve_tab.rst:131
+msgid ""
+"It is possible to chose ``4 pixel connection`` (in a 3x3 window, diagonal "
+"pixels are not considered connected) or ``8 pixel connection`` (in a 3x3 "
+"window, diagonal pixels are considered connected)."
+msgstr ""
+"Es posible seleccionar ``conectividad de 4 píxeles`` (en una ventana 3x3, "
+"los píxeles ubicados en las diagonales no son considerados) or "
+"``conectividad de 8 píxeles`` (en una ventana 3x3, los píxeles ubicados en "
+"las diagonales si son considerados)"
+
+#: ../../band_sieve_tab.rst:136
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_sieve.html>`_ ."
+msgstr ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_sieve.html>`_ ."
+
+#: ../../band_sieve_tab.rst:148
+msgid "Tool symbol and name"
+msgstr "Símbolo de la herramienta y nombre"
+
+#: ../../band_sieve_tab.rst:149
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../band_sieve_tab.rst:150
+msgid ":guilabel:`Select input band set (of classifications)` |input_number|"
+msgstr ""
+":guilabel:`Seleccionar el conjunto de bandas de entrada (de "
+"clasificaciones)` |input_number|"
+
+#: ../../band_sieve_tab.rst:29
+msgid "input_number"
+msgstr "número de entrada"
+
+#: ../../band_sieve_tab.rst:151
+msgid "select the input :ref:`band_set_tab`"
+msgstr "Selecciona el :ref:`band_set_tab` de entrada"
+
+#: ../../band_sieve_tab.rst:152
+msgid ":guilabel:`Size threshold` |input_number|"
+msgstr ":guilabel:`Umbral de tamaño` |input_number|"
+
+#: ../../band_sieve_tab.rst:153
+msgid "size of threshold in number of pixels"
+msgstr "tamaño del umbra en número de píxeles"
+
+#: ../../band_sieve_tab.rst:154
+msgid "|checkbox| :guilabel:`Pixel connection` |input_list|"
+msgstr "|checkbox| :guilabel:`Conectividad de píxeles` |input_list|"
+
+#: ../../band_sieve_tab.rst:104
+msgid "checkbox"
+msgstr "casilla de confirmación"
+
+#: ../../band_sieve_tab.rst:20
+msgid "input_list"
+msgstr "lista_entrada"
+
+#: ../../band_sieve_tab.rst:155
+msgid "select between 4 pixel connection or 8 pixel connection"
+msgstr "seleccionar entre conectividad de 4 u 8 píxeles"
+
+#: ../../band_sieve_tab.rst:156
+msgid ":guilabel:`Output name`"
+msgstr ":guilabel:`Nombre de la salida`"
+
+#: ../../band_sieve_tab.rst:157
+msgid "set the name prefix for output files"
+msgstr "define el prefijo para el nombre de los archivos de salida"
+
+#: ../../band_sieve_tab.rst:158
+msgid "|checkbox| :guilabel:`Virtual output` |optional|"
+msgstr "|checkbox| :guilabel:`Salida virtual` |optional|"
+
+#: ../../band_sieve_tab.rst:17
+msgid "optional"
+msgstr "opcional"
+
+#: ../../band_sieve_tab.rst:159
+msgid ""
+"if checked, the output is created as virtual raster composed of as many "
+"``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`"
+msgstr ""
+"Si está marcado, la salida es generada como un raster virtual con tantos "
+"archivos ``.tif`` como el número de hilos de CPU definidos en "
+":ref:`system_processing`"
+
+#: ../../band_sieve_tab.rst:162
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ":guilabel:`Script` |script_tool|"
+
+#: ../../band_sieve_tab.rst:74
+msgid "script_tool"
+msgstr "herramienta_script"
+
+#: ../../band_sieve_tab.rst:163
+msgid "add this function to the :ref:`script_tab`"
+msgstr "añadir está función al :ref:`script_tab`"
+
+#: ../../band_sieve_tab.rst:164
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`EJECUTAR` |run|"
+
+#: ../../band_sieve_tab.rst:107
+msgid "run"
+msgstr "ejecutar"
+
+#: ../../band_sieve_tab.rst:165
+msgid "run this function"
+msgstr "ejecutar esta función"

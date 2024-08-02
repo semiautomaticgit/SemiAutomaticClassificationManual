@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2024, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# 
+# Translators:
+# Buğrahan Yurdalan, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"PO-Revision-Date: 2023-10-24 15:43+0000\n"
+"Last-Translator: Buğrahan Yurdalan, 2024\n"
+"Language-Team: Turkish (https://app.transifex.com/semi-automatic-classification/teams/53374/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../classification_report_tab.rst:5
+#: ../../classification_report_tab.rst:137
+msgid "Classification report"
+msgstr ""
+
+#: ../../classification_report_tab.rst:124
+msgid ":guilabel:`Classification report`"
+msgstr ""
+
+#: ../../classification_report_tab.rst:127
+msgid ""
+"This tab allows for the calculation of class statistics such as number of "
+"pixels, percentage and area (area unit is defined from the image itself)."
+msgstr ""
+
+#: ../../classification_report_tab.rst:131
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_report.html>`_ "
+"."
+msgstr ""
+
+#: ../../classification_report_tab.rst:143
+msgid "Tool symbol and name"
+msgstr "Alet sembolü ve adı"
+
+#: ../../classification_report_tab.rst:144
+msgid "Description"
+msgstr "Açıklama"
+
+#: ../../classification_report_tab.rst:147
+msgid ":guilabel:`Select the classification` |input_list|"
+msgstr ""
+
+#: ../../classification_report_tab.rst:20
+msgid "input_list"
+msgstr "girdi_liste"
+
+#: ../../classification_report_tab.rst:148
+msgid "select a classification raster (already loaded in QGIS)"
+msgstr "bir sınıflandırma rasterı seçin (QGIS'te zaten yüklü)"
+
+#: ../../classification_report_tab.rst:149
+msgid "|reload|"
+msgstr "|yeniden yükle|"
+
+#: ../../classification_report_tab.rst:101
+msgid "reload"
+msgstr "yeniden yükle"
+
+#: ../../classification_report_tab.rst:150
+msgid "refresh layer list"
+msgstr "katman listesini yenile"
+
+#: ../../classification_report_tab.rst:151
+msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number| |optional|"
+msgstr ""
+"|checkbox| :guilabel:`Değeri NoData olarak kullan` |input_number| |optional|"
+
+#: ../../classification_report_tab.rst:104
+msgid "checkbox"
+msgstr "onay kutusu"
+
+#: ../../classification_report_tab.rst:29
+msgid "input_number"
+msgstr "numara_giriş"
+
+#: ../../classification_report_tab.rst:17
+msgid "optional"
+msgstr "isteğe bağlı"
+
+#: ../../classification_report_tab.rst:152
+msgid ""
+"if checked, set the value of ``NoData`` pixels, ignored during the "
+"calculation"
+msgstr ""
+"işaretliyse, hesaplama sırasında yok sayılan ``Veri Yok`` piksellerinin "
+"değerini ayarlar"
+
+#: ../../classification_report_tab.rst:154
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ":guilabel:`Script` |script_tool|"
+
+#: ../../classification_report_tab.rst:74
+msgid "script_tool"
+msgstr "komut dosyası araçları"
+
+#: ../../classification_report_tab.rst:155
+msgid "add this function to the :ref:`script_tab`"
+msgstr "bu işlevi :ref:`script_tab` dosyasına ekleyin"
+
+#: ../../classification_report_tab.rst:156
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`RUN` |run|"
+
+#: ../../classification_report_tab.rst:107
+msgid "run"
+msgstr "yürüt"
+
+#: ../../classification_report_tab.rst:157
+msgid "run this function"
+msgstr "bu işlevi çalıştırın"
+
+#: ../../classification_report_tab.rst:159
+msgid "The tab ``Output`` will display the report."
+msgstr ""

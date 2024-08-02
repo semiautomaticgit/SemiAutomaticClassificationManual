@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2024, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# 
+# Translators:
+# Daniel Orellana (Temporalista) <temporalista@gmail.com>, 2023
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Marlon Castillo <marloncastillo286@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"PO-Revision-Date: 2023-10-24 15:44+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (Latin America) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_419/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../cross_classification_tab.rst:5 ../../cross_classification_tab.rst:153
+msgid "Cross classification"
+msgstr "Clasificación cruzada"
+
+#: ../../cross_classification_tab.rst:124
+msgid ":guilabel:`Cross classification`"
+msgstr ":guilabel:`Clasificación cruzada`"
+
+#: ../../cross_classification_tab.rst:126
+msgid ""
+"This tab allows for the calculation of a cross classification raster and "
+"matrix. Classification is compared to a reference raster or reference vector"
+" (which is automatically converted to raster). This is useful for "
+"calculating the area for every combination between reference classes and "
+"classification values. If a vector is selected as reference, it is possible "
+"to choose a field describing class values."
+msgstr ""
+"Esta pestaña permite el cálculo de un ráster de clasificación cruzada y una "
+"matriz. La clasificación se compara con un ráster de referencia o un vector "
+"de referencia (que se convierte automáticamente en ráster). Esto es útil "
+"para calcular el área para cada combinación entre clases de referencia y "
+"valores de clasificación. Si se selecciona un vector como referencia, es "
+"posible elegir un campo que describa los valores de clase."
+
+#: ../../cross_classification_tab.rst:135
+msgid ""
+"The output is a ``cross raster`` that is a ``.tif`` file where pixel values "
+"represent the categories of comparison (i.e. combinations identified by the "
+"``CrossMatrixCode``) between the classification and reference. Also, a text "
+"file containing the cross matrix (i.e. a ``.csv`` file) is created with the "
+"same name defined for the ``.tif`` file."
+msgstr ""
+"El resultado es un ``ráster de cruces`` que es un archivo ``.tif`` donde los"
+" valores de los píxeles representan las categorías de comparación (i.e. "
+"combinaciones identificadas por el ``CrossMatrixCode``) entre la "
+"clasificación y la referencia. Tambien, se crea un archivo de texto que "
+"contiene la matriz de cruces (i.e. un archivo ``.csv``) con el mismo nombre "
+"definido para el archivo ``.tif``."
+
+#: ../../cross_classification_tab.rst:141
+msgid ""
+"This tool supports ``virtual raster output``; if the output file name ends "
+"with ``.vrt`` then the output is created as virtual raster composed of as "
+"many ``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`; for large rasters this can speed up the process."
+msgstr ""
+"Esta herramienta admite ''salida ráster virtual''; si el nombre del archivo "
+"de salida termina con ''.vrt'', la salida se crea como ráster virtual "
+"compuesto por varios archivos ''.tif'' como el número de subprocesos de CPU "
+"definidos en :ref:'system_processing'; para rásteres grandes, esto puede "
+"acelerar el proceso."
+
+#: ../../cross_classification_tab.rst:147
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.cross_classification.html>`_"
+" ."
+msgstr ""
+"Información sobre las APIs de esta herramienta de Remotior Sensus en este "
+"`enlace <https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.cross_classification.html>`_"
+" ."
+
+#: ../../cross_classification_tab.rst:159
+msgid "Tool symbol and name"
+msgstr "Símbolo de la herramienta y nombre"
+
+#: ../../cross_classification_tab.rst:160
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../cross_classification_tab.rst:161
+msgid ":guilabel:`Select the classification` |input_list|"
+msgstr ":guilabel:`Selecciona la clasificación` |input_list|"
+
+#: ../../cross_classification_tab.rst:20
+msgid "input_list"
+msgstr "lista_entrada"
+
+#: ../../cross_classification_tab.rst:162
+msgid "select a classification raster (already loaded in QGIS)"
+msgstr "selecciona un raster de clasificación (ya cargado en QGIS)"
+
+#: ../../cross_classification_tab.rst:163
+#: ../../cross_classification_tab.rst:171
+msgid "|reload|"
+msgstr "|recarga|"
+
+#: ../../cross_classification_tab.rst:101
+msgid "reload"
+msgstr "recargar"
+
+#: ../../cross_classification_tab.rst:164
+#: ../../cross_classification_tab.rst:172
+msgid "refresh layer list"
+msgstr "refresca la lista de capas"
+
+#: ../../cross_classification_tab.rst:165
+msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number| |optional|"
+msgstr ""
+"|checkbox| :guilabel:`Usar el valor como Sin Datos` |input_number| "
+"|optional|"
+
+#: ../../cross_classification_tab.rst:104
+msgid "checkbox"
+msgstr "casilla de confirmación"
+
+#: ../../cross_classification_tab.rst:29
+msgid "input_number"
+msgstr "número de entrada"
+
+#: ../../cross_classification_tab.rst:17
+msgid "optional"
+msgstr "opcional"
+
+#: ../../cross_classification_tab.rst:166
+msgid ""
+"if checked, set the value of ``NoData`` pixels, ignored during the "
+"calculation"
+msgstr ""
+"Si está marcado, configura el valor de los píxeles ``Sin datos``, se "
+"ignorará durante los cálculos"
+
+#: ../../cross_classification_tab.rst:168
+msgid ":guilabel:`Select the reference vector or raster` |input_list|"
+msgstr ":guilabel:`Selecciona el raster o vector de referencia` |input_list|"
+
+#: ../../cross_classification_tab.rst:169
+msgid ""
+"select a raster or a vector (already loaded in QGIS), used as reference "
+"layer"
+msgstr ""
+"seleccionar un ráster o vector (ya cargado en QGIS), para usarlo como capa "
+"de referencia"
+
+#: ../../cross_classification_tab.rst:173
+msgid ":guilabel:`Vector field` |input_list| |optional|"
+msgstr ":guilabel:`Campo vectorial` |input_list| |opcional|"
+
+#: ../../cross_classification_tab.rst:174
+msgid ""
+"if a vector is selected as reference, select a vector field containing "
+"numeric class values"
+msgstr ""
+"si has seleccionado un vector como referencia, selecciona un campo del "
+"vector que contenga valores numéricos de las clases"
+
+#: ../../cross_classification_tab.rst:176
+msgid "|checkbox| :guilabel:`Calculate linear regression` |optional|"
+msgstr "|checkbox| :guilabel:`Calcular regresión lineal` |optional|"
+
+#: ../../cross_classification_tab.rst:177
+msgid "if checked, calculate linear regression between the two input layers"
+msgstr ""
+"si está marcado, se calculará la regresión lineal entre las dos capas de "
+"entrada"
+
+#: ../../cross_classification_tab.rst:178
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ":guilabel:`Script` |script_tool|"
+
+#: ../../cross_classification_tab.rst:74
+msgid "script_tool"
+msgstr "herramienta_script"
+
+#: ../../cross_classification_tab.rst:179
+msgid "add this function to the :ref:`script_tab`"
+msgstr "añadir está función al :ref:`script_tab`"
+
+#: ../../cross_classification_tab.rst:180
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`EJECUTAR` |run|"
+
+#: ../../cross_classification_tab.rst:107
+msgid "run"
+msgstr "ejecutar"
+
+#: ../../cross_classification_tab.rst:181
+msgid "run this function"
+msgstr "ejecutar esta función"

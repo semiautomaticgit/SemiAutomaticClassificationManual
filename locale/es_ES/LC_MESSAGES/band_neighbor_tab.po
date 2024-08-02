@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2024, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2023
+# Raúl Nanclares <raulnanclares@gmail.com>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"PO-Revision-Date: 2023-10-24 15:44+0000\n"
+"Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
+"Language-Team: Spanish (Spain) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../band_neighbor_tab.rst:5 ../../band_neighbor_tab.rst:140
+#: ../../band_neighbor_tab.rst:142 ../../band_neighbor_tab.rst:144
+#: ../../band_neighbor_tab.rst:160
+msgid "Neighbor"
+msgstr "Vecino"
+
+#: ../../band_neighbor_tab.rst:124
+msgid ":guilabel:`Neighbor`"
+msgstr ":guilabel:`Vecino`"
+
+#: ../../band_neighbor_tab.rst:128
+msgid ""
+"This tool allows for the calculation of several neighbor pixels statistics "
+"for every band of a band set defined in the :ref:`band_set_tab`."
+msgstr ""
+"Esta herramienta permite calcular varias estadísticas en píxeles vecinos en "
+"cada banda de un conjunto de bandas definido en la :ref:`band_set_tab`."
+
+#: ../../band_neighbor_tab.rst:131
+msgid ""
+"The statistics are calculated for every pixel of the input raster "
+"considering the values of the neighbor pixels. Neighbor pixels are defined "
+"through a distance or through a custom matrix."
+msgstr ""
+"Las estadísticas se calcula para cada pixel del raster de entrada "
+"considerando los valores de los píxeles en su vecindad. Los píxeles vecinos "
+"se definen mediante distancia o una matriz personalizada."
+
+#: ../../band_neighbor_tab.rst:135
+msgid ""
+"For example, the following matrix represents the neighbor pixels within a "
+"distance of 1 pixel from a central pixel, resulting in a 3x3 matrix."
+msgstr ""
+"Por ejemplo, la siguiente matriz representa los pixeles vecinos a una "
+"distancia de 1 pixel desde el pixel central, resultando una matriz de 3x3."
+
+#: ../../band_neighbor_tab.rst:142
+msgid "**Center**"
+msgstr "**Centro**"
+
+#: ../../band_neighbor_tab.rst:147
+msgid ""
+"Several statistics are available. The statistic ``Sum`` will result in a "
+"raster convolution. For instance, this can be useful to apply an image "
+"filter to all the bands of a band set for photointerpretation."
+msgstr ""
+"Varias estadísticas están disponibles. El estadístico ``Suma`` dará como "
+"resultado una convolución raster. Por ejemplo, esto puede ser útil para "
+"aplicar un filtro de imagen a todas las bandas de un conjunto de bandas para"
+" fotointerpretación."
+
+#: ../../band_neighbor_tab.rst:154
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_neighbor_pixels.html>`_"
+" ."
+msgstr ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_neighbor_pixels.html>`_"
+" ."
+
+#: ../../band_neighbor_tab.rst:166 ../../band_neighbor_tab.rst:195
+msgid "Tool symbol and name"
+msgstr "Símbolo y nombre de la herramienta"
+
+#: ../../band_neighbor_tab.rst:167 ../../band_neighbor_tab.rst:196
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../band_neighbor_tab.rst:168
+msgid ":guilabel:`Select input band set` |input_number|"
+msgstr ""
+":guilabel:`Seleccionar el conjunto de bandas de entrada` |input_number|"
+
+#: ../../band_neighbor_tab.rst:29
+msgid "input_number"
+msgstr "input_number"
+
+#: ../../band_neighbor_tab.rst:169
+msgid "select the input :ref:`band_set_tab`"
+msgstr "Selecciona el :ref:`band_set_tab` de entrada"
+
+#: ../../band_neighbor_tab.rst:170
+msgid ":guilabel:`Neighbor distance in pixels` |input_number|"
+msgstr ":guilabel:`Tamaño de la vecindad en píxeles` |input_number|"
+
+#: ../../band_neighbor_tab.rst:171
+msgid ""
+"create a window defining the size based on the distance from the center (in "
+"number of pixels)"
+msgstr ""
+"crear una ventana basada en la distancia desde el centro (en número de "
+"píxeles)"
+
+#: ../../band_neighbor_tab.rst:173
+msgid "|checkbox| :guilabel:`Circular` |optional|"
+msgstr "|checkbox| :guilabel:`Circular` |optional|"
+
+#: ../../band_neighbor_tab.rst:104
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../band_neighbor_tab.rst:17
+msgid "optional"
+msgstr "optional"
+
+#: ../../band_neighbor_tab.rst:174
+msgid "if checked, the window will be circular"
+msgstr "si está marcado, la ventana será circular"
+
+#: ../../band_neighbor_tab.rst:175
+msgid ":guilabel:`Matrix file (optional)` |open_file| |optional|"
+msgstr ":guilabel:`Archivo con la matriz (opcional)` |open_file| |optional|"
+
+#: ../../band_neighbor_tab.rst:35
+msgid "open_file"
+msgstr "open_file"
+
+#: ../../band_neighbor_tab.rst:176
+msgid "select a ``.csv`` file containing the structure of the window"
+msgstr ""
+"selecciona un archivo ``.csv`` que contenga la estructura de la matriz"
+
+#: ../../band_neighbor_tab.rst:177
+msgid ":guilabel:`Output name`"
+msgstr ":guilabel:`Nombre de la salida`"
+
+#: ../../band_neighbor_tab.rst:178
+msgid "set the name prefix for output files"
+msgstr "define el prefijo para el nombre de los archivos de salida"
+
+#: ../../band_neighbor_tab.rst:179
+msgid "|checkbox| :guilabel:`Virtual output` |optional|"
+msgstr "|checkbox| :guilabel:`Salida virtual` |optional|"
+
+#: ../../band_neighbor_tab.rst:180
+msgid ""
+"if checked, the output is created as virtual raster composed of as many "
+"``.tif`` files as the number of CPU threads defined in "
+":ref:`system_processing`"
+msgstr ""
+"Si está marcado, la salida es generada como un raster virtual con tantos "
+"archivos ``.tif`` como el número de hilos de CPU definidos en "
+":ref:`system_processing`"
+
+#: ../../band_neighbor_tab.rst:187
+msgid "Statistic"
+msgstr "Estadística"
+
+#: ../../band_neighbor_tab.rst:197
+msgid ":guilabel:`Select a statistic` |input_list| |input_text|"
+msgstr ":guilabel:`Selecciona una estadística` |input_list| |input_text|"
+
+#: ../../band_neighbor_tab.rst:20
+msgid "input_list"
+msgstr "input_list"
+
+#: ../../band_neighbor_tab.rst:23
+msgid "input_text"
+msgstr "input_text"
+
+#: ../../band_neighbor_tab.rst:198
+msgid ""
+"select a statistic among: Count, Max, Mean, Median, Min, Percentile, "
+"StandardDeviation, Sum. For Percentile statistic it is possible to enter the"
+" percentile value."
+msgstr ""
+"selecciona una estadística de las siguientes: Cuenta, Max, Media, Mediana, "
+"Min, Percentil, Desviación Estándar, Suma. Para los percentiles es posible "
+"definir el valor del percentil."
+
+#: ../../band_neighbor_tab.rst:206
+msgid "Run"
+msgstr "Ejecutar"
+
+#: ../../band_neighbor_tab.rst:208
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ":guilabel:`Script` |script_tool|"
+
+#: ../../band_neighbor_tab.rst:74
+msgid "script_tool"
+msgstr "script_tool"
+
+#: ../../band_neighbor_tab.rst:209
+msgid "add this function to the :ref:`script_tab`"
+msgstr "añadir está función al :ref:`script_tab`"
+
+#: ../../band_neighbor_tab.rst:210
+msgid ":guilabel:`RUN` |run|"
+msgstr ":guilabel:`EJECUTAR` |run|"
+
+#: ../../band_neighbor_tab.rst:107
+msgid "run"
+msgstr "run"
+
+#: ../../band_neighbor_tab.rst:211
+msgid "run this function"
+msgstr "ejecutar esta función"

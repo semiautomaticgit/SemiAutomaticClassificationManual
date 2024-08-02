@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,104 +22,12 @@ msgstr ""
 msgid "Band set"
 msgstr ""
 
-#: ../../bandset_tab.rst:11
-msgid "project_save"
-msgstr ""
-
-#: ../../bandset_tab.rst:14
-msgid "optional"
-msgstr ""
-
-#: ../../bandset_tab.rst:17
-msgid "checkbox"
-msgstr ""
-
-#: ../../bandset_tab.rst:20
-msgid "input_list"
-msgstr ""
-
-#: ../../bandset_tab.rst:23
-msgid "input_table"
-msgstr ""
-
-#: ../../bandset_tab.rst:26
-msgid "reload"
-msgstr ""
-
-#: ../../bandset_tab.rst:29
-msgid "reset"
-msgstr ""
-
-#: ../../bandset_tab.rst:32
-msgid "remove"
-msgstr ""
-
-#: ../../bandset_tab.rst:35
-msgid "run"
-msgstr ""
-
-#: ../../bandset_tab.rst:38
-msgid "open_file"
-msgstr ""
-
-#: ../../bandset_tab.rst:41
-msgid "order_by_name"
-msgstr ""
-
-#: ../../bandset_tab.rst:44
-msgid "open_dir"
-msgstr ""
-
-#: ../../bandset_tab.rst:47
-msgid "select_all"
-msgstr ""
-
-#: ../../bandset_tab.rst:50
-msgid "move_up"
-msgstr ""
-
-#: ../../bandset_tab.rst:53
-msgid "add_bandset"
-msgstr ""
-
-#: ../../bandset_tab.rst:56
-msgid "move_down"
-msgstr ""
-
-#: ../../bandset_tab.rst:59
-msgid "import"
-msgstr ""
-
-#: ../../bandset_tab.rst:62
-msgid "export"
-msgstr ""
-
-#: ../../bandset_tab.rst:65
-msgid "plus"
+#: ../../bandset_tab.rst:88
+msgid "|bandset_tool| :guilabel:`Band set`"
 msgstr ""
 
 #: ../../bandset_tab.rst:68
 msgid "bandset_tool"
-msgstr ""
-
-#: ../../bandset_tab.rst:71
-msgid "input_text"
-msgstr ""
-
-#: ../../bandset_tab.rst:74
-msgid "input_date"
-msgstr ""
-
-#: ../../bandset_tab.rst:77
-msgid "rgb_tool"
-msgstr ""
-
-#: ../../bandset_tab.rst:80
-msgid "order_by_date"
-msgstr ""
-
-#: ../../bandset_tab.rst:88
-msgid "|bandset_tool| :guilabel:`Band set`"
 msgstr ""
 
 #: ../../bandset_tab.rst:90
@@ -252,6 +160,10 @@ msgstr ""
 msgid "|open_file|"
 msgstr ""
 
+#: ../../bandset_tab.rst:38
+msgid "open_file"
+msgstr ""
+
 #: ../../bandset_tab.rst:164
 msgid ""
 "open file explorer and add raster files (preferably single band raster) "
@@ -260,6 +172,10 @@ msgstr ""
 
 #: ../../bandset_tab.rst:166
 msgid "|plus|"
+msgstr ""
+
+#: ../../bandset_tab.rst:65
+msgid "plus"
 msgstr ""
 
 #: ../../bandset_tab.rst:167
@@ -272,6 +188,10 @@ msgstr ""
 msgid "|move_up|"
 msgstr ""
 
+#: ../../bandset_tab.rst:50
+msgid "move_up"
+msgstr ""
+
 #: ../../bandset_tab.rst:170
 msgid "move highlighted bands upward"
 msgstr ""
@@ -280,12 +200,20 @@ msgstr ""
 msgid "|move_down|"
 msgstr ""
 
+#: ../../bandset_tab.rst:56
+msgid "move_down"
+msgstr ""
+
 #: ../../bandset_tab.rst:172
 msgid "move highlighted bands downward"
 msgstr ""
 
 #: ../../bandset_tab.rst:173
 msgid "|order_by_name|"
+msgstr ""
+
+#: ../../bandset_tab.rst:41
+msgid "order_by_name"
 msgstr ""
 
 #: ../../bandset_tab.rst:174
@@ -298,12 +226,20 @@ msgstr ""
 msgid "|remove|"
 msgstr ""
 
+#: ../../bandset_tab.rst:32
+msgid "remove"
+msgstr ""
+
 #: ../../bandset_tab.rst:177
 msgid "remove highlighted bands from the :guilabel:`active band set`"
 msgstr ""
 
 #: ../../bandset_tab.rst:178
 msgid "|reset|"
+msgstr ""
+
+#: ../../bandset_tab.rst:29
+msgid "reset"
 msgstr ""
 
 #: ../../bandset_tab.rst:179
@@ -314,12 +250,20 @@ msgstr ""
 msgid "|import|"
 msgstr ""
 
+#: ../../bandset_tab.rst:59
+msgid "import"
+msgstr ""
+
 #: ../../bandset_tab.rst:181
 msgid "import a previously saved :guilabel:`active band set` from file"
 msgstr ""
 
 #: ../../bandset_tab.rst:182
 msgid "|export|"
+msgstr ""
+
+#: ../../bandset_tab.rst:62
+msgid "export"
 msgstr ""
 
 #: ../../bandset_tab.rst:183
@@ -355,6 +299,10 @@ msgstr ""
 
 #: ../../bandset_tab.rst:212
 msgid ":guilabel:`Wavelength` |input_list|"
+msgstr ""
+
+#: ../../bandset_tab.rst:20
+msgid "input_list"
 msgstr ""
 
 #: ../../bandset_tab.rst:213
@@ -396,6 +344,10 @@ msgstr ""
 msgid ":guilabel:`Date` |input_date|"
 msgstr ""
 
+#: ../../bandset_tab.rst:74
+msgid "input_date"
+msgstr ""
+
 #: ../../bandset_tab.rst:240
 msgid "set the date of acquisition"
 msgstr ""
@@ -427,6 +379,10 @@ msgstr ""
 msgid "|add_bandset|"
 msgstr ""
 
+#: ../../bandset_tab.rst:53
+msgid "add_bandset"
+msgstr ""
+
 #: ../../bandset_tab.rst:267
 msgid "add a new empty :guilabel:`band set`"
 msgstr ""
@@ -437,6 +393,10 @@ msgstr ""
 
 #: ../../bandset_tab.rst:270
 msgid "|order_by_date|"
+msgstr ""
+
+#: ../../bandset_tab.rst:80
+msgid "order_by_date"
 msgstr ""
 
 #: ../../bandset_tab.rst:271
@@ -453,6 +413,10 @@ msgstr ""
 
 #: ../../bandset_tab.rst:276
 msgid "|rgb_tool|"
+msgstr ""
+
+#: ../../bandset_tab.rst:77
+msgid "rgb_tool"
 msgstr ""
 
 #: ../../bandset_tab.rst:277
@@ -475,6 +439,10 @@ msgstr ""
 
 #: ../../bandset_tab.rst:297
 msgid "|checkbox| :guilabel:`Create virtual raster of band set`"
+msgstr ""
+
+#: ../../bandset_tab.rst:17
+msgid "checkbox"
 msgstr ""
 
 #: ../../bandset_tab.rst:298
@@ -507,6 +475,10 @@ msgstr ""
 
 #: ../../bandset_tab.rst:305
 msgid "|run|"
+msgstr ""
+
+#: ../../bandset_tab.rst:35
+msgid "run"
 msgstr ""
 
 #: ../../bandset_tab.rst:306

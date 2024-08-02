@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,54 +20,6 @@ msgstr ""
 
 #: ../../interface_tab.rst:5
 msgid "Interface"
-msgstr ""
-
-#: ../../interface_tab.rst:11
-msgid "registry_save"
-msgstr ""
-
-#: ../../interface_tab.rst:14
-msgid "project_save"
-msgstr ""
-
-#: ../../interface_tab.rst:17
-msgid "optional"
-msgstr ""
-
-#: ../../interface_tab.rst:20
-msgid "input_list"
-msgstr ""
-
-#: ../../interface_tab.rst:23
-msgid "input_text"
-msgstr ""
-
-#: ../../interface_tab.rst:26
-msgid "input_slider"
-msgstr ""
-
-#: ../../interface_tab.rst:29
-msgid "checkbox"
-msgstr ""
-
-#: ../../interface_tab.rst:32
-msgid "reset"
-msgstr ""
-
-#: ../../interface_tab.rst:35
-msgid "export"
-msgstr ""
-
-#: ../../interface_tab.rst:38
-msgid "input_number"
-msgstr ""
-
-#: ../../interface_tab.rst:41
-msgid "enter"
-msgstr ""
-
-#: ../../interface_tab.rst:44
-msgid "open_dir"
 msgstr ""
 
 #: ../../interface_tab.rst:51
@@ -104,12 +56,20 @@ msgstr ""
 msgid ":guilabel:`ROI color` |registry_save|"
 msgstr ""
 
+#: ../../interface_tab.rst:11
+msgid "registry_save"
+msgstr ""
+
 #: ../../interface_tab.rst:70
 msgid "button for changing ROI color"
 msgstr ""
 
 #: ../../interface_tab.rst:71
 msgid ":guilabel:`Transparency` |input_slider| |registry_save|"
+msgstr ""
+
+#: ../../interface_tab.rst:26
+msgid "input_slider"
 msgstr ""
 
 #: ../../interface_tab.rst:72
@@ -119,6 +79,10 @@ msgstr ""
 #: ../../interface_tab.rst:73 ../../interface_tab.rst:91
 #: ../../interface_tab.rst:108
 msgid "|reset|"
+msgstr ""
+
+#: ../../interface_tab.rst:32
+msgid "reset"
 msgstr ""
 
 #: ../../interface_tab.rst:74
@@ -137,6 +101,10 @@ msgstr ""
 
 #: ../../interface_tab.rst:89
 msgid ":guilabel:`Variable name` |input_text| |registry_save|"
+msgstr ""
+
+#: ../../interface_tab.rst:23
+msgid "input_text"
 msgstr ""
 
 #: ../../interface_tab.rst:90
@@ -167,6 +135,10 @@ msgstr ""
 msgid ""
 "|checkbox| :guilabel:`Create RGB composite of band set when a project is "
 "loaded` |registry_save|"
+msgstr ""
+
+#: ../../interface_tab.rst:29
+msgid "checkbox"
 msgstr ""
 
 #: ../../interface_tab.rst:111

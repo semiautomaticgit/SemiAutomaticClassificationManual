@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,70 +20,6 @@ msgstr ""
 
 #: ../../scatter_plot.rst:5
 msgid "Scatter Plot"
-msgstr ""
-
-#: ../../scatter_plot.rst:7
-msgid "registry_save"
-msgstr ""
-
-#: ../../scatter_plot.rst:10
-msgid "project_save"
-msgstr ""
-
-#: ../../scatter_plot.rst:13
-msgid "optional"
-msgstr ""
-
-#: ../../scatter_plot.rst:16
-msgid "input_list"
-msgstr ""
-
-#: ../../scatter_plot.rst:19
-msgid "input_text"
-msgstr ""
-
-#: ../../scatter_plot.rst:22
-msgid "input_date"
-msgstr ""
-
-#: ../../scatter_plot.rst:25
-msgid "input_number"
-msgstr ""
-
-#: ../../scatter_plot.rst:28
-msgid "input_slider"
-msgstr ""
-
-#: ../../scatter_plot.rst:31
-msgid "input_table"
-msgstr ""
-
-#: ../../scatter_plot.rst:34
-msgid "checkbox"
-msgstr ""
-
-#: ../../scatter_plot.rst:37
-msgid "enter"
-msgstr ""
-
-#: ../../scatter_plot.rst:40
-msgid "remove"
-msgstr ""
-
-#: ../../scatter_plot.rst:43
-msgid "fit_plot"
-msgstr ""
-
-#: ../../scatter_plot.rst:46
-msgid "save_plot_image"
-msgstr ""
-
-#: ../../scatter_plot.rst:49
-msgid "scatter_raster_temp_ROI"
-msgstr ""
-
-#: ../../scatter_plot.rst:52
-msgid "save_plot"
 msgstr ""
 
 #: ../../scatter_plot.rst:56
@@ -177,6 +113,10 @@ msgstr ""
 msgid ":guilabel:`Band X` |input_number|"
 msgstr ""
 
+#: ../../scatter_plot.rst:25
+msgid "input_number"
+msgstr ""
+
 #: ../../scatter_plot.rst:104
 msgid "X band of the plot"
 msgstr ""
@@ -193,6 +133,10 @@ msgstr ""
 msgid "|remove|"
 msgstr ""
 
+#: ../../scatter_plot.rst:40
+msgid "remove"
+msgstr ""
+
 #: ../../scatter_plot.rst:108 ../../scatter_plot.rst:125
 msgid "remove highlighted signatures from this list"
 msgstr ""
@@ -201,12 +145,24 @@ msgstr ""
 msgid "|save_plot|"
 msgstr ""
 
+#: ../../scatter_plot.rst:52
+msgid "save_plot"
+msgstr ""
+
 #: ../../scatter_plot.rst:110
 msgid "add highlighted spectral signatures to :ref:`ROI_list`"
 msgstr ""
 
 #: ../../scatter_plot.rst:111
 msgid "|checkbox| :guilabel:`Precision` |input_list|"
+msgstr ""
+
+#: ../../scatter_plot.rst:34
+msgid "checkbox"
+msgstr ""
+
+#: ../../scatter_plot.rst:16
+msgid "input_list"
 msgstr ""
 
 #: ../../scatter_plot.rst:112
@@ -221,12 +177,20 @@ msgstr ""
 msgid ":guilabel:`Calculate` |enter|:"
 msgstr ""
 
+#: ../../scatter_plot.rst:37
+msgid "enter"
+msgstr ""
+
 #: ../../scatter_plot.rst:123
 msgid "calculate the scatter plot for the ROIs checked in the list"
 msgstr ""
 
 #: ../../scatter_plot.rst:126
 msgid "|scatter_raster_temp_ROI|"
+msgstr ""
+
+#: ../../scatter_plot.rst:49
+msgid "scatter_raster_temp_ROI"
 msgstr ""
 
 #: ../../scatter_plot.rst:127
@@ -269,12 +233,20 @@ msgstr ""
 msgid "|fit_plot|"
 msgstr ""
 
+#: ../../scatter_plot.rst:43
+msgid "fit_plot"
+msgstr ""
+
 #: ../../scatter_plot.rst:158
 msgid "automatically fit the plot to data"
 msgstr ""
 
 #: ../../scatter_plot.rst:159
 msgid "|save_plot_image|"
+msgstr ""
+
+#: ../../scatter_plot.rst:46
+msgid "save_plot_image"
 msgstr ""
 
 #: ../../scatter_plot.rst:160

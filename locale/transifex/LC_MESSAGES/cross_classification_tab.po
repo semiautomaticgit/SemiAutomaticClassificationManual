@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,150 +20,6 @@ msgstr ""
 
 #: ../../cross_classification_tab.rst:5 ../../cross_classification_tab.rst:153
 msgid "Cross classification"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:11
-msgid "registry_save"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:14
-msgid "project_save"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:17
-msgid "optional"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:20
-msgid "input_list"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:23
-msgid "input_text"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:26
-msgid "input_date"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:29
-msgid "input_number"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:32
-msgid "input_table"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:35
-msgid "open_file"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:38
-msgid "new_file"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:41
-msgid "add"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:44
-msgid "reset"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:47
-msgid "bandset_tool"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:50
-msgid "download"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:53
-msgid "export"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:56
-msgid "tools"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:59
-msgid "preprocessing"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:62
-msgid "band_processing"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:65
-msgid "postprocessing"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:68
-msgid "bandcalc"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:71
-msgid "settings"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:74
-msgid "script_tool"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:77
-msgid "enter"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:80
-msgid "zoom_to_ROI"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:83
-msgid "check"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:86
-msgid "select_all"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:89
-msgid "docks"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:92
-msgid "add_sign_tool"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:95
-msgid "guide"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:98
-msgid "help"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:101
-msgid "reload"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:104
-msgid "checkbox"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:107
-msgid "run"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:110
-msgid "radiobutton"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:113
-msgid "pointer"
-msgstr ""
-
-#: ../../cross_classification_tab.rst:116
-msgid "threshold_tool"
 msgstr ""
 
 #: ../../cross_classification_tab.rst:124
@@ -218,6 +74,10 @@ msgstr ""
 msgid ":guilabel:`Select the classification` |input_list|"
 msgstr ""
 
+#: ../../cross_classification_tab.rst:20
+msgid "input_list"
+msgstr ""
+
 #: ../../cross_classification_tab.rst:162
 msgid "select a classification raster (already loaded in QGIS)"
 msgstr ""
@@ -227,6 +87,10 @@ msgstr ""
 msgid "|reload|"
 msgstr ""
 
+#: ../../cross_classification_tab.rst:101
+msgid "reload"
+msgstr ""
+
 #: ../../cross_classification_tab.rst:164
 #: ../../cross_classification_tab.rst:172
 msgid "refresh layer list"
@@ -234,6 +98,18 @@ msgstr ""
 
 #: ../../cross_classification_tab.rst:165
 msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number| |optional|"
+msgstr ""
+
+#: ../../cross_classification_tab.rst:104
+msgid "checkbox"
+msgstr ""
+
+#: ../../cross_classification_tab.rst:29
+msgid "input_number"
+msgstr ""
+
+#: ../../cross_classification_tab.rst:17
+msgid "optional"
 msgstr ""
 
 #: ../../cross_classification_tab.rst:166
@@ -274,12 +150,20 @@ msgstr ""
 msgid ":guilabel:`Script` |script_tool|"
 msgstr ""
 
+#: ../../cross_classification_tab.rst:74
+msgid "script_tool"
+msgstr ""
+
 #: ../../cross_classification_tab.rst:179
 msgid "add this function to the :ref:`script_tab`"
 msgstr ""
 
 #: ../../cross_classification_tab.rst:180
 msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../cross_classification_tab.rst:107
+msgid "run"
 msgstr ""
 
 #: ../../cross_classification_tab.rst:181

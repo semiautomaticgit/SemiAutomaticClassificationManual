@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2024, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../band_clustering_tab.rst:5
+msgid "Clustering"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:124
+msgid ":guilabel:`Clustering`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:126
+msgid ""
+"This tab allows for the :ref:`clustering_definition` of a "
+":ref:`band_set_tab`. In particular, :ref:`kmeans_definition` method is "
+"available."
+msgstr ""
+
+#: ../../band_clustering_tab.rst:129
+msgid ""
+"The spectral signatures are saved along with the classification, and can "
+"be saved in the :ref:`training_input`."
+msgstr ""
+
+#: ../../band_clustering_tab.rst:133
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_clustering.html>`_"
+" ."
+msgstr ""
+
+#: ../../band_clustering_tab.rst:139
+msgid "Clustering of band set"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:146 ../../band_clustering_tab.rst:173
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:147 ../../band_clustering_tab.rst:174
+msgid "Description"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:148
+msgid ":guilabel:`Select input band set` |input_number|"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:29
+msgid "input_number"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:149
+msgid "select the input :ref:`band_set_tab`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:150
+msgid ":guilabel:`Method` |radiobutton| :guilabel:`K-means`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:110
+msgid "radiobutton"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:151
+msgid "select the clustering method :ref:`kmeans_definition`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:152
+msgid "|checkbox| :guilabel:`Distance threshold` |input_number|"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:104
+msgid "checkbox"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:153
+msgid ""
+"if checked, K-means iteration is terminated if distance is lower than "
+"threshold"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:155
+msgid ":guilabel:`Number of classes` |input_number|"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:156
+msgid "number of desired output classes"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:157
+msgid ":guilabel:`Max number of iterations` |input_number|"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:158
+msgid ""
+"maximum number of iterations if :guilabel:`Distance threshold` is not "
+"reached"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:160
+msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number|"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:161
+msgid ""
+"if checked, set the value of ``NoData`` pixels, ignored during the "
+"calculation"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:167
+msgid "Seed signatures"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:175
+msgid "|radiobutton| :guilabel:`Seed signatures from band values`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:177
+msgid "|radiobutton| :guilabel:`Use Signature list as seed signatures`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:179
+msgid "|radiobutton| :guilabel:`Use random seed signatures`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:180
+msgid "select one options for seed signatures that start the iteration;"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:182
+msgid ""
+"the option :guilabel:`Seed signatures from band values` divides the "
+"spectral space of the :ref:`band_set_tab` to get spectral signatures;"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:185
+msgid ""
+"the option :guilabel:`Use Signature list as seed signatures` uses the "
+"spectral signatures checked in :ref:`ROI_list`; the option :guilabel:`Use"
+" random seed signatures` randomly selects the spectral signatures of "
+"pixels in the :ref:`band_set_tab`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:189
+msgid ""
+":guilabel:`Distance algorithm` |radiobutton| :guilabel:`Minimum Distance`"
+" |radiobutton| :guilabel:`Spectral Angle Mapping`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:192
+msgid ""
+"select :ref:`minimum_distance_algorithm` or "
+":ref:`spectra_angle_mapping_algorithm` for spectral distance calculation"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:195
+msgid "|checkbox| :guilabel:`Save resulting signatures to Signature list`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:196
+msgid "if checked, save the resulting spectral signatures in the :ref:`ROI_list`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:198
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:74
+msgid "script_tool"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:199
+msgid "add this function to the :ref:`script_tab`"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:200
+msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:107
+msgid "run"
+msgstr ""
+
+#: ../../band_clustering_tab.rst:201
+msgid "run this function"
+msgstr ""
+

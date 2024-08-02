@@ -3,10 +3,10 @@
 # Semi-Automatic Classification Plugin documentation build configuration file
 
 project = u'Semi-Automatic Classification Plugin'
-copyright = u'2012-2023, Luca Congedo'
+copyright = u'2012-2024, Luca Congedo'
 author = 'Luca Congedo'
-version = '8.1'
-release = '8.1.3.1'
+version = '8.3'
+release = '8.3.0.1'
 
 extensions = ['sphinx.ext.mathjax', 'sphinx.ext.ifconfig']
 templates_path = ['_templates']

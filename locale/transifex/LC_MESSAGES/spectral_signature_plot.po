@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,70 +20,6 @@ msgstr ""
 
 #: ../../spectral_signature_plot.rst:5
 msgid "Spectral Signature Plot"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:7
-msgid "registry_save"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:10
-msgid "project_save"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:13
-msgid "optional"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:16
-msgid "input_list"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:19
-msgid "input_text"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:22
-msgid "input_date"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:25
-msgid "input_number"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:28
-msgid "input_slider"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:31
-msgid "input_table"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:34
-msgid "checkbox"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:37
-msgid "enter"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:40
-msgid "remove"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:43
-msgid "calculate_spectral_distances"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:46
-msgid "fit_plot"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:49
-msgid "save_plot_image"
-msgstr ""
-
-#: ../../spectral_signature_plot.rst:52
-msgid "save_plot"
 msgstr ""
 
 #: ../../spectral_signature_plot.rst:56
@@ -103,6 +39,10 @@ msgid ""
 ":guilabel:`MC ID` |checkbox| :guilabel:`C ID` in "
 ":ref:`classification_tab`. Overlapping signatures sharing the same "
 ":guilabel:`ID` are not highlighted."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:34
+msgid "checkbox"
 msgstr ""
 
 #: ../../spectral_signature_plot.rst:73
@@ -187,6 +127,10 @@ msgstr ""
 msgid "|remove|"
 msgstr ""
 
+#: ../../spectral_signature_plot.rst:40
+msgid "remove"
+msgstr ""
+
 #: ../../spectral_signature_plot.rst:112
 msgid "remove highlighted signatures from this list"
 msgstr ""
@@ -195,12 +139,20 @@ msgstr ""
 msgid "|save_plot|"
 msgstr ""
 
+#: ../../spectral_signature_plot.rst:52
+msgid "save_plot"
+msgstr ""
+
 #: ../../spectral_signature_plot.rst:114
 msgid "add highlighted spectral signatures to :ref:`ROI_list`"
 msgstr ""
 
 #: ../../spectral_signature_plot.rst:115
 msgid "|calculate_spectral_distances|"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:43
+msgid "calculate_spectral_distances"
 msgstr ""
 
 #: ../../spectral_signature_plot.rst:116
@@ -225,12 +177,20 @@ msgstr ""
 msgid "|fit_plot|"
 msgstr ""
 
+#: ../../spectral_signature_plot.rst:46
+msgid "fit_plot"
+msgstr ""
+
 #: ../../spectral_signature_plot.rst:140
 msgid "automatically fit the plot to data"
 msgstr ""
 
 #: ../../spectral_signature_plot.rst:141
 msgid "|save_plot_image|"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:49
+msgid "save_plot_image"
 msgstr ""
 
 #: ../../spectral_signature_plot.rst:142
@@ -267,6 +227,10 @@ msgstr ""
 
 #: ../../spectral_signature_plot.rst:151
 msgid ":guilabel:`Max characters` |input_number|"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:25
+msgid "input_number"
 msgstr ""
 
 #: ../../spectral_signature_plot.rst:152

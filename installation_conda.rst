@@ -1,7 +1,7 @@
 .. _installation_conda:
 
 ***************************************
-Advanced installation using Conda
+Cross-platform installation using Conda
 ***************************************
 
 
@@ -13,40 +13,35 @@ QGIS download and installation with the dependencies
 The Semi-Automatic Classification Plugin requires Remotior Sensus, GDAL, NumPy
 and SciPy for most functionalities.
 
-QGIS and the dependencies can be installed using
-a `Conda` environment (if you don't know `Conda` please read
-https://conda-forge.org/docs).
-For instance, you can use
-`Miniforge <https://github.com/conda-forge/miniforge>`_
-to create a `Conda` environment.
+QGIS and the dependencies can be installed in
+a `Conda` environment using `Mamba`, which is a cross-platform package manager
+(if you don't know `Mamba` please read https://mamba.readthedocs.io).
 
-Once installed conda, open the terminal and run the following commands to
+First, install `Miniforge <https://github.com/conda-forge/miniforge>`_
+to create a `Conda` environment.
+Once installed, open the terminal and run the following commands to
 create a new environment:
 
 .. code-block:: console
 
-    $ conda create -c conda-forge --name environment python=3.10
+    $ mamba create -c conda-forge --name environment python=3.10
     Proceed ([y]/n)? y
-    $ conda activate environment
+    $ mamba activate environment
 
 Now install QGIS and the dependencies (it could take some time):
 
 .. code-block:: console
 
-    $ conda install -c conda-forge qgis gdal remotior-sensus scikit-learn pytorch
-
+    $ mamba install -c conda-forge qgis gdal remotior-sensus scikit-learn pytorch
 
 Now, QGIS is installed. To launch it run in the terminal:
 
-
 .. code-block:: console
 
+    $ mamba activate environment
     $ qgis
 
-
-
 .. image:: _static/installation/QGIS.jpg
-
 
 .. _plugin_installation_conda:
 

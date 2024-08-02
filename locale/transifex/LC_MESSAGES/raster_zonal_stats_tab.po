@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2024, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../raster_zonal_stats_tab.rst:5
+msgid "Raster zonal stats"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:127
+msgid ":guilabel:`Raster zonal stats`"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:129
+msgid ""
+"This tab allows for calculating the statistics related to an input raster"
+" for every unique value of a reference vector. For example, if a vector "
+"file contains a numeric field ``zone``, this tool allows for calculating "
+"the mean value (for each zone) of input raster pixels."
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:135
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_zonal_stats.html>`_"
+" ."
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:141
+msgid "Raster zonal stat"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:147 ../../raster_zonal_stats_tab.rst:172
+#: ../../raster_zonal_stats_tab.rst:202
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:148 ../../raster_zonal_stats_tab.rst:173
+#: ../../raster_zonal_stats_tab.rst:203
+msgid "Description"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:149
+msgid ":guilabel:`Select the input raster` |input_list|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:20
+msgid "input_list"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:150
+msgid "select a raster (already loaded in QGIS)"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:151 ../../raster_zonal_stats_tab.rst:156
+msgid "|reload|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:101
+msgid "reload"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:152 ../../raster_zonal_stats_tab.rst:157
+msgid "refresh layer list"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:153
+msgid ":guilabel:`Select the reference vector or raster` |input_list|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:154
+msgid ""
+"select a raster or a vector (already loaded in QGIS), used as reference "
+"layer for zones"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:158
+msgid ":guilabel:`Vector field` |input_list|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:159
+msgid ""
+"if a vector is selected as reference, select a vector field containing "
+"numeric values"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:166
+msgid "Statistic"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:174
+msgid "|checkbox| :guilabel:`Count` |optional|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:104
+msgid "checkbox"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:17
+msgid "optional"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:175
+msgid "if checked, calculate Count statistic"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:176
+msgid "|checkbox| :guilabel:`Maximum` |optional|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:177
+msgid "if checked, calculate Maximum statistic"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:178
+msgid "|checkbox| :guilabel:`Minimum` |optional|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:179
+msgid "if checked, calculate Minimum statistic"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:180
+msgid "|checkbox| :guilabel:`Mean` |optional|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:181
+msgid "if checked, calculate Mean statistic"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:182
+msgid "|checkbox| :guilabel:`Median` |optional|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:183
+msgid "if checked, calculate Median statistic"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:184
+msgid "|checkbox| :guilabel:`Percentile` |optional| |input_text|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:23
+msgid "input_text"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:185
+msgid ""
+"if checked, calculate Percentile statistic; multimple percentile values "
+"can be entered separated by comma in the input text"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:187
+msgid "|checkbox| :guilabel:`Standard deviation` |optional|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:188
+msgid "if checked, calculate Standard deviation statistic"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:189
+msgid "|checkbox| :guilabel:`Sum` |optional|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:190
+msgid "if checked, calculate Sum statistic"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:196
+msgid "Run"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:204
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:74
+msgid "script_tool"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:205
+msgid "add this function to the :ref:`script_tab`"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:206
+msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:107
+msgid "run"
+msgstr ""
+
+#: ../../raster_zonal_stats_tab.rst:207
+msgid "run this function"
+msgstr ""
+

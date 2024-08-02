@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.1\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 14:01+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../installation_win64_network.rst:5
-msgid "Network installation in Windows 64 bit"
+msgid "OSGeo4W Network installer in Windows"
 msgstr ""
 
 #: ../../installation_win64_network.rst:11
@@ -107,15 +107,15 @@ msgid ""
 "according to your needs, as in the following image."
 msgstr ""
 
-#: ../../installation_win64_network.rst:94
-msgid "settings_tool"
-msgstr ""
-
 #: ../../installation_win64_network.rst:97
 msgid ""
 "The configuration of available RAM is recommended in order to reduce the "
 "processing time. From the :ref:`SCP_menu` select |settings_tool| "
 "``Settings > Processing`` ."
+msgstr ""
+
+#: ../../installation_win64_network.rst:94
+msgid "settings_tool"
 msgstr ""
 
 #: ../../installation_win64_network.rst:103

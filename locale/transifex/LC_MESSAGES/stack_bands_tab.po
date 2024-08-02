@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,174 +20,6 @@ msgstr ""
 
 #: ../../stack_bands_tab.rst:5
 msgid "Stack raster bands"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:11
-msgid "registry_save"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:14
-msgid "project_save"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:17
-msgid "optional"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:20
-msgid "input_list"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:23
-msgid "input_text"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:26
-msgid "input_date"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:29
-msgid "input_number"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:32
-msgid "input_table"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:35
-msgid "open_file"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:38
-msgid "new_file"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:41
-msgid "open_dir"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:44
-msgid "remove"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:47
-msgid "add"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:50
-msgid "reset"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:53
-msgid "bandset_tool"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:56
-msgid "download"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:59
-msgid "sign_plot"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:62
-msgid "tools"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:65
-msgid "preprocessing"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:68
-msgid "band_processing"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:71
-msgid "postprocessing"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:74
-msgid "bandcalc"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:77
-msgid "settings"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:80
-msgid "script_tool"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:83
-msgid "save_roi"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:86
-msgid "delete_signature"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:89
-msgid "accuracy_tool"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:92
-msgid "enter"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:95
-msgid "zoom_to_ROI"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:98
-msgid "check"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:101
-msgid "select_all"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:104
-msgid "docks"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:107
-msgid "add_sign_tool"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:110
-msgid "scatter_plot"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:113
-msgid "merge_sign"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:116
-msgid "guide"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:119
-msgid "help"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:122
-msgid "reload"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:125
-msgid "checkbox"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:128
-msgid "run"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:131
-msgid "radiobutton"
-msgstr ""
-
-#: ../../stack_bands_tab.rst:134
-msgid "stack_raster"
 msgstr ""
 
 #: ../../stack_bands_tab.rst:141
@@ -222,6 +54,10 @@ msgstr ""
 msgid ":guilabel:`Select input band set` |input_number|"
 msgstr ""
 
+#: ../../stack_bands_tab.rst:29
+msgid "input_number"
+msgstr ""
+
 #: ../../stack_bands_tab.rst:162
 msgid "select the input :ref:`band_set_tab` to be stacked"
 msgstr ""
@@ -230,12 +66,20 @@ msgstr ""
 msgid ":guilabel:`Script` |script_tool|"
 msgstr ""
 
+#: ../../stack_bands_tab.rst:80
+msgid "script_tool"
+msgstr ""
+
 #: ../../stack_bands_tab.rst:164
 msgid "add this function to the :ref:`script_tab`"
 msgstr ""
 
 #: ../../stack_bands_tab.rst:165
 msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../stack_bands_tab.rst:128
+msgid "run"
 msgstr ""
 
 #: ../../stack_bands_tab.rst:166

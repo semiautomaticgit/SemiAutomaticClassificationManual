@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,150 +20,6 @@ msgstr ""
 
 #: ../../accuracy_tab.rst:5 ../../accuracy_tab.rst:163
 msgid "Accuracy"
-msgstr ""
-
-#: ../../accuracy_tab.rst:11
-msgid "registry_save"
-msgstr ""
-
-#: ../../accuracy_tab.rst:14
-msgid "project_save"
-msgstr ""
-
-#: ../../accuracy_tab.rst:17
-msgid "optional"
-msgstr ""
-
-#: ../../accuracy_tab.rst:20
-msgid "input_list"
-msgstr ""
-
-#: ../../accuracy_tab.rst:23
-msgid "input_text"
-msgstr ""
-
-#: ../../accuracy_tab.rst:26
-msgid "input_date"
-msgstr ""
-
-#: ../../accuracy_tab.rst:29
-msgid "input_number"
-msgstr ""
-
-#: ../../accuracy_tab.rst:32
-msgid "input_table"
-msgstr ""
-
-#: ../../accuracy_tab.rst:35
-msgid "open_file"
-msgstr ""
-
-#: ../../accuracy_tab.rst:38
-msgid "new_file"
-msgstr ""
-
-#: ../../accuracy_tab.rst:41
-msgid "add"
-msgstr ""
-
-#: ../../accuracy_tab.rst:44
-msgid "reset"
-msgstr ""
-
-#: ../../accuracy_tab.rst:47
-msgid "bandset_tool"
-msgstr ""
-
-#: ../../accuracy_tab.rst:50
-msgid "download"
-msgstr ""
-
-#: ../../accuracy_tab.rst:53
-msgid "export"
-msgstr ""
-
-#: ../../accuracy_tab.rst:56
-msgid "tools"
-msgstr ""
-
-#: ../../accuracy_tab.rst:59
-msgid "preprocessing"
-msgstr ""
-
-#: ../../accuracy_tab.rst:62
-msgid "band_processing"
-msgstr ""
-
-#: ../../accuracy_tab.rst:65
-msgid "postprocessing"
-msgstr ""
-
-#: ../../accuracy_tab.rst:68
-msgid "bandcalc"
-msgstr ""
-
-#: ../../accuracy_tab.rst:71
-msgid "settings"
-msgstr ""
-
-#: ../../accuracy_tab.rst:74
-msgid "script_tool"
-msgstr ""
-
-#: ../../accuracy_tab.rst:77
-msgid "enter"
-msgstr ""
-
-#: ../../accuracy_tab.rst:80
-msgid "zoom_to_ROI"
-msgstr ""
-
-#: ../../accuracy_tab.rst:83
-msgid "check"
-msgstr ""
-
-#: ../../accuracy_tab.rst:86
-msgid "select_all"
-msgstr ""
-
-#: ../../accuracy_tab.rst:89
-msgid "docks"
-msgstr ""
-
-#: ../../accuracy_tab.rst:92
-msgid "add_sign_tool"
-msgstr ""
-
-#: ../../accuracy_tab.rst:95
-msgid "guide"
-msgstr ""
-
-#: ../../accuracy_tab.rst:98
-msgid "help"
-msgstr ""
-
-#: ../../accuracy_tab.rst:101
-msgid "reload"
-msgstr ""
-
-#: ../../accuracy_tab.rst:104
-msgid "checkbox"
-msgstr ""
-
-#: ../../accuracy_tab.rst:107
-msgid "run"
-msgstr ""
-
-#: ../../accuracy_tab.rst:110
-msgid "radiobutton"
-msgstr ""
-
-#: ../../accuracy_tab.rst:113
-msgid "pointer"
-msgstr ""
-
-#: ../../accuracy_tab.rst:116
-msgid "threshold_tool"
 msgstr ""
 
 #: ../../accuracy_tab.rst:124
@@ -233,12 +89,20 @@ msgstr ""
 msgid ":guilabel:`Select the classification to assess` |input_list|"
 msgstr ""
 
+#: ../../accuracy_tab.rst:20
+msgid "input_list"
+msgstr ""
+
 #: ../../accuracy_tab.rst:172
 msgid "select a classification raster (already loaded in QGIS)"
 msgstr ""
 
 #: ../../accuracy_tab.rst:173 ../../accuracy_tab.rst:178
 msgid "|reload|"
+msgstr ""
+
+#: ../../accuracy_tab.rst:101
+msgid "reload"
 msgstr ""
 
 #: ../../accuracy_tab.rst:174 ../../accuracy_tab.rst:179
@@ -259,6 +123,10 @@ msgstr ""
 msgid ":guilabel:`Vector field` |input_list| |optional|"
 msgstr ""
 
+#: ../../accuracy_tab.rst:17
+msgid "optional"
+msgstr ""
+
 #: ../../accuracy_tab.rst:181
 msgid ""
 "if a vector is selected as reference, select a vector field containing "
@@ -267,6 +135,14 @@ msgstr ""
 
 #: ../../accuracy_tab.rst:183
 msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number| |optional|"
+msgstr ""
+
+#: ../../accuracy_tab.rst:104
+msgid "checkbox"
+msgstr ""
+
+#: ../../accuracy_tab.rst:29
+msgid "input_number"
 msgstr ""
 
 #: ../../accuracy_tab.rst:184
@@ -279,12 +155,20 @@ msgstr ""
 msgid ":guilabel:`Script` |script_tool|"
 msgstr ""
 
+#: ../../accuracy_tab.rst:74
+msgid "script_tool"
+msgstr ""
+
 #: ../../accuracy_tab.rst:187
 msgid "add this function to the :ref:`script_tab`"
 msgstr ""
 
 #: ../../accuracy_tab.rst:188
 msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../accuracy_tab.rst:107
+msgid "run"
 msgstr ""
 
 #: ../../accuracy_tab.rst:189

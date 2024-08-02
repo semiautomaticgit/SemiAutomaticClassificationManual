@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-10 14:32+0100\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,148 +22,12 @@ msgstr ""
 msgid "Download products"
 msgstr ""
 
-#: ../../download_products_tab.rst:10
-msgid "registry_save"
-msgstr ""
-
-#: ../../download_products_tab.rst:13
-msgid "project_save"
-msgstr ""
-
-#: ../../download_products_tab.rst:16
-msgid "optional"
-msgstr ""
-
-#: ../../download_products_tab.rst:19
-msgid "input_list"
-msgstr ""
-
-#: ../../download_products_tab.rst:22
-msgid "input_text"
-msgstr ""
-
-#: ../../download_products_tab.rst:25
-msgid "input_date"
-msgstr ""
-
-#: ../../download_products_tab.rst:28
-msgid "input_number"
-msgstr ""
-
-#: ../../download_products_tab.rst:31
-msgid "input_slider"
-msgstr ""
-
-#: ../../download_products_tab.rst:34
-msgid "input_table"
-msgstr ""
-
-#: ../../download_products_tab.rst:37
-msgid "add"
-msgstr ""
-
-#: ../../download_products_tab.rst:40
-msgid "checkbox"
-msgstr ""
-
-#: ../../download_products_tab.rst:43
-msgid "pointer"
-msgstr ""
-
-#: ../../download_products_tab.rst:46
-msgid "radiobutton"
-msgstr ""
-
-#: ../../download_products_tab.rst:49
-msgid "reload"
-msgstr ""
-
-#: ../../download_products_tab.rst:52
-msgid "reset"
-msgstr ""
-
-#: ../../download_products_tab.rst:55
-msgid "remove"
-msgstr ""
-
-#: ../../download_products_tab.rst:58
-msgid "run"
-msgstr ""
-
-#: ../../download_products_tab.rst:61
-msgid "open_file"
-msgstr ""
-
-#: ../../download_products_tab.rst:64
-msgid "new_file"
-msgstr ""
-
-#: ../../download_products_tab.rst:67
-msgid "open_dir"
-msgstr ""
-
-#: ../../download_products_tab.rst:70
-msgid "select_all"
-msgstr ""
-
-#: ../../download_products_tab.rst:73
-msgid "move_up"
-msgstr ""
-
-#: ../../download_products_tab.rst:76
-msgid "add_bandset"
-msgstr ""
-
-#: ../../download_products_tab.rst:79
-msgid "move_down"
-msgstr ""
-
-#: ../../download_products_tab.rst:82
-msgid "search_images"
-msgstr ""
-
-#: ../../download_products_tab.rst:85
-msgid "osm_add"
-msgstr ""
-
-#: ../../download_products_tab.rst:88
-msgid "image_preview"
-msgstr ""
-
-#: ../../download_products_tab.rst:91
-msgid "import"
-msgstr ""
-
-#: ../../download_products_tab.rst:94
-msgid "export"
-msgstr ""
-
-#: ../../download_products_tab.rst:97
-msgid "plus"
-msgstr ""
-
-#: ../../download_products_tab.rst:100
-msgid "order_by_name"
-msgstr ""
-
-#: ../../download_products_tab.rst:103
-msgid "enter"
-msgstr ""
-
-#: ../../download_products_tab.rst:106
-msgid "download"
-msgstr ""
-
-#: ../../download_products_tab.rst:109
-msgid "login_data"
+#: ../../download_products_tab.rst:119
+msgid "|search_tab| :guilabel:`Download products`"
 msgstr ""
 
 #: ../../download_products_tab.rst:112
 msgid "search_tab"
-msgstr ""
-
-#: ../../download_products_tab.rst:119
-msgid "|search_tab| :guilabel:`Download products`"
 msgstr ""
 
 #: ../../download_products_tab.rst:122
@@ -173,6 +37,10 @@ msgid ""
 "download is performed through `Remotior Sensus <https://remotior-"
 "sensus.readthedocs.io/en/latest>`_. Also, automatic conversion to "
 "reflectance of downloaded bands is available."
+msgstr ""
+
+#: ../../download_products_tab.rst:106
+msgid "download"
 msgstr ""
 
 #: ../../download_products_tab.rst:130
@@ -314,6 +182,10 @@ msgstr ""
 msgid ":guilabel:`UL` |input_number| |input_number|"
 msgstr ""
 
+#: ../../download_products_tab.rst:28
+msgid "input_number"
+msgstr ""
+
 #: ../../download_products_tab.rst:213
 msgid "set the UL longitude X (Lon) and the UL latitude Y (Lat)"
 msgstr ""
@@ -330,12 +202,20 @@ msgstr ""
 msgid "|radiobutton| :guilabel:`Show`"
 msgstr ""
 
+#: ../../download_products_tab.rst:46
+msgid "radiobutton"
+msgstr ""
+
 #: ../../download_products_tab.rst:217
 msgid "show or hide the search area in the map;"
 msgstr ""
 
 #: ../../download_products_tab.rst:218
 msgid "|pointer|"
+msgstr ""
+
+#: ../../download_products_tab.rst:43
+msgid "pointer"
 msgstr ""
 
 #: ../../download_products_tab.rst:219
@@ -348,12 +228,20 @@ msgstr ""
 msgid ":guilabel:`Products` |input_list|"
 msgstr ""
 
+#: ../../download_products_tab.rst:19
+msgid "input_list"
+msgstr ""
+
 #: ../../download_products_tab.rst:222
 msgid "set the search product"
 msgstr ""
 
 #: ../../download_products_tab.rst:223
 msgid ":guilabel:`Date from` |input_date|"
+msgstr ""
+
+#: ../../download_products_tab.rst:25
+msgid "input_date"
 msgstr ""
 
 #: ../../download_products_tab.rst:224
@@ -388,6 +276,10 @@ msgstr ""
 msgid ":guilabel:`Advanced search` |input_text|"
 msgstr ""
 
+#: ../../download_products_tab.rst:22
+msgid "input_text"
+msgstr ""
+
 #: ../../download_products_tab.rst:232
 msgid ""
 "some services (e.g. Sentinel-2) allows for entering search parameters; "
@@ -410,6 +302,10 @@ msgstr ""
 msgid ":guilabel:`Find` |search_images|"
 msgstr ""
 
+#: ../../download_products_tab.rst:82
+msgid "search_images"
+msgstr ""
+
 #: ../../download_products_tab.rst:240
 msgid ""
 "find the products in the search area; results are displayed inside the "
@@ -418,6 +314,10 @@ msgstr ""
 
 #: ../../download_products_tab.rst:242
 msgid "|osm_add| Add OpenStreetMap to the map"
+msgstr ""
+
+#: ../../download_products_tab.rst:85
+msgid "osm_add"
 msgstr ""
 
 #: ../../download_products_tab.rst:243
@@ -589,6 +489,10 @@ msgstr ""
 msgid "|image_preview|"
 msgstr ""
 
+#: ../../download_products_tab.rst:88
+msgid "image_preview"
+msgstr ""
+
 #: ../../download_products_tab.rst:314
 msgid ""
 "display preview of highlighted images in the map; preview is roughly "
@@ -599,12 +503,20 @@ msgstr ""
 msgid "|remove|"
 msgstr ""
 
+#: ../../download_products_tab.rst:55
+msgid "remove"
+msgstr ""
+
 #: ../../download_products_tab.rst:317
 msgid "remove highlighted images from the list"
 msgstr ""
 
 #: ../../download_products_tab.rst:318
 msgid "|reset|"
+msgstr ""
+
+#: ../../download_products_tab.rst:52
+msgid "reset"
 msgstr ""
 
 #: ../../download_products_tab.rst:319
@@ -615,12 +527,20 @@ msgstr ""
 msgid "|import|"
 msgstr ""
 
+#: ../../download_products_tab.rst:91
+msgid "import"
+msgstr ""
+
 #: ../../download_products_tab.rst:321
 msgid "import the product list from an XML file"
 msgstr ""
 
 #: ../../download_products_tab.rst:322 ../../download_products_tab.rst:356
 msgid "|export|"
+msgstr ""
+
+#: ../../download_products_tab.rst:94
+msgid "export"
 msgstr ""
 
 #: ../../download_products_tab.rst:323
@@ -647,6 +567,10 @@ msgstr ""
 msgid "|checkbox| :guilabel:`Band` ``X``"
 msgstr ""
 
+#: ../../download_products_tab.rst:40
+msgid "checkbox"
+msgstr ""
+
 #: ../../download_products_tab.rst:344
 msgid "select bands for download"
 msgstr ""
@@ -661,6 +585,10 @@ msgstr ""
 
 #: ../../download_products_tab.rst:347
 msgid "|select_all|"
+msgstr ""
+
+#: ../../download_products_tab.rst:70
+msgid "select_all"
 msgstr ""
 
 #: ../../download_products_tab.rst:348
@@ -701,6 +629,10 @@ msgstr ""
 msgid ":guilabel:`RUN` |run|"
 msgstr ""
 
+#: ../../download_products_tab.rst:58
+msgid "run"
+msgstr ""
+
 #: ../../download_products_tab.rst:359
 msgid ""
 "start the download process of all the products listed in "
@@ -713,6 +645,10 @@ msgstr ""
 
 #: ../../download_products_tab.rst:371
 msgid "|login_data| :guilabel:`Login data`"
+msgstr ""
+
+#: ../../download_products_tab.rst:109
+msgid "login_data"
 msgstr ""
 
 #: ../../download_products_tab.rst:377
@@ -728,6 +664,10 @@ msgstr ""
 
 #: ../../download_products_tab.rst:389 ../../download_products_tab.rst:417
 msgid ":guilabel:`User` |input_text| |registry_save|"
+msgstr ""
+
+#: ../../download_products_tab.rst:10
+msgid "registry_save"
 msgstr ""
 
 #: ../../download_products_tab.rst:390 ../../download_products_tab.rst:418
@@ -766,23 +706,4 @@ msgid ""
 " Ecosystem` credentials (https://dataspace.copernicus.eu). One can "
 "register for free at https://dataspace.copernicus.eu ."
 msgstr ""
-
-#~ msgid ""
-#~ ":guilabel:`Harmonized Landsat Sentinel-2` by "
-#~ "NASA which are surface reflectance data"
-#~ " product (generated with Landsat 8, "
-#~ "Landsat 9, and Sentinel-2 data acquired"
-#~ " from 2013 to present days) with "
-#~ "observations every two to three days "
-#~ "at 30m spatial resolution (more "
-#~ "information about the `project "
-#~ "<https://www.earthdata.nasa.gov/esds/harmonized-landsat-"
-#~ "sentinel-2>`_);"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Copernicus :guilabel:`Sentinel-2` images (Level-"
-#~ "1C and Level-2A) acquired from "
-#~ "2015 to present days;"
-#~ msgstr ""
 

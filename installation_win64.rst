@@ -1,7 +1,7 @@
 .. _installation_win64:
 
 *******************************
-Installation in Windows 64 bit
+Windows
 *******************************
 
 
@@ -11,7 +11,7 @@ QGIS download and installation
 ------------------------------------------
 
 * Download the latest QGIS version 64 bit from
-  `here <https://www.qgis.org/en/site/forusers/download.html#windows>`_ ;
+  `here <https://www.qgis.org/download/#windows>`_ ;
 
 * Execute the QGIS installer with administrative rights, accepting the
   default configuration.

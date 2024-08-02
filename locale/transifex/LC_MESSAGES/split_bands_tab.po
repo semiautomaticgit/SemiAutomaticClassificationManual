@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,174 +20,6 @@ msgstr ""
 
 #: ../../split_bands_tab.rst:5
 msgid "Split raster bands"
-msgstr ""
-
-#: ../../split_bands_tab.rst:11
-msgid "registry_save"
-msgstr ""
-
-#: ../../split_bands_tab.rst:14
-msgid "project_save"
-msgstr ""
-
-#: ../../split_bands_tab.rst:17
-msgid "optional"
-msgstr ""
-
-#: ../../split_bands_tab.rst:20
-msgid "input_list"
-msgstr ""
-
-#: ../../split_bands_tab.rst:23
-msgid "input_text"
-msgstr ""
-
-#: ../../split_bands_tab.rst:26
-msgid "input_date"
-msgstr ""
-
-#: ../../split_bands_tab.rst:29
-msgid "input_number"
-msgstr ""
-
-#: ../../split_bands_tab.rst:32
-msgid "input_table"
-msgstr ""
-
-#: ../../split_bands_tab.rst:35
-msgid "open_file"
-msgstr ""
-
-#: ../../split_bands_tab.rst:38
-msgid "new_file"
-msgstr ""
-
-#: ../../split_bands_tab.rst:41
-msgid "open_dir"
-msgstr ""
-
-#: ../../split_bands_tab.rst:44
-msgid "remove"
-msgstr ""
-
-#: ../../split_bands_tab.rst:47
-msgid "add"
-msgstr ""
-
-#: ../../split_bands_tab.rst:50
-msgid "reset"
-msgstr ""
-
-#: ../../split_bands_tab.rst:53
-msgid "bandset_tool"
-msgstr ""
-
-#: ../../split_bands_tab.rst:56
-msgid "download"
-msgstr ""
-
-#: ../../split_bands_tab.rst:59
-msgid "sign_plot"
-msgstr ""
-
-#: ../../split_bands_tab.rst:62
-msgid "tools"
-msgstr ""
-
-#: ../../split_bands_tab.rst:65
-msgid "preprocessing"
-msgstr ""
-
-#: ../../split_bands_tab.rst:68
-msgid "band_processing"
-msgstr ""
-
-#: ../../split_bands_tab.rst:71
-msgid "postprocessing"
-msgstr ""
-
-#: ../../split_bands_tab.rst:74
-msgid "bandcalc"
-msgstr ""
-
-#: ../../split_bands_tab.rst:77
-msgid "settings"
-msgstr ""
-
-#: ../../split_bands_tab.rst:80
-msgid "script_tool"
-msgstr ""
-
-#: ../../split_bands_tab.rst:83
-msgid "save_roi"
-msgstr ""
-
-#: ../../split_bands_tab.rst:86
-msgid "delete_signature"
-msgstr ""
-
-#: ../../split_bands_tab.rst:89
-msgid "accuracy_tool"
-msgstr ""
-
-#: ../../split_bands_tab.rst:92
-msgid "enter"
-msgstr ""
-
-#: ../../split_bands_tab.rst:95
-msgid "zoom_to_ROI"
-msgstr ""
-
-#: ../../split_bands_tab.rst:98
-msgid "check"
-msgstr ""
-
-#: ../../split_bands_tab.rst:101
-msgid "select_all"
-msgstr ""
-
-#: ../../split_bands_tab.rst:104
-msgid "docks"
-msgstr ""
-
-#: ../../split_bands_tab.rst:107
-msgid "add_sign_tool"
-msgstr ""
-
-#: ../../split_bands_tab.rst:110
-msgid "scatter_plot"
-msgstr ""
-
-#: ../../split_bands_tab.rst:113
-msgid "merge_sign"
-msgstr ""
-
-#: ../../split_bands_tab.rst:116
-msgid "guide"
-msgstr ""
-
-#: ../../split_bands_tab.rst:119
-msgid "help"
-msgstr ""
-
-#: ../../split_bands_tab.rst:122
-msgid "reload"
-msgstr ""
-
-#: ../../split_bands_tab.rst:125
-msgid "checkbox"
-msgstr ""
-
-#: ../../split_bands_tab.rst:128
-msgid "run"
-msgstr ""
-
-#: ../../split_bands_tab.rst:131
-msgid "radiobutton"
-msgstr ""
-
-#: ../../split_bands_tab.rst:134
-msgid "split_raster"
 msgstr ""
 
 #: ../../split_bands_tab.rst:142
@@ -222,12 +54,20 @@ msgstr ""
 msgid ":guilabel:`Select a multiband raster` |input_list|"
 msgstr ""
 
+#: ../../split_bands_tab.rst:20
+msgid "input_list"
+msgstr ""
+
 #: ../../split_bands_tab.rst:163
 msgid "select the input raster"
 msgstr ""
 
 #: ../../split_bands_tab.rst:164
 msgid "|reload|"
+msgstr ""
+
+#: ../../split_bands_tab.rst:122
+msgid "reload"
 msgstr ""
 
 #: ../../split_bands_tab.rst:165
@@ -238,6 +78,10 @@ msgstr ""
 msgid ":guilabel:`Output name prefix` |input_text|"
 msgstr ""
 
+#: ../../split_bands_tab.rst:23
+msgid "input_text"
+msgstr ""
+
 #: ../../split_bands_tab.rst:167
 msgid "set the prefix for output file names (default is ``split``)"
 msgstr ""
@@ -246,12 +90,20 @@ msgstr ""
 msgid ":guilabel:`Script` |script_tool|"
 msgstr ""
 
+#: ../../split_bands_tab.rst:80
+msgid "script_tool"
+msgstr ""
+
 #: ../../split_bands_tab.rst:169
 msgid "add this function to the :ref:`script_tab`"
 msgstr ""
 
 #: ../../split_bands_tab.rst:170
 msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../split_bands_tab.rst:128
+msgid "run"
 msgstr ""
 
 #: ../../split_bands_tab.rst:171

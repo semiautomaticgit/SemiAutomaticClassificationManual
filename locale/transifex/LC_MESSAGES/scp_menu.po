@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,62 +20,6 @@ msgstr ""
 
 #: ../../scp_menu.rst:5
 msgid "SCP menu"
-msgstr ""
-
-#: ../../scp_menu.rst:8
-msgid "band_set"
-msgstr ""
-
-#: ../../scp_menu.rst:11
-msgid "download"
-msgstr ""
-
-#: ../../scp_menu.rst:14
-msgid "tools"
-msgstr ""
-
-#: ../../scp_menu.rst:17
-msgid "preprocessing"
-msgstr ""
-
-#: ../../scp_menu.rst:20
-msgid "band_processing"
-msgstr ""
-
-#: ../../scp_menu.rst:23
-msgid "postprocessing"
-msgstr ""
-
-#: ../../scp_menu.rst:26
-msgid "sign_plot"
-msgstr ""
-
-#: ../../scp_menu.rst:29
-msgid "scatter_plot"
-msgstr ""
-
-#: ../../scp_menu.rst:32
-msgid "bandcalc"
-msgstr ""
-
-#: ../../scp_menu.rst:35
-msgid "settings"
-msgstr ""
-
-#: ../../scp_menu.rst:38
-msgid "script_tool"
-msgstr ""
-
-#: ../../scp_menu.rst:41
-msgid "guide"
-msgstr ""
-
-#: ../../scp_menu.rst:44
-msgid "help"
-msgstr ""
-
-#: ../../scp_menu.rst:47
-msgid "docks"
 msgstr ""
 
 #: ../../scp_menu.rst:54
@@ -93,12 +37,20 @@ msgstr ""
 msgid "|band_set|"
 msgstr ""
 
+#: ../../scp_menu.rst:8
+msgid "band_set"
+msgstr ""
+
 #: ../../scp_menu.rst:65
 msgid ":ref:`band_set_tab`"
 msgstr ""
 
 #: ../../scp_menu.rst:66
 msgid "|download|"
+msgstr ""
+
+#: ../../scp_menu.rst:11
+msgid "download"
 msgstr ""
 
 #: ../../scp_menu.rst:67
@@ -109,12 +61,20 @@ msgstr ""
 msgid "|tools|"
 msgstr ""
 
+#: ../../scp_menu.rst:14
+msgid "tools"
+msgstr ""
+
 #: ../../scp_menu.rst:69
 msgid ":ref:`tools_tab`"
 msgstr ""
 
 #: ../../scp_menu.rst:70
 msgid "|preprocessing|"
+msgstr ""
+
+#: ../../scp_menu.rst:17
+msgid "preprocessing"
 msgstr ""
 
 #: ../../scp_menu.rst:71
@@ -125,12 +85,20 @@ msgstr ""
 msgid "|band_processing|"
 msgstr ""
 
+#: ../../scp_menu.rst:20
+msgid "band_processing"
+msgstr ""
+
 #: ../../scp_menu.rst:73
 msgid ":ref:`band_processing_tab`"
 msgstr ""
 
 #: ../../scp_menu.rst:74
 msgid "|postprocessing|"
+msgstr ""
+
+#: ../../scp_menu.rst:23
+msgid "postprocessing"
 msgstr ""
 
 #: ../../scp_menu.rst:75
@@ -141,12 +109,20 @@ msgstr ""
 msgid "|bandcalc|"
 msgstr ""
 
+#: ../../scp_menu.rst:32
+msgid "bandcalc"
+msgstr ""
+
 #: ../../scp_menu.rst:77
 msgid ":ref:`band_calc_tab`"
 msgstr ""
 
 #: ../../scp_menu.rst:78
 msgid "|script_tool|"
+msgstr ""
+
+#: ../../scp_menu.rst:38
+msgid "script_tool"
 msgstr ""
 
 #: ../../scp_menu.rst:79
@@ -157,12 +133,20 @@ msgstr ""
 msgid "|settings|"
 msgstr ""
 
+#: ../../scp_menu.rst:35
+msgid "settings"
+msgstr ""
+
 #: ../../scp_menu.rst:81
 msgid ":ref:`settings_tab`"
 msgstr ""
 
 #: ../../scp_menu.rst:82
 msgid "|sign_plot|"
+msgstr ""
+
+#: ../../scp_menu.rst:26
+msgid "sign_plot"
 msgstr ""
 
 #: ../../scp_menu.rst:83
@@ -173,6 +157,10 @@ msgstr ""
 msgid "|scatter_plot|"
 msgstr ""
 
+#: ../../scp_menu.rst:29
+msgid "scatter_plot"
+msgstr ""
+
 #: ../../scp_menu.rst:85
 msgid ":ref:`scatter_plot`"
 msgstr ""
@@ -181,12 +169,20 @@ msgstr ""
 msgid "|guide|"
 msgstr ""
 
+#: ../../scp_menu.rst:41
+msgid "guide"
+msgstr ""
+
 #: ../../scp_menu.rst:87
 msgid ":guilabel:`User manual`: open the online user manual in a web browser"
 msgstr ""
 
 #: ../../scp_menu.rst:88
 msgid "|help|"
+msgstr ""
+
+#: ../../scp_menu.rst:44
+msgid "help"
 msgstr ""
 
 #: ../../scp_menu.rst:89
@@ -208,6 +204,10 @@ msgstr ""
 
 #: ../../scp_menu.rst:95
 msgid "|docks|"
+msgstr ""
+
+#: ../../scp_menu.rst:47
+msgid "docks"
 msgstr ""
 
 #: ../../scp_menu.rst:96

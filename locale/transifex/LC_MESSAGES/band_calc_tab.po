@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,118 +20,6 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:5
 msgid "Band calc"
-msgstr ""
-
-#: ../../band_calc_tab.rst:10
-msgid "registry_save"
-msgstr ""
-
-#: ../../band_calc_tab.rst:13
-msgid "project_save"
-msgstr ""
-
-#: ../../band_calc_tab.rst:16
-msgid "optional"
-msgstr ""
-
-#: ../../band_calc_tab.rst:19
-msgid "input_list"
-msgstr ""
-
-#: ../../band_calc_tab.rst:22
-msgid "input_text"
-msgstr ""
-
-#: ../../band_calc_tab.rst:25
-msgid "input_date"
-msgstr ""
-
-#: ../../band_calc_tab.rst:28
-msgid "input_number"
-msgstr ""
-
-#: ../../band_calc_tab.rst:31
-msgid "input_slider"
-msgstr ""
-
-#: ../../band_calc_tab.rst:34
-msgid "input_table"
-msgstr ""
-
-#: ../../band_calc_tab.rst:37
-msgid "add"
-msgstr ""
-
-#: ../../band_calc_tab.rst:40
-msgid "checkbox"
-msgstr ""
-
-#: ../../band_calc_tab.rst:43
-msgid "pointer"
-msgstr ""
-
-#: ../../band_calc_tab.rst:46
-msgid "radiobutton"
-msgstr ""
-
-#: ../../band_calc_tab.rst:49
-msgid "reload"
-msgstr ""
-
-#: ../../band_calc_tab.rst:52
-msgid "reset"
-msgstr ""
-
-#: ../../band_calc_tab.rst:55
-msgid "remove"
-msgstr ""
-
-#: ../../band_calc_tab.rst:58
-msgid "run"
-msgstr ""
-
-#: ../../band_calc_tab.rst:61
-msgid "open_file"
-msgstr ""
-
-#: ../../band_calc_tab.rst:64
-msgid "new_file"
-msgstr ""
-
-#: ../../band_calc_tab.rst:67
-msgid "open_dir"
-msgstr ""
-
-#: ../../band_calc_tab.rst:70
-msgid "move_up"
-msgstr ""
-
-#: ../../band_calc_tab.rst:73
-msgid "move_down"
-msgstr ""
-
-#: ../../band_calc_tab.rst:76
-msgid "import"
-msgstr ""
-
-#: ../../band_calc_tab.rst:79
-msgid "export"
-msgstr ""
-
-#: ../../band_calc_tab.rst:82
-msgid "plus"
-msgstr ""
-
-#: ../../band_calc_tab.rst:85
-msgid "bandcalc_tool"
-msgstr ""
-
-#: ../../band_calc_tab.rst:88
-msgid "bandset_tool"
-msgstr ""
-
-#: ../../band_calc_tab.rst:91
-msgid "settings_tool"
 msgstr ""
 
 #: ../../band_calc_tab.rst:99
@@ -190,6 +78,10 @@ msgstr ""
 msgid "|input_table| :guilabel:`Band list`"
 msgstr ""
 
+#: ../../band_calc_tab.rst:34
+msgid "input_table"
+msgstr ""
+
 #: ../../band_calc_tab.rst:134
 msgid ""
 "table containing a list of single band rasters (already loaded in QGIS) "
@@ -200,12 +92,20 @@ msgstr ""
 msgid ":guilabel:`Filter` |input_text|"
 msgstr ""
 
+#: ../../band_calc_tab.rst:22
+msgid "input_text"
+msgstr ""
+
 #: ../../band_calc_tab.rst:137
 msgid "filter the variable list"
 msgstr ""
 
 #: ../../band_calc_tab.rst:138
 msgid "|reload|"
+msgstr ""
+
+#: ../../band_calc_tab.rst:49
+msgid "reload"
 msgstr ""
 
 #: ../../band_calc_tab.rst:139
@@ -263,6 +163,14 @@ msgstr ""
 msgid "|checkbox| :guilabel:`Input NoData as value` |optional|"
 msgstr ""
 
+#: ../../band_calc_tab.rst:40
+msgid "checkbox"
+msgstr ""
+
+#: ../../band_calc_tab.rst:16
+msgid "optional"
+msgstr ""
+
 #: ../../band_calc_tab.rst:186
 msgid ""
 "if checked, input ``NoData`` pixels are replaced by ``NoData`` value and "
@@ -271,6 +179,10 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:188
 msgid "|checkbox| :guilabel:`Use value as NoData` |input_number| |optional|"
+msgstr ""
+
+#: ../../band_calc_tab.rst:28
+msgid "input_number"
 msgstr ""
 
 #: ../../band_calc_tab.rst:189
@@ -301,6 +213,10 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:198
 msgid "|open_file|"
+msgstr ""
+
+#: ../../band_calc_tab.rst:61
+msgid "open_file"
 msgstr ""
 
 #: ../../band_calc_tab.rst:199
@@ -341,6 +257,10 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:238
 msgid ":guilabel:`Output data type` |input_list|"
+msgstr ""
+
+#: ../../band_calc_tab.rst:19
+msgid "input_list"
 msgstr ""
 
 #: ../../band_calc_tab.rst:239
@@ -442,6 +362,10 @@ msgstr ""
 
 #: ../../band_calc_tab.rst:266
 msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../band_calc_tab.rst:58
+msgid "run"
 msgstr ""
 
 #: ../../band_calc_tab.rst:267

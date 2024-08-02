@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,162 +20,6 @@ msgstr ""
 
 #: ../../image_conversion_tab.rst:5 ../../image_conversion_tab.rst:159
 msgid "Image conversion"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:12
-msgid "registry_save"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:15
-msgid "project_save"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:18
-msgid "optional"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:21
-msgid "input_list"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:24
-msgid "input_text"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:27
-msgid "input_date"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:30
-msgid "input_number"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:33
-msgid "input_table"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:36
-msgid "open_file"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:39
-msgid "new_file"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:42
-msgid "open_dir"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:45
-msgid "remove"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:48
-msgid "add"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:51
-msgid "reset"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:54
-msgid "bandset_tool"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:57
-msgid "download"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:60
-msgid "sign_plot"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:63
-msgid "tools"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:66
-msgid "preprocessing"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:69
-msgid "band_processing"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:72
-msgid "postprocessing"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:75
-msgid "bandcalc"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:78
-msgid "settings"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:81
-msgid "script_tool"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:84
-msgid "enter"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:87
-msgid "zoom_to_ROI"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:90
-msgid "check"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:93
-msgid "select_all"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:96
-msgid "docks"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:99
-msgid "add_sign_tool"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:102
-msgid "scatter_plot"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:105
-msgid "merge_sign"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:108
-msgid "guide"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:111
-msgid "help"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:114
-msgid "reload"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:117
-msgid "checkbox"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:120
-msgid "run"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:123
-msgid "radiobutton"
-msgstr ""
-
-#: ../../image_conversion_tab.rst:126
-msgid "image_conversion_tool"
 msgstr ""
 
 #: ../../image_conversion_tab.rst:133
@@ -243,6 +87,10 @@ msgstr ""
 msgid ":guilabel:`Directory containing bands` |open_dir|"
 msgstr ""
 
+#: ../../image_conversion_tab.rst:42
+msgid "open_dir"
+msgstr ""
+
 #: ../../image_conversion_tab.rst:170
 msgid ""
 "open a directory containing product bands; names of bands must end with "
@@ -254,6 +102,14 @@ msgstr ""
 msgid ":guilabel:`Select metadata file` |open_file| |optional|"
 msgstr ""
 
+#: ../../image_conversion_tab.rst:36
+msgid "open_file"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:18
+msgid "optional"
+msgstr ""
+
 #: ../../image_conversion_tab.rst:175
 msgid ""
 "select the metadata file if not included in the :guilabel:`Directory "
@@ -263,6 +119,14 @@ msgstr ""
 
 #: ../../image_conversion_tab.rst:178
 msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number|"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:117
+msgid "checkbox"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:30
+msgid "input_number"
 msgstr ""
 
 #: ../../image_conversion_tab.rst:179
@@ -293,6 +157,10 @@ msgstr ""
 
 #: ../../image_conversion_tab.rst:188
 msgid "|radiobutton| :guilabel:`Add bands in a new Band set`"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:123
+msgid "radiobutton"
 msgstr ""
 
 #: ../../image_conversion_tab.rst:189
@@ -452,6 +320,10 @@ msgstr ""
 msgid "|remove|"
 msgstr ""
 
+#: ../../image_conversion_tab.rst:45
+msgid "remove"
+msgstr ""
+
 #: ../../image_conversion_tab.rst:258
 msgid "remove highlighted bands from the table :guilabel:`Metadata`"
 msgstr ""
@@ -468,12 +340,20 @@ msgstr ""
 msgid ":guilabel:`Script` |script_tool|"
 msgstr ""
 
+#: ../../image_conversion_tab.rst:81
+msgid "script_tool"
+msgstr ""
+
 #: ../../image_conversion_tab.rst:274
 msgid "add this function to the :ref:`script_tab`"
 msgstr ""
 
 #: ../../image_conversion_tab.rst:275
 msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../image_conversion_tab.rst:120
+msgid "run"
 msgstr ""
 
 #: ../../image_conversion_tab.rst:276

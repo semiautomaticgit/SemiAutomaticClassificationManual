@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,58 +20,6 @@ msgstr ""
 
 #: ../../script_tab.rst:5 ../../script_tab.rst:66
 msgid "Script"
-msgstr ""
-
-#: ../../script_tab.rst:10
-msgid "registry_save"
-msgstr ""
-
-#: ../../script_tab.rst:13
-msgid "project_save"
-msgstr ""
-
-#: ../../script_tab.rst:16
-msgid "optional"
-msgstr ""
-
-#: ../../script_tab.rst:19
-msgid "input_list"
-msgstr ""
-
-#: ../../script_tab.rst:22
-msgid "input_text"
-msgstr ""
-
-#: ../../script_tab.rst:25
-msgid "input_date"
-msgstr ""
-
-#: ../../script_tab.rst:28
-msgid "input_number"
-msgstr ""
-
-#: ../../script_tab.rst:31
-msgid "input_table"
-msgstr ""
-
-#: ../../script_tab.rst:34
-msgid "open_file"
-msgstr ""
-
-#: ../../script_tab.rst:37
-msgid "new_file"
-msgstr ""
-
-#: ../../script_tab.rst:40
-msgid "add"
-msgstr ""
-
-#: ../../script_tab.rst:43
-msgid "reset"
-msgstr ""
-
-#: ../../script_tab.rst:46
-msgid "export"
 msgstr ""
 
 #: ../../script_tab.rst:53
@@ -105,6 +53,10 @@ msgstr ""
 msgid "|reset|"
 msgstr ""
 
+#: ../../script_tab.rst:43
+msgid "reset"
+msgstr ""
+
 #: ../../script_tab.rst:75
 msgid "clear the content of the script"
 msgstr ""
@@ -119,6 +71,10 @@ msgstr ""
 
 #: ../../script_tab.rst:78
 msgid ":guilabel:`Save to file` |export|"
+msgstr ""
+
+#: ../../script_tab.rst:46
+msgid "export"
 msgstr ""
 
 #: ../../script_tab.rst:79

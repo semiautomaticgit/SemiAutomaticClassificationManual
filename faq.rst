@@ -113,7 +113,8 @@ and click ``OK``;
 Can I use the previous version 7 of SCP?
 --------------------------------------------------------------
 
-It is possible to install the previous version 7 of SCP using the
+The version 7 of SCP is no longer supported.
+However, it is possible to install the previous version 7 of SCP using the
 official repository.
 Also, this version can be installed along with the SCP version 8.
 

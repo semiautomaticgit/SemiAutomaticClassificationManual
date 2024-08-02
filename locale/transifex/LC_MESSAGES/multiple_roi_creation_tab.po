@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,84 +22,12 @@ msgstr ""
 msgid "Multiple ROI Creation"
 msgstr ""
 
-#: ../../multiple_roi_creation_tab.rst:12
-msgid "registry_save"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:15
-msgid "project_save"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:18
-msgid "optional"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:21
-msgid "input_list"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:24
-msgid "input_text"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:27
-msgid "input_date"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:30
-msgid "input_number"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:33
-msgid "input_table"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:36
-msgid "open_file"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:39
-msgid "new_file"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:42
-msgid "add"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:45
-msgid "reset"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:48
-msgid "checkbox"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:51
-msgid "enter"
+#: ../../multiple_roi_creation_tab.rst:74
+msgid "|roi_multiple| :guilabel:`Multiple ROI Creation`"
 msgstr ""
 
 #: ../../multiple_roi_creation_tab.rst:54
 msgid "roi_multiple"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:57
-msgid "remove"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:60
-msgid "import"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:63
-msgid "export"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:66
-msgid "run"
-msgstr ""
-
-#: ../../multiple_roi_creation_tab.rst:74
-msgid "|roi_multiple| :guilabel:`Multiple ROI Creation`"
 msgstr ""
 
 #: ../../multiple_roi_creation_tab.rst:76
@@ -130,14 +58,26 @@ msgstr ""
 msgid ":guilabel:`Number of points` |input_number|"
 msgstr ""
 
+#: ../../multiple_roi_creation_tab.rst:30
+msgid "input_number"
+msgstr ""
+
 #: ../../multiple_roi_creation_tab.rst:96
 msgid ""
 "set a number of points that will be created when :guilabel:`Create "
 "points` |enter| is clicked"
 msgstr ""
 
+#: ../../multiple_roi_creation_tab.rst:51
+msgid "enter"
+msgstr ""
+
 #: ../../multiple_roi_creation_tab.rst:98
 msgid "|checkbox| :guilabel:`inside grid` |input_number|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:48
+msgid "checkbox"
 msgstr ""
 
 #: ../../multiple_roi_creation_tab.rst:99
@@ -169,6 +109,10 @@ msgstr ""
 
 #: ../../multiple_roi_creation_tab.rst:110
 msgid "|checkbox| :guilabel:`stratified for the values` |input_text|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:24
+msgid "input_text"
 msgstr ""
 
 #: ../../multiple_roi_creation_tab.rst:111
@@ -292,6 +236,10 @@ msgstr ""
 msgid "|add|"
 msgstr ""
 
+#: ../../multiple_roi_creation_tab.rst:42
+msgid "add"
+msgstr ""
+
 #: ../../multiple_roi_creation_tab.rst:165
 msgid ""
 "add a new row to the table; all the table fields must be filled for the "
@@ -302,12 +250,20 @@ msgstr ""
 msgid "|remove|"
 msgstr ""
 
+#: ../../multiple_roi_creation_tab.rst:57
+msgid "remove"
+msgstr ""
+
 #: ../../multiple_roi_creation_tab.rst:168
 msgid "delete the highlighted rows from the table"
 msgstr ""
 
 #: ../../multiple_roi_creation_tab.rst:169
 msgid "|import|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:60
+msgid "import"
 msgstr ""
 
 #: ../../multiple_roi_creation_tab.rst:170
@@ -321,6 +277,10 @@ msgstr ""
 
 #: ../../multiple_roi_creation_tab.rst:175
 msgid "|export|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:63
+msgid "export"
 msgstr ""
 
 #: ../../multiple_roi_creation_tab.rst:176
@@ -339,6 +299,10 @@ msgstr ""
 
 #: ../../multiple_roi_creation_tab.rst:180
 msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../multiple_roi_creation_tab.rst:66
+msgid "run"
 msgstr ""
 
 #: ../../multiple_roi_creation_tab.rst:181

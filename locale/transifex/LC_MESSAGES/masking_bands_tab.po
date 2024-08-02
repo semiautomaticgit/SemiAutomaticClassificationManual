@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,174 +20,6 @@ msgstr ""
 
 #: ../../masking_bands_tab.rst:5
 msgid "Masking bands"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:12
-msgid "registry_save"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:15
-msgid "project_save"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:18
-msgid "optional"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:21
-msgid "input_list"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:24
-msgid "input_text"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:27
-msgid "input_date"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:30
-msgid "input_number"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:33
-msgid "input_table"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:36
-msgid "open_file"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:39
-msgid "new_file"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:42
-msgid "open_dir"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:45
-msgid "remove"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:48
-msgid "add"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:51
-msgid "reset"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:54
-msgid "bandset_tool"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:57
-msgid "download"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:60
-msgid "sign_plot"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:63
-msgid "tools"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:66
-msgid "preprocessing"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:69
-msgid "band_processing"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:72
-msgid "postprocessing"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:75
-msgid "bandcalc"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:78
-msgid "settings"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:81
-msgid "script_tool"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:84
-msgid "save_roi"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:87
-msgid "delete_signature"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:90
-msgid "accuracy_tool"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:93
-msgid "enter"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:96
-msgid "zoom_to_ROI"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:99
-msgid "check"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:102
-msgid "select_all"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:105
-msgid "docks"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:108
-msgid "add_sign_tool"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:111
-msgid "scatter_plot"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:114
-msgid "merge_sign"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:117
-msgid "guide"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:120
-msgid "help"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:123
-msgid "reload"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:126
-msgid "checkbox"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:129
-msgid "run"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:132
-msgid "radiobutton"
-msgstr ""
-
-#: ../../masking_bands_tab.rst:135
-msgid "masking_bands_tool"
 msgstr ""
 
 #: ../../masking_bands_tab.rst:143
@@ -225,12 +57,20 @@ msgstr ""
 msgid ":guilabel:`Select input band set` |input_number|"
 msgstr ""
 
+#: ../../masking_bands_tab.rst:30
+msgid "input_number"
+msgstr ""
+
 #: ../../masking_bands_tab.rst:167
 msgid "select the input :ref:`band_set_tab` to be masked"
 msgstr ""
 
 #: ../../masking_bands_tab.rst:168
 msgid ":guilabel:`Select the classification` |input_list|"
+msgstr ""
+
+#: ../../masking_bands_tab.rst:21
+msgid "input_list"
 msgstr ""
 
 #: ../../masking_bands_tab.rst:169
@@ -243,12 +83,20 @@ msgstr ""
 msgid "|reload|"
 msgstr ""
 
+#: ../../masking_bands_tab.rst:123
+msgid "reload"
+msgstr ""
+
 #: ../../masking_bands_tab.rst:172
 msgid "refresh layer list"
 msgstr ""
 
 #: ../../masking_bands_tab.rst:173
 msgid ":guilabel:`Mask class values` |input_text|"
+msgstr ""
+
+#: ../../masking_bands_tab.rst:24
+msgid "input_text"
 msgstr ""
 
 #: ../../masking_bands_tab.rst:174
@@ -261,6 +109,10 @@ msgstr ""
 
 #: ../../masking_bands_tab.rst:178
 msgid "|checkbox| :guilabel:`Use buffer of pixel size` |input_number|"
+msgstr ""
+
+#: ../../masking_bands_tab.rst:126
+msgid "checkbox"
 msgstr ""
 
 #: ../../masking_bands_tab.rst:179
@@ -289,12 +141,20 @@ msgstr ""
 msgid ":guilabel:`Script` |script_tool|"
 msgstr ""
 
+#: ../../masking_bands_tab.rst:81
+msgid "script_tool"
+msgstr ""
+
 #: ../../masking_bands_tab.rst:186
 msgid "add this function to the :ref:`script_tab`"
 msgstr ""
 
 #: ../../masking_bands_tab.rst:187
 msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../masking_bands_tab.rst:129
+msgid "run"
 msgstr ""
 
 #: ../../masking_bands_tab.rst:188

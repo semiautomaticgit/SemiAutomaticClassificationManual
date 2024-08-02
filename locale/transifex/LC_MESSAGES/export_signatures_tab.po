@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,64 +22,12 @@ msgstr ""
 msgid "Export signatures"
 msgstr ""
 
-#: ../../export_signatures_tab.rst:12
-msgid "registry_save"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:15
-msgid "project_save"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:18
-msgid "optional"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:21
-msgid "input_list"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:24
-msgid "input_text"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:27
-msgid "input_date"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:30
-msgid "input_number"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:33
-msgid "input_table"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:36
-msgid "open_file"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:39
-msgid "new_file"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:42
-msgid "open_dir"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:45
-msgid "add"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:48
-msgid "reset"
+#: ../../export_signatures_tab.rst:58
+msgid "|export_spectral_library| :guilabel:`Export signatures`"
 msgstr ""
 
 #: ../../export_signatures_tab.rst:51
 msgid "export_spectral_library"
-msgstr ""
-
-#: ../../export_signatures_tab.rst:58
-msgid "|export_spectral_library| :guilabel:`Export signatures`"
 msgstr ""
 
 #: ../../export_signatures_tab.rst:60
@@ -100,6 +48,10 @@ msgstr ""
 msgid ":guilabel:`Export as SCP file` |new_file|"
 msgstr ""
 
+#: ../../export_signatures_tab.rst:39
+msgid "new_file"
+msgstr ""
+
 #: ../../export_signatures_tab.rst:69
 msgid ""
 "create a new .scp file and export highlighted ROIs and spectral "
@@ -118,6 +70,10 @@ msgstr ""
 
 #: ../../export_signatures_tab.rst:74
 msgid ":guilabel:`Export spectral signatures as CSV file` |open_dir|"
+msgstr ""
+
+#: ../../export_signatures_tab.rst:42
+msgid "open_dir"
 msgstr ""
 
 #: ../../export_signatures_tab.rst:75

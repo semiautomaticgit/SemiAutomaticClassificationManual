@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,42 +20,6 @@ msgstr ""
 
 #: ../../processing_settings_tab.rst:5
 msgid "Processing setting"
-msgstr ""
-
-#: ../../processing_settings_tab.rst:11
-msgid "registry_save"
-msgstr ""
-
-#: ../../processing_settings_tab.rst:14
-msgid "project_save"
-msgstr ""
-
-#: ../../processing_settings_tab.rst:17
-msgid "optional"
-msgstr ""
-
-#: ../../processing_settings_tab.rst:20
-msgid "input_list"
-msgstr ""
-
-#: ../../processing_settings_tab.rst:23
-msgid "input_text"
-msgstr ""
-
-#: ../../processing_settings_tab.rst:26
-msgid "checkbox"
-msgstr ""
-
-#: ../../processing_settings_tab.rst:29
-msgid "reset"
-msgstr ""
-
-#: ../../processing_settings_tab.rst:32
-msgid "input_number"
-msgstr ""
-
-#: ../../processing_settings_tab.rst:35
-msgid "open_dir"
 msgstr ""
 
 #: ../../processing_settings_tab.rst:42
@@ -80,6 +44,14 @@ msgstr ""
 
 #: ../../processing_settings_tab.rst:56
 msgid ":guilabel:`Available RAM (MB)` |input_number| |registry_save|"
+msgstr ""
+
+#: ../../processing_settings_tab.rst:32
+msgid "input_number"
+msgstr ""
+
+#: ../../processing_settings_tab.rst:11
+msgid "registry_save"
 msgstr ""
 
 #: ../../processing_settings_tab.rst:57
@@ -108,6 +80,10 @@ msgstr ""
 msgid "|checkbox| :guilabel:`Play sound when finished` |registry_save|"
 msgstr ""
 
+#: ../../processing_settings_tab.rst:26
+msgid "checkbox"
+msgstr ""
+
 #: ../../processing_settings_tab.rst:78
 msgid "if checked, play a sound when the process is completed"
 msgstr ""
@@ -129,6 +105,10 @@ msgstr ""
 
 #: ../../processing_settings_tab.rst:95
 msgid ":guilabel:`SMTP server` |input_text| |registry_save|"
+msgstr ""
+
+#: ../../processing_settings_tab.rst:23
+msgid "input_text"
 msgstr ""
 
 #: ../../processing_settings_tab.rst:96
@@ -178,6 +158,10 @@ msgstr ""
 msgid "|open_dir| |registry_save|"
 msgstr ""
 
+#: ../../processing_settings_tab.rst:35
+msgid "open_dir"
+msgstr ""
+
 #: ../../processing_settings_tab.rst:123
 msgid ""
 "select a new temporary directory where temporary files are saved during "
@@ -187,6 +171,10 @@ msgstr ""
 
 #: ../../processing_settings_tab.rst:126
 msgid "|reset|"
+msgstr ""
+
+#: ../../processing_settings_tab.rst:29
+msgid "reset"
 msgstr ""
 
 #: ../../processing_settings_tab.rst:127
@@ -205,6 +193,10 @@ msgstr ""
 msgid ""
 ":guilabel:`GDAL installation directory` |input_text| |registry_save| "
 "|optional|"
+msgstr ""
+
+#: ../../processing_settings_tab.rst:17
+msgid "optional"
 msgstr ""
 
 #: ../../processing_settings_tab.rst:143

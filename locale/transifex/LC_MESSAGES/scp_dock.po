@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,186 +20,6 @@ msgstr ""
 
 #: ../../scp_dock.rst:5
 msgid "SCP dock"
-msgstr ""
-
-#: ../../scp_dock.rst:7
-msgid "registry_save"
-msgstr ""
-
-#: ../../scp_dock.rst:10
-msgid "project_save"
-msgstr ""
-
-#: ../../scp_dock.rst:13
-msgid "optional"
-msgstr ""
-
-#: ../../scp_dock.rst:16
-msgid "input_list"
-msgstr ""
-
-#: ../../scp_dock.rst:19
-msgid "input_text"
-msgstr ""
-
-#: ../../scp_dock.rst:22
-msgid "input_date"
-msgstr ""
-
-#: ../../scp_dock.rst:25
-msgid "input_number"
-msgstr ""
-
-#: ../../scp_dock.rst:28
-msgid "input_table"
-msgstr ""
-
-#: ../../scp_dock.rst:31
-msgid "open_file"
-msgstr ""
-
-#: ../../scp_dock.rst:34
-msgid "new_file"
-msgstr ""
-
-#: ../../scp_dock.rst:37
-msgid "add"
-msgstr ""
-
-#: ../../scp_dock.rst:40
-msgid "reset"
-msgstr ""
-
-#: ../../scp_dock.rst:43
-msgid "bandset_tool"
-msgstr ""
-
-#: ../../scp_dock.rst:46
-msgid "download"
-msgstr ""
-
-#: ../../scp_dock.rst:49
-msgid "sign_plot"
-msgstr ""
-
-#: ../../scp_dock.rst:52
-msgid "tools"
-msgstr ""
-
-#: ../../scp_dock.rst:55
-msgid "preprocessing"
-msgstr ""
-
-#: ../../scp_dock.rst:58
-msgid "band_processing"
-msgstr ""
-
-#: ../../scp_dock.rst:61
-msgid "postprocessing"
-msgstr ""
-
-#: ../../scp_dock.rst:64
-msgid "bandcalc"
-msgstr ""
-
-#: ../../scp_dock.rst:67
-msgid "settings"
-msgstr ""
-
-#: ../../scp_dock.rst:70
-msgid "script_tool"
-msgstr ""
-
-#: ../../scp_dock.rst:73
-msgid "save_roi"
-msgstr ""
-
-#: ../../scp_dock.rst:76
-msgid "delete_signature"
-msgstr ""
-
-#: ../../scp_dock.rst:79
-msgid "accuracy_tool"
-msgstr ""
-
-#: ../../scp_dock.rst:82
-msgid "enter"
-msgstr ""
-
-#: ../../scp_dock.rst:85
-msgid "zoom_to_ROI"
-msgstr ""
-
-#: ../../scp_dock.rst:88
-msgid "check"
-msgstr ""
-
-#: ../../scp_dock.rst:91
-msgid "select_all"
-msgstr ""
-
-#: ../../scp_dock.rst:94
-msgid "docks"
-msgstr ""
-
-#: ../../scp_dock.rst:97
-msgid "add_sign_tool"
-msgstr ""
-
-#: ../../scp_dock.rst:100
-msgid "scatter_plot"
-msgstr ""
-
-#: ../../scp_dock.rst:103
-msgid "merge_sign"
-msgstr ""
-
-#: ../../scp_dock.rst:106
-msgid "guide"
-msgstr ""
-
-#: ../../scp_dock.rst:109
-msgid "help"
-msgstr ""
-
-#: ../../scp_dock.rst:112
-msgid "reload"
-msgstr ""
-
-#: ../../scp_dock.rst:115
-msgid "checkbox"
-msgstr ""
-
-#: ../../scp_dock.rst:118
-msgid "import_spectral_library"
-msgstr ""
-
-#: ../../scp_dock.rst:121
-msgid "export_spectral_library"
-msgstr ""
-
-#: ../../scp_dock.rst:124
-msgid "undo_save_roi"
-msgstr ""
-
-#: ../../scp_dock.rst:127
-msgid "redo_save_roi"
-msgstr ""
-
-#: ../../scp_dock.rst:130
-msgid "radiobutton"
-msgstr ""
-
-#: ../../scp_dock.rst:133
-msgid "zoom_to_preview"
-msgstr ""
-
-#: ../../scp_dock.rst:136
-msgid "preview"
-msgstr ""
-
-#: ../../scp_dock.rst:139
-msgid "preview_redo"
 msgstr ""
 
 #: ../../scp_dock.rst:146
@@ -305,12 +125,20 @@ msgstr ""
 msgid "|bandset_tool|"
 msgstr ""
 
+#: ../../scp_dock.rst:43
+msgid "bandset_tool"
+msgstr ""
+
 #: ../../scp_dock.rst:226
 msgid ":ref:`band_set_tab`"
 msgstr ""
 
 #: ../../scp_dock.rst:227
 msgid "|tools|"
+msgstr ""
+
+#: ../../scp_dock.rst:52
+msgid "tools"
 msgstr ""
 
 #: ../../scp_dock.rst:228
@@ -321,12 +149,20 @@ msgstr ""
 msgid "|download|"
 msgstr ""
 
+#: ../../scp_dock.rst:46
+msgid "download"
+msgstr ""
+
 #: ../../scp_dock.rst:230
 msgid ":ref:`download_tab`"
 msgstr ""
 
 #: ../../scp_dock.rst:231
 msgid "|preprocessing|"
+msgstr ""
+
+#: ../../scp_dock.rst:55
+msgid "preprocessing"
 msgstr ""
 
 #: ../../scp_dock.rst:232
@@ -337,12 +173,20 @@ msgstr ""
 msgid "|band_processing|"
 msgstr ""
 
+#: ../../scp_dock.rst:58
+msgid "band_processing"
+msgstr ""
+
 #: ../../scp_dock.rst:234
 msgid ":ref:`band_processing_tab`"
 msgstr ""
 
 #: ../../scp_dock.rst:235
 msgid "|postprocessing|"
+msgstr ""
+
+#: ../../scp_dock.rst:61
+msgid "postprocessing"
 msgstr ""
 
 #: ../../scp_dock.rst:236
@@ -353,12 +197,20 @@ msgstr ""
 msgid "|bandcalc|"
 msgstr ""
 
+#: ../../scp_dock.rst:64
+msgid "bandcalc"
+msgstr ""
+
 #: ../../scp_dock.rst:238
 msgid ":ref:`band_calc_tab`"
 msgstr ""
 
 #: ../../scp_dock.rst:239
 msgid "|script_tool|"
+msgstr ""
+
+#: ../../scp_dock.rst:70
+msgid "script_tool"
 msgstr ""
 
 #: ../../scp_dock.rst:240
@@ -409,6 +261,10 @@ msgstr ""
 msgid "|open_file|"
 msgstr ""
 
+#: ../../scp_dock.rst:31
+msgid "open_file"
+msgstr ""
+
 #: ../../scp_dock.rst:276
 msgid ""
 "open a training input file; ROIs and spectral signatures are loaded in "
@@ -417,6 +273,10 @@ msgstr ""
 
 #: ../../scp_dock.rst:278
 msgid "|new_file|"
+msgstr ""
+
+#: ../../scp_dock.rst:34
+msgid "new_file"
 msgstr ""
 
 #: ../../scp_dock.rst:279
@@ -432,12 +292,24 @@ msgstr ""
 msgid ":guilabel:`Training input` |input_text| |project_save|"
 msgstr ""
 
+#: ../../scp_dock.rst:19
+msgid "input_text"
+msgstr ""
+
+#: ../../scp_dock.rst:10
+msgid "project_save"
+msgstr ""
+
 #: ../../scp_dock.rst:285
 msgid "it displays the path to the training input file"
 msgstr ""
 
 #: ../../scp_dock.rst:286
 msgid "|reset|"
+msgstr ""
+
+#: ../../scp_dock.rst:40
+msgid "reset"
 msgstr ""
 
 #: ../../scp_dock.rst:287
@@ -529,6 +401,10 @@ msgid ""
 "deleted and merged from this list."
 msgstr ""
 
+#: ../../scp_dock.rst:115
+msgid "checkbox"
+msgstr ""
+
 #: ../../scp_dock.rst:336
 msgid ":guilabel:`ROI & Signature list example`"
 msgstr ""
@@ -562,6 +438,10 @@ msgstr ""
 msgid "|merge_sign|"
 msgstr ""
 
+#: ../../scp_dock.rst:103
+msgid "merge_sign"
+msgstr ""
+
 #: ../../scp_dock.rst:363
 msgid ""
 "merge highlighted spectral signatures or ROIs obtaining a new signature "
@@ -571,6 +451,10 @@ msgstr ""
 
 #: ../../scp_dock.rst:366
 msgid "|add_sign_tool|"
+msgstr ""
+
+#: ../../scp_dock.rst:97
+msgid "add_sign_tool"
 msgstr ""
 
 #: ../../scp_dock.rst:367
@@ -583,12 +467,20 @@ msgstr ""
 msgid "|delete_signature|"
 msgstr ""
 
+#: ../../scp_dock.rst:76
+msgid "delete_signature"
+msgstr ""
+
 #: ../../scp_dock.rst:370
 msgid "delete highlighted ROIs and signatures"
 msgstr ""
 
 #: ../../scp_dock.rst:371
 msgid "|sign_plot|"
+msgstr ""
+
+#: ../../scp_dock.rst:49
+msgid "sign_plot"
 msgstr ""
 
 #: ../../scp_dock.rst:372
@@ -601,6 +493,10 @@ msgstr ""
 msgid "|scatter_plot|"
 msgstr ""
 
+#: ../../scp_dock.rst:100
+msgid "scatter_plot"
+msgstr ""
+
 #: ../../scp_dock.rst:375
 msgid "add highlighted ROIs to the :ref:`scatter_plot`"
 msgstr ""
@@ -609,12 +505,20 @@ msgstr ""
 msgid "|import_spectral_library|"
 msgstr ""
 
+#: ../../scp_dock.rst:118
+msgid "import_spectral_library"
+msgstr ""
+
 #: ../../scp_dock.rst:377 ../../scp_dock.rst:479
 msgid "open the tab :ref:`import_signatures_tab`"
 msgstr ""
 
 #: ../../scp_dock.rst:378
 msgid "|export_spectral_library|"
+msgstr ""
+
+#: ../../scp_dock.rst:121
+msgid "export_spectral_library"
 msgstr ""
 
 #: ../../scp_dock.rst:379 ../../scp_dock.rst:481
@@ -632,6 +536,10 @@ msgstr ""
 
 #: ../../scp_dock.rst:395
 msgid ":guilabel:`MC ID` |input_number| |project_save|"
+msgstr ""
+
+#: ../../scp_dock.rst:25
+msgid "input_number"
 msgstr ""
 
 #: ../../scp_dock.rst:396
@@ -666,6 +574,10 @@ msgstr ""
 msgid "|undo_save_roi|"
 msgstr ""
 
+#: ../../scp_dock.rst:124
+msgid "undo_save_roi"
+msgstr ""
+
 #: ../../scp_dock.rst:404
 msgid ""
 "undo of ROI creation from the :ref:`training_input`; it is possible to "
@@ -674,6 +586,10 @@ msgstr ""
 
 #: ../../scp_dock.rst:406
 msgid "|redo_save_roi|"
+msgstr ""
+
+#: ../../scp_dock.rst:127
+msgid "redo_save_roi"
 msgstr ""
 
 #: ../../scp_dock.rst:407
@@ -706,6 +622,10 @@ msgstr ""
 msgid "|save_roi|"
 msgstr ""
 
+#: ../../scp_dock.rst:73
+msgid "save_roi"
+msgstr ""
+
 #: ../../scp_dock.rst:417
 msgid ""
 "save the temporary ROI to the :ref:`training_input` using the defined "
@@ -730,12 +650,20 @@ msgstr ""
 msgid "|zoom_to_ROI| :guilabel:`Zoom to`"
 msgstr ""
 
+#: ../../scp_dock.rst:85
+msgid "zoom_to_ROI"
+msgstr ""
+
 #: ../../scp_dock.rst:441
 msgid "zoom to highlighted items (if ROI polygons) in the map"
 msgstr ""
 
 #: ../../scp_dock.rst:442
 msgid "|check| :guilabel:`Check/uncheck`"
+msgstr ""
+
+#: ../../scp_dock.rst:88
+msgid "check"
 msgstr ""
 
 #: ../../scp_dock.rst:443
@@ -746,6 +674,10 @@ msgstr ""
 msgid "|select_all| :guilabel:`Clear selection`"
 msgstr ""
 
+#: ../../scp_dock.rst:91
+msgid "select_all"
+msgstr ""
+
 #: ../../scp_dock.rst:445
 msgid "clear selection of highlighted items"
 msgstr ""
@@ -754,12 +686,20 @@ msgstr ""
 msgid "|docks| :guilabel:`Collapse/expand all`"
 msgstr ""
 
+#: ../../scp_dock.rst:94
+msgid "docks"
+msgstr ""
+
 #: ../../scp_dock.rst:447
 msgid "collapse or expand all macroclasses"
 msgstr ""
 
 #: ../../scp_dock.rst:448
 msgid "|enter| :guilabel:`Change MC ID`"
+msgstr ""
+
+#: ../../scp_dock.rst:82
+msgid "enter"
 msgstr ""
 
 #: ../../scp_dock.rst:449
@@ -838,6 +778,10 @@ msgstr ""
 msgid "|accuracy_tool| :guilabel:`Properties`"
 msgstr ""
 
+#: ../../scp_dock.rst:79
+msgid "accuracy_tool"
+msgstr ""
+
 #: ../../scp_dock.rst:477
 msgid "show the properties of highlighted items;"
 msgstr ""
@@ -866,6 +810,10 @@ msgstr ""
 
 #: ../../scp_dock.rst:503
 msgid "|checkbox| :guilabel:`Display` |input_list| |project_save|"
+msgstr ""
+
+#: ../../scp_dock.rst:16
+msgid "input_list"
 msgstr ""
 
 #: ../../scp_dock.rst:504

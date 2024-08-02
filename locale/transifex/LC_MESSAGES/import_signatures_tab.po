@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,70 +22,14 @@ msgstr ""
 msgid "Import signatures"
 msgstr ""
 
-#: ../../import_signatures_tab.rst:12
-msgid "registry_save"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:15
-msgid "project_save"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:18
-msgid "optional"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:21
-msgid "input_list"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:24
-msgid "input_text"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:27
-msgid "input_date"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:30
-msgid "input_number"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:33
-msgid "input_table"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:36
-msgid "open_file"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:39
-msgid "new_file"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:42
-msgid "add"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:45
-msgid "reset"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:48
-msgid "checkbox"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:51
-msgid "enter"
-msgstr ""
-
-#: ../../import_signatures_tab.rst:54
-msgid "import_spectral_library"
-msgstr ""
-
 #: ../../import_signatures_tab.rst:58
 msgid ""
 "The tab |import_spectral_library| :guilabel:`Import signatures` allows "
 "for importing spectral signatures from various sources."
+msgstr ""
+
+#: ../../import_signatures_tab.rst:54
+msgid "import_spectral_library"
 msgstr ""
 
 #: ../../import_signatures_tab.rst:64
@@ -120,6 +64,10 @@ msgstr ""
 msgid ":guilabel:`Select a file` |open_file|"
 msgstr ""
 
+#: ../../import_signatures_tab.rst:36
+msgid "open_file"
+msgstr ""
+
 #: ../../import_signatures_tab.rst:86
 msgid "open a file to be imported in the :ref:`training_input`"
 msgstr ""
@@ -148,6 +96,10 @@ msgstr ""
 
 #: ../../import_signatures_tab.rst:110
 msgid ":guilabel:`MC ID field` |input_list|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:21
+msgid "input_list"
 msgstr ""
 
 #: ../../import_signatures_tab.rst:111
@@ -182,6 +134,10 @@ msgstr ""
 msgid "|checkbox| :guilabel:`Calculate sig.`"
 msgstr ""
 
+#: ../../import_signatures_tab.rst:48
+msgid "checkbox"
+msgstr ""
+
 #: ../../import_signatures_tab.rst:119
 msgid ""
 "if checked, the spectral signature is calculated while the ROI is saved "
@@ -190,6 +146,10 @@ msgstr ""
 
 #: ../../import_signatures_tab.rst:121
 msgid ":guilabel:`Import vector` |enter|"
+msgstr ""
+
+#: ../../import_signatures_tab.rst:51
+msgid "enter"
 msgstr ""
 
 #: ../../import_signatures_tab.rst:122

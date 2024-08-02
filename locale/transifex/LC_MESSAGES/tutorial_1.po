@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 18:03+0100\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,62 +20,6 @@ msgstr ""
 
 #: ../../tutorial_1.rst:5 ../../tutorial_1.rst:70
 msgid "Tutorial 1: Basic Land Cover Classification"
-msgstr ""
-
-#: ../../tutorial_1.rst:7
-msgid "checkbox"
-msgstr ""
-
-#: ../../tutorial_1.rst:10
-msgid "pointer"
-msgstr ""
-
-#: ../../tutorial_1.rst:13
-msgid "run"
-msgstr ""
-
-#: ../../tutorial_1.rst:16
-msgid "open_file"
-msgstr ""
-
-#: ../../tutorial_1.rst:19
-msgid "new_file"
-msgstr ""
-
-#: ../../tutorial_1.rst:22
-msgid "import_spectral_library"
-msgstr ""
-
-#: ../../tutorial_1.rst:25
-msgid "bandset_tool"
-msgstr ""
-
-#: ../../tutorial_1.rst:28
-msgid "manual_ROI"
-msgstr ""
-
-#: ../../tutorial_1.rst:31
-msgid "save_roi"
-msgstr ""
-
-#: ../../tutorial_1.rst:34
-msgid "roi_single"
-msgstr ""
-
-#: ../../tutorial_1.rst:37
-msgid "preview"
-msgstr ""
-
-#: ../../tutorial_1.rst:40
-msgid "preview_redo"
-msgstr ""
-
-#: ../../tutorial_1.rst:43
-msgid "delete_signature"
-msgstr ""
-
-#: ../../tutorial_1.rst:46
-msgid "sign_plot"
 msgstr ""
 
 #: ../../tutorial_1.rst:50
@@ -279,10 +223,18 @@ msgid ""
 ":ref:`SCP_menu` or the :ref:`SCP_dock`."
 msgstr ""
 
+#: ../../tutorial_1.rst:25
+msgid "bandset_tool"
+msgstr ""
+
 #: ../../tutorial_1.rst:150
 msgid ""
 "Click the button |open_file| to select the ``.tif`` files from the "
 "extracted directory to the :guilabel:`Band set` tab."
+msgstr ""
+
+#: ../../tutorial_1.rst:16
+msgid "open_file"
 msgstr ""
 
 #: ../../tutorial_1.rst:154
@@ -354,6 +306,10 @@ msgid ""
 "name such as ``training.scpx``)."
 msgstr ""
 
+#: ../../tutorial_1.rst:19
+msgid "new_file"
+msgstr ""
+
 #: ../../tutorial_1.rst:205
 msgid ""
 "A :guilabel:`Training input` is a ``.scpx`` file which stores the "
@@ -364,6 +320,10 @@ msgid ""
 ":guilabel:`Training input`, and then import the existing "
 ":guilabel:`Training input` with |import_spectral_library| "
 ":ref:`import_library_file_tab` ."
+msgstr ""
+
+#: ../../tutorial_1.rst:22
+msgid "import_spectral_library"
 msgstr ""
 
 #: ../../tutorial_1.rst:215
@@ -464,6 +424,10 @@ msgid ""
 "saved in the :ref:`training_input`)."
 msgstr ""
 
+#: ../../tutorial_1.rst:28
+msgid "manual_ROI"
+msgstr ""
+
 #: ../../tutorial_1.rst:272
 msgid ""
 "You can draw temporary polygons (the previous one will be overridden) "
@@ -489,11 +453,19 @@ msgid ""
 " input`."
 msgstr ""
 
+#: ../../tutorial_1.rst:31
+msgid "save_roi"
+msgstr ""
+
 #: ../../tutorial_1.rst:289
 msgid ""
 "After a few seconds, the ROI is listed in the :ref:`ROI_list` and the "
 "spectral signature is calculated (because |checkbox| "
 ":guilabel:`Signature` is checked)."
+msgstr ""
+
+#: ../../tutorial_1.rst:7
+msgid "checkbox"
 msgstr ""
 
 #: ../../tutorial_1.rst:296 ../../tutorial_1.rst:330
@@ -518,6 +490,10 @@ msgid ""
 "the button |roi_single| in the :ref:`working_toolbar` and click over the "
 "light blue area of the map. After a while the orange semi-transparent "
 "polygon is displayed over the image."
+msgstr ""
+
+#: ../../tutorial_1.rst:34
+msgid "roi_single"
 msgstr ""
 
 #: ../../tutorial_1.rst:315
@@ -566,6 +542,10 @@ msgstr ""
 msgid ""
 "It is possible to display the :guilabel:`Spectral signatures` of created "
 "ROIs in the |sign_plot| :ref:`spectral_signature_plot`."
+msgstr ""
+
+#: ../../tutorial_1.rst:46
+msgid "sign_plot"
 msgstr ""
 
 #: ../../tutorial_1.rst:359
@@ -623,6 +603,10 @@ msgid ""
 "square centered in the clicked coordinates."
 msgstr ""
 
+#: ../../tutorial_1.rst:37
+msgid "preview"
+msgstr ""
+
 #: ../../tutorial_1.rst:406
 msgid ":guilabel:`Classification preview displayed over the image using C ID`"
 msgstr ""
@@ -637,6 +621,10 @@ msgid ""
 "defined for macroclass."
 msgstr ""
 
+#: ../../tutorial_1.rst:40
+msgid "preview_redo"
+msgstr ""
+
 #: ../../tutorial_1.rst:420
 msgid ":guilabel:`Classification preview displayed over the image using MC ID`"
 msgstr ""
@@ -648,6 +636,10 @@ msgid ""
 "the contribution thereof to the classification; if the ROI causes errors,"
 " it can be removed from the :guilabel:`Training input` with the button "
 "|delete_signature|."
+msgstr ""
+
+#: ../../tutorial_1.rst:43
+msgid "delete_signature"
 msgstr ""
 
 #: ../../tutorial_1.rst:435
@@ -668,6 +660,10 @@ msgid ""
 ":guilabel:`Macroclass ID`. Click the button :ref:`classification_run` "
 "|run| and define the path of the classification output, which is a raster"
 " file (.tif)."
+msgstr ""
+
+#: ../../tutorial_1.rst:13
+msgid "run"
 msgstr ""
 
 #: ../../tutorial_1.rst:451
@@ -703,7 +699,4 @@ msgid ""
 "preprocessing of bands, the classification algorithms, and the "
 "postprocessing of classifications."
 msgstr ""
-
-#~ msgid "Tutorial 1"
-#~ msgstr ""
 

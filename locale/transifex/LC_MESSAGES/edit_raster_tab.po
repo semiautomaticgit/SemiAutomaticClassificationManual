@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2024, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../edit_raster_tab.rst:5 ../../edit_raster_tab.rst:138
+msgid "Edit raster"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:118
+msgid ":guilabel:`Edit raster`"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:120
+msgid ""
+"This tab allows for the direct editing of pixel values in a raster. Only "
+"pixels beneath ROI polygons or vector polygons are edited."
+msgstr ""
+
+#: ../../edit_raster_tab.rst:124
+msgid ""
+"The input raster is directly edited; it is recommended to create a "
+"**backup copy** of the input raster before using this tool in order to "
+"prevent data loss."
+msgstr ""
+
+#: ../../edit_raster_tab.rst:128
+msgid ""
+"This tool can rapidly edit large rasters, especially when editing "
+"polygons are small, because pixel values are edited directly."
+msgstr ""
+
+#: ../../edit_raster_tab.rst:132
+msgid ""
+"Information about APIs of this tool in Remotior Sensus at this `link "
+"<https://remotior-"
+"sensus.readthedocs.io/en/latest/remotior_sensus.tools.raster_edit.html>`_"
+" ."
+msgstr ""
+
+#: ../../edit_raster_tab.rst:144 ../../edit_raster_tab.rst:160
+#: ../../edit_raster_tab.rst:178 ../../edit_raster_tab.rst:211
+msgid "Tool symbol and name"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:145 ../../edit_raster_tab.rst:161
+#: ../../edit_raster_tab.rst:179 ../../edit_raster_tab.rst:212
+msgid "Description"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:146
+msgid ":guilabel:`Select the classification` |input_list|"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:20
+msgid "input_list"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:147
+msgid "select a raster (already loaded in QGIS)"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:148 ../../edit_raster_tab.rst:166
+msgid "|reload|"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:101
+msgid "reload"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:149 ../../edit_raster_tab.rst:167
+msgid "refresh layer list"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:154 ../../edit_raster_tab.rst:205
+msgid "Edit raster values"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:162
+msgid "|radiobutton| :guilabel:`Edit values using ROI polygons`"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:110
+msgid "radiobutton"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:163
+msgid "if checked, raster is edited using temporary ROI polygons in the map"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:164
+msgid "|radiobutton| :guilabel:`Edit values using a vector` |input_list|"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:165
+msgid "if checked, raster is edited using all the polygons of selected vector"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:172
+msgid "Edit options"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:180
+msgid "|radiobutton| :guilabel:`Use the value field of the vector` |input_list|"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:182
+msgid ""
+"if checked, raster is edited using the selected vector in :guilabel:`Edit"
+" values using a vector`) and the polygon values of selected vector field"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:185
+msgid "|radiobutton| :guilabel:`Use constant value` |input_number|"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:29
+msgid "input_number"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:186
+msgid "if checked, raster is edited using the selected constant value"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:187
+msgid "|radiobutton| :guilabel:`Use expression` |input_text|"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:23
+msgid "input_text"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:188
+msgid ""
+"if checked, raster is edited according to the entered expression; the "
+"expression must contain one or more ``where``;"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:191
+msgid ""
+"accepted variables are: ``\"raster\"`` representing the input raster "
+"value and ``\"vector\"`` representing the vector value if selected; the "
+"following example expression ``where(\"raster\" == 1, 2, \"raster\")`` is"
+" already entered, which sets 2 where ``\"raster\"`` equals 1, and leaves "
+"unchanged the values where ``\"raster\"`` is not equal to 1;"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:198
+msgid ""
+"this expression only edit pixels that are beneath the input vector "
+"polygons"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:213
+msgid "|undo_edit_raster|"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:92
+msgid "undo_edit_raster"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:214
+msgid "undo last edit of raster"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:215
+msgid ":guilabel:`Script` |script_tool|"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:74
+msgid "script_tool"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:216
+msgid "add this function to the :ref:`script_tab`"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:217
+msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:107
+msgid "run"
+msgstr ""
+
+#: ../../edit_raster_tab.rst:218
+msgid "run this function"
+msgstr ""
+

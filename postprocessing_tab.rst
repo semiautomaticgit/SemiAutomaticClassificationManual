@@ -17,4 +17,6 @@ The tab |post_process| :guilabel:`Postprocessing` provides several functions tha
     classification_report_tab.rst
     classification_to_vector_tab.rst
     cross_classification_tab.rst
+    edit_raster_tab.rst
+    raster_zonal_stats_tab.rst
     reclassification_tab.rst

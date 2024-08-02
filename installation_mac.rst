@@ -1,7 +1,7 @@
 .. _installation_mac:
 
 ***********************
-Installation in macOS
+macOS
 ***********************
 
 
@@ -12,7 +12,7 @@ QGIS download and installation
 
 
 * Download the latest QGIS version from
-  `here <https://www.qgis.org/en/site/forusers/download.html#mac>`_ ;
+  `here <https://www.qgis.org/download/#mac>`_ ;
 
 * Execute the QGIS installer with administrative rights, accepting the default
   configuration.

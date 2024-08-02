@@ -1,7 +1,7 @@
 .. _network_installation_win64:
 
 ******************************************
-Network installation in Windows 64 bit
+OSGeo4W Network installer in Windows
 ******************************************
 
 

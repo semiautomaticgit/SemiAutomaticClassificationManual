@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,174 +20,6 @@ msgstr ""
 
 #: ../../mosaic_bandsets_tab.rst:5 ../../mosaic_bandsets_tab.rst:160
 msgid "Mosaic of band sets"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:12
-msgid "registry_save"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:15
-msgid "project_save"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:18
-msgid "optional"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:21
-msgid "input_list"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:24
-msgid "input_text"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:27
-msgid "input_date"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:30
-msgid "input_number"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:33
-msgid "input_table"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:36
-msgid "open_file"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:39
-msgid "new_file"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:42
-msgid "open_dir"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:45
-msgid "remove"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:48
-msgid "add"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:51
-msgid "reset"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:54
-msgid "bandset_tool"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:57
-msgid "download"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:60
-msgid "sign_plot"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:63
-msgid "tools"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:66
-msgid "preprocessing"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:69
-msgid "band_processing"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:72
-msgid "postprocessing"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:75
-msgid "bandcalc"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:78
-msgid "settings"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:81
-msgid "script_tool"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:84
-msgid "save_roi"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:87
-msgid "delete_signature"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:90
-msgid "accuracy_tool"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:93
-msgid "enter"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:96
-msgid "zoom_to_ROI"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:99
-msgid "check"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:102
-msgid "select_all"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:105
-msgid "docks"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:108
-msgid "add_sign_tool"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:111
-msgid "scatter_plot"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:114
-msgid "merge_sign"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:117
-msgid "guide"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:120
-msgid "help"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:123
-msgid "reload"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:126
-msgid "checkbox"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:129
-msgid "run"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:132
-msgid "radiobutton"
-msgstr ""
-
-#: ../../mosaic_bandsets_tab.rst:135
-msgid "mosaic_tool"
 msgstr ""
 
 #: ../../mosaic_bandsets_tab.rst:144
@@ -222,6 +54,10 @@ msgstr ""
 msgid ":guilabel:`Band set list` |input_text|"
 msgstr ""
 
+#: ../../mosaic_bandsets_tab.rst:24
+msgid "input_text"
+msgstr ""
+
 #: ../../mosaic_bandsets_tab.rst:170
 msgid ""
 "list if band sets defined in the :ref:`band_set_tab`; in case of "
@@ -233,6 +69,14 @@ msgstr ""
 msgid "|checkbox| :guilabel:`Use value as  NoData` |input_number|"
 msgstr ""
 
+#: ../../mosaic_bandsets_tab.rst:126
+msgid "checkbox"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:30
+msgid "input_number"
+msgstr ""
+
 #: ../../mosaic_bandsets_tab.rst:174
 msgid ""
 "if checked, set the value of ``NoData`` pixels, ignored during the "
@@ -241,6 +85,10 @@ msgstr ""
 
 #: ../../mosaic_bandsets_tab.rst:176
 msgid "|checkbox| :guilabel:`Create virtual raster output` |optional|"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:18
+msgid "optional"
 msgstr ""
 
 #: ../../mosaic_bandsets_tab.rst:177
@@ -262,12 +110,20 @@ msgstr ""
 msgid ":guilabel:`Script` |script_tool|"
 msgstr ""
 
+#: ../../mosaic_bandsets_tab.rst:81
+msgid "script_tool"
+msgstr ""
+
 #: ../../mosaic_bandsets_tab.rst:184
 msgid "add this function to the :ref:`script_tab`"
 msgstr ""
 
 #: ../../mosaic_bandsets_tab.rst:185
 msgid ":guilabel:`RUN` |run|"
+msgstr ""
+
+#: ../../mosaic_bandsets_tab.rst:129
+msgid "run"
 msgstr ""
 
 #: ../../mosaic_bandsets_tab.rst:186

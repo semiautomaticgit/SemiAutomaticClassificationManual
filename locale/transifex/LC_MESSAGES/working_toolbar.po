@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2012-2023, Luca Congedo
+# Copyright (C) 2012-2024, Luca Congedo
 # This file is distributed under the same license as the Semi-Automatic
 # Classification Plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Semi-Automatic Classification Plugin 8.0\n"
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-23 00:33+0200\n"
+"POT-Creation-Date: 2024-08-02 20:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,94 +20,6 @@ msgstr ""
 
 #: ../../working_toolbar.rst:5
 msgid "Working toolbar"
-msgstr ""
-
-#: ../../working_toolbar.rst:8
-msgid "registry_save"
-msgstr ""
-
-#: ../../working_toolbar.rst:11
-msgid "project_save"
-msgstr ""
-
-#: ../../working_toolbar.rst:14
-msgid "optional"
-msgstr ""
-
-#: ../../working_toolbar.rst:17
-msgid "input_list"
-msgstr ""
-
-#: ../../working_toolbar.rst:20
-msgid "input_text"
-msgstr ""
-
-#: ../../working_toolbar.rst:23
-msgid "input_date"
-msgstr ""
-
-#: ../../working_toolbar.rst:26
-msgid "input_number"
-msgstr ""
-
-#: ../../working_toolbar.rst:29
-msgid "input_slider"
-msgstr ""
-
-#: ../../working_toolbar.rst:32
-msgid "input_table"
-msgstr ""
-
-#: ../../working_toolbar.rst:35
-msgid "plugin"
-msgstr ""
-
-#: ../../working_toolbar.rst:38
-msgid "cumulative_stretch"
-msgstr ""
-
-#: ../../working_toolbar.rst:41
-msgid "zoom_to_Image"
-msgstr ""
-
-#: ../../working_toolbar.rst:44
-msgid "zoom_to_ROI"
-msgstr ""
-
-#: ../../working_toolbar.rst:47
-msgid "zoom_to_preview"
-msgstr ""
-
-#: ../../working_toolbar.rst:50
-msgid "std_dev_stretch"
-msgstr ""
-
-#: ../../working_toolbar.rst:53
-msgid "manual_ROI"
-msgstr ""
-
-#: ../../working_toolbar.rst:56
-msgid "roi_single"
-msgstr ""
-
-#: ../../working_toolbar.rst:59
-msgid "roi_redo"
-msgstr ""
-
-#: ../../working_toolbar.rst:62
-msgid "preview"
-msgstr ""
-
-#: ../../working_toolbar.rst:65
-msgid "preview_redo"
-msgstr ""
-
-#: ../../working_toolbar.rst:68
-msgid "kml_add"
-msgstr ""
-
-#: ../../working_toolbar.rst:71
-msgid "radiobutton"
 msgstr ""
 
 #: ../../working_toolbar.rst:78
@@ -142,12 +54,20 @@ msgstr ""
 msgid "|plugin|"
 msgstr ""
 
+#: ../../working_toolbar.rst:35
+msgid "plugin"
+msgstr ""
+
 #: ../../working_toolbar.rst:102
 msgid "show the :ref:`main_interface_window`"
 msgstr ""
 
 #: ../../working_toolbar.rst:103
 msgid "|zoom_to_Image|"
+msgstr ""
+
+#: ../../working_toolbar.rst:41
+msgid "zoom_to_Image"
 msgstr ""
 
 #: ../../working_toolbar.rst:104
@@ -158,6 +78,18 @@ msgstr ""
 
 #: ../../working_toolbar.rst:106
 msgid "|radiobutton| :guilabel:`RGB=` |input_list| |project_save|"
+msgstr ""
+
+#: ../../working_toolbar.rst:71
+msgid "radiobutton"
+msgstr ""
+
+#: ../../working_toolbar.rst:17
+msgid "input_list"
+msgstr ""
+
+#: ../../working_toolbar.rst:11
+msgid "project_save"
 msgstr ""
 
 #: ../../working_toolbar.rst:107
@@ -174,6 +106,10 @@ msgstr ""
 msgid "|cumulative_stretch|"
 msgstr ""
 
+#: ../../working_toolbar.rst:38
+msgid "cumulative_stretch"
+msgstr ""
+
 #: ../../working_toolbar.rst:114
 msgid ""
 "display the input image stretching the minimum and maximum values "
@@ -182,6 +118,10 @@ msgstr ""
 
 #: ../../working_toolbar.rst:116
 msgid "|std_dev_stretch|"
+msgstr ""
+
+#: ../../working_toolbar.rst:50
+msgid "std_dev_stretch"
 msgstr ""
 
 #: ../../working_toolbar.rst:117
@@ -207,6 +147,10 @@ msgstr ""
 msgid "|zoom_to_ROI|"
 msgstr ""
 
+#: ../../working_toolbar.rst:44
+msgid "zoom_to_ROI"
+msgstr ""
+
 #: ../../working_toolbar.rst:139
 msgid "zoom the map to the extent of :guilabel:`temporary ROI`"
 msgstr ""
@@ -225,6 +169,10 @@ msgstr ""
 msgid "|manual_ROI|"
 msgstr ""
 
+#: ../../working_toolbar.rst:53
+msgid "manual_ROI"
+msgstr ""
+
 #: ../../working_toolbar.rst:144
 msgid ""
 "activate the pointer to create a :guilabel:`temporary ROI` by drawing a "
@@ -236,6 +184,10 @@ msgstr ""
 
 #: ../../working_toolbar.rst:149
 msgid "|roi_single|:"
+msgstr ""
+
+#: ../../working_toolbar.rst:56
+msgid "roi_single"
 msgstr ""
 
 #: ../../working_toolbar.rst:150
@@ -255,6 +207,10 @@ msgstr ""
 msgid "|roi_redo|"
 msgstr ""
 
+#: ../../working_toolbar.rst:59
+msgid "roi_redo"
+msgstr ""
+
 #: ../../working_toolbar.rst:160
 msgid ""
 "create a :guilabel:`temporary ROI` using the region growing algorithm at "
@@ -271,6 +227,10 @@ msgstr ""
 
 #: ../../working_toolbar.rst:174
 msgid ":guilabel:`Dist` |input_number| |project_save|"
+msgstr ""
+
+#: ../../working_toolbar.rst:26
+msgid "input_number"
 msgstr ""
 
 #: ../../working_toolbar.rst:175
@@ -343,6 +303,10 @@ msgstr ""
 msgid "|zoom_to_preview|"
 msgstr ""
 
+#: ../../working_toolbar.rst:47
+msgid "zoom_to_preview"
+msgstr ""
+
 #: ../../working_toolbar.rst:223
 msgid "zoom the map to the extent of the last :ref:`classification_preview`"
 msgstr ""
@@ -361,6 +325,10 @@ msgstr ""
 msgid "|preview|"
 msgstr ""
 
+#: ../../working_toolbar.rst:62
+msgid "preview"
+msgstr ""
+
 #: ../../working_toolbar.rst:228
 msgid ""
 "activate the pointer for the creation of a :ref:`classification_preview`;"
@@ -370,6 +338,10 @@ msgstr ""
 
 #: ../../working_toolbar.rst:231
 msgid "|preview_redo|"
+msgstr ""
+
+#: ../../working_toolbar.rst:65
+msgid "preview_redo"
 msgstr ""
 
 #: ../../working_toolbar.rst:232
@@ -400,6 +372,10 @@ msgstr ""
 
 #: ../../working_toolbar.rst:240
 msgid "|kml_add|"
+msgstr ""
+
+#: ../../working_toolbar.rst:68
+msgid "kml_add"
 msgstr ""
 
 #: ../../working_toolbar.rst:241

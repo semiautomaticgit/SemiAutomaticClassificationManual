@@ -1,7 +1,7 @@
 .. _installation_debian:
 
 ******************************************
-Installation in Debian/Ubuntu Linux
+Linux Debian/Ubuntu
 ******************************************
 
 
@@ -9,6 +9,9 @@ Installation in Debian/Ubuntu Linux
  
 QGIS download and installation
 ------------------------------------------
+
+This guide describes the installation for Debian/Ubuntu Linux.
+For other Linux distributions please follow :ref:`installation_conda`.
 
 * Open a terminal and type:
 
@@ -35,7 +38,6 @@ Now, QGIS is installed.
 
 Installation of required dependencies
 -------------------------------------------------
-
 
 The Semi-Automatic Classification Plugin requires Remotior Sensus, GDAL, NumPy
 and SciPy for most functionalities.

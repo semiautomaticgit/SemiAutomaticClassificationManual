@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2024, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic
+# Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-15 19:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../tutorial_rf.rst:5
+msgid "Tutorial: Random Forest Classification"
+msgstr ""
+
+#: ../../tutorial_rf.rst:55
+msgid ""
+"The following is a tutorial about the land cover classification using the"
+" Random Forest algorithm in the Semi-Automatic Classification Plugin "
+"(:guilabel:`SCP`). Please note that the installation of the dependency "
+"``scikit-learn`` is required (see :ref:`installation`). It is assumed "
+"that you have already read the :ref:`tutorials`."
+msgstr ""
+
+#: ../../tutorial_rf.rst:62
+msgid "Following the video of the tutorial."
+msgstr ""
+
+#: ../../tutorial_rf.rst:64
+msgid "https://www.youtube.com/watch?v=2JU3XMkWdPo"
+msgstr ""
+
+#: ../../tutorial_rf.rst:79
+msgid "Introduction"
+msgstr ""
+
+#: ../../tutorial_rf.rst:81
+msgid ""
+"This tutorial describes how to perform the land cover classification of a"
+" multispectral image using the Random Forest algorithm. It is recommended"
+" to read the :ref:`tutorial_1` before following this tutorial. We are "
+"going to identify the following land cover classes:"
+msgstr ""
+
+#: ../../tutorial_rf.rst:87
+msgid "Water;"
+msgstr ""
+
+#: ../../tutorial_rf.rst:88
+msgid "Built-up;"
+msgstr ""
+
+#: ../../tutorial_rf.rst:89
+msgid "Vegetation;"
+msgstr ""
+
+#: ../../tutorial_rf.rst:90
+msgid "Soil."
+msgstr ""
+
+#: ../../tutorial_rf.rst:95
+msgid "Download the Data and prepare the Band set"
+msgstr ""
+
+#: ../../tutorial_rf.rst:97
+msgid ""
+"In this tutorial we are going to use a subset of "
+":ref:`Sentinel2_definition` image, already converted to reflectance and "
+"clipped to the study area, downloading a ``.zip`` file (which contains "
+"modified `Copernicus <http://copernicus.eu/>`_ Sentinel data 2023). Of "
+"course, this tutorial can be applied to any multispectral image."
+msgstr ""
+
+#: ../../tutorial_rf.rst:104
+msgid ""
+"For more information about how to download images, please read "
+":ref:`basic_tutorial_3`."
+msgstr ""
+
+#: ../../tutorial_rf.rst:107
+msgid ""
+"Download the ``.zip`` file from this `link 1 "
+"<https://docs.google.com/uc?id=1cWerxZeBY4TJmctKwsvXkfa3No37Pr9a>`_ and "
+"extract the directory containing the image bands."
+msgstr ""
+
+#: ../../tutorial_rf.rst:111
+msgid ""
+"We must define the :guilabel:`Band set` which is the input image for "
+":guilabel:`SCP` classification. Open the tab :ref:`band_set_tab` clicking"
+" the button |bandset_tool| in the :ref:`SCP_menu` or the :ref:`SCP_dock`."
+" Click the button |open_file| to select the ``.tif`` files from the "
+"extracted directory to the :guilabel:`Band set` tab. Select "
+":guilabel:`Sentinel-2` in the :guilabel:`Wavelength` list of the "
+":ref:`band_quick_settings`."
+msgstr ""
+
+#: ../../tutorial_rf.rst:25
+msgid "bandset_tool"
+msgstr ""
+
+#: ../../tutorial_rf.rst:16
+msgid "open_file"
+msgstr ""
+
+#: ../../tutorial_rf.rst:124
+msgid ":guilabel:`Definition of the band set`"
+msgstr ""
+
+#: ../../tutorial_rf.rst:126
+msgid ""
+"We can display the image in natural colors. In the "
+":ref:`working_toolbar`, click the list :guilabel:`RGB=` and select the "
+"item ``3-2-1``."
+msgstr ""
+
+#: ../../tutorial_rf.rst:134
+msgid ":guilabel:`Color composite RGB=3-2-1`"
+msgstr ""
+
+#: ../../tutorial_rf.rst:139
+msgid "Create the ROIs"
+msgstr ""
+
+#: ../../tutorial_rf.rst:141
+msgid ""
+"In general, we need to create a :ref:`training_input` file in order to "
+"collect :ref:`ROI_definition` (ROIs) to train the classification "
+"algorithm. In this tutorial, we are going to import a GeoPackage "
+"``.gpkg`` file containing polygons that we are going to import in a "
+":guilabel:`Training input` file. Download the GeoPackage ``.gpkg`` file "
+"from this `link "
+"<https://docs.google.com/uc?id=1onFqHdk1aTN9WYb6ZoUnAkZMiZEUoITd>`_ ."
+msgstr ""
+
+#: ../../tutorial_rf.rst:151
+msgid ""
+"For more information about how to create the ROIs, please read "
+":ref:`tutorial_1`."
+msgstr ""
+
+#: ../../tutorial_rf.rst:154
+msgid ""
+"This GeoPackage ``.gpkg`` file includes the Macroclass IDs defined in the"
+" following table, which is the classification system. Of course, classes "
+"should be adapted to the classification objective."
+msgstr ""
+
+#: ../../tutorial_rf.rst:159
+msgid "Macroclass name"
+msgstr ""
+
+#: ../../tutorial_rf.rst:159
+msgid "Macroclass ID"
+msgstr ""
+
+#: ../../tutorial_rf.rst:161
+msgid "Water"
+msgstr ""
+
+#: ../../tutorial_rf.rst:161
+msgid "1"
+msgstr ""
+
+#: ../../tutorial_rf.rst:163
+msgid "Built-up"
+msgstr ""
+
+#: ../../tutorial_rf.rst:163
+msgid "2"
+msgstr ""
+
+#: ../../tutorial_rf.rst:165
+msgid "Vegetation"
+msgstr ""
+
+#: ../../tutorial_rf.rst:165
+msgid "3"
+msgstr ""
+
+#: ../../tutorial_rf.rst:167
+msgid "Soil"
+msgstr ""
+
+#: ../../tutorial_rf.rst:167
+msgid "4"
+msgstr ""
+
+#: ../../tutorial_rf.rst:170
+msgid ""
+"In the :ref:`SCP_dock` select the tab :ref:`training_input` and click the"
+" button |new_file| to create the :guilabel:`Training input` (define a "
+"name such as ``training.scpx``). The path of the file is displayed and a "
+"vector is added to QGIS layers with the same name as the "
+":guilabel:`Training input`."
+msgstr ""
+
+#: ../../tutorial_rf.rst:19
+msgid "new_file"
+msgstr ""
+
+#: ../../tutorial_rf.rst:179
+msgid ":guilabel:`Definition of Training input in SCP`"
+msgstr ""
+
+#: ../../tutorial_rf.rst:181
+msgid ""
+"Now open the tool :ref:`import_shapefile_tab` to import the GeoPackage "
+"``.gpkg`` file into the :guilabel:`Training input`."
+msgstr ""
+
+#: ../../tutorial_rf.rst:184
+msgid ""
+"First, in :guilabel:`Select a vector` |open_file| select the path to the "
+"GeoPackage ``.gpkg`` file. Now we can select the vector field "
+"corresponding to :guilabel:`MC ID field`, :guilabel:`MC Name field`, "
+":guilabel:`C ID field`, and :guilabel:`C Name field` which in this vector"
+" are ``macroclass_id``, ``macroclass_name``, ``class_id``, and "
+"``class_name`` respectively. Finally click :guilabel:`Import vector` "
+"|enter| to import all the vector polygons as ROIs in the "
+":ref:`training_input` (this process can take a while). Before running a "
+"classification (or a preview), set the color of land cover classes that "
+"will be displayed in the classification raster. In the :ref:`ROI_list`, "
+"double click the color (in the column :guilabel:`Color`) of each ROI to "
+"choose a representative color of each class. Also, we need to set the "
+"color for macroclasses in :ref:`ROI_list`."
+msgstr ""
+
+#: ../../tutorial_rf.rst:49
+msgid "enter"
+msgstr ""
+
+#: ../../tutorial_rf.rst:201
+msgid ":guilabel:`Imported ROIs in Training input`"
+msgstr ""
+
+#: ../../tutorial_rf.rst:206
+msgid "Create a Classification Preview and Random Forest parameters"
+msgstr ""
+
+#: ../../tutorial_rf.rst:208
+msgid ""
+"We can now perform a :ref:`classification_preview` in order to assess the"
+" results before the final classification."
+msgstr ""
+
+#: ../../tutorial_rf.rst:211
+msgid ""
+"First, we need to select the classification algorithm "
+":ref:`random_forest_definition`. Open the tool :ref:`classification_tab` "
+"to set the :guilabel:`input band set` (in this case 1), check "
+":guilabel:`Use` |checkbox| :guilabel:`Macroclass ID`, and in "
+":ref:`classification_alg` select the :guilabel:`Random forest`."
+msgstr ""
+
+#: ../../tutorial_rf.rst:7
+msgid "checkbox"
+msgstr ""
+
+#: ../../tutorial_rf.rst:220
+msgid ":guilabel:`Selecting the algorithm`"
+msgstr ""
+
+#: ../../tutorial_rf.rst:224
+msgid ""
+"In case you defined the same `Macroclass ID` value for all the ROIs in "
+"the :guilabel:`Training input`, you should check :guilabel:`Use` "
+"|checkbox| :guilabel:`Class ID`."
+msgstr ""
+
+#: ../../tutorial_rf.rst:228
+msgid "Available parameters for :guilabel:`Random forest` are:"
+msgstr ""
+
+#: ../../tutorial_rf.rst:230
+msgid ""
+"``Number of trees`` that sets the number of trees in the forest; this is "
+"one of the most important parameters because it defines the complexity of"
+" the forest, the higher the better but with the downside of increasing "
+"the computation time."
+msgstr ""
+
+#: ../../tutorial_rf.rst:234
+msgid ""
+"``Minimum number to split`` that sets the minimum number of samples "
+"required to split an internal node; in general it can be leaved 2 as "
+"default."
+msgstr ""
+
+#: ../../tutorial_rf.rst:236
+msgid ""
+"``Max features`` that sets the number of features considered in node "
+"splitting; in general it can be leaved empty to consider all features in "
+"node splitting."
+msgstr ""
+
+#: ../../tutorial_rf.rst:240
+msgid ""
+"We can start with ``Number of trees`` set to 10 (the process should be "
+"rapid) and in :ref:`classification_preview` set :guilabel:`Size` = 200; "
+"click the button |preview| and then left click a point of the image in "
+"the map."
+msgstr ""
+
+#: ../../tutorial_rf.rst:37
+msgid "preview"
+msgstr ""
+
+#: ../../tutorial_rf.rst:248
+msgid ":guilabel:`Classification preview displayed over the image`"
+msgstr ""
+
+#: ../../tutorial_rf.rst:250
+msgid ""
+"If we click again the button |preview| and then left click a point of the"
+" image in the map, we should notice that the process is more rapid. This "
+"is because the classifier is already trained, and directly used to "
+"perform the classification."
+msgstr ""
+
+#: ../../tutorial_rf.rst:255
+msgid ""
+"We can increase ``Number of trees`` to 100, click the button |preview| "
+"and then left click a point of the image in the map. Now the process "
+"should take more time because changing the classification parameters "
+"resets the classifier that needs to train again."
+msgstr ""
+
+#: ../../tutorial_rf.rst:261
+msgid "Generally, ``Number of trees`` should be at least 500 for good results."
+msgstr ""
+
+#: ../../tutorial_rf.rst:263
+msgid "Other interesting options are:"
+msgstr ""
+
+#: ../../tutorial_rf.rst:265
+msgid ""
+"|checkbox| :guilabel:`One-Vs-Rest`: if checked, the algorithm performs "
+"`One-Vs-Rest classification <https://scikit-"
+"learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_"
+" which basically fits one classifier per class."
+msgstr ""
+
+#: ../../tutorial_rf.rst:268
+msgid ""
+"|checkbox| :guilabel:`Cross validation`: if checked, perform cross "
+"validation that is a function provided by ``scikit-learn`` to avoid "
+"overfitting by splitting the training set into ``k`` smaller sets (`read "
+"more <https://scikit-learn.org/stable/modules/cross_validation.html>`_ . "
+"In particular, the function ``StratifiedKFold`` (with parameters "
+"n_splits=5, shuffle=True) is used to create 5 sets, each one containing "
+"approximately the same percentage of samples for each class as the "
+"complete set. This option can potentially increase significantly the "
+"computation time."
+msgstr ""
+
+#: ../../tutorial_rf.rst:278
+msgid ""
+"|checkbox| :guilabel:`Balanced class weight`: if checked, gives all "
+"classes equal weight with a balanced weight that is computed inversely "
+"proportional to class frequency in the training data."
+msgstr ""
+
+#: ../../tutorial_rf.rst:281
+msgid ""
+"|checkbox| :guilabel:`Find best estimator with steps`: if checked, the "
+"algorithm tries to find the best estimator iteratively with the defined "
+"number of steps (the more the steps, the slower the process will be), by "
+"changing the algorithm parameters."
+msgstr ""
+
+#: ../../tutorial_rf.rst:286
+msgid ""
+"The option |checkbox| :guilabel:`Calculate classification confidence "
+"raster` is useful for the final classification output; if checked, in "
+"addition to the output classification, a confidence raster is produced "
+"(each pixel represents the confidence of the classifier in assigning the "
+"output class)."
+msgstr ""
+
+#: ../../tutorial_rf.rst:295
+msgid "Create the Classification Output"
+msgstr ""
+
+#: ../../tutorial_rf.rst:297
+msgid ""
+"Assuming that the results of classification previews are satisfactory, we"
+" can perform the actual land cover classification of the whole image. We "
+"can check the option |checkbox| :guilabel:`Calculate classification "
+"confidence raster` to compute also the confidence raster."
+msgstr ""
+
+#: ../../tutorial_rf.rst:303
+msgid ""
+"In :ref:`classification_tab` click the button :ref:`classification_run` "
+"|run| and define the path of the classification output file (.tif)."
+msgstr ""
+
+#: ../../tutorial_rf.rst:13
+msgid "run"
+msgstr ""
+
+#: ../../tutorial_rf.rst:307
+msgid ""
+"We can save the classifier for later use by clicking :guilabel:`Save "
+"classifier` |export| ."
+msgstr ""
+
+#: ../../tutorial_rf.rst:52
+msgid "export"
+msgstr ""
+
+#: ../../tutorial_rf.rst:315
+msgid ":guilabel:`Result of the land cover classification`"
+msgstr ""
+
+#: ../../tutorial_rf.rst:317
+msgid ""
+"We can also analyze the confidence raster; higher values (i.e., near 1) "
+"represent pixels with high confidence, while lower values (i.e., near 0) "
+"represent pixels where the classifier is not well trained and more "
+"uncertain, therefore classification errors are expected."
+msgstr ""
+
+#: ../../tutorial_rf.rst:326
+msgid ":guilabel:`Confidence raster`"
+msgstr ""
+
+#: ../../tutorial_rf.rst:330
+msgid ""
+"It is recommended to analyze the pixels that have low confidence, and "
+"improve the classification by creating new ROIs or editing the existing "
+"ones."
+msgstr ""
+
+#: ../../tutorial_rf.rst:334
+msgid ""
+"We have performed a land cover classification using Random Forest "
+"algorithm. Other classification algorithms are described in other "
+"tutorials."
+msgstr ""
+

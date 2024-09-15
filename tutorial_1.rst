@@ -444,6 +444,11 @@ In :ref:`classification_tab` check
 Click the button :ref:`classification_run` |run| and define the
 path of the classification output, which is a raster file (.tif).
 
+.. tip::
+    In case you defined the same `Macroclass ID` value for all the ROIs in
+    the :guilabel:`Training input`, you should check :guilabel:`Use`
+    |checkbox| :guilabel:`Class ID`.
+
 .. figure:: _static/tutorial_1/tutorial_1_class_1.png
     :align: center
     :width: 100%

@@ -302,6 +302,19 @@ Use the :ref:`multi_layer_perceptron_algorithm` algorithm.
     * - |checkbox| :guilabel:`Calculate classification confidence raster` |optional|
       - if checked, calculate classification confidence raster
 
+:guilabel:`Cross validation` is a function provided by ``scikit-learn`` to
+avoid overfitting by splitting the training set into ``k`` smaller sets
+(`read more <https://scikit-learn.org/stable/modules/cross_validation.html>`_ .
+In particular, the function ``StratifiedKFold`` (with parameters n_splits=5,
+shuffle=True) is used to create 5 sets, each one containing approximately the
+same percentage of samples for each class as the complete set.
+This option can potentially increase significantly the computation time.
+
+If :guilabel:`Find best estimator with steps` is checked, the
+algorithm tries to find the best estimator iteratively with the defined
+number of steps (the more the steps, the slower the process will be),
+by changing the algorithm parameters.
+
 .. _random_forest:
 
 Random Forest
@@ -341,6 +354,27 @@ Use the :ref:`random_forest_definition` algorithm.
       - if checked, find the best estimator iteratively with a number of steps
     * - |checkbox| :guilabel:`Calculate classification confidence raster` |optional|
       - if checked, calculate classification confidence raster
+
+:guilabel:`Cross validation` is a function provided by ``scikit-learn`` to
+avoid overfitting by splitting the training set into ``k`` smaller sets
+(`read more <https://scikit-learn.org/stable/modules/cross_validation.html>`_ .
+In particular, the function ``StratifiedKFold`` (with parameters n_splits=5,
+shuffle=True) is used to create 5 sets, each one containing approximately the
+same percentage of samples for each class as the complete set.
+This option can potentially increase significantly the computation time.
+
+If :guilabel:`Find best estimator with steps` is checked, the
+algorithm tries to find the best estimator iteratively with the defined
+number of steps (the more the steps, the slower the process will be),
+by changing the algorithm parameters.
+
+If :guilabel:`One-Vs-Rest` is checked, the algorithm performs
+`One-Vs-Rest classification <https://scikit-learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_
+which basically fits one classifier per class.
+
+If :guilabel:`Balanced class weight` is checked, the algorithm gives all
+classes equal weight with a balanced weight that is computed inversely
+proportional to class frequency in the training data.
 
 .. _spectral_angle_mapping:
 
@@ -412,6 +446,23 @@ Use the :ref:`support_vector_machine_definition` algorithm.
       - if checked, find the best estimator iteratively with a number of steps
     * - |checkbox| :guilabel:`Calculate classification confidence raster` |optional|
       - if checked, calculate classification confidence raster
+
+:guilabel:`Cross validation` is a function provided by ``scikit-learn`` to
+avoid overfitting by splitting the training set into ``k`` smaller sets
+(`read more <https://scikit-learn.org/stable/modules/cross_validation.html>`_ .
+In particular, the function ``StratifiedKFold`` (with parameters n_splits=5,
+shuffle=True) is used to create 5 sets, each one containing approximately the
+same percentage of samples for each class as the complete set.
+This option can potentially increase significantly the computation time.
+
+If :guilabel:`Find best estimator with steps` is checked, the
+algorithm tries to find the best estimator iteratively with the defined
+number of steps (the more the steps, the slower the process will be),
+by changing the algorithm parameters.
+
+If :guilabel:`Balanced class weight` is checked, the algorithm gives all
+classes equal weight with a balanced weight that is computed inversely
+proportional to class frequency in the training data.
 
 .. _classification_run:
 

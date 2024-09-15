@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"POT-Creation-Date: 2024-09-15 19:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -666,34 +666,41 @@ msgstr ""
 msgid "run"
 msgstr ""
 
-#: ../../tutorial_1.rst:451
+#: ../../tutorial_1.rst:448
+msgid ""
+"In case you defined the same `Macroclass ID` value for all the ROIs in "
+"the :guilabel:`Training input`, you should check :guilabel:`Use` "
+"|checkbox| :guilabel:`Class ID`."
+msgstr ""
+
+#: ../../tutorial_1.rst:456
 msgid ":guilabel:`Result of the land cover classification`"
 msgstr ""
 
-#: ../../tutorial_1.rst:455
+#: ../../tutorial_1.rst:460
 msgid ""
 "If |checkbox| :guilabel:`Play sound when finished` is checked in "
 ":ref:`calculation_process` settings, a sound is played when the process "
 "is finished."
 msgstr ""
 
-#: ../../tutorial_1.rst:459
+#: ../../tutorial_1.rst:464
 msgid ""
 "**Well done!** You have just performed your first land cover "
 "classification."
 msgstr ""
 
-#: ../../tutorial_1.rst:462
+#: ../../tutorial_1.rst:467
 msgid ""
 "However, you can see that there are several classification errors, "
 "because the number of ROIs (spectral signatures) is insufficient."
 msgstr ""
 
-#: ../../tutorial_1.rst:469
+#: ../../tutorial_1.rst:474
 msgid ":guilabel:`Example of error: Soil classified as Built-up`"
 msgstr ""
 
-#: ../../tutorial_1.rst:471
+#: ../../tutorial_1.rst:476
 msgid ""
 "In other tutorials we are going to learn about the download and "
 "preprocessing of bands, the classification algorithms, and the "

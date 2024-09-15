@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"POT-Creation-Date: 2024-09-15 19:18+0200\n"
 "PO-Revision-Date: 2023-10-24 15:43+0000\n"
 "Last-Translator: Raúl Nanclares <raulnanclares@gmail.com>, 2023\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/semi-automatic-classification/teams/53374/es_MX/)\n"
@@ -98,15 +98,15 @@ msgstr "Entrada"
 
 #: ../../classification_tab.rst:156 ../../classification_tab.rst:201
 #: ../../classification_tab.rst:237 ../../classification_tab.rst:272
-#: ../../classification_tab.rst:322 ../../classification_tab.rst:362
-#: ../../classification_tab.rst:398 ../../classification_tab.rst:433
+#: ../../classification_tab.rst:335 ../../classification_tab.rst:396
+#: ../../classification_tab.rst:432 ../../classification_tab.rst:484
 msgid "Tool symbol and name"
 msgstr "Símbolo de la herramienta y nombre"
 
 #: ../../classification_tab.rst:157 ../../classification_tab.rst:202
 #: ../../classification_tab.rst:238 ../../classification_tab.rst:273
-#: ../../classification_tab.rst:323 ../../classification_tab.rst:363
-#: ../../classification_tab.rst:399 ../../classification_tab.rst:434
+#: ../../classification_tab.rst:336 ../../classification_tab.rst:397
+#: ../../classification_tab.rst:433 ../../classification_tab.rst:485
 msgid "Description"
 msgstr "Descripción"
 
@@ -220,7 +220,7 @@ msgid "Use the :ref:`max_likelihood_algorithm` algorithm."
 msgstr "Usar el algoritmo de :ref:`max_likelihood_algorithm`."
 
 #: ../../classification_tab.rst:203 ../../classification_tab.rst:239
-#: ../../classification_tab.rst:364
+#: ../../classification_tab.rst:398
 msgid ":guilabel:`Use single threshold` |input_number| |optional|"
 msgstr ":guilabel:`Usar un único umbral` |input_number| |optional|"
 
@@ -235,18 +235,18 @@ msgstr ""
 "probabilidad es mejor que valor umbral (max. 100)"
 
 #: ../../classification_tab.rst:207 ../../classification_tab.rst:243
-#: ../../classification_tab.rst:368
+#: ../../classification_tab.rst:402
 msgid ":guilabel:`Signature threshold` |input_number| |optional|"
 msgstr ":guilabel:`Umbral de las firmas` |input_number| |optional|"
 
 #: ../../classification_tab.rst:208 ../../classification_tab.rst:244
-#: ../../classification_tab.rst:369
+#: ../../classification_tab.rst:403
 msgid "if checked, thresholds :ref:`Signature_threshold_tab` are evaluated"
 msgstr ""
 "si está marcado, los umbrales :ref:`Signature_threshold_tab` son evaluados"
 
 #: ../../classification_tab.rst:209 ../../classification_tab.rst:245
-#: ../../classification_tab.rst:370
+#: ../../classification_tab.rst:404
 msgid "|threshold_tool|"
 msgstr "|threshold_tool|"
 
@@ -255,7 +255,7 @@ msgid "threshold_tool"
 msgstr "herramienta de umbral"
 
 #: ../../classification_tab.rst:210 ../../classification_tab.rst:246
-#: ../../classification_tab.rst:371
+#: ../../classification_tab.rst:405
 msgid ""
 "open the :ref:`Signature_threshold_tab` for the definition of signature "
 "thresholds"
@@ -264,12 +264,12 @@ msgstr ""
 "firmas"
 
 #: ../../classification_tab.rst:212 ../../classification_tab.rst:248
-#: ../../classification_tab.rst:373
+#: ../../classification_tab.rst:407
 msgid "|checkbox| :guilabel:`Save signature raster` |optional|"
 msgstr "|checkbox| :guilabel:`Guarda el ráster de firmas` |optional|"
 
 #: ../../classification_tab.rst:213 ../../classification_tab.rst:249
-#: ../../classification_tab.rst:374
+#: ../../classification_tab.rst:408
 msgid ""
 "if checked, in addition to the classification raster, for each spectral "
 "signature a raster is saved in the same output directory, which represents "
@@ -281,8 +281,8 @@ msgstr ""
 "firma."
 
 #: ../../classification_tab.rst:216 ../../classification_tab.rst:252
-#: ../../classification_tab.rst:302 ../../classification_tab.rst:342
-#: ../../classification_tab.rst:377 ../../classification_tab.rst:413
+#: ../../classification_tab.rst:302 ../../classification_tab.rst:355
+#: ../../classification_tab.rst:411 ../../classification_tab.rst:447
 msgid ""
 "|checkbox| :guilabel:`Calculate classification confidence raster` |optional|"
 msgstr ""
@@ -290,8 +290,8 @@ msgstr ""
 "|optional|"
 
 #: ../../classification_tab.rst:217 ../../classification_tab.rst:253
-#: ../../classification_tab.rst:303 ../../classification_tab.rst:343
-#: ../../classification_tab.rst:378 ../../classification_tab.rst:414
+#: ../../classification_tab.rst:303 ../../classification_tab.rst:356
+#: ../../classification_tab.rst:412 ../../classification_tab.rst:448
 msgid "if checked, calculate classification confidence raster"
 msgstr ""
 "si está marcado, se calculará el ráster de confiabilidad de la clasificación"
@@ -432,63 +432,85 @@ msgstr ":guilabel:`Tasa de aprendizaje inicial` |input_number|"
 msgid "set initial learning rate"
 msgstr "define la tasa de aprendizaje inicial"
 
-#: ../../classification_tab.rst:298 ../../classification_tab.rst:335
-#: ../../classification_tab.rst:406
+#: ../../classification_tab.rst:298 ../../classification_tab.rst:348
+#: ../../classification_tab.rst:440
 msgid "|checkbox| :guilabel:`Cross validation` |optional|"
 msgstr "|checkbox| :guilabel:`Validación cruzada` |optional|"
 
-#: ../../classification_tab.rst:299 ../../classification_tab.rst:336
-#: ../../classification_tab.rst:407
+#: ../../classification_tab.rst:299 ../../classification_tab.rst:349
+#: ../../classification_tab.rst:441
 msgid "if checked, perform cross validation"
 msgstr "si está marcado, se llevará acabo una validación cruzada"
 
-#: ../../classification_tab.rst:300 ../../classification_tab.rst:340
-#: ../../classification_tab.rst:411
+#: ../../classification_tab.rst:300 ../../classification_tab.rst:353
+#: ../../classification_tab.rst:445
 msgid "|checkbox| :guilabel:`Find best estimator with steps` |optional|"
 msgstr ""
 "|checkbox| :guilabel:`Encontrar el mejor estimador en pasos` |optional|"
 
-#: ../../classification_tab.rst:301 ../../classification_tab.rst:341
-#: ../../classification_tab.rst:412
+#: ../../classification_tab.rst:301 ../../classification_tab.rst:354
+#: ../../classification_tab.rst:446
 msgid "if checked, find the best estimator iteratively with a number of steps"
 msgstr ""
 "si está marcado, eneuntra el mejor estimador iterativamente usando un número"
 " de pasos"
 
-#: ../../classification_tab.rst:308
+#: ../../classification_tab.rst:305 ../../classification_tab.rst:358
+#: ../../classification_tab.rst:450
+msgid ""
+":guilabel:`Cross validation` is a function provided by ``scikit-learn`` to "
+"avoid overfitting by splitting the training set into ``k`` smaller sets "
+"(`read more <https://scikit-"
+"learn.org/stable/modules/cross_validation.html>`_ . In particular, the "
+"function ``StratifiedKFold`` (with parameters n_splits=5, shuffle=True) is "
+"used to create 5 sets, each one containing approximately the same percentage"
+" of samples for each class as the complete set. This option can potentially "
+"increase significantly the computation time."
+msgstr ""
+
+#: ../../classification_tab.rst:313 ../../classification_tab.rst:366
+#: ../../classification_tab.rst:458
+msgid ""
+"If :guilabel:`Find best estimator with steps` is checked, the algorithm "
+"tries to find the best estimator iteratively with the defined number of "
+"steps (the more the steps, the slower the process will be), by changing the "
+"algorithm parameters."
+msgstr ""
+
+#: ../../classification_tab.rst:321
 msgid "Random Forest"
 msgstr "Bosque Aleatorio"
 
-#: ../../classification_tab.rst:314
+#: ../../classification_tab.rst:327
 msgid ":guilabel:`Random Forest`"
 msgstr ":guilabel:`Bosque aleatorio"
 
-#: ../../classification_tab.rst:316
+#: ../../classification_tab.rst:329
 msgid "Use the :ref:`random_forest_definition` algorithm."
 msgstr "Usar el algoritmo :ref:`random_forest_definition` "
 
-#: ../../classification_tab.rst:324
+#: ../../classification_tab.rst:337
 msgid ":guilabel:`Number of trees` |input_number|"
 msgstr ":guilabel:`Número de árboles` |input_number|"
 
-#: ../../classification_tab.rst:325
+#: ../../classification_tab.rst:338
 msgid "set the number of trees"
 msgstr "define el número de árboles"
 
-#: ../../classification_tab.rst:326
+#: ../../classification_tab.rst:339
 msgid ":guilabel:`Minimum number to split` |input_number|"
 msgstr ":guilabel:`Minimum number to split` |input_number|"
 
-#: ../../classification_tab.rst:327
+#: ../../classification_tab.rst:340
 msgid "set the minimum number of samples required to split an internal node"
 msgstr ""
 "define el número mínimo de muestras requerido para dividir un nodo interno"
 
-#: ../../classification_tab.rst:328
+#: ../../classification_tab.rst:341
 msgid ":guilabel:`Max features` |input_number| |optional|"
 msgstr ":guilabel:`Objetos máximos` |input_number| |optional|"
 
-#: ../../classification_tab.rst:329
+#: ../../classification_tab.rst:342
 msgid ""
 "for node splitting, if empty all features are considered; if sqrt the square"
 " root of all the features, if integer number the number of features; if "
@@ -499,11 +521,11 @@ msgstr ""
 "entero de objetos; si es un número decimal la fracción correspondiente de "
 "objetos"
 
-#: ../../classification_tab.rst:332
+#: ../../classification_tab.rst:345
 msgid "|checkbox| :guilabel:`One-Vs-Rest` |optional|"
 msgstr "|checkbox| :guilabel:`Uno-Vs-Resto` |optional|"
 
-#: ../../classification_tab.rst:333
+#: ../../classification_tab.rst:346
 msgid ""
 "if checked, perform One-Vs-Rest classification (read `more <https://scikit-"
 "learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_)"
@@ -512,11 +534,11 @@ msgstr ""
 "<https://scikit-"
 "learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_)"
 
-#: ../../classification_tab.rst:337 ../../classification_tab.rst:408
+#: ../../classification_tab.rst:350 ../../classification_tab.rst:442
 msgid "|checkbox| :guilabel:`Balanced class weight` |optional|"
 msgstr "|checkbox| :guilabel:`Balanceo de pesos de clases` |optional|"
 
-#: ../../classification_tab.rst:338 ../../classification_tab.rst:409
+#: ../../classification_tab.rst:351 ../../classification_tab.rst:443
 msgid ""
 "if checked, balanced weight is computed inversely proportional to class "
 "frequency"
@@ -524,19 +546,34 @@ msgstr ""
 "si está marcado, se calcula un peso balanceado siendo inversamente "
 "proporcional a la frecuencia de las clases"
 
-#: ../../classification_tab.rst:348
+#: ../../classification_tab.rst:371
+msgid ""
+"If :guilabel:`One-Vs-Rest` is checked, the algorithm performs `One-Vs-Rest "
+"classification <https://scikit-"
+"learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html>`_"
+" which basically fits one classifier per class."
+msgstr ""
+
+#: ../../classification_tab.rst:375 ../../classification_tab.rst:463
+msgid ""
+"If :guilabel:`Balanced class weight` is checked, the algorithm gives all "
+"classes equal weight with a balanced weight that is computed inversely "
+"proportional to class frequency in the training data."
+msgstr ""
+
+#: ../../classification_tab.rst:382
 msgid "Spectral Angle Mapping"
 msgstr "Mapeo del Angulo Espectral"
 
-#: ../../classification_tab.rst:354
+#: ../../classification_tab.rst:388
 msgid ":guilabel:`Spectral Angle Mapping`"
 msgstr ":guilabel:`Mapeo de Angulo Espectral`"
 
-#: ../../classification_tab.rst:356
+#: ../../classification_tab.rst:390
 msgid "Use the :ref:`spectra_angle_mapping_algorithm` algorithm."
 msgstr "Usa el algoritmo de :ref:`spectra_angle_mapping_algorithm`."
 
-#: ../../classification_tab.rst:365
+#: ../../classification_tab.rst:399
 msgid ""
 "if checked, it allows for the definition of a classification threshold "
 "(applied to all the spectral signatures); pixels are unclassified if "
@@ -546,47 +583,47 @@ msgstr ""
 " las firmas espectrales); los píxeles no son clasificados si la distancia "
 "angular espectral es superior al umbra (máx. 90)"
 
-#: ../../classification_tab.rst:384
+#: ../../classification_tab.rst:418
 msgid "Support Vector Machine"
 msgstr "Máquinas de Soporte de Vectores"
 
-#: ../../classification_tab.rst:390
+#: ../../classification_tab.rst:424
 msgid ":guilabel:`Support Vector Machine`"
 msgstr ":guilabel:`Máquinas de Soporte de Vectores`"
 
-#: ../../classification_tab.rst:392
+#: ../../classification_tab.rst:426
 msgid "Use the :ref:`support_vector_machine_definition` algorithm."
 msgstr "Usa el algoritmo de :ref:`support_vector_machine_definition`."
 
-#: ../../classification_tab.rst:400
+#: ../../classification_tab.rst:434
 msgid ":guilabel:`Regularization parameter C` |input_number|"
 msgstr ":guilabel:`Parámetro de Regularización C` |input_number|"
 
-#: ../../classification_tab.rst:401
+#: ../../classification_tab.rst:435
 msgid "set the regularization parameter C"
 msgstr "define el parámetro de regularización C"
 
-#: ../../classification_tab.rst:402
+#: ../../classification_tab.rst:436
 msgid ":guilabel:`Kernel` |input_text|"
 msgstr ":guilabel:`Kernel` |input_text|"
 
-#: ../../classification_tab.rst:403
+#: ../../classification_tab.rst:437
 msgid "set the kernel (default: rbf)"
 msgstr "define el kernel (por defecto: rbf)"
 
-#: ../../classification_tab.rst:404
+#: ../../classification_tab.rst:438
 msgid ":guilabel:`Gamma` |input_text|"
 msgstr ":guilabel:`Gamma` |input_text|"
 
-#: ../../classification_tab.rst:405
+#: ../../classification_tab.rst:439
 msgid "set the kernel coefficient gamma (default: scale)"
 msgstr "define el coeficiente gamma del kernel (por defecto: escala)"
 
-#: ../../classification_tab.rst:419
+#: ../../classification_tab.rst:470
 msgid "Run"
 msgstr "Ejecutar"
 
-#: ../../classification_tab.rst:421
+#: ../../classification_tab.rst:472
 msgid ""
 "It is possible to run the classification, or save and load a trained "
 "classifier."
@@ -594,7 +631,7 @@ msgstr ""
 "Es posible correr la clasificación, o guardar y cargar un clasificador "
 "entrenado"
 
-#: ../../classification_tab.rst:424
+#: ../../classification_tab.rst:475
 msgid ""
 "Classification raster is a file ``.tif`` (a QGIS style file ``.qml`` is "
 "saved along with the classification); also other outputs can be optionally "
@@ -605,7 +642,7 @@ msgstr ""
 "calcular opcionalmente otras salidas. Las salidas se cargan en QGIS después "
 "del cálculo."
 
-#: ../../classification_tab.rst:435
+#: ../../classification_tab.rst:486
 msgid ":guilabel:`Load classifier` |open_file|"
 msgstr ":guilabel:`Cargar clasificador` |open_file|"
 
@@ -613,11 +650,11 @@ msgstr ":guilabel:`Cargar clasificador` |open_file|"
 msgid "open_file"
 msgstr "abrir archivo"
 
-#: ../../classification_tab.rst:436
+#: ../../classification_tab.rst:487
 msgid "open an already save classifier file (.rsmo)"
 msgstr "abrir un archivo de clasificador previamente guardado (.rsmo)"
 
-#: ../../classification_tab.rst:437
+#: ../../classification_tab.rst:488
 msgid ":guilabel:`Save classifier` |export|"
 msgstr ":guilabel:`Guardar clasificador` |export|"
 
@@ -625,13 +662,13 @@ msgstr ":guilabel:`Guardar clasificador` |export|"
 msgid "export"
 msgstr "exportar"
 
-#: ../../classification_tab.rst:438
+#: ../../classification_tab.rst:489
 msgid "save the classifier to file (.rsmo), in order to be loaded later"
 msgstr ""
 "guardar el clasificador en un archivo (.rsmo), para que luego pueda ser "
 "cargado"
 
-#: ../../classification_tab.rst:439
+#: ../../classification_tab.rst:490
 msgid ":guilabel:`RUN` |run|"
 msgstr ":guilabel:`EJECUTAR` |run|"
 
@@ -639,6 +676,6 @@ msgstr ":guilabel:`EJECUTAR` |run|"
 msgid "run"
 msgstr "ejecutar"
 
-#: ../../classification_tab.rst:440
+#: ../../classification_tab.rst:491
 msgid "run this function"
 msgstr "ejecutar esta función"

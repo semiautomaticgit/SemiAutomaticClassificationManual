@@ -59,18 +59,14 @@ or in case you installed QGIS LTR:
 .. tip::
     In case of error messages such as scikit-learn is already installed,
     you can just run
-    ``/Applications/QGIS.app/Contents/MacOS/bin/pip3 install --upgrade remotior-sensus torch``
+    ``/Applications/QGIS.app/Contents/MacOS/bin/pip3 install --upgrade remotior-sensus``
 
 Follow the same procedure for updating the dependencies.
 
 
 .. tip::
-    In case the library Remotior Sensus is not found, an automatic procedure
-    will try to download it in the plugin directory, allowing for using the
-    main functions of the Semi-Automatic Classification Plugin; however,
-    this is not recommended as library Remotior Sensus won't be updated, and
-    scikit-learn and PyTorch functions will not work.
-    Alternatively, one may follow :ref:`installation_conda`.
+    In case of installation issues, one may follow the
+    :ref:`plugin_installation_4`.
 
 
 .. _plugin_installation_mac:

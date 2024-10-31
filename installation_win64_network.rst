@@ -77,6 +77,11 @@ Semi-Automatic Classification Plugin installation
 .. image:: _static/installation/plugins_installed.jpg
 
 
+.. tip::
+    In case of installation issues, one may follow the
+    :ref:`plugin_installation_4`.
+
+
 .. _plugin_configuration_win64bit_network:
 
 Configuration of the plugin

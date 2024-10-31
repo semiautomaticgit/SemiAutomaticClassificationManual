@@ -159,6 +159,34 @@ and click ``OK``;
 
 .. image:: _static/faq/qgis_repos_installed.jpg
 
+
+.. _plugin_installation_4:
+
+Alternative installation of plugin dependencies
+--------------------------------------------------------------
+
+In case of issues with the installation, the SCP could fail to start or show a
+message about updating the required Python dependency Remotior Sensus.
+As a possible solution, one can install the additional plugin named ``QPIP``
+(developed by OPENGIS.ch) that allows for managing Python dependencies in QGIS,
+following these steps:
+
+#. open the QGIS Plugin manager;
+#. search and install the plugin QPIP;
+
+.. image:: _static/faq/qpip_install.png
+
+3. search and install (or reinstall) the Semi-Automatic Classification Plugin;
+   a ``QPIP`` window should pop up notifying about the required dependency
+   Remotior Sensus, click ``OK`` and wait for the installation to complete;
+
+.. image:: _static/faq/qpip.png
+
+4. close the QGIS Plugin manager and restart QGIS.
+
+The interface of the Semi-Automatic Classification Plugin should appear in
+QGIS.
+
 .. _FAQ_pre_processing:
  
 Pre processing
@@ -167,7 +195,7 @@ Pre processing
 .. _pre_processing_1:
 
 Which image bands should I use for a semi-automatic classification?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 In general, it is preferable to avoid thermal infrared bands.
 If you are using Landsat 4, 5 or 7 you should select bands: 1, 2, 3, 4, 5, 7
@@ -183,7 +211,7 @@ For Sentinel-2 images you can use bands: 2, 3, 4, 5, 6, 7, 8, 8A, 11, 12.
 .. _pre_processing_2:
 
 Which Landsat bands can be converted to reflectance by the SCP?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 All Landsat 1,2, and 3 MSS and Landsat 4, 5, 7, and 8 images downloaded
 from http://earthexplorer.usgs.gov/ and processed with the Level 1 Product
@@ -194,7 +222,7 @@ required for the conversion.
 .. _pre_processing_2B:
 
 Can I apply the conversion to Sentinel-2 images downloaded from the web?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Yes, you can convert also images downloaded from the web (actually the
 conversion is recommended).
@@ -206,7 +234,7 @@ Images are converted to reflectance.
 .. _pre_processing_2BB:
 
 Can I apply the conversion to Sentinel-2 L2A downloaded from the web?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Yes, you should move all the .jp2 files inside the same directory and rename
 the files with the band number in the ending of the name (e.g. from
@@ -218,7 +246,7 @@ Images are converted to reflectance.
 .. _pre_processing_3:
 
 Can I apply the Landsat conversion and DOS correction to clipped bands?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Yes, you can clip the images before the conversion to reflectance and then
 copy the MTL file (contained in the Landsat dataset) inside the directory with
@@ -230,7 +258,7 @@ the conversion output (i.e. bands converted to reflectance).
 .. _pre_processing_4:
 
 Can I apply the DOS correction to bands with black border (i.e. with NoData value)?
----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
 If you want to apply the DOS correction to an entire band which has NoData
 values (the black border with value = 0) then you have to check the checkbox
@@ -241,7 +269,7 @@ excluded from the calculation.
 .. _pre_processing_5:
 
 How to remove cloud cover from images?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 DOS1 correction does not remove clouds from the image.
 However, Landsat 8 images include Band 9 that identifies clouds (see this
@@ -257,7 +285,7 @@ Processing
 .. _FAQ_processing_4:
 
 I get classification errors. How can I improve the accuracy?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Several materials have similar spectral signatures (e.g. soil and built-up,
 or forest and other types of dense low vegetation), which can cause
@@ -275,7 +303,7 @@ signatures will be classified).
 .. _FAQ_processing_5:
 
 Is it possible to use the same training input for multiple images?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Yes, it is possible if all the images have the same number of bands.
 However, if images are acquired in different months, land cover changes
@@ -289,14 +317,14 @@ for every image.
 .. _FAQ_processing_3:
 
 What is the difference between classes and macroclasses?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Please see :ref:`classes_definition`.
 
 .. _FAQ_processing_1:
 
 Can I use SCP with images from drones or aerial photographs?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Yes, you can use them if they have at least 4 bands.
 With less than 4 bands, semi-automatic classification algorithms are unable to
@@ -307,7 +335,7 @@ classification, which is not implemented in SCP.
 .. _FAQ_processing_2:
 
 Why using only Landsat 8 band 10 in the estimation of surface temperature?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Several methods were developed for estimating surface temperature.
 The method described in the tutorial for temperature estimation requires only
@@ -320,7 +348,7 @@ by USGS).
 .. _FAQ_processing_6:
 
 How can I speed up the processing?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 In order to speed up the processing you should set the available RAM and the
 number of threads available in :ref:`system_processing`.
@@ -337,7 +365,7 @@ especially useful for large rasters.
 .. _FAQ_processing_8:
 
 How do I perform accuracy assessment and how to design the number of samples?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Accuracy assessment is described in
 `this tutorial <https://fromgistors.blogspot.com/2019/09/Accuracy-Assessment-of-Land-Cover-Classification.html>`_ .
@@ -399,7 +427,7 @@ Errors
 .. _error_0:
 
 How can I report an error?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 If you found an error of the Semi-Automatic Classification Plugin please follow
 these steps in order to collect the required information (log file):
@@ -413,10 +441,15 @@ these steps in order to collect the required information (log file):
 
     :guilabel:`Debug`
 
-3. click the button :guilabel:`Test dependencies` |enter| in the tab :ref:`settings_debug_tab` ;
-#. load the data in QGIS (or open a previously saved QGIS project) and repeat all the steps that cause the error in the Plugin;
-    * if the issue could be related to the image data, please use `this sample dataset <https://docs.google.com/uc?id=0BysUrKXWIDwBc1llME4yRmpjMGc&export=download>`_ ;
-#. if an error message appears (like the one in the following image), copy the whole content of the message in a text file;
+3. click the button :guilabel:`Test dependencies` |enter| in the tab
+   :ref:`settings_debug_tab` ;
+#. load the data in QGIS (or open a previously saved QGIS project) and repeat
+   all the steps that cause the error in the Plugin;
+
+   * if the issue could be related to the image data, please use
+     `this sample dataset <https://docs.google.com/uc?id=0BysUrKXWIDwBc1llME4yRmpjMGc&export=download>`_ ;
+#. if an error message appears (like the one in the following image), copy the
+   whole content of the message in a text file;
 
 .. figure:: _static/faq/python_error.jpg
     :align: center
@@ -449,7 +482,8 @@ images through :ref:`supervised_classification_definition`.
 You can produce a land cover raster using one of the
 :ref:`classification_algorithm_definition` available in SCP.
 These algorithms require spectral signatures or ROIs as input (for definitions
-please read :ref:`remote_sensing`) that define the land cover classes to be identified in the image.
+please read :ref:`remote_sensing`) that define the land cover classes to be
+identified in the image.
 
 .. figure:: _static/remote_sensing/multispectral_classification.jpg
     :align: center
@@ -485,7 +519,7 @@ See the :ref:`tutorials` for more information and examples.
 .. _other_1:
 
 How to contribute to SCP
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 You can contribute to :guilabel:`SCP` by fixing and adding functionalities
 (see :ref:`other_5`), or translating the user manual (see :ref:`other_4`).
@@ -494,7 +528,7 @@ You can contribute to :guilabel:`SCP` by fixing and adding functionalities
 .. _other_4:
 
 How can I translate this user manual to another language?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 It is possible to easily translate the user manual to any language, because it
 is written in reStructuredText as markup language (using Sphinx).
@@ -518,8 +552,11 @@ service.
 
 1. Join the Semi-automatic Classification Manual project
 
-    Go to the page https://www.transifex.com/semi-automatic-classification/semi-automatic-classification-plugin-manual and click the button ``Help translate``.
-    You can sign in using your Google or Facebook account, or with a free registration.
+    Go to the page
+    https://www.transifex.com/semi-automatic-classification/semi-automatic-classification-plugin-manual
+    and click the button ``Help translate``.
+    You can sign in using your Google or Facebook account, or with a free
+    registration.
 
 2. Select your language
 
@@ -528,8 +565,10 @@ service.
 
 3. Translation
 
-    There are several files to be translated, which refer to the sections of the SCP documentation.
-    To translate the SCP interface you should select the file ``semiautomaticclassificationplugin.ts`` .
+    There are several files to be translated, which refer to the sections of
+    the SCP documentation.
+    To translate the SCP interface you should select the file
+    ``semiautomaticclassificationplugin.ts`` .
 
 **Method 2. Translation using the gettext .po files**
 
@@ -538,18 +577,28 @@ This translation method allows for the translation of the PO files locally.
 
 1. Download the translation files
 
-    Go to the GitHub project https://github.com/semiautomaticgit/SemiAutomaticClassificationManual_v4/tree/master/locale and download the .po files of your language (you can add your language, if it is not listed), or you can fork the repository.
+    Go to the GitHub project
+    https://github.com/semiautomaticgit/SemiAutomaticClassificationManual_v4/tree/master/locale
+    and download the .po files of your language (you can add your language, if
+    it is not listed), or you can fork the repository.
     Every file .po is a text file that refers to a section of the User Manual.
 
 2. Edit the translation files
 
-    Now you can edit the .po files. It is convenient to edit those file using one of the following programs: for instance `Poedit <http://www.poedit.net/>`_ for Windows and Mac OS X, or `Gtranslator <https://wiki.gnome.org/Apps/Gtranslator>`_ for Linux or `OmegaT <http://www.omegat.org/en/download_selector/ui.php>`_ (Java based) for Windows, Linux and Mac OS X.
-    These editors allow for an easy translation of every sentence in the User Manual.
+    Now you can edit the .po files. It is convenient to edit those file using
+    one of the following programs: for instance
+    `Poedit <http://www.poedit.net/>`_
+    for Windows and Mac OS X, or
+    `Gtranslator <https://wiki.gnome.org/Apps/Gtranslator>`_
+    for Linux or `OmegaT <http://www.omegat.org/en/download_selector/ui.php>`_
+    (Java based) for Windows, Linux and Mac OS X.
+    These editors allow for an easy translation of every sentence in the User
+    Manual.
 
 .. _other_5:
 
 Where is the source code of SCP?
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 The source code of SPC is available at the following link
 https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin

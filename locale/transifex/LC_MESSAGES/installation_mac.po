@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"POT-Creation-Date: 2024-11-01 00:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgstr ""
 msgid ""
 "In case of error messages such as scikit-learn is already installed, you "
 "can just run ``/Applications/QGIS.app/Contents/MacOS/bin/pip3 install "
-"--upgrade remotior-sensus torch``"
+"--upgrade remotior-sensus``"
 msgstr ""
 
 #: ../../installation_mac.rst:64
@@ -90,33 +90,29 @@ msgstr ""
 
 #: ../../installation_mac.rst:68
 msgid ""
-"In case the library Remotior Sensus is not found, an automatic procedure "
-"will try to download it in the plugin directory, allowing for using the "
-"main functions of the Semi-Automatic Classification Plugin; however, this"
-" is not recommended as library Remotior Sensus won't be updated, and "
-"scikit-learn and PyTorch functions will not work. Alternatively, one may "
-"follow :ref:`installation_conda`."
+"In case of installation issues, one may follow the "
+":ref:`plugin_installation_4`."
 msgstr ""
 
-#: ../../installation_mac.rst:79
+#: ../../installation_mac.rst:75
 msgid "Semi-Automatic Classification Plugin installation"
 msgstr ""
 
-#: ../../installation_mac.rst:81
+#: ../../installation_mac.rst:77
 msgid "Run QGIS;"
 msgstr ""
 
-#: ../../installation_mac.rst:83
+#: ../../installation_mac.rst:79
 msgid "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr ""
 
-#: ../../installation_mac.rst:87
+#: ../../installation_mac.rst:83
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin "
 "and click the button ``Install plugin``;"
 msgstr ""
 
-#: ../../installation_mac.rst:93
+#: ../../installation_mac.rst:89
 msgid ""
 "The SCP should be automatically activated; however, be sure that the "
 "Semi-Automatic Classification Plugin is checked in the menu ``Installed``"
@@ -124,11 +120,11 @@ msgid ""
 "installation);"
 msgstr ""
 
-#: ../../installation_mac.rst:103
+#: ../../installation_mac.rst:99
 msgid "Configuration of the plugin"
 msgstr ""
 
-#: ../../installation_mac.rst:105
+#: ../../installation_mac.rst:101
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and"
 " a toolbar should be added to QGIS. Also, a SCP menu is available in the "
@@ -136,39 +132,61 @@ msgid ""
 "according to your needs, as in the following image."
 msgstr ""
 
-#: ../../installation_mac.rst:117
+#: ../../installation_mac.rst:113
 msgid ""
 "The configuration of available RAM is recommended in order to reduce the "
 "processing time. From the :ref:`SCP_menu` select |settings_tool| "
 "``Settings > Processing`` ."
 msgstr ""
 
-#: ../../installation_mac.rst:114
+#: ../../installation_mac.rst:110
 msgid "settings_tool"
 msgstr ""
 
-#: ../../installation_mac.rst:123
+#: ../../installation_mac.rst:119
 msgid ""
 "In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
 "that should be half of the system RAM. For instance, if your system has "
 "2GB of RAM, set the value to 1024MB."
 msgstr ""
 
-#: ../../installation_mac.rst:132
+#: ../../installation_mac.rst:128
 msgid "Update of required dependencies"
 msgstr ""
 
-#: ../../installation_mac.rst:134
+#: ../../installation_mac.rst:130
 msgid ""
 "The dependency Remotior Sensus is frequently updated. The Semi-Automatic "
 "Classification Plugin can check automatically if a new version is "
 "available, and display a message in the :ref:`scp_dock`."
 msgstr ""
 
-#: ../../installation_mac.rst:141
+#: ../../installation_mac.rst:137
 msgid ""
 "It is recommended to close QGIS and update Remotior Sensus following the "
 "same installation steps described in :ref:`installation_dependencies_mac`"
 " ."
 msgstr ""
+
+#~ msgid ""
+#~ "In case of error messages such as"
+#~ " scikit-learn is already installed, "
+#~ "you can just run "
+#~ "``/Applications/QGIS.app/Contents/MacOS/bin/pip3 install "
+#~ "--upgrade remotior-sensus torch``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case the library Remotior Sensus "
+#~ "is not found, an automatic procedure "
+#~ "will try to download it in the "
+#~ "plugin directory, allowing for using the"
+#~ " main functions of the Semi-Automatic"
+#~ " Classification Plugin; however, this is"
+#~ " not recommended as library Remotior "
+#~ "Sensus won't be updated, and scikit-"
+#~ "learn and PyTorch functions will not "
+#~ "work. Alternatively, one may follow "
+#~ ":ref:`installation_conda`."
+#~ msgstr ""
 

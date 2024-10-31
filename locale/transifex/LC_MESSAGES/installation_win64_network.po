@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"POT-Creation-Date: 2024-11-01 00:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,11 +95,17 @@ msgid ""
 "installation);"
 msgstr ""
 
-#: ../../installation_win64_network.rst:83
+#: ../../installation_win64_network.rst:81
+msgid ""
+"In case of installation issues, one may follow the "
+":ref:`plugin_installation_4`."
+msgstr ""
+
+#: ../../installation_win64_network.rst:88
 msgid "Configuration of the plugin"
 msgstr ""
 
-#: ../../installation_win64_network.rst:85
+#: ../../installation_win64_network.rst:90
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and"
 " a toolbar should be added to QGIS. Also, a SCP menu is available in the "
@@ -107,49 +113,49 @@ msgid ""
 "according to your needs, as in the following image."
 msgstr ""
 
-#: ../../installation_win64_network.rst:97
+#: ../../installation_win64_network.rst:102
 msgid ""
 "The configuration of available RAM is recommended in order to reduce the "
 "processing time. From the :ref:`SCP_menu` select |settings_tool| "
 "``Settings > Processing`` ."
 msgstr ""
 
-#: ../../installation_win64_network.rst:94
+#: ../../installation_win64_network.rst:99
 msgid "settings_tool"
 msgstr ""
 
-#: ../../installation_win64_network.rst:103
+#: ../../installation_win64_network.rst:108
 msgid ""
 "In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
 "that should be half of the system RAM. For instance, if your system has "
 "2GB of RAM, set the value to 1024MB."
 msgstr ""
 
-#: ../../installation_win64_network.rst:113
+#: ../../installation_win64_network.rst:118
 msgid "Update of required dependencies"
 msgstr ""
 
-#: ../../installation_win64_network.rst:115
+#: ../../installation_win64_network.rst:120
 msgid ""
 "The dependency Remotior Sensus is frequently updated. The Semi-Automatic "
 "Classification Plugin can check automatically if a new version is "
 "available, and display a message in the :ref:`scp_dock`."
 msgstr ""
 
-#: ../../installation_win64_network.rst:122
+#: ../../installation_win64_network.rst:127
 msgid ""
 "It is recommended to close QGIS and update Remotior Sensus following the "
 "same installation steps described in "
 ":ref:`QGIS_network_installation_win64bit`."
 msgstr ""
 
-#: ../../installation_win64_network.rst:125
+#: ../../installation_win64_network.rst:130
 msgid ""
 "In case the library Remotior Sensus is outdated, it is possible to open "
 "the OSGeo4W Shell (administrative rights may be required):"
 msgstr ""
 
-#: ../../installation_win64_network.rst:130
+#: ../../installation_win64_network.rst:135
 msgid "and run the following command:"
 msgstr ""
 

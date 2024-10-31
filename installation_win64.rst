@@ -44,6 +44,12 @@ the QGIS installation.
 
 .. code-block:: shell
 
+    pip3 install --upgrade remotior-sensus
+
+or optionally:
+
+.. code-block:: bash
+
     pip3 install --upgrade remotior-sensus scikit-learn torch
 
 
@@ -51,12 +57,9 @@ Follow the same procedure for updating the dependencies.
 
 
 .. tip::
-    In case the library Remotior Sensus is not found, an automatic procedure
-    will try to download it in the plugin directory, allowing for using the
-    main functions of the Semi-Automatic Classification Plugin; however,
-    this is not recommended as library Remotior Sensus won't be updated, and
-    scikit-learn and PyTorch functions will not work.
-    Alternatively, one may follow :ref:`installation_conda`.
+    In case of installation issues, one may follow the
+    :ref:`plugin_installation_4`.
+
 
 
 .. _plugin_installation_win64bit:

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"POT-Creation-Date: 2024-11-01 00:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,39 +73,39 @@ msgstr ""
 msgid "Enter the following command:"
 msgstr ""
 
-#: ../../installation_win64.rst:50
+#: ../../installation_win64.rst:49
+msgid "or optionally:"
+msgstr ""
+
+#: ../../installation_win64.rst:56
 msgid "Follow the same procedure for updating the dependencies."
 msgstr ""
 
-#: ../../installation_win64.rst:54
+#: ../../installation_win64.rst:60
 msgid ""
-"In case the library Remotior Sensus is not found, an automatic procedure "
-"will try to download it in the plugin directory, allowing for using the "
-"main functions of the Semi-Automatic Classification Plugin; however, this"
-" is not recommended as library Remotior Sensus won't be updated, and "
-"scikit-learn and PyTorch functions will not work. Alternatively, one may "
-"follow :ref:`installation_conda`."
+"In case of installation issues, one may follow the "
+":ref:`plugin_installation_4`."
 msgstr ""
 
-#: ../../installation_win64.rst:65
+#: ../../installation_win64.rst:68
 msgid "Semi-Automatic Classification Plugin installation"
 msgstr ""
 
-#: ../../installation_win64.rst:67
+#: ../../installation_win64.rst:70
 msgid "Run QGIS;"
 msgstr ""
 
-#: ../../installation_win64.rst:69
+#: ../../installation_win64.rst:72
 msgid "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr ""
 
-#: ../../installation_win64.rst:73
+#: ../../installation_win64.rst:76
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin "
 "and click the button ``Install plugin``;"
 msgstr ""
 
-#: ../../installation_win64.rst:79
+#: ../../installation_win64.rst:82
 msgid ""
 "The SCP should be automatically activated; however, be sure that the "
 "Semi-Automatic Classification Plugin is checked in the menu ``Installed``"
@@ -113,11 +113,11 @@ msgid ""
 "installation);"
 msgstr ""
 
-#: ../../installation_win64.rst:89
+#: ../../installation_win64.rst:92
 msgid "Configuration of the plugin"
 msgstr ""
 
-#: ../../installation_win64.rst:91
+#: ../../installation_win64.rst:94
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and"
 " a toolbar should be added to QGIS. Also, a SCP menu is available in the "
@@ -125,39 +125,53 @@ msgid ""
 "according to your needs, as in the following image."
 msgstr ""
 
-#: ../../installation_win64.rst:103
+#: ../../installation_win64.rst:106
 msgid ""
 "The configuration of available RAM is recommended in order to reduce the "
 "processing time. From the :ref:`SCP_menu` select |settings_tool| "
 "``Settings > Processing`` ."
 msgstr ""
 
-#: ../../installation_win64.rst:100
+#: ../../installation_win64.rst:103
 msgid "settings_tool"
 msgstr ""
 
-#: ../../installation_win64.rst:109
+#: ../../installation_win64.rst:112
 msgid ""
 "In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value "
 "that should be half of the system RAM. For instance, if your system has "
 "2GB of RAM, set the value to 1024MB."
 msgstr ""
 
-#: ../../installation_win64.rst:119
+#: ../../installation_win64.rst:122
 msgid "Update of required dependencies"
 msgstr ""
 
-#: ../../installation_win64.rst:121
+#: ../../installation_win64.rst:124
 msgid ""
 "The dependency Remotior Sensus is frequently updated. The Semi-Automatic "
 "Classification Plugin can check automatically if a new version is "
 "available, and display a message in the :ref:`scp_dock`."
 msgstr ""
 
-#: ../../installation_win64.rst:128
+#: ../../installation_win64.rst:131
 msgid ""
 "It is recommended to close QGIS and update Remotior Sensus following the "
 "same installation steps described in "
 ":ref:`installation_dependencies_win64bit` ."
 msgstr ""
+
+#~ msgid ""
+#~ "In case the library Remotior Sensus "
+#~ "is not found, an automatic procedure "
+#~ "will try to download it in the "
+#~ "plugin directory, allowing for using the"
+#~ " main functions of the Semi-Automatic"
+#~ " Classification Plugin; however, this is"
+#~ " not recommended as library Remotior "
+#~ "Sensus won't be updated, and scikit-"
+#~ "learn and PyTorch functions will not "
+#~ "work. Alternatively, one may follow "
+#~ ":ref:`installation_conda`."
+#~ msgstr ""
 

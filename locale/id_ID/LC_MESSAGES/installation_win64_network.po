@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 8.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-02 20:41+0200\n"
+"POT-Creation-Date: 2024-11-01 00:45+0100\n"
 "PO-Revision-Date: 2023-10-26 12:01+0000\n"
 "Last-Translator: Febriani Ayuningsih, 2023\n"
 "Language-Team: Indonesian (Indonesia) (https://app.transifex.com/semi-automatic-classification/teams/53374/id_ID/)\n"
@@ -120,11 +120,17 @@ msgstr ""
 "Classification Plugin dicentang di menu `` Installed`` (restart QGIS "
 "diperlukan untuk menyempurnakan proses instalasi SCP);"
 
-#: ../../installation_win64_network.rst:83
+#: ../../installation_win64_network.rst:81
+msgid ""
+"In case of installation issues, one may follow the "
+":ref:`plugin_installation_4`."
+msgstr ""
+
+#: ../../installation_win64_network.rst:88
 msgid "Configuration of the plugin"
 msgstr "Konfigurasi plugin"
 
-#: ../../installation_win64_network.rst:85
+#: ../../installation_win64_network.rst:90
 msgid ""
 "Now, the Semi-Automatic Classification Plugin is installed and a dock and a "
 "toolbar should be added to QGIS. Also, a SCP menu is available in the Menu "
@@ -136,7 +142,7 @@ msgstr ""
 "QGIS. Sangat mungkin memindahkan toolbar dan dok menurut kehendak anda, "
 "seperti gambar berikut ini."
 
-#: ../../installation_win64_network.rst:97
+#: ../../installation_win64_network.rst:102
 msgid ""
 "The configuration of available RAM is recommended in order to reduce the "
 "processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings "
@@ -145,11 +151,11 @@ msgstr ""
 "Konfigurasi RAM yang tersedia dianjurkan untuk mengurangi waktu pemrosesan. "
 "Dari :ref:`SCP_menu` pilih |settings_too| ``Settings > Processing``."
 
-#: ../../installation_win64_network.rst:94
+#: ../../installation_win64_network.rst:99
 msgid "settings_tool"
 msgstr "alat_pengaturan"
 
-#: ../../installation_win64_network.rst:103
+#: ../../installation_win64_network.rst:108
 msgid ""
 "In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that "
 "should be half of the system RAM. For instance, if your system has 2GB of "
@@ -159,11 +165,11 @@ msgstr ""
 "sistem RAM. Misalnya, jika sistem anda memiliki RAM 2GB, atur nilainya "
 "menjadi 1024MB."
 
-#: ../../installation_win64_network.rst:113
+#: ../../installation_win64_network.rst:118
 msgid "Update of required dependencies"
 msgstr "Pembaharuan tambahan kebutuhan"
 
-#: ../../installation_win64_network.rst:115
+#: ../../installation_win64_network.rst:120
 msgid ""
 "The dependency Remotior Sensus is frequently updated. The Semi-Automatic "
 "Classification Plugin can check automatically if a new version is available,"
@@ -173,7 +179,7 @@ msgstr ""
 "dapat melakukan pengecekan otomatis jika versi terbaru telah tersedia, dan "
 "menampilkan pesan pada :ref:`scp_dock`."
 
-#: ../../installation_win64_network.rst:122
+#: ../../installation_win64_network.rst:127
 msgid ""
 "It is recommended to close QGIS and update Remotior Sensus following the "
 "same installation steps described in "
@@ -183,7 +189,7 @@ msgstr ""
 "mengikuti langkah instalasi yang dijelaskan pada  "
 "ref:`QGIS_network_installation_win64bit`."
 
-#: ../../installation_win64_network.rst:125
+#: ../../installation_win64_network.rst:130
 msgid ""
 "In case the library Remotior Sensus is outdated, it is possible to open the "
 "OSGeo4W Shell (administrative rights may be required):"
@@ -191,6 +197,6 @@ msgstr ""
 "Jika library Remotior Sensus kadaluarsa, maka memungkinkan untuk membuka "
 "OSGeo4W Shell (mungkin membutuhkan hak administrative): "
 
-#: ../../installation_win64_network.rst:130
+#: ../../installation_win64_network.rst:135
 msgid "and run the following command:"
 msgstr "dan jalankan perintah berikut:"

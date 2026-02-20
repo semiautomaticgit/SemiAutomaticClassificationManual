@@ -1,8 +1,8 @@
-.. _band_dilation_tab:
+.. _spectral_distance_tab:
 
-******************************
-Dilation
-******************************
+******************************************
+Spectral distance (complete interface)
+******************************************
 
 .. contents::
     :local:
@@ -110,32 +110,43 @@ Dilation
 .. |radiobutton| image:: _static/radiobutton.png
     :width: 18pt
 
-.. |pointer| image:: _static/semiautomaticclassificationplugin_pointer_tool.png
+.. |remove| image:: _static/semiautomaticclassificationplugin_remove.png
+    :width: 20pt
+
+.. |import| image:: _static/semiautomaticclassificationplugin_import.png
     :width: 20pt
 
 .. |threshold_tool| image:: _static/semiautomaticclassificationplugin_threshold_tool.png
     :width: 20pt
 
 
-.. figure:: _static/interface/dilation_tab.png
+.. figure:: _static/interface/spectral_distance_tab.png
     :align: center
     :width: 100%
 
-    :guilabel:`Dilation`
+    :guilabel:`Spectral distance`
 
+This tab allows for calculating the spectral distance between every
+corresponding pixel of two :guilabel:`band sets`.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
-This tab allows for dilating the border of a class patch, defining the class
-values to be dilated and the number of pixels from the border.
-It is useful for classification refinement.
+The output is a raster containing the spectral distance of each pixel.
+Optionally, a threshold can be defined for creating a binary raster (0-1) of
+values below and above the threshold.
+
+This tool supports ``virtual raster output``; if the output file name ends
+with ``.vrt`` then the output is created as virtual raster composed of as many
+``.tif`` files as the number of CPU threads defined in
+:ref:`system_processing`; for large rasters this can speed up the process.
 
 .. tip::
     Information about APIs of this tool in Remotior Sensus at this
-    `link <https://remotior-sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_dilation.html>`_ .
+    `link <https://remotior-sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_spectral_distance.html>`_ .
 
-.. _dilation_input:
+.. _spectral_distance_input:
 
-Dilation
-^^^^^^^^^^^^^^^^^^^^^^^^
+Spectral distance of band sets
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :widths: auto
@@ -143,23 +154,33 @@ Dilation
 
     * - Tool symbol and name
       - Description
-    * - :guilabel:`Select input band set (of classifications)` |input_number|
-      - select the input :ref:`band_set_tab`
-    * - :guilabel:`Class values` |input_text|
-      - set the class values to be dilated; class values must be separated by
-        ``,`` and ``-`` can be used to define a range of values (e.g.
-        ``1, 3-5, 8`` will select classes 1, 3, 4, 5, 8); if the text is red
-        then the expression contains errors
-    * - :guilabel:`Size in pixels` |input_number|
-      - number of pixels to be dilated from the border
-    * - |checkbox| :guilabel:`Circular` |optional|
-      - if checked, the dilation will be circular, similar to a buffer
-    * - :guilabel:`Output name`
-      - set the name prefix for output files
-    * - |checkbox| :guilabel:`Virtual output` |optional|
-      - if checked, the output is created as virtual raster composed of as
-        many ``.tif`` files as the number of CPU threads defined in
-        :ref:`system_processing`
+    * - :guilabel:`Select first input band set` |input_number|
+      - select the first input :ref:`band_set_tab`
+    * - :guilabel:`Select second input band set` |input_number|
+      - select the second input :ref:`band_set_tab`
+    * - :guilabel:`Distance algorithm`
+
+        |radiobutton| :guilabel:`Minimum Distance`
+
+        |radiobutton| :guilabel:`Spectral Angle Mapping`
+      - select :ref:`minimum_distance_algorithm` or
+        :ref:`spectra_angle_mapping_algorithm` for spectral distance
+        calculation
+    * - |checkbox| :guilabel:`Distance threshold` |input_number|
+      - if checked, a binary raster of values below and above the threshold is
+        created
+
+.. _spectral_distance_run:
+
+Run
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - Tool symbol and name
+      - Description
     * - :guilabel:`Script` |script_tool|
       - add this function to the :ref:`script_tab`
     * - :guilabel:`RUN` |run|

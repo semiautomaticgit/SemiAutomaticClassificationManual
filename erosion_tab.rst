@@ -1,4 +1,4 @@
-.. _band_erosion_tab:
+.. _erosion_tab:
 
 ******************************
 Erosion

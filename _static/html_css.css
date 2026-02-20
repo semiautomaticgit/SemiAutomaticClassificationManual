@@ -1,1 +1,20 @@
-.wy-nav-content {max-width: 100%}
+div.documentwrapper {
+    margin-left: 250px !important;
+    width: calc(100% - 250px) !important;
+}
+
+div.bodywrapper {
+    margin: 0 2em !important;
+}
+
+div.body {
+    max-width: 100% !important;
+}
+
+
+.guilabel {
+    background: #f2f2f2;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 600;
+}

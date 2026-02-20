@@ -1,8 +1,8 @@
 .. _settings_processing_tab:
 
-******************************
-Processing setting
-******************************
+********************************************
+Processing setting (complete interface)
+********************************************
 
 .. contents::
     :depth: 2
@@ -41,6 +41,9 @@ Processing setting
 
     :guilabel:`Processing`
 
+
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
+
 .. _system_processing:
 
 System
@@ -56,11 +59,11 @@ System
     * - :guilabel:`Available RAM (MB)` |input_number| |registry_save|
       - set the available RAM (in MB) that is used during the processes in
         order to improve the :guilabel:`SCP` performance; this value should be
-        half of the system RAM (e.g. 1024MB if system has 2GB of RAM)
+        half of the system RAM (e.g. 2048MB if system has 4GB of RAM)
     * - :guilabel:`CPU threads` |input_number| |registry_save|
       - set the number of threads available for processing; it is recommended
         to set a value lower than the maximum number of system threads (e.g.
-        if the system has 4 available threads set value 3)
+        if the system has 4 available threads set the value 3)
 
 
 .. _calculation_process:
@@ -131,6 +134,7 @@ Temporary directory
 External programs
 ^^^^^^^^^^^^^^^^^^
 
+This option is deprecated.
 Some tools require external programs to perform the processing.
 
 .. list-table::

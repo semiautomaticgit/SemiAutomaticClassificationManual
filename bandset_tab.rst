@@ -1,7 +1,7 @@
 .. _band_set_tab:
 
 ******************************
-Band set
+Band set (complete interface)
 ******************************
 
 .. contents::
@@ -88,7 +88,9 @@ Band set
     |bandset_tool| :guilabel:`Band set`
 
 Image input in :guilabel:`SCP` is named :guilabel:`band set`.
-This tab allows for the definition of one or multiple :guilabel:`band sets` to
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
+Compared to the :guilabel:`Simplified interface`, this tab allows for the
+definition of one or multiple :guilabel:`band sets` to
 be used as input for classification and other tools.
 
 :guilabel:`Band sets` are identified by numbers.

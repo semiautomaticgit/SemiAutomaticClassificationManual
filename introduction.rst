@@ -58,8 +58,8 @@ land cover in an affordable and automatic fashion; following versions of
 field and open source philosophy.
 :guilabel:`SCP` version 6 was developed in the frame of Luca Congedo's PhD in
 Landscape and Environment at Sapienza University of Rome.
-:guilabel:`SCP` version 7 and version 8 as personal commitment to the remote
-sensing field and open source philosophy.
+:guilabel:`SCP` version 7, version 8 and version 9 as personal commitment to
+the remote sensing field and open source philosophy.
 
 |br|
 

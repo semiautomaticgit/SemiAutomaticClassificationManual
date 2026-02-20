@@ -1,7 +1,7 @@
 .. _network_installation_win64:
 
 ******************************************
-OSGeo4W Network installer in Windows
+Windows
 ******************************************
 
 
@@ -13,8 +13,7 @@ QGIS download and installation
 * Download the latest QGIS version 64 bit using the OSGeo4W network installer
   `from here <https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe>`_ ;
 
-* Execute the QGIS installer with administrative rights and select
-  ``Advanced Install``;
+* Execute the QGIS installer and select ``Advanced Install``;
 
 .. image:: _static/installation/osgeo_installer.jpg
 
@@ -23,23 +22,12 @@ QGIS download and installation
 
 .. image:: _static/installation/osgeo_advanced.jpg
 
-The Semi-Automatic Classification Plugin requires Remotior Sensus, GDAL, NumPy
-and SciPy for most functionalities.
-Optionally, scikit-learn and PyTorch are required for machine learning.
 
 * In the menu ``Select packages`` select
-  ``All > Desktop > qgis-full-free``; also select
-  ``All > Libs > python3-remotior-sensus``,
-  ``All > Libs > python3-scikit-learn`` and ``All > Libs > python3-torch``;
+  ``All > Desktop > qgis-full-free``;
 
 
 .. image:: _static/installation/osgeo_packages.jpg
-
-.. image:: _static/installation/osgeo_packages_2.jpg
-
-.. image:: _static/installation/osgeo_packages_3.jpg
-
-.. image:: _static/installation/osgeo_packages_4.jpg
 
 
 * Click ``Next`` and accept to install the required dependencies;
@@ -47,10 +35,45 @@ Optionally, scikit-learn and PyTorch are required for machine learning.
 .. image:: _static/installation/osgeo_dependencies.jpg
 
 
-The download of the programs will start, and QGIS will be installed along with
-the required dependencies.
+The download of the programs will start, and QGIS will be installed.
 
 .. image:: _static/installation/QGIS.jpg
+
+
+.. _installation_dependencies_network_win64bit:
+
+Installation of required dependencies
+-------------------------------------------------
+
+The Semi-Automatic Classification Plugin requires Remotior Sensus, GDAL, NumPy
+and SciPy for the main functionalities.
+Optionally, scikit-learn and PyTorch are required for machine learning and
+additional functionalities.
+
+The Semi-Automatic Classification Plugin can automatically download and
+install Remotior Sensus.
+Therefore, it is recommended install the dependencies that are not included in
+the QGIS installation.
+
+
+* Close QGIS;
+
+* From the Start menu, open OSGeo4W Shell (administrative rights may be
+  required);
+
+.. image:: _static/installation/osgeo4w_shell.jpg
+
+
+* Enter the following command and execute it:
+
+.. code-block:: bash
+
+    pip3 install scikit-learn scipy torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+
+.. tip::
+    If the system has GPU support please refer to the PyTorch
+    documentation for installation  https://pytorch.org/get-started/locally/
 
 
 .. _plugin_installation_win64bit_network:
@@ -77,20 +100,20 @@ Semi-Automatic Classification Plugin installation
 .. image:: _static/installation/plugins_installed.jpg
 
 
-.. tip::
-    In case of installation issues, one may follow the
-    :ref:`plugin_installation_4`.
-
-
 .. _plugin_configuration_win64bit_network:
 
 Configuration of the plugin
 ---------------------------
 
-Now, the Semi-Automatic Classification Plugin is installed and a dock and
-a toolbar should be added to QGIS.
-Also, a SCP menu is available in the Menu Bar of QGIS. 
-It is possible to move the toolbar and the dock according to your needs,
+Now, the Semi-Automatic Classification Plugin is installed.
+
+A :guilabel:`Simplified interface` is loaded after the first installation of
+the plugin.
+It is especially designed for new users in order to ease the classification
+process, from the definition of input images to executing the classification
+algorithm.
+Also, a SCP menu is available in the Menu Bar of QGIS.
+It is possible to move the dock according to your needs,
 as in the following image.
 
 .. image:: _static/installation/SemiAutomaticClassificationPlugin.jpg
@@ -101,39 +124,14 @@ as in the following image.
 
 The configuration of available RAM is recommended in order to reduce
 the processing time.
-From the :ref:`SCP_menu` select |settings_tool| ``Settings > Processing`` .
+From the :ref:`SCP_menu` select |settings_tool| ``Settings`` .
 
-.. image:: _static/installation/settings_processing.jpg
+.. image:: _static/interface/scp_menu_simplified.png
 
 In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that
 should be half of the system RAM.
-For instance, if your system has 2GB of RAM, set the value to 1024MB.
+For instance, if your system has 4GB of RAM, set the value to 2048MB.
 
-.. image:: _static/interface/settings_processing_tab.png
-
-
-.. _installation_update_win64bit_network:
-
-Update of required dependencies
--------------------------------------------------
-
-The dependency Remotior Sensus is frequently updated.
-The Semi-Automatic Classification Plugin can check automatically if a new
-version is available, and display a message in the :ref:`scp_dock`.
-
-
-.. image:: _static/installation/remotior_sensus_update.png
-
-It is recommended to close QGIS and update Remotior Sensus following the same
-installation steps described in :ref:`QGIS_network_installation_win64bit`.
-
-In case the library Remotior Sensus is outdated, it is possible to open the
-OSGeo4W Shell (administrative rights may be required):
-
-.. image:: _static/installation/osgeo4w_shell.jpg
-
-and run the following command:
-
-.. code-block:: shell
-
-    pip3 install --upgrade remotior-sensus
+The :guilabel:`Complete interface` can be loaded from the settings in the
+:ref:`SCP_menu`, by deselecting :guilabel:`Simplified interface` and
+restarting QGIS.

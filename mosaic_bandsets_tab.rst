@@ -1,8 +1,8 @@
 .. _mosaic_bandsets_tab:
 
-******************************
-Mosaic of band sets
-******************************
+****************************************
+Mosaic of band sets (complete interface)
+****************************************
 
 .. contents::
     :depth: 2
@@ -149,6 +149,8 @@ An output band is created for every corresponding set of bands in the band
 sets.
 NoData values of one band set are replaced by the values of the other band
 sets.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
+
 
 .. tip::
     Information about APIs of this tool in Remotior Sensus at this

@@ -10,9 +10,6 @@ Cross-platform installation using Conda
 QGIS download and installation with the dependencies
 ------------------------------------------------------
 
-The Semi-Automatic Classification Plugin requires Remotior Sensus, GDAL, NumPy
-and SciPy for most functionalities.
-
 QGIS and the dependencies can be installed in
 a `Conda` environment using `Mamba`, which is a cross-platform package manager
 (if you don't know `Mamba` please read https://mamba.readthedocs.io).
@@ -32,7 +29,7 @@ Now install QGIS and the dependencies (it could take some time):
 
 .. code-block:: console
 
-    $ mamba install -c conda-forge qgis gdal remotior-sensus scikit-learn pytorch
+    $ mamba install -c conda-forge qgis gdal scikit-learn scipy torch torchvision
 
 Now, QGIS is installed. To launch it run in the terminal:
 
@@ -72,10 +69,15 @@ Semi-Automatic Classification Plugin installation
 Configuration of the plugin
 ---------------------------
 
-Now, the Semi-Automatic Classification Plugin is installed and a dock and
-a toolbar should be added to QGIS.
+Now, the Semi-Automatic Classification Plugin is installed.
+
+A :guilabel:`Simplified interface` is loaded after the first installation of
+the plugin.
+It is especially designed for new users in order to ease the classification
+process, from the definition of input images to executing the classification
+algorithm.
 Also, a SCP menu is available in the Menu Bar of QGIS.
-It is possible to move the toolbar and the dock according to your needs,
+It is possible to move the dock according to your needs,
 as in the following image.
 
 .. image:: _static/installation/SemiAutomaticClassificationPlugin.jpg
@@ -86,33 +88,14 @@ as in the following image.
 
 The configuration of available RAM is recommended in order to reduce
 the processing time.
-From the :ref:`SCP_menu` select |settings_tool| ``Settings > Processing`` .
+From the :ref:`SCP_menu` select |settings_tool| ``Settings`` .
 
-.. image:: _static/installation/settings_processing.jpg
+.. image:: _static/interface/scp_menu_simplified.png
 
 In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that
 should be half of the system RAM.
-For instance, if your system has 2GB of RAM, set the value to 1024MB.
+For instance, if your system has 4GB of RAM, set the value to 2048MB.
 
-.. image:: _static/interface/settings_processing_tab.png
-
-.. _installation_update_conda:
-
-Update of required dependencies
--------------------------------------------------
-
-The dependency Remotior Sensus is frequently updated.
-The Semi-Automatic Classification Plugin can check automatically if a new
-version is available, and display a message in the :ref:`scp_dock`.
-
-
-.. image:: _static/installation/remotior_sensus_update.png
-
-
-It is recommended to close QGIS and update Remotior Sensus using activating
-the conda environment and running the command:
-
-
-.. code-block:: console
-
-    $ conda update -c conda-forge remotior-sensus
+The :guilabel:`Complete interface` can be loaded from the settings in the
+:ref:`SCP_menu`, by deselecting :guilabel:`Simplified interface` and
+restarting QGIS.

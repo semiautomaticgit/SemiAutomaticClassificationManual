@@ -1,8 +1,8 @@
 .. _RGB_list_tab:
 
-******************************
-RGB composite
-******************************
+**********************************
+RGB composite (complete interface)
+**********************************
 
 
 .. contents::
@@ -93,6 +93,7 @@ RGB composite
 
 This tab allows for managing the RGB :ref:`color_composite_definition` used in
 the list :guilabel:`RGB=` of the :ref:`image_control`.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 .. _RGB_list_table:
 

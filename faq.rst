@@ -100,7 +100,8 @@ and click ``OK``;
 
 .. image:: _static/faq/qgis_repos_list.jpg
 
-* From the menu ``All``, select the ``Semi-Automatic Classification Plugin - master``
+* From the menu ``All``, select the
+  ``Semi-Automatic Classification Plugin - master``
   and click the button ``Install plugin``; the latest version of SCP should be
   automatically activated (ignore errors, the restart of QGIS could be
   necessary to complete the SCP installation); it is possible to deactivate
@@ -110,82 +111,11 @@ and click ``OK``;
 
 .. _plugin_installation_3:
 
-Can I use the previous version 7 of SCP?
+Can I use the previous version 8 of SCP?
 --------------------------------------------------------------
 
-The version 7 of SCP is no longer supported.
-However, it is possible to install the previous version 7 of SCP using the
-official repository.
-Also, this version can be installed along with the SCP version 8.
-
-In order to install the SCP repository follow these steps:
-
-* Run QGIS;
-
-* From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;
-
-.. image:: _static/installation/install.jpg
-
-* Click ``Settings`` then click the button ``Add``;
-
-.. image:: _static/faq/qgis_repos_settings.jpg
-
-* Inside the ``Repository details`` enter:
-
-Name::
-
-    SCP
-
-
-URL::
-
-    https://semiautomaticgit.github.io/SemiAutomaticClassificationPlugin_v7/repository.xml
-
-and click ``OK``;
-
-.. image:: _static/faq/qgis_repos_add.jpg
-
-* After the repository update, the item
-  ``Semi-Automatic Classification Plugin - master`` should be listed with the
-  other plugins;
-
-.. image:: _static/faq/qgis_repos_list.jpg
-
-* From the menu ``All``, select the ``Semi-Automatic Classification Plugin - master``
-  and click the button ``Install plugin``; the latest version of SCP should be
-  automatically activated (ignore errors, the restart of QGIS could be
-  necessary to complete the SCP installation); it is possible to deactivate the
-  other SCP installed in the QGIS repository;
-
-.. image:: _static/faq/qgis_repos_installed.jpg
-
-
-.. _plugin_installation_4:
-
-Alternative installation of plugin dependencies
---------------------------------------------------------------
-
-In case of issues with the installation, the SCP could fail to start or show a
-message about updating the required Python dependency Remotior Sensus.
-As a possible solution, one can install the additional plugin named ``QPIP``
-(developed by OPENGIS.ch) that allows for managing Python dependencies in QGIS,
-following these steps:
-
-#. open the QGIS Plugin manager;
-#. search and install the plugin QPIP;
-
-.. image:: _static/faq/qpip_install.png
-
-3. search and install (or reinstall) the Semi-Automatic Classification Plugin;
-   a ``QPIP`` window should pop up notifying about the required dependency
-   Remotior Sensus, click ``OK`` and wait for the installation to complete;
-
-.. image:: _static/faq/qpip.png
-
-4. close the QGIS Plugin manager and restart QGIS.
-
-The interface of the Semi-Automatic Classification Plugin should appear in
-QGIS.
+The version 8 of SCP is no longer supported.
+However, it is possible to install the previous version 8 in QGIS version 3.
 
 .. _FAQ_pre_processing:
  
@@ -602,3 +532,20 @@ Where is the source code of SCP?
 
 The source code of SPC is available at the following link
 https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin
+
+.. _other_6:
+
+How can I use the complete interface of the SCP?
+-------------------------------------------------------------------------------
+
+The :guilabel:`Complete interface` can be loaded from the settings in the
+:ref:`SCP_menu`, by deselecting :guilabel:`Simplified interface` and
+restarting QGIS.
+
+
+.. figure:: _static/interface/scp_menu_simplified.png
+    :align: center
+
+    :guilabel:`SCP menu with activated option for the simplified interface`
+
+From the same menu, the :guilabel:`Simplified interface` can be reactivated.

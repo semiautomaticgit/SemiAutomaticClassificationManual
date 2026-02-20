@@ -1,7 +1,7 @@
 .. _band_neighbor_tab:
 
 ******************************
-Neighbor
+Neighbor (complete interface)
 ******************************
 
 .. contents::
@@ -127,6 +127,7 @@ Neighbor
 
 This tool allows for the calculation of several neighbor pixels statistics for
 every band of a band set defined in the :ref:`band_set_tab`.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 The statistics are calculated for every pixel of the input raster considering
 the values of the neighbor pixels.

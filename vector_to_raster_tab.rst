@@ -1,8 +1,8 @@
 .. _vector_to_raster_tab:
 
-******************************
-Vector to raster
-******************************
+*************************************
+Vector to raster (complete interface)
+*************************************
 
 
 .. |registry_save| image:: _static/registry_save.png
@@ -138,6 +138,7 @@ Vector to raster
     :guilabel:`Vector to raster`
 
 This tab allows for the conversion of a vector (polygon) to raster format.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 .. tip::
     Information about APIs of this tool in Remotior Sensus at this

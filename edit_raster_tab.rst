@@ -1,8 +1,8 @@
 .. _edit_raster_tab:
 
-******************************
-Edit raster
-******************************
+************************************
+Edit raster (complete interface)
+************************************
 
 .. contents::
     :local:
@@ -119,6 +119,7 @@ Edit raster
 
 This tab allows for the direct editing of pixel values in a raster.
 Only pixels beneath ROI polygons or vector polygons are edited.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 .. warning::
     The input raster is directly edited; it is recommended to create

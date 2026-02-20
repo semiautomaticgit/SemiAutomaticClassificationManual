@@ -10,8 +10,14 @@ Linux Debian/Ubuntu
 QGIS download and installation
 ------------------------------------------
 
+It is recomended to follow the
+`QGIS guide <https://qgis.org/resources/installation-guide/#debian--ubuntu>`_ .
+
+For other Linux distributions please follow
+`QGIS Linux <https://qgis.org/resources/installation-guide/#debian--ubuntu>`_
+or :ref:`installation_conda`.
+
 This guide describes the installation for Debian/Ubuntu Linux.
-For other Linux distributions please follow :ref:`installation_conda`.
 
 * Open a terminal and type:
 
@@ -25,7 +31,7 @@ For other Linux distributions please follow :ref:`installation_conda`.
 
 .. code-block:: bash
 
-    sudo apt-get install qgis python3-matplotlib python3-scipy
+    sudo apt-get install qgis
 
 * Press Enter and wait until the software is downloaded and installed.
 
@@ -40,10 +46,13 @@ Installation of required dependencies
 -------------------------------------------------
 
 The Semi-Automatic Classification Plugin requires Remotior Sensus, GDAL, NumPy
-and SciPy for most functionalities.
-Optionally, scikit-learn and PyTorch are required for machine learning.
+and SciPy for the main functionalities.
+Optionally, scikit-learn and PyTorch are required for machine learning and
+additional functionalities.
 
-Therefore, we need to install the dependencies that are not included in
+The Semi-Automatic Classification Plugin can automatically download and
+install Remotior Sensus.
+Therefore, it is recommended install the dependencies that are not included in
 the QGIS installation.
 
 
@@ -55,13 +64,13 @@ the QGIS installation.
 
 .. code-block:: bash
 
-    pip3 install --upgrade remotior-sensus
+    pip3 install scikit-learn scipy torch torchvision --index-url https://download.pytorch.org/whl/cpu
 
-or optionally:
 
-.. code-block:: bash
+.. tip::
+    If the system has GPU support please refer to the PyTorch
+    documentation for installation  https://pytorch.org/get-started/locally/
 
-    pip3 install --upgrade remotior-sensus scikit-learn torch
 
 .. warning::
     In case you get an error message related to externally managed environment,
@@ -69,14 +78,6 @@ or optionally:
     the option ``--break-system-packages``; alternatively, it is possible to
     create a virtual environment ``python3 -m venv env``, install the packages
     in it, and start QGIS from the activated environment.
-
-
-Follow the same procedure for updating the dependencies.
-
-
-.. tip::
-    In case of installation issues, one may follow the
-    :ref:`plugin_installation_4`.
 
 
 .. _plugin_installation_debian:
@@ -108,10 +109,15 @@ Semi-Automatic Classification Plugin installation
 Configuration of the plugin
 ---------------------------
 
-Now, the Semi-Automatic Classification Plugin is installed and a dock and
-a toolbar should be added to QGIS.
+Now, the Semi-Automatic Classification Plugin is installed.
+
+A :guilabel:`Simplified interface` is loaded after the first installation of
+the plugin.
+It is especially designed for new users in order to ease the classification
+process, from the definition of input images to executing the classification
+algorithm.
 Also, a SCP menu is available in the Menu Bar of QGIS.
-It is possible to move the toolbar and the dock according to your needs,
+It is possible to move the dock according to your needs,
 as in the following image.
 
 .. image:: _static/installation/SemiAutomaticClassificationPlugin.jpg
@@ -122,27 +128,14 @@ as in the following image.
 
 The configuration of available RAM is recommended in order to reduce
 the processing time.
-From the :ref:`SCP_menu` select |settings_tool| ``Settings > Processing`` .
+From the :ref:`SCP_menu` select |settings_tool| ``Settings`` .
 
-.. image:: _static/installation/settings_processing.jpg
+.. image:: _static/interface/scp_menu_simplified.png
 
 In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that
 should be half of the system RAM.
-For instance, if your system has 2GB of RAM, set the value to 1024MB.
+For instance, if your system has 4GB of RAM, set the value to 2048MB.
 
-.. image:: _static/interface/settings_processing_tab.png
-
-.. _installation_update_debian:
-
-Update of required dependencies
--------------------------------------------------
-
-The dependency Remotior Sensus is frequently updated.
-The Semi-Automatic Classification Plugin can check automatically if a new
-version is available, and display a message in the :ref:`scp_dock`.
-
-
-.. image:: _static/installation/remotior_sensus_update.png
-
-It is recommended to close QGIS and update Remotior Sensus following the same
-installation steps described in :ref:`installation_dependencies_debian` .
+The :guilabel:`Complete interface` can be loaded from the settings in the
+:ref:`SCP_menu`, by deselecting :guilabel:`Simplified interface` and
+restarting QGIS.

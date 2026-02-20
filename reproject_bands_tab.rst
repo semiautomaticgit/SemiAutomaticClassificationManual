@@ -1,8 +1,8 @@
 .. _reproject_raster_bands_tab:
 
-******************************
-Reproject raster bands
-******************************
+*******************************************
+Reproject raster bands (complete interface)
+*******************************************
 
 .. contents::
     :depth: 2
@@ -144,6 +144,7 @@ Reproject raster bands
 
 This tab allows for reprojecting bands in a :ref:`band_set_tab` and perform
 other raster operations.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 .. tip::
     Information about APIs of this tool in Remotior Sensus at this

@@ -1,8 +1,8 @@
 .. _raster_zonal_stats_tab:
 
-******************************
-Raster zonal stats
-******************************
+******************************************
+Raster zonal stats (complete interface)
+******************************************
 
 .. contents::
     :local:
@@ -130,6 +130,7 @@ This tab allows for calculating the statistics related to an input raster for
 every unique value of a reference vector.
 For example, if a vector file contains a numeric field ``zone``, this tool
 allows for calculating the mean value (for each zone) of input raster pixels.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 .. tip::
     Information about APIs of this tool in Remotior Sensus at this

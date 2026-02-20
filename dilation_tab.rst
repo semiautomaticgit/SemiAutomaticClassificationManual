@@ -1,7 +1,7 @@
-.. _band_sieve_tab:
+.. _dilation_tab:
 
 ******************************
-Sieve
+Dilation
 ******************************
 
 .. contents::
@@ -117,28 +117,24 @@ Sieve
     :width: 20pt
 
 
-.. figure:: _static/interface/sieve_tab.png
+.. figure:: _static/interface/dilation_tab.png
     :align: center
     :width: 100%
 
-    :guilabel:`Sieve`
+    :guilabel:`Dilation`
 
 
-This tab allows for the replacement of isolated pixel values with the value of
-the largest neighbour patch.
-It is useful for removing small patches from a classification.
-
-It is possible to chose ``4 pixel connection`` (in a 3x3 window, diagonal
-pixels are not considered connected) or ``8 pixel connection`` (in a 3x3
-window, diagonal pixels are considered connected).
+This tab allows for dilating the border of a class patch, defining the class
+values to be dilated and the number of pixels from the border.
+It is useful for classification refinement.
 
 .. tip::
     Information about APIs of this tool in Remotior Sensus at this
-    `link <https://remotior-sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_sieve.html>`_ .
+    `link <https://remotior-sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_dilation.html>`_ .
 
-.. _sieve_input:
+.. _dilation_input:
 
-Sieve
+Dilation
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
@@ -149,10 +145,15 @@ Sieve
       - Description
     * - :guilabel:`Select input band set (of classifications)` |input_number|
       - select the input :ref:`band_set_tab`
-    * - :guilabel:`Size threshold` |input_number|
-      - size of threshold in number of pixels
-    * - |checkbox| :guilabel:`Pixel connection` |input_list|
-      - select between 4 pixel connection or 8 pixel connection
+    * - :guilabel:`Class values` |input_text|
+      - set the class values to be dilated; class values must be separated by
+        ``,`` and ``-`` can be used to define a range of values (e.g.
+        ``1, 3-5, 8`` will select classes 1, 3, 4, 5, 8); if the text is red
+        then the expression contains errors
+    * - :guilabel:`Size in pixels` |input_number|
+      - number of pixels to be dilated from the border
+    * - |checkbox| :guilabel:`Circular` |optional|
+      - if checked, the dilation will be circular, similar to a buffer
     * - :guilabel:`Output name`
       - set the name prefix for output files
     * - |checkbox| :guilabel:`Virtual output` |optional|

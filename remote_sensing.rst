@@ -1086,7 +1086,7 @@ In general, Machine Learning algorithms split the data in (ESA, 2019):
 * Test Dataset: the sample data used to provide an evaluation of the final
   model;
 
-Usually, the training and model evaluation are performed iteratively. 
+Usually, the training and model evaluation are performed iteratively.
 
 .. _random_forest_definition:
 
@@ -1167,6 +1167,52 @@ hyperplanes in order to separate input data values.
 
 Several parameters can be defined as described at this
 `link <https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html>`_
+
+
+.. _pretrained_models_definition:
+
+Pretrained models
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Pretrained models are machine learning or deep learning models that are
+trained in order to provide a tool usueful for the classification process.
+Pretrained models can be trained for specific classes or trained on broad data
+such as `fundation models <https://en.wikipedia.org/wiki/Foundation_model>`_ .
+
+Foundation models are usually the result of
+`self-supervised_learning <https://en.wikipedia.org/wiki/Self-supervised_learning>`_
+that don't require training data.
+
+Usually, pretrained models are trained for specific classes that can be used
+directly for classification of input data, resulting in a classification
+output (for example, a pretrained model can classify a Landsat image using the
+classes Water, Soil, Built-up, Vegetation).
+Foundation models can be used in different ways, for example adaptated to a
+specific use case by training with additional data.
+
+.. _fig_pretrained_1:
+
+.. figure:: _static/remote_sensing/pretrained_model_classification.jpg
+    :align: center
+
+    :guilabel:`Classification using a pretrained model`
+
+In addition, models can be used to produce
+`embeddings <https://developers.google.com/machine-learning/glossary#embedding-vector>`_,
+which are vectors that can be used as input to train a supervised
+classification model such as :ref:`random_forest_definition`.
+For example, a Sentinel-2 image with 10 bands can be processed using a
+foundation model to produce embeddings at n dimension (for instance of size
+128, thus enriching the information at pixel level), and then train
+a supervised classification algorithm on these embeddings.
+
+.. _fig_pretrained_2:
+
+.. figure:: _static/remote_sensing/pretrained_embedding_classification.jpg
+    :align: center
+
+    :guilabel:`Classification using pretrained model embeddings`
+
 
 .. _spectral_distance_definition:
 

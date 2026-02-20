@@ -1,8 +1,8 @@
 .. _Signature_threshold_tab:
 
-******************************
-Signature threshold
-******************************
+****************************************
+Signature threshold (complete interface)
+****************************************
 
 .. contents::
     :depth: 2
@@ -99,6 +99,8 @@ Signature threshold
 This tab allows for the definition of a classification threshold (only for
 Minimum Distance, Maximum Likelihood, and Spectral Angle Mapping algorithms)
 for each spectral signature.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
+
 All the signatures contained in the :ref:`training_input` are listed.
 Thresholds defined in this tool are applied to classification only
 if :guilabel:`Threshold` value in :ref:`classification_alg` is 0.

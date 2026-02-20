@@ -1,8 +1,8 @@
 .. _stack_raster_tab:
 
-******************************
-Stack raster bands
-******************************
+***************************************
+Stack raster bands (complete interface)
+***************************************
 
 .. contents::
     :depth: 2
@@ -142,6 +142,7 @@ Stack raster bands
 
 
 Stack all the bands in a :ref:`band_set_tab` into a multiband raster.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 .. tip::
     Information about APIs of this tool in Remotior Sensus at this

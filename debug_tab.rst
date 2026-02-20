@@ -1,7 +1,7 @@
 .. _settings_debug_tab:
 
 ******************************
-Debug
+Debug (complete interface)
 ******************************
 
 .. contents::
@@ -49,6 +49,7 @@ Debug
 
 This tab allows for the debug of :guilabel:`SCP` in case of issues, and
 the check of :guilabel:`SCP` dependencies.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 .. _log_file:
 

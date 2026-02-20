@@ -1,8 +1,8 @@
 .. _working_toolbar:
 
-******************************
-Working toolbar
-******************************
+************************************
+Working toolbar (complete interface)
+************************************
 
  
 .. |registry_save| image:: _static/registry_save.png
@@ -80,6 +80,7 @@ Working toolbar
 
 The :guilabel:`Working toolbar` allows for creating :guilabel:`temporary ROIs`
 and :guilabel:`classification previews`.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 .. contents::
     :depth: 2
@@ -146,7 +147,7 @@ seed including spectrally homogeneous pixels).
         and right click to define the last vertex closing the polygon; press
         the keyboard button ``CTRL`` to add a multipart polygon; press the
         keyboard buttons ``CTRL + Z`` for removing the last multipart polygon
-    * - |roi_single|:
+    * - |roi_single|
       - activate the pointer to create a :guilabel:`temporary ROI` using the
         region growing algorithm; left click on the map for creating the ROI;
         right click on the map for displaying the spectral signature of a pixel

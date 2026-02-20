@@ -1,7 +1,7 @@
-.. _basic_tutorial_1:
+.. _tutorial_introduction_1:
 
 ***************************************************************
-Tutorial 1: Basic Land Cover Classification
+Introduction to the Semi-Automatic Classification Plugin
 ***************************************************************
 
 .. |checkbox| image:: _static/checkbox.png
@@ -47,4 +47,12 @@ Tutorial 1: Basic Land Cover Classification
     :width: 20pt
 
 
-Work in progress
+The following is a brief introduction about the new features of
+the Semi-Automatic Classification Plugin (:guilabel:`SCP`).
+
+https://www.youtube.com/watch?v=es8ArkJtGr0
+
+.. raw:: html
+
+    <iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/es8ArkJtGr0?rel=0" width="100%"></iframe>
+

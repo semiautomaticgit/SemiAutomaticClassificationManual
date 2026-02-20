@@ -127,6 +127,8 @@ This tab allows for the classification of the :ref:`band_set_tab` using the
 spectral signatures checked in :ref:`ROI_list`.
 Several classification options are set in this tab which affect the
 classification process also during the :ref:`classification_preview`.
+:ref:`pretrained_models_definition` are available, which require the
+installation of PyTorch.
 
 This tool allows for the selection of one the following algorithms:
 
@@ -136,6 +138,7 @@ This tool allows for the selection of one the following algorithms:
 * :ref:`random_forest`
 * :ref:`spectral_angle_mapping`
 * :ref:`support_vector_machine`
+* :ref:`pretrained_models`
 
 
 Also, it is possible to save and load a trained classifier.
@@ -301,6 +304,12 @@ Use the :ref:`multi_layer_perceptron_algorithm` algorithm.
       - if checked, find the best estimator iteratively with a number of steps
     * - |checkbox| :guilabel:`Calculate classification confidence raster` |optional|
       - if checked, calculate classification confidence raster
+    * - |checkbox| :guilabel:`Pretrained model` |input_list| |optional|
+      - if checked, use the selected pretrained model from the list
+    * - :guilabel:`Pretrained model information`
+      - information about the selected pretrained model, in particular about
+        the requirements (which input bands), band normalization, and model
+        source.
 
 :guilabel:`Cross validation` is a function provided by ``scikit-learn`` to
 avoid overfitting by splitting the training set into ``k`` smaller sets
@@ -314,6 +323,70 @@ If :guilabel:`Find best estimator with steps` is checked, the
 algorithm tries to find the best estimator iteratively with the defined
 number of steps (the more the steps, the slower the process will be),
 by changing the algorithm parameters.
+
+:ref:`pretrained_models_definition` can be selected to create embeddings which
+are used with training input to train the classifier.
+The following :ref:`pretrained_models_definition` are available for
+classification:
+
+* Swin-v2-Base model for Sentinel-2 single image.
+  Requirements: Sentinel-2 bandset
+  (TCI RGB (B04, B03, B02), TOA bands B05, B06, B07, B08, B11, B12).
+  Normalization: TCI RGB bands divided by 255; B05, B06, B07, B08,
+  B11, B12 divided by 8160 and clipped to 0-1.
+  Framework: PyTorch.
+  Source: Sentinel2_SwinB_SI_MS,
+  pretrained by the Allen Institute for Artificial Intelligence
+  (SatlasPretrain: https://satlas-pretrain.allen.ai).
+  The model weights are released under the Open Data Commons
+  Attribution License (ODC-BY).
+  The repository code is licensed under the Apache License 2.0
+  (https://huggingface.co/allenai/satlas-pretrain).
+  This tool downloads the official SatlasPretrain weights
+  (Bastani et al., "SatlasPretrain: A Large-Scale Dataset for Remote
+  Sensing Image Understanding", ICCV 2023, arXiv:2211.15660,
+  https://doi.org/10.48550/arXiv.2211.15660).
+  All model weights remain the property of their respective authors.
+* Swin-v2-Tiny model for Sentinel-2 single image.
+  Requirements: Sentinel-2 bandset
+  (TCI RGB (B04, B03, B02), TOA bands B05, B06, B07, B08, B11, B12).
+  Normalization: TCI RGB bands divided by 255; B05, B06, B07, B08,
+  B11, B12 divided by 8160 and clipped to 0-1.
+  Framework: PyTorch.
+  Source: Sentinel2_SwinT_SI_MS,
+  pretrained by the Allen Institute for Artificial Intelligence
+  (SatlasPretrain: https://satlas-pretrain.allen.ai).
+  The model weights are released under the Open Data Commons
+  Attribution License (ODC-BY).
+  The repository code is licensed under the Apache License 2.0
+  (https://huggingface.co/allenai/satlas-pretrain).
+  This tool downloads the official SatlasPretrain weights
+  (Bastani et al., "SatlasPretrain: A Large-Scale Dataset for Remote
+  Sensing Image Understanding", ICCV 2023, arXiv:2211.15660,
+  https://doi.org/10.48550/arXiv.2211.15660).
+  All model weights remain the property of their respective authors.
+* Swin-v2-Base model for Landsat 8 or Landsat 9 single image.
+  Requirements: Landsat 8 or Landsat 9 bandset (Collection 2 Level-1
+  bands B01, B02, B03, B04, B05, B06, B07, B08, B09, B10, B11);
+  Normalization: (band - 4000)/16320 and clipped to 0-1.
+  Framework: PyTorch.
+  Source: Landsat_SwinB_SI,
+  pretrained by the Allen Institute for Artificial Intelligence
+  (SatlasPretrain: https://satlas-pretrain.allen.ai).
+  The model weights are released under the Open Data Commons
+  Attribution License (ODC-BY).
+  The repository code is licensed under the Apache License 2.0
+  (https://huggingface.co/allenai/satlas-pretrain).
+  This tool downloads the official SatlasPretrain weights
+  (Bastani et al., "SatlasPretrain: A Large-Scale Dataset for Remote
+  Sensing Image Understanding", ICCV 2023, arXiv:2211.15660,
+  https://doi.org/10.48550/arXiv.2211.15660).
+  All model weights remain the property of their respective authors.
+
+.. tip::
+    The installation of PyTorch is required to run pretrained models. Please
+    note that each model has specific characteristics and specific
+    preprocessing of input image.
 
 .. _random_forest:
 
@@ -354,6 +427,12 @@ Use the :ref:`random_forest_definition` algorithm.
       - if checked, find the best estimator iteratively with a number of steps
     * - |checkbox| :guilabel:`Calculate classification confidence raster` |optional|
       - if checked, calculate classification confidence raster
+    * - |checkbox| :guilabel:`Pretrained model` |input_list| |optional|
+      - if checked, use the selected pretrained model from the list
+    * - :guilabel:`Pretrained model information`
+      - information about the selected pretrained model, in particular about
+        the requirements (which input bands), band normalization, and model
+        source.
 
 :guilabel:`Cross validation` is a function provided by ``scikit-learn`` to
 avoid overfitting by splitting the training set into ``k`` smaller sets
@@ -375,6 +454,70 @@ which basically fits one classifier per class.
 If :guilabel:`Balanced class weight` is checked, the algorithm gives all
 classes equal weight with a balanced weight that is computed inversely
 proportional to class frequency in the training data.
+
+:ref:`pretrained_models_definition` can be selected to create embeddings which
+are used with training input to train the classifier.
+The following :ref:`pretrained_models_definition` are available for
+classification:
+
+* Swin-v2-Base model for Sentinel-2 single image.
+  Requirements: Sentinel-2 bandset
+  (TCI RGB (B04, B03, B02), TOA bands B05, B06, B07, B08, B11, B12).
+  Normalization: TCI RGB bands divided by 255; B05, B06, B07, B08,
+  B11, B12 divided by 8160 and clipped to 0-1.
+  Framework: PyTorch.
+  Source: Sentinel2_SwinB_SI_MS,
+  pretrained by the Allen Institute for Artificial Intelligence
+  (SatlasPretrain: https://satlas-pretrain.allen.ai).
+  The model weights are released under the Open Data Commons
+  Attribution License (ODC-BY).
+  The repository code is licensed under the Apache License 2.0
+  (https://huggingface.co/allenai/satlas-pretrain).
+  This tool downloads the official SatlasPretrain weights
+  (Bastani et al., "SatlasPretrain: A Large-Scale Dataset for Remote
+  Sensing Image Understanding", ICCV 2023, arXiv:2211.15660,
+  https://doi.org/10.48550/arXiv.2211.15660).
+  All model weights remain the property of their respective authors.
+* Swin-v2-Tiny model for Sentinel-2 single image.
+  Requirements: Sentinel-2 bandset
+  (TCI RGB (B04, B03, B02), TOA bands B05, B06, B07, B08, B11, B12).
+  Normalization: TCI RGB bands divided by 255; B05, B06, B07, B08,
+  B11, B12 divided by 8160 and clipped to 0-1.
+  Framework: PyTorch.
+  Source: Sentinel2_SwinT_SI_MS,
+  pretrained by the Allen Institute for Artificial Intelligence
+  (SatlasPretrain: https://satlas-pretrain.allen.ai).
+  The model weights are released under the Open Data Commons
+  Attribution License (ODC-BY).
+  The repository code is licensed under the Apache License 2.0
+  (https://huggingface.co/allenai/satlas-pretrain).
+  This tool downloads the official SatlasPretrain weights
+  (Bastani et al., "SatlasPretrain: A Large-Scale Dataset for Remote
+  Sensing Image Understanding", ICCV 2023, arXiv:2211.15660,
+  https://doi.org/10.48550/arXiv.2211.15660).
+  All model weights remain the property of their respective authors.
+* Swin-v2-Base model for Landsat 8 or Landsat 9 single image.
+  Requirements: Landsat 8 or Landsat 9 bandset (Collection 2 Level-1
+  bands B01, B02, B03, B04, B05, B06, B07, B08, B09, B10, B11);
+  Normalization: (band - 4000)/16320 and clipped to 0-1.
+  Framework: PyTorch.
+  Source: Landsat_SwinB_SI,
+  pretrained by the Allen Institute for Artificial Intelligence
+  (SatlasPretrain: https://satlas-pretrain.allen.ai).
+  The model weights are released under the Open Data Commons
+  Attribution License (ODC-BY).
+  The repository code is licensed under the Apache License 2.0
+  (https://huggingface.co/allenai/satlas-pretrain).
+  This tool downloads the official SatlasPretrain weights
+  (Bastani et al., "SatlasPretrain: A Large-Scale Dataset for Remote
+  Sensing Image Understanding", ICCV 2023, arXiv:2211.15660,
+  https://doi.org/10.48550/arXiv.2211.15660).
+  All model weights remain the property of their respective authors.
+
+.. tip::
+    The installation of PyTorch is required to run pretrained models. Please
+    note that each model has specific characteristics and specific
+    preprocessing of input image.
 
 .. _spectral_angle_mapping:
 
@@ -463,6 +606,78 @@ by changing the algorithm parameters.
 If :guilabel:`Balanced class weight` is checked, the algorithm gives all
 classes equal weight with a balanced weight that is computed inversely
 proportional to class frequency in the training data.
+
+
+.. _pretrained_models:
+
+Pretrained models
+======================
+
+.. figure:: _static/interface/pretrained_models_alg.png
+    :align: center
+    :width: 100%
+
+    :guilabel:`Pretrained models`
+
+Use of :ref:`pretrained_models_definition`.
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - Tool symbol and name
+      - Description
+    * - :guilabel:`Pretrained model` |input_list|
+      - select a pretrained model
+    * - :guilabel:`Pretrained model information`
+      - information about the selected pretrained model, in particular about
+        the requirements (which input bands), band normalization, and model
+        source.
+
+
+The following :ref:`pretrained_models_definition` are available for
+classification:
+
+* Swin-v2-Base segmentation for Sentinel-2 single image (4 bands).
+  Requirements: Sentinel-2 bandset
+  (TCI RGB (B04, B03, B02), TOA bands B08).
+  Normalization: TCI RGB bands divided by 255; B08
+  divided by 8160 and clipped to 0-1.
+  Output classes: background, water, developed, tree, shrub, grass,
+  crop, bare, snow, wetland, mangroves, moss.
+  Source: Satlas_MS_tci-b08_epoch150,
+  pretrained by DPR Team as part of the DPR Zoo Segmentation Hub
+  framework (https://github.com/DPR25/dpr-zoo-segmentation-hub)
+  based on SatlasPretrain models (https://satlas-pretrain.allen.ai).
+  The repository code is licensed under the MIT License
+  (https://huggingface.co/martinkorelic/dpr-zoo-models).
+  This tool downloads the model weights (DPR Team, 2025. Made as part
+  of Arnes Hackathon 2025).
+  All model weights remain the property of their respective authors.
+* Swin-v2-Base segmentation for Sentinel-2 single image (3 bands).
+  Requirements: Sentinel-2 bandset
+  (TCI RGB (B04, B03, B02)).
+  Normalization: TCI RGB bands divided by 255.
+  Output classes: background, water, developed, tree, shrub, grass,
+  crop, bare, snow, wetland, mangroves, moss.
+  Source: Satlas_RGB1_epoch70,
+  pretrained by DPR Team as part of the DPR Zoo Segmentation Hub
+  framework (https://github.com/DPR25/dpr-zoo-segmentation-hub)
+  based on SatlasPretrain models (https://satlas-pretrain.allen.ai).
+  The repository code is licensed under the MIT License
+  (https://huggingface.co/martinkorelic/dpr-zoo-models).
+  This tool downloads the model weights (DPR Team, 2025. Made as part
+  of Arnes Hackathon 2025).
+  All model weights remain the property of their respective authors.
+
+The first time a pretrained models is selected, the weights thereof are
+downloaded and saved in the plugin directory.
+
+.. tip::
+    The installation of PyTorch is required to run pretrained models. Please
+    note that each model has specific characteristics and specific
+    preprocessing of input image.
+
 
 .. _classification_run:
 

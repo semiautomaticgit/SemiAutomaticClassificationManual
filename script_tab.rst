@@ -1,7 +1,7 @@
 .. _script_tab:
 
 ******************************
-Script
+Script (complete interface)
 ******************************
 
 .. contents::
@@ -55,6 +55,7 @@ Script
 This tab displays the output of the :guilabel:`Script` buttons that are
 available in several tools, which ease the creation of Python scripts
 using `Remotior Sensus <https://remotior-sensus.readthedocs.io/en/latest>`_.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 It is possible to edit or copy the Python code and run it in a Python shell.
 New code is appended to the existing one, when using the :guilabel:`Script`

@@ -1,7 +1,7 @@
-.. _spectral_distance_tab:
+.. _sieve_tab:
 
 ******************************
-Spectral distance
+Sieve
 ******************************
 
 .. contents::
@@ -110,68 +110,36 @@ Spectral distance
 .. |radiobutton| image:: _static/radiobutton.png
     :width: 18pt
 
-.. |remove| image:: _static/semiautomaticclassificationplugin_remove.png
-    :width: 20pt
-
-.. |import| image:: _static/semiautomaticclassificationplugin_import.png
+.. |pointer| image:: _static/semiautomaticclassificationplugin_pointer_tool.png
     :width: 20pt
 
 .. |threshold_tool| image:: _static/semiautomaticclassificationplugin_threshold_tool.png
     :width: 20pt
 
 
-.. figure:: _static/interface/spectral_distance_tab.png
+.. figure:: _static/interface/sieve_tab.png
     :align: center
     :width: 100%
 
-    :guilabel:`Spectral distance`
+    :guilabel:`Sieve`
 
-This tab allows for calculating the spectral distance between every
-corresponding pixel of two :guilabel:`band sets`.
-The output is a raster containing the spectral distance of each pixel.
-Optionally, a threshold can be defined for creating a binary raster (0-1) of
-values below and above the threshold.
 
-This tool supports ``virtual raster output``; if the output file name ends
-with ``.vrt`` then the output is created as virtual raster composed of as many
-``.tif`` files as the number of CPU threads defined in
-:ref:`system_processing`; for large rasters this can speed up the process.
+This tab allows for the replacement of isolated pixel values with the value of
+the largest neighbour patch.
+It is useful for removing small patches from a classification.
+
+It is possible to chose ``4 pixel connection`` (in a 3x3 window, diagonal
+pixels are not considered connected) or ``8 pixel connection`` (in a 3x3
+window, diagonal pixels are considered connected).
 
 .. tip::
     Information about APIs of this tool in Remotior Sensus at this
-    `link <https://remotior-sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_spectral_distance.html>`_ .
+    `link <https://remotior-sensus.readthedocs.io/en/latest/remotior_sensus.tools.band_sieve.html>`_ .
 
-.. _spectral_distance_input:
+.. _sieve_input:
 
-Spectral distance of band sets
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. list-table::
-    :widths: auto
-    :header-rows: 1
-
-    * - Tool symbol and name
-      - Description
-    * - :guilabel:`Select first input band set` |input_number|
-      - select the first input :ref:`band_set_tab`
-    * - :guilabel:`Select second input band set` |input_number|
-      - select the second input :ref:`band_set_tab`
-    * - :guilabel:`Distance algorithm`
-
-        |radiobutton| :guilabel:`Minimum Distance`
-
-        |radiobutton| :guilabel:`Spectral Angle Mapping`
-      - select :ref:`minimum_distance_algorithm` or
-        :ref:`spectra_angle_mapping_algorithm` for spectral distance
-        calculation
-    * - |checkbox| :guilabel:`Distance threshold` |input_number|
-      - if checked, a binary raster of values below and above the threshold is
-        created
-
-.. _spectral_distance_run:
-
-Run
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Sieve
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :widths: auto
@@ -179,6 +147,18 @@ Run
 
     * - Tool symbol and name
       - Description
+    * - :guilabel:`Select input band set (of classifications)` |input_number|
+      - select the input :ref:`band_set_tab`
+    * - :guilabel:`Size threshold` |input_number|
+      - size of threshold in number of pixels
+    * - |checkbox| :guilabel:`Pixel connection` |input_list|
+      - select between 4 pixel connection or 8 pixel connection
+    * - :guilabel:`Output name`
+      - set the name prefix for output files
+    * - |checkbox| :guilabel:`Virtual output` |optional|
+      - if checked, the output is created as virtual raster composed of as
+        many ``.tif`` files as the number of CPU threads defined in
+        :ref:`system_processing`
     * - :guilabel:`Script` |script_tool|
       - add this function to the :ref:`script_tab`
     * - :guilabel:`RUN` |run|

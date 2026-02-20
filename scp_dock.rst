@@ -139,27 +139,138 @@ SCP dock
 .. |preview_redo| image:: _static/semiautomaticclassificationplugin_preview_redo.png
     :width: 20pt
 
+.. |manual_ROI| image:: _static/semiautomaticclassificationplugin_manual_ROI.png
+    :width: 20pt
 
-.. figure:: _static/interface/SCP_home.png
+.. |roi_single| image:: _static/semiautomaticclassificationplugin_roi_single.png
+    :width: 20pt
+
+.. |move_up| image:: _static/semiautomaticclassificationplugin_move_up.png
+    :width: 20pt
+
+.. |move_down| image:: _static/semiautomaticclassificationplugin_move_down.png
+    :width: 20pt
+
+.. |plus| image:: _static/semiautomaticclassificationplugin_plus.png
+    :width: 20pt
+
+.. |remove| image:: _static/semiautomaticclassificationplugin_remove.png
+    :width: 20pt
+
+.. |run| image:: _static/semiautomaticclassificationplugin_run.png
+    :width: 24pt
+
+
+.. _simplified_interface:
+
+Simplified SCP dock
+================================
+
+
+.. figure:: _static/interface/simplified_interface.png
     :align: center
 
-    :guilabel:`SCP dock`
+    :guilabel:`Simplified SCP dock`
+
+A :guilabel:`Simplified interface` is loaded after the first installation of
+the plugin.
+It is especially designed for new users in order to ease the classification
+process, from the definition of input images to executing the classification
+algorithm.
+
+.. tip::
+    The :guilabel:`Complete interface` can be loaded from the settings in the
+    :ref:`SCP_menu`, by deselecting :guilabel:`Simplified interface` and
+    restarting QGIS.
 
 
-The :guilabel:`SCP dock` allows for the the creation of ROIs
-(Regions Of Interest) and spectral signatures required for the classification
-of a :ref:`band_set_tab`.
-The :ref:`training_input`, created with :guilabel:`SCP`, stores the ROI
+.. figure:: _static/interface/scp_menu_simplified.png
+    :align: center
+
+    :guilabel:`SCP menu with activated option for the simplified interface`
+
+
+The :guilabel:`SCP` includes tools for downloading and preprocessing satellite
+images.
+The interface includes buttons for opening the following tools:
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - |download| :guilabel:`Download products`
+      - open the tab :ref:`download_tab`
+    * - |preprocessing| :guilabel:`Image conversion`
+      - open the tab :ref:`pre_processing_tab`
+
+
+.. _SCP_dock_bandset:
+
+Band set definition
+----------------------------------------
+
+Image input in :guilabel:`SCP` is named :guilabel:`band set`,
+and it is saved with the QGIS project.
+It is recommended to load single band raster in a :guilabel:`Band set`.
+
+The section :guilabel:`Band set definition` includes the following tools:
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - Tool symbol and name
+      - Description
+    * - |open_file| :guilabel:`Open file`
+      - open file explorer and add raster files (preferably single band raster)
+        to the :guilabel:`band set`
+    * - |plus| :guilabel:`Add layer`
+      - open a window to select single band rasters already loaded in QGIS and
+        add them to the :guilabel:`band set`
+    * - |move_up| :guilabel:`Move up`
+      - move highlighted bands upward
+    * - |move_down| :guilabel:`Move down`
+      - move highlighted bands downward
+    * - |reset| :guilabel:`Reset`
+      - clear all bands from :guilabel:`band set`
+    * - |remove| :guilabel:`Delete row`
+      - remove highlighted bands from the :guilabel:`band set`
+    * - |radiobutton| :guilabel:`RGB=` |input_list| |project_save|
+      - select a :ref:`color_composite_definition` that is applied to
+        the :ref:`band_set_tab` and displayed in the map; new color composites
+        can be entered typing the band numbers separated by ``-``
+        (e.g., RGB = 4-3-2); use the button |radiobutton| to show/hide
+        the :guilabel:`band set` in the map
+    * - :guilabel:`Wavelength` |input_list|
+      - rapid definition of band center wavelength for the following satellite
+        sensors such as Band order (integer values), Landsat 8 OLI, Sentinel-2
+
+
+.. tip::
+    The :guilabel:`Band set` is also called :guilabel:`active band set`.
+    The :guilabel:`Complete interface` allows for the creation of multiple
+    :guilabel:`band sets` that can be used in other tools.
+
+
+.. _SCP_dock_rois:
+
+ROI & Signature list
+----------------------------------------
+
+ROIs are polygons used for the definition of the samples of land cover
+classes that are used by the classification algorithms. The :guilabel:`SCP`
+manages the ROIs by creating a file named :ref:`training_input`.
+
+The :ref:`training_input` stores the ROI
 polygons and spectral signatures; depending on the algorithm, the training
-could be performed using ROI polygons (e.g. :ref:`random_forest_definition`)
-or spectral signatures (e.g. :ref:`spectra_angle_mapping_algorithm`).
+could be performed using ROI polygons (e.g., :ref:`random_forest_definition`)
+or spectral signatures (e.g., :ref:`spectra_angle_mapping_algorithm`).
+The :ref:`training_input` is displayed in QGIS as vector file.
 
-ROIs are polygons used for the definition of the spectral characteristics of
-land cover classes.
-Spectral signatures of classes are calculated from the ROIs or can be imported
-from other sources (see :ref:`import_signatures_tab`).
-It is worth pointing out that classification is always based on spectral
-signatures.
+.. warning::
+    In order to avoid data loss, do not edit the
+    vector :guilabel:`Training input` using the QGIS tools. Use only the tools
+    of :guilabel:`SCP` for managing the :guilabel:`Training input`.
 
 :guilabel:`SCP` allows for the creation of :guilabel:`temporary ROI polygons`
 using a region growing algorithm or drawn manually with the tools provided in
@@ -169,6 +280,125 @@ interactive process, and one can refine the geometry according to
 photointerpreation.
 Then, one can save :guilabel:`temporary ROI polygons` in the
 :ref:`training_input` which is the actual input for classifications.
+
+The :ref:`training_input` is composed of a vector part that stores the
+geometries and a spectral signature part, which are managed by :guilabel:`SCP`.
+A temporary layer is added to QGIS but the actual file is saved and modified
+during the editing in :guilabel:`SCP`.
+
+The section :guilabel:`ROI & Signature list` includes the following tools:
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - Tool symbol and name
+      - Description
+    * - |open_file| :guilabel:`Open file`
+      - open a training input file; ROIs and spectral signatures are loaded
+        in :ref:`ROI_list`; the vector part of the training input is loaded
+        in QGIS
+    * - |new_file| :guilabel:`New file`
+      - create an empty training input file (``.scpx``); the vector part of the
+        training input is loaded in QGIS; also a backup file is created (a
+        file ``.scpx.backup`` in the same directory as the file ``.scpx``) when
+        the QGIS project is saved; to use the backup file simply rename it
+        deleting the ending ``.backup`` extension and open it as training input
+    * - :guilabel:`Training input` |input_text| |project_save|
+      - it displays the path to the training input file
+    * - |reset| :guilabel:`Reset`
+      - remove the training input
+    * - |import_spectral_library| :guilabel:`Import file`
+      - open the tab :ref:`import_signatures_tab`
+    * - |export_spectral_library| :guilabel:`Export ROIs`
+      - open the tab :ref:`export_signatures_tab` and export highlighted items
+    * - |delete_signature| :guilabel:`Delete ROI`
+      - delete highlighted ROIs
+    * - |sign_plot| :guilabel:`Spectral plot`
+      - show the ROI spectral signature in the :ref:`spectral_signature_plot`;
+        spectral signature is calculated from the :ref:`band_set_tab`
+    * - |manual_ROI| :guilabel:`Spectral plot`
+      - activate the pointer to create a :guilabel:`temporary ROI` by drawing
+        a polygon in the map; left click on the map to define the ROI vertices
+        and right click to define the last vertex closing the polygon
+    * - |roi_single| :guilabel:`Pointer`
+      - activate the pointer to create a :guilabel:`temporary ROI` using the
+        region growing algorithm; left click on the map for creating the ROI
+    * - |undo_save_roi|
+      - undo of ROI creation from the :ref:`training_input`; it is possible to
+        undo a maximum of 10 actions
+    * - |redo_save_roi|
+      - redo ROI creation in the :ref:`training_input`
+    * - :guilabel:`Class` |input_number| |project_save|
+      - ROI class identifier
+    * - :guilabel:`Name` |input_text| |project_save|
+      - ROI class name
+    * - |save_roi| :guilabel:`Save`
+      - save the temporary ROI to the :ref:`training_input` using the defined
+        classes and macroclasses; ROI is displayed in the :ref:`ROI_list`
+
+
+The tree list :guilabel:`ROI & Signature list` has the following fields:
+
+* :guilabel:`Class`: Class value used for classification;
+  it can be edited with a single click
+* :guilabel:`Name`: Class Name; it can be edited with a single click
+* :guilabel:`Color`: Class color; double click to select a color for the class
+  that is used in the classification
+
+
+.. _SCP_dock_classification:
+
+Classification
+----------------------------------------
+
+In :guilabel:`SCP`, land cover classes (and ROIs) are defined with a system of
+:guilabel:`Classes`.
+Each :guilabel:`Class` is identified by a value and a :guilabel:`Name`,
+but only the :guilabel:`Class` value is used for the classification process.
+
+The classification can be performed for the entire image
+(see :ref:`classification_alg`) or for a part of it creating
+a :ref:`classification_preview`.
+
+The section :guilabel:`Classification` includes the following tools:
+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - Tool symbol and name
+      - Description
+    * - :guilabel:`Algorithm` |input_list|
+      - select a classification algorithm (additional parameters can be
+        defined in :ref:`classification_tab`)
+    * - |preview|
+      - activate the pointer for the creation of
+        a :ref:`classification_preview`; left click the map to start the
+        classification process and display the classification preview
+    * - :guilabel:`RUN` |run|
+      - select an output and run the classification
+
+This tool allows for the selection of one the following classification
+algorithms:
+
+* :ref:`maximum_likelihood`
+* :ref:`minimum_distance`
+* :ref:`multi_layer_perceptron`
+* :ref:`random_forest`
+* :ref:`spectral_angle_mapping`
+* :ref:`support_vector_machine`
+
+
+.. _complete_interface:
+
+Complete interface
+================================
+
+The :guilabel:`Complete interface` is designed for experienced users, and
+provides access to all the tools offered by the :guilabel:`SCP`.
+The :guilabel:`Complete interface` can be loaded from the settings in the
+:ref:`SCP_menu`.
 
 The :ref:`training_input` is composed of a vector part that stores the
 geometries and a spectral signature part, which are managed by :guilabel:`SCP`.
@@ -192,29 +422,25 @@ to group materials that belong to the same land cover class but have spectral
 signatures that are distant enough to be considered as different materials
 (e.g., different types of vegetation).
 
-The **classification** can be performed for the entire image
-(see :ref:`classification_alg`) or for a part of it creating
-a :ref:`classification_preview`.
+Spectral signatures of classes are calculated from the ROIs or can be imported
+from other sources (see :ref:`import_signatures_tab`).
+It is worth pointing out that classification is always based on spectral
+signatures.
 
-The :guilabel:`SCP dock` contains the following tabs:
-
-.. contents::
-    :depth: 2
-    :local:
-
-The left side of :guilabel:`SCP dock` contains buttons for accessing the main
-functions of :guilabel:`SCP`.
 
 .. _SCP_home:
  
 Home
-================================
+----------------------------------------
 
 .. figure:: _static/interface/SCP_home.png
     :align: center
 
     :guilabel:`Home`
 
+
+The left side of :guilabel:`SCP dock` contains buttons for accessing the main
+functions of :guilabel:`SCP`.
 The tab :guilabel:`Home` contains the buttons for accessing the main
 functions of :guilabel:`SCP`:
 
@@ -242,7 +468,7 @@ functions of :guilabel:`SCP`:
 .. _SCP_news:
  
 SCP news
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 This section displays news about the :guilabel:`SCP` and related services.
 News are downloaded on startup (internet connection required).
@@ -251,7 +477,7 @@ It can be enabled or disabled in the settings :ref:`settings_tab`.
 .. _training_input:
  
 Training input
-================================
+----------------------------------------
 
 .. figure:: _static/interface/roi_signature_list.png
     :align: center
@@ -274,7 +500,8 @@ coordinate reference system.
       - Description
     * - |open_file|
       - open a training input file; ROIs and spectral signatures are loaded
-        in :ref:`ROI_list`; the vector part of the training input is loaded in QGIS
+        in :ref:`ROI_list`; the vector part of the training input is loaded in
+        QGIS
     * - |new_file|
       - create an empty training input file (``.scpx``); the vector part of the
         training input is loaded in QGIS; also a backup file is created (a
@@ -298,7 +525,7 @@ ROIs and spectral signatures are displayed in the :ref:`ROI_list`.
 .. _ROI_list:
  
 ROI & Signature list
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 The tab :guilabel:`ROI & Signature list` displays the ROI polygons and
 spectral signatures contained in the training input file.
@@ -313,16 +540,17 @@ The tree list :guilabel:`ROI & Signature list` has the following fields:
   signatures; it can be edited with a single click; if the ID of a spectral
   signature is set 0, then pixels belonging to this signature are labelled as
   unclassified; every listed ROIs or signatures has a selection checkbox (only
-  the spectral signatures checked in this list are used for the classification process);
+  the spectral signatures checked in this list are used for the classification
+  process);
 * :guilabel:`C ID`: Class ID; it can be edited with a single click;
-* :guilabel:`Name`: Macroclass and Class Name; it can be edited with a single click;
+* :guilabel:`Name`: Macroclass and Class Name; it can be edited with a single
+  click;
 * :guilabel:`Type`: type of the item:
     * :guilabel:`R` = only ROI polygon;
     * :guilabel:`S` = only spectral signature;
     * :guilabel:`R&S` = both ROI and spectral signature;
 * :guilabel:`Color`: C ID color; double click to select a color for the class
-  that is used in the classification; if the ID of a spectral signature is set 0,
-  then pixels belonging to this signature are labelled as unclassified;
+  that is used in the classification;
 
 
 Changes in the :guilabel:`ROI & Signature list` are applied to the
@@ -348,9 +576,11 @@ Items in the list can be highlighted with the mouse left click.
 
 .. tip::
     ROIs and spectral signatures can be imported from other sources
-    (see :ref:`import_signatures_tab`) and exported (see :ref:`export_signatures_tab`).
+    (see :ref:`import_signatures_tab`) and exported
+    (see :ref:`export_signatures_tab`).
 
-The following tools are available.
+
+The following tools are available:
 
 
 .. list-table::
@@ -483,7 +713,7 @@ functions to manage ROIs and spectral signatures.
 .. _roi_options_tab:
 
 ROI options
-================================
+----------------------------------------
 
 .. figure:: _static/interface/roi_options.png
     :align: center
@@ -503,10 +733,9 @@ improving the creation of ROIs.
     * - |checkbox| :guilabel:`Display` |input_list| |project_save|
       - if the ROI creation pointer is active (see :ref:`working_toolbar`),
         the pixel value of selected vegetation index is  displayed on the map;
-        vegetation indices available in the combo box are:
-        * NDVI (Normalized Difference Vegetation Index); NDVI requires the near-infrared and red bands;
-        * EVI (Enhanced Vegetation Index); EVI requires the blue, near-infrared and red bands converted to reflectance; wavelengths must be defined in the :ref:`band_set_tab`;
-        * Custom; use the custom expression defined in the following line
+        vegetation indices available in the combo box are: NDVI (Normalized
+        Difference Vegetation Index); EVI (Enhanced Vegetation Index);
+        Custom (use the custom expression defined in the following line)
     * - |input_text| |project_save|
       - set a custom expression; expression is based on
         the :guilabel:`Band set` and bands such as band 1 is referred to as

@@ -1,8 +1,8 @@
 .. _cross_classification_tab:
 
-******************************
-Cross classification
-******************************
+******************************************
+Cross classification (complete interface)
+******************************************
 
 .. contents::
     :local:
@@ -125,6 +125,8 @@ Cross classification
 
 This tab allows for the calculation of a cross classification raster and
 matrix.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
+
 Classification is compared to a reference raster or reference vector (which is
 automatically converted to raster).
 This is useful for calculating the area for every combination between reference

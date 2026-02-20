@@ -1,7 +1,7 @@
 .. _settings_interface_tab:
 
 ******************************
-Interface
+Interface (complete interface)
 ******************************
 
 .. contents::
@@ -51,6 +51,7 @@ Interface
     :guilabel:`Interface`
 
 This tab includes a few advanced settings of the :guilabel:`SCP` interface.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 .. _roi_style:
 

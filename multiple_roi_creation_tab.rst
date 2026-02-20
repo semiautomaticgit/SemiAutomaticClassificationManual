@@ -1,8 +1,8 @@
 .. _multiple_rois_tab:
 
-******************************
-Multiple ROI Creation 
-******************************
+******************************************
+Multiple ROI Creation (complete interface)
+******************************************
 
 .. contents::
     :depth: 2
@@ -75,10 +75,13 @@ Multiple ROI Creation
 
 This tab allows for the automatic creation of ROIs, useful for the rapid
 classification of multi-temporal images, or for accuracy assessment.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
+
 Given a list of point coordinates and ROI options, this tool performs the
 region growing of ROIs.
 Created ROIs are automatically saved to the :ref:`training_input`.
-The :guilabel:`active band set` in :ref:`band_set_tab` is used for calculations.
+The :guilabel:`active band set` in :ref:`band_set_tab` is used for
+calculations.
 
 .. _create_random_points:
 

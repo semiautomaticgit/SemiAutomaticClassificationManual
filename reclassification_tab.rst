@@ -141,7 +141,7 @@ with ``.vrt`` then the output is created as virtual raster composed of as many
 
 .. _reclassification_input:
 
-Cross classification
+Reclassification
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::

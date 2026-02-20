@@ -1,7 +1,7 @@
 .. _pca_tab:
 
 ******************************
-PCA
+PCA (complete interface)
 ******************************
 
 .. contents::
@@ -126,6 +126,7 @@ PCA
 
 This tab allows for the PCA (:ref:`principal_component_analysis`) of bands
 loaded in the :guilabel:`Band set`.
+It is loaded only if the :guilabel:`Simplified interface` is not enabled.
 
 A report .txt is saved along with the PCA bands, containing the
 covariance matrix, correlation matrix, eigen vectors, and eigen values.

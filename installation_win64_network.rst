@@ -68,7 +68,7 @@ the QGIS installation.
 
 .. code-block:: bash
 
-    pip3 install scikit-learn scipy torch torchvision --index-url https://download.pytorch.org/whl/cpu
+    pip3 install scikit-learn scipy torch torchvision --extra-index-url https://download.pytorch.org/whl/cpu
 
 
 .. tip::

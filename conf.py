@@ -6,7 +6,7 @@ project = u'Semi-Automatic Classification Plugin'
 copyright = u'2012-2026, Luca Congedo'
 author = 'Luca Congedo'
 version = '9.0'
-release = '9.0.0.1'
+release = '9.0.4.1'
 
 extensions = ['sphinx.ext.mathjax', 'sphinx.ext.ifconfig']
 templates_path = ['_templates']

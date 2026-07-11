@@ -48,7 +48,7 @@ the QGIS installation.
 
 .. code-block:: bash
 
-    /Applications/QGIS.app/Contents/MacOS/bin/pip3 install scikit-learn scipy torch torchvision --index-url https://download.pytorch.org/whl/cpu
+    /Applications/QGIS.app/Contents/MacOS/bin/pip3 install scikit-learn scipy torch torchvision --extra-index-url https://download.pytorch.org/whl/cpu
 
 
 or in case you installed QGIS LTR:
@@ -56,7 +56,7 @@ or in case you installed QGIS LTR:
 
 .. code-block:: bash
 
-    /Applications/QGIS-LTR.app/Contents/MacOS/bin/pip3 install scikit-learn scipy torch torchvision --index-url https://download.pytorch.org/whl/cpu
+    /Applications/QGIS-LTR.app/Contents/MacOS/bin/pip3 install scikit-learn scipy torch torchvision --extra-index-url https://download.pytorch.org/whl/cpu
 
 
 .. tip::
